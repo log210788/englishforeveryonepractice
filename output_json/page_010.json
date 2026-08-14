@@ -1,0 +1,272 @@
+{
+  "page_number": 10,
+  "unit_number": null,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "13.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS BY PUTTING THE VERBS IN THE CORRECT FORM",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "He",
+          "question": "_______ (finish) work at 5pm.",
+          "options": null,
+          "correct_answer": "finishes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_eg.mp3"
+        },
+        {
+          "item_number": 0,
+          "prompt_text": "I",
+          "question": "_______ (drive) to work.",
+          "options": null,
+          "correct_answer": "drive",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "He",
+          "question": "_______ (get) up at 6:30am.",
+          "options": null,
+          "correct_answer": "gets",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "He",
+          "question": "_______ (have) breakfast at 7am.",
+          "options": null,
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "She",
+          "question": "_______ (leave) home at 8am.",
+          "options": null,
+          "correct_answer": "leaves",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "I",
+          "question": "_______ (have) lunch in the park.",
+          "options": null,
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "I",
+          "question": "_______ (work) eight hours every day.",
+          "options": null,
+          "correct_answer": "work",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "He",
+          "question": "_______ (go) to bed at 10:30pm.",
+          "options": null,
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "14.7",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO, THEN NUMBER THE PICTURES IN THE ORDER THEY ARE DESCRIBED",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "A",
+          "question": "Picture A: People eating at a restaurant.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "B",
+          "question": "Picture B: Woman playing tennis.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "C",
+          "question": "Picture C: Swimmer diving into a pool.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "D",
+          "question": "Picture D: Man reading a book on a sofa.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "E",
+          "question": "Picture E: Woman running on a treadmill.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "F",
+          "question": "Picture F: Man playing soccer.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD USING \"GO\" OR \"GOES\"",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Sal",
+          "question": "_______ sailing at the lake.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": "37.4",
+          "audio_file_path": "audio/37/37_4_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "I",
+          "question": "_______ shopping in the evening.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_track_ref": "37.4",
+          "audio_file_path": "audio/37/37_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Jan",
+          "question": "_______ skateboarding on Fridays.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": "37.4",
+          "audio_file_path": "audio/37/37_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Pete",
+          "question": "_______ sailing on the weekend.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": "37.4",
+          "audio_file_path": "audio/37/37_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Sam",
+          "question": "_______ skating every December.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": "37.4",
+          "audio_file_path": "audio/37/37_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "I",
+          "question": "_______ running on Wednesday.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_track_ref": "37.4",
+          "audio_file_path": "audio/37/37_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "They",
+          "question": "_______ fishing with their friends.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_track_ref": "37.4",
+          "audio_file_path": "audio/37/37_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Sarah",
+          "question": "_______ dancing on Saturdays.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": "37.4",
+          "audio_file_path": "audio/37/37_4_7.mp3"
+        }
+      ]
+    }
+  ]
+}

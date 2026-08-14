@@ -1,0 +1,290 @@
+{
+  "page_number": 43,
+  "unit_number": 14,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "14.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "I leave early for work ___ Mondays.",
+          "options": null,
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Pam works ___ Monday ___ Friday.",
+          "options": null,
+          "correct_answer": [
+            "from",
+            "to"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "I work at home ___ Thursdays.",
+          "options": null,
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Tom goes to the cinema ___ Fridays.",
+          "options": null,
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "I play soccer ___ the weekend.",
+          "options": null,
+          "correct_answer": "at",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "They work ___ Monday ___ Thursday.",
+          "options": null,
+          "correct_answer": [
+            "from",
+            "to"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "We go to bed at 9pm ___ Mondays.",
+          "options": null,
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "Laura goes shopping ___ Tuesdays.",
+          "options": null,
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "Peter gets up at 8am ___ Mondays.",
+          "options": null,
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "We go to the gym ___ Thursdays.",
+          "options": null,
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "Gerald reads a book ___ the weekend.",
+          "options": null,
+          "correct_answer": "at",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "Jane swims ___ Monday ___ Friday.",
+          "options": null,
+          "correct_answer": [
+            "from",
+            "to"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "prompt_text": null,
+          "question": "John takes a bath ___ Fridays.",
+          "options": null,
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "prompt_text": null,
+          "question": "Lizzy starts work at 9am ___ Fridays.",
+          "options": null,
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_3_13.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "14.4",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "every day. / has / She / breakfast",
+          "options": [
+            "every day.",
+            "has",
+            "She",
+            "breakfast"
+          ],
+          "correct_answer": "She has breakfast every day.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_4_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "goes to / Dan / three times a week. / the gym",
+          "options": [
+            "goes to",
+            "Dan",
+            "three times a week.",
+            "the gym"
+          ],
+          "correct_answer": "Dan goes to the gym three times a week.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "twice a week. / goes to / the cinema / Sam",
+          "options": [
+            "twice a week.",
+            "goes to",
+            "the cinema",
+            "Sam"
+          ],
+          "correct_answer": "Sam goes to the cinema twice a week.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "every day. / We / at 11:30pm / go to bed",
+          "options": [
+            "every day.",
+            "We",
+            "at 11:30pm",
+            "go to bed"
+          ],
+          "correct_answer": "We go to bed at 11:30pm every day.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "goes to / Joe / college / five times a week.",
+          "options": [
+            "goes to",
+            "Joe",
+            "college",
+            "five times a week."
+          ],
+          "correct_answer": "Joe goes to college five times a week.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "once a week. / washes her / Clarice / clothes",
+          "options": [
+            "once a week.",
+            "washes her",
+            "Clarice",
+            "clothes"
+          ],
+          "correct_answer": "Clarice washes her clothes once a week.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Jennifer / twice a week. / at 10am / gets up",
+          "options": [
+            "Jennifer",
+            "twice a week.",
+            "at 10am",
+            "gets up"
+          ],
+          "correct_answer": "Jennifer gets up at 10am twice a week.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "at 7pm / every day. / eat dinner / We",
+          "options": [
+            "at 7pm",
+            "every day.",
+            "eat dinner",
+            "We"
+          ],
+          "correct_answer": "We eat dinner at 7pm every day.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_4_7.mp3"
+        }
+      ]
+    }
+  ]
+}

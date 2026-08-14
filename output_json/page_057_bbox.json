@@ -1,0 +1,238 @@
+{
+  "page_number": 57,
+  "exercises": [
+    {
+      "exercise_id": "17.8",
+      "exercise_type": "true_false",
+      "instruction": "READ THE EMAIL AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Does Sam have a bath?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "No",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Does he eat breakfast at home?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "No",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 39.81,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Does he eat some fruit at work?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "Yes",
+          "input_blank_box": {
+            "top": 16.13,
+            "left": 9.75,
+            "width": 39.73,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Does he work in a bank?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "Yes",
+          "input_blank_box": {
+            "top": 59.9,
+            "left": 7.89,
+            "width": 84.23,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Does Sam's work finish at 6pm?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "Yes",
+          "input_blank_box": {
+            "top": 62.2,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Does he have lunch at 2:30pm?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "No",
+          "input_blank_box": {
+            "top": 69.43,
+            "left": 9.82,
+            "width": 37.28,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Does he watch TV in the evening?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "Yes",
+          "input_blank_box": {
+            "top": 70.3,
+            "left": 17.26,
+            "width": 12.72,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "17.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "______ you go to the movies on Saturdays?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_eg.mp3",
+          "input_blank_box": {
+            "top": 70.3,
+            "left": 30.13,
+            "width": 16.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.3,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "______ you go to a restaurant on Fridays?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_1.mp3",
+          "input_blank_box": {
+            "top": 71.17,
+            "left": 55.51,
+            "width": 35.57,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 71.17,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "______ Peter live near the museum?",
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_2.mp3",
+          "input_blank_box": {
+            "top": 73.29,
+            "left": 15.03,
+            "width": 23.21,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 73.29,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "______ Sam and Doug work with animals?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_3.mp3",
+          "input_blank_box": {
+            "top": 74.1,
+            "left": 55.51,
+            "width": 31.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 74.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "______ she get up at 7am on the weekend?",
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_4.mp3",
+          "input_blank_box": {
+            "top": 76.71,
+            "left": 9.97,
+            "width": 9.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 76.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "______ they play tennis in the evening?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_5.mp3",
+          "input_blank_box": {
+            "top": 78.27,
+            "left": 12.35,
+            "width": 35.49,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 78.27,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

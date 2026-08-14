@@ -1,0 +1,639 @@
+{
+  "page_number": 119,
+  "exercises": [
+    {
+      "exercise_id": "37.2",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT SPELLINGS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Jane goes dancing / danceing on Friday nights.",
+          "options": [
+            "dancing",
+            "danceing"
+          ],
+          "correct_answer": "dancing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Our dad goes sailing / saileing in the summer.",
+          "options": [
+            "sailing",
+            "saileing"
+          ],
+          "correct_answer": "sailing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_2.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.6,
+            "width": 37.95,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I go fisheing / fishing in the evening.",
+          "options": [
+            "fisheing",
+            "fishing"
+          ],
+          "correct_answer": "fishing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_3.mp3",
+          "input_blank_box": {
+            "top": 14.45,
+            "left": 9.15,
+            "width": 38.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Do you go running / runing in the morning?",
+          "options": [
+            "running",
+            "runing"
+          ],
+          "correct_answer": "running",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_4.mp3",
+          "input_blank_box": {
+            "top": 41.1,
+            "left": 7.89,
+            "width": 84.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "They go cycling / cycleing in the summer.",
+          "options": [
+            "cycling",
+            "cycleing"
+          ],
+          "correct_answer": "cycling",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_5.mp3",
+          "input_blank_box": {
+            "top": 43.34,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 43.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Sam goes swiming / swimming on Sundays.",
+          "options": [
+            "swiming",
+            "swimming"
+          ],
+          "correct_answer": "swimming",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_6.mp3",
+          "input_blank_box": {
+            "top": 43.34,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "I go horseback riding / horseback ridding daily.",
+          "options": [
+            "horseback riding",
+            "horseback ridding"
+          ],
+          "correct_answer": "horseback riding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_7.mp3",
+          "input_blank_box": {
+            "top": 50.5,
+            "left": 9.15,
+            "width": 37.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Claire goes shopping / shopeing in London.",
+          "options": [
+            "shopping",
+            "shopeing"
+          ],
+          "correct_answer": "shopping",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_8.mp3",
+          "input_blank_box": {
+            "top": 50.62,
+            "left": 54.99,
+            "width": 35.34,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Omar goes skateboarding / skateboardding daily.",
+          "options": [
+            "skateboarding",
+            "skateboardding"
+          ],
+          "correct_answer": "skateboarding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_9.mp3",
+          "input_blank_box": {
+            "top": 53.99,
+            "left": 9.08,
+            "width": 37.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 53.99,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Do you go dancing / danccing with her?",
+          "options": [
+            "dancing",
+            "danccing"
+          ],
+          "correct_answer": "dancing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_10.mp3",
+          "input_blank_box": {
+            "top": 52.93,
+            "left": 26.56,
+            "width": 19.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 52.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "Rachel goes hikking / hiking in Peru.",
+          "options": [
+            "hikking",
+            "hiking"
+          ],
+          "correct_answer": "hiking",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_11.mp3",
+          "input_blank_box": {
+            "top": 55.73,
+            "left": 54.69,
+            "width": 35.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 55.73,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "I go snowboarding / snowbording in the winter.",
+          "options": [
+            "snowboarding",
+            "snowbording"
+          ],
+          "correct_answer": "snowboarding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_12.mp3",
+          "input_blank_box": {
+            "top": 54.92,
+            "left": 55.65,
+            "width": 29.39,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 54.92,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "Bob and Steve go surphing / surfing in Tahiti.",
+          "options": [
+            "surphing",
+            "surfing"
+          ],
+          "correct_answer": "surfing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_13.mp3",
+          "input_blank_box": {
+            "top": 56.97,
+            "left": 26.41,
+            "width": 20.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 56.97,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE VERBS AS GERUNDS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "snowboard",
+          "correct_answer": "snowboarding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_1.mp3",
+          "input_blank_box": {
+            "top": 57.16,
+            "left": 57.14,
+            "width": 29.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 57.16,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "run",
+          "correct_answer": "running",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_2.mp3",
+          "input_blank_box": {
+            "top": 59.53,
+            "left": 58.63,
+            "width": 8.33,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 59.53,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "fish",
+          "correct_answer": "fishing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_3.mp3",
+          "input_blank_box": {
+            "top": 60.34,
+            "left": 26.41,
+            "width": 20.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 60.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "swim",
+          "correct_answer": "swimming",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_4.mp3",
+          "input_blank_box": {
+            "top": 60.52,
+            "left": 57.14,
+            "width": 29.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 60.52,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "skateboard",
+          "correct_answer": "skateboarding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_5.mp3",
+          "input_blank_box": {
+            "top": 62.2,
+            "left": 57.37,
+            "width": 29.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 62.2,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "dance",
+          "correct_answer": "dancing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_6.mp3",
+          "input_blank_box": {
+            "top": 63.76,
+            "left": 26.34,
+            "width": 20.91,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 63.76,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "surf",
+          "correct_answer": "surfing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_7.mp3",
+          "input_blank_box": {
+            "top": 67.12,
+            "left": 26.34,
+            "width": 20.91,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 67.12,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "shop",
+          "correct_answer": "shopping",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 67.31,
+            "left": 56.99,
+            "width": 29.99,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "cycle",
+          "correct_answer": "cycling",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 70.55,
+            "left": 26.34,
+            "width": 20.91,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "sail",
+          "correct_answer": "sailing",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 70.67,
+            "left": 57.14,
+            "width": 29.76,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "ride",
+          "correct_answer": "riding",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 72.35,
+            "left": 57.07,
+            "width": 29.84,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.4",
+      "exercise_type": "audio_listen",
+      "instruction": "SAY THE SENTENCES OUT LOUD USING \"GO\" OR \"GOES\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I ________ shopping in the evening.",
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_1.mp3",
+          "input_blank_box": {
+            "top": 73.91,
+            "left": 26.34,
+            "width": 20.91,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 73.91,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Jan ________ skateboarding on Fridays.",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_2.mp3",
+          "input_blank_box": {
+            "top": 75.72,
+            "left": 57.07,
+            "width": 29.99,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 75.72,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Pete ________ sailing on the weekend.",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_3.mp3",
+          "input_blank_box": {
+            "top": 77.27,
+            "left": 26.34,
+            "width": 20.91,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.27,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Sam ________ skating every December.",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_4.mp3",
+          "input_blank_box": {
+            "top": 77.4,
+            "left": 57.22,
+            "width": 29.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.4,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "I ________ running on Wednesday.",
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_5.mp3",
+          "input_blank_box": {
+            "top": 79.83,
+            "left": 58.71,
+            "width": 8.71,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 79.83,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "They ________ fishing with their friends.",
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_6.mp3",
+          "input_blank_box": {
+            "top": 80.7,
+            "left": 26.34,
+            "width": 20.91,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 80.7,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Sarah ________ dancing on Saturdays.",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_7.mp3",
+          "input_blank_box": {
+            "top": 84.06,
+            "left": 26.34,
+            "width": 20.91,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 84.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

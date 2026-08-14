@@ -1,0 +1,269 @@
+{
+  "page_number": 47,
+  "exercises": [
+    {
+      "exercise_id": "15.3",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO, THEN NUMBER THE IMAGES IN THE ORDER THEY ARE DESCRIBED",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Image A",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_3_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 12.02,
+            "left": 10.19,
+            "width": 1.86,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Image B",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_3_2.mp3",
+          "input_blank_box": {
+            "top": 10.65,
+            "left": 29.99,
+            "width": 8.33,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 12.33,
+            "left": 31.25,
+            "width": 2.01,
+            "height": 1.68
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Image C",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_3_3.mp3",
+          "input_blank_box": {
+            "top": 15.38,
+            "left": 59.23,
+            "width": 11.38,
+            "height": 3.61
+          },
+          "audio_icon_box": {
+            "top": 11.83,
+            "left": 56.55,
+            "width": 1.79,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Image D",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_3_4.mp3",
+          "input_blank_box": {
+            "top": 18.49,
+            "left": 9.23,
+            "width": 11.61,
+            "height": 3.99
+          },
+          "audio_icon_box": {
+            "top": 11.21,
+            "left": 79.02,
+            "width": 1.93,
+            "height": 1.56
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE THREE DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Fredo is not a chef.",
+          "correct_answer": "Fredo isn't a chef.",
+          "audio_file_path": "audio/15/15_4_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 25.4,
+            "left": 59.67,
+            "width": 8.41,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.45,
+            "left": 62.65,
+            "width": 4.17,
+            "height": 4.11
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Susie's not my cat.",
+          "correct_answer": "Susie isn't my cat.",
+          "audio_file_path": "audio/15/15_4_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.15,
+            "left": 29.91,
+            "width": 19.72,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.94,
+            "left": 13.99,
+            "width": 1.41,
+            "height": 1.31
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "My dad is not at work.",
+          "correct_answer": "My dad's not at work.",
+          "audio_file_path": "audio/15/15_4_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.45,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.38,
+            "left": 64.73,
+            "width": 2.98,
+            "height": 2.49
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "They are not at the theater.",
+          "correct_answer": "They aren't at the theater.",
+          "audio_file_path": "audio/15/15_4_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 32.75,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.06,
+            "left": 55.8,
+            "width": 3.5,
+            "height": 2.8
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.5",
+      "exercise_type": "true_false",
+      "instruction": "READ THE BLOG AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "She lives in California.",
+          "correct_answer": "True",
+          "audio_file_path": "audio/15/15_5_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 38.79,
+            "left": 9.3,
+            "width": 81.85,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 69.74,
+            "left": 45.16,
+            "width": 1.79,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "She's a waitress in a restaurant.",
+          "correct_answer": "False",
+          "audio_file_path": "audio/15/15_5_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 42.28,
+            "left": 9.6,
+            "width": 81.25,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 69.74,
+            "left": 53.65,
+            "width": 1.79,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "She isn't Mexican.",
+          "correct_answer": "True",
+          "audio_file_path": "audio/15/15_5_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 41.16,
+            "left": 11.24,
+            "width": 25.67,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 73.85,
+            "left": 45.16,
+            "width": 1.79,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Franco isn't an engineer.",
+          "correct_answer": "True",
+          "audio_file_path": "audio/15/15_5_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 41.16,
+            "left": 38.1,
+            "width": 25.6,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 73.85,
+            "left": 53.65,
+            "width": 1.79,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "They have a daughter in college.",
+          "correct_answer": "False",
+          "audio_file_path": "audio/15/15_5_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 41.16,
+            "left": 64.73,
+            "width": 25.6,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.83,
+            "left": 45.16,
+            "width": 1.79,
+            "height": 1.43
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "page_number": 19,
+  "unit_number": 4,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "4.2",
+      "exercise_type": "matching",
+      "instruction": "WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Cat picture",
+          "question": "Picture of a cat",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "cat",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_1.mp3",
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 46.45,
+            "left": 33.11,
+            "width": 1.86,
+            "height": 1.81
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Chicken picture",
+          "question": "Picture of a chicken",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "chicken",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_2.mp3",
+          "input_blank_box": {
+            "top": 17.43,
+            "left": 8.93,
+            "width": 16.07,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.82,
+            "left": 66.44,
+            "width": 1.12,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Rabbit picture",
+          "question": "Picture of a rabbit",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "rabbit",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_3.mp3",
+          "input_blank_box": {
+            "top": 18.31,
+            "left": 73.14,
+            "width": 18.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 55.85,
+            "left": 11.9,
+            "width": 3.79,
+            "height": 3.92
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Tortoise picture",
+          "question": "Picture of a tortoise",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "tortoise",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_4.mp3",
+          "input_blank_box": {
+            "top": 32.0,
+            "left": 9.08,
+            "width": 15.77,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Parrot picture",
+          "question": "Picture of a parrot",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "parrot",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_5.mp3",
+          "input_blank_box": {
+            "top": 32.0,
+            "left": 32.89,
+            "width": 15.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Dog picture",
+          "question": "Picture of a dog",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "dog",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_6.mp3",
+          "input_blank_box": {
+            "top": 32.0,
+            "left": 55.21,
+            "width": 15.48,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Fish tank picture",
+          "question": "Picture of fish",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "fish",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_7.mp3",
+          "input_blank_box": {
+            "top": 51.62,
+            "left": 10.49,
+            "width": 15.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "Snake picture",
+          "question": "Picture of a snake",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "snake",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_8.mp3",
+          "input_blank_box": {
+            "top": 51.62,
+            "left": 32.89,
+            "width": 15.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "Pig picture",
+          "question": "Picture of a pig",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "pig",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_9.mp3",
+          "input_blank_box": {
+            "top": 51.62,
+            "left": 55.21,
+            "width": 15.48,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": "Horse picture",
+          "question": "Picture of a horse",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "horse",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_10.mp3",
+          "input_blank_box": {
+            "top": 59.9,
+            "left": 14.29,
+            "width": 9.45,
+            "height": 5.04
+          },
+          "audio_icon_box": {
+            "top": 59.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "prompt_text": "Guinea pig picture",
+          "question": "Picture of a guinea pig",
+          "options": [
+            "guinea pig",
+            "parrot",
+            "dog",
+            "chicken",
+            "snake",
+            "hamster",
+            "cat",
+            "rabbit",
+            "fish",
+            "tortoise",
+            "pig",
+            "horse"
+          ],
+          "correct_answer": "guinea pig",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_2_11.mp3",
+          "input_blank_box": {
+            "top": 60.9,
+            "left": 30.58,
+            "width": 17.63,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 60.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

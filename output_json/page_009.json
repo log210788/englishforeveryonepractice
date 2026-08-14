@@ -1,0 +1,294 @@
+{
+  "page_number": 9,
+  "unit_number": 9,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "9.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "JOBS WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "scientist",
+          "options": null,
+          "correct_answer": "scientist",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "sales assistant",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "fire fighter",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "gardener",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "driver",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "electrician",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "artist",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "nurse",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "farmer",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "chef",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "waiter",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "businesswoman",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "police officer",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "dentist",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_13.mp3"
+        },
+        {
+          "item_number": 14,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "actor",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_14.mp3"
+        },
+        {
+          "item_number": 15,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "businessman",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_15.mp3"
+        },
+        {
+          "item_number": 16,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "vet",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_16.mp3"
+        },
+        {
+          "item_number": 17,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "mechanic",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_17.mp3"
+        },
+        {
+          "item_number": 18,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "waitress",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_18.mp3"
+        },
+        {
+          "item_number": 19,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "engineer",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_19.mp3"
+        },
+        {
+          "item_number": 20,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "pilot",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_20.mp3"
+        },
+        {
+          "item_number": 21,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "hairdresser",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_21.mp3"
+        },
+        {
+          "item_number": 22,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "judge",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_22.mp3"
+        },
+        {
+          "item_number": 23,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "cleaner",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_23.mp3"
+        },
+        {
+          "item_number": 24,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "construction worker",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_24.mp3"
+        },
+        {
+          "item_number": 25,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "doctor",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_25.mp3"
+        },
+        {
+          "item_number": 26,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "receptionist",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_26.mp3"
+        },
+        {
+          "item_number": 27,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": "teacher",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/9/9_1_27.mp3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "page_number": 106,
+  "unit_number": 33,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "33.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "CLOTHES, ACCESSORIES, AND COLORS WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "gloves",
+          "correct_answer": "gloves",
+          "audio_file_path": "audio/33/33_1_gloves.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "hat",
+          "correct_answer": "hat",
+          "audio_file_path": "audio/33/33_1_hat.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "blue",
+          "correct_answer": "blue"
+        },
+        {
+          "item_number": 4,
+          "question": "boots",
+          "correct_answer": "boots",
+          "audio_file_path": "audio/33/33_1_boots.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "red",
+          "correct_answer": "red"
+        },
+        {
+          "item_number": 8,
+          "question": "suit",
+          "correct_answer": "suit"
+        },
+        {
+          "item_number": 9,
+          "question": "dress",
+          "correct_answer": "dress",
+          "audio_file_path": "audio/33/33_1_dress.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "belt",
+          "correct_answer": "belt",
+          "audio_file_path": "audio/33/33_1_belt.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "coat",
+          "correct_answer": "coat",
+          "audio_file_path": "audio/33/33_1_coat.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "shirt",
+          "correct_answer": "shirt",
+          "audio_file_path": "audio/33/33_1_shirt.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "black",
+          "correct_answer": "black"
+        },
+        {
+          "item_number": 16,
+          "question": "scarf",
+          "correct_answer": "scarf",
+          "audio_file_path": "audio/33/33_1_scarf.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 17,
+          "question": "yellow",
+          "correct_answer": "yellow"
+        },
+        {
+          "item_number": 18,
+          "question": "sandals",
+          "correct_answer": "sandals",
+          "audio_file_path": "audio/33/33_1_sandals.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 21,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 22,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 23,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 24,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 25,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

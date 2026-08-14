@@ -1,0 +1,239 @@
+{
+  "page_number": 15,
+  "unit_number": null,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "A",
+      "exercise_type": "fill_in_blank",
+      "instruction": "Look at the flags and write the country name. Use the words in the box.",
+      "items": [
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "5.",
+          "options": null,
+          "correct_answer": "Argentina",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 0.0,
+            "width": 93.53,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "6.",
+          "options": null,
+          "correct_answer": "Russia",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 20.17,
+            "left": 7.37,
+            "width": 11.68,
+            "height": 3.42
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "7.",
+          "options": null,
+          "correct_answer": "Australia",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 24.41,
+            "left": 7.37,
+            "width": 11.68,
+            "height": 3.42
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "8.",
+          "options": null,
+          "correct_answer": "Canada",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 8.93,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "9.",
+          "options": null,
+          "correct_answer": "Philippines",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 27.08,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 15,
+          "prompt_text": null,
+          "question": "15.",
+          "options": null,
+          "correct_answer": "South Africa",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 45.24,
+            "width": 11.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 16,
+          "prompt_text": null,
+          "question": "16.",
+          "options": null,
+          "correct_answer": "Brazil",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 62.8,
+            "width": 11.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 17,
+          "prompt_text": null,
+          "question": "17.",
+          "options": null,
+          "correct_answer": "Netherlands",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 80.88,
+            "width": 11.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 18,
+          "prompt_text": null,
+          "question": "18.",
+          "options": null,
+          "correct_answer": "Spain",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 40.47,
+            "left": 9.82,
+            "width": 9.38,
+            "height": 3.49
+          }
+        },
+        {
+          "item_number": 19,
+          "prompt_text": null,
+          "question": "19.",
+          "options": null,
+          "correct_answer": "Czech Republic",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 40.04,
+            "left": 25.07,
+            "width": 11.83,
+            "height": 4.05
+          }
+        },
+        {
+          "item_number": 25,
+          "prompt_text": null,
+          "question": "25.",
+          "options": null,
+          "correct_answer": "Mexico",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 40.35,
+            "left": 43.38,
+            "width": 11.83,
+            "height": 3.49
+          }
+        },
+        {
+          "item_number": 26,
+          "prompt_text": null,
+          "question": "26.",
+          "options": null,
+          "correct_answer": "India",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 40.29,
+            "left": 61.16,
+            "width": 11.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 27,
+          "prompt_text": null,
+          "question": "27.",
+          "options": null,
+          "correct_answer": "United States of America",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 44.08,
+            "left": 25.07,
+            "width": 11.83,
+            "height": 4.05
+          }
+        },
+        {
+          "item_number": 28,
+          "prompt_text": null,
+          "question": "28.",
+          "options": null,
+          "correct_answer": "Japan",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 44.71,
+            "left": 43.3,
+            "width": 11.83,
+            "height": 3.49
+          }
+        },
+        {
+          "item_number": 29,
+          "prompt_text": null,
+          "question": "29.",
+          "options": null,
+          "correct_answer": "Indonesia",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "input_blank_box": {
+            "top": 44.83,
+            "left": 9.6,
+            "width": 9.6,
+            "height": 3.42
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "page_number": 26,
+  "unit_number": 8,
+  "unit_title": "Talking about your things",
+  "exercises": [
+    {
+      "exercise_id": "8.1",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "This / These is my phone.",
+          "options": [
+            "This",
+            "These"
+          ],
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "This / These are my mom's glasses.",
+          "options": [
+            "This",
+            "These"
+          ],
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "That / Those are Samantha's keys.",
+          "options": [
+            "That",
+            "Those"
+          ],
+          "correct_answer": "Those",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "This / These is Tom's umbrella.",
+          "options": [
+            "This",
+            "These"
+          ],
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "This / These is my dog.",
+          "options": [
+            "This",
+            "These"
+          ],
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "That / Those are Pete's books.",
+          "options": [
+            "That",
+            "Those"
+          ],
+          "correct_answer": "Those",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "That / Those is your newspaper.",
+          "options": [
+            "That",
+            "Those"
+          ],
+          "correct_answer": "That",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "This / These are my tickets.",
+          "options": [
+            "This",
+            "These"
+          ],
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "This / These are Marge's earrings.",
+          "options": [
+            "This",
+            "These"
+          ],
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "This / These are his daughters.",
+          "options": [
+            "This",
+            "These"
+          ],
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "That / Those is my teacher.",
+          "options": [
+            "That",
+            "Those"
+          ],
+          "correct_answer": "That",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "That / Those is your watch.",
+          "options": [
+            "That",
+            "Those"
+          ],
+          "correct_answer": "That",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_1_11.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE EACH SENTENCE IN ITS OTHER FORM",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "This is my sister.",
+          "question": "This is my sister. -> _____________",
+          "options": null,
+          "correct_answer": "These are my sisters.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "These are my letters.",
+          "question": "_____________ <- These are my letters.",
+          "options": null,
+          "correct_answer": "This is my letter.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "This is my purse.",
+          "question": "This is my purse. -> _____________",
+          "options": null,
+          "correct_answer": "These are my purses.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Those are Greg's keys.",
+          "question": "_____________ <- Those are Greg's keys.",
+          "options": null,
+          "correct_answer": "That is Greg's key.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "That is my cat.",
+          "question": "That is my cat. -> _____________",
+          "options": null,
+          "correct_answer": "Those are my cats.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "These are my sister's pencils.",
+          "question": "_____________ <- These are my sister's pencils.",
+          "options": null,
+          "correct_answer": "This is my sister's pencil.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "That is your dictionary.",
+          "question": "That is your dictionary. -> _____________",
+          "options": null,
+          "correct_answer": "Those are your dictionaries.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "This is Dan's house.",
+          "question": "This is Dan's house. -> _____________",
+          "options": null,
+          "correct_answer": "These are Dan's houses.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "Those are Stan's books.",
+          "question": "_____________ <- Those are Stan's books.",
+          "options": null,
+          "correct_answer": "That is Stan's book.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "Those are my brothers.",
+          "question": "_____________ <- Those are my brothers.",
+          "options": null,
+          "correct_answer": "That is my brother.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "page_number": 80,
+  "exercises": [
+    {
+      "exercise_id": "24.5",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There's a library, a store, and / but a café.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There's a castle and a church and / but there isn't a museum.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_2.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.34,
+            "width": 79.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Pete eats apples and / but doesn't eat bananas.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_3.mp3",
+          "input_blank_box": {
+            "top": 16.81,
+            "left": 10.34,
+            "width": 79.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.81,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Greg reads magazines and / but a newspaper.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_4.mp3",
+          "input_blank_box": {
+            "top": 51.68,
+            "left": 7.81,
+            "width": 84.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "I have a calendar and / but a notebook.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_5.mp3",
+          "input_blank_box": {
+            "top": 53.92,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 53.92,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "He goes swimming and / but he doesn't play soccer.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_6.mp3",
+          "input_blank_box": {
+            "top": 61.27,
+            "left": 10.42,
+            "width": 79.24,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.27,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "24.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Meg likes this restaurant ____________________ she doesn't like that café.",
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_1.mp3",
+          "input_blank_box": {
+            "top": 64.26,
+            "left": 24.55,
+            "width": 31.92,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 64.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There are two schools ____________________ there isn't a library in my town.",
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_2.mp3",
+          "input_blank_box": {
+            "top": 68.37,
+            "left": 12.5,
+            "width": 74.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 68.37,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I have a pen, a notebook, ____________________ a calendar in my bag.",
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_3.mp3",
+          "input_blank_box": {
+            "top": 70.3,
+            "left": 35.04,
+            "width": 31.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.3,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "My sister goes to the gym on Mondays ____________________ Thursdays.",
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_4.mp3",
+          "input_blank_box": {
+            "top": 73.16,
+            "left": 12.35,
+            "width": 74.48,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 73.16,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Pedro works in a school ____________________ he isn't a teacher.",
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_5.mp3",
+          "input_blank_box": {
+            "top": 76.53,
+            "left": 12.35,
+            "width": 74.55,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 76.53,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

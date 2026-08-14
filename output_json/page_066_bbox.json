@@ -1,0 +1,390 @@
+{
+  "page_number": 66,
+  "unit_number": 21,
+  "unit_title": "Talking about your town",
+  "exercises": [
+    {
+      "exercise_id": "21.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO COMPLETE THE SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "a station.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_1_1.mp3",
+          "input_blank_box": {
+            "top": 19.49,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "a swimming pool.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_1_2.mp3",
+          "input_blank_box": {
+            "top": 19.49,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "two theaters.",
+          "correct_answer": "There are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_1_3.mp3",
+          "input_blank_box": {
+            "top": 30.32,
+            "left": 17.41,
+            "width": 21.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "a factory.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_1_4.mp3",
+          "input_blank_box": {
+            "top": 30.2,
+            "left": 53.72,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.2,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "two parks.",
+          "correct_answer": "There are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_1_5.mp3",
+          "input_blank_box": {
+            "top": 32.57,
+            "left": 9.82,
+            "width": 35.57,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.57,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "three cafés.",
+          "correct_answer": "There are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_1_6.mp3",
+          "input_blank_box": {
+            "top": 36.55,
+            "left": 18.9,
+            "width": 20.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 36.55,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "21.2",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORDS IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There isn't / aren't a restaurant.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_1.mp3",
+          "input_blank_box": {
+            "top": 42.09,
+            "left": 16.89,
+            "width": 16.07,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.09,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There isn't / aren't any schools.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "aren't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_2.mp3",
+          "input_blank_box": {
+            "top": 47.63,
+            "left": 20.39,
+            "width": 16.29,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 47.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "There isn't / aren't a post office.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_3.mp3",
+          "input_blank_box": {
+            "top": 53.18,
+            "left": 16.0,
+            "width": 23.51,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 53.18,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "There isn't / aren't any cafés.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "aren't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_4.mp3",
+          "input_blank_box": {
+            "top": 58.66,
+            "left": 25.15,
+            "width": 13.54,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 58.66,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "There isn't / aren't any bars.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "aren't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_5.mp3",
+          "input_blank_box": {
+            "top": 64.2,
+            "left": 25.3,
+            "width": 12.65,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 64.2,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "There isn't / aren't a train station.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_6.mp3",
+          "input_blank_box": {
+            "top": 68.06,
+            "left": 7.81,
+            "width": 39.58,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 68.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "There isn't / aren't a library.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_7.mp3",
+          "input_blank_box": {
+            "top": 68.06,
+            "left": 52.46,
+            "width": 39.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 68.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "There isn't / aren't any supermarkets.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "aren't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_8.mp3",
+          "input_blank_box": {
+            "top": 70.36,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.36,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "There isn't / aren't any parks.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "aren't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_9.mp3",
+          "input_blank_box": {
+            "top": 77.65,
+            "left": 9.82,
+            "width": 14.96,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.65,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "There isn't / aren't a town hall.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_2_10.mp3",
+          "input_blank_box": {
+            "top": 77.58,
+            "left": 46.13,
+            "width": 11.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "21.3",
+      "exercise_type": "sentence_ordering",
+      "instruction": "SAY EIGHT CORRECT SENTENCES USING THE WORDS IN THE CHART",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Construct sentences using: There + [is/are/aren't] + [a/three/any/no] + [hotel/parks/books].",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_3_1.mp3",
+          "input_blank_box": {
+            "top": 77.58,
+            "left": 62.95,
+            "width": 11.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

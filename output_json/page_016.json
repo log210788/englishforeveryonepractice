@@ -1,0 +1,219 @@
+{
+  "page_number": 16,
+  "unit_number": 3,
+  "unit_title": "Talking about yourself",
+  "exercises": [
+    {
+      "exercise_id": "3.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE EACH NUMBER AS A FIGURE",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Three",
+          "question": "Three =",
+          "correct_answer": "3",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "Eighty-five",
+          "question": "Eighty-five =",
+          "correct_answer": "85",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Twenty-one",
+          "question": "Twenty-one =",
+          "correct_answer": "21",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Ninety",
+          "question": "Ninety =",
+          "correct_answer": "90",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Seventeen",
+          "question": "Seventeen =",
+          "correct_answer": "17",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Eighty-four",
+          "question": "Eighty-four =",
+          "correct_answer": "84",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Sixty-two",
+          "question": "Sixty-two =",
+          "correct_answer": "62",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Forty-seven",
+          "question": "Forty-seven =",
+          "correct_answer": "47",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "Fifty",
+          "question": "Fifty =",
+          "correct_answer": "50",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "Seventy-one",
+          "question": "Seventy-one =",
+          "correct_answer": "71",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "prompt_text": "Twelve",
+          "question": "Twelve =",
+          "correct_answer": "12",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "prompt_text": "Thirty-three",
+          "question": "Thirty-three =",
+          "correct_answer": "33",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_1_11.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "3.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CHANGING THE FIGURES TO WORDS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Pamela is 42 years old.",
+          "question": "Pamela is forty-two years old.",
+          "correct_answer": "Pamela is forty-two years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "Chloe is 31 years old.",
+          "question": "Chloe is 31 years old.",
+          "correct_answer": "Chloe is thirty-one years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Heidi is 52 years old.",
+          "question": "Heidi is 52 years old.",
+          "correct_answer": "Heidi is fifty-two years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Zach is 16 years old.",
+          "question": "Zach is 16 years old.",
+          "correct_answer": "Zach is sixteen years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Charlie is 10 years old.",
+          "question": "Charlie is 10 years old.",
+          "correct_answer": "Charlie is ten years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Marcel is 80 years old.",
+          "question": "Marcel is 80 years old.",
+          "correct_answer": "Marcel is eighty years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Claire is 21 years old.",
+          "question": "Claire is 21 years old.",
+          "correct_answer": "Claire is twenty-one years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Dan is 36 years old.",
+          "question": "Dan is 36 years old.",
+          "correct_answer": "Dan is thirty-six years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "Eleanor is 28 years old.",
+          "question": "Eleanor is 28 years old.",
+          "correct_answer": "Eleanor is twenty-eight years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "Rebecca is 43 years old.",
+          "question": "Rebecca is 43 years old.",
+          "correct_answer": "Rebecca is forty-three years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_2_9.mp3"
+        }
+      ]
+    }
+  ]
+}

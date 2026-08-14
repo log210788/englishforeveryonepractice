@@ -1,0 +1,183 @@
+{
+  "page_number": 117,
+  "unit_number": 36,
+  "unit_title": "EQUIPMENT AND VENUES",
+  "exercises": [
+    {
+      "exercise_id": "36.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "baseball bat",
+          "correct_answer": "baseball bat",
+          "audio_file_path": "audio/36/36_2_baseballbat.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 19.24,
+            "left": 72.32,
+            "width": 1.26,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "golf course",
+          "correct_answer": "golf course",
+          "input_blank_box": {
+            "top": 17.62,
+            "left": 10.71,
+            "width": 20.83,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "snowboard",
+          "correct_answer": "snowboard",
+          "audio_file_path": "audio/36/36_2_snowboard.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 11.16,
+            "width": 19.87,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.56,
+            "left": 15.03,
+            "width": 2.08,
+            "height": 1.37
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "swimming pool",
+          "correct_answer": "swimming pool",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 40.92,
+            "width": 20.54,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "golf club",
+          "correct_answer": "golf club",
+          "audio_file_path": "audio/36/36_2_golfclub.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 69.94,
+            "width": 20.46,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.31,
+            "left": 25.45,
+            "width": 1.56,
+            "height": 1.18
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "running track",
+          "correct_answer": "running track",
+          "input_blank_box": {
+            "top": 45.21,
+            "left": 11.98,
+            "width": 20.54,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "skateboard",
+          "correct_answer": "skateboard",
+          "audio_file_path": "audio/36/36_2_skateboard.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 45.21,
+            "left": 40.92,
+            "width": 20.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.5,
+            "left": 25.82,
+            "width": 2.16,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "stadium",
+          "correct_answer": "stadium",
+          "input_blank_box": {
+            "top": 45.21,
+            "left": 69.87,
+            "width": 20.54,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "surfboard",
+          "correct_answer": "surfboard",
+          "audio_file_path": "audio/36/36_2_surfboard.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 49.63,
+            "left": 16.82,
+            "width": 9.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 49.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "tennis court",
+          "correct_answer": "tennis court",
+          "input_blank_box": {
+            "top": 50.12,
+            "left": 16.96,
+            "width": 9.15,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "skis",
+          "correct_answer": "skis",
+          "audio_file_path": "audio/36/36_2_skis.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 52.05,
+            "left": 16.82,
+            "width": 9.45,
+            "height": 4.48
+          },
+          "audio_icon_box": {
+            "top": 52.05,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "page_number": 85,
+  "unit_number": 26,
+  "exercises": [
+    {
+      "exercise_id": "26.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE PHRASES IN THE PANEL",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Aziz lives in the countryside because",
+          "options": [
+            "he thinks it's beautiful",
+            "it has delicious food",
+            "we're very busy",
+            "I'm a doctor",
+            "he takes his dog for a walk",
+            "he works in a bank",
+            "she is a gardener"
+          ],
+          "correct_answer": "he thinks it's beautiful",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "We don't have breakfast because",
+          "options": [
+            "he thinks it's beautiful",
+            "it has delicious food",
+            "we're very busy",
+            "I'm a doctor",
+            "he takes his dog for a walk",
+            "he works in a bank",
+            "she is a gardener"
+          ],
+          "correct_answer": "we're very busy",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Mr. Aspinall gets up early because",
+          "options": [
+            "he thinks it's beautiful",
+            "it has delicious food",
+            "we're very busy",
+            "I'm a doctor",
+            "he takes his dog for a walk",
+            "he works in a bank",
+            "she is a gardener"
+          ],
+          "correct_answer": "he takes his dog for a walk",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Arnold wears a suit because",
+          "options": [
+            "he thinks it's beautiful",
+            "it has delicious food",
+            "we're very busy",
+            "I'm a doctor",
+            "he takes his dog for a walk",
+            "he works in a bank",
+            "she is a gardener"
+          ],
+          "correct_answer": "he works in a bank",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Vicky works outside because",
+          "options": [
+            "he thinks it's beautiful",
+            "it has delicious food",
+            "we're very busy",
+            "I'm a doctor",
+            "he takes his dog for a walk",
+            "he works in a bank",
+            "she is a gardener"
+          ],
+          "correct_answer": "she is a gardener",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_3_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "I work in a hospital because",
+          "options": [
+            "he thinks it's beautiful",
+            "it has delicious food",
+            "we're very busy",
+            "I'm a doctor",
+            "he takes his dog for a walk",
+            "he works in a bank",
+            "she is a gardener"
+          ],
+          "correct_answer": "I'm a doctor",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_3_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "26.4",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE SIX CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create six sentences using the chart provided.",
+          "correct_answer": "Clara works in a theater because she is an actor. Clara lives on a farm because she is a farmer. Clara works in a hotel because she is a receptionist. Mike works in a theater because he is an actor. Mike lives on a farm because he is a farmer. Mike works in a hotel because he is a receptionist.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_4_1.mp3"
+        }
+      ]
+    }
+  ]
+}

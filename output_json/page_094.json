@@ -1,0 +1,125 @@
+{
+  "page_number": 94,
+  "exercises": [
+    {
+      "exercise_id": "29.6",
+      "exercise_type": "audio_listen",
+      "instruction": "RESPOND OUT LOUD TO THE AUDIO, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Does Paula have a sofa?",
+          "question": "Yes, ________.",
+          "correct_answer": "she does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_6_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Does James have a snake?",
+          "question": "Yes, ________.",
+          "correct_answer": "he does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_6_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Does Keith have an umbrella?",
+          "question": "No, ________.",
+          "correct_answer": "he doesn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_6_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Does your town have a library?",
+          "question": "Yes, ________.",
+          "correct_answer": "it does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_6_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Do your parents have a car?",
+          "question": "No, ________.",
+          "correct_answer": "they don't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_6_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Does your mom have a microwave?",
+          "question": "No, ________.",
+          "correct_answer": "she doesn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_6_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Does Gerald have a bottle?",
+          "question": "Yes, ________.",
+          "correct_answer": "he does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_6_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE A QUESTION TO MATCH EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "They have got a microwave.",
+          "question": "____________________________________",
+          "correct_answer": "Have they got a microwave?",
+          "audio_file_path": "audio/29/29_7_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Shaun and Shania have got a pet snake.",
+          "question": "____________________________________",
+          "correct_answer": "Have Shaun and Shania got a pet snake?",
+          "audio_file_path": "audio/29/29_7_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Charles has got a camera.",
+          "question": "____________________________________",
+          "correct_answer": "Has Charles got a camera?",
+          "audio_file_path": "audio/29/29_7_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Clarissa has got a new laptop.",
+          "question": "____________________________________",
+          "correct_answer": "Has Clarissa got a new laptop?",
+          "audio_file_path": "audio/29/29_7_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Carol's house has got a big yard.",
+          "question": "____________________________________",
+          "correct_answer": "Has Carol's house got a big yard?"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Your friends have got my book.",
+          "question": "____________________________________",
+          "correct_answer": "Have your friends got my book?"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Brian has got a new TV.",
+          "question": "____________________________________",
+          "correct_answer": "Has Brian got a new TV?"
+        }
+      ]
+    }
+  ]
+}

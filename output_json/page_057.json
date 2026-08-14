@@ -1,0 +1,124 @@
+{
+  "page_number": 57,
+  "exercises": [
+    {
+      "exercise_id": "17.8",
+      "exercise_type": "true_false",
+      "instruction": "READ THE EMAIL AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Does Sam have a bath?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "No"
+        },
+        {
+          "item_number": 2,
+          "question": "Does he eat breakfast at home?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "No"
+        },
+        {
+          "item_number": 3,
+          "question": "Does he eat some fruit at work?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "Yes"
+        },
+        {
+          "item_number": 4,
+          "question": "Does he work in a bank?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "Yes"
+        },
+        {
+          "item_number": 5,
+          "question": "Does Sam's work finish at 6pm?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "Yes"
+        },
+        {
+          "item_number": 6,
+          "question": "Does he have lunch at 2:30pm?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "No"
+        },
+        {
+          "item_number": 7,
+          "question": "Does he watch TV in the evening?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct_answer": "Yes"
+        }
+      ]
+    },
+    {
+      "exercise_id": "17.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "______ you go to the movies on Saturdays?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "______ you go to a restaurant on Fridays?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "______ Peter live near the museum?",
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "______ Sam and Doug work with animals?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "______ she get up at 7am on the weekend?",
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "______ they play tennis in the evening?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_9_5.mp3"
+        }
+      ]
+    }
+  ]
+}

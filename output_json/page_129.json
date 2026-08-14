@@ -1,0 +1,102 @@
+{
+  "page_number": 129,
+  "exercises": [
+    {
+      "exercise_id": "40.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE THE OPPOSITE OF EACH STATEMENT",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Chris likes spiders.",
+          "correct_answer": "Chris doesn't like spiders.",
+          "audio_file_path": "audio/40/40_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "They love Paris.",
+          "correct_answer": "They don't love Paris.",
+          "audio_file_path": "audio/40/40_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Mrs. McGregor likes cats.",
+          "correct_answer": "Mrs. McGregor doesn't like cats.",
+          "audio_file_path": "audio/40/40_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "We love soccer.",
+          "correct_answer": "We don't love soccer.",
+          "audio_file_path": "audio/40/40_3_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "We like wine.",
+          "correct_answer": "We don't like wine."
+        },
+        {
+          "item_number": 6,
+          "question": "Simone loves her horse.",
+          "correct_answer": "Simone doesn't love her horse."
+        },
+        {
+          "item_number": 7,
+          "question": "He likes your necklace.",
+          "correct_answer": "He doesn't like your necklace."
+        },
+        {
+          "item_number": 8,
+          "question": "Jean-Marie loves sports.",
+          "correct_answer": "Jean-Marie doesn't love sports."
+        },
+        {
+          "item_number": 9,
+          "question": "Colin likes pizza.",
+          "correct_answer": "Colin doesn't like pizza."
+        },
+        {
+          "item_number": 10,
+          "question": "Douglas likes Anne.",
+          "correct_answer": "Douglas doesn't like Anne."
+        },
+        {
+          "item_number": 11,
+          "question": "Cynthia hates dogs.",
+          "correct_answer": "Cynthia doesn't hate dogs."
+        },
+        {
+          "item_number": 12,
+          "question": "We love chocolate.",
+          "correct_answer": "We don't love chocolate."
+        },
+        {
+          "item_number": 13,
+          "question": "You like cheese.",
+          "correct_answer": "You don't like cheese."
+        },
+        {
+          "item_number": 14,
+          "question": "Susan likes pizza.",
+          "correct_answer": "Susan doesn't like pizza."
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.4",
+      "exercise_type": "audio_listen",
+      "instruction": "USE THE CHART TO CREATE 12 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create 12 correct sentences using the chart.",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

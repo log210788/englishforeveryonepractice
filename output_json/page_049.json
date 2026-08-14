@@ -1,0 +1,143 @@
+{
+  "page_number": 49,
+  "exercises": [
+    {
+      "exercise_id": "15.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "TURN THE \"YOU\" STATEMENTS INTO \"I\" STATEMENTS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "You're a student. You're not a teacher.",
+          "correct_answer": "I'm a student. I'm not a teacher.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_8_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "You're 30 years old. You're not 40.",
+          "correct_answer": "I'm 30 years old. I'm not 40.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_8_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "You're a farmer. You're not a police officer.",
+          "correct_answer": "I'm a farmer. I'm not a police officer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_8_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "You're French. You're not English.",
+          "correct_answer": "I'm French. I'm not English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_8_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "You're an uncle. You're not a father.",
+          "correct_answer": "I'm an uncle. I'm not a father.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_8_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "You're 18. You're not 21.",
+          "correct_answer": "I'm 18. I'm not 21.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_8_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "You're a waitress. You're not a chef.",
+          "correct_answer": "I'm a waitress. I'm not a chef.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_8_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "You're Spanish. You're not Italian.",
+          "correct_answer": "I'm Spanish. I'm not Italian.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_8_8.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "TURN THE \"I\" STATEMENTS INTO \"YOU\" STATEMENTS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I'm 28. I'm not 29.",
+          "correct_answer": "You're 28. You're not 29.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "I'm a scientist. I'm not a gardener.",
+          "correct_answer": "You're a scientist. You're not a gardener.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I'm Austrian. I'm not English.",
+          "correct_answer": "You're Austrian. You're not English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "I'm a contractor. I'm not an actor.",
+          "correct_answer": "You're a contractor. You're not an actor.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "I'm 16. I'm not 18.",
+          "correct_answer": "You're 16. You're not 18.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "I'm an uncle. I'm not a grandfather.",
+          "correct_answer": "You're an uncle. You're not a grandfather.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "I'm a mechanic. I'm not an engineer.",
+          "correct_answer": "You're a mechanic. You're not an engineer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "I'm a police officer. I'm not a firefighter.",
+          "correct_answer": "You're a police officer. You're not a firefighter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_8.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.10",
+      "exercise_type": "fill_in_blank",
+      "instruction": "USE THE CHART TO CREATE 12 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create sentences using the chart provided.",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

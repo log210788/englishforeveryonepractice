@@ -1,0 +1,164 @@
+{
+  "page_number": 110,
+  "exercises": [
+    {
+      "exercise_id": "34.5",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Jane and Ruth are describing the clothes they want to buy.",
+          "question": "What does Jane want to buy?",
+          "options": [
+            "a red shirt",
+            "a red skirt",
+            "a blue skirt"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_5_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "What does Ruth want to buy for her mother?",
+          "options": [
+            "a red scarf",
+            "yellow gloves",
+            "a red hat"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_5_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "What does Ruth want to buy?",
+          "options": [
+            "brown shoes",
+            "black shoes",
+            "brown boots"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_5_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "What does Jane want next?",
+          "options": [
+            "blue jeans",
+            "black jeans",
+            "purple jeans"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_5_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Jane then tries on the...",
+          "options": [
+            "black coat.",
+            "red coat.",
+            "green coat."
+          ],
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "34.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FIND FIVE ADJECTIVES IN THE GRID",
+      "items": []
+    },
+    {
+      "exercise_id": "34.7",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PHRASES THAT MEAN THE SAME",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "not soft enough",
+          "options": [
+            "too expensive",
+            "too short",
+            "too small",
+            "too soft",
+            "too hard",
+            "too long",
+            "too old"
+          ],
+          "correct_answer": "too hard"
+        },
+        {
+          "item_number": 2,
+          "question": "not new enough",
+          "options": [
+            "too expensive",
+            "too short",
+            "too small",
+            "too soft",
+            "too hard",
+            "too long",
+            "too old"
+          ],
+          "correct_answer": "too old"
+        },
+        {
+          "item_number": 3,
+          "question": "not cheap enough",
+          "options": [
+            "too expensive",
+            "too short",
+            "too small",
+            "too soft",
+            "too hard",
+            "too long",
+            "too old"
+          ],
+          "correct_answer": "too expensive"
+        },
+        {
+          "item_number": 4,
+          "question": "not short enough",
+          "options": [
+            "too expensive",
+            "too short",
+            "too small",
+            "too soft",
+            "too hard",
+            "too long",
+            "too old"
+          ],
+          "correct_answer": "too long"
+        },
+        {
+          "item_number": 5,
+          "question": "not hard enough",
+          "options": [
+            "too expensive",
+            "too short",
+            "too small",
+            "too soft",
+            "too hard",
+            "too long",
+            "too old"
+          ],
+          "correct_answer": "too soft"
+        },
+        {
+          "item_number": 6,
+          "question": "not long enough",
+          "options": [
+            "too expensive",
+            "too short",
+            "too small",
+            "too soft",
+            "too hard",
+            "too long",
+            "too old"
+          ],
+          "correct_answer": "too short"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "page_number": 152,
+  "unit_number": 48,
+  "unit_title": "Studying",
+  "exercises": [
+    {
+      "exercise_id": "48.1",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "to travel, mother, like, to Spain., really, My, would",
+          "correct_answer": "My mother would really like to travel to Spain."
+        },
+        {
+          "item_number": 2,
+          "question": "like, French., would, to learn, Doug, quite",
+          "correct_answer": "Doug would quite like to learn French."
+        },
+        {
+          "item_number": 3,
+          "question": "an, would, art degree., quite, Sally, like, to do",
+          "correct_answer": "Sally would quite like to do an art degree."
+        },
+        {
+          "item_number": 4,
+          "question": "would, the piano., Don's brother, to practice, like",
+          "correct_answer": "Don's brother would like to practice the piano."
+        },
+        {
+          "item_number": 5,
+          "question": "tonight., really, to a, I'd, rock concert, to go, like",
+          "correct_answer": "I'd really like to go to a rock concert tonight."
+        },
+        {
+          "item_number": 6,
+          "question": "would, in college., like, chemistry, to study, Martha",
+          "correct_answer": "Martha would like to study chemistry in college."
+        },
+        {
+          "item_number": 7,
+          "question": "quite, German, would, to study, at school., My kids, like",
+          "correct_answer": "My kids would quite like to study German at school."
+        }
+      ]
+    }
+  ]
+}

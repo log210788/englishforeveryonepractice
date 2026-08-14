@@ -1,0 +1,703 @@
+{
+  "page_number": 167,
+  "unit_number": 29,
+  "unit_title": "Have got and have",
+  "exercises": [
+    {
+      "exercise_id": "28.6",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "You have got a beautiful necklace.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_6_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "She has not got any sisters.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_6_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "We have not got a microwave.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_6_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Greg has not got a bike.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_6_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "My town has got two theaters.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_6_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Chloe has not got a cat.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_6_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "They have got a new house.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_6_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "Write questions using \"have you got\" or \"has he/she/it got\".",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Our town",
+          "audio_file_path": "audio/28/28_7_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Adam and I",
+          "audio_file_path": "audio/28/28_7_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Sally and Jonathan",
+          "audio_file_path": "audio/28/28_7_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "My friend Sam",
+          "audio_file_path": "audio/28/28_7_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Our house",
+          "audio_file_path": "audio/28/28_7_5.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "Rewrite the sentences using \"have got\" or \"has got\".",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I have a computer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "I have a sofa.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I have some tables.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "We have a computer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "We have a sofa.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "We have some tables.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "He has a sofa.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "He has a computer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "He has some tables.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "He doesn't have a computer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "He doesn't have a sofa.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "Rewrite the sentences using \"have got\" or \"has got\".",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "She has two bedrooms."
+        },
+        {
+          "item_number": 2,
+          "question": "They have not got a dog."
+        },
+        {
+          "item_number": 3,
+          "question": "We have some chairs."
+        },
+        {
+          "item_number": 4,
+          "question": "He has a brother."
+        },
+        {
+          "item_number": 5,
+          "question": "Carla has not got a sister."
+        },
+        {
+          "item_number": 6,
+          "question": "You have a car."
+        },
+        {
+          "item_number": 7,
+          "question": "Phil has a dog."
+        },
+        {
+          "item_number": 8,
+          "question": "You have got a yard."
+        },
+        {
+          "item_number": 9,
+          "question": "Jamal doesn't have a sofa."
+        },
+        {
+          "item_number": 10,
+          "question": "They have a shower."
+        },
+        {
+          "item_number": 11,
+          "question": "May has a couch."
+        },
+        {
+          "item_number": 12,
+          "question": "He has not got a cat."
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the words.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "fork",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "washing machine",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "kettle",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "toaster",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "refrigerator",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "sink",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "plate",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_1_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.2",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the questions.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Does the house have a yard?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Does their kitchen have a refrigerator?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Does Bill's house have a big garage?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Do you have a sofa?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Does Barry have a kettle?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Does she have a barbecue at her house?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Does Marge have a new washing machine?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Do Jack and Marienne have a TV?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Does Leela's brother have a knife and fork?",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "Write the names.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Claudia",
+          "audio_file_path": "audio/29/29_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Paul",
+          "audio_file_path": "audio/29/29_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Jenny",
+          "audio_file_path": "audio/29/29_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Colin",
+          "audio_file_path": "audio/29/29_3_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Roberto",
+          "audio_file_path": "audio/29/29_3_5.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.4",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the answers.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Yes, I do.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "No, I don't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Yes, I do.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Yes, I do.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "No, I don't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_4_5.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.5",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the questions.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Do you have any chairs?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_5.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Do you have any knives?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_5.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Do you have a refrigerator?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_5.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Does he have any chairs?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_5.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Does he have any knives?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Does he have a refrigerator?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_5.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Do they have any chairs?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_5.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Do they have any knives?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_5.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Do they have a refrigerator?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_5.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.6",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the answers.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Yes, she does.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_6_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Yes, he does.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_6_2.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.7",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the questions.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Have they got a microwave?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Have Shaun and Shania got a pet snake?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Has Charles got a camera?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Has Clarissa got a new laptop?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Has Carol's house got a big yard?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Have your friends got my book?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Has Brian got a new TV?",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.8",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the questions.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Has the kitchen got a microwave?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_8_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Has your house got a yard?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_8_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Have the Hendersons got a car?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_8_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Has Claire got my glasses?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Have your parents got a computer?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Has Paul got my book?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Has Brian got a magazine?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Have your neighbors got a basement?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Has your cell phone got a camera?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "Has Sam got any money?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "Has your town got a supermarket?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "Has Brian got a sister?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 13,
+          "question": "Have your children got a cat?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "Has your husband got a camera?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "Has your school got a library?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 16,
+          "question": "Has Jane got a cell phone?",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 17,
+          "question": "Have the kids got their bikes?",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.9",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the questions.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Have you got a refrigerator?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_9.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Have you got a car?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_9.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Have you got any brothers or sisters?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_9.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Has John got a refrigerator?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_9.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Has John got a car?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_9.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Has John got any brothers or sisters?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_9.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Has your kitchen got a refrigerator?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_9.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "30.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the words.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "burger",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/30/30_1_burger.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "spaghetti",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/30/30_1_spaghetti.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "juice",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/30/30_1_juice.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "bread",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/30/30_1_bread.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "fish",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/30/30_1_fish.mp3"
+        }
+      ]
+    }
+  ]
+}

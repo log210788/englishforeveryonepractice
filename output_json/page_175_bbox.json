@@ -1,0 +1,458 @@
+{
+  "page_number": 175,
+  "exercises": [
+    {
+      "exercise_id": "47.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "Rewrite the sentences using the contracted form of \"would like to.\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "She wants to have a cat.",
+          "correct_answer": "She'd like to have a cat.",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "They would like to visit Tokyo.",
+          "correct_answer": "They'd like to visit Tokyo.",
+          "input_blank_box": {
+            "top": 6.79,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.11
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I want to eat an orange.",
+          "correct_answer": "I would like to eat an orange.",
+          "input_blank_box": {
+            "top": 9.96,
+            "left": 36.38,
+            "width": 27.23,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "You want to learn Spanish.",
+          "correct_answer": "You'd like to learn Spanish.",
+          "input_blank_box": {
+            "top": 18.31,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "We want to go to a café.",
+          "correct_answer": "We would like to go to a café.",
+          "input_blank_box": {
+            "top": 24.91,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "He would like to live in Germany.",
+          "correct_answer": "He'd like to live in Germany.",
+          "input_blank_box": {
+            "top": 36.55,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "We want to swim in a lake.",
+          "correct_answer": "We'd like to swim in a lake.",
+          "input_blank_box": {
+            "top": 36.55,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "47.2",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and rewrite the sentences using \"would like to.\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "They'd like to go sailing on a sailboat.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 39.85,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 39.85,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Dan would like to travel to New York.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 48.13,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 48.13,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Sharon wants to read her book.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 56.41,
+            "left": 36.38,
+            "width": 27.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 56.41,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Doug would like to climb a mountain.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 69.68,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 69.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "We want to go on vacation to Tahiti.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 76.28,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 76.28,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "47.3",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and rewrite the sentences using \"would like to\" or \"wouldn't like to.\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Douglas wants to have pasta.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_1.mp3",
+          "input_blank_box": {
+            "top": 78.33,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 78.33,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "They'd like to go home tomorrow.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_2.mp3",
+          "input_blank_box": {
+            "top": 82.07,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 82.07,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Does Chris want to go swimming later?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_3.mp3",
+          "input_blank_box": {
+            "top": 86.24,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 86.24,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Sheila doesn't want to see Paul.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Would you like to visit us tomorrow?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Our children want to go to college.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "She'd like to buy a new cell phone.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Jenny wants to go shopping on Friday.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Simon would like to be a doctor.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "I would like to have a hamburger.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "Would you like to be a vet?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "Chloe doesn't want to eat that pizza.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_12.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "Do you want to read this book?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_13.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "They would like to watch TV.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_14.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "She wants to go to the party.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_3_15.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

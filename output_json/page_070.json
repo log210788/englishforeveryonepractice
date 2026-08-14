@@ -1,0 +1,178 @@
+{
+  "page_number": 70,
+  "unit_number": 22,
+  "unit_title": "Using \"a\" and \"the\"",
+  "exercises": [
+    {
+      "exercise_id": "22.1",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORDS IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "A / An / The new doctor is called Hilary.",
+          "options": [
+            "A",
+            "An",
+            "The"
+          ],
+          "correct_answer": "The",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Sammy is a / an / the nurse.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "correct_answer": "a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "There is a / an / the bank downtown.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "correct_answer": "a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Is there a / an / the hospital near here?",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "correct_answer": "a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "A / An / The gym is near Sam's house.",
+          "options": [
+            "A",
+            "An",
+            "The"
+          ],
+          "correct_answer": "The",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "There is a / an / the new café in town.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "correct_answer": "a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "A / An / The hotel on Elm Lane is nice.",
+          "options": [
+            "A",
+            "An",
+            "The"
+          ],
+          "correct_answer": "The",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "A / An / The new teacher is good.",
+          "options": [
+            "A",
+            "An",
+            "The"
+          ],
+          "correct_answer": "The",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "There's a / an / the old theater in town.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "correct_answer": "an",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_1_9.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "22.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I have the sister and the brother.",
+          "correct_answer": "I have a sister and a brother.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "There is the library on Queens Road.",
+          "correct_answer": "There is a library on Queens Road.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I bought a apple and a orange.",
+          "correct_answer": "I bought an apple and an orange.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Is there the bank near here?",
+          "correct_answer": "Is there a bank near here?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "There is an café at the bus station.",
+          "correct_answer": "There is a café at the bus station.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "My dad is a engineer.",
+          "correct_answer": "My dad is an engineer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "There is the cell phone on the table.",
+          "correct_answer": "There is a cell phone on the table.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_2_7.mp3"
+        }
+      ]
+    }
+  ]
+}

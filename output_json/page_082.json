@@ -1,0 +1,215 @@
+{
+  "page_number": 82,
+  "exercises": [
+    {
+      "exercise_id": "25.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE IN TWO DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "They are small children.",
+          "correct_answer": [
+            "The children are small.",
+            "They are small."
+          ],
+          "audio_file_path": "audio/25/25_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Peter is a good waiter.",
+          "correct_answer": [
+            "The waiter is good.",
+            "He is good."
+          ],
+          "audio_file_path": "audio/25/25_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Fido is a big dog.",
+          "correct_answer": [
+            "The dog is big.",
+            "It is big."
+          ],
+          "audio_file_path": "audio/25/25_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Melby is a quiet town.",
+          "correct_answer": [
+            "The town is quiet.",
+            "It is quiet."
+          ],
+          "audio_file_path": "audio/25/25_3_4.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "25.4",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE ADJECTIVES TO THEIR OPPOSITES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "old",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "new",
+          "audio_file_path": "audio/25/25_4_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "small",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "large",
+          "audio_file_path": "audio/25/25_4_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "good",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "bad",
+          "audio_file_path": "audio/25/25_4_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "horrible",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "beautiful",
+          "audio_file_path": "audio/25/25_4_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "young",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "old",
+          "audio_file_path": "audio/25/25_4_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "fast",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "slow",
+          "audio_file_path": "audio/25/25_4_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "difficult",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "easy",
+          "audio_file_path": "audio/25/25_4_7.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "25.5",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There are lots of lakes near Braemore.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "There are a few old buildings.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Braemore has only a few hotels.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Kirsty works in a large hotel.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Kirsty is not very busy on weekends.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Kirsty goes to a café with her friends.",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

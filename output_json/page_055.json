@@ -1,0 +1,160 @@
+{
+  "page_number": 55,
+  "unit_number": 17,
+  "exercises": [
+    {
+      "exercise_id": "17.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"IS\" OR \"ARE\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Dorota at school?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "this your parrot?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "there a bank near here?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "you a gardener?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "these Jean's keys?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "there a castle in your town?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "that your bag?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "they your cousins?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "they from France?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_9.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "she Sam's sister?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_10.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "this my burger?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_11.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "there a church in this town?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_12.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 13,
+          "question": "those Brooke's shirts?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_13.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "17.4",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE QUESTIONS, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Is Italy? from Paula",
+          "correct_answer": "Is Paula from Italy?",
+          "audio_file_path": "audio/17/17_4_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "past two? it Is half",
+          "correct_answer": "Is it half past two?",
+          "audio_file_path": "audio/17/17_4_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "your Ronaldo father? Is",
+          "correct_answer": "Is Ronaldo your father?",
+          "audio_file_path": "audio/17/17_4_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "on there Is bank your a street?",
+          "correct_answer": "Is there a bank on your street?",
+          "audio_file_path": "audio/17/17_4_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "your Are these glasses? dad's",
+          "correct_answer": "Are these your dad's glasses?",
+          "audio_file_path": "audio/17/17_4_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "this Is laptop? your",
+          "correct_answer": "Is this your laptop?",
+          "audio_file_path": "audio/17/17_4_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "books? those Katherine's Are",
+          "correct_answer": "Are those Katherine's books?",
+          "audio_file_path": "audio/17/17_4_7.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

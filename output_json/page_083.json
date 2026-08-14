@@ -1,0 +1,119 @@
+{
+  "page_number": 83,
+  "exercises": [
+    {
+      "exercise_id": "25.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "The sea is blue and the sun is hot.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "The beach is busy and the hotels are ugly.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "The city is old and the buildings are beautiful.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "The restaurant is good and the waiter is friendly.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "The countryside is beautiful and the mountains are large.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "The town is small and the shops are quiet.",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "25.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There are some shops.",
+          "options": [
+            "lots of",
+            "some",
+            "a few"
+          ],
+          "correct_answer": "some"
+        },
+        {
+          "item_number": 2,
+          "question": "There are a few trees.",
+          "options": [
+            "lots of",
+            "some",
+            "a few"
+          ],
+          "correct_answer": "a few"
+        },
+        {
+          "item_number": 3,
+          "question": "There are some cars.",
+          "options": [
+            "lots of",
+            "some",
+            "a few"
+          ],
+          "correct_answer": "some"
+        },
+        {
+          "item_number": 4,
+          "question": "There are a few churches.",
+          "options": [
+            "lots of",
+            "some",
+            "a few"
+          ],
+          "correct_answer": "a few"
+        },
+        {
+          "item_number": 5,
+          "question": "There are some flowers.",
+          "options": [
+            "lots of",
+            "some",
+            "a few"
+          ],
+          "correct_answer": "some"
+        },
+        {
+          "item_number": 6,
+          "question": "There are a few cafés.",
+          "options": [
+            "lots of",
+            "some",
+            "a few"
+          ],
+          "correct_answer": "a few"
+        },
+        {
+          "item_number": 7,
+          "question": "There are some parks.",
+          "options": [
+            "lots of",
+            "some",
+            "a few"
+          ],
+          "correct_answer": "some"
+        }
+      ]
+    }
+  ]
+}

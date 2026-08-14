@@ -1,0 +1,208 @@
+{
+  "page_number": 153,
+  "exercises": [
+    {
+      "exercise_id": "48.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, ADDING THE MODIFIER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Edith would like to read her new book. [really]",
+          "correct_answer": "Edith would really like to read her new book.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_2_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "They'd like to go to a concert. [really]",
+          "correct_answer": "They'd really like to go to a concert.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_2_2.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 36.53,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I'd like to go to France on vacation. [really]",
+          "correct_answer": "I'd really like to go to France on vacation.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_2_3.mp3",
+          "input_blank_box": {
+            "top": 14.13,
+            "left": 11.76,
+            "width": 30.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.13,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Jean-Paul would like to speak to you. [quite]",
+          "correct_answer": "Jean-Paul would quite like to speak to you.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_2_4.mp3",
+          "input_blank_box": {
+            "top": 14.13,
+            "left": 54.76,
+            "width": 32.22,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.13,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "We'd like to eat pizza tonight. [quite]",
+          "correct_answer": "We'd quite like to eat pizza tonight.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_2_5.mp3",
+          "input_blank_box": {
+            "top": 19.43,
+            "left": 11.53,
+            "width": 30.8,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Jeremy would like to play his piano. [really]",
+          "correct_answer": "Jeremy would really like to play his piano.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_2_6.mp3",
+          "input_blank_box": {
+            "top": 20.86,
+            "left": 9.82,
+            "width": 37.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.86,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "They'd like to pass their chemistry exam. [really]",
+          "correct_answer": "They'd really like to pass their chemistry exam.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_2_7.mp3",
+          "input_blank_box": {
+            "top": 24.6,
+            "left": 11.61,
+            "width": 32.07,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.6,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Sophie would like to speak Mandarin. [quite]",
+          "correct_answer": "Sophie would quite like to speak Mandarin.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_2_8.mp3",
+          "input_blank_box": {
+            "top": 24.6,
+            "left": 54.84,
+            "width": 32.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.6,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "David would like to visit his son. [really]",
+          "correct_answer": "David would really like to visit his son.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_2_9.mp3",
+          "input_blank_box": {
+            "top": 30.51,
+            "left": 11.76,
+            "width": 31.85,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "48.3",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE 14 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Use the chart to create sentences by combining subjects (I'd, Sam would, We'd) with modifiers (really, quite) and verb phrases (to improve my English, to learn Japanese, to do a history degree).",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_3.mp3",
+          "input_blank_box": {
+            "top": 30.51,
+            "left": 54.99,
+            "width": 31.85,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

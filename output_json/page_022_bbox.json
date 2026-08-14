@@ -1,0 +1,379 @@
+{
+  "page_number": 22,
+  "unit_number": 6,
+  "unit_title": "Using apostrophes",
+  "exercises": [
+    {
+      "exercise_id": "6.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE PHRASES USING AN APOSTROPHE WITH \"S\"",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "The son of Christopher",
+          "options": null,
+          "correct_answer": "Christopher's son",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_1_eg.mp3",
+          "input_blank_box": {
+            "top": 19.43,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.02,
+            "left": 12.2,
+            "width": 2.08,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "The dog of Joe and Greg",
+          "options": null,
+          "correct_answer": "Joe and Greg's dog",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_1_1.mp3",
+          "input_blank_box": {
+            "top": 25.47,
+            "left": 10.04,
+            "width": 80.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.14,
+            "left": 14.06,
+            "width": 2.6,
+            "height": 2.55
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "The granddaughters of Dolly",
+          "options": null,
+          "correct_answer": "Dolly's granddaughters",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_1_2.mp3",
+          "input_blank_box": {
+            "top": 29.14,
+            "left": 52.08,
+            "width": 38.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.88,
+            "left": 16.52,
+            "width": 1.86,
+            "height": 1.31
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "The house of Sue",
+          "options": null,
+          "correct_answer": "Sue's house",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_1_3.mp3",
+          "input_blank_box": {
+            "top": 31.38,
+            "left": 9.75,
+            "width": 80.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.37,
+            "left": 11.46,
+            "width": 2.01,
+            "height": 1.68
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "The snake of Pete and Aziz",
+          "options": null,
+          "correct_answer": "Pete and Aziz's snake",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_1_4.mp3",
+          "input_blank_box": {
+            "top": 34.5,
+            "left": 52.16,
+            "width": 38.99,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 38.23,
+            "left": 11.61,
+            "width": 1.79,
+            "height": 1.93
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "6.2",
+      "exercise_type": "matching",
+      "instruction": "LISTEN TO THE AUDIO AND MATCH THE PAIRS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "Angela is",
+          "options": [
+            "Sam's mother.",
+            "Sam's grandfather.",
+            "Sam's sister.",
+            "Sam's grandmother.",
+            "Sam's friend.",
+            "Sam's father.",
+            "Sam's brother.",
+            "Sam's cousin."
+          ],
+          "correct_answer": "Sam's grandmother.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "input_blank_box": {
+            "top": 40.22,
+            "left": 52.16,
+            "width": 39.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 38.23,
+            "left": 13.69,
+            "width": 1.79,
+            "height": 1.93
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Arthur is",
+          "options": [
+            "Sam's mother.",
+            "Sam's grandfather.",
+            "Sam's sister.",
+            "Sam's grandmother.",
+            "Sam's friend.",
+            "Sam's father.",
+            "Sam's brother.",
+            "Sam's cousin."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "input_blank_box": {
+            "top": 45.7,
+            "left": 52.16,
+            "width": 39.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.28,
+            "left": 14.88,
+            "width": 2.83,
+            "height": 3.3
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Frank is",
+          "options": [
+            "Sam's mother.",
+            "Sam's grandfather.",
+            "Sam's sister.",
+            "Sam's grandmother.",
+            "Sam's friend.",
+            "Sam's father.",
+            "Sam's brother.",
+            "Sam's cousin."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "input_blank_box": {
+            "top": 51.18,
+            "left": 52.08,
+            "width": 39.81,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 48.75,
+            "left": 11.61,
+            "width": 2.08,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Charlotte is",
+          "options": [
+            "Sam's mother.",
+            "Sam's grandfather.",
+            "Sam's sister.",
+            "Sam's grandmother.",
+            "Sam's friend.",
+            "Sam's father.",
+            "Sam's brother.",
+            "Sam's cousin."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "input_blank_box": {
+            "top": 55.04,
+            "left": 7.81,
+            "width": 84.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 48.75,
+            "left": 13.76,
+            "width": 2.08,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Micky is",
+          "options": [
+            "Sam's mother.",
+            "Sam's grandfather.",
+            "Sam's sister.",
+            "Sam's grandmother.",
+            "Sam's friend.",
+            "Sam's father.",
+            "Sam's brother.",
+            "Sam's cousin."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "input_blank_box": {
+            "top": 57.35,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.19,
+            "left": 16.15,
+            "width": 2.53,
+            "height": 1.93
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "Sally is",
+          "options": [
+            "Sam's mother.",
+            "Sam's grandfather.",
+            "Sam's sister.",
+            "Sam's grandmother.",
+            "Sam's friend.",
+            "Sam's father.",
+            "Sam's brother.",
+            "Sam's cousin."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "input_blank_box": {
+            "top": 63.45,
+            "left": 58.93,
+            "width": 32.74,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 63.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Ronaldo is",
+          "options": [
+            "Sam's mother.",
+            "Sam's grandfather.",
+            "Sam's sister.",
+            "Sam's grandmother.",
+            "Sam's friend.",
+            "Sam's father.",
+            "Sam's brother.",
+            "Sam's cousin."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "input_blank_box": {
+            "top": 67.19,
+            "left": 11.83,
+            "width": 28.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 67.19,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "Rebecca is",
+          "options": [
+            "Sam's mother.",
+            "Sam's grandfather.",
+            "Sam's sister.",
+            "Sam's grandmother.",
+            "Sam's friend.",
+            "Sam's father.",
+            "Sam's brother.",
+            "Sam's cousin."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "input_blank_box": {
+            "top": 65.82,
+            "left": 58.93,
+            "width": 32.74,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 65.82,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

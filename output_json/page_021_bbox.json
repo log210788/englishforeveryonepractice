@@ -1,0 +1,388 @@
+{
+  "page_number": 21,
+  "unit_number": 5,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "5.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"THIS\" OR \"THAT\"",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "pointing far to a parrot",
+          "question": "___________ is your parrot.",
+          "options": [
+            "This",
+            "That"
+          ],
+          "correct_answer": "That",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_3_eg.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 12.64,
+            "left": 11.53,
+            "width": 1.86,
+            "height": 1.56
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "pointing close to a rabbit",
+          "question": "___________ is her rabbit.",
+          "options": [
+            "This",
+            "That"
+          ],
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_3_1.mp3",
+          "input_blank_box": {
+            "top": 11.08,
+            "left": 10.34,
+            "width": 36.68,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.38,
+            "left": 86.01,
+            "width": 1.12,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "pointing close to a ball",
+          "question": "___________ is its ball.",
+          "options": [
+            "This",
+            "That"
+          ],
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_3_2.mp3",
+          "input_blank_box": {
+            "top": 14.76,
+            "left": 20.24,
+            "width": 10.27,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.07,
+            "left": 86.68,
+            "width": 2.08,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "pointing far to a dog",
+          "question": "___________ is our dog.",
+          "options": [
+            "This",
+            "That"
+          ],
+          "correct_answer": "That",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_3_3.mp3",
+          "input_blank_box": {
+            "top": 16.38,
+            "left": 63.69,
+            "width": 12.57,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.87,
+            "left": 11.61,
+            "width": 2.31,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "pointing close to a snake",
+          "question": "___________ is his snake.",
+          "options": [
+            "This",
+            "That"
+          ],
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_3_4.mp3",
+          "input_blank_box": {
+            "top": 16.94,
+            "left": 9.9,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.99,
+            "left": 54.99,
+            "width": 2.23,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "pointing far to a horse",
+          "question": "___________ is my horse.",
+          "options": [
+            "This",
+            "That"
+          ],
+          "correct_answer": "That",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_3_5.mp3",
+          "input_blank_box": {
+            "top": 22.04,
+            "left": 20.31,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.93,
+            "left": 59.75,
+            "width": 1.86,
+            "height": 1.49
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "5.4",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "is / monkey. / This / his",
+          "options": [
+            "is",
+            "monkey.",
+            "This",
+            "his"
+          ],
+          "correct_answer": "This is his monkey.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_4_eg.mp3",
+          "input_blank_box": {
+            "top": 22.1,
+            "left": 63.69,
+            "width": 12.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 21.23,
+            "left": 14.66,
+            "width": 1.34,
+            "height": 1.12
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "called / fish / is / Their / Bob.",
+          "options": [
+            "called",
+            "fish",
+            "is",
+            "Their",
+            "Bob."
+          ],
+          "correct_answer": "Their fish is called Bob.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_4_1.mp3",
+          "input_blank_box": {
+            "top": 27.83,
+            "left": 20.31,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.92,
+            "left": 56.99,
+            "width": 2.16,
+            "height": 1.62
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "their / is / This / cow.",
+          "options": [
+            "their",
+            "is",
+            "This",
+            "cow."
+          ],
+          "correct_answer": "This is their cow.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_4_2.mp3",
+          "input_blank_box": {
+            "top": 27.9,
+            "left": 63.76,
+            "width": 12.2,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.35,
+            "left": 11.61,
+            "width": 2.38,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "is / His / called / Harold. / snake",
+          "options": [
+            "is",
+            "His",
+            "called",
+            "Harold.",
+            "snake"
+          ],
+          "correct_answer": "His snake is called Harold.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_4_3.mp3",
+          "input_blank_box": {
+            "top": 31.69,
+            "left": 7.81,
+            "width": 84.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.6,
+            "left": 57.37,
+            "width": 3.2,
+            "height": 3.61
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "years / cat / old. / 12 / is / Her",
+          "options": [
+            "years",
+            "cat",
+            "old.",
+            "12",
+            "is",
+            "Her"
+          ],
+          "correct_answer": "Her cat is 12 years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_4_4.mp3",
+          "input_blank_box": {
+            "top": 34.0,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.53,
+            "left": 16.44,
+            "width": 1.79,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "our / Barney / is / rabbit.",
+          "options": [
+            "our",
+            "Barney",
+            "is",
+            "rabbit."
+          ],
+          "correct_answer": "Barney is our rabbit.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_4_5.mp3",
+          "input_blank_box": {
+            "top": 41.41,
+            "left": 10.04,
+            "width": 37.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.41,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "5.5",
+      "exercise_type": "matching",
+      "instruction": "USE THE CHART TO CREATE 12 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "This is her cat.",
+          "question": "Create 12 correct sentences using the chart: [This, That] + [is] + [her, their, my] + [cat., parrot.]",
+          "options": [
+            "This",
+            "That",
+            "is",
+            "her",
+            "their",
+            "my",
+            "cat.",
+            "parrot."
+          ],
+          "correct_answer": [
+            "This is her cat.",
+            "This is her parrot.",
+            "This is their cat.",
+            "This is their parrot.",
+            "This is my cat.",
+            "This is my parrot.",
+            "That is her cat.",
+            "That is her parrot.",
+            "That is their cat.",
+            "That is their parrot.",
+            "That is my cat.",
+            "That is my parrot."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3",
+          "input_blank_box": {
+            "top": 42.59,
+            "left": 19.42,
+            "width": 8.11,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.59,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Lewis's Practice Book | Interactive Ghibli Edition</title>
+
+  <!-- Meta SEO -->
+  <meta name="description" content="Step into an interactive English practice world with Teacher Lewis. Practice speaking, listening, and collect adventure stickers!">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Landing Styles -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class="theme-day">
+
+  <!-- DEDICATED FIRST-VISIT MASCOT SCREEN (Covers screen on first visit) -->
+  <div class="first-visit-overlay" id="firstVisitOverlay">
+    <div class="first-visit-card">
+      <div class="first-visit-mascot-wrap">
+        <img src="images/ghibli/mascot.jpg" alt="Teacher Lewis's Mascot" class="first-visit-mascot-img" id="firstVisitMascotImg">
+        <div class="first-visit-status-ring"></div>
+      </div>
+
+      <div class="first-visit-badge">🌿 Teacher Lewis's Practice Book</div>
+      <h2 class="first-visit-title">Welcome to Teacher Lewis's Academy</h2>
+
+      <div class="first-visit-bubble" id="firstVisitBubble">
+        Konnichiwa! 🌿 I am your forest guide. Teacher Lewis asked me to welcome you to our practice book! May I ask what your name is?
+      </div>
+
+      <div class="first-visit-input-form" id="firstVisitForm">
+        <input type="text" id="firstVisitNameInput" class="first-visit-input" placeholder="Type your traveler name..." maxlength="24" autocomplete="off" autofocus>
+        <button class="ghibli-btn ghibli-btn-primary first-visit-submit-btn" id="firstVisitSaveBtn">
+          Begin Journey <img src="images/ghibli/backpack_sticker.svg" class="inline-backpack-img" alt="Backpack"> <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scenic Atmospheric Background Overlay -->
+  <div class="ghibli-bg-overlay"></div>
+  <div class="ghibli-vignette"></div>
+
+  <!-- Ambient Particle System -->
+  <div id="particlesContainer"></div>
+
+  <!-- Main App Layout Wrap -->
+  <div class="ghibli-app-wrap">
+
+    <!-- Top Navigation Header -->
+    <header class="ghibli-navbar">
+      <a href="index.html" class="ghibli-brand">
+        <div class="ghibli-logo-icon">
+          <i class="fa-solid fa-seedling"></i>
+        </div>
+        <div class="ghibli-title-group">
+          <h1 class="brand-title">Teacher Lewis's Practice Book</h1>
+          <span class="subtitle">🌿 Interactive Practice Edition</span>
+        </div>
+      </a>
+
+      <div class="ghibli-nav-actions">
+        
+        <!-- Background Music Toggle Button -->
+        <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music">
+          <i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span>
+        </button>
+
+        <!-- Continuous Music Reader Button -->
+        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Open Continuous Music Reader">
+          <i class="fa-solid fa-headphones"></i> Continuous Reader
+        </a>
+
+        <!-- Time of Day Theme Switcher -->
+        <div class="tod-pill-group" title="Switch Atmospheric Time-of-Day Scene">
+          <button class="tod-btn active" data-theme="day">☀️ Day</button>
+          <button class="tod-btn" data-theme="sunset">🌅 Sunset</button>
+          <button class="tod-btn" data-theme="night">🌙 Night</button>
+        </div>
+
+
+        <!-- Inventory Sticker Book Button -->
+        <button class="ghibli-btn ghibli-btn-gold" id="openInventoryBtn" title="View your sticker collection">
+          <i class="fa-solid fa-book-bookmark"></i> Sticker Book <span id="backpackCountBadge" style="background: rgba(0,0,0,0.15); padding: 2px 8px; border-radius: 99px; margin-left: 4px; font-size: 0.8rem;">0/8</span>
+        </button>
+
+        <!-- Student Profile Pill -->
+        <div class="student-badge-pill" id="studentBadgePill" title="Click to edit your traveler name">
+          <div class="student-badge-avatar"><i class="fa-solid fa-user"></i></div>
+          <span class="student-name-text" id="studentNameDisplay">Guest</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Minimal Hub Content -->
+    <main>
+      
+      <!-- Top Minimal Welcome Header -->
+      <div class="minimal-welcome-banner">
+        <h2 class="hero-title">Teacher Lewis's Practice Book</h2>
+        <p class="hero-description" style="margin: 0 auto; max-width: 640px;">
+          Practice interactive English lessons, listen to native audio, and complete practice modules to collect magical stickers!
+        </p>
+      </div>
+
+      <!-- Two Main Focal Destinations: Chapter 1 Practice & Big Interactive Sticker Book -->
+      <div class="hub-main-grid">
+        
+        <!-- Destination 1: Chapter 1 Practice Module -->
+        <div class="module-card minimal-card">
+          <div class="module-card-header">
+            <span class="module-badge">Chapter 1 • Unit 1</span>
+            <span class="module-sticker-indicator"><i class="fa-solid fa-award"></i> Earn 2 Stickers</span>
+          </div>
+
+          <!-- Large animated mascot with idle/excited states -->
+          <div class="card-mascot-hero" id="chapterMascotWrap">
+            <img src="images/ghibli/mascot_idle.jpg"
+                 alt="Forest Spirit – waiting for you!"
+                 class="card-mascot-hero-img mascot-idle-img"
+                 id="chapterMascotImg">
+            <img src="images/ghibli/mascot_letsgo.jpg"
+                 alt="Forest Spirit – Let's go!"
+                 class="card-mascot-hero-img mascot-letsgo-img"
+                 id="chapterMascotLetsGo">
+            <div class="mascot-hero-glow"></div>
+          </div>
+
+          <h3 class="module-title" style="text-align: center;">Introducing Yourself</h3>
+          <p class="module-desc" style="text-align: center;">
+            Rewrite contracted verb forms, practice sentence audio, record your voice, and earn your <strong>Traveler's Backpack</strong> sticker!
+          </p>
+
+          <ul class="module-features-list" style="margin-bottom: 24px;">
+            <li><i class="fa-solid fa-circle-check"></i> 11 interactive practice exercises</li>
+            <li><i class="fa-solid fa-circle-check"></i> Native audio & voice recorder</li>
+            <li><i class="fa-solid fa-circle-check"></i> 100% score unlocks Traveler's Backpack <img src="images/ghibli/backpack_sticker.svg" class="inline-backpack-img" alt="Backpack"></li>
+          </ul>
+
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="ghibli_page12.html" class="ghibli-btn ghibli-btn-gold" style="flex: 1; justify-content: center; padding: 12px 18px; font-weight: 700; text-decoration: none;" id="startPrototypeBtn">
+              🌱 Original Page 12 Prototype
+            </a>
+            <a href="ghibli_p008.html" class="ghibli-btn ghibli-btn-primary" style="flex: 1; justify-content: center; padding: 12px 18px; font-weight: 700; text-decoration: none;" id="startChapterBtn">
+              Start Full Book (Page 8) 🌿
+            </a>
+          </div>
+        </div>
+
+        <!-- Destination 2: THE BIG CLICKABLE STICKER BOOK CARD -->
+        <div class="sticker-book-hero-card" id="bigStickerBookCard" title="Click to open your Sticker Book!">
+          <div class="sticker-book-badge-wrap">
+            <span class="sticker-book-count-tag"><i class="fa-solid fa-star" style="color: var(--ghibli-gold);"></i> Sticker Album</span>
+          </div>
+
+          <!-- Sticker book image — closed by default, open on button hover -->
+          <div class="big-sticker-book-img-wrap">
+            <img src="images/ghibli/sticker_book.svg" alt="Teacher Lewis's Sticker Book" class="big-sticker-book-img sb-closed-img">
+            <img src="images/ghibli/sticker_book_open.jpg" alt="Sticker Book Open" class="big-sticker-book-img sb-open-img">
+            <div class="sticker-book-glow-ring"></div>
+          </div>
+
+          <h3 class="sticker-book-card-title">Teacher Lewis's Sticker Book</h3>
+          <p class="sticker-book-card-desc">
+            Click on the magical sticker book above to view your collected adventure stickers & item lore!
+          </p>
+
+          <button class="ghibli-btn ghibli-btn-gold sticker-book-open-btn" style="width: 100%; justify-content: center; padding: 14px 24px; font-size: 1.05rem;">
+            Open Sticker Book ✨
+          </button>
+        </div>
+
+      </div>
+
+      
+      
+      
+      <!-- PAGE JUMP SELECTOR & ALL 8 CHAPTERS GALLERY -->
+      <div style="margin-top: 48px;">
+        <div style="text-align: center; margin-bottom: 28px;">
+          <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: var(--ghibli-text-main); font-weight: 800; margin-bottom: 8px;">📚 The Complete Book Chapters</h2>
+          <p style="color: var(--ghibli-text-muted); font-size: 0.98rem;">Select a chapter world below to access all exercises from 1.1 to 48.7!</p>
+        </div>
+
+        <!-- QUICK CHAPTER & PAGE SELECTOR -->
+        <div style="background: rgba(255,255,255,0.92); border-radius: 20px; padding: 20px 24px; border: 1.5px solid var(--ghibli-border); margin-bottom: 36px; text-align: center; box-shadow: 0 8px 24px rgba(0,0,0,0.06); backdrop-filter: blur(10px);">
+          <div style="font-weight: 700; font-family: var(--font-heading); color: var(--ghibli-text-main); font-size: 1.15rem; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+            <i class="fa-solid fa-book-open" style="color: var(--ghibli-accent-green);"></i> Jump to Any Page (Pages 12 to 176) or Chapter
+          </div>
+          <div style="display: flex; justify-content: center; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <!-- Direct Page Number Jump Box -->
+            <div style="display: flex; align-items: center; gap: 8px; background: #fff; padding: 6px 14px; border-radius: 24px; border: 1.5px solid var(--ghibli-border); box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+              <span style="font-weight: 700; font-size: 0.9rem; color: #2d5a27;"><i class="fa-solid fa-compass"></i> Page #:</span>
+              <input type="number" id="directPageInput" placeholder="12 - 176" min="12" max="176" style="width: 80px; padding: 6px 8px; border-radius: 12px; border: 1.5px solid #ccc; font-weight: 700; text-align: center; font-size: 1rem; outline: none;" onkeydown="if(event.key === 'Enter') { const p = parseInt(this.value, 10); if(p >= 12 && p <= 176) window.location.href = 'ghibli_p' + String(p).padStart(3, '0') + '.html'; else alert('Enter a page number between 12 and 176!'); }">
+              <button class="ghibli-btn ghibli-btn-primary" style="padding: 6px 14px; font-size: 0.85rem;" onclick="const p = parseInt(document.getElementById('directPageInput').value, 10); if(p >= 12 && p <= 176) window.location.href = 'ghibli_p' + String(p).padStart(3, '0') + '.html'; else alert('Enter a page number between 12 and 176!');">
+                Jump <i class="fa-solid fa-bolt"></i>
+              </button>
+            </div>
+
+            <!-- Chapter Select -->
+            <select id="quickPageSelect" onchange="if(this.value) window.location.href = this.value;" style="padding: 12px 20px; border-radius: 24px; border: 1.5px solid var(--ghibli-border); font-family: var(--font-body); font-weight: 600; font-size: 0.95rem; background: #fff; color: var(--ghibli-text-main); cursor: pointer; min-width: 320px; outline: none; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+              <option value="">-- Or Select Book Chapter (Chapters 1 to 8) --</option>
+              <option value="ghibli_chapter1.html">Chapter 1: Introducing Yourself & Your Things (Exercises 1.1 – 8.10)</option>
+              <option value="ghibli_chapter2.html">Chapter 2: Jobs, Time & Daily Routines (Exercises 9.1 – 14.5)</option>
+              <option value="ghibli_chapter3.html">Chapter 3: Negatives & Questions with 'to be' (Exercises 15.1 – 19.5)</option>
+              <option value="ghibli_chapter4.html">Chapter 4: Towns, Places & Directions (Exercises 20.1 – 27.5)</option>
+              <option value="ghibli_chapter5.html">Chapter 5: Accommodation & House (Exercises 28.1 – 33.5)</option>
+              <option value="ghibli_chapter6.html">Chapter 6: Shops, Numbers & Counting (Exercises 34.1 – 36.5)</option>
+              <option value="ghibli_chapter7.html">Chapter 7: Sports, Free Time & Preferences (Exercises 37.1 – 43.5)</option>
+              <option value="ghibli_chapter8.html">Chapter 8: Abilities, Wishes & Review (Exercises 44.1 – 48.7)</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px;">
+          
+          <a href="ghibli_chapter1.html" style="text-decoration: none;">
+            <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
+              <div style="font-size: 2.2rem; margin-bottom: 10px;">🌿</div>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 1 • Exercises 1.1 – 8.10 (322 items)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Introducing Yourself & Your Things</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">English Countryside Cottage</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 1 →</span>
+            </div>
+          </a>
+
+          <a href="ghibli_chapter2.html" style="text-decoration: none;">
+            <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
+              <div style="font-size: 2.2rem; margin-bottom: 10px;">🚂</div>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 2 • Exercises 9.1 – 14.5 (305 items)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Jobs, Time & Daily Routines</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Mountain Train Station</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 2 →</span>
+            </div>
+          </a>
+
+          <a href="ghibli_chapter3.html" style="text-decoration: none;">
+            <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
+              <div style="font-size: 2.2rem; margin-bottom: 10px;">☁️</div>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 3 • Exercises 15.1 – 19.5 (289 items)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Negatives & Questions with 'to be'</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Floating Sky City</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 3 →</span>
+            </div>
+          </a>
+
+          <a href="ghibli_chapter4.html" style="text-decoration: none;">
+            <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
+              <div style="font-size: 2.2rem; margin-bottom: 10px;">⚓</div>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 4 • Exercises 20.1 – 27.5 (318 items)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Towns, Places & Directions</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Seaside Harbor Town</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 4 →</span>
+            </div>
+          </a>
+
+          <a href="ghibli_chapter5.html" style="text-decoration: none;">
+            <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
+              <div style="font-size: 2.2rem; margin-bottom: 10px;">🌳</div>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 5 • Exercises 28.1 – 33.5 (335 items)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Accommodation & House</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Enchanted Treehouse Village</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 5 →</span>
+            </div>
+          </a>
+
+          <a href="ghibli_chapter6.html" style="text-decoration: none;">
+            <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
+              <div style="font-size: 2.2rem; margin-bottom: 10px;">🛍️</div>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 6 • Exercises 34.1 – 36.5 (135 items)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Shops, Numbers & Counting</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Magical Market Square</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 6 →</span>
+            </div>
+          </a>
+
+          <a href="ghibli_chapter7.html" style="text-decoration: none;">
+            <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
+              <div style="font-size: 2.2rem; margin-bottom: 10px;">⛵</div>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 7 • Exercises 37.1 – 43.5 (334 items)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Sports, Free Time & Preferences</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Crystal Lake Valley</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 7 →</span>
+            </div>
+          </a>
+
+          <a href="ghibli_chapter8.html" style="text-decoration: none;">
+            <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
+              <div style="font-size: 2.2rem; margin-bottom: 10px;">📚</div>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 8 • Exercises 44.1 – 48.7 (1,754 items)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Abilities, Wishes & Review</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Starlight Library Tower</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 8 →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Minimal Message from Teacher Lewis -->
+      <div class="lewis-note-card" style="margin-top: 40px; padding: 24px 32px;">
+        <div class="lewis-avatar" style="width: 64px; height: 64px; font-size: 1.6rem;">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div class="lewis-note-content">
+          <h3 style="font-size: 1.1rem;">Teacher Lewis's Practice Tip</h3>
+          <p style="font-size: 0.95rem;">
+            "Take your time with every exercise, practice out loud with the native audio recorder, and score 100% on Unit 1 to claim your Traveler's Backpack sticker!"
+          </p>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="ghibli-footer">
+      <p>🌿 Teacher Lewis's Practice Book • Interactive Edition</p>
+    </footer>
+
+  </div>
+
+  <!-- INVENTORY & STICKER DRAWER MODAL -->
+  <div class="inventory-modal" id="inventoryModal">
+    <div class="inventory-dialog">
+      <div class="inventory-header">
+        <div class="inventory-title-group">
+          <h2><i class="fa-solid fa-book-bookmark"></i> Teacher Lewis's Sticker Book</h2>
+          <span class="inventory-subtitle">Hover over any sticker to inspect Teacher Lewis's item details & lore!</span>
+        </div>
+        <button class="inventory-close-btn" id="closeInventoryBtn" title="Close Backpack">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="inventory-body">
+        <!-- Progress Bar Card -->
+        <div class="inventory-progress-card">
+          <div class="progress-info-row">
+            <span><i class="fa-solid fa-star" style="color: var(--ghibli-gold);"></i> Sticker Progress</span>
+            <span id="stickerProgressText">1 / 8 Collected (13%)</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-bar-fill" id="stickerProgressBar" style="width: 13%;"></div>
+          </div>
+        </div>
+
+        <!-- Dedicated Item Lore Inspector Panel (Guaranteed zero clipping) -->
+        <div class="sticker-inspector-card" id="stickerInspectorCard">
+          <div class="inspector-icon-preview" id="inspectorIconPreview">
+            <i class="fa-solid fa-feather-pointed" style="color: var(--ghibli-gold);"></i>
+          </div>
+          <div class="inspector-details">
+            <h4 class="inspector-title" id="inspectorTitle">Teacher Lewis Item Inspector</h4>
+            <p class="inspector-desc" id="inspectorDesc">Hover over any unlocked sticker in your book to reveal Teacher Lewis's item details & lore!</p>
+            <p class="inspector-lore" id="inspectorLore" style="display: none;"></p>
+          </div>
+        </div>
+
+        <!-- Sticker Grid Container -->
+        <div class="sticker-grid" id="stickerGrid">
+          <!-- Dynamically populated by index.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GLOBAL UNCLIPPED FLOATING TOOLTIP (Positioned relative to viewport on body) -->
+  <div class="global-hover-tooltip" id="globalHoverTooltip"></div>
+
+  <!-- STICKER UNLOCK CELEBRATION TOAST -->
+  <div class="unlock-toast" id="unlockToast">
+    <div class="unlock-toast-icon" id="unlockToastIcon">🎒</div>
+    <div class="unlock-toast-info">
+      <h4 id="unlockToastTitle">New Sticker Unlocked!</h4>
+      <p id="unlockToastDesc">Traveler's Backpack - Granted by Teacher Lewis!</p>
+    </div>
+  </div>
+
+  <!-- JavaScript Engine -->
+  <script src="ghibli_audio.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,1278 @@
+{
+  "page_number": 166,
+  "exercises": [
+    {
+      "exercise_id": "26.4",
+      "exercise_type": "audio_listen",
+      "instruction": "26.4",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Clara works in a theater because she is an actor.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_4_1.mp3",
+          "input_blank_box": {
+            "top": 8.34,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 8.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Clara lives on a farm because she is a farmer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_4_2.mp3",
+          "input_blank_box": {
+            "top": 18.31,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Clara works in a hotel because she is a receptionist.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_4_3.mp3",
+          "input_blank_box": {
+            "top": 25.22,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 25.22,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Mike lives on a farm because he is a farmer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_4_4.mp3",
+          "input_blank_box": {
+            "top": 29.02,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.02,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Mike works in a theater because he is an actor.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_4_5.mp3",
+          "input_blank_box": {
+            "top": 28.58,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Mike works in a hotel because he is a receptionist.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_4_6.mp3",
+          "input_blank_box": {
+            "top": 32.32,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "27.1",
+      "exercise_type": "audio_listen",
+      "instruction": "27.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "kitchen",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_kitchen.mp3",
+          "input_blank_box": {
+            "top": 51.43,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "toilet",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_toilet.mp3",
+          "input_blank_box": {
+            "top": 53.11,
+            "left": 6.47,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 53.11,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "television",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_television.mp3",
+          "input_blank_box": {
+            "top": 66.38,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 66.38,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "house",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_house.mp3",
+          "input_blank_box": {
+            "top": 68.0,
+            "left": 6.47,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 68.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "closet (US) / wardrobe (UK)",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 78.27,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 78.27,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "bathtub",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_bathtub.mp3",
+          "input_blank_box": {
+            "top": 82.07,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 82.07,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "garage",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_garage.mp3",
+          "input_blank_box": {
+            "top": 81.26,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 81.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "bedroom",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_bedroom.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "apartment block (US) / block of flats (UK)",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "couch (US) / sofa (UK)",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "shower",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_shower.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "dining room",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_diningroom.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "door",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_door.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "window",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_window.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "table",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_table.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "chair",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_chair.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "lamp",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_lamp.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 18,
+          "question": "refrigerator (US) / fridge (UK)",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 19,
+          "question": "study",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_study.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 20,
+          "question": "bed",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_bed.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "bookcase",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_bookcase.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "bathroom",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_bathroom.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "armchair",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/27/27_1_armchair.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.1",
+      "exercise_type": "audio_listen",
+      "instruction": "28.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "My friend has new glasses.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "John has two dogs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We have an old castle in our town.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "They have a lot of parks in their town.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "I have a beautiful necklace.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Alex has a new camera.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Our house has a lovely yard.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Phil and Sue have four daughters.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Pete has a new cell phone.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Your town has a big hotel.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "I have a lot of friends.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.2",
+      "exercise_type": "audio_listen",
+      "instruction": "28.2",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Bob and Shirley have a big dog.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "She has some new friends.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We have two sons at home.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "James has two cars.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "His house has three bedrooms.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Pam has lots of books at home.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "He has two cats.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Sally's house has a new kitchen.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "You have a beautiful house.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "I have three sisters.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "Kelly and Mark have a microwave.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "We have a castle in our town.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "Sanjay has a cat and a dog.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "You have three brothers.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "Ross has a new cell phone.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "Our house has two bathrooms.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "I have a couch in my room.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 18,
+          "question": "Washington has some lovely parks.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.3",
+      "exercise_type": "audio_listen",
+      "instruction": "28.3",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I have two sisters.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_3_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "You have a beautiful house.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_3_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We have a garden.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Sam and Greg have a dog.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_3_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Marlon has a brother.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_3_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Fardale has an old castle.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "They have a new car.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.5",
+      "exercise_type": "audio_listen",
+      "instruction": "28.5",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "We don't have a computer at home.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "My city doesn't have a castle.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Rob's house doesn't have a garage.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "You don't have any sisters.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "The village doesn't have any stores.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

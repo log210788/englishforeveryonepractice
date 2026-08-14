@@ -1,0 +1,81 @@
+{
+  "page_number": 117,
+  "unit_number": 36,
+  "unit_title": "EQUIPMENT AND VENUES",
+  "exercises": [
+    {
+      "exercise_id": "36.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "baseball bat",
+          "correct_answer": "baseball bat",
+          "audio_file_path": "audio/36/36_2_baseballbat.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "golf course",
+          "correct_answer": "golf course"
+        },
+        {
+          "item_number": 3,
+          "question": "snowboard",
+          "correct_answer": "snowboard",
+          "audio_file_path": "audio/36/36_2_snowboard.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "swimming pool",
+          "correct_answer": "swimming pool"
+        },
+        {
+          "item_number": 5,
+          "question": "golf club",
+          "correct_answer": "golf club",
+          "audio_file_path": "audio/36/36_2_golfclub.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "running track",
+          "correct_answer": "running track"
+        },
+        {
+          "item_number": 7,
+          "question": "skateboard",
+          "correct_answer": "skateboard",
+          "audio_file_path": "audio/36/36_2_skateboard.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "stadium",
+          "correct_answer": "stadium"
+        },
+        {
+          "item_number": 9,
+          "question": "surfboard",
+          "correct_answer": "surfboard",
+          "audio_file_path": "audio/36/36_2_surfboard.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "tennis court",
+          "correct_answer": "tennis court"
+        },
+        {
+          "item_number": 11,
+          "question": "skis",
+          "correct_answer": "skis",
+          "audio_file_path": "audio/36/36_2_skis.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

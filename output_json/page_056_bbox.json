@@ -1,0 +1,549 @@
+{
+  "page_number": 56,
+  "exercises": [
+    {
+      "exercise_id": "17.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS WITH \"DO\" OR \"DOES\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "you work in a hospital?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_5_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "your dog like children?",
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_5_2.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.9,
+            "width": 36.68,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "you get up at 10am on Sundays?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_5_3.mp3",
+          "input_blank_box": {
+            "top": 37.11,
+            "left": 7.89,
+            "width": 84.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.11,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Simone work with children?",
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_5_4.mp3",
+          "input_blank_box": {
+            "top": 39.41,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 39.41,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "they live in the town?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_5_5.mp3",
+          "input_blank_box": {
+            "top": 39.41,
+            "left": 51.34,
+            "width": 42.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 39.41,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "we finish work at 3pm today?",
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_5_6.mp3",
+          "input_blank_box": {
+            "top": 46.64,
+            "left": 9.08,
+            "width": 37.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.64,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Frank play tennis with Pete?",
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_5_7.mp3",
+          "input_blank_box": {
+            "top": 46.64,
+            "left": 54.99,
+            "width": 35.12,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.64,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "17.6",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH QUESTION",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "you read a newspaper every day?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_1.mp3",
+          "input_blank_box": {
+            "top": 50.12,
+            "left": 9.08,
+            "width": 37.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.12,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "he go to bed at 11pm?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_2.mp3",
+          "input_blank_box": {
+            "top": 51.18,
+            "left": 55.36,
+            "width": 35.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.18,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "they live in a castle?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_3.mp3",
+          "input_blank_box": {
+            "top": 52.43,
+            "left": 54.54,
+            "width": 35.64,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 52.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Pedro come from Bolivia?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_4.mp3",
+          "input_blank_box": {
+            "top": 58.41,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 58.41,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "she work with children?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_5.mp3",
+          "input_blank_box": {
+            "top": 64.94,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 64.94,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Claire and Sam eat lunch at 2pm?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_6.mp3",
+          "input_blank_box": {
+            "top": 71.42,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 71.42,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "your brother work with animals?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_7.mp3",
+          "input_blank_box": {
+            "top": 77.9,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Tim play soccer on Mondays?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_8.mp3",
+          "input_blank_box": {
+            "top": 84.43,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 84.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "they work in a café?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_9.mp3",
+          "input_blank_box": {
+            "top": 90.91,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 90.91,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "you have a shower in the evening?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_10.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 39.66,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "we start work at 10am on Thursdays?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_11.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 52.53,
+            "width": 39.66,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "Pamela work in a bank?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Does",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_6_12.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "17.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE STATEMENTS AS QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "They work in a museum.",
+          "correct_answer": "Do they work in a museum?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_7_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "You work with children.",
+          "correct_answer": "Do you work with children?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_7_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Shane lives in Sydney.",
+          "correct_answer": "Does Shane live in Sydney?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_7_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "John plays tennis on Wednesdays.",
+          "correct_answer": "Does John play tennis on Wednesdays?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_7_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Yves and Marie eat dinner at 6pm.",
+          "correct_answer": "Do Yves and Marie eat dinner at 6pm?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_7_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Seth works in a post office.",
+          "correct_answer": "Does Seth work in a post office?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_7_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

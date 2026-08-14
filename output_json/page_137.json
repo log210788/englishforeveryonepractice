@@ -1,0 +1,145 @@
+{
+  "page_number": 137,
+  "exercises": [
+    {
+      "exercise_id": "42.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Arnie's favorite sport is ________.",
+          "options": [
+            "spaghetti",
+            "Chris Minota",
+            "tennis",
+            "apple",
+            "strawberry",
+            "dolphin",
+            "21",
+            "badminton"
+          ],
+          "correct_answer": "tennis",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_5_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Joan's favorite animal is a ________.",
+          "options": [
+            "spaghetti",
+            "Chris Minota",
+            "tennis",
+            "apple",
+            "strawberry",
+            "dolphin",
+            "21",
+            "badminton"
+          ],
+          "correct_answer": "dolphin",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_5_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Hassan's favorite actor is ________.",
+          "options": [
+            "spaghetti",
+            "Chris Minota",
+            "tennis",
+            "apple",
+            "strawberry",
+            "dolphin",
+            "21",
+            "badminton"
+          ],
+          "correct_answer": "Chris Minota",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_5_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Pam's favorite number is ________.",
+          "options": [
+            "spaghetti",
+            "Chris Minota",
+            "tennis",
+            "apple",
+            "strawberry",
+            "dolphin",
+            "21",
+            "badminton"
+          ],
+          "correct_answer": "21",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_5_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Jane's favorite sport is ________.",
+          "options": [
+            "spaghetti",
+            "Chris Minota",
+            "tennis",
+            "apple",
+            "strawberry",
+            "dolphin",
+            "21",
+            "badminton"
+          ],
+          "correct_answer": "badminton",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_5_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Dora's favorite ice cream is ________.",
+          "options": [
+            "spaghetti",
+            "Chris Minota",
+            "tennis",
+            "apple",
+            "strawberry",
+            "dolphin",
+            "21",
+            "badminton"
+          ],
+          "correct_answer": "strawberry",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_5_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Jim's favorite food is ________.",
+          "options": [
+            "spaghetti",
+            "Chris Minota",
+            "tennis",
+            "apple",
+            "strawberry",
+            "dolphin",
+            "21",
+            "badminton"
+          ],
+          "correct_answer": "spaghetti",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_5_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "42.6",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE 14 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "She loves salsa dancing.",
+          "question": "Create sentences using the chart components: [She/Simon/Her] [loves/likes/favorite] [food is/sport is] [salsa dancing./sailing./chocolate ice cream.]",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_6_1.mp3"
+        }
+      ]
+    }
+  ]
+}

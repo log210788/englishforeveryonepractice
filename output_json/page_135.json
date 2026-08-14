@@ -1,0 +1,175 @@
+{
+  "page_number": 135,
+  "exercises": [
+    {
+      "exercise_id": "42.2",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND COMPLETE EACH SENTENCE CORRECTLY",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "A group of people are talking about their favorite things.",
+          "question": "Dave's favorite type of music in the morning is...",
+          "options": [
+            "soul",
+            "jazz",
+            "rock"
+          ],
+          "correct_answer": "jazz",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_2_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "Jenny's favorite subject at school is...",
+          "options": [
+            "physics",
+            "math",
+            "biology"
+          ],
+          "correct_answer": "math",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Mike's favorite day of the week is...",
+          "options": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "correct_answer": "Wednesday",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Colin's favorite color is...",
+          "options": [
+            "red",
+            "yellow",
+            "purple"
+          ],
+          "correct_answer": "yellow",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Sally's favorite dessert is...",
+          "options": [
+            "ice cream",
+            "chocolate cake",
+            "apple pie"
+          ],
+          "correct_answer": "chocolate cake",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Danny's favorite sport is...",
+          "options": [
+            "soccer",
+            "basketball",
+            "baseball"
+          ],
+          "correct_answer": "basketball",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Clarice's favorite season is...",
+          "options": [
+            "summer",
+            "fall",
+            "winter"
+          ],
+          "correct_answer": "fall",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_2_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "42.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Her love type of music is rock.",
+          "question": "Her favorite type of music is rock.",
+          "correct_answer": "Her favorite type of music is rock.",
+          "audio_file_path": "audio/42/42_3_eg.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 1,
+          "question": "Barbara likes listen to music in the evening.",
+          "correct_answer": "Barbara likes listening to music in the evening.",
+          "audio_file_path": "audio/42/42_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Arnold favorite food is ice cream and pizza.",
+          "correct_answer": "Arnold's favorite food is ice cream and pizza.",
+          "audio_file_path": "audio/42/42_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Craig don't like getting up in the morning.",
+          "correct_answer": "Craig doesn't like getting up in the morning.",
+          "audio_file_path": "audio/42/42_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Seb's favorite type music is hip-hop.",
+          "correct_answer": "Seb's favorite type of music is hip-hop.",
+          "audio_file_path": "audio/42/42_3_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Ruth like orange juice.",
+          "correct_answer": "Ruth likes orange juice.",
+          "audio_file_path": "audio/42/42_3_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Daniel favorite animal is the lion.",
+          "correct_answer": "Daniel's favorite animal is the lion.",
+          "audio_file_path": "audio/42/42_3_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "I likes bacon and eggs for breakfast.",
+          "correct_answer": "I like bacon and eggs for breakfast.",
+          "audio_file_path": "audio/42/42_3_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Aziz don't like lasagna or spaghetti.",
+          "correct_answer": "Aziz doesn't like lasagna or spaghetti.",
+          "audio_file_path": "audio/42/42_3_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Miguel love going to the movie theater.",
+          "correct_answer": "Miguel loves going to the movie theater.",
+          "audio_file_path": "audio/42/42_3_9.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "page_number": 141,
+  "exercises": [
+    {
+      "exercise_id": "44.3",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "drive car. Eliza cannot a",
+          "correct_answer": "Eliza cannot drive a car.",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "piano. Jonathan play can the",
+          "correct_answer": "Jonathan can play the piano.",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.9,
+            "width": 36.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "jump very can't high. Cathy",
+          "correct_answer": "Cathy can't jump very high.",
+          "input_blank_box": {
+            "top": 14.26,
+            "left": 82.89,
+            "width": 8.18,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "stick. can a Mick throw",
+          "correct_answer": "Mick can throw a stick.",
+          "input_blank_box": {
+            "top": 17.37,
+            "left": 10.64,
+            "width": 36.61,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "math. can't Laura do",
+          "correct_answer": "Laura can't do math.",
+          "input_blank_box": {
+            "top": 17.37,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "lift can the Alan box.",
+          "correct_answer": "Alan can lift the box.",
+          "input_blank_box": {
+            "top": 18.68,
+            "left": 10.19,
+            "width": 36.46,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "far. very can't Julia swim",
+          "correct_answer": "Julia can't swim very far.",
+          "input_blank_box": {
+            "top": 20.67,
+            "left": 33.85,
+            "width": 8.18,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "44.4",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND MARK WHETHER INA CAN OR CAN'T DO THE ACTIVITY IN EACH PICTURE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Ina riding a horse",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_1.mp3",
+          "input_blank_box": {
+            "top": 20.8,
+            "left": 61.9,
+            "width": 9.0,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.8,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Ina writing Chinese characters",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_2.mp3",
+          "input_blank_box": {
+            "top": 22.91,
+            "left": 11.01,
+            "width": 8.11,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.91,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Ina playing tennis",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_3.mp3",
+          "input_blank_box": {
+            "top": 22.98,
+            "left": 33.85,
+            "width": 8.18,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.98,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Ina playing guitar",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_4.mp3",
+          "input_blank_box": {
+            "top": 23.04,
+            "left": 61.83,
+            "width": 9.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 23.04,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Ina flying a kite",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_5.mp3",
+          "input_blank_box": {
+            "top": 23.04,
+            "left": 72.4,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 23.04,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

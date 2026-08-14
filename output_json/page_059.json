@@ -1,0 +1,132 @@
+{
+  "page_number": 59,
+  "exercises": [
+    {
+      "exercise_id": "18.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "READ THE EMAIL AND WRITE ANSWERS TO THE QUESTIONS AS FULL SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Is Helen a German teacher?",
+          "correct_answer": "No, she isn't. She is a French teacher."
+        },
+        {
+          "item_number": 2,
+          "question": "Does Helen start work at 8am?",
+          "correct_answer": "No, she doesn't. She starts work at 9am."
+        },
+        {
+          "item_number": 3,
+          "question": "Is Helen's school small?",
+          "correct_answer": "No, it isn't. It is big."
+        },
+        {
+          "item_number": 4,
+          "question": "Does Helen finish at 4pm?",
+          "correct_answer": "Yes, she does."
+        },
+        {
+          "item_number": 5,
+          "question": "Does Helen read a book in the evening?",
+          "correct_answer": "No, she doesn't. She watches a movie."
+        }
+      ]
+    },
+    {
+      "exercise_id": "18.4",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Jane is a teacher.",
+          "question": "Jane is a teacher.",
+          "options": [
+            "True",
+            "False",
+            "Not given"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_4__eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "Bob is an English teacher.",
+          "options": [
+            "True",
+            "False",
+            "Not given"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Jane is from Dublin.",
+          "options": [
+            "True",
+            "False",
+            "Not given"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Jane's husband is a teacher too.",
+          "options": [
+            "True",
+            "False",
+            "Not given"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Jane's husband works near their house.",
+          "options": [
+            "True",
+            "False",
+            "Not given"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Jane's husband starts work at 8:30am.",
+          "options": [
+            "True",
+            "False",
+            "Not given"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Bob plays tennis every weekend.",
+          "options": [
+            "True",
+            "False",
+            "Not given"
+          ],
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 7,
+          "question": "Jane goes to the movies a lot.",
+          "options": [
+            "True",
+            "False",
+            "Not given"
+          ],
+          "audio_icon_present": false
+        }
+      ]
+    }
+  ]
+}

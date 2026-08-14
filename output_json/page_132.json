@@ -1,0 +1,103 @@
+{
+  "page_number": 132,
+  "unit_number": 41,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "41.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "MUSIC WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "1",
+          "correct_answer": "conductor",
+          "audio_file_path": "audio/41/41_1_conductor.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "2",
+          "correct_answer": "dance",
+          "audio_file_path": "audio/41/41_1_dance.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "3",
+          "correct_answer": "electric guitar"
+        },
+        {
+          "item_number": 7,
+          "question": "7",
+          "correct_answer": "piano"
+        },
+        {
+          "item_number": 8,
+          "question": "8",
+          "correct_answer": "singer",
+          "audio_file_path": "audio/41/41_1_singer.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "9",
+          "correct_answer": "guitarist"
+        },
+        {
+          "item_number": 10,
+          "question": "10",
+          "correct_answer": "album",
+          "audio_file_path": "audio/41/41_1_album.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "14",
+          "correct_answer": "orchestra",
+          "audio_file_path": "audio/41/41_1_orchestra.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "15",
+          "correct_answer": "drums"
+        },
+        {
+          "item_number": 16,
+          "question": "16",
+          "correct_answer": "flute"
+        },
+        {
+          "item_number": 17,
+          "question": "17",
+          "correct_answer": "microphone",
+          "audio_file_path": "audio/41/41_1_microphone.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 21,
+          "question": "21",
+          "correct_answer": "trumpet player"
+        },
+        {
+          "item_number": 22,
+          "question": "22",
+          "correct_answer": "trumpet"
+        },
+        {
+          "item_number": 23,
+          "question": "23",
+          "correct_answer": "concert",
+          "audio_file_path": "audio/41/41_1_concert.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 24,
+          "question": "24",
+          "correct_answer": "violin"
+        }
+      ]
+    }
+  ]
+}

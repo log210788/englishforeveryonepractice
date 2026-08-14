@@ -1,0 +1,260 @@
+{
+  "page_number": 104,
+  "unit_number": 32,
+  "exercises": [
+    {
+      "exercise_id": "32.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"ENOUGH,\" \"NOT ENOUGH,\" \"TOO MANY,\" OR \"TOO MUCH\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There are __________ carrots.",
+          "correct_answer": "not enough",
+          "audio_file_path": "audio/32/32_5_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.47,
+            "width": 87.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There are __________ potatoes.",
+          "correct_answer": "not enough",
+          "audio_file_path": "audio/32/32_5_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 19.24,
+            "left": 7.22,
+            "width": 36.68,
+            "height": 3.18
+          },
+          "audio_icon_box": {
+            "top": 19.24,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "There are __________ tomatoes.",
+          "correct_answer": "not enough",
+          "audio_file_path": "audio/32/32_5_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 21.73,
+            "left": 54.54,
+            "width": 36.53,
+            "height": 3.18
+          },
+          "audio_icon_box": {
+            "top": 21.73,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "There is __________ pasta.",
+          "correct_answer": "too much",
+          "audio_file_path": "audio/32/32_5_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 56.6,
+            "left": 9.82,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 56.6,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "There is __________ oil.",
+          "correct_answer": "not enough",
+          "audio_file_path": "audio/32/32_5_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 60.21,
+            "left": 18.15,
+            "width": 18.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 60.21,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "There is __________ bread.",
+          "correct_answer": "not enough",
+          "audio_file_path": "audio/32/32_5_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 61.39,
+            "left": 60.19,
+            "width": 21.65,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.39,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "There is __________ butter.",
+          "correct_answer": "enough",
+          "audio_file_path": "audio/32/32_5_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 62.45,
+            "left": 9.75,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 62.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "There is __________ flour.",
+          "correct_answer": "not enough",
+          "audio_file_path": "audio/32/32_5_8.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 66.25,
+            "left": 18.75,
+            "width": 20.09,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 66.25,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "There is __________ sugar.",
+          "correct_answer": "too much",
+          "audio_file_path": "audio/32/32_5_9.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 66.25,
+            "left": 60.19,
+            "width": 21.65,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 66.25,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "There are __________ oranges.",
+          "correct_answer": "enough",
+          "audio_file_path": "audio/32/32_5_10.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 71.17,
+            "left": 18.3,
+            "width": 20.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 71.17,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "There are __________ bananas.",
+          "correct_answer": "enough",
+          "audio_file_path": "audio/32/32_5_11.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 71.17,
+            "left": 60.19,
+            "width": 21.65,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 71.17,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "There are __________ eggs.",
+          "correct_answer": "enough",
+          "audio_file_path": "audio/32/32_5_12.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 76.09,
+            "left": 18.3,
+            "width": 20.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 76.09,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "There is __________ milk.",
+          "correct_answer": "enough",
+          "audio_file_path": "audio/32/32_5_13.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 76.09,
+            "left": 61.53,
+            "width": 20.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 76.09,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "page_number": 71,
+  "exercises": [
+    {
+      "exercise_id": "22.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"A,\" \"AN,\" \"SOME,\" OR \"THE\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "We are in Glenmuir, ________ quiet town in Scotland. There's ________ castle and ________ cathedral here. They're beautiful and ________ castle is really old. There are ________ interesting stores, which we visit every day. We also have ________ new friend here. He's called Alfonso and he works as ________ waiter in ________ Italian restaurant next to ________ shopping mall.",
+          "correct_answer": "a, a, a, the, some, a, a, an, the",
+          "audio_file_path": "audio/22/22_3_1.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "22.4",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORDS IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Are there a / an / any factories in your town?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "any",
+          "audio_file_path": "audio/22/22_4_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Is there a / an / any gym downtown?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "a",
+          "audio_file_path": "audio/22/22_4_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Are there a / an / any pencils in your bag?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "any",
+          "audio_file_path": "audio/22/22_4_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Is there a / an / any old church on Station Road?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "an",
+          "audio_file_path": "audio/22/22_4_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Is there a / an / any hospital in the town?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "a",
+          "audio_file_path": "audio/22/22_4_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Is there a / an / any salon near here?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "a",
+          "audio_file_path": "audio/22/22_4_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Is there a / an / any apple in the basket?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "an",
+          "audio_file_path": "audio/22/22_4_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Are there a / an / any restaurants in your town?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "any",
+          "audio_file_path": "audio/22/22_4_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Is there a / an / any library downtown?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "a",
+          "audio_file_path": "audio/22/22_4_9.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "Are there a / an / any books on the table?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "any",
+          "audio_file_path": "audio/22/22_4_10.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "Is there a / an / any café nearby?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "a",
+          "audio_file_path": "audio/22/22_4_11.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "Is there a / an / any cathedral in that town?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "a",
+          "audio_file_path": "audio/22/22_4_12.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 13,
+          "question": "Is there a / an / any bank near the supermarket?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "a",
+          "audio_file_path": "audio/22/22_4_13.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "Are there a / an / any kittens here?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "any",
+          "audio_file_path": "audio/22/22_4_14.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "Is there a / an / any school in this neighborhood?",
+          "options": [
+            "a",
+            "an",
+            "any"
+          ],
+          "correct_answer": "a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_4_15.mp3"
+        }
+      ]
+    }
+  ]
+}

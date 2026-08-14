@@ -1,0 +1,319 @@
+{
+  "page_number": 78,
+  "unit_number": 24,
+  "unit_title": "Joining sentences",
+  "exercises": [
+    {
+      "exercise_id": "24.1",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE BEGINNINGS OF THE SENTENCES TO THE CORRECT ENDINGS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "My cousin lives and",
+          "options": [
+            "a bookstore in my town.",
+            "aunt live in Arizona.",
+            "works in Los Angeles.",
+            "a theater in Heswall.",
+            "basketball in the evening.",
+            "watch TV on the weekend.",
+            "a banana for breakfast."
+          ],
+          "correct_answer": "aunt live in Arizona.",
+          "audio_file_path": "audio/24/24_1_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 19.43,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 19.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "I play soccer and",
+          "options": [
+            "a bookstore in my town.",
+            "aunt live in Arizona.",
+            "works in Los Angeles.",
+            "a theater in Heswall.",
+            "basketball in the evening.",
+            "watch TV on the weekend.",
+            "a banana for breakfast."
+          ],
+          "correct_answer": "basketball in the evening.",
+          "audio_file_path": "audio/24/24_1_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.71,
+            "left": 57.74,
+            "width": 33.93,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "There's a library and",
+          "options": [
+            "a bookstore in my town.",
+            "aunt live in Arizona.",
+            "works in Los Angeles.",
+            "a theater in Heswall.",
+            "basketball in the evening.",
+            "watch TV on the weekend.",
+            "a banana for breakfast."
+          ],
+          "correct_answer": "a bookstore in my town.",
+          "audio_file_path": "audio/24/24_1_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 29.39,
+            "left": 57.66,
+            "width": 34.08,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.39,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "I eat two eggs and",
+          "options": [
+            "a bookstore in my town.",
+            "aunt live in Arizona.",
+            "works in Los Angeles.",
+            "a theater in Heswall.",
+            "basketball in the evening.",
+            "watch TV on the weekend.",
+            "a banana for breakfast."
+          ],
+          "correct_answer": "a banana for breakfast.",
+          "audio_file_path": "audio/24/24_1_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.95,
+            "left": 11.31,
+            "width": 31.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.95,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Pete's uncle and",
+          "options": [
+            "a bookstore in my town.",
+            "aunt live in Arizona.",
+            "works in Los Angeles.",
+            "a theater in Heswall.",
+            "basketball in the evening.",
+            "watch TV on the weekend.",
+            "a banana for breakfast."
+          ],
+          "correct_answer": "works in Los Angeles.",
+          "audio_file_path": "audio/24/24_1_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.64,
+            "left": 57.74,
+            "width": 33.85,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.64,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "I read a book and",
+          "options": [
+            "a bookstore in my town.",
+            "aunt live in Arizona.",
+            "works in Los Angeles.",
+            "a theater in Heswall.",
+            "basketball in the evening.",
+            "watch TV on the weekend.",
+            "a banana for breakfast."
+          ],
+          "correct_answer": "watch TV on the weekend.",
+          "audio_file_path": "audio/24/24_1_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 33.31,
+            "left": 57.66,
+            "width": 34.08,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "24.2",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND MATCH THE TWO PLACES THAT THE SPEAKER DESCRIBES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Match icon 1 to the correct place.",
+          "options": [
+            "restaurant",
+            "mosque",
+            "movie theater",
+            "church",
+            "hospital",
+            "supermarket"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_2_1.mp3",
+          "input_blank_box": {
+            "top": 34.81,
+            "left": 11.31,
+            "width": 31.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.81,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Match icon 2 to the correct place.",
+          "options": [
+            "restaurant",
+            "mosque",
+            "movie theater",
+            "church",
+            "hospital",
+            "supermarket"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_2_2.mp3",
+          "input_blank_box": {
+            "top": 33.62,
+            "left": 11.31,
+            "width": 31.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Match icon 3 to the correct place.",
+          "options": [
+            "restaurant",
+            "mosque",
+            "movie theater",
+            "church",
+            "hospital",
+            "supermarket"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_2_3.mp3",
+          "input_blank_box": {
+            "top": 34.56,
+            "left": 57.81,
+            "width": 33.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.56,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Match icon 4 to the correct place.",
+          "options": [
+            "restaurant",
+            "mosque",
+            "movie theater",
+            "church",
+            "hospital",
+            "supermarket"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_2_4.mp3",
+          "input_blank_box": {
+            "top": 37.24,
+            "left": 57.74,
+            "width": 33.93,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.24,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Match icon 5 to the correct place.",
+          "options": [
+            "restaurant",
+            "mosque",
+            "movie theater",
+            "church",
+            "hospital",
+            "supermarket"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_2_5.mp3",
+          "input_blank_box": {
+            "top": 38.67,
+            "left": 11.24,
+            "width": 31.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 38.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

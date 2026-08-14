@@ -1,0 +1,374 @@
+{
+  "page_number": 128,
+  "unit_number": 40,
+  "unit_title": "Likes and dislikes",
+  "exercises": [
+    {
+      "exercise_id": "40.1",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE CORRECT SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Bill doesn't like cats.",
+          "correct_answer": "Bill doesn't like cats.",
+          "audio_file_path": "audio/40/40_1_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 19.49,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.18
+          },
+          "audio_icon_box": {
+            "top": 19.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "We like cake.",
+          "correct_answer": "We like cake.",
+          "audio_file_path": "audio/40/40_1_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 19.49,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I hate tennis.",
+          "correct_answer": "I hate tennis.",
+          "audio_file_path": "audio/40/40_1_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.71,
+            "left": 32.96,
+            "width": 13.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Samantha likes chocolate.",
+          "correct_answer": "Samantha likes chocolate.",
+          "audio_file_path": "audio/40/40_1_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 33.5,
+            "left": 32.89,
+            "width": 13.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "I don't like pasta.",
+          "correct_answer": "I don't like pasta.",
+          "audio_file_path": "audio/40/40_1_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.88,
+            "left": 54.32,
+            "width": 36.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "They hate board games.",
+          "correct_answer": "They hate board games.",
+          "audio_file_path": "audio/40/40_1_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 43.15,
+            "left": 33.04,
+            "width": 13.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.15,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Shelley loves pizza.",
+          "correct_answer": "Shelley loves pizza.",
+          "audio_file_path": "audio/40/40_1_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 49.88,
+            "left": 32.89,
+            "width": 13.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 49.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.2",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND CHOOSE THE CORRECT ANSWERS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "What does Doug hate?",
+          "options": [
+            "salad",
+            "fries"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 51.37,
+            "left": 33.04,
+            "width": 13.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.37,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "What does Shelley love?",
+          "options": [
+            "sports",
+            "painting"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 58.09,
+            "left": 32.89,
+            "width": 13.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 58.09,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "What does she like doing on the weekend?",
+          "options": [
+            "playing tennis",
+            "reading books"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 59.53,
+            "left": 32.96,
+            "width": 13.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 59.53,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "What does she not like?",
+          "options": [
+            "tennis",
+            "golf"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 66.31,
+            "left": 33.04,
+            "width": 13.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 66.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "What does Doug love doing?",
+          "options": [
+            "watching TV",
+            "listening to music"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 67.75,
+            "left": 32.89,
+            "width": 13.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 67.75,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "What music does Doug like?",
+          "options": [
+            "pop music",
+            "classical music"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 74.53,
+            "left": 33.04,
+            "width": 13.39,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 74.53,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "What he dislike doing?",
+          "options": [
+            "going shopping",
+            "reading newspapers"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 75.97,
+            "left": 33.04,
+            "width": 13.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 75.97,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "What does Shelley like doing in her free time?",
+          "options": [
+            "cooking",
+            "going to the cinema"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 82.69,
+            "left": 32.96,
+            "width": 13.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 82.69,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "What does Shelley dislike?",
+          "options": [
+            "cooking",
+            "scary films"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 84.12,
+            "left": 33.04,
+            "width": 13.54,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 84.12,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "What does she like doing?",
+          "options": [
+            "taking photos",
+            "visiting museums"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_2.mp3",
+          "input_blank_box": {
+            "top": 90.91,
+            "left": 32.96,
+            "width": 13.54,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 90.91,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

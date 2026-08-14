@@ -1,0 +1,81 @@
+{
+  "page_number": 111,
+  "exercises": [
+    {
+      "exercise_id": "34.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS USING THE PHRASES IN THE PANEL",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Sharon's dress",
+          "question": "Sharon's dress is ________.",
+          "correct_answer": "too long",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_8_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "Claire's hat",
+          "question": "Claire's hat is ________.",
+          "correct_answer": "too big",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_8_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "These shoes",
+          "question": "These shoes are ________.",
+          "correct_answer": "too expensive",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_8_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Sophie's pullover",
+          "question": "Sophie's pullover is ________.",
+          "correct_answer": "too small",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_8_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Corrine's coat",
+          "question": "Corrine's coat is ________.",
+          "correct_answer": "too big",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_8_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Emma's sweater",
+          "question": "Emma's sweater is ________.",
+          "correct_answer": "too small",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_8_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Chloe's scarf",
+          "question": "Chloe's scarf is ________.",
+          "correct_answer": "too long",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Phoebe's shoes",
+          "question": "Phoebe's shoes are ________.",
+          "correct_answer": "too small",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "Joshua's jacket",
+          "question": "Joshua's jacket is ________.",
+          "correct_answer": "big enough",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

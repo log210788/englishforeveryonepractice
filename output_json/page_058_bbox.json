@@ -1,0 +1,251 @@
+{
+  "page_number": 58,
+  "unit_number": 18,
+  "unit_title": "Answering questions",
+  "exercises": [
+    {
+      "exercise_id": "18.1",
+      "exercise_type": "multiple_choice",
+      "instruction": "MARK THE BEST REPLY TO EACH QUESTION",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Do you live in Chicago?",
+          "options": [
+            "Yes, I am.",
+            "Yes, I do."
+          ],
+          "correct_answer": "Yes, I do.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_1_1.mp3",
+          "input_blank_box": {
+            "top": 19.55,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.55,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Are they your children?",
+          "options": [
+            "No, they aren't.",
+            "No, they don't."
+          ],
+          "correct_answer": "No, they aren't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_1_2.mp3",
+          "input_blank_box": {
+            "top": 28.83,
+            "left": 55.36,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.83,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Is this your necklace?",
+          "options": [
+            "Yes, it is.",
+            "Yes, it does."
+          ],
+          "correct_answer": "Yes, it is.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_1_3.mp3",
+          "input_blank_box": {
+            "top": 28.83,
+            "left": 76.86,
+            "width": 13.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.83,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Does she work at the hospital?",
+          "options": [
+            "Yes, she is.",
+            "Yes, she does."
+          ],
+          "correct_answer": "Yes, she does.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_1_4.mp3",
+          "input_blank_box": {
+            "top": 31.51,
+            "left": 32.29,
+            "width": 13.1,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Is your name Stefan?",
+          "options": [
+            "Yes, it is.",
+            "No, it doesn't."
+          ],
+          "correct_answer": "Yes, it is.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_1_5.mp3",
+          "input_blank_box": {
+            "top": 31.88,
+            "left": 31.85,
+            "width": 13.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "18.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS WITH THE CORRECT SHORT ANSWERS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Is this your cat?",
+          "question": "Yes, ________.",
+          "correct_answer": "it is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_2_eg.mp3",
+          "input_blank_box": {
+            "top": 33.44,
+            "left": 76.64,
+            "width": 13.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.44,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "Do you play golf? No, ________.",
+          "correct_answer": "I don't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_2_1.mp3",
+          "input_blank_box": {
+            "top": 33.81,
+            "left": 76.71,
+            "width": 13.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.81,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Is Paula your wife? Yes, ________.",
+          "correct_answer": "she is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_2_2.mp3",
+          "input_blank_box": {
+            "top": 36.49,
+            "left": 32.22,
+            "width": 13.17,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 36.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Does Peter speak French? No, ________.",
+          "correct_answer": "he doesn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_2_3.mp3",
+          "input_blank_box": {
+            "top": 36.43,
+            "left": 55.21,
+            "width": 9.0,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 36.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Do they work at the factory? No, ________.",
+          "correct_answer": "they don't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_2_4.mp3",
+          "input_blank_box": {
+            "top": 37.73,
+            "left": 9.75,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.73,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Is Mario from Italy? Yes, ________.",
+          "correct_answer": "he is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/18/18_2_5.mp3",
+          "input_blank_box": {
+            "top": 38.42,
+            "left": 76.79,
+            "width": 13.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 38.42,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

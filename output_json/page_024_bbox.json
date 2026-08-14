@@ -1,0 +1,350 @@
+{
+  "page_number": 24,
+  "unit_number": 7,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "7.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "EVERYDAY THINGS WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "sample",
+          "question": "Picture sample",
+          "correct_answer": "wallet",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_eg.mp3",
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 93.45,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 19.68,
+            "left": 82.37,
+            "width": 5.51,
+            "height": 3.8
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Picture 1",
+          "correct_answer": "notepad",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_1.mp3",
+          "input_blank_box": {
+            "top": 17.62,
+            "left": 9.23,
+            "width": 13.02,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 59.53,
+            "left": 43.45,
+            "width": 1.26,
+            "height": 1.37
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Picture 2",
+          "correct_answer": "sunglasses",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_2.mp3",
+          "input_blank_box": {
+            "top": 22.91,
+            "left": 57.22,
+            "width": 11.61,
+            "height": 4.3
+          },
+          "audio_icon_box": {
+            "top": 59.4,
+            "left": 84.38,
+            "width": 1.71,
+            "height": 1.81
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Picture 3",
+          "correct_answer": "keys",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_3.mp3",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 9.08,
+            "width": 13.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 62.33,
+            "left": 45.54,
+            "width": 1.86,
+            "height": 1.87
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "Picture 7",
+          "correct_answer": "ID card",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_7.mp3",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 35.57,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.64,
+            "left": 86.61,
+            "width": 1.56,
+            "height": 1.06
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "Picture 8",
+          "correct_answer": "letter",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_8.mp3",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 58.78,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.96,
+            "left": 87.05,
+            "width": 2.53,
+            "height": 2.49
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "Picture 9",
+          "correct_answer": "toothbrush",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_9.mp3",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 82.59,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 82.5,
+            "left": 11.76,
+            "width": 2.75,
+            "height": 1.87
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "Picture 10",
+          "correct_answer": "hairbrush",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_10.mp3",
+          "input_blank_box": {
+            "top": 40.54,
+            "left": 61.61,
+            "width": 9.0,
+            "height": 3.3
+          },
+          "audio_icon_box": {
+            "top": 82.5,
+            "left": 40.33,
+            "width": 2.01,
+            "height": 1.31
+          }
+        },
+        {
+          "item_number": 14,
+          "prompt_text": null,
+          "question": "Picture 14",
+          "correct_answer": "pencil",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_14.mp3",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 10.49,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "prompt_text": null,
+          "question": "Picture 15",
+          "correct_answer": "dictionary",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_15.mp3",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 34.52,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 16,
+          "prompt_text": null,
+          "question": "Picture 16",
+          "correct_answer": "apple",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_16.mp3",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 58.63,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 17,
+          "prompt_text": null,
+          "question": "Picture 17",
+          "correct_answer": "book",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_17.mp3",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 82.74,
+            "width": 10.79,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 21,
+          "prompt_text": null,
+          "question": "Picture 21",
+          "correct_answer": "passport",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_21.mp3",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 10.49,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 22,
+          "prompt_text": null,
+          "question": "Picture 22",
+          "correct_answer": "magazine",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_22.mp3",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 34.52,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 23,
+          "prompt_text": null,
+          "question": "Picture 23",
+          "correct_answer": "camera",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_23.mp3",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 58.63,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 24,
+          "prompt_text": null,
+          "question": "Picture 24",
+          "correct_answer": "glasses",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_24.mp3",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 82.74,
+            "width": 10.79,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

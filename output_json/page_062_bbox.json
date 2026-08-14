@@ -1,0 +1,411 @@
+{
+  "page_number": 62,
+  "exercises": [
+    {
+      "exercise_id": "19.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "What do you do?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_eg.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "do you study?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_1.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 36.53,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "do you want?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5.mp3",
+          "input_blank_box": {
+            "top": 11.89,
+            "left": 11.16,
+            "width": 30.95,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 11.89,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "building is your college?",
+          "correct_answer": "Which",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_3.mp3",
+          "input_blank_box": {
+            "top": 14.2,
+            "left": 11.31,
+            "width": 19.2,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.2,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "do you live?",
+          "correct_answer": "Where",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_4.mp3",
+          "input_blank_box": {
+            "top": 14.88,
+            "left": 56.18,
+            "width": 12.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "time do you wake up?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_5.mp3",
+          "input_blank_box": {
+            "top": 16.06,
+            "left": 9.75,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "many shirts do you own?",
+          "correct_answer": "How",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_6.mp3",
+          "input_blank_box": {
+            "top": 15.26,
+            "left": 10.79,
+            "width": 31.25,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "do you want for lunch?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_7.mp3",
+          "input_blank_box": {
+            "top": 16.13,
+            "left": 55.8,
+            "width": 30.88,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.13,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "does the course finish?",
+          "correct_answer": "When",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_8.mp3",
+          "input_blank_box": {
+            "top": 17.5,
+            "left": 12.5,
+            "width": 31.03,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "do you do in the evening?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_9.mp3",
+          "input_blank_box": {
+            "top": 17.5,
+            "left": 55.65,
+            "width": 31.18,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "19.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Which school do he go to?",
+          "correct_answer": "Which school does he go to?",
+          "audio_file_path": "audio/19/19_6_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 19.68,
+            "left": 12.95,
+            "width": 18.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Why does Kevin works there?",
+          "correct_answer": "Why does Kevin work there?",
+          "audio_file_path": "audio/19/19_6_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 19.68,
+            "left": 56.18,
+            "width": 10.12,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Where do your friend live?",
+          "correct_answer": "Where does your friend live?",
+          "audio_file_path": "audio/19/19_6_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.86,
+            "left": 12.35,
+            "width": 31.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.86,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Where are your car?",
+          "correct_answer": "Where is your car?",
+          "audio_file_path": "audio/19/19_6_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.29,
+            "left": 12.8,
+            "width": 30.88,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.29,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "What do your brother do?",
+          "correct_answer": "What does your brother do?",
+          "audio_file_path": "audio/19/19_6_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.86,
+            "left": 55.51,
+            "width": 31.55,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.86,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "19.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES AS QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "My uncle is very well, thanks.",
+          "question": "How",
+          "correct_answer": "How is your uncle?",
+          "audio_file_path": "audio/19/19_7_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.29,
+            "left": 55.58,
+            "width": 30.95,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.29,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "My wife is the woman with long dark hair.",
+          "question": "Which",
+          "correct_answer": "Which woman is your wife?",
+          "audio_file_path": "audio/19/19_7_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 25.65,
+            "left": 12.35,
+            "width": 31.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 25.65,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "I work at the school on Sandy Lane.",
+          "question": "Where",
+          "correct_answer": "Where do you work?",
+          "audio_file_path": "audio/19/19_7_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 24.47,
+            "left": 12.95,
+            "width": 18.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.47,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "The meeting is at 3:30pm.",
+          "question": "What",
+          "correct_answer": "What time is the meeting?",
+          "audio_file_path": "audio/19/19_7_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 25.65,
+            "left": 55.65,
+            "width": 31.25,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 25.65,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "I finish work at 7pm tonight.",
+          "question": "When",
+          "correct_answer": "When do you finish work?",
+          "audio_file_path": "audio/19/19_7_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 24.47,
+            "left": 56.18,
+            "width": 11.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.47,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

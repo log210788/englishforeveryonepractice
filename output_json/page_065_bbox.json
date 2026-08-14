@@ -1,0 +1,100 @@
+{
+  "page_number": 65,
+  "exercises": [
+    {
+      "exercise_id": "1",
+      "exercise_type": "matching",
+      "instruction": "LABEL THE PICTURES USING THE WORDS IN THE BOX",
+      "items": [
+        {
+          "item_number": 5,
+          "question": "hotel",
+          "correct_answer": "hotel",
+          "input_blank_box": {
+            "top": 10.83,
+            "left": 0.0,
+            "width": 93.53,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "near",
+          "correct_answer": "near",
+          "input_blank_box": {
+            "top": 16.44,
+            "left": 10.04,
+            "width": 8.26,
+            "height": 4.79
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "airport",
+          "correct_answer": "airport",
+          "input_blank_box": {
+            "top": 15.75,
+            "left": 42.11,
+            "width": 47.17,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "far",
+          "correct_answer": "far",
+          "input_blank_box": {
+            "top": 21.23,
+            "left": 10.04,
+            "width": 8.26,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 19,
+          "question": "bar",
+          "correct_answer": "bar",
+          "input_blank_box": {
+            "top": 23.1,
+            "left": 10.04,
+            "width": 8.26,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 20,
+          "question": "park",
+          "correct_answer": "park",
+          "input_blank_box": {
+            "top": 24.47,
+            "left": 10.04,
+            "width": 8.26,
+            "height": 3.11
+          }
+        },
+        {
+          "item_number": 26,
+          "question": "café",
+          "correct_answer": "café",
+          "input_blank_box": {
+            "top": 27.77,
+            "left": 10.04,
+            "width": 8.26,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 27,
+          "question": "there",
+          "correct_answer": "there",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 8.93,
+            "width": 12.35,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

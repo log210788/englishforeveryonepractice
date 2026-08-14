@@ -1,0 +1,253 @@
+{
+  "page_number": 92,
+  "unit_number": 29,
+  "unit_title": "What do you have?",
+  "exercises": [
+    {
+      "exercise_id": "29.1",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE WORDS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "fork",
+          "correct_answer": "fork",
+          "audio_file_path": "audio/29/29_1_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 19.43,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.18
+          },
+          "audio_icon_box": {
+            "top": 19.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "washing machine",
+          "correct_answer": "washing machine",
+          "audio_file_path": "audio/29/29_1_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 19.43,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "kettle",
+          "correct_answer": "kettle",
+          "audio_file_path": "audio/29/29_1_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.03,
+            "left": 32.74,
+            "width": 13.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.03,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "toaster",
+          "correct_answer": "toaster",
+          "audio_file_path": "audio/29/29_1_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.71,
+            "left": 54.99,
+            "width": 35.12,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "refrigerator",
+          "correct_answer": "refrigerator",
+          "audio_file_path": "audio/29/29_1_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.2,
+            "left": 55.36,
+            "width": 35.12,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.2,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "sink",
+          "correct_answer": "sink",
+          "audio_file_path": "audio/29/29_1_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 32.75,
+            "left": 32.66,
+            "width": 13.91,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.75,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "plate",
+          "correct_answer": "plate",
+          "audio_file_path": "audio/29/29_1_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 32.44,
+            "left": 54.39,
+            "width": 35.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.44,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE STATEMENTS AS QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "The house has a yard.",
+          "correct_answer": "Does the house have a yard?",
+          "input_blank_box": {
+            "top": 38.61,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Their kitchen has a refrigerator.",
+          "correct_answer": "Does their kitchen have a refrigerator?",
+          "input_blank_box": {
+            "top": 42.59,
+            "left": 32.74,
+            "width": 13.84,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Bill’s house has a big garage.",
+          "correct_answer": "Does Bill’s house have a big garage?",
+          "input_blank_box": {
+            "top": 45.14,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "You have a sofa.",
+          "correct_answer": "Do you have a sofa?",
+          "input_blank_box": {
+            "top": 49.38,
+            "left": 32.66,
+            "width": 13.84,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Barry has a kettle.",
+          "correct_answer": "Does Barry have a kettle?",
+          "input_blank_box": {
+            "top": 50.93,
+            "left": 32.81,
+            "width": 13.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "She has a barbecue at her house.",
+          "correct_answer": "Does she have a barbecue at her house?",
+          "input_blank_box": {
+            "top": 51.68,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Marge has a new washing machine.",
+          "correct_answer": "Does Marge have a new washing machine?",
+          "input_blank_box": {
+            "top": 57.72,
+            "left": 32.81,
+            "width": 13.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Jack and Marienne have a TV.",
+          "correct_answer": "Do Jack and Marienne have a TV?",
+          "input_blank_box": {
+            "top": 59.22,
+            "left": 32.66,
+            "width": 13.99,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Leela’s brother has a knife and fork.",
+          "correct_answer": "Does Leela’s brother have a knife and fork?",
+          "input_blank_box": {
+            "top": 58.22,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

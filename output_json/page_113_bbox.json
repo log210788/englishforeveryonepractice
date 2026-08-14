@@ -1,0 +1,321 @@
+{
+  "page_number": 113,
+  "exercises": [
+    {
+      "exercise_id": "35.2",
+      "exercise_type": "true_false",
+      "instruction": "MARK THE SENTENCES THAT ARE CORRECT",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Our house has a pretty little yard. / Our house has a little pretty yard.",
+          "correct_answer": "Our house has a pretty little yard.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "James has a leather ugly jacket. / James has an ugly leather jacket.",
+          "correct_answer": "James has an ugly leather jacket.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 51.26,
+            "width": 42.34,
+            "height": 3.24
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Pete has a wooden old table. / Pete has an old wooden table.",
+          "correct_answer": "Pete has an old wooden table.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 34.97,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "This is a brilliant new book. / This is a new brilliant book.",
+          "correct_answer": "This is a brilliant new book.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 13.64,
+            "left": 54.99,
+            "width": 35.04,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Shelley's got a beautiful glass bottle. / Shelley's got a glass beautiful bottle.",
+          "correct_answer": "Shelley's got a beautiful glass bottle.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 16.31,
+            "left": 9.67,
+            "width": 35.79,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "That was such a boring old film. / That was such an old boring film.",
+          "correct_answer": "That was such a boring old film.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 20.05,
+            "left": 54.32,
+            "width": 36.16,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "That's an ugly woolen sweater. / That's a woolen ugly sweater.",
+          "correct_answer": "That's an ugly woolen sweater.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 21.3,
+            "left": 54.54,
+            "width": 36.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Those are black boring shoes. / Those are boring black shoes.",
+          "correct_answer": "Those are boring black shoes.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 28.64,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "I've got a horrible old car. / I've got an old horrible car.",
+          "correct_answer": "I've got a horrible old car.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 37.48,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Simone has a beautiful gray parrot. / Simone has a gray beautiful parrot.",
+          "correct_answer": "Simone has a beautiful gray parrot.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 46.64,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "That's an old horrible house! / That's a horrible old house!",
+          "correct_answer": "That's a horrible old house!",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 55.54,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "You've got a red nice shirt. / You've got a nice red shirt.",
+          "correct_answer": "You've got a nice red shirt.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 64.38,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 64.38,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "35.3",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "beautiful Jill's got dog. a black",
+          "correct_answer": "Jill's got a beautiful black dog.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_1.mp3",
+          "input_blank_box": {
+            "top": 73.23,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 73.23,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "new nice has house. a Simon",
+          "correct_answer": "Simon has a nice new house.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_2.mp3",
+          "input_blank_box": {
+            "top": 82.07,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 82.07,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "ugly have old an car. They",
+          "correct_answer": "They have an ugly old car.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_3.mp3",
+          "input_blank_box": {
+            "top": 90.91,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 90.91,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "red pretty are shoes. Those",
+          "correct_answer": "Those are pretty red shoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_4.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 39.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "pink an ugly hat. That's",
+          "correct_answer": "That's an ugly pink hat.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_5.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 52.46,
+            "width": 39.81,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "a has brown horrible snake. Greg",
+          "correct_answer": "Greg has a horrible brown snake.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "got You've black a bag. beautiful",
+          "correct_answer": "You've got a beautiful black bag.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "new is great a book. This",
+          "correct_answer": "This is a great new book.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

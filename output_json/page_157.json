@@ -1,0 +1,750 @@
+{
+  "page_number": 157,
+  "exercises": [
+    {
+      "exercise_id": "5.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Their dog is called Beth.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "His tortoise is 50 years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "My cat is called Sam.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Our lion is from Kenya.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Your rabbit eats grass.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Here is its bed.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Their snake is called Sid.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Buster is my monkey.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Your parrot is from Venezuela.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "Her cat is called Tabatha.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "Their monkey is from Morocco.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "Her pig lives on a farm.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "question": "His horse is called Prancer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_13.mp3"
+        },
+        {
+          "item_number": 14,
+          "question": "Our chicken lives in the garden.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_1_14.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "5.2",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Fido is my dog.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Cookie is his cat.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "It is our chicken.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Ziggy is your parrot.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Hiss is their snake.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Max is our monkey.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "It is her rabbit.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Ed is my horse.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Rex is your dog.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "Nemo is her fish.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "It is our sheep.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_2_11.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "5.3",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "This is her rabbit.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "This is its ball.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "That is our dog.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "This is his snake.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "That is my horse.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_3_5.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "5.4",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Their fish is called Bob.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "This is their cow.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/5/5_4_2.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "5.5",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "This is her cat.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "This is her parrot.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "This is their cat.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "This is their parrot.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "This is my cat.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "This is my parrot.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "That is her cat.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "That is her parrot.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "That is their cat.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "That is their parrot.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "That is my cat.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "That is my parrot.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "6.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the phrases.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Joe and Greg's dog",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Dolly's granddaughters",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Sue's house",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Pete and Aziz's snake",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_1_4.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "6.2",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Arthur is Sam's grandfather.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Frank is Sam's father.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Charlotte is Sam's mother.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Micky is Sam's brother.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Sally is Sam's sister.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Ronaldo is Sam's friend.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Rebecca is Sam's cousin.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "6.3",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the answers.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "True",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "False",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "False",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "True",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "False",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "6.4",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "That's my grandparents' car.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "These are Pete and Omar's cats.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I am Sally's granddaughter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Where is your parents' house?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Samantha is Barry's new wife.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_4_5.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "6.5",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Sooty is my brothers' cat.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_5_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "They are Tammy's parents.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_5_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "This is our children's snake.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_5_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "My parents' house is small.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/6/6_5_4.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "7.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the words.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "notebook",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "sunglasses",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "keys",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "pen",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "necklace",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "newspaper",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "ID card",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "letter",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "toothbrush",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "hairbrush",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "bottle of water",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "laptop",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "question": "earphones",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_13.mp3"
+        },
+        {
+          "item_number": 14,
+          "question": "pencil",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_14.mp3"
+        },
+        {
+          "item_number": 15,
+          "question": "dictionary",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_15.mp3"
+        },
+        {
+          "item_number": 16,
+          "question": "apple",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_16.mp3"
+        },
+        {
+          "item_number": 17,
+          "question": "book",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_17.mp3"
+        },
+        {
+          "item_number": 18,
+          "question": "tablet",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_18.mp3"
+        },
+        {
+          "item_number": 19,
+          "question": "mirror",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_19.mp3"
+        },
+        {
+          "item_number": 20,
+          "question": "coins",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_20.mp3"
+        },
+        {
+          "item_number": 21,
+          "question": "passport",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_21.mp3"
+        },
+        {
+          "item_number": 22,
+          "question": "magazine",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_22.mp3"
+        },
+        {
+          "item_number": 23,
+          "question": "camera",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_23.mp3"
+        },
+        {
+          "item_number": 24,
+          "question": "glasses",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_24.mp3"
+        },
+        {
+          "item_number": 25,
+          "question": "map",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_25.mp3"
+        },
+        {
+          "item_number": 26,
+          "question": "umbrella",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_26.mp3"
+        },
+        {
+          "item_number": 27,
+          "question": "sandwich",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/7/7_1_27.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "These are my mom's glasses.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Those are Samantha's keys.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "This is Tom's umbrella.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "This is my dog.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Those are Pete's books.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "That is your newspaper.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "These are my tickets.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "These are Marge's earrings.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "These are his daughters.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "That is my teacher.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "That is your watch.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_1_11.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.2",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "This is my letter.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "These are my purses.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+        }
+      ]
+    }
+  ]
+}

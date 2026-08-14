@@ -1,0 +1,131 @@
+{
+  "page_number": 68,
+  "unit_number": 21,
+  "exercises": [
+    {
+      "exercise_id": "21.6",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND MARK THE CORRECT ANSWERS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Gordon is describing the town he lives in with his family.",
+          "question": "Melcome is in...",
+          "options": [
+            "Scotland.",
+            "Canada.",
+            "England.",
+            "New Zealand."
+          ],
+          "correct_answer": "Canada.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_6.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "There are two ...... in Melcome.",
+          "options": [
+            "post offices",
+            "banks",
+            "churches",
+            "offices"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_6.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Gordon works in a...",
+          "options": [
+            "museum.",
+            "café.",
+            "factory.",
+            "primary school."
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_6.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "In the evening Gordon goes to a...",
+          "options": [
+            "library.",
+            "café.",
+            "restaurant.",
+            "swimming pool."
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_6.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Gordon's wife works in a...",
+          "options": [
+            "hospital.",
+            "theater.",
+            "store.",
+            "post office."
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_6.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Gordon's son is a...",
+          "options": [
+            "teacher.",
+            "doctor.",
+            "police officer.",
+            "actor."
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "21.7",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "are three cafés. There",
+          "correct_answer": "There are three cafés.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_7_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "supermarket. is a There",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "restaurants. There any aren't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "hotels. are There no",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "There three are schools.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "is station. a There bus",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_7_5.mp3"
+        }
+      ]
+    }
+  ]
+}

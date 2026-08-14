@@ -1,0 +1,196 @@
+{
+  "page_number": 45,
+  "unit_number": 14,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "14.7",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO, THEN NUMBER THE PICTURES IN THE ORDER THEY ARE DESCRIBED",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Picture of a couple dining at a restaurant",
+          "question": "A",
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Picture of a woman playing tennis",
+          "question": "B",
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Picture of a woman diving into a swimming pool",
+          "question": "C",
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Picture of a person reading on a sofa",
+          "question": "D",
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Picture of a woman running on a treadmill",
+          "question": "E",
+          "correct_answer": "1",
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Picture of a man playing soccer",
+          "question": "F",
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7",
+          "audio_file_path": "audio/14/14_7_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "14.8",
+      "exercise_type": "multiple_choice",
+      "instruction": "LISTEN TO 14.7 AGAIN AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Sample question",
+          "question": "Kate goes to the gym on...",
+          "options": [
+            "Monday",
+            "Tuesday",
+            "Friday"
+          ],
+          "correct_answer": "Friday",
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        },
+        {
+          "item_number": 1,
+          "question": "Paul is a...",
+          "options": [
+            "farmer",
+            "teacher",
+            "doctor"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        },
+        {
+          "item_number": 2,
+          "question": "Jane is a...",
+          "options": [
+            "nurse",
+            "doctor",
+            "teacher"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        },
+        {
+          "item_number": 3,
+          "question": "On the weekend, Jane goes to...",
+          "options": [
+            "a restaurant",
+            "the movies",
+            "a gym"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        },
+        {
+          "item_number": 4,
+          "question": "Sally gets up at...",
+          "options": [
+            "6am",
+            "7am",
+            "8am"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        },
+        {
+          "item_number": 5,
+          "question": "Sally goes swimming on...",
+          "options": [
+            "Saturday",
+            "Sunday",
+            "Thursday"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        },
+        {
+          "item_number": 6,
+          "question": "Eric works at the...",
+          "options": [
+            "school",
+            "theater",
+            "restaurant"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        },
+        {
+          "item_number": 7,
+          "question": "Eric works... a week.",
+          "options": [
+            "twice",
+            "three days",
+            "four days"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        },
+        {
+          "item_number": 8,
+          "question": "Claire is a...",
+          "options": [
+            "waitress",
+            "carpenter",
+            "farmer"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        },
+        {
+          "item_number": 9,
+          "question": "Claire starts work at...",
+          "options": [
+            "6am",
+            "4pm",
+            "6pm"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "14.7"
+        }
+      ]
+    }
+  ]
+}

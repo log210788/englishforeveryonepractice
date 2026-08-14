@@ -1,0 +1,490 @@
+{
+  "page_number": 88,
+  "unit_number": 28,
+  "unit_title": "The things I have",
+  "exercises": [
+    {
+      "exercise_id": "28.1",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "My friend have / has new glasses.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_1.mp3",
+          "input_blank_box": {
+            "top": 19.49,
+            "left": 6.55,
+            "width": 46.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.65,
+            "left": 10.57,
+            "width": 5.95,
+            "height": 4.11
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "John have / has two dogs.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_2.mp3",
+          "input_blank_box": {
+            "top": 19.43,
+            "left": 55.36,
+            "width": 38.17,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.08,
+            "left": 11.46,
+            "width": 4.17,
+            "height": 2.68
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We have / has an old castle in our city.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_3.mp3",
+          "input_blank_box": {
+            "top": 26.71,
+            "left": 10.34,
+            "width": 39.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.1,
+            "left": 11.01,
+            "width": 3.94,
+            "height": 3.11
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "They have / has a lot of parks in their town.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_4.mp3",
+          "input_blank_box": {
+            "top": 29.2,
+            "left": 63.76,
+            "width": 10.12,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.34,
+            "left": 10.64,
+            "width": 1.93,
+            "height": 2.12
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "I have / has a beautiful necklace.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_5.mp3",
+          "input_blank_box": {
+            "top": 30.2,
+            "left": 58.04,
+            "width": 32.89,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 45.02,
+            "left": 11.09,
+            "width": 5.13,
+            "height": 4.05
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Alex have / has a new camera.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_6.mp3",
+          "input_blank_box": {
+            "top": 32.5,
+            "left": 9.82,
+            "width": 39.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.5,
+            "left": 10.64,
+            "width": 3.2,
+            "height": 3.61
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Our house have / has a lovely yard.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_7.mp3",
+          "input_blank_box": {
+            "top": 32.94,
+            "left": 72.02,
+            "width": 9.08,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.71,
+            "left": 10.71,
+            "width": 5.06,
+            "height": 3.36
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Phil and Sue have / has four daughters.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_8.mp3",
+          "input_blank_box": {
+            "top": 36.36,
+            "left": 62.72,
+            "width": 8.41,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 67.87,
+            "left": 11.38,
+            "width": 2.01,
+            "height": 2.37
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Pete have / has a new cell phone.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_9.mp3",
+          "input_blank_box": {
+            "top": 39.79,
+            "left": 62.43,
+            "width": 8.71,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 67.37,
+            "left": 13.84,
+            "width": 2.83,
+            "height": 2.86
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Your town have / has a big hotel.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_10.mp3",
+          "input_blank_box": {
+            "top": 43.15,
+            "left": 64.43,
+            "width": 12.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.21,
+            "left": 12.35,
+            "width": 3.05,
+            "height": 2.62
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "I have / has a lot of friends.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_11.mp3",
+          "input_blank_box": {
+            "top": 46.58,
+            "left": 67.49,
+            "width": 9.0,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 83.44,
+            "left": 11.83,
+            "width": 4.02,
+            "height": 3.49
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"HAS\" OR \"HAVE\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Bob and Shirley ________ a big dog.",
+          "correct_answer": "have",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 63.32,
+            "width": 9.0,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "She ________ some new friends.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 53.36,
+            "left": 62.13,
+            "width": 10.34,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We ________ two sons at home.",
+          "correct_answer": "have",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 56.79,
+            "left": 69.57,
+            "width": 9.08,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "James ________ two cars.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 60.21,
+            "left": 62.8,
+            "width": 9.08,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "His house ________ three bedrooms.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 63.64,
+            "left": 60.42,
+            "width": 11.46,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Pam ________ lots of books at home.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 67.06,
+            "left": 71.43,
+            "width": 9.75,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "He ________ two cats.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 70.67,
+            "left": 62.43,
+            "width": 13.1,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Sally's house ________ a new kitchen.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 74.1,
+            "left": 64.88,
+            "width": 14.36,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "You ________ a beautiful house.",
+          "correct_answer": "have",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 77.46,
+            "left": 62.8,
+            "width": 16.74,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "I ________ three sisters.",
+          "correct_answer": "have",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 80.88,
+            "left": 63.32,
+            "width": 14.66,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "Kelly and Mark ________ a microwave.",
+          "correct_answer": "have",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 87.67,
+            "left": 60.42,
+            "width": 12.43,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "We ________ a castle in our town.",
+          "correct_answer": "have",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 43.75,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "Sanjay ________ a cat and a dog.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 56.55,
+            "width": 35.71,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "You ________ three brothers.",
+          "correct_answer": "have",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "Ross ________ a new cell phone.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "Our house ________ two bathrooms.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "I ________ a couch in my room.",
+          "correct_answer": "have",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 18,
+          "question": "Washington ________ some lovely parks.",
+          "correct_answer": "has",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        }
+      ]
+    }
+  ]
+}

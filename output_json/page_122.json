@@ -1,0 +1,110 @@
+{
+  "page_number": 122,
+  "unit_number": 38,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "38.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "HOBBIES AND PASTIMES WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "play the piano"
+        },
+        {
+          "item_number": 2,
+          "question": "write",
+          "audio_file_path": "audio/38/38_1_write.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "yoga"
+        },
+        {
+          "item_number": 4,
+          "question": "play video games"
+        },
+        {
+          "item_number": 7,
+          "question": "run"
+        },
+        {
+          "item_number": 8,
+          "question": "sew",
+          "audio_file_path": "audio/38/38_1_sew.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "go shopping",
+          "audio_file_path": "audio/38/38_1_goshopping.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "garden"
+        },
+        {
+          "item_number": 11,
+          "question": "draw",
+          "audio_file_path": "audio/38/38_1_draw.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "listen to music",
+          "audio_file_path": "audio/38/38_1_listentomusic.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "do puzzles",
+          "audio_file_path": "audio/38/38_1_dopuzzles.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 16,
+          "question": "watch movies"
+        },
+        {
+          "item_number": 17,
+          "question": "visit museums"
+        },
+        {
+          "item_number": 18,
+          "question": "play cards",
+          "audio_file_path": "audio/38/38_1_playcards.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 21,
+          "question": "knit",
+          "audio_file_path": "audio/38/38_1_knit.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 22,
+          "question": "paint",
+          "audio_file_path": "audio/38/38_1_paint.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 23,
+          "question": "read",
+          "audio_file_path": "audio/38/38_1_read.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 24,
+          "question": "birdwatch"
+        },
+        {
+          "item_number": 25,
+          "question": "eat out"
+        }
+      ]
+    }
+  ]
+}

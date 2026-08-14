@@ -1,0 +1,52 @@
+{
+  "page_number": 123,
+  "exercises": [
+    {
+      "exercise_id": "1",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE WORDS TO THE PICTURES",
+      "items": [
+        {
+          "item_number": 5,
+          "question": "5",
+          "correct_answer": "watch television"
+        },
+        {
+          "item_number": 6,
+          "question": "6",
+          "correct_answer": "walk / hike"
+        },
+        {
+          "item_number": 12,
+          "question": "12",
+          "correct_answer": "go camping"
+        },
+        {
+          "item_number": 13,
+          "question": "13",
+          "correct_answer": "cook"
+        },
+        {
+          "item_number": 19,
+          "question": "19",
+          "correct_answer": "see a play"
+        },
+        {
+          "item_number": 20,
+          "question": "20",
+          "correct_answer": "meet friends"
+        },
+        {
+          "item_number": 26,
+          "question": "26",
+          "correct_answer": "play chess"
+        },
+        {
+          "item_number": 27,
+          "question": "27",
+          "correct_answer": "take photos"
+        }
+      ]
+    }
+  ]
+}

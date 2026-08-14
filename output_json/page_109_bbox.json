@@ -1,0 +1,323 @@
+{
+  "page_number": 109,
+  "exercises": [
+    {
+      "exercise_id": "34.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "That blouse don't fit you.",
+          "correct_answer": "That blouse doesn't fit you.",
+          "audio_file_path": "audio/34/34_3_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.4,
+            "left": 57.22,
+            "width": 2.46,
+            "height": 1.56
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Sue always try on her new clothes.",
+          "correct_answer": "Sue always tries on her new clothes.",
+          "audio_file_path": "audio/34/34_3_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.9,
+            "left": 9.82,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Rob want a new tie for Christmas.",
+          "correct_answer": "Rob wants a new tie for Christmas.",
+          "audio_file_path": "audio/34/34_3_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.63,
+            "left": 9.82,
+            "width": 37.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Peter buy his meat at the butcher's shop.",
+          "correct_answer": "Peter buys his meat at the butcher's shop.",
+          "audio_file_path": "audio/34/34_3_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.44,
+            "left": 10.64,
+            "width": 36.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.44,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Jose own a beautiful house in France.",
+          "correct_answer": "Jose owns a beautiful house in France.",
+          "audio_file_path": "audio/34/34_3_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.88,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "My jeans doesn't fit me. They're too big.",
+          "correct_answer": "My jeans don't fit me. They're too big.",
+          "input_blank_box": {
+            "top": 22.91,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Samantha choose high-quality clothes.",
+          "correct_answer": "Samantha chooses high-quality clothes.",
+          "input_blank_box": {
+            "top": 22.91,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "They sells vegetables in the market.",
+          "correct_answer": "They sell vegetables in the market.",
+          "input_blank_box": {
+            "top": 30.01,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Do you wants a new shirt for your birthday?",
+          "correct_answer": "Do you want a new shirt for your birthday?",
+          "input_blank_box": {
+            "top": 30.01,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "34.4",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT ADJECTIVE IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "This is a new / old T-shirt.",
+          "options": [
+            "new",
+            "old"
+          ],
+          "correct_answer": "new",
+          "input_blank_box": {
+            "top": 37.05,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "These are short / long jeans.",
+          "options": [
+            "short",
+            "long"
+          ],
+          "correct_answer": "long",
+          "input_blank_box": {
+            "top": 37.05,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "This is an cheap / expensive tie.",
+          "options": [
+            "cheap",
+            "expensive"
+          ],
+          "correct_answer": "expensive",
+          "input_blank_box": {
+            "top": 44.08,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "This is a large / small sweater.",
+          "options": [
+            "large",
+            "small"
+          ],
+          "correct_answer": "large",
+          "input_blank_box": {
+            "top": 44.08,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "This is a pink / blue dress.",
+          "options": [
+            "pink",
+            "blue"
+          ],
+          "correct_answer": "blue",
+          "input_blank_box": {
+            "top": 47.95,
+            "left": 7.89,
+            "width": 84.23,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "This is an new / old T-shirt.",
+          "options": [
+            "new",
+            "old"
+          ],
+          "correct_answer": "new",
+          "input_blank_box": {
+            "top": 50.25,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.24
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "These are old / cheap shoes.",
+          "options": [
+            "old",
+            "cheap"
+          ],
+          "correct_answer": "cheap",
+          "input_blank_box": {
+            "top": 57.47,
+            "left": 9.75,
+            "width": 32.51,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "This is a long / short skirt.",
+          "options": [
+            "long",
+            "short"
+          ],
+          "correct_answer": "long",
+          "input_blank_box": {
+            "top": 63.39,
+            "left": 9.75,
+            "width": 32.07,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "This is a red / blue shirt.",
+          "options": [
+            "red",
+            "blue"
+          ],
+          "correct_answer": "red",
+          "input_blank_box": {
+            "top": 94.65,
+            "left": 7.81,
+            "width": 84.38,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "These are big / small shoes.",
+          "options": [
+            "big",
+            "small"
+          ],
+          "correct_answer": "small",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "This is a large / small sweater.",
+          "options": [
+            "large",
+            "small"
+          ],
+          "correct_answer": "small",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        }
+      ]
+    }
+  ]
+}

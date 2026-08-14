@@ -1,0 +1,201 @@
+{
+  "page_number": 134,
+  "unit_number": 42,
+  "unit_title": "Expressing preference",
+  "exercises": [
+    {
+      "exercise_id": "42.1",
+      "exercise_type": "multiple_choice",
+      "instruction": "MARK THE SENTENCE THAT MATCHES EACH PICTURE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Nick's favorite uncle is an actor. / Nick's favorite uncle is a painter.",
+          "options": [
+            "Nick's favorite uncle is an actor.",
+            "Nick's favorite uncle is a painter."
+          ],
+          "correct_answer": "Nick's favorite uncle is an actor.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Jo's favorite movie is Puzzling People. / Jo's favorite book is Puzzling People.",
+          "options": [
+            "Jo's favorite movie is Puzzling People.",
+            "Jo's favorite book is Puzzling People."
+          ],
+          "correct_answer": "Jo's favorite book is Puzzling People.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Jay's favorite instrument is the piano. / Jay's favorite instrument is the violin.",
+          "options": [
+            "Jay's favorite instrument is the piano.",
+            "Jay's favorite instrument is the violin."
+          ],
+          "correct_answer": "Jay's favorite instrument is the piano.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Paul's favorite drink is orange juice. / Paul's favorite drink is milk.",
+          "options": [
+            "Paul's favorite drink is orange juice.",
+            "Paul's favorite drink is milk."
+          ],
+          "correct_answer": "Paul's favorite drink is orange juice.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Blake's favorite animal is the tiger. / Blake's favorite animal is the snake.",
+          "options": [
+            "Blake's favorite animal is the tiger.",
+            "Blake's favorite animal is the snake."
+          ],
+          "correct_answer": "Blake's favorite animal is the tiger.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Dan's favorite place is the beach. / Dan's favorite place is his garden.",
+          "options": [
+            "Dan's favorite place is the beach.",
+            "Dan's favorite place is his garden."
+          ],
+          "correct_answer": "Dan's favorite place is the beach.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Sanjay's favorite season is winter. / Sanjay's favorite season is spring.",
+          "options": [
+            "Sanjay's favorite season is winter.",
+            "Sanjay's favorite season is spring."
+          ],
+          "correct_answer": "Sanjay's favorite season is winter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Max's favorite hobby is painting. / Max's favorite hobby is reading.",
+          "options": [
+            "Max's favorite hobby is painting.",
+            "Max's favorite hobby is reading."
+          ],
+          "correct_answer": "Max's favorite hobby is painting.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Greg's favorite food is rice. / Greg's favorite food is cake.",
+          "options": [
+            "Greg's favorite food is rice.",
+            "Greg's favorite food is cake."
+          ],
+          "correct_answer": "Greg's favorite food is rice.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "Levi's favorite sport is soccer. / Levi's favorite sport is baseball.",
+          "options": [
+            "Levi's favorite sport is soccer.",
+            "Levi's favorite sport is baseball."
+          ],
+          "correct_answer": "Levi's favorite sport is baseball.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "Martha's favorite country is France. / Martha's favorite country is India.",
+          "options": [
+            "Martha's favorite country is France.",
+            "Martha's favorite country is India."
+          ],
+          "correct_answer": "Martha's favorite country is France.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "Simone's favorite lesson is English. / Simone's favorite lesson is science.",
+          "options": [
+            "Simone's favorite lesson is English.",
+            "Simone's favorite lesson is science."
+          ],
+          "correct_answer": "Simone's favorite lesson is science.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "question": "Maya's favorite dessert is ice cream. / Maya's favorite dessert is cake.",
+          "options": [
+            "Maya's favorite dessert is ice cream.",
+            "Maya's favorite dessert is cake."
+          ],
+          "correct_answer": "Maya's favorite dessert is cake.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_13.mp3"
+        },
+        {
+          "item_number": 14,
+          "question": "Karina's favorite fruit is pineapple. / Karina's favorite fruit is grapes.",
+          "options": [
+            "Karina's favorite fruit is pineapple.",
+            "Karina's favorite fruit is grapes."
+          ],
+          "correct_answer": "Karina's favorite fruit is pineapple.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_14.mp3"
+        },
+        {
+          "item_number": 15,
+          "question": "Their favorite city is London. / Their favorite city is New York.",
+          "options": [
+            "Their favorite city is London.",
+            "Their favorite city is New York."
+          ],
+          "correct_answer": "Their favorite city is London.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_15.mp3"
+        },
+        {
+          "item_number": 16,
+          "question": "Kate's favorite pet is her parrot. / Kate's favorite pet is her kitten.",
+          "options": [
+            "Kate's favorite pet is her parrot.",
+            "Kate's favorite pet is her kitten."
+          ],
+          "correct_answer": "Kate's favorite pet is her parrot.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_16.mp3"
+        },
+        {
+          "item_number": 17,
+          "question": "Zoe's favorite pastime is singing. / Zoe's favorite pastime is dancing.",
+          "options": [
+            "Zoe's favorite pastime is singing.",
+            "Zoe's favorite pastime is dancing."
+          ],
+          "correct_answer": "Zoe's favorite pastime is dancing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/42/42_1_17.mp3"
+        }
+      ]
+    }
+  ]
+}

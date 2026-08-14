@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Lewis's Practice Book | Studio Ghibli Edition - Chapter 7</title>
+  <meta name="description" content="Interactive English practice - What you have & Accommodation. Enchanted Treehouse Village setting.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="ghibli_page12.css">
+  <style>
+    :root {
+      --ghibli-bg-url: url('images/ghibli/ch7/bg.jpg');
+      --ghibli-accent-gold: #5c8c4a;
+      --ghibli-accent-amber: #3d6b30;
+    }
+    body.theme-night { --ghibli-bg-url: url('images/ghibli/ch7/night.jpg'); }
+    body.theme-sunset { --ghibli-bg-url: url('images/ghibli/ch7/sunset.jpg'); }
+    .chapter-nav-bar { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; flex-wrap: wrap; background: rgba(255,255,255,0.12); backdrop-filter: blur(8px); border-radius: 40px; margin: 0 auto 16px auto; max-width: 700px; }
+    .ch-nav-pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 20px; font-size: 0.78rem; font-weight: 700; text-decoration: none; transition: all 0.2s; border: 2px solid transparent; color: rgba(255,255,255,0.85); background: rgba(255,255,255,0.15); }
+    .ch-nav-pill:hover { background: rgba(255,255,255,0.3); color: #fff; transform: translateY(-1px); }
+    .ch-nav-pill.active { background: var(--ghibli-accent-gold); color: #fff; border-color: rgba(255,255,255,0.4); }
+  </style>
+</head>
+<body class="theme-day">
+  <div class="ghibli-bg-overlay"></div>
+  <div class="ghibli-vignette"></div>
+  <div id="firefliesContainer"></div>
+
+  <div class="ghibli-container">
+    <header class="ghibli-header">
+      <a href="index.html" class="ghibli-brand" style="text-decoration: none; color: inherit;">
+        <div class="ghibli-logo-badge"><i class="fa-solid fa-tree"></i></div>
+        <div class="ghibli-title-wrap">
+          <h1>Teacher Lewis's Practice Book</h1>
+          <span class="ghibli-subtitle">🌳 Studio Ghibli Interactive Edition • Chapter 7</span>
+        </div>
+      </a>
+      <div class="ghibli-header-actions">
+        <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
+        <div class="tod-group">
+          <button class="tod-btn active" data-theme="day">☀️ Day</button>
+          <button class="tod-btn" data-theme="sunset">🌅 Sunset</button>
+          <button class="tod-btn" data-theme="night">🌙 Night</button>
+        </div>
+        <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn"><i class="fa-solid fa-music"></i> Ambient: Off</button>
+        <div class="ghibli-score-badge"><i class="fa-solid fa-star"></i> <span id="ghibliScoreText">0 / 8</span></div>
+        <button class="ghibli-btn ghibli-btn-primary" id="ghibliCheckAnswersBtn"><i class="fa-solid fa-circle-check"></i> Check Answers</button>
+        <button class="ghibli-btn ghibli-btn-secondary" id="ghibliResetBtn"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+      </div>
+    </header>
+
+    <div class="chapter-nav-bar">
+      <a href="ghibli_page12.html" class="ch-nav-pill">Ch.1</a>
+      <a href="ghibli_ch2.html" class="ch-nav-pill">Ch.2</a>
+      <a href="ghibli_ch3.html" class="ch-nav-pill">Ch.3</a>
+      <a href="ghibli_ch4.html" class="ch-nav-pill">Ch.4</a>
+      <a href="ghibli_ch5.html" class="ch-nav-pill">Ch.5</a>
+      <a href="ghibli_ch6.html" class="ch-nav-pill">Ch.6</a>
+      <a href="ghibli_ch7.html" class="ch-nav-pill active">Ch.7</a>
+      <a href="ghibli_ch8.html" class="ch-nav-pill">Ch.8</a>
+      <a href="ghibli_ch9.html" class="ch-nav-pill">Ch.9</a>
+    </div>
+
+    <div class="ghibli-hero-card">
+      <div>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-tree"></i> Units 12–13</span>
+        <h2 class="ghibli-hero-title">What you have & Accommodation</h2>
+        <p class="ghibli-hero-desc">Practice talking about possessions and describing accommodation in the cozy Treehouse Village of Morinoki.</p>
+      </div>
+    </div>
+
+
+    <!-- EXERCISE 7.1 -->
+    <section class="ghibli-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">7.1</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">COMPLETE WITH 'HAVE' OR 'HAS'</h3>
+          <p class="ghibli-ex-subtext">Use 'have' for I/you/we/they and 'has' for he/she/it.</p>
+        </div>
+      </div>
+      <div class="ghibli-char-grid">
+        
+        <!-- Example -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_eg.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text">
+              <span>I ___ a big house.</span>
+              <span class="ghibli-eg-badge">EXAMPLE</span>
+            </div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input correct" value="I have a big house." readonly>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 1 -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/natalie.jpg" alt="Character 1" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_1.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>She ___ a beautiful garden.</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex71_2-input" id="ex71_2" placeholder="Write your answer...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex71_2_rec"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex71_2_rec"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/sue.jpg" alt="Character 2" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_2.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>We ___ three bedrooms.</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex71_3-input" id="ex71_3" placeholder="Write your answer...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex71_3_rec"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex71_3_rec"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/ryan.jpg" alt="Character 3" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_3.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>He ___ a small apartment.</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex71_4-input" id="ex71_4" placeholder="Write your answer...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex71_4_rec"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex71_4_rec"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/amelia.jpg" alt="Character 4" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_4.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>They ___ a swimming pool.</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex71_5-input" id="ex71_5" placeholder="Write your answer...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex71_5_rec"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex71_5_rec"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXERCISE 7.2 -->
+    <section class="ghibli-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">7.2</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">DESCRIBE THE ROOM — COMPLETE THE SENTENCE</h3>
+          <p class="ghibli-ex-subtext">Use 'There is' or 'There are' to describe what is in each room.</p>
+        </div>
+      </div>
+      <div class="ghibli-char-grid">
+        
+        <!-- Example -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_eg.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text">
+              <span>___ a sofa in the living room.</span>
+              <span class="ghibli-eg-badge">EXAMPLE</span>
+            </div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input correct" value="There is a sofa in the living room." readonly>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 1 -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/natalie.jpg" alt="Character 1" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_1.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>___ two beds in the bedroom.</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex72_2-input" id="ex72_2" placeholder="Write your answer...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex72_2_rec"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex72_2_rec"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/mia.jpg" alt="Character 2" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_2.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>___ a big window in the kitchen.</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex72_3-input" id="ex72_3" placeholder="Write your answer...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex72_3_rec"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex72_3_rec"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/ryan.jpg" alt="Character 3" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_3.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>___ four chairs around the table.</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex72_4-input" id="ex72_4" placeholder="Write your answer...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex72_4_rec"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex72_4_rec"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/sue.jpg" alt="Character 4" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_4.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>___ a bathtub in the bathroom.</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex72_5-input" id="ex72_5" placeholder="Write your answer...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex72_5_rec"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex72_5_rec"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <div style="display:flex; justify-content:center; gap:16px; margin-top:32px; padding-bottom:40px;">
+      <a href="ghibli_ch6.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Chapter 6</a>
+      <a href="ghibli_ch8.html" class="ghibli-btn ghibli-btn-primary">Chapter 8 <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Mascot Widget -->
+  <div class="ghibli-mascot-container" id="ghibliMascotWidget">
+    <div class="mascot-bubble-wrap">
+      <div class="mascot-min-bar">
+        <div class="story-chip" id="storyChip"><i class="fa-solid fa-book-bookmark"></i> <span id="storyChapterLabel">Story Ch. 7</span></div>
+        <div class="pomo-min-pill">
+          <button class="pomo-toggle-btn" id="pomoToggleBtn"><i class="fa-solid fa-play" id="pomoIcon"></i></button>
+          <span class="pomo-min-time" id="pomoMinTime">25:00</span>
+          <button class="pomo-opt-btn" id="pomoOptBtn"><i class="fa-solid fa-sliders"></i></button>
+        </div>
+      </div>
+      <div class="pomo-quick-presets hidden" id="pomoQuickPresets">
+        <button class="pomo-quick-btn active" data-mins="25">25m</button>
+        <button class="pomo-quick-btn" data-mins="15">15m</button>
+        <button class="pomo-quick-btn" data-mins="5">5m</button>
+        <button class="pomo-quick-btn demo-btn" data-mins="1">1m</button>
+      </div>
+      <div class="mascot-bubble" id="mascotBubble">
+        <div class="mascot-action-chip" id="mascotActionChip"><i class="fa-solid fa-paw"></i> 🌳 Tree Keeper</div>
+        <div class="mascot-text" id="mascotTextContent">"Welcome to Morinoki Treehouse Village! Let's talk about what we have and where we live!"</div>
+      </div>
+    </div>
+    <div class="mascot-avatar-wrap" id="mascotAvatarWrap" title="Click Kodama to hear Teacher Lewis's story!">
+      <div class="mascot-focus-aura" id="mascotAura"></div>
+      <div class="mascot-expr-badge" id="mascotExprBadge">🌳 Tree Keeper</div>
+      <img src="images/ghibli/ch7/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+    </div>
+  </div>
+
+  <script src="ghibli_audio.js"></script>
+  <script src="ghibli_chapters_shared.js" data-chapter="7"></script>
+  <script>
+  const CH7_ANSWERS = {
+    "ex71_2": "She has a beautiful garden.",
+    "ex71_3": "We have three bedrooms.",
+    "ex71_4": "He has a small apartment.",
+    "ex71_5": "They have a swimming pool.",
+    "ex72_2": "There are two beds in the bedroom.",
+    "ex72_3": "There is a big window in the kitchen.",
+    "ex72_4": "There are four chairs around the table.",
+    "ex72_5": "There is a bathtub in the bathroom."
+};
+  const CH7_TOTAL = 8;
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const checkBtn = document.getElementById('ghibliCheckAnswersBtn');
+    const resetBtn = document.getElementById('ghibliResetBtn');
+    
+    if (checkBtn) {
+      checkBtn.addEventListener('click', () => {
+        if (window.GhibliChapterShared) {
+          window.GhibliChapterShared.checkAnswers(CH7_ANSWERS, {}, CH7_TOTAL);
+        }
+      });
+    }
+    
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        if (window.GhibliChapterShared) {
+          window.GhibliChapterShared.resetPage(['.ex71_2-input', '.ex71_3-input', '.ex71_4-input', '.ex71_5-input', '.ex72_2-input', '.ex72_3-input', '.ex72_4-input', '.ex72_5-input'], CH7_TOTAL);
+        }
+      });
+    }
+  });
+  </script>
+</body>
+</html>

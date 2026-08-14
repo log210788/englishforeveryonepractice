@@ -1,0 +1,94 @@
+{
+  "page_number": 138,
+  "unit_number": 43,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "43.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "ABILITIES WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "talk",
+          "audio_file_path": "audio/43/43_1_talk.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "shout",
+          "audio_file_path": "audio/43/43_1_shout.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "throw",
+          "audio_file_path": "audio/43/43_1_throw.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "walk",
+          "audio_file_path": "audio/43/43_1_walk.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "heal"
+        },
+        {
+          "item_number": 9,
+          "question": "kick",
+          "audio_file_path": "audio/43/43_1_kick.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "build"
+        },
+        {
+          "item_number": 14,
+          "question": "think",
+          "audio_file_path": "audio/43/43_1_think.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "see",
+          "audio_file_path": "audio/43/43_1_see.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 16,
+          "question": "write"
+        },
+        {
+          "item_number": 17,
+          "question": "ride",
+          "audio_file_path": "audio/43/43_1_ride.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 21,
+          "question": "stand"
+        },
+        {
+          "item_number": 22,
+          "question": "solve"
+        },
+        {
+          "item_number": 23,
+          "question": "jump",
+          "audio_file_path": "audio/43/43_1_jump.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 24,
+          "question": "climb",
+          "audio_file_path": "audio/43/43_1_climb.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

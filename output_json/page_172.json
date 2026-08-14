@@ -1,0 +1,461 @@
+{
+  "page_number": 172,
+  "exercises": [
+    {
+      "exercise_id": "40.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "We like cake.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "I hate tennis.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "We love basketball.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Shelley loves pizza.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "They hate board games.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "I don't like pasta.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Samantha likes chocolate.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_1_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.2",
+      "exercise_type": "matching",
+      "instruction": "Match the words to the pictures.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "salad"
+        },
+        {
+          "item_number": 2,
+          "question": "sports"
+        },
+        {
+          "item_number": 3,
+          "question": "playing tennis"
+        },
+        {
+          "item_number": 4,
+          "question": "golf"
+        },
+        {
+          "item_number": 5,
+          "question": "listening to music"
+        },
+        {
+          "item_number": 6,
+          "question": "classical music"
+        },
+        {
+          "item_number": 7,
+          "question": "going shopping"
+        },
+        {
+          "item_number": 8,
+          "question": "going to the cinema"
+        },
+        {
+          "item_number": 9,
+          "question": "scary films"
+        },
+        {
+          "item_number": 10,
+          "question": "taking photos"
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.3",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Chris doesn't like spiders.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "They hate Paris.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Mrs. McGregor doesn't like cats.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "We hate soccer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "We don't like wine.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Simone hates her horse.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "He doesn't like your necklace.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Jean-Marie hates sports.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Colin doesn't like pizza.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "Douglas doesn't like Anne.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "Cynthia loves dogs.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "We hate chocolate.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 13,
+          "question": "You don't like cheese.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "Susan doesn't like pizza.",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.4",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "They love cats.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "They love running.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "They love pizza.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "They love snakes.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Arnold hates cats.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Arnold hates running.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Arnold hates pizza.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Arnold hates snakes.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "My mother hates cats.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "My mother hates running.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "My mother hates pizza.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "My mother hates snakes.",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "Read the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "She likes cooking."
+        },
+        {
+          "item_number": 2,
+          "question": "Her favorite is Italian food."
+        },
+        {
+          "item_number": 3,
+          "question": "She doesn't like cooking meat."
+        },
+        {
+          "item_number": 4,
+          "question": "She cooks for her friends and family."
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.6",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I hate cities, but I love the country.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_6_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Archie likes ice cream, and he loves pizza.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_6_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "He loves meat, but he hates fish.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_6_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Francis doesn't like coffee, but he likes tea.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_6_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "We hate Mondays, but we love Fridays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_6_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "My dad dislikes classical music, but he loves rock.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_6_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.7",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Sam likes watching soccer because it's exciting.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Marie loves pizza. She thinks it's delicious.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I love reading history books because they're really interesting.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Sally doesn't like running because it is tiring.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Peggy does not like eating meat because she is a vegetarian.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Paolo does not eat chocolate because he doesn't have a sweet tooth.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Jemma hates snakes. She thinks they are scary.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.8",
+      "exercise_type": "matching",
+      "instruction": "Match the words to the definitions.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "hot"
+        },
+        {
+          "item_number": 2,
+          "question": "interesting"
+        },
+        {
+          "item_number": 3,
+          "question": "delicious"
+        },
+        {
+          "item_number": 4,
+          "question": "boring"
+        },
+        {
+          "item_number": 5,
+          "question": "tiring"
+        }
+      ]
+    },
+    {
+      "exercise_id": "41.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the words.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "sing a song",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/41/41_1_singasong.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "dance",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/41/41_1_dance.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "electric guitar",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "headphones",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/41/41_1_headphones.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "opera",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/41/41_1_opera.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "keyboard",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "piano",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "rap",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/41/41_1_rap.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "country",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/41/41_1_country.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "album",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/41/41_1_album.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "rock",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/41/41_1_rock.mp3"
+        }
+      ]
+    }
+  ]
+}

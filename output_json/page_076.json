@@ -1,0 +1,201 @@
+{
+  "page_number": 76,
+  "exercises": [
+    {
+      "exercise_id": "23.4",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE DIRECTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "House with arrow pointing straight",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Go straight ahead.",
+          "audio_file_path": "audio/23/23_4_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Road with arrow turning left",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Turn left.",
+          "audio_file_path": "audio/23/23_4_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Arrow pointing straight",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Go straight ahead.",
+          "audio_file_path": "audio/23/23_4_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Arrow turning right",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Turn right.",
+          "audio_file_path": "audio/23/23_4_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Road with arrow turning right at third intersection",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Take the third right.",
+          "audio_file_path": "audio/23/23_4_5.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "23.5",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE PREPOSITIONS OF PLACE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "House between two other houses",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "between",
+          "audio_file_path": "audio/23/23_5_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Two houses on opposite sides of a road",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "opposite",
+          "audio_file_path": "audio/23/23_5_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Two houses, one behind the other",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "behind",
+          "audio_file_path": "audio/23/23_5_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Two houses overlapping",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "on the corner",
+          "audio_file_path": "audio/23/23_5_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "House on the right side of a road",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "on the right",
+          "audio_file_path": "audio/23/23_5_5.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "23.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THESE POSITIVE INSTRUCTIONS IN THE NEGATIVE FORM",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Go straight ahead.",
+          "correct_answer": "Don't go straight ahead."
+        },
+        {
+          "item_number": 2,
+          "question": "Come with me.",
+          "correct_answer": "Don't come with me."
+        },
+        {
+          "item_number": 3,
+          "question": "Take the first left.",
+          "correct_answer": "Don't take the first left."
+        },
+        {
+          "item_number": 4,
+          "question": "Turn left at the intersection.",
+          "correct_answer": "Don't turn left at the intersection."
+        },
+        {
+          "item_number": 5,
+          "question": "Read this daily planner.",
+          "correct_answer": "Don't read this daily planner."
+        }
+      ]
+    }
+  ]
+}

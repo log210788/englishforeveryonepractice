@@ -1,0 +1,97 @@
+{
+  "page_number": 63,
+  "exercises": [
+    {
+      "exercise_id": "19.8",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE 12 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Where does he play soccer?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_8.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "19.9",
+      "exercise_type": "multiple_choice",
+      "instruction": "READ THE EMAIL AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "What is the name of the town?",
+          "options": [
+            "Blois",
+            "Tours"
+          ],
+          "correct_answer": "Blois"
+        },
+        {
+          "item_number": 2,
+          "question": "Who is Tim with?",
+          "options": [
+            "Janet",
+            "Claire"
+          ],
+          "correct_answer": "Janet"
+        },
+        {
+          "item_number": 3,
+          "question": "Where is their hotel?",
+          "options": [
+            "Near the castle",
+            "Near the cathedral"
+          ],
+          "correct_answer": "Near the castle"
+        },
+        {
+          "item_number": 4,
+          "question": "What do they eat for breakfast?",
+          "options": [
+            "Cereal",
+            "French bread"
+          ],
+          "correct_answer": "French bread"
+        },
+        {
+          "item_number": 5,
+          "question": "Where do they drink their coffee?",
+          "options": [
+            "In the hotel",
+            "In a café"
+          ],
+          "correct_answer": "In a café"
+        },
+        {
+          "item_number": 6,
+          "question": "What do they do in the afternoon?",
+          "options": [
+            "Explore the old town",
+            "Visit a restaurant"
+          ],
+          "correct_answer": "Explore the old town"
+        },
+        {
+          "item_number": 7,
+          "question": "How old is the castle?",
+          "options": [
+            "About 200 years old",
+            "About 1,000 years old"
+          ],
+          "correct_answer": "About 1,000 years old"
+        },
+        {
+          "item_number": 8,
+          "question": "What can you see at the castle?",
+          "options": [
+            "Some beautiful paintings",
+            "Historic furniture"
+          ],
+          "correct_answer": "Some beautiful paintings"
+        }
+      ]
+    }
+  ]
+}

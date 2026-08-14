@@ -1,0 +1,170 @@
+{
+  "page_number": 90,
+  "exercises": [
+    {
+      "exercise_id": "28.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE STATEMENTS USING CONTRACTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "We do not have a computer at home.",
+          "correct_answer": "We don't have a computer at home."
+        },
+        {
+          "item_number": 2,
+          "question": "My city does not have a castle.",
+          "correct_answer": "My city doesn't have a castle."
+        },
+        {
+          "item_number": 3,
+          "question": "Rob's house does not have a garage.",
+          "correct_answer": "Rob's house doesn't have a garage."
+        },
+        {
+          "item_number": 4,
+          "question": "You do not have any sisters.",
+          "correct_answer": "You don't have any sisters."
+        },
+        {
+          "item_number": 5,
+          "question": "The village does not have any stores.",
+          "correct_answer": "The village doesn't have any stores."
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE STATEMENTS WITHOUT CONTRACTONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "You've got a beautiful necklace.",
+          "correct_answer": "You have got a beautiful necklace.",
+          "audio_file_path": "audio/28/28_6_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "She hasn't got any sisters.",
+          "correct_answer": "She has not got any sisters.",
+          "audio_file_path": "audio/28/28_6_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "We haven't got a microwave.",
+          "correct_answer": "We have not got a microwave.",
+          "audio_file_path": "audio/28/28_6_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Greg hasn't got a bike.",
+          "correct_answer": "Greg has not got a bike.",
+          "audio_file_path": "audio/28/28_6_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "My town's got two theaters.",
+          "correct_answer": "My town has got two theaters.",
+          "audio_file_path": "audio/28/28_6_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Chloe hasn't got a cat.",
+          "correct_answer": "Chloe has not got a cat.",
+          "audio_file_path": "audio/28/28_6_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "They've got a new house.",
+          "correct_answer": "They have got a new house.",
+          "audio_file_path": "audio/28/28_6_7.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.7",
+      "exercise_type": "matching",
+      "instruction": "LISTEN TO THE AUDIO AND MATCH THE OBJECTS WITH THEIR OWNERS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Church icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Two girls icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "People with car icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Computer icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "House icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_5.mp3"
+        }
+      ]
+    }
+  ]
+}

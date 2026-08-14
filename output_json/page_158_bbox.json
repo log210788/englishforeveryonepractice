@@ -1,0 +1,1972 @@
+{
+  "page_number": 158,
+  "exercises": [
+    {
+      "exercise_id": "8.3",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the words.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "pencils",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_1.mp3",
+          "input_blank_box": {
+            "top": 16.63,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "fishes / fish",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_2.mp3",
+          "input_blank_box": {
+            "top": 14.94,
+            "left": 36.38,
+            "width": 27.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.94,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "brothers",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_3.mp3",
+          "input_blank_box": {
+            "top": 30.2,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.2,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "diaries",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_4.mp3",
+          "input_blank_box": {
+            "top": 33.19,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.19,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "necklaces",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_5.mp3",
+          "input_blank_box": {
+            "top": 34.06,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "brushes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_6.mp3",
+          "input_blank_box": {
+            "top": 39.85,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 39.85,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "watches",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_7.mp3",
+          "input_blank_box": {
+            "top": 54.73,
+            "left": 36.38,
+            "width": 27.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 54.73,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "boxes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_8.mp3",
+          "input_blank_box": {
+            "top": 61.39,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.39,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "dictionaries",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_9.mp3",
+          "input_blank_box": {
+            "top": 63.39,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 63.39,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "sisters",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_10.mp3",
+          "input_blank_box": {
+            "top": 64.69,
+            "left": 6.47,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 64.69,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "umbrellas",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_11.mp3",
+          "input_blank_box": {
+            "top": 67.25,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 67.25,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "laptops",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_3_12.mp3",
+          "input_blank_box": {
+            "top": 79.64,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 79.64,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.4",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the words.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "brushes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_1.mp3",
+          "input_blank_box": {
+            "top": 79.64,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 79.64,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "boxes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "dictionaries",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "dogs",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "notebooks",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "toothbrushes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "books",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "pencils",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "letters",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "newspapers",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "glasses",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "passports",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_12.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "magazines",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_4_13.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.5",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the phrases.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "three sandwiches",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "two necklaces",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "four bags",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "three toothbrushes",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "two diaries / planners",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "two cats",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "one apple",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.6",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the words.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "his",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_6_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "its",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_6_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "hers",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_6_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "yours",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_6_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "theirs",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_6_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "ours",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_6_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.7",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "This dog is his.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_7_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Those books are mine.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_7_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "That fish is yours.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_7_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "These bags are theirs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_7_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "These boxes are ours.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_7_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.8",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "That dog is yours.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_8_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "These sandwiches are Dan's.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_8_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "That bag is hers.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_8_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Those sandwiches are ours.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_8_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "That purse is Stacey's.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "This key is his.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_8_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "This newspaper is theirs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_8_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "That necklace is Linda's.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_8_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Those children are ours.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_8_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.9",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "These are my books.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "This is your dog.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "These are her bags.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "These are their boxes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "This is my toothbrush.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "This is his diary.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "This is your apple.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "These are my apples.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "These are your glasses.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "These are Kevin's keys.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "This is my dad's car.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/8/8_9_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "9.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the words.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "pilot",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "fire fighter",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "gardener",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "driver",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "electrician",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "actor",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "nurse",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "farmer",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "chef",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "receptionist",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "businesswoman",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "police officer",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_12.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "dentist",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/9/9_1_13.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "10.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "He / She is a doctor.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "You are teachers.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I am a hairdresser.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "We are mechanics.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "You are a cleaner.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "They are chefs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "He / She is an actor.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "They are vets.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "I am a police officer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "You are farmers.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "You are a waitress.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "We are gardeners.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "I am an artist.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "10.2",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I am an actor.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_2_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "He is a teacher.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_2_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "He is a chef.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_2_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "You are an engineer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_2_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "We are hairdressers.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_2_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "They are farmers.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_2_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "You are a vet.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_2_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "I am a waiter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_2_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "She is a nurse.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_2_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "10.3",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I am a vet.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_3_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "She is a businesswoman.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_3_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We are doctors.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "They are teachers.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_3_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "He is a mechanic.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_3_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "I am a driver.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_3_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "We are receptionists.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/10/10_3_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

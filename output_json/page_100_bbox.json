@@ -1,0 +1,355 @@
+{
+  "page_number": 100,
+  "exercises": [
+    {
+      "exercise_id": "31.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There's a __________ of milk.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "glass",
+          "audio_file_path": "audio/31/31_6_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There are two __________ of rice.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "bags",
+          "audio_file_path": "audio/31/31_6_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.9,
+            "left": 9.82,
+            "width": 37.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "There's a __________ of chocolate.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "bar",
+          "audio_file_path": "audio/31/31_6_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 14.51,
+            "left": 26.12,
+            "width": 11.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "There's a __________ of juice.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "carton",
+          "input_blank_box": {
+            "top": 14.32,
+            "left": 69.79,
+            "width": 12.5,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "There are three __________ of water.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "bottles",
+          "input_blank_box": {
+            "top": 16.75,
+            "left": 9.67,
+            "width": 37.43,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "There's a __________ of pasta.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "bowl",
+          "input_blank_box": {
+            "top": 19.74,
+            "left": 25.52,
+            "width": 13.47,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "There are two __________ of tea.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "cups",
+          "input_blank_box": {
+            "top": 19.74,
+            "left": 74.93,
+            "width": 9.82,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "31.7",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORDS IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There is / are a jar of coffee.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "input_blank_box": {
+            "top": 25.22,
+            "left": 29.61,
+            "width": 11.68,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There isn't / aren't any rice.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't",
+          "input_blank_box": {
+            "top": 25.22,
+            "left": 69.79,
+            "width": 11.38,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "There is / are two cartons of juice.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are",
+          "input_blank_box": {
+            "top": 30.64,
+            "left": 25.52,
+            "width": 12.28,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "There is / are some meat.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "input_blank_box": {
+            "top": 30.64,
+            "left": 73.81,
+            "width": 12.28,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "There is / are two bottles of wine.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are",
+          "input_blank_box": {
+            "top": 34.56,
+            "left": 9.6,
+            "width": 80.8,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "There isn't / aren't any bread.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't",
+          "input_blank_box": {
+            "top": 42.15,
+            "left": 9.38,
+            "width": 81.18,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "There is / are a bag of flour.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "input_blank_box": {
+            "top": 45.95,
+            "left": 7.66,
+            "width": 84.6,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "There is / are some pasta.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "input_blank_box": {
+            "top": 48.26,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "There is / are two bars of chocolate.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are",
+          "input_blank_box": {
+            "top": 55.48,
+            "left": 9.9,
+            "width": 37.13,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "There isn't / aren't any sugar.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't",
+          "input_blank_box": {
+            "top": 61.39,
+            "left": 10.34,
+            "width": 36.61,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "There is / are some butter.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

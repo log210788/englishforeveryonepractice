@@ -1,0 +1,147 @@
+{
+  "page_number": 113,
+  "exercises": [
+    {
+      "exercise_id": "35.2",
+      "exercise_type": "true_false",
+      "instruction": "MARK THE SENTENCES THAT ARE CORRECT",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Our house has a pretty little yard. / Our house has a little pretty yard.",
+          "correct_answer": "Our house has a pretty little yard.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 2,
+          "question": "James has a leather ugly jacket. / James has an ugly leather jacket.",
+          "correct_answer": "James has an ugly leather jacket.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 3,
+          "question": "Pete has a wooden old table. / Pete has an old wooden table.",
+          "correct_answer": "Pete has an old wooden table.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 4,
+          "question": "This is a brilliant new book. / This is a new brilliant book.",
+          "correct_answer": "This is a brilliant new book.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 5,
+          "question": "Shelley's got a beautiful glass bottle. / Shelley's got a glass beautiful bottle.",
+          "correct_answer": "Shelley's got a beautiful glass bottle.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 6,
+          "question": "That was such a boring old film. / That was such an old boring film.",
+          "correct_answer": "That was such a boring old film.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 7,
+          "question": "That's an ugly woolen sweater. / That's a woolen ugly sweater.",
+          "correct_answer": "That's an ugly woolen sweater.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 8,
+          "question": "Those are black boring shoes. / Those are boring black shoes.",
+          "correct_answer": "Those are boring black shoes.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 9,
+          "question": "I've got a horrible old car. / I've got an old horrible car.",
+          "correct_answer": "I've got a horrible old car.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 10,
+          "question": "Simone has a beautiful gray parrot. / Simone has a gray beautiful parrot.",
+          "correct_answer": "Simone has a beautiful gray parrot.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 11,
+          "question": "That's an old horrible house! / That's a horrible old house!",
+          "correct_answer": "That's a horrible old house!",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 12,
+          "question": "You've got a red nice shirt. / You've got a nice red shirt.",
+          "correct_answer": "You've got a nice red shirt.",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "35.3",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "beautiful Jill's got dog. a black",
+          "correct_answer": "Jill's got a beautiful black dog.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "new nice has house. a Simon",
+          "correct_answer": "Simon has a nice new house.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "ugly have old an car. They",
+          "correct_answer": "They have an ugly old car.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "red pretty are shoes. Those",
+          "correct_answer": "Those are pretty red shoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "pink an ugly hat. That's",
+          "correct_answer": "That's an ugly pink hat.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "a has brown horrible snake. Greg",
+          "correct_answer": "Greg has a horrible brown snake.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "got You've black a bag. beautiful",
+          "correct_answer": "You've got a beautiful black bag.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "new is great a book. This",
+          "correct_answer": "This is a great new book.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_3_8.mp3"
+        }
+      ]
+    }
+  ]
+}

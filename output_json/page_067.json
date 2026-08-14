@@ -1,0 +1,85 @@
+{
+  "page_number": 67,
+  "unit_number": 21,
+  "unit_title": "Towns",
+  "exercises": [
+    {
+      "exercise_id": "21.4",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND NUMBER THE PICTURES IN THE ORDER THEY ARE DESCRIBED",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Picture C",
+          "correct_answer": "1",
+          "audio_icon_present": true,
+          "audio_track_ref": "21.4",
+          "audio_file_path": "audio/21/21_4_1.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "21.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE EACH SENTENCE IN THE NEGATIVE FORM",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There is a school.",
+          "correct_answer": "There isn't a school.",
+          "audio_file_path": "audio/21/21_5_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "There are two churches.",
+          "correct_answer": "There aren't two churches.",
+          "audio_file_path": "audio/21/21_5_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "There is a café.",
+          "correct_answer": "There isn't a café.",
+          "audio_file_path": "audio/21/21_5_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "There is a library.",
+          "correct_answer": "There isn't a library.",
+          "audio_file_path": "audio/21/21_5_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "There are two airports.",
+          "correct_answer": "There aren't two airports.",
+          "audio_file_path": "audio/21/21_5_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "There are three hotels.",
+          "correct_answer": "There aren't three hotels.",
+          "audio_file_path": "audio/21/21_5_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "There are two parks.",
+          "correct_answer": "There aren't two parks.",
+          "audio_file_path": "audio/21/21_5_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "There is a town hall.",
+          "correct_answer": "There isn't a town hall.",
+          "audio_file_path": "audio/21/21_5_8.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

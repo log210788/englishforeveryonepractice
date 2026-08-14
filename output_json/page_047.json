@@ -1,0 +1,113 @@
+{
+  "page_number": 47,
+  "exercises": [
+    {
+      "exercise_id": "15.3",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO, THEN NUMBER THE IMAGES IN THE ORDER THEY ARE DESCRIBED",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Image A",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Image B",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Image C",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Image D",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_3_4.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE THREE DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Fredo is not a chef.",
+          "correct_answer": "Fredo isn't a chef.",
+          "audio_file_path": "audio/15/15_4_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Susie's not my cat.",
+          "correct_answer": "Susie isn't my cat.",
+          "audio_file_path": "audio/15/15_4_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "My dad is not at work.",
+          "correct_answer": "My dad's not at work.",
+          "audio_file_path": "audio/15/15_4_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "They are not at the theater.",
+          "correct_answer": "They aren't at the theater.",
+          "audio_file_path": "audio/15/15_4_4.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.5",
+      "exercise_type": "true_false",
+      "instruction": "READ THE BLOG AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "She lives in California.",
+          "correct_answer": "True",
+          "audio_file_path": "audio/15/15_5_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "She's a waitress in a restaurant.",
+          "correct_answer": "False",
+          "audio_file_path": "audio/15/15_5_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "She isn't Mexican.",
+          "correct_answer": "True",
+          "audio_file_path": "audio/15/15_5_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Franco isn't an engineer.",
+          "correct_answer": "True",
+          "audio_file_path": "audio/15/15_5_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "They have a daughter in college.",
+          "correct_answer": "False",
+          "audio_file_path": "audio/15/15_5_5.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

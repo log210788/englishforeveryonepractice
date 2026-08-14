@@ -1,0 +1,351 @@
+{
+  "page_number": 76,
+  "exercises": [
+    {
+      "exercise_id": "23.4",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE DIRECTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "House with arrow pointing straight",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Go straight ahead.",
+          "audio_file_path": "audio/23/23_4_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Road with arrow turning left",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Turn left.",
+          "audio_file_path": "audio/23/23_4_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Arrow pointing straight",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Go straight ahead.",
+          "audio_file_path": "audio/23/23_4_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.9,
+            "left": 32.81,
+            "width": 13.54,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Arrow turning right",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Turn right.",
+          "audio_file_path": "audio/23/23_4_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.9,
+            "left": 77.6,
+            "width": 13.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Road with arrow turning right at third intersection",
+          "options": [
+            "Take the second right.",
+            "Turn right.",
+            "Turn left.",
+            "Take the third right.",
+            "Go past the house.",
+            "Go straight ahead."
+          ],
+          "correct_answer": "Take the third right.",
+          "audio_file_path": "audio/23/23_4_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.68,
+            "left": 32.66,
+            "width": 13.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "23.5",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE PREPOSITIONS OF PLACE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "House between two other houses",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "between",
+          "audio_file_path": "audio/23/23_5_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.68,
+            "left": 77.46,
+            "width": 13.84,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Two houses on opposite sides of a road",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "opposite",
+          "audio_file_path": "audio/23/23_5_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.15,
+            "left": 32.59,
+            "width": 13.99,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.15,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Two houses, one behind the other",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "behind",
+          "audio_file_path": "audio/23/23_5_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.15,
+            "left": 77.38,
+            "width": 13.99,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.15,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Two houses overlapping",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "on the corner",
+          "audio_file_path": "audio/23/23_5_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 33.94,
+            "left": 32.59,
+            "width": 13.91,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.94,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "House on the right side of a road",
+          "options": [
+            "behind",
+            "between",
+            "on the left",
+            "opposite",
+            "on the corner",
+            "on the right"
+          ],
+          "correct_answer": "on the right",
+          "audio_file_path": "audio/23/23_5_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 35.31,
+            "left": 32.66,
+            "width": 13.84,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 35.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "23.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THESE POSITIVE INSTRUCTIONS IN THE NEGATIVE FORM",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Go straight ahead.",
+          "correct_answer": "Don't go straight ahead.",
+          "input_blank_box": {
+            "top": 33.94,
+            "left": 77.38,
+            "width": 13.91,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Come with me.",
+          "correct_answer": "Don't come with me.",
+          "input_blank_box": {
+            "top": 35.31,
+            "left": 77.46,
+            "width": 13.91,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Take the first left.",
+          "correct_answer": "Don't take the first left.",
+          "input_blank_box": {
+            "top": 42.09,
+            "left": 32.66,
+            "width": 13.76,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Turn left at the intersection.",
+          "correct_answer": "Don't turn left at the intersection.",
+          "input_blank_box": {
+            "top": 42.09,
+            "left": 77.46,
+            "width": 13.84,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Read this daily planner.",
+          "correct_answer": "Don't read this daily planner.",
+          "input_blank_box": {
+            "top": 43.52,
+            "left": 32.66,
+            "width": 13.84,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

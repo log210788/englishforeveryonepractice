@@ -1,0 +1,144 @@
+{
+  "page_number": 97,
+  "exercises": [
+    {
+      "exercise_id": "1",
+      "exercise_type": "matching",
+      "instruction": "LABEL THE PICTURES USING THE WORDS IN THE BOX",
+      "items": [
+        {
+          "item_number": 5,
+          "question": "fish",
+          "correct_answer": "fish",
+          "input_blank_box": {
+            "top": 10.83,
+            "left": 0.0,
+            "width": 93.53,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "apple",
+          "correct_answer": "apple",
+          "input_blank_box": {
+            "top": 15.75,
+            "left": 65.48,
+            "width": 23.81,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "eggs",
+          "correct_answer": "eggs",
+          "input_blank_box": {
+            "top": 20.11,
+            "left": 7.74,
+            "width": 13.17,
+            "height": 4.17
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "chocolate",
+          "correct_answer": "chocolate",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 8.93,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "cheese",
+          "correct_answer": "cheese",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 27.08,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "orange",
+          "correct_answer": "orange",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 45.24,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "meat",
+          "correct_answer": "meat",
+          "input_blank_box": {
+            "top": 40.16,
+            "left": 8.78,
+            "width": 11.46,
+            "height": 4.55
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "coffee",
+          "correct_answer": "coffee",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 8.93,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "pasta",
+          "correct_answer": "pasta",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 27.08,
+            "width": 11.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 29,
+          "question": "breakfast",
+          "correct_answer": "breakfast",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 45.24,
+            "width": 11.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 30,
+          "question": "lunch",
+          "correct_answer": "lunch",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 8.93,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 31,
+          "question": "dinner",
+          "correct_answer": "dinner",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 27.08,
+            "width": 10.94,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

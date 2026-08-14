@@ -1,0 +1,827 @@
+{
+  "page_number": 33,
+  "unit_number": 10,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "10.3",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "They is / are gardeners.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_eg.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "I am / is a vet.",
+          "options": [
+            "am",
+            "is"
+          ],
+          "correct_answer": "am",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 51.34,
+            "width": 42.19,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "She is / are a businesswoman.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_2.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.3,
+            "width": 36.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "We is / are doctors.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_3.mp3",
+          "input_blank_box": {
+            "top": 10.9,
+            "left": 79.61,
+            "width": 11.46,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "They is / are teachers.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_4.mp3",
+          "input_blank_box": {
+            "top": 14.45,
+            "left": 9.23,
+            "width": 36.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "He is / are a mechanic.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_5.mp3",
+          "input_blank_box": {
+            "top": 17.68,
+            "left": 79.39,
+            "width": 11.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "I am / is a driver.",
+          "options": [
+            "am",
+            "is"
+          ],
+          "correct_answer": "am",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_6.mp3",
+          "input_blank_box": {
+            "top": 25.22,
+            "left": 56.18,
+            "width": 10.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 25.22,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "We am / are receptionists.",
+          "options": [
+            "am",
+            "are"
+          ],
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_7.mp3",
+          "input_blank_box": {
+            "top": 28.77,
+            "left": 79.39,
+            "width": 11.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.77,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "They are / is waitresses.",
+          "options": [
+            "are",
+            "is"
+          ],
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_8.mp3",
+          "input_blank_box": {
+            "top": 35.55,
+            "left": 79.32,
+            "width": 11.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 35.55,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "She is / are a police officer.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_9.mp3",
+          "input_blank_box": {
+            "top": 37.8,
+            "left": 79.46,
+            "width": 11.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.8,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "I am / is a judge.",
+          "options": [
+            "am",
+            "is"
+          ],
+          "correct_answer": "am",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_10.mp3",
+          "input_blank_box": {
+            "top": 41.91,
+            "left": 56.18,
+            "width": 10.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.91,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "You is / are a nurse.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_11.mp3",
+          "input_blank_box": {
+            "top": 44.58,
+            "left": 79.46,
+            "width": 11.68,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 44.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "prompt_text": null,
+          "question": "We am / are farmers.",
+          "options": [
+            "am",
+            "are"
+          ],
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_12.mp3",
+          "input_blank_box": {
+            "top": 46.82,
+            "left": 79.46,
+            "width": 11.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.82,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "prompt_text": null,
+          "question": "She is / are a sales assistant.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_13.mp3",
+          "input_blank_box": {
+            "top": 53.55,
+            "left": 79.24,
+            "width": 12.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 53.55,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "prompt_text": null,
+          "question": "I am / are a chef.",
+          "options": [
+            "am",
+            "are"
+          ],
+          "correct_answer": "am",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_3_14.mp3",
+          "input_blank_box": {
+            "top": 55.85,
+            "left": 79.39,
+            "width": 11.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 55.85,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "10.4",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE CORRECT LABELS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "[Picture of comedy and tragedy masks]",
+          "question": "theater",
+          "options": [
+            "hospital",
+            "theater",
+            "garden",
+            "school",
+            "laboratory",
+            "restaurant"
+          ],
+          "correct_answer": "theater",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_4_eg.mp3",
+          "input_blank_box": {
+            "top": 62.58,
+            "left": 79.32,
+            "width": 11.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 62.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "[Picture of laboratory flasks]",
+          "question": "laboratory",
+          "options": [
+            "hospital",
+            "theater",
+            "garden",
+            "school",
+            "laboratory",
+            "restaurant"
+          ],
+          "correct_answer": "laboratory",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_4_1.mp3",
+          "input_blank_box": {
+            "top": 66.38,
+            "left": 7.81,
+            "width": 39.58,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 66.38,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "[Picture of a waiter serving food at a restaurant table]",
+          "question": "restaurant",
+          "options": [
+            "hospital",
+            "theater",
+            "garden",
+            "school",
+            "laboratory",
+            "restaurant"
+          ],
+          "correct_answer": "restaurant",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_4_2.mp3",
+          "input_blank_box": {
+            "top": 66.38,
+            "left": 52.6,
+            "width": 39.51,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 66.38,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "[Picture of garden plants and shovel]",
+          "question": "garden",
+          "options": [
+            "hospital",
+            "theater",
+            "garden",
+            "school",
+            "laboratory",
+            "restaurant"
+          ],
+          "correct_answer": "garden",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_4_3.mp3",
+          "input_blank_box": {
+            "top": 68.68,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 68.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "[Picture of a hospital building]",
+          "question": "hospital",
+          "options": [
+            "hospital",
+            "theater",
+            "garden",
+            "school",
+            "laboratory",
+            "restaurant"
+          ],
+          "correct_answer": "hospital",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_4_4.mp3",
+          "input_blank_box": {
+            "top": 75.9,
+            "left": 9.3,
+            "width": 38.39,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 75.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "[Picture of a school building]",
+          "question": "school",
+          "options": [
+            "hospital",
+            "theater",
+            "garden",
+            "school",
+            "laboratory",
+            "restaurant"
+          ],
+          "correct_answer": "school",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_4_5.mp3",
+          "input_blank_box": {
+            "top": 79.39,
+            "left": 8.93,
+            "width": 38.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 79.39,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "10.5",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "I work on / in an office.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_eg.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.89,
+            "width": 84.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "He works on / in a doctor's office.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "We work on / in a farm.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "My dad works on / in a building site.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "My sister works on / in a café.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "We work on / in people's gardens.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Dan works on / in a hospital.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "I work on / in a restaurant.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "We work on / in a school.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "Chris works on / in a supermarket.",
+          "options": [
+            "on",
+            "in"
+          ],
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_5_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

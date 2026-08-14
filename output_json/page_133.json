@@ -1,0 +1,72 @@
+{
+  "page_number": 133,
+  "exercises": [
+    {
+      "exercise_id": "1",
+      "exercise_type": "matching",
+      "instruction": "LABEL THE PICTURES",
+      "items": [
+        {
+          "item_number": 4,
+          "question": "headphones",
+          "correct_answer": "headphones"
+        },
+        {
+          "item_number": 5,
+          "question": "dance",
+          "correct_answer": "dance"
+        },
+        {
+          "item_number": 6,
+          "question": "keyboard",
+          "correct_answer": "keyboard"
+        },
+        {
+          "item_number": 11,
+          "question": "band",
+          "correct_answer": "band"
+        },
+        {
+          "item_number": 12,
+          "question": "guitar",
+          "correct_answer": "guitar"
+        },
+        {
+          "item_number": 13,
+          "question": "orchestra",
+          "correct_answer": "orchestra"
+        },
+        {
+          "item_number": 18,
+          "question": "saxophone",
+          "correct_answer": "saxophone"
+        },
+        {
+          "item_number": 19,
+          "question": "audience",
+          "correct_answer": "audience"
+        },
+        {
+          "item_number": 20,
+          "question": "guitar player",
+          "correct_answer": "guitar player"
+        },
+        {
+          "item_number": 25,
+          "question": "drum",
+          "correct_answer": "drum"
+        },
+        {
+          "item_number": 26,
+          "question": "microphone",
+          "correct_answer": "microphone"
+        },
+        {
+          "item_number": 27,
+          "question": "harmonica",
+          "correct_answer": "harmonica"
+        }
+      ]
+    }
+  ]
+}

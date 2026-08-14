@@ -1,0 +1,109 @@
+{
+  "page_number": 75,
+  "unit_number": 23,
+  "exercises": [
+    {
+      "exercise_id": "23.3",
+      "exercise_type": "multiple_choice",
+      "instruction": "MARK THE DIRECTIONS THAT LEAD YOU TO THE CORRECT PLACES",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "For the swimming pool...",
+          "question": "Go straight ahead. The swimming pool is opposite the castle. / Go straight ahead. The swimming pool is opposite the station.",
+          "options": [
+            "Go straight ahead. The swimming pool is opposite the castle.",
+            "Go straight ahead. The swimming pool is opposite the station."
+          ],
+          "correct_answer": "Go straight ahead. The swimming pool is opposite the station.",
+          "audio_file_path": "audio/23/23_3_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "For the school...",
+          "question": "Take the second left. The school is opposite the factory. / Take the third left. The school is next to the factory.",
+          "options": [
+            "Take the second left. The school is opposite the factory.",
+            "Take the third left. The school is next to the factory."
+          ],
+          "correct_answer": "Take the second left. The school is opposite the factory.",
+          "audio_file_path": "audio/23/23_3_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 39.48,
+            "left": 28.87,
+            "width": 9.3,
+            "height": 3.05
+          },
+          "audio_icon_box": {
+            "top": 39.48,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "For the church...",
+          "question": "Turn right and take the second right. The church is opposite the hotel. / Turn right and take the first left. The church is opposite the hotel.",
+          "options": [
+            "Turn right and take the second right. The church is opposite the hotel.",
+            "Turn right and take the first left. The church is opposite the hotel."
+          ],
+          "correct_answer": "Turn right and take the second right. The church is opposite the hotel.",
+          "audio_file_path": "audio/23/23_3_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 41.97,
+            "left": 29.02,
+            "width": 9.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.97,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "For the theater...",
+          "question": "Take the third left and go straight ahead. The theater is on the right. / Take the third right and go straight ahead. The theater is on the left.",
+          "options": [
+            "Take the third left and go straight ahead. The theater is on the right.",
+            "Take the third right and go straight ahead. The theater is on the left."
+          ],
+          "correct_answer": "Take the third left and go straight ahead. The theater is on the right.",
+          "audio_file_path": "audio/23/23_3_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 51.81,
+            "left": 9.82,
+            "width": 80.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.81,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "page_number": 73,
+  "exercises": [
+    {
+      "exercise_id": "22.7",
+      "exercise_type": "audio_listen",
+      "instruction": "RESPOND OUT LOUD TO THE AUDIO, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Are there any cinemas in Littleton?",
+          "question": "No, ________.",
+          "correct_answer": "there aren't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_7_eg.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "Are there any supermarkets in the town?",
+          "question": "Yes, ________.",
+          "correct_answer": "there are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_7_1.mp3",
+          "input_blank_box": {
+            "top": 10.9,
+            "left": 10.04,
+            "width": 36.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Is there a church on Duke Road?",
+          "question": "No, ________.",
+          "correct_answer": "there isn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_7_2.mp3",
+          "input_blank_box": {
+            "top": 11.77,
+            "left": 10.86,
+            "width": 35.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 11.77,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Are there any theaters near the hotel?",
+          "question": "Yes, ________.",
+          "correct_answer": "there are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_7_3.mp3",
+          "input_blank_box": {
+            "top": 11.77,
+            "left": 55.65,
+            "width": 33.63,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 11.77,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Is there a park in your town?",
+          "question": "No, ________.",
+          "correct_answer": "there isn't",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_7_4.mp3",
+          "input_blank_box": {
+            "top": 14.76,
+            "left": 15.1,
+            "width": 30.88,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.76,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Is there a good restaurant near the park?",
+          "question": "Yes, ________.",
+          "correct_answer": "there is",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.26,
+            "left": 60.71,
+            "width": 26.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Are there any castles near your town?",
+          "question": "No, ________.",
+          "correct_answer": "there aren't",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.68,
+            "left": 19.87,
+            "width": 21.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Are there any bars and cafés downtown?",
+          "question": "Yes, ________.",
+          "correct_answer": "there are",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.75,
+            "left": 64.51,
+            "width": 21.5,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.75,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "22.8",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "James is describing his life on a farm.",
+          "question": "Where does James live?",
+          "options": [
+            "on a farm",
+            "in a city",
+            "in a town"
+          ],
+          "correct_answer": "on a farm",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_8.mp3",
+          "input_blank_box": {
+            "top": 19.49,
+            "left": 9.9,
+            "width": 37.2,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "Where is the museum?",
+          "options": [
+            "Stonehill",
+            "Eastford",
+            "There isn't one"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_8.mp3",
+          "input_blank_box": {
+            "top": 18.68,
+            "left": 16.07,
+            "width": 25.97,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Where does James go on the weekend?",
+          "options": [
+            "theater",
+            "church",
+            "museum"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_8.mp3",
+          "input_blank_box": {
+            "top": 18.68,
+            "left": 60.71,
+            "width": 26.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Are there any stores in Stonehill?",
+          "options": [
+            "some",
+            "none",
+            "lots"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_8.mp3",
+          "input_blank_box": {
+            "top": 24.47,
+            "left": 16.37,
+            "width": 29.84,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.47,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "What restaurant does Stonehill have?",
+          "options": [
+            "Italian",
+            "French",
+            "Mexican"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_8.mp3",
+          "input_blank_box": {
+            "top": 24.47,
+            "left": 59.67,
+            "width": 29.84,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.47,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Are there any theaters in Stonehill?",
+          "options": [
+            "some",
+            "none",
+            "lots"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_8.mp3",
+          "input_blank_box": {
+            "top": 25.03,
+            "left": 60.71,
+            "width": 25.82,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 25.03,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "How many churches are there in Eastford?",
+          "options": [
+            "two",
+            "four",
+            "six"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_8.mp3",
+          "input_blank_box": {
+            "top": 27.58,
+            "left": 21.43,
+            "width": 21.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Are there any stores in Eastford?",
+          "options": [
+            "some",
+            "none",
+            "lots"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_8.mp3",
+          "input_blank_box": {
+            "top": 27.58,
+            "left": 64.66,
+            "width": 21.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

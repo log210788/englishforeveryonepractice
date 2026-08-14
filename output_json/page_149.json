@@ -1,0 +1,128 @@
+{
+  "page_number": 149,
+  "exercises": [
+    {
+      "exercise_id": "47.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES WITH THE MISSING WORDS IN THE CORRECT PLACES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Douglas to have pasta. [wants]",
+          "correct_answer": "Douglas wants to have pasta.",
+          "audio_file_path": "audio/47/47_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "They'd to go home tomorrow. [like]",
+          "correct_answer": "They'd like to go home tomorrow.",
+          "audio_file_path": "audio/47/47_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Does Chris want go swimming later? [to]",
+          "correct_answer": "Does Chris want to go swimming later?",
+          "audio_file_path": "audio/47/47_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Sheila doesn't to see Paul. [want]",
+          "correct_answer": "Sheila doesn't want to see Paul.",
+          "audio_file_path": "audio/47/47_3_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Would you to visit us tomorrow? [like]",
+          "correct_answer": "Would you like to visit us tomorrow?",
+          "audio_file_path": "audio/47/47_3_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Our children want go to college. [to]",
+          "correct_answer": "Our children want to go to college.",
+          "audio_file_path": "audio/47/47_3_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "She'd to buy a new cell phone. [like]",
+          "correct_answer": "She'd like to buy a new cell phone.",
+          "audio_file_path": "audio/47/47_3_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Jenny to go shopping on Friday. [wants]",
+          "correct_answer": "Jenny wants to go shopping on Friday.",
+          "audio_file_path": "audio/47/47_3_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Simon like to be a doctor. [would]",
+          "correct_answer": "Simon would like to be a doctor.",
+          "audio_file_path": "audio/47/47_3_9.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "I like to have a hamburger. [would]",
+          "correct_answer": "I would like to have a hamburger.",
+          "audio_file_path": "audio/47/47_3_10.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "Would like to be a vet? [you]",
+          "correct_answer": "Would you like to be a vet?",
+          "audio_file_path": "audio/47/47_3_11.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "Chloe want to eat that pizza. [doesn't]",
+          "correct_answer": "Chloe doesn't want to eat that pizza.",
+          "audio_file_path": "audio/47/47_3_12.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 13,
+          "question": "You want to read this book? [Do]",
+          "correct_answer": "Do you want to read this book?",
+          "audio_file_path": "audio/47/47_3_13.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "They like to watch TV. [would]",
+          "correct_answer": "They would like to watch TV.",
+          "audio_file_path": "audio/47/47_3_14.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "She wants go to the party. [to]",
+          "correct_answer": "She wants to go to the party.",
+          "audio_file_path": "audio/47/47_3_15.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "47.4",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE 12 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create sentences using the chart: I'd like, We want, Greg wants + to drive, to travel + to Miami, around America."
+        }
+      ]
+    }
+  ]
+}

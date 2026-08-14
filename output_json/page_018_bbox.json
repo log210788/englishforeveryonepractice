@@ -1,0 +1,302 @@
+{
+  "page_number": 18,
+  "unit_number": 4,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "4.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "PABLO'S FAMILY WRITE THE WORDS FROM THE PANEL IN THE CORRECT PLACES ON PABLO'S FAMILY TREE",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Female figure at the top left, partner of blank 1",
+          "question": "Sample blank for grandmother",
+          "options": [
+            "granddaughter",
+            "sister",
+            "grandmother",
+            "son",
+            "daughter",
+            "grandson",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "grandmother",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_1_eg.mp3",
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 19.61,
+            "left": 46.5,
+            "width": 2.53,
+            "height": 1.74
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "Male figure at the top right, partner of grandmother",
+          "question": "Blank 1",
+          "options": [
+            "granddaughter",
+            "sister",
+            "grandmother",
+            "son",
+            "daughter",
+            "grandson",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "grandfather",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_1_1.mp3",
+          "input_blank_box": {
+            "top": 18.06,
+            "left": 22.99,
+            "width": 11.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 35.18,
+            "left": 23.74,
+            "width": 2.31,
+            "height": 2.43
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Male figure, partner of mother",
+          "question": "Blank 2",
+          "options": [
+            "granddaughter",
+            "sister",
+            "grandmother",
+            "son",
+            "daughter",
+            "grandson",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "father",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_1_2.mp3",
+          "input_blank_box": {
+            "top": 18.31,
+            "left": 73.14,
+            "width": 18.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 35.06,
+            "left": 38.76,
+            "width": 2.53,
+            "height": 1.74
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Female figure, sibling of mother/father",
+          "question": "Blank 3",
+          "options": [
+            "granddaughter",
+            "sister",
+            "grandmother",
+            "son",
+            "daughter",
+            "grandson",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "sister",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_1_3.mp3",
+          "input_blank_box": {
+            "top": 26.4,
+            "left": 22.54,
+            "width": 12.87,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.99,
+            "left": 59.67,
+            "width": 2.53,
+            "height": 1.74
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Male figure, sibling of mother/father",
+          "question": "Blank 4",
+          "options": [
+            "granddaughter",
+            "sister",
+            "grandmother",
+            "son",
+            "daughter",
+            "grandson",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "uncle",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_1_4.mp3",
+          "input_blank_box": {
+            "top": 27.71,
+            "left": 22.69,
+            "width": 11.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.37,
+            "left": 46.43,
+            "width": 2.46,
+            "height": 1.74
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Male figure, child of Pablo and wife",
+          "question": "Blank 5",
+          "options": [
+            "granddaughter",
+            "sister",
+            "grandmother",
+            "son",
+            "daughter",
+            "grandson",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "son",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_1_5.mp3",
+          "input_blank_box": {
+            "top": 26.4,
+            "left": 43.97,
+            "width": 10.34,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.62,
+            "left": 16.07,
+            "width": 2.23,
+            "height": 2.43
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Female figure, child of Pablo and wife",
+          "question": "Blank 6",
+          "options": [
+            "granddaughter",
+            "sister",
+            "grandmother",
+            "son",
+            "daughter",
+            "grandson",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "daughter",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_1_6.mp3",
+          "input_blank_box": {
+            "top": 39.04,
+            "left": 76.86,
+            "width": 10.42,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.62,
+            "left": 61.83,
+            "width": 2.31,
+            "height": 2.37
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Male figure, child of daughter and son-in-law",
+          "question": "Blank 7",
+          "options": [
+            "granddaughter",
+            "sister",
+            "grandmother",
+            "son",
+            "daughter",
+            "grandson",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "grandson",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_1_7.mp3",
+          "input_blank_box": {
+            "top": 41.78,
+            "left": 36.09,
+            "width": 10.27,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 66.94,
+            "left": 14.43,
+            "width": 2.46,
+            "height": 1.74
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "Female figure, child of daughter and son-in-law",
+          "question": "Blank 8",
+          "options": [
+            "granddaughter",
+            "sister",
+            "grandmother",
+            "son",
+            "daughter",
+            "grandson",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "granddaughter",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/4/4_1_8.mp3",
+          "input_blank_box": {
+            "top": 41.78,
+            "left": 56.47,
+            "width": 10.27,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 67.19,
+            "left": 32.96,
+            "width": 2.23,
+            "height": 2.37
+          }
+        }
+      ]
+    }
+  ]
+}

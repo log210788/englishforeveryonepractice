@@ -1,0 +1,324 @@
+{
+  "page_number": 131,
+  "exercises": [
+    {
+      "exercise_id": "40.7",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE BEGINNINGS OF THE SENTENCES TO THE CORRECT ENDINGS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Sam likes watching soccer",
+          "options": [
+            "She thinks it's delicious.",
+            "because she is a vegetarian.",
+            "because it is tiring.",
+            "I think it's disgusting.",
+            "because he doesn't have a sweet tooth.",
+            "because they're really interesting.",
+            "She thinks they are scary.",
+            "because it's exciting."
+          ],
+          "correct_answer": "because it's exciting.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Marie loves pizza.",
+          "options": [
+            "She thinks it's delicious.",
+            "because she is a vegetarian.",
+            "because it is tiring.",
+            "I think it's disgusting.",
+            "because he doesn't have a sweet tooth.",
+            "because they're really interesting.",
+            "She thinks they are scary.",
+            "because it's exciting."
+          ],
+          "correct_answer": "She thinks it's delicious.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_2.mp3",
+          "input_blank_box": {
+            "top": 11.02,
+            "left": 57.59,
+            "width": 34.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 11.02,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I love reading history books",
+          "options": [
+            "She thinks it's delicious.",
+            "because she is a vegetarian.",
+            "because it is tiring.",
+            "I think it's disgusting.",
+            "because he doesn't have a sweet tooth.",
+            "because they're really interesting.",
+            "She thinks they are scary.",
+            "because it's exciting."
+          ],
+          "correct_answer": "because they're really interesting.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_3.mp3",
+          "input_blank_box": {
+            "top": 13.7,
+            "left": 57.51,
+            "width": 34.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.7,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Sally doesn't like running",
+          "options": [
+            "She thinks it's delicious.",
+            "because she is a vegetarian.",
+            "because it is tiring.",
+            "I think it's disgusting.",
+            "because he doesn't have a sweet tooth.",
+            "because they're really interesting.",
+            "She thinks they are scary.",
+            "because it's exciting."
+          ],
+          "correct_answer": "because it is tiring.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_4.mp3",
+          "input_blank_box": {
+            "top": 15.5,
+            "left": 11.09,
+            "width": 31.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Peggy does not like eating meat",
+          "options": [
+            "She thinks it's delicious.",
+            "because she is a vegetarian.",
+            "because it is tiring.",
+            "I think it's disgusting.",
+            "because he doesn't have a sweet tooth.",
+            "because they're really interesting.",
+            "She thinks they are scary.",
+            "because it's exciting."
+          ],
+          "correct_answer": "because she is a vegetarian.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_5.mp3",
+          "input_blank_box": {
+            "top": 15.19,
+            "left": 57.51,
+            "width": 34.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.19,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Paolo does not eat chocolate",
+          "options": [
+            "She thinks it's delicious.",
+            "because she is a vegetarian.",
+            "because it is tiring.",
+            "I think it's disgusting.",
+            "because he doesn't have a sweet tooth.",
+            "because they're really interesting.",
+            "She thinks they are scary.",
+            "because it's exciting."
+          ],
+          "correct_answer": "because he doesn't have a sweet tooth.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_6.mp3",
+          "input_blank_box": {
+            "top": 18.18,
+            "left": 11.16,
+            "width": 31.55,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.18,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Jemma hates snakes.",
+          "options": [
+            "She thinks it's delicious.",
+            "because she is a vegetarian.",
+            "because it is tiring.",
+            "I think it's disgusting.",
+            "because he doesn't have a sweet tooth.",
+            "because they're really interesting.",
+            "She thinks they are scary.",
+            "because it's exciting."
+          ],
+          "correct_answer": "She thinks they are scary.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/40/40_7_7.mp3",
+          "input_blank_box": {
+            "top": 17.87,
+            "left": 57.59,
+            "width": 34.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.8",
+      "exercise_type": "multiple_choice",
+      "instruction": "READ THE EMAIL AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "The cafés and bars by the sea are...",
+          "question": "boring / exciting / interesting",
+          "options": [
+            "boring",
+            "exciting",
+            "interesting"
+          ],
+          "correct_answer": "exciting",
+          "input_blank_box": {
+            "top": 19.68,
+            "left": 11.16,
+            "width": 31.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "The weather in Sardinia is...",
+          "question": "hot / cold / rainy",
+          "options": [
+            "hot",
+            "cold",
+            "rainy"
+          ],
+          "correct_answer": "hot",
+          "input_blank_box": {
+            "top": 19.3,
+            "left": 57.59,
+            "width": 34.15,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "The museum in the town is really...",
+          "question": "exciting / interesting / tiring",
+          "options": [
+            "exciting",
+            "interesting",
+            "tiring"
+          ],
+          "correct_answer": "interesting",
+          "input_blank_box": {
+            "top": 22.35,
+            "left": 11.09,
+            "width": 31.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Si loves pizza because it is...",
+          "question": "disgusting / tiring / delicious",
+          "options": [
+            "disgusting",
+            "tiring",
+            "delicious"
+          ],
+          "correct_answer": "delicious",
+          "input_blank_box": {
+            "top": 21.98,
+            "left": 57.51,
+            "width": 34.3,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Samantha hates pasta because it is...",
+          "question": "interesting / boring / delicious",
+          "options": [
+            "interesting",
+            "boring",
+            "delicious"
+          ],
+          "correct_answer": "boring",
+          "input_blank_box": {
+            "top": 23.91,
+            "left": 11.16,
+            "width": 31.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Si doesn't like walking because it's...",
+          "question": "exciting / tiring / boring",
+          "options": [
+            "exciting",
+            "tiring",
+            "boring"
+          ],
+          "correct_answer": "tiring",
+          "input_blank_box": {
+            "top": 26.59,
+            "left": 11.16,
+            "width": 31.55,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

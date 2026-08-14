@@ -1,0 +1,197 @@
+{
+  "page_number": 74,
+  "unit_number": 23,
+  "unit_title": "Orders and directions",
+  "exercises": [
+    {
+      "exercise_id": "23.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE EACH VERB AS AN IMPERATIVE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "to put",
+          "correct_answer": "put",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "I read",
+          "correct_answer": "read",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "she works",
+          "correct_answer": "work",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "to start",
+          "correct_answer": "start",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "you eat",
+          "correct_answer": "eat",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "they have",
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "it stops",
+          "correct_answer": "stop",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "to wake up",
+          "correct_answer": "wake up",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "we run",
+          "correct_answer": "run",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "they come",
+          "correct_answer": "come",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "you are",
+          "correct_answer": "be",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_11.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "23.2",
+      "exercise_type": "multiple_choice",
+      "instruction": "MARK WHETHER EACH SENTENCE IS IMPERATIVE OR PRESENT SIMPLE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I eat my dinner at 6pm.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "present simple",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Come with me.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "You read your book every day.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "present simple",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Give that to me.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Read this book.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Eat your dinner.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "She goes to bed at 9pm.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "present simple",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "I start school at 9am.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "present simple",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Go to bed.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_9.mp3"
+        }
+      ]
+    }
+  ]
+}

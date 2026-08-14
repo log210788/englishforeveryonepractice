@@ -1,0 +1,370 @@
+{
+  "page_number": 40,
+  "unit_number": 13,
+  "unit_title": "Describing your day",
+  "exercises": [
+    {
+      "exercise_id": "13.1",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE CORRECT SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Picture of showering at 6:45am",
+          "question": "Match the picture of showering at 6:45am to the correct sentence.",
+          "options": [
+            "Marion brushes her teeth at 7:20am.",
+            "Marion gets up at 6:30am.",
+            "Marion gets the bus at 7:45am.",
+            "Marion leaves work at 5pm.",
+            "Marion has a shower at 6:45am.",
+            "Marion has breakfast at 7am.",
+            "Marion goes to work at 7:30am.",
+            "Marion gets to work at 8:30am."
+          ],
+          "correct_answer": "Marion has a shower at 6:45am.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Picture of eating breakfast at 7:00am",
+          "question": "Match the picture of eating breakfast at 7:00am to the correct sentence.",
+          "options": [
+            "Marion brushes her teeth at 7:20am.",
+            "Marion gets up at 6:30am.",
+            "Marion gets the bus at 7:45am.",
+            "Marion leaves work at 5pm.",
+            "Marion has a shower at 6:45am.",
+            "Marion has breakfast at 7am.",
+            "Marion goes to work at 7:30am.",
+            "Marion gets to work at 8:30am."
+          ],
+          "correct_answer": "Marion has breakfast at 7am.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Picture of brushing teeth at 7:20am",
+          "question": "Match the picture of brushing teeth at 7:20am to the correct sentence.",
+          "options": [
+            "Marion brushes her teeth at 7:20am.",
+            "Marion gets up at 6:30am.",
+            "Marion gets the bus at 7:45am.",
+            "Marion leaves work at 5pm.",
+            "Marion has a shower at 6:45am.",
+            "Marion has breakfast at 7am.",
+            "Marion goes to work at 7:30am.",
+            "Marion gets to work at 8:30am."
+          ],
+          "correct_answer": "Marion brushes her teeth at 7:20am.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Picture of leaving home at 7:30am",
+          "question": "Match the picture of leaving home at 7:30am to the correct sentence.",
+          "options": [
+            "Marion brushes her teeth at 7:20am.",
+            "Marion gets up at 6:30am.",
+            "Marion gets the bus at 7:45am.",
+            "Marion leaves work at 5pm.",
+            "Marion has a shower at 6:45am.",
+            "Marion has breakfast at 7am.",
+            "Marion goes to work at 7:30am.",
+            "Marion gets to work at 8:30am."
+          ],
+          "correct_answer": "Marion goes to work at 7:30am.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Picture of getting on a bus at 7:45am",
+          "question": "Match the picture of getting on a bus at 7:45am to the correct sentence.",
+          "options": [
+            "Marion brushes her teeth at 7:20am.",
+            "Marion gets up at 6:30am.",
+            "Marion gets the bus at 7:45am.",
+            "Marion leaves work at 5pm.",
+            "Marion has a shower at 6:45am.",
+            "Marion has breakfast at 7am.",
+            "Marion goes to work at 7:30am.",
+            "Marion gets to work at 8:30am."
+          ],
+          "correct_answer": "Marion gets the bus at 7:45am.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Picture of working at a desk at 8:30am",
+          "question": "Match the picture of working at a desk at 8:30am to the correct sentence.",
+          "options": [
+            "Marion brushes her teeth at 7:20am.",
+            "Marion gets up at 6:30am.",
+            "Marion gets the bus at 7:45am.",
+            "Marion leaves work at 5pm.",
+            "Marion has a shower at 6:45am.",
+            "Marion has breakfast at 7am.",
+            "Marion goes to work at 7:30am.",
+            "Marion gets to work at 8:30am."
+          ],
+          "correct_answer": "Marion gets to work at 8:30am.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Picture of leaving work at 5:00pm",
+          "question": "Match the picture of leaving work at 5:00pm to the correct sentence.",
+          "options": [
+            "Marion brushes her teeth at 7:20am.",
+            "Marion gets up at 6:30am.",
+            "Marion gets the bus at 7:45am.",
+            "Marion leaves work at 5pm.",
+            "Marion has a shower at 6:45am.",
+            "Marion has breakfast at 7am.",
+            "Marion goes to work at 7:30am.",
+            "Marion gets to work at 8:30am."
+          ],
+          "correct_answer": "Marion leaves work at 5pm.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_1_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "13.2",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I wake / wakes up at 6:30am.",
+          "options": [
+            "wake",
+            "wakes"
+          ],
+          "correct_answer": "wake",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "He gets / get up at 6am.",
+          "options": [
+            "gets",
+            "get"
+          ],
+          "correct_answer": "gets",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "She have / has a shower at 7am.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "They have / has cereal for breakfast.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "He have / has a shower before breakfast.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "She leaves / leave home at 7:15am.",
+          "options": [
+            "leaves",
+            "leave"
+          ],
+          "correct_answer": "leaves",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "The bus go / goes every half hour.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "I get / gets to work at 8:30am.",
+          "options": [
+            "get",
+            "gets"
+          ],
+          "correct_answer": "get",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "He start / starts work at 9am.",
+          "options": [
+            "start",
+            "starts"
+          ],
+          "correct_answer": "starts",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "She take / takes an hour for lunch.",
+          "options": [
+            "take",
+            "takes"
+          ],
+          "correct_answer": "takes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "I go / goes to the sandwich shop for lunch.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "They eat / eats lunch in the canteen.",
+          "options": [
+            "eat",
+            "eats"
+          ],
+          "correct_answer": "eat",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "question": "He finish / finishes work at 5pm.",
+          "options": [
+            "finish",
+            "finishes"
+          ],
+          "correct_answer": "finishes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_13.mp3"
+        },
+        {
+          "item_number": 14,
+          "question": "They go / goes home on the bus.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_14.mp3"
+        },
+        {
+          "item_number": 15,
+          "question": "He wash / washes his car every weekend.",
+          "options": [
+            "wash",
+            "washes"
+          ],
+          "correct_answer": "washes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_15.mp3"
+        },
+        {
+          "item_number": 16,
+          "question": "I watch / watches TV after dinner.",
+          "options": [
+            "watch",
+            "watches"
+          ],
+          "correct_answer": "watch",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_16.mp3"
+        },
+        {
+          "item_number": 17,
+          "question": "They go / goes to bed at 11pm.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_17.mp3"
+        },
+        {
+          "item_number": 18,
+          "question": "He sleep / sleeps for eight hours.",
+          "options": [
+            "sleep",
+            "sleeps"
+          ],
+          "correct_answer": "sleeps",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_2_18.mp3"
+        }
+      ]
+    }
+  ]
+}

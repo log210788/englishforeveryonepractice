@@ -1,0 +1,437 @@
+{
+  "page_number": 74,
+  "unit_number": 23,
+  "unit_title": "Orders and directions",
+  "exercises": [
+    {
+      "exercise_id": "23.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE EACH VERB AS AN IMPERATIVE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "to put",
+          "correct_answer": "put",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_1.mp3",
+          "input_blank_box": {
+            "top": 19.55,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.55,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "I read",
+          "correct_answer": "read",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_2.mp3",
+          "input_blank_box": {
+            "top": 26.84,
+            "left": 9.15,
+            "width": 38.24,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.84,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "she works",
+          "correct_answer": "work",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_3.mp3",
+          "input_blank_box": {
+            "top": 29.27,
+            "left": 28.94,
+            "width": 18.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.27,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "to start",
+          "correct_answer": "start",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_4.mp3",
+          "input_blank_box": {
+            "top": 30.32,
+            "left": 9.15,
+            "width": 38.39,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "you eat",
+          "correct_answer": "eat",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_5.mp3",
+          "input_blank_box": {
+            "top": 29.89,
+            "left": 73.51,
+            "width": 18.45,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.89,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "they have",
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_6.mp3",
+          "input_blank_box": {
+            "top": 33.31,
+            "left": 28.87,
+            "width": 19.87,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "it stops",
+          "correct_answer": "stop",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_7.mp3",
+          "input_blank_box": {
+            "top": 33.31,
+            "left": 73.51,
+            "width": 18.45,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "to wake up",
+          "correct_answer": "wake up",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_8.mp3",
+          "input_blank_box": {
+            "top": 36.67,
+            "left": 28.87,
+            "width": 19.87,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 36.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "we run",
+          "correct_answer": "run",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_9.mp3",
+          "input_blank_box": {
+            "top": 36.67,
+            "left": 73.59,
+            "width": 18.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 36.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "they come",
+          "correct_answer": "come",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_10.mp3",
+          "input_blank_box": {
+            "top": 40.1,
+            "left": 28.87,
+            "width": 19.87,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "you are",
+          "correct_answer": "be",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_1_11.mp3",
+          "input_blank_box": {
+            "top": 40.1,
+            "left": 73.51,
+            "width": 18.45,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "23.2",
+      "exercise_type": "multiple_choice",
+      "instruction": "MARK WHETHER EACH SENTENCE IS IMPERATIVE OR PRESENT SIMPLE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I eat my dinner at 6pm.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "present simple",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_1.mp3",
+          "input_blank_box": {
+            "top": 43.46,
+            "left": 28.87,
+            "width": 19.87,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.46,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Come with me.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_2.mp3",
+          "input_blank_box": {
+            "top": 43.46,
+            "left": 73.51,
+            "width": 18.45,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.46,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "You read your book every day.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "present simple",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_3.mp3",
+          "input_blank_box": {
+            "top": 46.82,
+            "left": 28.87,
+            "width": 19.87,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.82,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Give that to me.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_4.mp3",
+          "input_blank_box": {
+            "top": 46.82,
+            "left": 73.51,
+            "width": 18.45,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.82,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Read this book.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_5.mp3",
+          "input_blank_box": {
+            "top": 50.62,
+            "left": 7.66,
+            "width": 84.6,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Eat your dinner.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_6.mp3",
+          "input_blank_box": {
+            "top": 52.93,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 52.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "She goes to bed at 9pm.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "present simple",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_7.mp3",
+          "input_blank_box": {
+            "top": 60.21,
+            "left": 10.34,
+            "width": 36.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 60.21,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "I start school at 9am.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "present simple",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_8.mp3",
+          "input_blank_box": {
+            "top": 65.38,
+            "left": 9.6,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 65.38,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Go to bed.",
+          "options": [
+            "imperative",
+            "present simple"
+          ],
+          "correct_answer": "imperative",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_2_9.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "page_number": 87,
+  "exercises": [
+    {
+      "exercise_id": "1",
+      "exercise_type": "matching",
+      "instruction": "Label the pictures with the words from the box.",
+      "items": [
+        {
+          "item_number": 4,
+          "question": "house",
+          "correct_answer": "house",
+          "input_blank_box": {
+            "top": 10.83,
+            "left": 0.0,
+            "width": 93.53,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "wardrobe",
+          "correct_answer": "wardrobe",
+          "input_blank_box": {
+            "top": 18.49,
+            "left": 72.02,
+            "width": 18.6,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "bath",
+          "correct_answer": "bath",
+          "input_blank_box": {
+            "top": 18.06,
+            "left": 72.02,
+            "width": 18.75,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "garage",
+          "correct_answer": "garage",
+          "input_blank_box": {
+            "top": 18.62,
+            "left": 72.17,
+            "width": 18.45,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "dining room",
+          "correct_answer": "dining room",
+          "input_blank_box": {
+            "top": 18.99,
+            "left": 6.85,
+            "width": 16.44,
+            "height": 3.18
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "door",
+          "correct_answer": "door",
+          "input_blank_box": {
+            "top": 20.42,
+            "left": 72.4,
+            "width": 18.23,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "window",
+          "correct_answer": "window",
+          "input_blank_box": {
+            "top": 19.74,
+            "left": 72.4,
+            "width": 18.23,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "table",
+          "correct_answer": "table",
+          "input_blank_box": {
+            "top": 19.61,
+            "left": 72.4,
+            "width": 18.23,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 20,
+          "question": "bed",
+          "correct_answer": "bed",
+          "input_blank_box": {
+            "top": 19.36,
+            "left": 72.4,
+            "width": 17.63,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "bookcase",
+          "correct_answer": "bookcase",
+          "input_blank_box": {
+            "top": 18.93,
+            "left": 72.4,
+            "width": 18.23,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "bathroom",
+          "correct_answer": "bathroom",
+          "input_blank_box": {
+            "top": 18.8,
+            "left": 72.4,
+            "width": 17.93,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "armchair",
+          "correct_answer": "armchair",
+          "input_blank_box": {
+            "top": 20.67,
+            "left": 72.4,
+            "width": 18.23,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

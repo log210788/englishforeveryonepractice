@@ -1,0 +1,158 @@
+{
+  "page_number": 24,
+  "unit_number": 7,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "7.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "EVERYDAY THINGS WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "sample",
+          "question": "Picture sample",
+          "correct_answer": "wallet",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Picture 1",
+          "correct_answer": "notepad",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Picture 2",
+          "correct_answer": "sunglasses",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Picture 3",
+          "correct_answer": "keys",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_3.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "Picture 7",
+          "correct_answer": "ID card",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "Picture 8",
+          "correct_answer": "letter",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "Picture 9",
+          "correct_answer": "toothbrush",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "Picture 10",
+          "correct_answer": "hairbrush",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_10.mp3"
+        },
+        {
+          "item_number": 14,
+          "prompt_text": null,
+          "question": "Picture 14",
+          "correct_answer": "pencil",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_14.mp3"
+        },
+        {
+          "item_number": 15,
+          "prompt_text": null,
+          "question": "Picture 15",
+          "correct_answer": "dictionary",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_15.mp3"
+        },
+        {
+          "item_number": 16,
+          "prompt_text": null,
+          "question": "Picture 16",
+          "correct_answer": "apple",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_16.mp3"
+        },
+        {
+          "item_number": 17,
+          "prompt_text": null,
+          "question": "Picture 17",
+          "correct_answer": "book",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_17.mp3"
+        },
+        {
+          "item_number": 21,
+          "prompt_text": null,
+          "question": "Picture 21",
+          "correct_answer": "passport",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_21.mp3"
+        },
+        {
+          "item_number": 22,
+          "prompt_text": null,
+          "question": "Picture 22",
+          "correct_answer": "magazine",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_22.mp3"
+        },
+        {
+          "item_number": 23,
+          "prompt_text": null,
+          "question": "Picture 23",
+          "correct_answer": "camera",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_23.mp3"
+        },
+        {
+          "item_number": 24,
+          "prompt_text": null,
+          "question": "Picture 24",
+          "correct_answer": "glasses",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/7/7_1_24.mp3"
+        }
+      ]
+    }
+  ]
+}

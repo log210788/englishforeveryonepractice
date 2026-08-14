@@ -1,0 +1,257 @@
+{
+  "page_number": 143,
+  "exercises": [
+    {
+      "exercise_id": "44.7",
+      "exercise_type": "audio_listen",
+      "instruction": "RESPOND OUT LOUD TO THE AUDIO, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Can you jump over the wall?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Can you catch that big fish?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_2.mp3",
+          "input_blank_box": {
+            "top": 10.83,
+            "left": 9.9,
+            "width": 37.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.83,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Can you throw a stick for the dog?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_3.mp3",
+          "input_blank_box": {
+            "top": 11.77,
+            "left": 10.49,
+            "width": 35.34,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 11.77,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Can you speak Italian?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_4.mp3",
+          "input_blank_box": {
+            "top": 14.69,
+            "left": 14.58,
+            "width": 31.55,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.69,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Can you play the violin?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_5.mp3",
+          "input_blank_box": {
+            "top": 15.26,
+            "left": 15.77,
+            "width": 26.34,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Can you climb that tree?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_6.mp3",
+          "input_blank_box": {
+            "top": 17.68,
+            "left": 19.94,
+            "width": 21.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Can you do Sudoku puzzles?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_7.mp3",
+          "input_blank_box": {
+            "top": 18.43,
+            "left": 64.66,
+            "width": 21.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "Can you sing?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_8.mp3",
+          "input_blank_box": {
+            "top": 19.43,
+            "left": 9.97,
+            "width": 37.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "Can you ride a bicycle?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_9.mp3",
+          "input_blank_box": {
+            "top": 19.49,
+            "left": 60.71,
+            "width": 26.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": "Can you move the kitchen table?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_10.mp3",
+          "input_blank_box": {
+            "top": 20.86,
+            "left": 12.57,
+            "width": 34.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.86,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "prompt_text": "Can you cook roast chicken?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_11.mp3",
+          "input_blank_box": {
+            "top": 20.86,
+            "left": 55.88,
+            "width": 34.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.86,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "44.8",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE 18 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create sentences using the chart: I/She/They + can/can't + ride a bicycle/swim a mile/play tennis.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_8.mp3",
+          "input_blank_box": {
+            "top": 23.85,
+            "left": 16.44,
+            "width": 31.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 23.85,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

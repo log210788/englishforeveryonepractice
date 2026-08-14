@@ -1,0 +1,291 @@
+{
+  "page_number": 119,
+  "exercises": [
+    {
+      "exercise_id": "37.2",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT SPELLINGS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Jane goes dancing / danceing on Friday nights.",
+          "options": [
+            "dancing",
+            "danceing"
+          ],
+          "correct_answer": "dancing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Our dad goes sailing / saileing in the summer.",
+          "options": [
+            "sailing",
+            "saileing"
+          ],
+          "correct_answer": "sailing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I go fisheing / fishing in the evening.",
+          "options": [
+            "fisheing",
+            "fishing"
+          ],
+          "correct_answer": "fishing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Do you go running / runing in the morning?",
+          "options": [
+            "running",
+            "runing"
+          ],
+          "correct_answer": "running",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "They go cycling / cycleing in the summer.",
+          "options": [
+            "cycling",
+            "cycleing"
+          ],
+          "correct_answer": "cycling",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Sam goes swiming / swimming on Sundays.",
+          "options": [
+            "swiming",
+            "swimming"
+          ],
+          "correct_answer": "swimming",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "I go horseback riding / horseback ridding daily.",
+          "options": [
+            "horseback riding",
+            "horseback ridding"
+          ],
+          "correct_answer": "horseback riding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Claire goes shopping / shopeing in London.",
+          "options": [
+            "shopping",
+            "shopeing"
+          ],
+          "correct_answer": "shopping",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Omar goes skateboarding / skateboardding daily.",
+          "options": [
+            "skateboarding",
+            "skateboardding"
+          ],
+          "correct_answer": "skateboarding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "Do you go dancing / danccing with her?",
+          "options": [
+            "dancing",
+            "danccing"
+          ],
+          "correct_answer": "dancing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "Rachel goes hikking / hiking in Peru.",
+          "options": [
+            "hikking",
+            "hiking"
+          ],
+          "correct_answer": "hiking",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "I go snowboarding / snowbording in the winter.",
+          "options": [
+            "snowboarding",
+            "snowbording"
+          ],
+          "correct_answer": "snowboarding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "question": "Bob and Steve go surphing / surfing in Tahiti.",
+          "options": [
+            "surphing",
+            "surfing"
+          ],
+          "correct_answer": "surfing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_2_13.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE VERBS AS GERUNDS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "snowboard",
+          "correct_answer": "snowboarding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "run",
+          "correct_answer": "running",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "fish",
+          "correct_answer": "fishing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "swim",
+          "correct_answer": "swimming",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "skateboard",
+          "correct_answer": "skateboarding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "dance",
+          "correct_answer": "dancing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "surf",
+          "correct_answer": "surfing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_3_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "shop",
+          "correct_answer": "shopping",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 9,
+          "question": "cycle",
+          "correct_answer": "cycling",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 10,
+          "question": "sail",
+          "correct_answer": "sailing",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 11,
+          "question": "ride",
+          "correct_answer": "riding",
+          "audio_icon_present": false
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.4",
+      "exercise_type": "audio_listen",
+      "instruction": "SAY THE SENTENCES OUT LOUD USING \"GO\" OR \"GOES\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I ________ shopping in the evening.",
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Jan ________ skateboarding on Fridays.",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Pete ________ sailing on the weekend.",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Sam ________ skating every December.",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "I ________ running on Wednesday.",
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "They ________ fishing with their friends.",
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Sarah ________ dancing on Saturdays.",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_4_7.mp3"
+        }
+      ]
+    }
+  ]
+}

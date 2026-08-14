@@ -1,0 +1,401 @@
+{
+  "page_number": 50,
+  "unit_number": 16,
+  "unit_title": "More negatives",
+  "exercises": [
+    {
+      "exercise_id": "16.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"DO NOT\" OR \"DOES NOT\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Jane __________ walk to work.",
+          "correct_answer": "does not",
+          "audio_file_path": "audio/16/16_1_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 18.49,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "My brother __________ watch TV.",
+          "correct_answer": "does not",
+          "audio_file_path": "audio/16/16_1_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 25.72,
+            "left": 9.75,
+            "width": 37.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 25.72,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I __________ read a book in the evening.",
+          "correct_answer": "do not",
+          "audio_file_path": "audio/16/16_1_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 29.27,
+            "left": 9.52,
+            "width": 37.65,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.27,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Frank __________ work at the museum.",
+          "correct_answer": "does not",
+          "audio_file_path": "audio/16/16_1_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 28.21,
+            "left": 13.91,
+            "width": 11.24,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.21,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "They __________ go dancing on the weekend.",
+          "correct_answer": "do not",
+          "audio_file_path": "audio/16/16_1_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 28.02,
+            "left": 55.13,
+            "width": 18.6,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.02,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "We __________ go to work on Fridays.",
+          "correct_answer": "do not",
+          "audio_file_path": "audio/16/16_1_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.32,
+            "left": 14.73,
+            "width": 21.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "I __________ get up at 7:30am.",
+          "correct_answer": "do not",
+          "audio_file_path": "audio/16/16_1_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.32,
+            "left": 57.59,
+            "width": 21.06,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "You __________ have a car.",
+          "correct_answer": "do not",
+          "audio_file_path": "audio/16/16_1_8.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 34.68,
+            "left": 20.24,
+            "width": 16.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "My dad __________ work in an office.",
+          "correct_answer": "does not",
+          "audio_file_path": "audio/16/16_1_9.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 34.68,
+            "left": 60.49,
+            "width": 12.95,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "You __________ have a dog.",
+          "correct_answer": "do not",
+          "audio_file_path": "audio/16/16_1_10.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 37.98,
+            "left": 11.9,
+            "width": 13.84,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.98,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "My sister __________ work with children.",
+          "correct_answer": "does not",
+          "audio_file_path": "audio/16/16_1_11.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 37.98,
+            "left": 57.59,
+            "width": 21.06,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.98,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "They __________ live in the country.",
+          "correct_answer": "do not",
+          "audio_file_path": "audio/16/16_1_12.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 41.34,
+            "left": 15.25,
+            "width": 13.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "Freddie __________ eat meat.",
+          "correct_answer": "does not",
+          "audio_file_path": "audio/16/16_1_13.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 41.34,
+            "left": 61.61,
+            "width": 12.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "16.2",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "in New York. live doesn't Tony",
+          "correct_answer": "Tony doesn't live in New York.",
+          "audio_file_path": "audio/16/16_2_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 44.71,
+            "left": 14.73,
+            "width": 10.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 44.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "doesn't a farm. work on Sebastian",
+          "correct_answer": "Sebastian doesn't work on a farm.",
+          "audio_file_path": "audio/16/16_2_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 44.71,
+            "left": 58.41,
+            "width": 15.33,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 44.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "a factory. doesn't uncle My in work",
+          "correct_answer": "My uncle doesn't work in a factory.",
+          "audio_file_path": "audio/16/16_2_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 48.01,
+            "left": 13.99,
+            "width": 14.96,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 48.01,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "on Thursdays. soccer play We don't",
+          "correct_answer": "We don't play soccer on Thursdays.",
+          "audio_file_path": "audio/16/16_2_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 48.01,
+            "left": 60.49,
+            "width": 18.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 48.01,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "German don't at school. I learn",
+          "correct_answer": "I don't learn German at school.",
+          "audio_file_path": "audio/16/16_2_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 51.93,
+            "left": 7.96,
+            "width": 84.08,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "work Carlo on Mondays. doesn't",
+          "correct_answer": "Carlo doesn't work on Mondays.",
+          "audio_file_path": "audio/16/16_2_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 54.17,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 54.17,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "don't at You take a bath night.",
+          "correct_answer": "You don't take a bath at night.",
+          "audio_file_path": "audio/16/16_2_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 61.46,
+            "left": 10.19,
+            "width": 36.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.46,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

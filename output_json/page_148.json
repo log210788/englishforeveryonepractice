@@ -1,0 +1,81 @@
+{
+  "page_number": 148,
+  "unit_number": 47,
+  "unit_title": "Wishes and desires",
+  "exercises": [
+    {
+      "exercise_id": "47.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE THREE DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "She wants to have a cat.",
+          "correct_answer": "She would like to have a cat. / She'd like to have a cat."
+        },
+        {
+          "item_number": 2,
+          "question": "They would like to visit Tokyo. / They'd like to visit Tokyo.",
+          "correct_answer": "They want to visit Tokyo. / They'd like to visit Tokyo."
+        },
+        {
+          "item_number": 3,
+          "question": "I want to eat an orange. / I would like to eat an orange.",
+          "correct_answer": "I want to eat an orange. / I would like to eat an orange."
+        },
+        {
+          "item_number": 4,
+          "question": "You want to learn Spanish. / You'd like to learn Spanish.",
+          "correct_answer": "You want to learn Spanish. / You'd like to learn Spanish."
+        },
+        {
+          "item_number": 5,
+          "question": "We want to go to a café. / We would like to go to a café.",
+          "correct_answer": "We want to go to a café. / We would like to go to a café."
+        },
+        {
+          "item_number": 6,
+          "question": "He would like to live in Germany. / He'd like to live in Germany.",
+          "correct_answer": "He would like to live in Germany. / He'd like to live in Germany."
+        },
+        {
+          "item_number": 7,
+          "question": "We want to swim in a lake. / We'd like to swim in a lake.",
+          "correct_answer": "We want to swim in a lake. / We'd like to swim in a lake."
+        }
+      ]
+    },
+    {
+      "exercise_id": "47.2",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE CORRECT SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Picture 1 (Sailing)",
+          "correct_answer": "They'd like to go sailing on a sailboat."
+        },
+        {
+          "item_number": 2,
+          "question": "Picture 2 (Statue of Liberty)",
+          "correct_answer": "Dan would like to travel to New York."
+        },
+        {
+          "item_number": 3,
+          "question": "Picture 3 (Reading)",
+          "correct_answer": "Sharon wants to read her book."
+        },
+        {
+          "item_number": 4,
+          "question": "Picture 4 (Mountain climbing)",
+          "correct_answer": "Doug would like to climb a mountain."
+        },
+        {
+          "item_number": 5,
+          "question": "Picture 5 (Beach/Tahiti)",
+          "correct_answer": "We want to go on vacation to Tahiti."
+        }
+      ]
+    }
+  ]
+}

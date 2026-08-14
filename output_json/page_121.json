@@ -1,0 +1,126 @@
+{
+  "page_number": 121,
+  "exercises": [
+    {
+      "exercise_id": "37.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS WITH \"GO,\" \"GOES,\" \"PLAY,\" OR \"PLAYS\" TO COMPLETE THE SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "John __________ badminton on Wednesday.",
+          "correct_answer": "plays",
+          "audio_file_path": "audio/37/37_8_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "You __________ fishing with your brother.",
+          "correct_answer": "go",
+          "audio_file_path": "audio/37/37_8_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "My uncle __________ chess with my aunt.",
+          "correct_answer": "plays",
+          "audio_file_path": "audio/37/37_8_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "We __________ dancing in the evening.",
+          "correct_answer": "go",
+          "audio_file_path": "audio/37/37_8_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Sally's dad __________ rugby.",
+          "correct_answer": "plays",
+          "audio_file_path": "audio/37/37_8_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Bartou __________ cycling in the mountains.",
+          "correct_answer": "goes",
+          "audio_file_path": "audio/37/37_8_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Ramona __________ racquet ball with her dad.",
+          "correct_answer": "plays",
+          "audio_file_path": "audio/37/37_8_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Our kids __________ baseball after school.",
+          "correct_answer": "play",
+          "audio_file_path": "audio/37/37_8_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Simon and Pam __________ surfing in the summer.",
+          "correct_answer": "go",
+          "audio_file_path": "audio/37/37_8_9.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "They __________ basketball every Saturday.",
+          "correct_answer": "play",
+          "audio_file_path": "audio/37/37_8_10.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "We __________ snowboarding in Austria.",
+          "correct_answer": "go",
+          "audio_file_path": "audio/37/37_8_11.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.9",
+      "exercise_type": "audio_listen",
+      "instruction": "LOOK AT THE PICTURES, THEN SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I __________ with my friends at school.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Anna __________ in the afternoon on Sundays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Mrs. Amir __________ with her husband in the evening.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Max __________ on Tuesdays and Fridays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Peter __________ with his brother on Mondays and Wednesdays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_5.mp3"
+        }
+      ]
+    }
+  ]
+}

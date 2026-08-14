@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Lewis's Practice Book - Interactive Reader</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Workbook CSS -->
+  <link rel="stylesheet" href="workbook.css">
+</head>
+<body>
+
+  <div class="workbook-app">
+
+    <!-- Top Navigation Header Bar -->
+    <header class="toolbar">
+      <a href="index.html" class="brand" style="text-decoration: none; color: inherit;">
+        <i class="fa-solid fa-headphones-simple logo-icon"></i>
+        <div class="brand-text">
+          <span class="title">Teacher Lewis's Practice Book</span>
+          <span class="subtitle">Interactive Audio & Reader Studio</span>
+        </div>
+      </a>
+
+      <!-- Page Navigator -->
+      <div class="nav-controls">
+        <button class="nav-btn" id="prevPageBtn" title="Previous Page (Left Arrow)">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="page-select-wrapper">
+          <i class="fa-solid fa-file-lines select-icon"></i>
+          <select id="pageSelect" class="page-select">
+            <!-- Populated dynamically via JS -->
+          </select>
+        </div>
+
+        <button class="nav-btn" id="nextPageBtn" title="Next Page (Right Arrow)">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Mode Switcher & Global Actions -->
+      <div class="toolbar-actions">
+        <!-- Ghibli Home Hub Button -->
+        <a href="index.html" class="btn btn-secondary" style="background: rgba(255,255,255,0.9); color: #2d5a27; border: 1px solid #7ea04d;" title="Return to Ghibli Landing Hub">
+          <i class="fa-solid fa-house"></i> Home Hub
+        </a>
+
+        <!-- Studio Ghibli Edition Button -->
+        <a href="ghibli_page12.html" class="btn btn-secondary" style="background: linear-gradient(135deg, #e5a93c, #d97724); color: #fff; border: none;" title="Open Studio Ghibli Chapter 1">
+          <i class="fa-solid fa-seedling"></i> Studio Ghibli Edition
+        </a>
+
+        <!-- Mode Switcher Button -->
+        <button class="btn btn-mode" id="toggleModeBtn" title="Switch between Reader Mode and Authoring Studio">
+          <i class="fa-solid fa-pen-ruler"></i> <span id="modeBtnText">Authoring Studio</span>
+        </button>
+
+        <!-- Export & Import Annotations JSON -->
+        <button class="btn btn-secondary" id="exportJsonBtn" title="Export all custom annotations to JSON file">
+          <i class="fa-solid fa-download"></i> Export JSON
+        </button>
+        <button class="btn btn-secondary" id="importJsonBtn" title="Import custom annotations from JSON file">
+          <i class="fa-solid fa-upload"></i> Import JSON
+        </button>
+        <input type="file" id="importFileInput" accept=".json" style="display: none;">
+
+        <div class="score-badge hidden" id="scoreBadge">
+          <i class="fa-solid fa-circle-check"></i> <span id="scoreText">0/0</span>
+        </div>
+
+        <button class="btn btn-secondary hidden" id="gradeBtn" title="Check filled answers">
+          <i class="fa-solid fa-check-double"></i> Check Answers
+        </button>
+      </div>
+    </header>
+
+    <!-- Authoring Studio Sub-Toolbar (Visible in Studio Mode) -->
+    <div class="studio-sub-toolbar hidden" id="studioSubToolbar">
+      <div class="studio-tools-group">
+        <span class="studio-label"><i class="fa-solid fa-toolbox"></i> Authoring Tools:</span>
+
+        <button class="tool-btn active" id="toolSelectBtn" title="Select / Move mode (Drag pins to reposition)">
+          <i class="fa-solid fa-arrow-pointer"></i> Select / Move
+        </button>
+        
+        <button class="tool-btn" id="toolAddAudioBtn" title="Click anywhere on the book page to drop an Audio Button">
+          <i class="fa-solid fa-headphones"></i> Add Audio Pin
+        </button>
+
+        <button class="tool-btn" id="toolAddTextBtn" title="Click anywhere on the book page to drop a Text Answer Box">
+          <i class="fa-solid fa-i-cursor"></i> Add Text Box
+        </button>
+      </div>
+
+      <div class="studio-tools-group">
+        <button class="tool-btn danger" id="clearPageBtn" title="Clear all custom audio pins & text boxes on this page">
+          <i class="fa-solid fa-trash-can"></i> Clear Page
+        </button>
+
+        <button class="tool-btn success" id="savePageBtn" title="Save page annotations to local memory & disk">
+          <i class="fa-solid fa-floppy-disk"></i> Save Page
+        </button>
+      </div>
+    </div>
+
+    <!-- Top Persistent Audio Player Deck Bar -->
+    <div class="audio-deck-bar" id="audioDeck">
+      <div class="audio-deck-track-selector">
+        <i class="fa-solid fa-compact-disc audio-deck-icon"></i>
+        <span class="audio-deck-label">Current Track:</span>
+        <select id="audioTrackSelect" class="audio-track-select">
+          <option value="">No audio pins placed on this page</option>
+        </select>
+      </div>
+
+      <div class="audio-deck-controls">
+        <button class="audio-deck-btn" id="audioPlayBtn" title="Play Track" disabled>
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <button class="audio-deck-btn" id="audioStopBtn" title="Stop Track" disabled>
+          <i class="fa-solid fa-stop"></i>
+        </button>
+
+        <div class="audio-progress-container">
+          <input type="range" id="audioProgress" class="audio-progress-bar" value="0" min="0" max="100" step="0.1" disabled>
+          <span class="audio-time-display" id="audioTimeDisplay">0:00 / 0:00</span>
+        </div>
+      </div>
+
+      <div class="audio-deck-extras">
+        <button class="audio-deck-btn speed-btn" id="audioSpeedBtn" title="Change Playback Speed">1.0x</button>
+        <button class="audio-deck-btn" id="audioVolumeBtn" title="Mute/Unmute">
+          <i class="fa-solid fa-volume-high"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Direct Book Canvas Workspace -->
+    <main class="page-viewport" id="viewport">
+
+      <!-- Centered Book Image Page Wrapper -->
+      <div class="book-canvas-wrapper" id="bookCanvas">
+        
+        <!-- High-Res Page Image Scan -->
+        <img src="images/page_001.png" alt="Textbook Page" class="page-image" id="pageImage">
+
+        <!-- Interactive Direct Overlay Layer -->
+        <div class="overlay-layer" id="overlayLayer">
+          <!-- Audio Buttons and Text Inputs placed dynamically here -->
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- Audio Assignment & Settings Inspector Modal -->
+  <div class="modal-backdrop hidden" id="audioModalBackdrop">
+    <div class="audio-modal">
+      <div class="modal-header">
+        <div class="modal-title">
+          <i class="fa-solid fa-sliders"></i> Audio Pin Settings
+        </div>
+        <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        
+        <!-- Unit Selector & Search -->
+        <div class="form-group">
+          <label><i class="fa-solid fa-folder-open"></i> Audio Unit Directory:</label>
+          <select id="modalUnitSelect" class="modal-select">
+            <!-- Populated dynamically -->
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label><i class="fa-solid fa-magnifying-glass"></i> Filter Audio Tracks:</label>
+          <input type="text" id="modalTrackFilter" class="modal-input" placeholder="Type to search e.g. 1_3, eg, 4...">
+        </div>
+
+        <!-- Track Selector & Preview Player -->
+        <div class="form-group">
+          <label><i class="fa-solid fa-music"></i> Select Audio File:</label>
+          <div class="audio-select-row">
+            <select id="modalTrackSelect" class="modal-select flex-1">
+              <!-- Populated dynamically -->
+            </select>
+            <button class="btn btn-secondary" id="modalPreviewBtn" title="Preview selected audio">
+              <i class="fa-solid fa-play"></i> Preview
+            </button>
+          </div>
+        </div>
+
+        <!-- Custom Label -->
+        <div class="form-group">
+          <label><i class="fa-solid fa-tag"></i> Pin Label / Badge (Optional):</label>
+          <input type="text" id="modalPinLabel" class="modal-input" placeholder="e.g. 1.3 Audio or Listen">
+        </div>
+
+        <!-- Icon Style & Color -->
+        <div class="form-row">
+          <div class="form-group flex-1">
+            <label><i class="fa-solid fa-icons"></i> Icon Style:</label>
+            <select id="modalIconStyle" class="modal-select">
+              <option value="headphones">🎧 Headphones</option>
+              <option value="play">▶️ Play Button</option>
+              <option value="speaker">🔊 Speaker</option>
+              <option value="music">🎵 Music Note</option>
+            </select>
+          </div>
+
+          <div class="form-group flex-1">
+            <label><i class="fa-solid fa-palette"></i> Pin Color:</label>
+            <select id="modalPinColor" class="modal-select">
+              <option value="cyan">Cyan Glow (Default)</option>
+              <option value="purple">Vibrant Purple</option>
+              <option value="gold">Warm Gold</option>
+              <option value="green">Success Green</option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-danger" id="modalDeleteBtn">
+          <i class="fa-solid fa-trash-can"></i> Delete Pin
+        </button>
+        <div class="footer-actions">
+          <button class="btn btn-secondary" id="modalCancelBtn">Cancel</button>
+          <button class="btn btn-primary" id="modalSaveBtn">
+            <i class="fa-solid fa-check"></i> Apply & Save
+          </button>
+        </div>
+      </div>
+    </div>
+  <!-- Kodama Companion Mascot Widget (Minimalist & Expressive) -->
+  <div class="ghibli-mascot-container" id="ghibliMascotWidget">
+    
+    <!-- Minimalist Speech & Story Popover Bubble -->
+    <div class="mascot-bubble-wrap">
+      
+      <!-- Minimalist Header Bar (Story Chip & Timer Pill) -->
+      <div class="mascot-min-bar">
+        <div class="story-chip" id="storyChip" title="Teacher Lewis Story Progress">
+          <i class="fa-solid fa-book-bookmark"></i> <span id="storyChapterLabel">Story Ch. 1</span>
+        </div>
+
+        <div class="pomo-min-pill" title="Click to toggle Pomodoro timer">
+          <button class="pomo-toggle-btn" id="pomoToggleBtn" title="Start / Pause Pomodoro">
+            <i class="fa-solid fa-play" id="pomoIcon"></i>
+          </button>
+          <span class="pomo-min-time" id="pomoMinTime">25:00</span>
+          <button class="pomo-opt-btn" id="pomoOptBtn" title="Timer Presets">
+            <i class="fa-solid fa-sliders"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Preset Dropdown -->
+      <div class="pomo-quick-presets hidden" id="pomoQuickPresets">
+        <button class="pomo-quick-btn active" data-mins="25">25m</button>
+        <button class="pomo-quick-btn" data-mins="15">15m</button>
+        <button class="pomo-quick-btn" data-mins="5">5m</button>
+        <button class="pomo-quick-btn demo-btn" data-mins="1">1m</button>
+      </div>
+
+      <!-- Minimalist Speech Box -->
+      <div class="mascot-bubble" id="mascotBubble">
+        <div class="mascot-action-chip" id="mascotActionChip">
+          <i class="fa-solid fa-paw"></i> Kodama is sitting cozy & ready to study!
+        </div>
+        <div class="mascot-text" id="mascotTextContent">
+          "Welcome to the workbook! Complete exercises to unlock the story of Teacher Lewis!"
+        </div>
+      </div>
+    </div>
+
+    <!-- 220px Giant Mascot Character -->
+    <div class="mascot-avatar-wrap" id="mascotAvatarWrap" title="Click Kodama to hear Teacher Lewis's story!">
+      <div class="mascot-focus-aura" id="mascotAura"></div>
+      <div class="mascot-expr-badge" id="mascotExprBadge">🐾 Sitting Cozy</div>
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+    </div>
+
+  </div>
+
+  <script src="ghibli_audio.js"></script>
+  <script src="workbook.js"></script>
+</body>
+</html>

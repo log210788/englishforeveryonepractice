@@ -1,0 +1,284 @@
+{
+  "page_number": 122,
+  "unit_number": 38,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "38.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "HOBBIES AND PASTIMES WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "play the piano",
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 93.45,
+            "height": 3.24
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "write",
+          "audio_file_path": "audio/38/38_1_write.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.19,
+            "left": 8.93,
+            "width": 13.1,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.43,
+            "left": 38.02,
+            "width": 1.12,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "yoga",
+          "input_blank_box": {
+            "top": 27.9,
+            "left": 61.61,
+            "width": 13.76,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "play video games",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 9.08,
+            "width": 12.72,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "run",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 28.12,
+            "width": 12.35,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "sew",
+          "audio_file_path": "audio/38/38_1_sew.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 45.83,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.36,
+            "left": 18.08,
+            "width": 1.56,
+            "height": 1.31
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "go shopping",
+          "audio_file_path": "audio/38/38_1_goshopping.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 63.47,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.05,
+            "left": 36.61,
+            "width": 1.56,
+            "height": 1.31
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "garden",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 81.18,
+            "width": 12.35,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "draw",
+          "audio_file_path": "audio/38/38_1_draw.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 32.63,
+            "left": 9.15,
+            "width": 12.5,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.8,
+            "left": 15.55,
+            "width": 2.31,
+            "height": 1.87
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "listen to music",
+          "audio_file_path": "audio/38/38_1_listentomusic.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 40.41,
+            "left": 45.91,
+            "width": 10.42,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.1,
+            "left": 38.1,
+            "width": 1.19,
+            "height": 1.0
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "do puzzles",
+          "audio_file_path": "audio/38/38_1_dopuzzles.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 42.15,
+            "left": 27.16,
+            "width": 9.15,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.1,
+            "left": 46.06,
+            "width": 4.91,
+            "height": 3.36
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "watch movies",
+          "input_blank_box": {
+            "top": 42.71,
+            "left": 45.91,
+            "width": 10.42,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "visit museums",
+          "input_blank_box": {
+            "top": 43.65,
+            "left": 31.32,
+            "width": 8.85,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 18,
+          "question": "play cards",
+          "audio_file_path": "audio/38/38_1_playcards.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 48.01,
+            "left": 60.86,
+            "width": 15.03,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.04,
+            "left": 67.56,
+            "width": 1.64,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "knit",
+          "audio_file_path": "audio/38/38_1_knit.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 10.49,
+            "width": 12.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.48,
+            "left": 47.92,
+            "width": 4.24,
+            "height": 3.3
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "paint",
+          "audio_file_path": "audio/38/38_1_paint.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 28.12,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.42,
+            "left": 83.56,
+            "width": 1.26,
+            "height": 1.06
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "read",
+          "audio_file_path": "audio/38/38_1_read.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 45.83,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 25.22,
+            "left": 36.76,
+            "width": 3.87,
+            "height": 3.18
+          }
+        },
+        {
+          "item_number": 24,
+          "question": "birdwatch",
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 63.47,
+            "width": 12.35,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 25,
+          "question": "eat out",
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 81.18,
+            "width": 12.35,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

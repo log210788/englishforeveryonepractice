@@ -1,0 +1,177 @@
+{
+  "page_number": 98,
+  "unit_number": 31,
+  "unit_title": "Counting",
+  "exercises": [
+    {
+      "exercise_id": "31.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE THE WORDS FROM THE PANEL IN THE CORRECT GROUPS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Countable",
+          "correct_answer": [
+            "sandwich",
+            "burger",
+            "egg",
+            "apple"
+          ],
+          "audio_file_path": "audio/31/31_1_countable.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Uncountable",
+          "correct_answer": [
+            "water",
+            "coffee",
+            "rice",
+            "juice"
+          ],
+          "audio_file_path": "audio/31/31_1_uncountable.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "31.2",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "Bob has a / some sugar.",
+          "options": [
+            "a",
+            "some"
+          ],
+          "correct_answer": "a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_2_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "There is / are some orange juice.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Sam has some / three milk.",
+          "options": [
+            "some",
+            "three"
+          ],
+          "correct_answer": "three",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "We have a / some salt.",
+          "options": [
+            "a",
+            "some"
+          ],
+          "correct_answer": "a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "There is / are some apples.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Rita has a / some banana.",
+          "options": [
+            "a",
+            "some"
+          ],
+          "correct_answer": "some",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "I've got a / some eggs.",
+          "options": [
+            "a",
+            "some"
+          ],
+          "correct_answer": "a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_2_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "31.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE OUT WHAT EACH IMAGE SHOWS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "apple",
+          "question": "one apple",
+          "correct_answer": "one apple",
+          "audio_file_path": "audio/31/31_3_eg.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "bananas",
+          "question": "four bananas",
+          "correct_answer": "four bananas",
+          "audio_file_path": "audio/31/31_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "eggs",
+          "question": "two eggs",
+          "correct_answer": "two eggs",
+          "audio_file_path": "audio/31/31_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "cheese",
+          "question": "some cheese",
+          "correct_answer": "some cheese",
+          "audio_file_path": "audio/31/31_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "burgers",
+          "question": "two burgers",
+          "correct_answer": "two burgers",
+          "audio_file_path": "audio/31/31_3_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "chocolate",
+          "question": "some chocolate",
+          "correct_answer": "some chocolate",
+          "audio_file_path": "audio/31/31_3_5.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

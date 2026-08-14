@@ -1,0 +1,158 @@
+{
+  "page_number": 103,
+  "exercises": [
+    {
+      "exercise_id": "32.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE THREE DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "You don't have enough oranges.",
+          "correct_answer": "You have enough oranges. / You have too many oranges.",
+          "audio_file_path": "audio/32/32_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "There isn't enough sugar.",
+          "correct_answer": "There's enough sugar. / There is too much sugar.",
+          "audio_file_path": "audio/32/32_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "We don't have enough butter.",
+          "correct_answer": "We have enough butter. / We have too much butter.",
+          "audio_file_path": "audio/32/32_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "There aren't enough eggs.",
+          "correct_answer": "There are enough eggs. / There are too many eggs.",
+          "audio_file_path": "audio/32/32_3_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "There isn't enough flour.",
+          "correct_answer": "There is enough flour. / There is too much flour."
+        },
+        {
+          "item_number": 6,
+          "question": "There aren't enough potatoes.",
+          "correct_answer": "There are enough potatoes. / There are too many potatoes."
+        },
+        {
+          "item_number": 7,
+          "question": "You don't have enough melons.",
+          "correct_answer": "You have enough melons. / You have too many melons."
+        },
+        {
+          "item_number": 8,
+          "question": "He doesn't have enough bread.",
+          "correct_answer": "He has enough bread. / He has too much bread."
+        },
+        {
+          "item_number": 9,
+          "question": "There isn't enough tea.",
+          "correct_answer": "There is enough tea. / There is too much tea."
+        },
+        {
+          "item_number": 10,
+          "question": "We don't have enough milk.",
+          "correct_answer": "We have enough milk. / We have too much milk."
+        },
+        {
+          "item_number": 11,
+          "question": "You don't have enough rice.",
+          "correct_answer": "You have enough rice. / You have too much rice."
+        },
+        {
+          "item_number": 12,
+          "question": "There aren't enough mangoes.",
+          "correct_answer": "There are enough mangoes. / There are too many mangoes."
+        },
+        {
+          "item_number": 13,
+          "question": "Martha doesn't have enough onions.",
+          "correct_answer": "Martha has enough onions. / Martha has too many onions."
+        },
+        {
+          "item_number": 14,
+          "question": "You don't have enough carrots.",
+          "correct_answer": "You have enough carrots. / You have too many carrots."
+        }
+      ]
+    },
+    {
+      "exercise_id": "32.4",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "Bruce and Shelley don't have any bread.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_4.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "They don't have enough butter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_4.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "They have too many bags of flour.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_4.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "They don't have enough salt.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_4.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "They have enough tomatoes.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "They don't have enough cheese.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_4.mp3"
+        }
+      ]
+    }
+  ]
+}

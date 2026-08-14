@@ -1,0 +1,329 @@
+{
+  "page_number": 36,
+  "unit_number": 11,
+  "unit_title": "Telling the time",
+  "exercises": [
+    {
+      "exercise_id": "11.1",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE PICTURES TO THE CORRECT TIMES",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "07:15",
+          "question": "Match the time 07:15 to its written form",
+          "options": [
+            "It's half past eight.",
+            "It's seven fifteen.",
+            "It's four thirty.",
+            "It's a quarter after six.",
+            "It's midnight.",
+            "It's a quarter to nine.",
+            "It's seven fifty.",
+            "It's five forty-five.",
+            "It's three thirty."
+          ],
+          "correct_answer": "It's seven fifteen.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_1_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "Clock showing 8:30",
+          "question": "Match the clock showing 8:30 to its written form",
+          "options": [
+            "It's half past eight.",
+            "It's seven fifteen.",
+            "It's four thirty.",
+            "It's a quarter after six.",
+            "It's midnight.",
+            "It's a quarter to nine.",
+            "It's seven fifty.",
+            "It's five forty-five.",
+            "It's three thirty."
+          ],
+          "correct_answer": "It's half past eight.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "07:50",
+          "question": "Match the time 07:50 to its written form",
+          "options": [
+            "It's half past eight.",
+            "It's seven fifteen.",
+            "It's four thirty.",
+            "It's a quarter after six.",
+            "It's midnight.",
+            "It's a quarter to nine.",
+            "It's seven fifty.",
+            "It's five forty-five.",
+            "It's three thirty."
+          ],
+          "correct_answer": "It's seven fifty.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Clock showing 12:00",
+          "question": "Match the clock showing 12:00 to its written form",
+          "options": [
+            "It's half past eight.",
+            "It's seven fifteen.",
+            "It's four thirty.",
+            "It's a quarter after six.",
+            "It's midnight.",
+            "It's a quarter to nine.",
+            "It's seven fifty.",
+            "It's five forty-five.",
+            "It's three thirty."
+          ],
+          "correct_answer": "It's midnight.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "06:15",
+          "question": "Match the time 06:15 to its written form",
+          "options": [
+            "It's half past eight.",
+            "It's seven fifteen.",
+            "It's four thirty.",
+            "It's a quarter after six.",
+            "It's midnight.",
+            "It's a quarter to nine.",
+            "It's seven fifty.",
+            "It's five forty-five.",
+            "It's three thirty."
+          ],
+          "correct_answer": "It's a quarter after six.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Clock showing 4:30",
+          "question": "Match the clock showing 4:30 to its written form",
+          "options": [
+            "It's half past eight.",
+            "It's seven fifteen.",
+            "It's four thirty.",
+            "It's a quarter after six.",
+            "It's midnight.",
+            "It's a quarter to nine.",
+            "It's seven fifty.",
+            "It's five forty-five.",
+            "It's three thirty."
+          ],
+          "correct_answer": "It's four thirty.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "03:30",
+          "question": "Match the time 03:30 to its written form",
+          "options": [
+            "It's half past eight.",
+            "It's seven fifteen.",
+            "It's four thirty.",
+            "It's a quarter after six.",
+            "It's midnight.",
+            "It's a quarter to nine.",
+            "It's seven fifty.",
+            "It's five forty-five.",
+            "It's three thirty."
+          ],
+          "correct_answer": "It's three thirty.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Clock showing 8:45",
+          "question": "Match the clock showing 8:45 to its written form",
+          "options": [
+            "It's half past eight.",
+            "It's seven fifteen.",
+            "It's four thirty.",
+            "It's a quarter after six.",
+            "It's midnight.",
+            "It's a quarter to nine.",
+            "It's seven fifty.",
+            "It's five forty-five.",
+            "It's three thirty."
+          ],
+          "correct_answer": "It's a quarter to nine.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "05:45",
+          "question": "Match the time 05:45 to its written form",
+          "options": [
+            "It's half past eight.",
+            "It's seven fifteen.",
+            "It's four thirty.",
+            "It's a quarter after six.",
+            "It's midnight.",
+            "It's a quarter to nine.",
+            "It's seven fifty.",
+            "It's five forty-five.",
+            "It's three thirty."
+          ],
+          "correct_answer": "It's five forty-five.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_1_8.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "11.2",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND MARK THE CORRECT TIMES",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "05:45",
+            "06:15"
+          ],
+          "correct_answer": "05:45",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 1,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "07:45",
+            "08:15"
+          ],
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "07:30",
+            "08:30"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "11:15",
+            "10:45"
+          ],
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "09:30",
+            "09:20"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "11:00",
+            "10:00"
+          ],
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "07:45",
+            "07:15"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "03:35",
+            "03:25"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "09:45",
+            "10:45"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "06:38",
+            "06:28"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "05:05",
+            "05:30"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "10:00",
+            "10:10"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "02:13",
+            "02:30"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "question": "Choose the correct time based on the audio",
+          "options": [
+            "08:15",
+            "07:45"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_13.mp3"
+        }
+      ]
+    }
+  ]
+}

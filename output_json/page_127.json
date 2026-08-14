@@ -1,0 +1,199 @@
+{
+  "page_number": 127,
+  "exercises": [
+    {
+      "exercise_id": "39.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES AS QUESTIONS USING \"HOW OFTEN\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Jimmy plays soccer once a week.",
+          "correct_answer": "How often does Jimmy play soccer?",
+          "audio_file_path": "audio/39/39_7_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "I phone my grandma twice a day.",
+          "correct_answer": "How often do you phone your grandma?",
+          "audio_file_path": "audio/39/39_7_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Sheila gets up at 7am every day.",
+          "correct_answer": "How often does Sheila get up at 7am?",
+          "audio_file_path": "audio/39/39_7_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "I read a book every evening in bed.",
+          "correct_answer": "How often do you read a book in bed?",
+          "audio_file_path": "audio/39/39_7_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Sally goes to work every day.",
+          "correct_answer": "How often does Sally go to work?",
+          "audio_file_path": "audio/39/39_7_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "I play badminton once a week.",
+          "correct_answer": "How often do you play badminton?",
+          "audio_file_path": "audio/39/39_7_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "My daughter goes running every evening.",
+          "correct_answer": "How often does your daughter go running?",
+          "audio_file_path": "audio/39/39_7_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Megan goes fishing twice a month.",
+          "correct_answer": "How often does Megan go fishing?",
+          "audio_file_path": "audio/39/39_7_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "I watch TV every evening.",
+          "correct_answer": "How often do you watch TV?",
+          "audio_file_path": "audio/39/39_7_9.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "39.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "She always ________ dancing on the weekend.",
+          "options": [
+            "plays",
+            "take",
+            "go",
+            "gets up",
+            "goes",
+            "watches",
+            "plays",
+            "goes"
+          ],
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_8_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "I often ________________ fishing.",
+          "options": [
+            "plays",
+            "take",
+            "go",
+            "gets up",
+            "goes",
+            "watches",
+            "plays",
+            "goes"
+          ],
+          "correct_answer": "go",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_8_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "My mom never ________________ early.",
+          "options": [
+            "plays",
+            "take",
+            "go",
+            "gets up",
+            "goes",
+            "watches",
+            "plays",
+            "goes"
+          ],
+          "correct_answer": "gets up",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_8_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Seb usually ________ soccer on weekends.",
+          "options": [
+            "plays",
+            "take",
+            "go",
+            "gets up",
+            "goes",
+            "watches",
+            "plays",
+            "goes"
+          ],
+          "correct_answer": "plays",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_8_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Tracy never ________ TV in the evening.",
+          "options": [
+            "plays",
+            "take",
+            "go",
+            "gets up",
+            "goes",
+            "watches",
+            "plays",
+            "goes"
+          ],
+          "correct_answer": "watches",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_8_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "We sometimes ________ the bus to work.",
+          "options": [
+            "plays",
+            "take",
+            "go",
+            "gets up",
+            "goes",
+            "watches",
+            "plays",
+            "goes"
+          ],
+          "correct_answer": "take",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Doug often ________ tennis on Fridays.",
+          "options": [
+            "plays",
+            "take",
+            "go",
+            "gets up",
+            "goes",
+            "watches",
+            "plays",
+            "goes"
+          ],
+          "correct_answer": "plays",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

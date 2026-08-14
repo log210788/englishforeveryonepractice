@@ -1,0 +1,175 @@
+{
+  "page_number": 12,
+  "unit_number": 1,
+  "unit_title": "Introducing yourself",
+  "exercises": [
+    {
+      "exercise_id": "1.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE EACH SENTENCE IN ITS CONTRACTED FORM",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "My name is Gary",
+          "question": "My name is Gary",
+          "correct_answer": "My name's Gary.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_1_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "I am Natalie.",
+          "correct_answer": "I'm Natalie.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "My name is Sue.",
+          "correct_answer": "My name's Sue.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "I am Ryan.",
+          "correct_answer": "I'm Ryan.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "My name is Mia.",
+          "correct_answer": "My name's Mia.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "My name is Amelia.",
+          "correct_answer": "My name's Amelia.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_1_5.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "1.2",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO, THEN NUMBER THE PEOPLE IN THE ORDER YOU HEAR THEM SPEAK",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "A",
+          "question": "Rachel",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "B",
+          "question": "Peter",
+          "options": null,
+          "correct_answer": "7",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "C",
+          "question": "Jo",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "D",
+          "question": "Carl",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "E",
+          "question": "Terry",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "F",
+          "question": "Simone",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/1/1_2_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "1.3",
+      "exercise_type": "audio_listen",
+      "instruction": "USE THE CHART TO SAY 12 GREETINGS OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Hi! I am Charlotte.",
+          "question": "Use the chart with options: [Hi!, Hello!] + [I, My name] + [am, is] + [Charlotte., Carla., Fatima.] to form 12 greetings.",
+          "options": [
+            "Hi!",
+            "Hello!",
+            "I",
+            "My name",
+            "am",
+            "is",
+            "Charlotte.",
+            "Carla.",
+            "Fatima."
+          ],
+          "correct_answer": [
+            "Hi! I am Charlotte.",
+            "Hi! I am Carla.",
+            "Hi! I am Fatima.",
+            "Hi! My name is Charlotte.",
+            "Hi! My name is Carla.",
+            "Hi! My name is Fatima.",
+            "Hello! I am Charlotte.",
+            "Hello! I am Carla.",
+            "Hello! I am Fatima.",
+            "Hello! My name is Charlotte.",
+            "Hello! My name is Carla.",
+            "Hello! My name is Fatima."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3"
+        }
+      ]
+    }
+  ]
+}

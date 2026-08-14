@@ -1,0 +1,442 @@
+{
+  "page_number": 35,
+  "unit_number": 10,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "10.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Peter is a teacher (teacher icon) and he works with children (children icon).",
+          "question": "Peter is a ________ and he works with ________.",
+          "options": [
+            "doctor",
+            "crops",
+            "theater",
+            "patients",
+            "chef",
+            "children",
+            "teacher",
+            "animals",
+            "food",
+            "vet",
+            "farmer",
+            "actor"
+          ],
+          "correct_answer": [
+            "teacher",
+            "children"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_7_eg.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.3
+          },
+          "audio_icon_box": {
+            "top": 11.96,
+            "left": 69.35,
+            "width": 5.73,
+            "height": 3.74
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "Sam is a [doctor icon] and she works with [patients icon].",
+          "question": "Sam is a ________ and she works with ________.",
+          "options": [
+            "doctor",
+            "crops",
+            "theater",
+            "patients",
+            "chef",
+            "children",
+            "teacher",
+            "animals",
+            "food",
+            "vet",
+            "farmer",
+            "actor"
+          ],
+          "correct_answer": [
+            "doctor",
+            "patients"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_7_1.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 80.51,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.8,
+            "left": 73.96,
+            "width": 1.19,
+            "height": 1.12
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Gabriella is a [chef icon] and she works with [food icon].",
+          "question": "Gabriella is a ________ and she works with ________.",
+          "options": [
+            "doctor",
+            "crops",
+            "theater",
+            "patients",
+            "chef",
+            "children",
+            "teacher",
+            "animals",
+            "food",
+            "vet",
+            "farmer",
+            "actor"
+          ],
+          "correct_answer": [
+            "chef",
+            "food"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_7_2.mp3",
+          "input_blank_box": {
+            "top": 14.57,
+            "left": 18.3,
+            "width": 13.1,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.45,
+            "left": 78.72,
+            "width": 4.99,
+            "height": 3.42
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Dan is a [vet icon] and he works with [animals icon].",
+          "question": "Dan is a ________ and he works with ________.",
+          "options": [
+            "doctor",
+            "crops",
+            "theater",
+            "patients",
+            "chef",
+            "children",
+            "teacher",
+            "animals",
+            "food",
+            "vet",
+            "farmer",
+            "actor"
+          ],
+          "correct_answer": [
+            "vet",
+            "animals"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_7_3.mp3",
+          "input_blank_box": {
+            "top": 14.57,
+            "left": 53.2,
+            "width": 14.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.15,
+            "left": 75.0,
+            "width": 5.06,
+            "height": 4.11
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "John is a [farmer icon] and he works with [crops icon].",
+          "question": "John is a ________ and he works with ________.",
+          "options": [
+            "doctor",
+            "crops",
+            "theater",
+            "patients",
+            "chef",
+            "children",
+            "teacher",
+            "animals",
+            "food",
+            "vet",
+            "farmer",
+            "actor"
+          ],
+          "correct_answer": [
+            "farmer",
+            "crops"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_7_4.mp3",
+          "input_blank_box": {
+            "top": 16.81,
+            "left": 9.67,
+            "width": 80.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.81,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Tom is an [actor icon] and he works in a [theater icon].",
+          "question": "Tom is an ________ and he works in a ________.",
+          "options": [
+            "doctor",
+            "crops",
+            "theater",
+            "patients",
+            "chef",
+            "children",
+            "teacher",
+            "animals",
+            "food",
+            "vet",
+            "farmer",
+            "actor"
+          ],
+          "correct_answer": [
+            "actor",
+            "theater"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_7_5.mp3",
+          "input_blank_box": {
+            "top": 20.92,
+            "left": 17.19,
+            "width": 16.44,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.92,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "10.8",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "Pete is a...",
+          "options": [
+            "farmer.",
+            "contractor.",
+            "gardener."
+          ],
+          "correct_answer": "farmer.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_8_eg.mp3",
+          "input_blank_box": {
+            "top": 20.92,
+            "left": 54.24,
+            "width": 16.44,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.92,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "Simon is a...",
+          "options": [
+            "contractor.",
+            "gardener.",
+            "teacher."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_8_1.mp3",
+          "input_blank_box": {
+            "top": 27.02,
+            "left": 20.83,
+            "width": 16.44,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.02,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Sue is a...",
+          "options": [
+            "nurse.",
+            "chef.",
+            "teacher."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_8_2.mp3",
+          "input_blank_box": {
+            "top": 27.02,
+            "left": 59.0,
+            "width": 16.44,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.02,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "John is a...",
+          "options": [
+            "scientist.",
+            "businessman.",
+            "doctor."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_8_3.mp3",
+          "input_blank_box": {
+            "top": 33.06,
+            "left": 17.11,
+            "width": 16.37,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Alberto is a...",
+          "options": [
+            "waiter.",
+            "chef.",
+            "actor."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_8_4.mp3",
+          "input_blank_box": {
+            "top": 33.06,
+            "left": 57.74,
+            "width": 16.37,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Susan and Pam are...",
+          "options": [
+            "chefs.",
+            "hairdressers.",
+            "gardeners."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_8_5.mp3",
+          "input_blank_box": {
+            "top": 39.1,
+            "left": 17.93,
+            "width": 16.37,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 39.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Douglas is an...",
+          "options": [
+            "actor.",
+            "farmer.",
+            "police officer."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_8_6.mp3",
+          "input_blank_box": {
+            "top": 39.1,
+            "left": 54.32,
+            "width": 16.37,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 39.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Danny is a...",
+          "options": [
+            "contractor.",
+            "architect.",
+            "farmer."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_8_7.mp3",
+          "input_blank_box": {
+            "top": 45.21,
+            "left": 18.75,
+            "width": 16.44,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 45.21,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

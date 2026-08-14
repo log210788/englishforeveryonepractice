@@ -1,0 +1,122 @@
+{
+  "page_number": 77,
+  "exercises": [
+    {
+      "exercise_id": "23.7",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND NUMBER THE DIRECTIONS IN THE ORDER YOU HEAR THEM",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Turn left and the theater is on your right across from the church.",
+          "correct_answer": "1",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "The café is on the corner next to the church.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "The restaurant is on the right next to the bank.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Go straight ahead and take the second road on your right.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Turn right, then take the first left.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Go past the hotel and the café is on the left.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "The hospital is on the corner on the left.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Go straight ahead and it's the fourth road on the right.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Go straight ahead and take the third left.",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "23.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "LOOK AT THE PICTURES AND USE PREPOSITIONS TO COMPLETE THE SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "The museum is ________ the library.",
+          "options": [
+            "in front of",
+            "behind",
+            "next to",
+            "opposite"
+          ],
+          "correct_answer": "next to",
+          "audio_file_path": "audio/23/23_8_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "The restaurant is ________ the store.",
+          "options": [
+            "in front of",
+            "behind",
+            "next to",
+            "opposite"
+          ],
+          "correct_answer": "opposite",
+          "audio_file_path": "audio/23/23_8_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "The hospital is ________ the theater.",
+          "options": [
+            "in front of",
+            "behind",
+            "next to",
+            "opposite"
+          ],
+          "correct_answer": "next to",
+          "audio_file_path": "audio/23/23_8_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "The post office is ________ the school.",
+          "options": [
+            "in front of",
+            "behind",
+            "next to",
+            "opposite"
+          ],
+          "correct_answer": "behind",
+          "audio_file_path": "audio/23/23_8_4.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

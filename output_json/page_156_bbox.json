@@ -1,0 +1,2273 @@
+{
+  "page_number": 156,
+  "exercises": [
+    {
+      "exercise_id": "1.1",
+      "exercise_type": "audio_listen",
+      "instruction": "1.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I'm Natalie.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_1_1.mp3",
+          "input_blank_box": {
+            "top": 10.34,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "My name's Sue.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_1_2.mp3",
+          "input_blank_box": {
+            "top": 14.13,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.13,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I'm Ryan.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_1_3.mp3",
+          "input_blank_box": {
+            "top": 13.64,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.64,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "My name's Mia.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_1_4.mp3",
+          "input_blank_box": {
+            "top": 17.43,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "My name's Amelia.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_1_5.mp3",
+          "input_blank_box": {
+            "top": 21.61,
+            "left": 66.15,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 21.61,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "1.2",
+      "exercise_type": "matching",
+      "instruction": "1.2",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "A",
+          "correct_answer": "3",
+          "audio_file_path": "audio/1/1_2_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 28.21,
+            "left": 6.47,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.21,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "B",
+          "correct_answer": "1",
+          "audio_file_path": "audio/1/1_2_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 33.19,
+            "left": 6.47,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.19,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "C",
+          "correct_answer": "2",
+          "audio_file_path": "audio/1/1_2_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 39.85,
+            "left": 66.15,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 39.85,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "D",
+          "correct_answer": "6",
+          "audio_file_path": "audio/1/1_2_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 56.41,
+            "left": 6.47,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 56.41,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "E",
+          "correct_answer": "4",
+          "audio_file_path": "audio/1/1_2_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 63.33,
+            "left": 66.15,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 63.33,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "F",
+          "correct_answer": "5",
+          "audio_file_path": "audio/1/1_2_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 67.19,
+            "left": 66.15,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 67.19,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "1.3",
+      "exercise_type": "audio_listen",
+      "instruction": "1.3",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Hi! I am Charlotte.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 81.57,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 81.57,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Hi! My name is Charlotte.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 84.62,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 84.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Hello! I am Charlotte.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 85.43,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 85.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Hello! My name is Charlotte.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 86.24,
+            "left": 66.15,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 86.24,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Hi! I am Carla.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Hi! My name is Carla.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Hello! I am Carla.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Hello! My name is Carla.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Hi! I am Fatima.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Hi! My name is Fatima.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "Hello! I am Fatima.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "Hello! My name is Fatima.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_46_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "1.4",
+      "exercise_type": "audio_listen",
+      "instruction": "1.4",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "N-o-a-h A-n-d-e-r-s-o-n",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "M-a-s-o-n H-u-g-h-e-s",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "E-l-i S-a-n-d-e-r-s",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "A-l-i-c-i-a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Z-o-e S-p-i-e-g-e-l-m-a-n",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "B-e-n",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "N-o-r-a J-a-m-e-s",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "A-m-i-r A-n-s-a-r-i",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "N-i-n-a E-d-w-a-r-d-s",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "L-u-c-y",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "A-m-a-n S-h-a-r-m-a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "A-i-d-e-n",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_12.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "K-e-i-t-h",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_13.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "F-i-o-n-a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_14.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "J-a-m-e-s T-h-o-m-a-s",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_4_15.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "1.5",
+      "exercise_type": "audio_listen",
+      "instruction": "1.5",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "My name is Terry, T-e-r-r-y.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_5_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "My last name is Singh, S-i-n-g-h.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/1/1_5_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "2.1",
+      "exercise_type": "audio_listen",
+      "instruction": "2.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "South Korea",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Thailand",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Greece",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Poland",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Argentina",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Russia",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Australia",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Canada",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Philippines",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Pakistan",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "Slovakia",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "Republic of Ireland",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_12.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "China",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_13.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "Portugal",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_14.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "South Africa",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_15.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "Brazil",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_16.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "Netherlands",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_17.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 18,
+          "question": "Spain",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_18.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 19,
+          "question": "Czech Republic",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_19.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 20,
+          "question": "Singapore",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_20.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "Egypt",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_21.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "Mongolia",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_22.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "United Kingdom",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_23.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 24,
+          "question": "France",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_24.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 25,
+          "question": "Mexico",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_25.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 26,
+          "question": "India",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_26.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 27,
+          "question": "United States of America",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_27.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 28,
+          "question": "Japan",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_28.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 29,
+          "question": "Indonesia",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_29.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 30,
+          "question": "United Arab Emirates",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_30.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 31,
+          "question": "New Zealand",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_31.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 32,
+          "question": "Germany",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_32.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 33,
+          "question": "Austria",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_33.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 34,
+          "question": "Switzerland",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/2/2_1_34.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "3.1",
+      "exercise_type": "audio_listen",
+      "instruction": "3.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "85",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "21",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "90",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "17",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "84",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "62",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "47",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "50",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "71",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "12",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "33",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_1_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "3.2",
+      "exercise_type": "audio_listen",
+      "instruction": "3.2",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Chloe is thirty-one years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_2_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Heidi is fifty-two years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_2_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Zach is sixteen years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_2_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Charlie is ten years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_2_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Marcel is eighty years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_2_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Claire is twenty-one years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_2_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Dan is thirty-six years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_2_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Eleanor is twenty-eight years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_2_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Rebecca is forty-three years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_2_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "3.3",
+      "exercise_type": "audio_listen",
+      "instruction": "3.3",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I am twenty-three years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "I am thirty-two years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I am sixty-eight years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Dan is twenty-three years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Dan is thirty-two years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Dan is sixty-eight years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "You are twenty-three years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "You are thirty-two years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "You are sixty-eight years old.",
+          "audio_icon_present": true,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "3.4",
+      "exercise_type": "audio_listen",
+      "instruction": "3.4",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Abe is 72 years old. She is Japanese.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_4_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Mia and Leo are 12. They are from Italy.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_4_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Chantal is 66 years old. She is French.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_4_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Amir and Aamna are 90 years old. They are from Pakistan.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_4_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "I am 24 years old. I am Irish.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_4_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Max is 47 years old. He is German.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_4_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "We are 38 years old. We are from New Zealand.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_4_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "My sister is 4 years old. She is from Canada.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/3/3_4_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "4.1",
+      "exercise_type": "audio_listen",
+      "instruction": "4.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "grandfather",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_1_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "father",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_1_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "uncle",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "sister",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_1_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "son",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_1_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "daughter",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_1_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "grandson",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_1_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "granddaughter",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_1_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "4.2",
+      "exercise_type": "audio_listen",
+      "instruction": "4.2",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "cat",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_2_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "chicken",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/4/4_2_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

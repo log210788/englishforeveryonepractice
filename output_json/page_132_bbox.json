@@ -1,0 +1,235 @@
+{
+  "page_number": 132,
+  "unit_number": 41,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "41.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "MUSIC WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "1",
+          "correct_answer": "conductor",
+          "audio_file_path": "audio/41/41_1_conductor.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 93.45,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 17.68,
+            "left": 63.76,
+            "width": 1.12,
+            "height": 1.31
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "2",
+          "correct_answer": "dance",
+          "audio_file_path": "audio/41/41_1_dance.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.65,
+            "left": 60.27,
+            "width": 8.41,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.8,
+            "left": 16.22,
+            "width": 1.19,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "3",
+          "correct_answer": "electric guitar",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 9.08,
+            "width": 13.32,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "7",
+          "correct_answer": "piano",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 35.79,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "8",
+          "correct_answer": "singer",
+          "audio_file_path": "audio/41/41_1_singer.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 59.23,
+            "width": 10.86,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.11,
+            "left": 18.53,
+            "width": 1.26,
+            "height": 1.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "9",
+          "correct_answer": "guitarist",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 82.59,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "10",
+          "correct_answer": "album",
+          "audio_file_path": "audio/41/41_1_album.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.26,
+            "left": 8.85,
+            "width": 13.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.24,
+            "left": 20.01,
+            "width": 1.12,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "14",
+          "correct_answer": "orchestra",
+          "audio_file_path": "audio/41/41_1_orchestra.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 40.47,
+            "left": 80.8,
+            "width": 8.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.36,
+            "left": 37.5,
+            "width": 2.46,
+            "height": 2.05
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "15",
+          "correct_answer": "drums",
+          "input_blank_box": {
+            "top": 43.15,
+            "left": 8.93,
+            "width": 10.49,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "16",
+          "correct_answer": "flute",
+          "input_blank_box": {
+            "top": 47.14,
+            "left": 80.8,
+            "width": 8.26,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "17",
+          "correct_answer": "microphone",
+          "audio_file_path": "audio/41/41_1_microphone.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 10.49,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.11,
+            "left": 43.23,
+            "width": 1.12,
+            "height": 1.0
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "21",
+          "correct_answer": "trumpet player",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 35.79,
+            "width": 11.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "22",
+          "correct_answer": "trumpet",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 59.23,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "23",
+          "correct_answer": "concert",
+          "audio_file_path": "audio/41/41_1_concert.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 82.59,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.11,
+            "left": 45.24,
+            "width": 1.12,
+            "height": 1.0
+          }
+        },
+        {
+          "item_number": 24,
+          "question": "24",
+          "correct_answer": "violin",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 10.49,
+            "width": 10.94,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

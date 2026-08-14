@@ -1,0 +1,268 @@
+{
+  "page_number": 95,
+  "exercises": [
+    {
+      "exercise_id": "29.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE \"HAVE\" QUESTIONS AS \"HAVE GOT\" QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Do you have a dog?",
+          "question": "Have you got a dog?",
+          "correct_answer": "Have you got a dog?",
+          "audio_file_path": "audio/29/29_8_eg.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.47,
+            "width": 87.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "Does the kitchen have a microwave?",
+          "correct_answer": "Has the kitchen got a microwave?",
+          "audio_file_path": "audio/29/29_8_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.67,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Does your house have a yard?",
+          "correct_answer": "Has your house got a yard?",
+          "audio_file_path": "audio/29/29_8_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.69,
+            "left": 9.45,
+            "width": 37.5,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.69,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Do the Hendersons have a car?",
+          "correct_answer": "Have the Hendersons got a car?",
+          "audio_file_path": "audio/29/29_8_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.44,
+            "left": 10.64,
+            "width": 35.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.44,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Does Claire have my glasses?",
+          "correct_answer": "Has Claire got my glasses?",
+          "input_blank_box": {
+            "top": 16.5,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Do your parents have a computer?",
+          "correct_answer": "Have your parents got a computer?",
+          "input_blank_box": {
+            "top": 22.48,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Does Paul have my book?",
+          "correct_answer": "Has Paul got my book?",
+          "input_blank_box": {
+            "top": 22.48,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Does Brian have a magazine?",
+          "correct_answer": "Has Brian got a magazine?",
+          "input_blank_box": {
+            "top": 28.39,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Do your neighbors have a basement?",
+          "correct_answer": "Have your neighbors got a basement?",
+          "input_blank_box": {
+            "top": 28.39,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Does your cell phone have a camera?",
+          "correct_answer": "Has your cell phone got a camera?",
+          "input_blank_box": {
+            "top": 34.31,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Does Sam have any money?",
+          "correct_answer": "Has Sam got any money?",
+          "input_blank_box": {
+            "top": 34.31,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "Does your town have a supermarket?",
+          "correct_answer": "Has your town got a supermarket?",
+          "input_blank_box": {
+            "top": 40.29,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "Does Brian have a sister?",
+          "correct_answer": "Has Brian got a sister?",
+          "input_blank_box": {
+            "top": 40.29,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "Do your children have a cat?",
+          "correct_answer": "Have your children got a cat?",
+          "input_blank_box": {
+            "top": 46.2,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "Does your husband have a camera?",
+          "correct_answer": "Has your husband got a camera?",
+          "input_blank_box": {
+            "top": 46.2,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "Does your school have a library?",
+          "correct_answer": "Has your school got a library?",
+          "input_blank_box": {
+            "top": 52.12,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "Does Jane have a cell phone?",
+          "correct_answer": "Has Jane got a cell phone?",
+          "input_blank_box": {
+            "top": 52.12,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "Do the kids have their bikes?",
+          "correct_answer": "Have the kids got their bikes?",
+          "input_blank_box": {
+            "top": 58.09,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "29.9",
+      "exercise_type": "audio_listen",
+      "instruction": "USE THE CHART TO CREATE SEVEN CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create seven correct sentences using the chart.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/29/29_9.mp3",
+          "input_blank_box": {
+            "top": 58.09,
+            "left": 51.26,
+            "width": 40.77,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 58.09,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

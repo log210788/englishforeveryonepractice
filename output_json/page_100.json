@@ -1,0 +1,229 @@
+{
+  "page_number": 100,
+  "exercises": [
+    {
+      "exercise_id": "31.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There's a __________ of milk.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "glass",
+          "audio_file_path": "audio/31/31_6_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "There are two __________ of rice.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "bags",
+          "audio_file_path": "audio/31/31_6_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "There's a __________ of chocolate.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "bar",
+          "audio_file_path": "audio/31/31_6_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "There's a __________ of juice.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "carton"
+        },
+        {
+          "item_number": 5,
+          "question": "There are three __________ of water.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "bottles"
+        },
+        {
+          "item_number": 6,
+          "question": "There's a __________ of pasta.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "bowl"
+        },
+        {
+          "item_number": 7,
+          "question": "There are two __________ of tea.",
+          "options": [
+            "glass",
+            "carton",
+            "jar",
+            "bowl",
+            "cups",
+            "bar",
+            "bags",
+            "bottles"
+          ],
+          "correct_answer": "cups"
+        }
+      ]
+    },
+    {
+      "exercise_id": "31.7",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORDS IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There is / are a jar of coffee.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is"
+        },
+        {
+          "item_number": 2,
+          "question": "There isn't / aren't any rice.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't"
+        },
+        {
+          "item_number": 3,
+          "question": "There is / are two cartons of juice.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are"
+        },
+        {
+          "item_number": 4,
+          "question": "There is / are some meat.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is"
+        },
+        {
+          "item_number": 5,
+          "question": "There is / are two bottles of wine.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are"
+        },
+        {
+          "item_number": 6,
+          "question": "There isn't / aren't any bread.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't"
+        },
+        {
+          "item_number": 7,
+          "question": "There is / are a bag of flour.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is"
+        },
+        {
+          "item_number": 8,
+          "question": "There is / are some pasta.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is"
+        },
+        {
+          "item_number": 9,
+          "question": "There is / are two bars of chocolate.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "are"
+        },
+        {
+          "item_number": 10,
+          "question": "There isn't / aren't any sugar.",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "correct_answer": "isn't"
+        },
+        {
+          "item_number": 11,
+          "question": "There is / are some butter.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "correct_answer": "is"
+        }
+      ]
+    }
+  ]
+}

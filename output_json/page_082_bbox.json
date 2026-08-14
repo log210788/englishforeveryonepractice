@@ -1,0 +1,419 @@
+{
+  "page_number": 82,
+  "exercises": [
+    {
+      "exercise_id": "25.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE IN TWO DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "They are small children.",
+          "correct_answer": [
+            "The children are small.",
+            "They are small."
+          ],
+          "audio_file_path": "audio/25/25_3_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Peter is a good waiter.",
+          "correct_answer": [
+            "The waiter is good.",
+            "He is good."
+          ],
+          "audio_file_path": "audio/25/25_3_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.42,
+            "width": 79.69,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Fido is a big dog.",
+          "correct_answer": [
+            "The dog is big.",
+            "It is big."
+          ],
+          "audio_file_path": "audio/25/25_3_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 14.51,
+            "left": 37.87,
+            "width": 25.82,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Melby is a quiet town.",
+          "correct_answer": [
+            "The town is quiet.",
+            "It is quiet."
+          ],
+          "audio_file_path": "audio/25/25_3_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 14.51,
+            "left": 66.22,
+            "width": 24.63,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "25.4",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE ADJECTIVES TO THEIR OPPOSITES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "old",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "new",
+          "audio_file_path": "audio/25/25_4_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.81,
+            "left": 10.34,
+            "width": 79.24,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.81,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "small",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "large",
+          "audio_file_path": "audio/25/25_4_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.8,
+            "left": 37.87,
+            "width": 25.82,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.8,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "good",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "bad",
+          "audio_file_path": "audio/25/25_4_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.8,
+            "left": 66.22,
+            "width": 25.74,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.8,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "horrible",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "beautiful",
+          "audio_file_path": "audio/25/25_4_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.21,
+            "left": 37.87,
+            "width": 25.82,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.21,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "young",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "old",
+          "audio_file_path": "audio/25/25_4_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.21,
+            "left": 66.22,
+            "width": 25.74,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.21,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "fast",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "slow",
+          "audio_file_path": "audio/25/25_4_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.57,
+            "left": 37.87,
+            "width": 25.82,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.57,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "difficult",
+          "options": [
+            "easy",
+            "quiet",
+            "bad",
+            "old",
+            "slow",
+            "large",
+            "beautiful",
+            "new"
+          ],
+          "correct_answer": "easy",
+          "audio_file_path": "audio/25/25_4_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.57,
+            "left": 66.22,
+            "width": 25.74,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.57,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "25.5",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There are lots of lakes near Braemore.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 36.99,
+            "left": 37.87,
+            "width": 25.82,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 36.99,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There are a few old buildings.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 36.99,
+            "left": 66.22,
+            "width": 25.74,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 36.99,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Braemore has only a few hotels.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 40.78,
+            "left": 7.66,
+            "width": 84.6,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.78,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Kirsty works in a large hotel.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 43.09,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 43.09,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Kirsty is not very busy on weekends.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 43.09,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.09,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Kirsty goes to a café with her friends.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.44,
+            "left": 54.61,
+            "width": 35.49,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.44,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

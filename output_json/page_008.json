@@ -1,0 +1,410 @@
+{
+  "page_number": 8,
+  "unit_number": 15,
+  "unit_title": "Negatives with \"to be\"",
+  "exercises": [
+    {
+      "exercise_id": "15.1",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "o'clock. 5 not is It",
+          "question": "It is not 5 o'clock.",
+          "options": null,
+          "correct_answer": "It is not 5 o'clock.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "teacher. Paula not is a",
+          "question": "Paula is not a teacher.",
+          "options": null,
+          "correct_answer": "Paula is not a teacher.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "are not England. We from",
+          "question": "We are not from England.",
+          "options": null,
+          "correct_answer": "We are not from England.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "is not Frank my father.",
+          "question": "Frank is not my father.",
+          "options": null,
+          "correct_answer": "Frank is not my father.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "This my not purse. is",
+          "question": "This is not my purse.",
+          "options": null,
+          "correct_answer": "This is not my purse.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "my This phone. not is",
+          "question": "This is not my phone.",
+          "options": null,
+          "correct_answer": "This is not my phone.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "is That salon. not a",
+          "question": "That is not a salon.",
+          "options": null,
+          "correct_answer": "That is not a salon.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "not They are engineers.",
+          "question": "They are not engineers.",
+          "options": null,
+          "correct_answer": "They are not engineers.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "years Kirsty not old. 18 is",
+          "question": "Kirsty is not 18 years old.",
+          "options": null,
+          "correct_answer": "Kirsty is not 18 years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "Kim a teacher. is not",
+          "question": "Kim is not a teacher.",
+          "options": null,
+          "correct_answer": "Kim is not a teacher.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_1_9.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO MAKE NEGATIVE SENTENCES",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "They",
+          "question": "They ______ hairdressers.",
+          "options": null,
+          "correct_answer": "are not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "That",
+          "question": "That ______ a castle.",
+          "options": null,
+          "correct_answer": "is not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "They",
+          "question": "They ______ at school.",
+          "options": null,
+          "correct_answer": "are not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "He",
+          "question": "He ______ a grandfather.",
+          "options": null,
+          "correct_answer": "is not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "We",
+          "question": "We ______ engineers.",
+          "options": null,
+          "correct_answer": "are not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "She",
+          "question": "She ______ 70 years old.",
+          "options": null,
+          "correct_answer": "is not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "You",
+          "question": "You ______ French.",
+          "options": null,
+          "correct_answer": "are not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "This",
+          "question": "This ______ my dog.",
+          "options": null,
+          "correct_answer": "is not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "I",
+          "question": "I ______ a doctor.",
+          "options": null,
+          "correct_answer": "am not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "It",
+          "question": "It ______ 11 o'clock.",
+          "options": null,
+          "correct_answer": "is not",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_2_9.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.3",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO, THEN NUMBER THE PICTURES IN THE ORDER THEY ARE DESCRIBED",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Picture of a man with a bag, wearing a blue shirt.",
+          "question": "Number the picture of the man with a bag.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Picture of a woman in a nurse's uniform.",
+          "question": "Number the picture of the woman in a nurse's uniform.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Picture of a man in a chef's hat.",
+          "question": "Number the picture of the man in a chef's hat.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Picture of a woman in a suit, possibly a business setting.",
+          "question": "Number the picture of the woman in a suit.",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_3_4.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "She is not a nurse.",
+          "options": null,
+          "correct_answer": "She's not a nurse.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_4__eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Fredo is not a chef.",
+          "options": null,
+          "correct_answer": "Fredo's not a chef.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Susie is not my cat.",
+          "options": null,
+          "correct_answer": "Susie's not my cat.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "They are not at the theater.",
+          "options": null,
+          "correct_answer": "They're not at the theater.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "I am not a student.",
+          "options": null,
+          "correct_answer": "I'm not a student.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_4_4.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.5",
+      "exercise_type": "true_false",
+      "instruction": "READ THE BLOG AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Mia is 45 years old.",
+          "question": "Mia is 45 years old.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_5__eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "She lives in California.",
+          "question": "She lives in California.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_5_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "She's a waitress in a restaurant.",
+          "question": "She's a waitress in a restaurant.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_5_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "She isn't Mexican.",
+          "question": "She isn't Mexican.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_5_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Franco isn't an engineer.",
+          "question": "Franco isn't an engineer.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_5_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "They have a daughter in college.",
+          "question": "They have a daughter in college.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/15/15_5_5.mp3"
+        }
+      ]
+    }
+  ]
+}

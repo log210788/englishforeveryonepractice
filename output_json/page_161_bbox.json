@@ -1,0 +1,1238 @@
+{
+  "page_number": 161,
+  "exercises": [
+    {
+      "exercise_id": "15.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "15.9",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "You're 28. You're not 29.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_1.mp3",
+          "input_blank_box": {
+            "top": 8.34,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 8.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "You're a scientist. You're not a gardener.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_2.mp3",
+          "input_blank_box": {
+            "top": 18.31,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "You're Austrian. You're not English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_3.mp3",
+          "input_blank_box": {
+            "top": 21.61,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 21.61,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "You're a contractor. You're not an actor.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_4.mp3",
+          "input_blank_box": {
+            "top": 33.19,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.19,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "You're 16. You're not 18.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_5.mp3",
+          "input_blank_box": {
+            "top": 34.87,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "You're an uncle. You're not a grandfather.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_6.mp3",
+          "input_blank_box": {
+            "top": 46.45,
+            "left": 6.47,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "You're a mechanic. You're not an engineer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_7.mp3",
+          "input_blank_box": {
+            "top": 46.76,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.76,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "You're a police officer. You're not a firefighter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_9_8.mp3",
+          "input_blank_box": {
+            "top": 50.62,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.10",
+      "exercise_type": "fill_in_blank",
+      "instruction": "15.10",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I'm not at work.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 56.41,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 56.41,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "I'm not an actor.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 61.39,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.39,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I'm not American.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 74.66,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 74.66,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "I'm not 40 years old.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 77.96,
+            "left": 36.38,
+            "width": 27.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "You aren't at work.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 77.96,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 77.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "You aren't an actor.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 84.62,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 84.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "You aren't American.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "You aren't 40 years old.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "She isn't at work.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "She isn't an actor.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "She isn't American.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "She isn't 40 years old.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "16.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "16.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Jane does not walk to work.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "My brother does not watch TV.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I do not read a book in the evening.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Frank does not work at the museum.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "They do not go dancing on the weekend.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "We do not go to work on Fridays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "I do not get up at 7:30am.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "You do not have a car.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "My dad does not work in an office.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "You do not have a dog.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "My sister does not work with children.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "They do not live in the country.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_12.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "Freddie does not eat meat.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_1_13.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "16.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "16.2",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Tony doesn't live in New York.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_2_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Sebastian doesn't work on a farm.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_2_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "My uncle doesn't work in a factory.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_2_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "We don't play soccer on Thursdays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_2_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "I don't learn German at school.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_2_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Carlo doesn't work on Mondays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_2_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "You don't take a bath at night.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_2_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "16.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "16.3",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Tim does not play tennis. Tim doesn't play tennis.",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "You do not have a black cat. You don't have a black cat.",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Jules does not read a book every day. Jules doesn't read a book every day.",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Sam does not work in a restaurant. Sam doesn't work in a restaurant.",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "They do not play soccer. They don't play soccer.",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Emily does not work with animals. Emily doesn't work with animals.",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Mel and Greg do not have a car. Mel and Greg don't have a car.",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "You do not work in a factory. You don't work in a factory.",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "16.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "16.4",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Chloe doesn't play tennis with her friends.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "You don't work outside.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Sal and Doug don't have a car.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "We don't watch TV at home.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Mrs. O'Brien doesn't work in an office.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "You don't wake up at 6am.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "They don't eat lunch at 1pm.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Virginia doesn't speak good English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Trevor doesn't live near here.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "My dad doesn't live in Los Angeles.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "David doesn't play chess.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "16.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "16.5",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Jean doesn't cycle to work.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "They don't live in the city.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Mr. James doesn't go to the theater.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "He doesn't read a newspaper.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "My cousins don't have tickets.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Sally doesn't go to the gym.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Our dog doesn't have a ball.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "I don't have a laptop.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "My mom doesn't get up at 7:30am.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "You don't live in the country.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "Claude doesn't have a dictionary.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_5_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

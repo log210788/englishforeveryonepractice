@@ -1,0 +1,247 @@
+{
+  "page_number": 108,
+  "unit_number": 34,
+  "unit_title": "At the shops",
+  "exercises": [
+    {
+      "exercise_id": "34.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "That sweater ________ you. It's the right size.",
+          "options": [
+            "chooses",
+            "fits",
+            "owns",
+            "sell",
+            "pay",
+            "want",
+            "buy",
+            "fit",
+            "try on",
+            "own"
+          ],
+          "correct_answer": "fits"
+        },
+        {
+          "item_number": 2,
+          "question": "My mom always ________ my dad's clothes.",
+          "options": [
+            "chooses",
+            "fits",
+            "owns",
+            "sell",
+            "pay",
+            "want",
+            "buy",
+            "fit",
+            "try on",
+            "own"
+          ],
+          "correct_answer": "chooses"
+        },
+        {
+          "item_number": 3,
+          "question": "These jeans don't ________. They're too small.",
+          "options": [
+            "chooses",
+            "fits",
+            "owns",
+            "sell",
+            "pay",
+            "want",
+            "buy",
+            "fit",
+            "try on",
+            "own"
+          ],
+          "correct_answer": "fit",
+          "audio_file_path": "audio/34/34_1_fit.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "I ________ 30 pairs of shoes.",
+          "options": [
+            "chooses",
+            "fits",
+            "owns",
+            "sell",
+            "pay",
+            "want",
+            "buy",
+            "fit",
+            "try on",
+            "own"
+          ],
+          "correct_answer": "own",
+          "audio_file_path": "audio/34/34_1_own.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "I always ________ clothes before I buy them.",
+          "options": [
+            "chooses",
+            "fits",
+            "owns",
+            "sell",
+            "pay",
+            "want",
+            "buy",
+            "fit",
+            "try on",
+            "own"
+          ],
+          "correct_answer": "try on"
+        },
+        {
+          "item_number": 6,
+          "question": "Those shops ________ very fashionable clothes.",
+          "options": [
+            "chooses",
+            "fits",
+            "owns",
+            "sell",
+            "pay",
+            "want",
+            "buy",
+            "fit",
+            "try on",
+            "own"
+          ],
+          "correct_answer": "sell",
+          "audio_file_path": "audio/34/34_1_sell.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "We ________ fruit at the market.",
+          "options": [
+            "chooses",
+            "fits",
+            "owns",
+            "sell",
+            "pay",
+            "want",
+            "buy",
+            "fit",
+            "try on",
+            "own"
+          ],
+          "correct_answer": "buy",
+          "audio_file_path": "audio/34/34_1_buy.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "I ________ some shoes for my birthday.",
+          "options": [
+            "chooses",
+            "fits",
+            "owns",
+            "sell",
+            "pay",
+            "want",
+            "buy",
+            "fit",
+            "try on",
+            "own"
+          ],
+          "correct_answer": "want",
+          "audio_file_path": "audio/34/34_1_want.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "I sometimes ________ by credit card.",
+          "options": [
+            "chooses",
+            "fits",
+            "owns",
+            "sell",
+            "pay",
+            "want",
+            "buy",
+            "fit",
+            "try on",
+            "own"
+          ],
+          "correct_answer": "pay"
+        }
+      ]
+    },
+    {
+      "exercise_id": "34.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Ruth do a lot of her shopping on the internet.",
+          "correct_answer": "Ruth does a lot of her shopping on the internet.",
+          "audio_file_path": "audio/34/34_2_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "The shop don't sell my size of clothes.",
+          "correct_answer": "The shop doesn't sell my size of clothes.",
+          "audio_file_path": "audio/34/34_2_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "She wear short skirts.",
+          "correct_answer": "She wears short skirts.",
+          "audio_file_path": "audio/34/34_2_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Greg's jeans doesn't fit him.",
+          "correct_answer": "Greg's jeans don't fit him.",
+          "audio_file_path": "audio/34/34_2_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Amy own a lot of fashionable clothes.",
+          "correct_answer": "Amy owns a lot of fashionable clothes.",
+          "audio_file_path": "audio/34/34_2_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "We pays for our shopping with cash.",
+          "correct_answer": "We pay for our shopping with cash.",
+          "audio_file_path": "audio/34/34_2_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Duncan never try on clothes before he buys them.",
+          "correct_answer": "Duncan never tries on clothes before he buys them.",
+          "audio_file_path": "audio/34/34_2_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "My parents usually pays for my clothes.",
+          "correct_answer": "My parents usually pay for my clothes.",
+          "audio_file_path": "audio/34/34_2_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Peter don't own many clothes.",
+          "correct_answer": "Peter doesn't own many clothes.",
+          "audio_file_path": "audio/34/34_2_9.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

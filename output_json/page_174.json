@@ -1,0 +1,431 @@
+{
+  "page_number": 174,
+  "exercises": [
+    {
+      "exercise_id": "45.1",
+      "exercise_type": "audio_listen",
+      "instruction": "45.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "My friend speaks too quietly.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "A turtle walks very slowly.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Alan can speak German well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "My dog can run very fast.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "I get up very early.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_1_5.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "45.2",
+      "exercise_type": "audio_listen",
+      "instruction": "45.2",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Patrick is good at dancing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_2.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Caitlin bakes well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "My mother is good at writing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_2.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Ethan plays the guitar well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_2.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Aimee is good at skiing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_2.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "They swim well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_2.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "We are good at speaking English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_2.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Lara climbs trees well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_2.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "45.3",
+      "exercise_type": "audio_listen",
+      "instruction": "45.3",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Haruda sometimes arrives late for school.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "My cousin Paul runs quickly.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Shelley sings beautifully.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Our neighbors talk so noisily at night.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "I can pass this exam easily.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_3_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "My aunt drives very carefully.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Anita works very hard.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "We usually go to bed at 11pm.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Angela speaks English badly.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "A cheetah runs very fast.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "Sarah eats her food very quickly.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "Andrew does his homework well.",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "45.4",
+      "exercise_type": "audio_listen",
+      "instruction": "45.4",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I am good at drawing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "I am good at playing the drums.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I am good at English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "I am bad at drawing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "I am bad at playing the drums.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "I am bad at English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Jennifer is good at drawing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Jennifer is good at playing the drums.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Jennifer is good at English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "Jennifer is bad at drawing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "Jennifer is bad at playing the drums.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "46.1",
+      "exercise_type": "audio_listen",
+      "instruction": "46.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Pedro is really good at history.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "You speak French really well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Sandra is very good at singing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Sal is quite good at skiing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Your uncle can swim very well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "They can run quite fast.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Mr. Henderson is really good at golf.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "46.2",
+      "exercise_type": "audio_listen",
+      "instruction": "46.2",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Arnold isn't very good at art and design.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "My cousin is really good at speaking English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Jean is quite good at climbing mountains.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_2_3.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "46.3",
+      "exercise_type": "audio_listen",
+      "instruction": "46.3",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "My aunt is quite good at speaking Polish.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Your brother surfs really well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Katie paints very well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Silvia is really good at singing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Martina is very good at dancing.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Serge cooks quite well.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Sonia is really good at playing chess.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "Ricky runs very well.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "Peter is quite good at drawing.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "My mom speaks Greek really well.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "David is very good at playing the drums.",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "46.4",
+      "exercise_type": "audio_listen",
+      "instruction": "46.4",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Charlotte can ski quite well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Harry sings really quietly.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "My aunt walks very slowly.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Elizabeth speaks Russian very well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "My dog can jump quite high.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "William speaks Japanese really badly.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Philip eats quite noisily.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_7.mp3"
+        }
+      ]
+    }
+  ]
+}

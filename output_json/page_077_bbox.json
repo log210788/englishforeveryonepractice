@@ -1,0 +1,278 @@
+{
+  "page_number": 77,
+  "exercises": [
+    {
+      "exercise_id": "23.7",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND NUMBER THE DIRECTIONS IN THE ORDER YOU HEAR THEM",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Turn left and the theater is on your right across from the church.",
+          "correct_answer": "1",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "The café is on the corner next to the church.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_2.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.15,
+            "width": 81.25,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "The restaurant is on the right next to the bank.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_3.mp3",
+          "input_blank_box": {
+            "top": 14.69,
+            "left": 9.08,
+            "width": 81.77,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.69,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Go straight ahead and take the second road on your right.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_4.mp3",
+          "input_blank_box": {
+            "top": 40.22,
+            "left": 7.81,
+            "width": 84.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.22,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Turn right, then take the first left.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/23/23_7_5.mp3",
+          "input_blank_box": {
+            "top": 42.47,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 42.47,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Go past the hotel and the café is on the left.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 49.63,
+            "left": 9.67,
+            "width": 23.88,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 49.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "The hospital is on the corner on the left.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 55.04,
+            "left": 76.41,
+            "width": 8.85,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 55.04,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Go straight ahead and it's the fourth road on the right.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 59.28,
+            "left": 10.86,
+            "width": 9.97,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 59.28,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Go straight ahead and take the third left.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 60.65,
+            "left": 10.86,
+            "width": 9.75,
+            "height": 3.49
+          },
+          "audio_icon_box": {
+            "top": 60.65,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "23.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "LOOK AT THE PICTURES AND USE PREPOSITIONS TO COMPLETE THE SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "The museum is ________ the library.",
+          "options": [
+            "in front of",
+            "behind",
+            "next to",
+            "opposite"
+          ],
+          "correct_answer": "next to",
+          "audio_file_path": "audio/23/23_8_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 61.96,
+            "left": 40.1,
+            "width": 8.48,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "The restaurant is ________ the store.",
+          "options": [
+            "in front of",
+            "behind",
+            "next to",
+            "opposite"
+          ],
+          "correct_answer": "opposite",
+          "audio_file_path": "audio/23/23_8_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 70.17,
+            "left": 9.75,
+            "width": 23.59,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.17,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "The hospital is ________ the theater.",
+          "options": [
+            "in front of",
+            "behind",
+            "next to",
+            "opposite"
+          ],
+          "correct_answer": "next to",
+          "audio_file_path": "audio/23/23_8_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 69.12,
+            "left": 10.64,
+            "width": 13.02,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 69.12,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "The post office is ________ the school.",
+          "options": [
+            "in front of",
+            "behind",
+            "next to",
+            "opposite"
+          ],
+          "correct_answer": "behind",
+          "audio_file_path": "audio/23/23_8_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 69.3,
+            "left": 37.95,
+            "width": 15.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 69.3,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

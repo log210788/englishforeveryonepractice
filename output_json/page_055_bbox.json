@@ -1,0 +1,400 @@
+{
+  "page_number": 55,
+  "unit_number": 17,
+  "exercises": [
+    {
+      "exercise_id": "17.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"IS\" OR \"ARE\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Dorota at school?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "this your parrot?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.42,
+            "width": 36.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "there a bank near here?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 14.57,
+            "left": 17.93,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.57,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "you a gardener?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.44,
+            "left": 61.31,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.44,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "these Jean's keys?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.81,
+            "left": 10.34,
+            "width": 36.53,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.81,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "there a castle in your town?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.86,
+            "left": 17.93,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.86,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "that your bag?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.86,
+            "left": 61.31,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.86,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "they your cousins?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_8.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.34,
+            "left": 17.93,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "they from France?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_9.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.34,
+            "left": 61.31,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.34,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "she Sam's sister?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_10.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.76,
+            "left": 17.93,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.76,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "this my burger?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_11.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.76,
+            "left": 61.31,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.76,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "there a church in this town?",
+          "correct_answer": "Is",
+          "audio_file_path": "audio/17/17_3_12.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 37.24,
+            "left": 18.01,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.24,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "those Brooke's shirts?",
+          "correct_answer": "Are",
+          "audio_file_path": "audio/17/17_3_13.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 37.24,
+            "left": 61.31,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.24,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "17.4",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE QUESTIONS, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Is Italy? from Paula",
+          "correct_answer": "Is Paula from Italy?",
+          "audio_file_path": "audio/17/17_4_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 42.71,
+            "left": 17.93,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "past two? it Is half",
+          "correct_answer": "Is it half past two?",
+          "audio_file_path": "audio/17/17_4_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 42.71,
+            "left": 61.31,
+            "width": 8.48,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "your Ronaldo father? Is",
+          "correct_answer": "Is Ronaldo your father?",
+          "audio_file_path": "audio/17/17_4_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 48.13,
+            "left": 61.31,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 48.13,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "on there Is bank your a street?",
+          "correct_answer": "Is there a bank on your street?",
+          "audio_file_path": "audio/17/17_4_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 51.74,
+            "left": 7.81,
+            "width": 84.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.74,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "your Are these glasses? dad's",
+          "correct_answer": "Are these your dad's glasses?",
+          "audio_file_path": "audio/17/17_4_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 54.05,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 54.05,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "this Is laptop? your",
+          "correct_answer": "Is this your laptop?",
+          "audio_file_path": "audio/17/17_4_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 61.27,
+            "left": 10.04,
+            "width": 37.2,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.27,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "books? those Katherine's Are",
+          "correct_answer": "Are those Katherine's books?",
+          "audio_file_path": "audio/17/17_4_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 62.45,
+            "left": 19.49,
+            "width": 8.11,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 62.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "page_number": 54,
+  "unit_number": 17,
+  "unit_title": "Simple questions",
+  "exercises": [
+    {
+      "exercise_id": "17.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE STATEMENTS AS QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "This is his passport.",
+          "correct_answer": "Is this his passport?",
+          "audio_file_path": "audio/17/17_1_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "It is 6 o'clock.",
+          "correct_answer": "Is it 6 o'clock?",
+          "audio_file_path": "audio/17/17_1_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Doug and Jim are hairdressers.",
+          "correct_answer": "Are Doug and Jim hairdressers?",
+          "audio_file_path": "audio/17/17_1_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "These are my glasses.",
+          "correct_answer": "Are these my glasses?",
+          "audio_file_path": "audio/17/17_1_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Sally is his sister.",
+          "correct_answer": "Is Sally his sister?",
+          "audio_file_path": "audio/17/17_1_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Those are your letters.",
+          "correct_answer": "Are those your letters?",
+          "audio_file_path": "audio/17/17_1_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "She is a nurse.",
+          "correct_answer": "Is she a nurse?",
+          "audio_file_path": "audio/17/17_1_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "This is your snake.",
+          "correct_answer": "Is this your snake?",
+          "audio_file_path": "audio/17/17_1_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "It is 3pm.",
+          "correct_answer": "Is it 3pm?",
+          "audio_file_path": "audio/17/17_1_9.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "His wife is a chef.",
+          "correct_answer": "Is his wife a chef?",
+          "audio_file_path": "audio/17/17_1_10.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "Katie and Jess are my friends.",
+          "correct_answer": "Are Katie and Jess my friends?",
+          "audio_file_path": "audio/17/17_1_11.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "17.2",
+      "exercise_type": "audio_listen",
+      "instruction": "USE THE CHART TO CREATE SIX DIFFERENT QUESTIONS AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create questions using the chart.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/17/17_2.mp3"
+        }
+      ]
+    }
+  ]
+}

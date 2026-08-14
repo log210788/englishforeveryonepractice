@@ -1,0 +1,84 @@
+{
+  "page_number": 141,
+  "exercises": [
+    {
+      "exercise_id": "44.3",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "drive car. Eliza cannot a",
+          "correct_answer": "Eliza cannot drive a car."
+        },
+        {
+          "item_number": 2,
+          "question": "piano. Jonathan play can the",
+          "correct_answer": "Jonathan can play the piano."
+        },
+        {
+          "item_number": 3,
+          "question": "jump very can't high. Cathy",
+          "correct_answer": "Cathy can't jump very high."
+        },
+        {
+          "item_number": 4,
+          "question": "stick. can a Mick throw",
+          "correct_answer": "Mick can throw a stick."
+        },
+        {
+          "item_number": 5,
+          "question": "math. can't Laura do",
+          "correct_answer": "Laura can't do math."
+        },
+        {
+          "item_number": 6,
+          "question": "lift can the Alan box.",
+          "correct_answer": "Alan can lift the box."
+        },
+        {
+          "item_number": 7,
+          "question": "far. very can't Julia swim",
+          "correct_answer": "Julia can't swim very far."
+        }
+      ]
+    },
+    {
+      "exercise_id": "44.4",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND MARK WHETHER INA CAN OR CAN'T DO THE ACTIVITY IN EACH PICTURE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Ina riding a horse",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Ina writing Chinese characters",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Ina playing tennis",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Ina playing guitar",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Ina flying a kite",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_4_5.mp3"
+        }
+      ]
+    }
+  ]
+}

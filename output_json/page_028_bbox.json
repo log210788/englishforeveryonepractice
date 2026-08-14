@@ -1,0 +1,543 @@
+{
+  "page_number": 28,
+  "unit_number": 8,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "8.6",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE DETERMINERS TO THE PRONOUNS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "his",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "his",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 13.33,
+            "left": 86.01,
+            "width": 2.01,
+            "height": 1.81
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "its",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "its",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_2.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 18.31,
+            "left": 83.04,
+            "width": 2.46,
+            "height": 1.62
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "her",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "hers",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_3.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 54.99,
+            "width": 35.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.3,
+            "left": 85.34,
+            "width": 1.19,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "your",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "yours",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_4.mp3",
+          "input_blank_box": {
+            "top": 16.69,
+            "left": 54.54,
+            "width": 35.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.61,
+            "left": 86.09,
+            "width": 2.08,
+            "height": 1.62
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "their",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "theirs",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_5.mp3",
+          "input_blank_box": {
+            "top": 15.44,
+            "left": 55.36,
+            "width": 35.27,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.22,
+            "left": 87.35,
+            "width": 3.94,
+            "height": 4.42
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "our",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "ours",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_6.mp3",
+          "input_blank_box": {
+            "top": 22.67,
+            "left": 55.36,
+            "width": 36.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.69,
+            "left": 83.04,
+            "width": 2.98,
+            "height": 3.55
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE CHANGING THE DETERMINERS TO PRONOUNS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "These are her pencils. -> These pencils are hers.",
+          "question": "This is his dog.",
+          "options": null,
+          "correct_answer": "This dog is his.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_1.mp3",
+          "input_blank_box": {
+            "top": 29.02,
+            "left": 55.36,
+            "width": 36.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.44,
+            "left": 87.8,
+            "width": 1.56,
+            "height": 1.12
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Those are my books.",
+          "options": null,
+          "correct_answer": "Those books are mine.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_2.mp3",
+          "input_blank_box": {
+            "top": 35.68,
+            "left": 55.36,
+            "width": 36.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.62,
+            "left": 87.65,
+            "width": 1.93,
+            "height": 1.62
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "That is your fish.",
+          "options": null,
+          "correct_answer": "That fish is yours.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_3.mp3",
+          "input_blank_box": {
+            "top": 42.03,
+            "left": 55.43,
+            "width": 36.53,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.65,
+            "left": 86.76,
+            "width": 1.41,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "These are their bags.",
+          "options": null,
+          "correct_answer": "These bags are theirs.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_4.mp3",
+          "input_blank_box": {
+            "top": 48.38,
+            "left": 55.36,
+            "width": 36.46,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 44.08,
+            "left": 84.82,
+            "width": 1.86,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "These are our boxes.",
+          "options": null,
+          "correct_answer": "These boxes are ours.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_5.mp3",
+          "input_blank_box": {
+            "top": 52.24,
+            "left": 7.81,
+            "width": 39.51,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.65,
+            "left": 86.46,
+            "width": 2.01,
+            "height": 1.37
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.8",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND MARK THE SENTENCES YOU HEAR",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "That dog is yours.",
+            "That dog is Claire's."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_1.mp3",
+          "input_blank_box": {
+            "top": 52.24,
+            "left": 52.6,
+            "width": 39.51,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 52.24,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "These sandwiches are theirs.",
+            "These sandwiches are Dan's."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_2.mp3",
+          "input_blank_box": {
+            "top": 54.48,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 54.48,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "That bag is his.",
+            "That bag is hers."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_3.mp3",
+          "input_blank_box": {
+            "top": 67.12,
+            "left": 9.97,
+            "width": 37.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 67.12,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "Those sandwiches are ours.",
+            "Those sandwiches are Emma's."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_4.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "That purse is hers.",
+            "That purse is Stacey's."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "This key is his.",
+            "This key is hers."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "This newspaper is theirs.",
+            "This newspaper is hers."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "That necklace is Linda's.",
+            "That necklace is hers."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "Those children are theirs.",
+            "Those children are ours."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

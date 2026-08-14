@@ -1,0 +1,303 @@
+{
+  "page_number": 28,
+  "unit_number": 8,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "8.6",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE DETERMINERS TO THE PRONOUNS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "his",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "his",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "its",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "its",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "her",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "hers",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "your",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "yours",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "their",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "theirs",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "our",
+          "options": [
+            "yours",
+            "mine",
+            "his",
+            "ours",
+            "theirs",
+            "hers",
+            "its"
+          ],
+          "correct_answer": "ours",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_6_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE CHANGING THE DETERMINERS TO PRONOUNS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "These are her pencils. -> These pencils are hers.",
+          "question": "This is his dog.",
+          "options": null,
+          "correct_answer": "This dog is his.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Those are my books.",
+          "options": null,
+          "correct_answer": "Those books are mine.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "That is your fish.",
+          "options": null,
+          "correct_answer": "That fish is yours.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "These are their bags.",
+          "options": null,
+          "correct_answer": "These bags are theirs.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "These are our boxes.",
+          "options": null,
+          "correct_answer": "These boxes are ours.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_7_5.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.8",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND MARK THE SENTENCES YOU HEAR",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "That dog is yours.",
+            "That dog is Claire's."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "These sandwiches are theirs.",
+            "These sandwiches are Dan's."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "That bag is his.",
+            "That bag is hers."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "Those sandwiches are ours.",
+            "Those sandwiches are Emma's."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "That purse is hers.",
+            "That purse is Stacey's."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "This key is his.",
+            "This key is hers."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "This newspaper is theirs.",
+            "This newspaper is hers."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "That necklace is Linda's.",
+            "That necklace is hers."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "Select the sentence you hear.",
+          "options": [
+            "Those children are theirs.",
+            "Those children are ours."
+          ],
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_8_9.mp3"
+        }
+      ]
+    }
+  ]
+}

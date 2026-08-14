@@ -1,0 +1,221 @@
+{
+  "page_number": 145,
+  "exercises": [
+    {
+      "exercise_id": "45.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Haruda sometimes arrives lately for school.",
+          "correct_answer": "Haruda sometimes arrives late for school.",
+          "audio_file_path": "audio/45/45_3_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 87.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "My cousin Paul runs quick.",
+          "correct_answer": "My cousin Paul runs quickly.",
+          "audio_file_path": "audio/45/45_3_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.83,
+            "left": 9.75,
+            "width": 37.5,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.83,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Shelley sings beautiful.",
+          "correct_answer": "Shelley sings beautifully.",
+          "audio_file_path": "audio/45/45_3_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.63,
+            "left": 10.19,
+            "width": 37.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Our neighbors talk so noisy at night.",
+          "correct_answer": "Our neighbors talk so noisily at night.",
+          "audio_file_path": "audio/45/45_3_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.44,
+            "left": 10.64,
+            "width": 36.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.44,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Rosa reads very slow.",
+          "correct_answer": "Rosa reads very slowly.",
+          "audio_file_path": "audio/45/45_3_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.94,
+            "left": 51.26,
+            "width": 40.77,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.94,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "I can pass this exam easy.",
+          "correct_answer": "I can pass this exam easily.",
+          "input_blank_box": {
+            "top": 22.85,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "My aunt drives very careful.",
+          "correct_answer": "My aunt drives very carefully.",
+          "input_blank_box": {
+            "top": 22.85,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Anita works very hardly.",
+          "correct_answer": "Anita works very hard.",
+          "input_blank_box": {
+            "top": 29.7,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "We usual go to bed at 11pm.",
+          "correct_answer": "We usually go to bed at 11pm.",
+          "input_blank_box": {
+            "top": 29.7,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Angela speaks English bad.",
+          "correct_answer": "Angela speaks English badly.",
+          "input_blank_box": {
+            "top": 36.61,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "A cheetah runs very fastly.",
+          "correct_answer": "A cheetah runs very fast.",
+          "input_blank_box": {
+            "top": 36.61,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "Sarah eats her food very quick.",
+          "correct_answer": "Sarah eats her food very quickly.",
+          "input_blank_box": {
+            "top": 43.46,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "Andrew does his homework good.",
+          "correct_answer": "Andrew does his homework well.",
+          "input_blank_box": {
+            "top": 43.46,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "45.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "USE THE CHART TO CREATE 18 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "I am good at drawing.",
+          "question": "Create sentences using the chart provided.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/45/45_4.mp3",
+          "input_blank_box": {
+            "top": 50.37,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.37,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

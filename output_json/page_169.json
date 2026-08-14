@@ -1,0 +1,583 @@
+{
+  "page_number": 169,
+  "exercises": [
+    {
+      "exercise_id": "32.2",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There are enough pineapples.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "There are enough mangoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "There is enough sugar.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "There is enough bread.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "There is enough milk.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "There is enough pasta.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "There are enough apples.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "There are enough oranges.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "There are enough bananas.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "There is enough chocolate.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "There are enough eggs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "There is enough cheese.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "question": "There are enough tomatoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_13.mp3"
+        },
+        {
+          "item_number": 14,
+          "question": "There is enough butter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_14.mp3"
+        },
+        {
+          "item_number": 15,
+          "question": "There is enough juice.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_2_15.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "32.3",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "You have enough oranges. You have too many oranges.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "There isn't enough sugar. There's too much sugar.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "We don't have enough butter. We have enough butter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "There aren't enough eggs. There are too many eggs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "There is enough flour. There is too much flour.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 6,
+          "question": "There aren't enough potatoes. There are enough potatoes.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 7,
+          "question": "You don't have enough melons. You have too many melons.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 8,
+          "question": "He has enough bread. He has too much bread.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 9,
+          "question": "There isn't enough tea. There is enough tea.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 10,
+          "question": "We don't have enough milk. We have too much milk.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 11,
+          "question": "You have enough rice. You have too much rice.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 12,
+          "question": "There aren't enough mangoes. There are enough mangoes.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 13,
+          "question": "Martha doesn't have enough onions. Martha has too many onions.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 14,
+          "question": "You have enough carrots. You have too many carrots.",
+          "audio_icon_present": false
+        }
+      ]
+    },
+    {
+      "exercise_id": "32.4",
+      "exercise_type": "true_false",
+      "instruction": "True/False",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "True"
+        },
+        {
+          "item_number": 2,
+          "question": "True"
+        },
+        {
+          "item_number": 3,
+          "question": "False"
+        },
+        {
+          "item_number": 4,
+          "question": "False"
+        },
+        {
+          "item_number": 5,
+          "question": "False"
+        }
+      ]
+    },
+    {
+      "exercise_id": "32.5",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There are not enough carrots.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "There are enough potatoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "There are not enough tomatoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "There is not enough pasta.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "There is too much oil.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "There is enough bread.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "There is enough butter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "There is too much flour.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "There is not enough sugar.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "There are enough oranges.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "There are not enough bananas.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "There are too many eggs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "question": "There is enough milk.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_5_13.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "32.6",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There isn't enough butter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "There aren't enough tomatoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "There aren't enough mangoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "You have too many bananas.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "They don't have enough butter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "There are enough onions.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "There isn't enough sugar.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "You have too many pineapples.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "They have too much bread.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "You don't have enough apples.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "They have enough flour.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "question": "There are too many potatoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "question": "There is too much salt.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_13.mp3"
+        },
+        {
+          "item_number": 14,
+          "question": "There is too much chocolate.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_14.mp3"
+        },
+        {
+          "item_number": 15,
+          "question": "There are too many mangoes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_15.mp3"
+        },
+        {
+          "item_number": 16,
+          "question": "You have enough eggs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_16.mp3"
+        },
+        {
+          "item_number": 17,
+          "question": "There are enough oranges.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_6_17.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "32.7",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There is enough butter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "There is not enough butter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "There is too much butter.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "There are enough eggs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "There are not enough eggs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_7_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "There are too many eggs.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_7_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "There is enough rice.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_7_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "There is not enough rice.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 9,
+          "question": "There is too much rice.",
+          "audio_icon_present": false
+        }
+      ]
+    },
+    {
+      "exercise_id": "33.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the words.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "gloves",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/33/33_1_gloves.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "hat",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/33/33_1_hat.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "34.1",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "That sweater fits you. It's the right size.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "My mom always chooses my dad's clothes.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 3,
+          "question": "These jeans don't fit. They're too small.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 4,
+          "question": "I own 30 pairs of shoes.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 5,
+          "question": "I always try on clothes before I buy them.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 6,
+          "question": "Those shops sell very fashionable clothes.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 7,
+          "question": "We buy fruit at the market.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 8,
+          "question": "I want some shoes for my birthday.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 9,
+          "question": "I sometimes pay by credit card.",
+          "audio_icon_present": false
+        }
+      ]
+    },
+    {
+      "exercise_id": "34.2",
+      "exercise_type": "audio_listen",
+      "instruction": "Listen to the audio and repeat the sentences.",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Ruth does a lot of her shopping on the internet.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "The shop doesn't sell my size of clothes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "She wears short skirts.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Greg's jeans don't fit him.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Amy owns a lot of fashionable clothes.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "We pay for our shopping with cash.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Duncan never tries on clothes before he buys them.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/34/34_2_7.mp3"
+        }
+      ]
+    }
+  ]
+}

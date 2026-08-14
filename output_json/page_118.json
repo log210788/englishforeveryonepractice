@@ -1,0 +1,91 @@
+{
+  "page_number": 118,
+  "unit_number": 37,
+  "unit_title": "Talking about sports",
+  "exercises": [
+    {
+      "exercise_id": "37.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO COMPLETE THE SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Douglas _________ with his brother on Sundays.",
+          "correct_answer": "goes cycling",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Phil and John _________ in the winter.",
+          "correct_answer": "go skating",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Mr. Henderson _________ in the Mediterranean in the summer.",
+          "correct_answer": "goes sailing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Veronica _________ with her friends on the weekend.",
+          "correct_answer": "goes dancing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "They _________ in the mountains in Scotland.",
+          "correct_answer": "go hiking",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Lawrence _________ on Tuesdays.",
+          "correct_answer": "goes swimming",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Ted _________ on Saturday morning.",
+          "correct_answer": "goes skateboarding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "I _________ in France each year.",
+          "correct_answer": "go riding",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "She _________ in Milan at Christmas.",
+          "correct_answer": "goes shopping",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "We _________ after work on Mondays.",
+          "correct_answer": "go fishing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "Anne _________ in California.",
+          "correct_answer": "goes surfing",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_1_11.mp3"
+        }
+      ]
+    }
+  ]
+}

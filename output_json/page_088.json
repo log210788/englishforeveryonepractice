@@ -1,0 +1,250 @@
+{
+  "page_number": 88,
+  "unit_number": 28,
+  "unit_title": "The things I have",
+  "exercises": [
+    {
+      "exercise_id": "28.1",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "My friend have / has new glasses.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "John have / has two dogs.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "We have / has an old castle in our city.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "They have / has a lot of parks in their town.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "I have / has a beautiful necklace.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Alex have / has a new camera.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Our house have / has a lovely yard.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Phil and Sue have / has four daughters.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Pete have / has a new cell phone.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "Your town have / has a big hotel.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "I have / has a lot of friends.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_1_11.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"HAS\" OR \"HAVE\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Bob and Shirley ________ a big dog.",
+          "correct_answer": "have",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 2,
+          "question": "She ________ some new friends.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 3,
+          "question": "We ________ two sons at home.",
+          "correct_answer": "have",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 4,
+          "question": "James ________ two cars.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 5,
+          "question": "His house ________ three bedrooms.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 6,
+          "question": "Pam ________ lots of books at home.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 7,
+          "question": "He ________ two cats.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 8,
+          "question": "Sally's house ________ a new kitchen.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 9,
+          "question": "You ________ a beautiful house.",
+          "correct_answer": "have",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 10,
+          "question": "I ________ three sisters.",
+          "correct_answer": "have",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 11,
+          "question": "Kelly and Mark ________ a microwave.",
+          "correct_answer": "have",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 12,
+          "question": "We ________ a castle in our town.",
+          "correct_answer": "have",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 13,
+          "question": "Sanjay ________ a cat and a dog.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 14,
+          "question": "You ________ three brothers.",
+          "correct_answer": "have",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 15,
+          "question": "Ross ________ a new cell phone.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 16,
+          "question": "Our house ________ two bathrooms.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 17,
+          "question": "I ________ a couch in my room.",
+          "correct_answer": "have",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 18,
+          "question": "Washington ________ some lovely parks.",
+          "correct_answer": "has",
+          "audio_icon_present": false
+        }
+      ]
+    }
+  ]
+}

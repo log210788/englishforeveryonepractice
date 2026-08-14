@@ -1,0 +1,141 @@
+{
+  "page_number": 79,
+  "exercises": [
+    {
+      "exercise_id": "24.3",
+      "exercise_type": "true_false",
+      "instruction": "MARK THE SENTENCES THAT ARE CORRECT",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Three chefs, four waiters work in my hotel. / Three chefs and four waiters work in my hotel.",
+          "correct_answer": "Three chefs and four waiters work in my hotel.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "There's a park, a café, and a theater in Pella. / There's a park, a café, a theater in Pella.",
+          "correct_answer": "There's a park, a café, and a theater in Pella.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I have one aunt, and two sisters, and a niece. / I have one aunt, two sisters, and a niece.",
+          "correct_answer": "I have one aunt, two sisters, and a niece.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Ben eats breakfast, and lunch and dinner. / Ben eats breakfast, lunch, and dinner.",
+          "correct_answer": "Ben eats breakfast, lunch, and dinner.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "I play and tennis and soccer. / I play tennis and soccer.",
+          "correct_answer": "I play tennis and soccer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_3_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "We have and dog and a cat. / We have a dog and a cat.",
+          "correct_answer": "We have a dog and a cat.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 7,
+          "question": "I read a book, take a bath on Sundays. / I read a book and take a bath on Sundays.",
+          "correct_answer": "I read a book and take a bath on Sundays.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 8,
+          "question": "Jen speaks French, Spanish, Japanese. / Jen speaks French, Spanish, and Japanese.",
+          "correct_answer": "Jen speaks French, Spanish, and Japanese.",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 9,
+          "question": "Pete has two dogs and a cat. / Pete has two dogs, a cat.",
+          "correct_answer": "Pete has two dogs and a cat.",
+          "audio_icon_present": false
+        }
+      ]
+    },
+    {
+      "exercise_id": "24.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES TO JOIN THEM TOGETHER USING \"AND\" OR \"BUT\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "This is my brother. These are my sisters.",
+          "correct_answer": "This is my brother and these are my sisters.",
+          "audio_file_path": "audio/24/24_4_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "I speak English. I don't speak French.",
+          "correct_answer": "I speak English, but I don't speak French.",
+          "audio_file_path": "audio/24/24_4_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "I play video games. I watch TV.",
+          "correct_answer": "I play video games and I watch TV.",
+          "audio_file_path": "audio/24/24_4_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "I have one uncle. I don't have any aunts.",
+          "correct_answer": "I have one uncle, but I don't have any aunts.",
+          "audio_file_path": "audio/24/24_4_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "There are two stores. There are three hotels.",
+          "correct_answer": "There are two stores and there are three hotels."
+        },
+        {
+          "item_number": 6,
+          "question": "I eat lunch every day. I don't eat breakfast.",
+          "correct_answer": "I eat lunch every day, but I don't eat breakfast."
+        },
+        {
+          "item_number": 7,
+          "question": "There's a hotel. There isn't a store.",
+          "correct_answer": "There's a hotel, but there isn't a store."
+        },
+        {
+          "item_number": 8,
+          "question": "I have a sandwich. I have an apple.",
+          "correct_answer": "I have a sandwich and an apple."
+        },
+        {
+          "item_number": 9,
+          "question": "This is my house. These aren't my keys.",
+          "correct_answer": "This is my house, but these aren't my keys."
+        },
+        {
+          "item_number": 10,
+          "question": "Those are Sarah's magazines. That is her ID card.",
+          "correct_answer": "Those are Sarah's magazines and that is her ID card."
+        },
+        {
+          "item_number": 11,
+          "question": "This phone is Joe's. This laptop isn't Joe's.",
+          "correct_answer": "This phone is Joe's, but this laptop isn't Joe's."
+        }
+      ]
+    }
+  ]
+}

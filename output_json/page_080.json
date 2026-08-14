@@ -1,0 +1,120 @@
+{
+  "page_number": 80,
+  "exercises": [
+    {
+      "exercise_id": "24.5",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There's a library, a store, and / but a café.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "There's a castle and a church and / but there isn't a museum.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Pete eats apples and / but doesn't eat bananas.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Greg reads magazines and / but a newspaper.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "I have a calendar and / but a notebook.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "He goes swimming and / but he doesn't play soccer.",
+          "options": [
+            "and",
+            "but"
+          ],
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_5_6.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "24.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Meg likes this restaurant ____________________ she doesn't like that café.",
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "There are two schools ____________________ there isn't a library in my town.",
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I have a pen, a notebook, ____________________ a calendar in my bag.",
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "My sister goes to the gym on Mondays ____________________ Thursdays.",
+          "correct_answer": "and",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Pedro works in a school ____________________ he isn't a teacher.",
+          "correct_answer": "but",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/24/24_6_5.mp3"
+        }
+      ]
+    }
+  ]
+}

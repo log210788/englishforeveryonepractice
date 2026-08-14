@@ -1,0 +1,732 @@
+{
+  "page_number": 27,
+  "unit_number": 8,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "8.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SINGULAR NOUNS IN THE PLURAL",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "pencil",
+          "options": null,
+          "correct_answer": "pencils",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "fish",
+          "options": null,
+          "correct_answer": "fish",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_2.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "brother",
+          "options": null,
+          "correct_answer": "brothers",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_3.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.15,
+            "width": 36.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "diary",
+          "options": null,
+          "correct_answer": "diaries",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_4.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 54.69,
+            "width": 14.96,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "necklace",
+          "options": null,
+          "correct_answer": "necklaces",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_5.mp3",
+          "input_blank_box": {
+            "top": 14.45,
+            "left": 9.23,
+            "width": 36.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "brush",
+          "options": null,
+          "correct_answer": "brushes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_6.mp3",
+          "input_blank_box": {
+            "top": 13.33,
+            "left": 11.24,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.33,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "watch",
+          "options": null,
+          "correct_answer": "watches",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_7.mp3",
+          "input_blank_box": {
+            "top": 13.33,
+            "left": 29.99,
+            "width": 16.22,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.33,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "box",
+          "options": null,
+          "correct_answer": "boxes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_8.mp3",
+          "input_blank_box": {
+            "top": 16.69,
+            "left": 54.69,
+            "width": 14.88,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.69,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "dictionary",
+          "options": null,
+          "correct_answer": "dictionaries",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_9.mp3",
+          "input_blank_box": {
+            "top": 15.44,
+            "left": 55.36,
+            "width": 13.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.44,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "sister",
+          "options": null,
+          "correct_answer": "sisters",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_10.mp3",
+          "input_blank_box": {
+            "top": 16.31,
+            "left": 73.66,
+            "width": 18.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "umbrella",
+          "options": null,
+          "correct_answer": "umbrellas",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_11.mp3",
+          "input_blank_box": {
+            "top": 17.37,
+            "left": 11.24,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.37,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "prompt_text": null,
+          "question": "laptop",
+          "options": null,
+          "correct_answer": "laptops",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_3_12.mp3",
+          "input_blank_box": {
+            "top": 17.37,
+            "left": 29.99,
+            "width": 17.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.37,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE WORDS, CORRECTING THE SPELLINGS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "brushs",
+          "options": null,
+          "correct_answer": "brushes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_1.mp3",
+          "input_blank_box": {
+            "top": 20.73,
+            "left": 11.24,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.73,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "boxs",
+          "options": null,
+          "correct_answer": "boxes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_2.mp3",
+          "input_blank_box": {
+            "top": 20.73,
+            "left": 29.99,
+            "width": 17.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.73,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "dictionarys",
+          "options": null,
+          "correct_answer": "dictionaries",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_3.mp3",
+          "input_blank_box": {
+            "top": 24.03,
+            "left": 11.24,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.03,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "doges",
+          "options": null,
+          "correct_answer": "dogs",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_4.mp3",
+          "input_blank_box": {
+            "top": 24.03,
+            "left": 29.99,
+            "width": 17.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.03,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "notebookses",
+          "options": null,
+          "correct_answer": "notebooks",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_5.mp3",
+          "input_blank_box": {
+            "top": 22.6,
+            "left": 52.83,
+            "width": 18.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.6,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "toothbrushs",
+          "options": null,
+          "correct_answer": "toothbrushes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_6.mp3",
+          "input_blank_box": {
+            "top": 22.6,
+            "left": 73.66,
+            "width": 18.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.6,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "bookes",
+          "options": null,
+          "correct_answer": "books",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_7.mp3",
+          "input_blank_box": {
+            "top": 27.4,
+            "left": 11.24,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.4,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "penciles",
+          "options": null,
+          "correct_answer": "pencils",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_8.mp3",
+          "input_blank_box": {
+            "top": 27.4,
+            "left": 29.99,
+            "width": 17.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.4,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "lettres",
+          "options": null,
+          "correct_answer": "letters",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_9.mp3",
+          "input_blank_box": {
+            "top": 28.89,
+            "left": 52.83,
+            "width": 18.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.89,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "newspaperes",
+          "options": null,
+          "correct_answer": "newspapers",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_10.mp3",
+          "input_blank_box": {
+            "top": 28.89,
+            "left": 73.66,
+            "width": 18.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.89,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "glasss",
+          "options": null,
+          "correct_answer": "glasses",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_11.mp3",
+          "input_blank_box": {
+            "top": 30.7,
+            "left": 11.24,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.7,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "prompt_text": null,
+          "question": "passportes",
+          "options": null,
+          "correct_answer": "passports",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_12.mp3",
+          "input_blank_box": {
+            "top": 30.7,
+            "left": 29.99,
+            "width": 17.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.7,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "prompt_text": null,
+          "question": "magazinees",
+          "options": null,
+          "correct_answer": "magazines",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_4_13.mp3",
+          "input_blank_box": {
+            "top": 34.06,
+            "left": 11.24,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE DOWN WHAT EACH PICTURE SHOWS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "3 sandwiches",
+          "question": "3 sandwiches",
+          "options": null,
+          "correct_answer": "three sandwiches",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 34.06,
+            "left": 29.99,
+            "width": 17.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "2 necklaces",
+          "question": "2 necklaces",
+          "options": null,
+          "correct_answer": "two necklaces",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 35.18,
+            "left": 52.83,
+            "width": 18.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 35.18,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "4 bags",
+          "question": "4 bags",
+          "options": null,
+          "correct_answer": "four bags",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 35.18,
+            "left": 73.66,
+            "width": 18.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 35.18,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "3 toothbrushes",
+          "question": "3 toothbrushes",
+          "options": null,
+          "correct_answer": "three toothbrushes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 37.36,
+            "left": 11.24,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.36,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "2 diaries",
+          "question": "2 diaries",
+          "options": null,
+          "correct_answer": "two diaries",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 37.36,
+            "left": 29.99,
+            "width": 17.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.36,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "2 cats",
+          "question": "2 cats",
+          "options": null,
+          "correct_answer": "two cats",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 40.72,
+            "left": 11.24,
+            "width": 12.43,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.72,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "1 apple",
+          "question": "1 apple",
+          "options": null,
+          "correct_answer": "one apple",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_8_5.mp3",
+          "input_blank_box": {
+            "top": 40.72,
+            "left": 29.99,
+            "width": 17.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.72,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

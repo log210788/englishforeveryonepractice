@@ -1,0 +1,133 @@
+{
+  "page_number": 69,
+  "exercises": [
+    {
+      "exercise_id": "21.8",
+      "exercise_type": "true_false",
+      "instruction": "READ THE EMAIL AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "There are two beaches.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 1,
+          "question": "There isn't a castle.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 2,
+          "question": "There is a park.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 3,
+          "question": "There is a supermarket.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 4,
+          "question": "There aren't any stores.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 5,
+          "question": "There is a big restaurant.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 6,
+          "question": "There are four cafés.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 7,
+          "question": "There is an airport.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        }
+      ]
+    },
+    {
+      "exercise_id": "21.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "LOOK AT THE IMAGE AND SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "__________ a library.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "__________ stores.",
+          "correct_answer": "There are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "__________ castles.",
+          "correct_answer": "There are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "__________ a church.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "__________ a hospital.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "__________ a post office.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_5.mp3"
+        }
+      ]
+    }
+  ]
+}

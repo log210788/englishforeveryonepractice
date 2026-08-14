@@ -1,0 +1,274 @@
+{
+  "page_number": 142,
+  "exercises": [
+    {
+      "exercise_id": "44.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE STATEMENTS AS QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Maria and Juan can spell English words.",
+          "correct_answer": "Can Maria and Juan spell English words?",
+          "audio_file_path": "audio/44/44_5_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.47,
+            "width": 87.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "The children can't do their math homework.",
+          "correct_answer": "Can't the children do their math homework?",
+          "audio_file_path": "audio/44/44_5_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 9.71,
+            "left": 9.9,
+            "width": 37.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 9.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I can't sing difficult jazz songs.",
+          "correct_answer": "Can't you sing difficult jazz songs?",
+          "audio_file_path": "audio/44/44_5_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 14.26,
+            "left": 10.64,
+            "width": 36.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Mark can't ride a horse.",
+          "correct_answer": "Can't Mark ride a horse?",
+          "audio_file_path": "audio/44/44_5_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.5,
+            "left": 10.12,
+            "width": 36.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Jack can climb a tree.",
+          "correct_answer": "Can Jack climb a tree?",
+          "audio_file_path": "audio/44/44_5_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.06,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "He can't carry that box. It's too heavy.",
+          "correct_answer": "Can't he carry that box?",
+          "audio_file_path": "audio/44/44_5_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.1,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Carlos can kick a football.",
+          "correct_answer": "Can Carlos kick a football?",
+          "audio_file_path": "audio/44/44_5_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.1,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Adam and Ella can dance the tango.",
+          "correct_answer": "Can Adam and Ella dance the tango?",
+          "input_blank_box": {
+            "top": 28.21,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Peter and John can't swim.",
+          "correct_answer": "Can't Peter and John swim?",
+          "input_blank_box": {
+            "top": 28.21,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "44.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE PHRASES IN THE PANEL",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Jack is a diving teacher. He can",
+          "question": "Jack is a diving teacher. He can ________.",
+          "options": [
+            "speak Russian",
+            "cook very well",
+            "ski well",
+            "tell stories",
+            "swim very well",
+            "ride a horse"
+          ],
+          "correct_answer": "swim very well",
+          "input_blank_box": {
+            "top": 34.25,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Carla lives on a farm. She can",
+          "question": "Carla lives on a farm. She can ________ and look after animals.",
+          "options": [
+            "speak Russian",
+            "cook very well",
+            "ski well",
+            "tell stories",
+            "swim very well",
+            "ride a horse"
+          ],
+          "correct_answer": "ride a horse",
+          "input_blank_box": {
+            "top": 34.25,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Bobby is good at languages. He can",
+          "question": "Bobby is good at languages. He can ________.",
+          "options": [
+            "speak Russian",
+            "cook very well",
+            "ski well",
+            "tell stories",
+            "swim very well",
+            "ride a horse"
+          ],
+          "correct_answer": "speak Russian",
+          "input_blank_box": {
+            "top": 40.29,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Nuna likes going on winter vacations. She can",
+          "question": "Nuna likes going on winter vacations. She can ________.",
+          "options": [
+            "speak Russian",
+            "cook very well",
+            "ski well",
+            "tell stories",
+            "swim very well",
+            "ride a horse"
+          ],
+          "correct_answer": "ski well",
+          "input_blank_box": {
+            "top": 40.29,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Jim is a great children's teacher. He can",
+          "question": "Jim is a great children's teacher. He can ________ well.",
+          "options": [
+            "speak Russian",
+            "cook very well",
+            "ski well",
+            "tell stories",
+            "swim very well",
+            "ride a horse"
+          ],
+          "correct_answer": "tell stories",
+          "input_blank_box": {
+            "top": 44.08,
+            "left": 7.81,
+            "width": 84.38,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

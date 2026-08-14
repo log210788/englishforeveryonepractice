@@ -1,0 +1,131 @@
+{
+  "page_number": 140,
+  "unit_number": 44,
+  "unit_title": "What you can and can't do",
+  "exercises": [
+    {
+      "exercise_id": "44.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE THREE DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I can ride a horse. / I cannot ride a horse. / I can't ride a horse.",
+          "correct_answer": "I can ride a horse."
+        },
+        {
+          "item_number": 2,
+          "question": "I can climb a tree. / I cannot climb a tree. / I can't climb a tree.",
+          "correct_answer": [
+            "I cannot climb a tree.",
+            "I can't climb a tree."
+          ]
+        },
+        {
+          "item_number": 3,
+          "question": "I can speak French. / I cannot speak French. / I can't speak French.",
+          "correct_answer": [
+            "I can speak French.",
+            "I cannot speak French."
+          ]
+        },
+        {
+          "item_number": 4,
+          "question": "I can sing. / I cannot sing. / I can't sing.",
+          "correct_answer": [
+            "I can sing.",
+            "I can't sing."
+          ]
+        },
+        {
+          "item_number": 5,
+          "question": "I can lift a box. / I cannot lift a box. / I can't lift a box.",
+          "correct_answer": [
+            "I can lift a box.",
+            "I cannot lift a box."
+          ]
+        },
+        {
+          "item_number": 6,
+          "question": "I can fly a kite. / I cannot fly a kite. / I can't fly a kite.",
+          "correct_answer": [
+            "I can fly a kite.",
+            "I can't fly a kite."
+          ]
+        },
+        {
+          "item_number": 7,
+          "question": "I can catch a fish. / I cannot catch a fish. / I can't catch a fish.",
+          "correct_answer": [
+            "I cannot catch a fish.",
+            "I can't catch a fish."
+          ]
+        },
+        {
+          "item_number": 8,
+          "question": "I can swim. / I cannot swim. / I can't swim.",
+          "correct_answer": [
+            "I can swim.",
+            "I can't swim."
+          ]
+        }
+      ]
+    },
+    {
+      "exercise_id": "44.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Kate can hitting the ball.",
+          "correct_answer": "Kate can hit the ball.",
+          "audio_file_path": "audio/44/44_2_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Paul can't to do math.",
+          "correct_answer": "Paul can't do math.",
+          "audio_file_path": "audio/44/44_2_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Helen can to spell very well.",
+          "correct_answer": "Helen can spell very well.",
+          "audio_file_path": "audio/44/44_2_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Ivan can't running very fast.",
+          "correct_answer": "Ivan can't run very fast.",
+          "audio_file_path": "audio/44/44_2_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Sara can to move the chair.",
+          "correct_answer": "Sara can move the chair.",
+          "audio_file_path": "audio/44/44_2_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Alex can't to play badminton.",
+          "correct_answer": "Alex can't play badminton.",
+          "audio_file_path": "audio/44/44_2_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "Lynn can riding a bicycle.",
+          "correct_answer": "Lynn can ride a bicycle.",
+          "audio_file_path": "audio/44/44_2_7.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

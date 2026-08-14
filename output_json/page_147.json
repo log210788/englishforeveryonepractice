@@ -1,0 +1,131 @@
+{
+  "page_number": 147,
+  "exercises": [
+    {
+      "exercise_id": "46.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE USING \"WELL\" OR \"GOOD AT\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "My aunt speaks Polish quite well.",
+          "correct_answer": "My aunt is quite good at speaking Polish.",
+          "audio_file_path": "audio/46/46_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Your brother is really good at surfing.",
+          "correct_answer": "Your brother surfs really well.",
+          "audio_file_path": "audio/46/46_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Katie is very good at painting.",
+          "correct_answer": "Katie paints very well.",
+          "audio_file_path": "audio/46/46_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Silvia sings really well.",
+          "correct_answer": "Silvia is really good at singing.",
+          "audio_file_path": "audio/46/46_3_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Martina dances very well.",
+          "correct_answer": "Martina is very good at dancing."
+        },
+        {
+          "item_number": 6,
+          "question": "Serge is quite good at cooking.",
+          "correct_answer": "Serge cooks quite well."
+        },
+        {
+          "item_number": 7,
+          "question": "Sonia plays chess really well.",
+          "correct_answer": "Sonia is really good at playing chess."
+        },
+        {
+          "item_number": 8,
+          "question": "Ricky is very good at running.",
+          "correct_answer": "Ricky runs very well."
+        },
+        {
+          "item_number": 9,
+          "question": "Peter draws quite well.",
+          "correct_answer": "Peter is quite good at drawing."
+        },
+        {
+          "item_number": 10,
+          "question": "My mom is really good at speaking Greek.",
+          "correct_answer": "My mom speaks Greek really well."
+        },
+        {
+          "item_number": 11,
+          "question": "David plays the drums very well.",
+          "correct_answer": "David is very good at playing the drums."
+        }
+      ]
+    },
+    {
+      "exercise_id": "46.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, PUTTING THE MODIFYING ADVERBS IN THE CORRECT PLACES",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Charlotte can ski well. [quite]",
+          "question": "Charlotte can ski quite well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Harry sings quietly. [really]",
+          "question": "Harry sings really quietly.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "My aunt walks slowly. [very]",
+          "question": "My aunt walks very slowly.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Elizabeth speaks Russian well. [very]",
+          "question": "Elizabeth speaks Russian very well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "My dog can jump high. [quite]",
+          "question": "My dog can jump quite high.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "William speaks Japanese badly. [really]",
+          "question": "William speaks Japanese really badly.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Philip eats noisily. [quite]",
+          "question": "Philip eats quite noisily.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_4_7.mp3"
+        }
+      ]
+    }
+  ]
+}

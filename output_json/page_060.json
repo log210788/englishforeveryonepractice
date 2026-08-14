@@ -1,0 +1,172 @@
+{
+  "page_number": 60,
+  "unit_number": 19,
+  "unit_title": "Asking questions",
+  "exercises": [
+    {
+      "exercise_id": "19.1",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE QUESTIONS TO THE CORRECT ANSWERS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "What is your name?",
+          "correct_answer": "Franco. And yours?"
+        },
+        {
+          "item_number": 2,
+          "question": "How are you?",
+          "correct_answer": "I'm fine, thanks.",
+          "audio_file_path": "audio/19/19_1_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "What is the time?",
+          "correct_answer": "It's half past seven.",
+          "audio_file_path": "audio/19/19_1_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Who is that woman?",
+          "correct_answer": "That's my wife, Vicky.",
+          "audio_file_path": "audio/19/19_1_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Where is the café?",
+          "correct_answer": "It's across from the bank."
+        },
+        {
+          "item_number": 6,
+          "question": "Why is Ben happy?",
+          "correct_answer": "It's his birthday."
+        },
+        {
+          "item_number": 7,
+          "question": "Which one is your brother?",
+          "correct_answer": "He's the boy with red hair.",
+          "audio_file_path": "audio/19/19_1_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "What time is your meeting?",
+          "correct_answer": "It's at 3 o'clock."
+        },
+        {
+          "item_number": 9,
+          "question": "When is your party?",
+          "correct_answer": "It's on Saturday."
+        },
+        {
+          "item_number": 10,
+          "question": "How old are you?",
+          "correct_answer": "I'm twenty-three.",
+          "audio_file_path": "audio/19/19_1_10.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "19.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO COMPLETE THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "__________ does the dog keep barking?",
+          "correct_answer": "Why",
+          "audio_file_path": "audio/19/19_2_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "__________ are your parents now?",
+          "correct_answer": "Where",
+          "audio_file_path": "audio/19/19_2_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "__________ is your brother?",
+          "correct_answer": "Who",
+          "audio_file_path": "audio/19/19_2_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "__________ is your name?",
+          "correct_answer": "What",
+          "audio_file_path": "audio/19/19_2_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "__________ is Carla's birthday?",
+          "correct_answer": "When",
+          "audio_file_path": "audio/19/19_2_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "__________ is your sister's house?",
+          "correct_answer": "Where",
+          "audio_file_path": "audio/19/19_2_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "__________ car is yours?",
+          "correct_answer": "Which",
+          "audio_file_path": "audio/19/19_2_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "__________ are your exams?",
+          "correct_answer": "When",
+          "audio_file_path": "audio/19/19_2_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "__________ did you park the car?",
+          "correct_answer": "Where",
+          "audio_file_path": "audio/19/19_2_9.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "__________ are you sad?",
+          "correct_answer": "Why",
+          "audio_file_path": "audio/19/19_2_10.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "__________ can I go home?",
+          "correct_answer": "When",
+          "audio_file_path": "audio/19/19_2_11.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "__________ does your brother live?",
+          "correct_answer": "Where",
+          "audio_file_path": "audio/19/19_2_12.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 13,
+          "question": "__________ is your first memory?",
+          "correct_answer": "What",
+          "audio_file_path": "audio/19/19_2_13.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "page_number": 41,
+  "unit_number": 13,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "13.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS BY PUTTING THE VERBS IN THE CORRECT FORM",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "I eat",
+          "question": "She _____________",
+          "correct_answer": "eats",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "I have",
+          "question": "He _____________",
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "I start",
+          "question": "It _____________",
+          "correct_answer": "starts",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "I leave",
+          "question": "He _____________",
+          "correct_answer": "leaves",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "I get up",
+          "question": "She _____________",
+          "correct_answer": "gets up",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "I go",
+          "question": "It _____________",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "I wake up",
+          "question": "She _____________",
+          "correct_answer": "wakes up",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "I wash",
+          "question": "He _____________",
+          "correct_answer": "washes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "I watch",
+          "question": "She _____________",
+          "correct_answer": "watches",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "I finish",
+          "question": "It _____________",
+          "correct_answer": "finishes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_3_9.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "13.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS BY PUTTING THE VERBS IN THE CORRECT FORM",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "He finishes (finish) work at 5pm.",
+          "question": "He ____________ (finish) work at 5pm.",
+          "correct_answer": "finishes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "He (get) up at 6:30am.",
+          "question": "He ____________ (get) up at 6:30am.",
+          "correct_answer": "gets",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "He (have) breakfast at 7am.",
+          "question": "He ____________ (have) breakfast at 7am.",
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "She (leave) home at 8am.",
+          "question": "She ____________ (leave) home at 8am.",
+          "correct_answer": "leaves",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "I (drive) to work.",
+          "question": "I ____________ (drive) to work.",
+          "correct_answer": "drive",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "I (have) lunch in the park.",
+          "question": "I ____________ (have) lunch in the park.",
+          "correct_answer": "have",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "I (work) eight hours every day.",
+          "question": "I ____________ (work) eight hours every day.",
+          "correct_answer": "work",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "He (go) to bed at 10:30pm.",
+          "question": "He ____________ (go) to bed at 10:30pm.",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_4_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "13.5",
+      "exercise_type": "audio_listen",
+      "instruction": "SAY THESE VERBS OUT LOUD",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "starts",
+          "correct_answer": "starts",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_5_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "goes",
+          "correct_answer": "goes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_5_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "washes",
+          "correct_answer": "washes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_5_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "wakes",
+          "correct_answer": "wakes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_5_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "gets",
+          "correct_answer": "gets",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_5_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "watches",
+          "correct_answer": "watches",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_5_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "leaves",
+          "correct_answer": "leaves",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_5_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "has",
+          "correct_answer": "has",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_5_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "finishes",
+          "correct_answer": "finishes",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/13/13_5_8.mp3"
+        }
+      ]
+    }
+  ]
+}

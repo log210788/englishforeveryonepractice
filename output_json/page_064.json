@@ -1,0 +1,147 @@
+{
+  "page_number": 64,
+  "unit_number": 20,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "20.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "AROUND TOWN WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "clock tower",
+          "correct_answer": "clock tower",
+          "audio_file_path": "audio/20/20_1_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "police station",
+          "correct_answer": "police station",
+          "audio_file_path": "audio/20/20_1_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "supermarket",
+          "correct_answer": "supermarket",
+          "audio_file_path": "audio/20/20_1_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "bridge",
+          "correct_answer": "bridge",
+          "audio_file_path": "audio/20/20_1_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "post office",
+          "correct_answer": "post office",
+          "audio_file_path": "audio/20/20_1_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "mosque",
+          "correct_answer": "mosque",
+          "audio_file_path": "audio/20/20_1_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "city",
+          "correct_answer": "city",
+          "audio_file_path": "audio/20/20_1_9.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "park",
+          "correct_answer": "park",
+          "audio_file_path": "audio/20/20_1_10.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "library",
+          "correct_answer": "library",
+          "audio_file_path": "audio/20/20_1_11.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "hospital",
+          "correct_answer": "hospital",
+          "audio_file_path": "audio/20/20_1_14.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "pharmacy",
+          "correct_answer": "pharmacy",
+          "audio_file_path": "audio/20/20_1_15.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 16,
+          "question": "bank",
+          "correct_answer": "bank",
+          "audio_file_path": "audio/20/20_1_16.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 17,
+          "question": "train station",
+          "correct_answer": "train station",
+          "audio_file_path": "audio/20/20_1_17.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 18,
+          "question": "factory",
+          "correct_answer": "factory",
+          "audio_file_path": "audio/20/20_1_18.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 21,
+          "question": "castle",
+          "correct_answer": "castle",
+          "audio_file_path": "audio/20/20_1_21.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 22,
+          "question": "bus station",
+          "correct_answer": "bus station",
+          "audio_file_path": "audio/20/20_1_22.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 23,
+          "question": "restaurant",
+          "correct_answer": "restaurant",
+          "audio_file_path": "audio/20/20_1_23.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 24,
+          "question": "office building",
+          "correct_answer": "office building",
+          "audio_file_path": "audio/20/20_1_24.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 25,
+          "question": "swimming pool",
+          "correct_answer": "swimming pool",
+          "audio_file_path": "audio/20/20_1_25.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

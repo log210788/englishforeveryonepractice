@@ -1,0 +1,335 @@
+{
+  "page_number": 38,
+  "unit_number": 12,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "12.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "DAILY ROUTINES WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "go to work",
+          "question": "Picture of a person leaving for work with a briefcase and a clock showing 8:00",
+          "correct_answer": "go to work",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_eg.mp3",
+          "input_blank_box": {
+            "top": 10.83,
+            "left": 6.55,
+            "width": 93.45,
+            "height": 3.18
+          },
+          "audio_icon_box": {
+            "top": 79.39,
+            "left": 37.43,
+            "width": 5.36,
+            "height": 4.55
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "Picture of a person paying a cashier at a grocery store",
+          "correct_answer": "buy groceries",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_1.mp3",
+          "input_blank_box": {
+            "top": 17.19,
+            "left": 9.6,
+            "width": 12.8,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.19,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Picture of a person taking a bath",
+          "correct_answer": "take a bath",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_2.mp3",
+          "input_blank_box": {
+            "top": 24.35,
+            "left": 57.07,
+            "width": 11.68,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.35,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Picture of a person eating a meal with a clock showing 12:00",
+          "correct_answer": "eat lunch",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_3.mp3",
+          "input_blank_box": {
+            "top": 25.22,
+            "left": 57.89,
+            "width": 10.04,
+            "height": 3.86
+          },
+          "audio_icon_box": {
+            "top": 25.22,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Picture of a person sitting up in bed with an alarm clock showing 7:00",
+          "correct_answer": "wake up",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_7.mp3",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 9.08,
+            "width": 13.84,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Picture of a person cooking on a stove",
+          "correct_answer": "cook dinner",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_8.mp3",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 33.78,
+            "width": 13.39,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Picture of a person brushing their hair",
+          "correct_answer": "brush hair",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_9.mp3",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 56.92,
+            "width": 13.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Picture of a person arriving at an office desk with a clock showing 9:00",
+          "correct_answer": "start work",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_10.mp3",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 80.21,
+            "width": 13.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "Picture of two people eating dinner with a candle and a clock showing 7:00",
+          "correct_answer": "eat dinner",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_14.mp3",
+          "input_blank_box": {
+            "top": 32.63,
+            "left": 9.08,
+            "width": 13.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "Picture of a student walking to a school building with a clock showing 9:00",
+          "correct_answer": "go to school",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_15.mp3",
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 10.49,
+            "width": 13.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "Picture of a person putting on shoes",
+          "correct_answer": "get dressed",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_16.mp3",
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 33.78,
+            "width": 13.39,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "Picture of a person sleeping in bed with a clock showing 11:00",
+          "correct_answer": "go to bed",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_17.mp3",
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 56.92,
+            "width": 13.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "Picture showing a sunrise over hills",
+          "correct_answer": "morning",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_21.mp3",
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 80.21,
+            "width": 13.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "Picture showing a bright sun high in the sky over hills",
+          "correct_answer": "afternoon",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_22.mp3",
+          "input_blank_box": {
+            "top": 63.26,
+            "left": 35.49,
+            "width": 8.56,
+            "height": 3.18
+          },
+          "audio_icon_box": {
+            "top": 63.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "Picture showing a sunset over hills",
+          "correct_answer": "evening",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_23.mp3",
+          "input_blank_box": {
+            "top": 64.26,
+            "left": 82.51,
+            "width": 10.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 64.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 24,
+          "question": "Picture showing a crescent moon in a dark night sky over hills",
+          "correct_answer": "night",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/12/12_1_24.mp3",
+          "input_blank_box": {
+            "top": 65.94,
+            "left": 79.39,
+            "width": 13.24,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 65.94,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

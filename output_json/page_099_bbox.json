@@ -1,0 +1,316 @@
+{
+  "page_number": 99,
+  "exercises": [
+    {
+      "exercise_id": "31.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE IN THREE DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Is there any salt?",
+          "correct_answer": [
+            "There is some salt.",
+            "There isn't any salt."
+          ],
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Is there any wine?",
+          "correct_answer": [
+            "Is there any wine?",
+            "There isn't any wine."
+          ],
+          "input_blank_box": {
+            "top": 10.83,
+            "left": 9.6,
+            "width": 81.47,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Are there any burgers?",
+          "correct_answer": [
+            "There are some burgers.",
+            "There aren't any burgers."
+          ],
+          "input_blank_box": {
+            "top": 14.32,
+            "left": 9.0,
+            "width": 81.92,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Are there any cookies?",
+          "correct_answer": [
+            "Are there any cookies?",
+            "There aren't any cookies."
+          ],
+          "input_blank_box": {
+            "top": 13.2,
+            "left": 11.38,
+            "width": 25.52,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Are there any pastries?",
+          "correct_answer": [
+            "Are there any pastries?",
+            "There are some pastries."
+          ],
+          "input_blank_box": {
+            "top": 13.2,
+            "left": 39.36,
+            "width": 25.07,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Is there any bread?",
+          "correct_answer": [
+            "There is some bread.",
+            "There isn't any bread."
+          ],
+          "input_blank_box": {
+            "top": 13.2,
+            "left": 66.96,
+            "width": 23.59,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Is there any rice?",
+          "correct_answer": [
+            "Is there any rice?",
+            "There isn't any rice."
+          ],
+          "input_blank_box": {
+            "top": 17.31,
+            "left": 11.38,
+            "width": 25.52,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Is there any butter?",
+          "correct_answer": [
+            "Is there any butter?",
+            "There is some butter."
+          ],
+          "input_blank_box": {
+            "top": 17.31,
+            "left": 39.36,
+            "width": 25.07,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Are there any pizzas?",
+          "correct_answer": [
+            "There are some pizzas.",
+            "There aren't any pizzas."
+          ],
+          "input_blank_box": {
+            "top": 17.31,
+            "left": 66.96,
+            "width": 25.0,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Is there any cheese?",
+          "correct_answer": [
+            "Is there any cheese?",
+            "There isn't any cheese."
+          ],
+          "input_blank_box": {
+            "top": 20.61,
+            "left": 11.38,
+            "width": 25.52,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "31.5",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "Steve and Kate have three bags of flour.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.61,
+            "left": 39.36,
+            "width": 25.07,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.61,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "They have three bags of sugar in their cupboard.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "input_blank_box": {
+            "top": 20.61,
+            "left": 66.96,
+            "width": 25.0,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Steve and Kate haven't got any tomatoes.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "input_blank_box": {
+            "top": 23.91,
+            "left": 11.38,
+            "width": 25.52,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "They have two blocks of cheese.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "input_blank_box": {
+            "top": 23.91,
+            "left": 39.36,
+            "width": 25.07,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Steve and Kate have got two oranges.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "input_blank_box": {
+            "top": 23.91,
+            "left": 66.96,
+            "width": 25.0,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "They haven't got any apples.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "input_blank_box": {
+            "top": 27.27,
+            "left": 11.38,
+            "width": 25.52,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Steve and Kate don't have any coffee.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "input_blank_box": {
+            "top": 27.27,
+            "left": 39.43,
+            "width": 25.0,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Kate doesn't have any chocolate.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "input_blank_box": {
+            "top": 27.27,
+            "left": 66.96,
+            "width": 25.0,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Steve and Kate don't have any onions.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "input_blank_box": {
+            "top": 30.57,
+            "left": 11.38,
+            "width": 25.52,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "They have some rice.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null,
+          "input_blank_box": {
+            "top": 30.57,
+            "left": 39.36,
+            "width": 25.07,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

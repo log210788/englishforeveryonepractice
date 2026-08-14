@@ -1,0 +1,937 @@
+{
+  "page_number": 171,
+  "exercises": [
+    {
+      "exercise_id": "37.6",
+      "exercise_type": "audio_listen",
+      "instruction": "37.6",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Does he play badminton on Fridays?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_1.mp3",
+          "input_blank_box": {
+            "top": 21.61,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 21.61,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Does Noah play golf with his grandpa?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_2.mp3",
+          "input_blank_box": {
+            "top": 26.53,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.53,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Do they play basketball with their friends?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_3.mp3",
+          "input_blank_box": {
+            "top": 34.87,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Does Georgia play baseball at school?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_4.mp3",
+          "input_blank_box": {
+            "top": 41.47,
+            "left": 36.38,
+            "width": 27.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.47,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Do we play tennis in the summer?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_5.mp3",
+          "input_blank_box": {
+            "top": 50.12,
+            "left": 66.22,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.12,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Do Tim's parents play chess in the evening?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_6.mp3",
+          "input_blank_box": {
+            "top": 51.43,
+            "left": 6.47,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.7",
+      "exercise_type": "true_false",
+      "instruction": "37.7",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "False",
+          "audio_file_path": "audio/37/37_7_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 53.92,
+            "left": 66.22,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 53.92,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "True",
+          "audio_file_path": "audio/37/37_7_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 63.01,
+            "left": 36.38,
+            "width": 27.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 63.01,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "False",
+          "audio_file_path": "audio/37/37_7_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 63.01,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 63.01,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "True",
+          "audio_file_path": "audio/37/37_7_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 72.98,
+            "left": 6.47,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 72.98,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "False",
+          "audio_file_path": "audio/37/37_7_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 74.66,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 74.66,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "True",
+          "audio_file_path": "audio/37/37_7_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 81.26,
+            "left": 66.22,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 81.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "True",
+          "audio_file_path": "audio/37/37_7_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 83.25,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 83.25,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.8",
+      "exercise_type": "audio_listen",
+      "instruction": "37.8",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "John plays badminton on Wednesday.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_1.mp3",
+          "input_blank_box": {
+            "top": 87.11,
+            "left": 36.38,
+            "width": 27.31,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 87.11,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "You go fishing with your brother.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_2.mp3",
+          "input_blank_box": {
+            "top": 87.92,
+            "left": 6.47,
+            "width": 27.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 87.92,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "My uncle plays chess with my aunt.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "We go dancing in the evening.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Sally's dad plays rugby.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Bartou goes cycling in the mountains.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Ramona plays racquet ball with her dad.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Our kids play baseball after school.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Simon and Pam go surfing in the summer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "They play basketball every Saturday.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "We go snowboarding in Austria.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_8_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.9",
+      "exercise_type": "audio_listen",
+      "instruction": "37.9",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I play baseball with my friends at school.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Anna goes skateboarding in the afternoon on Sundays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Mrs. Amir plays chess with her husband in the evening.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Max plays badminton on Tuesdays and Fridays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Peter goes fishing with his brother on Mondays and Wednesdays.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_9_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "38.1",
+      "exercise_type": "audio_listen",
+      "instruction": "38.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "play a musical instrument",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/38/38_1_playamusicalinstrument.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "39.1",
+      "exercise_type": "true_false",
+      "instruction": "39.1",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "True",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "False",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "False",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "False",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "True",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "False",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "True",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "39.2",
+      "exercise_type": "audio_listen",
+      "instruction": "39.2",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "They sometimes go to the theater.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Mike never goes running after work.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "You always go to bed early.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Jane often goes shopping on Saturday.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "We usually eat dinner at 6pm.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "39.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "39.3",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "never",
+          "audio_file_path": "audio/39/39_3_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "sometimes",
+          "audio_file_path": "audio/39/39_3_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "often",
+          "audio_file_path": "audio/39/39_3_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "usually",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "always",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "often",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "39.4",
+      "exercise_type": "audio_listen",
+      "instruction": "39.4",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Clara never plays chess with her grandfather.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Enzo always eats chocolate ice cream.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Paul sometimes goes fishing in the morning.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "My parents usually drive to work.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Gill never goes shopping with her mom.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

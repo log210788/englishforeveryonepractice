@@ -1,0 +1,335 @@
+{
+  "page_number": 106,
+  "unit_number": 33,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "33.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "CLOTHES, ACCESSORIES, AND COLORS WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "gloves",
+          "correct_answer": "gloves",
+          "audio_file_path": "audio/33/33_1_gloves.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 93.45,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 44.08,
+            "left": 18.3,
+            "width": 1.41,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "hat",
+          "correct_answer": "hat",
+          "audio_file_path": "audio/33/33_1_hat.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.62,
+            "left": 9.23,
+            "width": 13.02,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "blue",
+          "correct_answer": "blue",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 9.08,
+            "width": 13.32,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "boots",
+          "correct_answer": "boots",
+          "audio_file_path": "audio/33/33_1_boots.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 28.5,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "red",
+          "correct_answer": "red",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 46.58,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "suit",
+          "correct_answer": "suit",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 64.58,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "dress",
+          "correct_answer": "dress",
+          "audio_file_path": "audio/33/33_1_dress.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 82.59,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "belt",
+          "correct_answer": "belt",
+          "audio_file_path": "audio/33/33_1_belt.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 10.49,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "coat",
+          "correct_answer": "coat",
+          "audio_file_path": "audio/33/33_1_coat.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 28.5,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "shirt",
+          "correct_answer": "shirt",
+          "audio_file_path": "audio/33/33_1_shirt.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 46.58,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "black",
+          "correct_answer": "black",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 64.58,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "scarf",
+          "correct_answer": "scarf",
+          "audio_file_path": "audio/33/33_1_scarf.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 82.59,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "yellow",
+          "correct_answer": "yellow",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 10.49,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 18,
+          "question": "sandals",
+          "correct_answer": "sandals",
+          "audio_file_path": "audio/33/33_1_sandals.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 28.5,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 46.58,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 64.58,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 82.59,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.49,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 24,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 82.5,
+            "left": 65.85,
+            "width": 8.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 82.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 25,
+          "question": "T-shirt",
+          "correct_answer": "T-shirt",
+          "audio_file_path": "audio/33/33_1_tshirt.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 82.25,
+            "left": 83.41,
+            "width": 8.85,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 82.25,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

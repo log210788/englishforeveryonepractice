@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Lewis's Practice Book | Studio Ghibli Edition - Chapter 3</title>
+  <meta name="description" content="Interactive English practice - Talking about your things & using apostrophes. Ancient Forest Shrine setting.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="ghibli_page12.css">
+  <style>
+    :root {
+      --ghibli-bg-url: url('images/ghibli/ch3/bg.jpg');
+      --ghibli-accent-gold: #7db87a;
+      --ghibli-accent-amber: #4a8c5c;
+      --ghibli-accent-green: #2d5a27;
+    }
+    body.theme-night { --ghibli-bg-url: url('images/ghibli/ch3/night.jpg'); }
+    body.theme-sunset { --ghibli-bg-url: url('images/ghibli/ch3/sunset.jpg'); }
+    .chapter-nav-bar { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; flex-wrap: wrap; background: rgba(255,255,255,0.12); backdrop-filter: blur(8px); border-radius: 40px; margin: 0 auto 16px auto; max-width: 700px; }
+    .ch-nav-pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 20px; font-size: 0.78rem; font-weight: 700; text-decoration: none; transition: all 0.2s; border: 2px solid transparent; color: rgba(255,255,255,0.85); background: rgba(255,255,255,0.15); }
+    .ch-nav-pill:hover { background: rgba(255,255,255,0.3); color: #fff; transform: translateY(-1px); }
+    .ch-nav-pill.active { background: var(--ghibli-accent-gold); color: #fff; border-color: rgba(255,255,255,0.4); }
+    
+    /* Apostrophe exercise style */
+    .apostrophe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+    .apostrophe-card { background: var(--ghibli-card-bg); border: 1.5px solid var(--ghibli-border); border-radius: var(--radius-md); padding: 20px; }
+    .apostrophe-prompt { font-size: 1rem; font-weight: 600; color: var(--ghibli-text-main); margin-bottom: 12px; line-height: 1.5; }
+    .apostrophe-hint { font-size: 0.82rem; color: var(--ghibli-text-muted); margin-bottom: 8px; font-style: italic; }
+  </style>
+</head>
+<body class="theme-day">
+  <div class="ghibli-bg-overlay"></div>
+  <div class="ghibli-vignette"></div>
+  <div id="firefliesContainer"></div>
+
+  <div class="ghibli-container">
+    <header class="ghibli-header">
+      <a href="index.html" class="ghibli-brand" style="text-decoration: none; color: inherit;">
+        <div class="ghibli-logo-badge"><i class="fa-solid fa-torii-gate"></i></div>
+        <div class="ghibli-title-wrap">
+          <h1>Teacher Lewis's Practice Book</h1>
+          <span class="ghibli-subtitle">🌿 Studio Ghibli Interactive Edition • Chapter 3</span>
+        </div>
+      </a>
+      <div class="ghibli-header-actions">
+        <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
+        <div class="tod-group">
+          <button class="tod-btn active" data-theme="day">☀️ Day</button>
+          <button class="tod-btn" data-theme="sunset">🌅 Sunset</button>
+          <button class="tod-btn" data-theme="night">🌙 Night</button>
+        </div>
+        <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn"><i class="fa-solid fa-music"></i> Ambient: Off</button>
+        <div class="ghibli-score-badge"><i class="fa-solid fa-star"></i> <span id="ghibliScoreText">0 / 10</span></div>
+        <button class="ghibli-btn ghibli-btn-primary" id="ghibliCheckAnswersBtn"><i class="fa-solid fa-circle-check"></i> Check Answers</button>
+        <button class="ghibli-btn ghibli-btn-secondary" id="ghibliResetBtn"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+      </div>
+    </header>
+
+    <div class="chapter-nav-bar">
+      <a href="ghibli_page12.html" class="ch-nav-pill">Ch.1</a>
+      <a href="ghibli_ch2.html" class="ch-nav-pill">Ch.2</a>
+      <a href="ghibli_ch3.html" class="ch-nav-pill active">Ch.3</a>
+      <a href="ghibli_ch4.html" class="ch-nav-pill">Ch.4</a>
+      <a href="ghibli_ch5.html" class="ch-nav-pill">Ch.5</a>
+      <a href="ghibli_ch6.html" class="ch-nav-pill">Ch.6</a>
+      <a href="ghibli_ch7.html" class="ch-nav-pill">Ch.7</a>
+      <a href="ghibli_ch8.html" class="ch-nav-pill">Ch.8</a>
+      <a href="ghibli_ch9.html" class="ch-nav-pill">Ch.9</a>
+    </div>
+
+    <div class="ghibli-hero-card">
+      <div>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-torii-gate"></i> Units 4–5</span>
+        <h2 class="ghibli-hero-title">Things you have & Apostrophes</h2>
+        <p class="ghibli-hero-desc">Practice talking about possessions and using apostrophes correctly in the sacred Ancient Forest Shrine of Kodama Woods.</p>
+      </div>
+    </div>
+
+    <!-- EXERCISE 3.1: POSSESSIVE APOSTROPHES -->
+    <section class="ghibli-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">3.1</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">REWRITE USING POSSESSIVE APOSTROPHE ('S)</h3>
+          <p class="ghibli-ex-subtext">Rewrite each phrase using 's to show ownership, then listen to the audio.</p>
+        </div>
+      </div>
+
+      <div class="ghibli-char-grid">
+        <!-- Example -->
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_eg.mp3"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text">
+              <span>the dog of Maria</span>
+              <span class="ghibli-eg-badge">EXAMPLE</span>
+            </div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input correct" value="Maria's dog" readonly>
+            </div>
+          </div>
+        </div>
+
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_1.mp3"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>the book of Peter</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex31-input" id="ex31_input_1" placeholder="Rewrite with apostrophe...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex31_1"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex31_1"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_2.mp3"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>the car of my father</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex31-input" id="ex31_input_2" placeholder="Rewrite with apostrophe...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex31_2"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex31_2"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_3.mp3"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>the name of the teacher</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex31-input" id="ex31_input_3" placeholder="Rewrite with apostrophe...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex31_3"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex31_3"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/ryan.jpg" alt="Ryan" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_4.mp3"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>the house of Sarah</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex31-input" id="ex31_input_4" placeholder="Rewrite with apostrophe...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex31_4"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex31_4"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ghibli-char-card">
+          <div class="ghibli-avatar-wrap">
+            <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img">
+            <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_5.mp3"><i class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="ghibli-card-body">
+            <div class="ghibli-prompt-text"><span>the phone of my sister</span></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex31-input" id="ex31_input_5" placeholder="Rewrite with apostrophe...">
+            </div>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="ex31_5"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="ex31_5"><i class="fa-solid fa-play"></i> My Voice</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXERCISE 3.2: THINGS I HAVE - CHOOSE CORRECT WORD -->
+    <section class="ghibli-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">3.2</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">CHOOSE "HIS" OR "HER" TO COMPLETE EACH SENTENCE</h3>
+          <p class="ghibli-ex-subtext">Select the correct possessive pronoun from the chart builder below!</p>
+        </div>
+      </div>
+
+      <div class="ghibli-chart-container">
+        <div class="apostrophe-grid">
+          <!-- Item 1 -->
+          <div class="apostrophe-card">
+            <div class="apostrophe-prompt">That is Tom. ___ book is on the desk.</div>
+            <div class="apostrophe-hint">Tom is a man → use <strong>his</strong></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex32-input" id="ex32_input_1" placeholder="his or her?">
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="apostrophe-card">
+            <div class="apostrophe-prompt">That is Anna. ___ cat is very cute.</div>
+            <div class="apostrophe-hint">Anna is a woman → use <strong>her</strong></div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex32-input" id="ex32_input_2" placeholder="his or her?">
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="apostrophe-card">
+            <div class="apostrophe-prompt">This is David. ___ car is blue.</div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex32-input" id="ex32_input_3" placeholder="his or her?">
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="apostrophe-card">
+            <div class="apostrophe-prompt">This is Emma. ___ house is big.</div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex32-input" id="ex32_input_4" placeholder="his or her?">
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="apostrophe-card">
+            <div class="apostrophe-prompt">Meet Carlos. ___ sister is a teacher.</div>
+            <div class="ghibli-input-wrap">
+              <input type="text" class="ghibli-input ex32-input" id="ex32_input_5" placeholder="his or her?">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="display:flex; justify-content:center; gap:16px; margin-top:32px; padding-bottom:40px;">
+      <a href="ghibli_ch2.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Chapter 2</a>
+      <a href="ghibli_ch4.html" class="ghibli-btn ghibli-btn-primary">Chapter 4 <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Mascot Widget -->
+  <div class="ghibli-mascot-container" id="ghibliMascotWidget">
+    <div class="mascot-bubble-wrap">
+      <div class="mascot-min-bar">
+        <div class="story-chip" id="storyChip"><i class="fa-solid fa-book-bookmark"></i> <span id="storyChapterLabel">Story Ch. 2</span></div>
+        <div class="pomo-min-pill">
+          <button class="pomo-toggle-btn" id="pomoToggleBtn"><i class="fa-solid fa-play" id="pomoIcon"></i></button>
+          <span class="pomo-min-time" id="pomoMinTime">25:00</span>
+          <button class="pomo-opt-btn" id="pomoOptBtn"><i class="fa-solid fa-sliders"></i></button>
+        </div>
+      </div>
+      <div class="pomo-quick-presets hidden" id="pomoQuickPresets">
+        <button class="pomo-quick-btn active" data-mins="25">25m</button>
+        <button class="pomo-quick-btn" data-mins="15">15m</button>
+        <button class="pomo-quick-btn" data-mins="5">5m</button>
+        <button class="pomo-quick-btn demo-btn" data-mins="1">1m</button>
+      </div>
+      <div class="mascot-bubble" id="mascotBubble">
+        <div class="mascot-action-chip" id="mascotActionChip"><i class="fa-solid fa-paw"></i> Kodama meditating at the shrine!</div>
+        <div class="mascot-text" id="mascotTextContent">"Welcome to Kodama Woods Shrine! The forest spirits will help you learn possession today!"</div>
+      </div>
+    </div>
+    <div class="mascot-avatar-wrap" id="mascotAvatarWrap" title="Click Kodama to hear Teacher Lewis's story!">
+      <div class="mascot-focus-aura" id="mascotAura"></div>
+      <div class="mascot-expr-badge" id="mascotExprBadge">🌿 Forest Guardian</div>
+      <img src="images/ghibli/ch3/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+    </div>
+  </div>
+
+  <script src="ghibli_audio.js"></script>
+  <script>
+  const CH3_ANSWERS = {
+    ex31: { 1:"Peter's book", 2:"my father's car", 3:"the teacher's name", 4:"Sarah's house", 5:"my sister's phone" },
+    ex32: { 1:"his", 2:"her", 3:"his", 4:"her", 5:"his" }
+  };
+  </script>
+  <script src="ghibli_page12.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const scoreText = document.getElementById('ghibliScoreText');
+    document.getElementById('ghibliCheckAnswersBtn')?.addEventListener('click', () => {
+      let correct = 0, total = 10;
+      [1,2,3,4,5].forEach(n => {
+        const input = document.getElementById(`ex31_input_${n}`);
+        if (!input) return;
+        const user = input.value.trim().toLowerCase().replace(/['']/g,"'");
+        const exp = CH3_ANSWERS.ex31[n].toLowerCase();
+        if (user === exp) { input.classList.add('correct'); input.classList.remove('incorrect'); correct++; }
+        else if (user !== '') { input.classList.add('incorrect'); input.classList.remove('correct'); }
+      });
+      [1,2,3,4,5].forEach(n => {
+        const input = document.getElementById(`ex32_input_${n}`);
+        if (!input) return;
+        const user = input.value.trim().toLowerCase();
+        if (user === CH3_ANSWERS.ex32[n]) { input.classList.add('correct'); input.classList.remove('incorrect'); correct++; }
+        else if (user !== '') { input.classList.add('incorrect'); input.classList.remove('correct'); }
+      });
+      if (scoreText) scoreText.textContent = `${correct} / ${total}`;
+    });
+    document.getElementById('ghibliResetBtn')?.addEventListener('click', () => {
+      document.querySelectorAll('.ex31-input, .ex32-input').forEach(i => { i.value = ''; i.classList.remove('correct','incorrect'); });
+      if (scoreText) scoreText.textContent = '0 / 10';
+    });
+    // Patch mascot images
+    const origImg = document.getElementById('mascotAvatarImg');
+    if (origImg) origImg.src = 'images/ghibli/ch3/mascot.jpg';
+  });
+  </script>
+</body>
+</html>

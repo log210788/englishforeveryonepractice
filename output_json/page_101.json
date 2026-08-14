@@ -1,0 +1,115 @@
+{
+  "page_number": 101,
+  "exercises": [
+    {
+      "exercise_id": "31.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FIND NINE WORDS FOR CONTAINERS IN THE GRID",
+      "items": []
+    },
+    {
+      "exercise_id": "31.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"MANY\" OR \"MUCH\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "How __________ meat is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "How __________ cartons of milk are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "How __________ bowls of rice are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "How __________ juice is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "How __________ bread is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "How __________ cups of tea are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "How __________ bars of chocolate are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "How __________ coffee is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "How __________ jars of jam are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "How __________ milk is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "How __________ bags of flour are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "How __________ pizza is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 13,
+          "question": "How __________ eggs are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "31.10",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE SIX CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Use the chart to create sentences.",
+          "question": "How many/much [noun] are/is there?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_10.mp3"
+        }
+      ]
+    }
+  ]
+}

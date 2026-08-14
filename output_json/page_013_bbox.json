@@ -1,0 +1,508 @@
+{
+  "page_number": 13,
+  "unit_number": 1,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "1.4",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND SPELL OUT THE NAMES YOU HEAR",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "R-A-C-H-E-L H-A-R-P-E-R",
+          "options": null,
+          "correct_answer": [
+            "R-A-C-H-E-L",
+            "H-A-R-P-E-R"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_eg.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 54.42,
+            "left": 58.26,
+            "width": 4.24,
+            "height": 4.92
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_1.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.9,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 68.93,
+            "left": 59.08,
+            "width": 2.9,
+            "height": 3.05
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_2.mp3",
+          "input_blank_box": {
+            "top": 14.45,
+            "left": 9.6,
+            "width": 37.5,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 82.75,
+            "left": 58.85,
+            "width": 3.65,
+            "height": 4.11
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_3.mp3",
+          "input_blank_box": {
+            "top": 13.57,
+            "left": 9.6,
+            "width": 37.65,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 84.5,
+            "left": 15.4,
+            "width": 3.57,
+            "height": 3.36
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_4.mp3",
+          "input_blank_box": {
+            "top": 13.89,
+            "left": 53.65,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 87.3,
+            "left": 16.37,
+            "width": 3.05,
+            "height": 2.3
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_5.mp3",
+          "input_blank_box": {
+            "top": 17.43,
+            "left": 10.42,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_6.mp3",
+          "input_blank_box": {
+            "top": 17.31,
+            "left": 53.65,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_7.mp3",
+          "input_blank_box": {
+            "top": 20.8,
+            "left": 10.42,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.8,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_8.mp3",
+          "input_blank_box": {
+            "top": 20.67,
+            "left": 53.65,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_9.mp3",
+          "input_blank_box": {
+            "top": 24.22,
+            "left": 10.42,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.22,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_10.mp3",
+          "input_blank_box": {
+            "top": 24.03,
+            "left": 53.65,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.03,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_11.mp3",
+          "input_blank_box": {
+            "top": 27.58,
+            "left": 10.42,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_12.mp3",
+          "input_blank_box": {
+            "top": 27.52,
+            "left": 53.65,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.52,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_13.mp3",
+          "input_blank_box": {
+            "top": 31.01,
+            "left": 10.42,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.01,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_14.mp3",
+          "input_blank_box": {
+            "top": 30.95,
+            "left": 53.65,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.95,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "prompt_text": null,
+          "question": "",
+          "options": null,
+          "correct_answer": null,
+          "audio_icon_present": true,
+          "audio_track_ref": "1.4",
+          "audio_file_path": "audio/1/1_4_15.mp3",
+          "input_blank_box": {
+            "top": 34.37,
+            "left": 10.42,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.37,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "1.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SPELL OUT EACH PERSON'S NAME, THEN SAY THE SENTENCES OUT LOUD",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "I'm Marina,",
+          "question": "M-A-R-I-N-A.",
+          "options": null,
+          "correct_answer": "M-A-R-I-N-A.",
+          "audio_icon_present": true,
+          "audio_track_ref": "1.5",
+          "audio_file_path": "audio/1/1_5_eg.mp3",
+          "input_blank_box": {
+            "top": 34.31,
+            "left": 53.65,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "My name is Terry,",
+          "question": "",
+          "options": null,
+          "correct_answer": "T-E-R-R-Y.",
+          "audio_icon_present": true,
+          "audio_track_ref": "1.5",
+          "audio_file_path": "audio/1/1_5_1.mp3",
+          "input_blank_box": {
+            "top": 37.8,
+            "left": 10.42,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.8,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "My last name is Singh,",
+          "question": "",
+          "options": null,
+          "correct_answer": "S-I-N-G-H.",
+          "audio_icon_present": true,
+          "audio_track_ref": "1.5",
+          "audio_file_path": "audio/1/1_5_2.mp3",
+          "input_blank_box": {
+            "top": 37.73,
+            "left": 53.65,
+            "width": 38.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.73,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "I'm Mario,",
+          "question": "",
+          "options": null,
+          "correct_answer": "M-A-R-I-O.",
+          "audio_icon_present": true,
+          "audio_track_ref": "1.5",
+          "audio_file_path": "audio/1/1_5_3.mp3",
+          "input_blank_box": {
+            "top": 41.66,
+            "left": 7.89,
+            "width": 84.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.66,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "My name is Yasmin Khan,",
+          "question": "",
+          "options": null,
+          "correct_answer": "Y-A-S-M-I-N K-H-A-N.",
+          "audio_icon_present": true,
+          "audio_track_ref": "1.5",
+          "audio_file_path": "audio/1/1_5_4.mp3",
+          "input_blank_box": {
+            "top": 43.9,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "I am Jacob,",
+          "question": "",
+          "options": null,
+          "correct_answer": "J-A-C-O-B.",
+          "audio_icon_present": true,
+          "audio_track_ref": "1.5",
+          "audio_file_path": "audio/1/1_5_5.mp3",
+          "input_blank_box": {
+            "top": 51.25,
+            "left": 9.97,
+            "width": 37.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.25,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

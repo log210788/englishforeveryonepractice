@@ -1,0 +1,325 @@
+{
+  "page_number": 29,
+  "unit_number": 8,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "8.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS USING \"THIS\" AND \"THESE\"",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "________ are my pencils.",
+          "options": null,
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_eg.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "________ are my books.",
+          "options": null,
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_1.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 36.53,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "________ is your dog.",
+          "options": null,
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_2.mp3",
+          "input_blank_box": {
+            "top": 11.89,
+            "left": 11.16,
+            "width": 30.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 11.89,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "________ are her bags.",
+          "options": null,
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_3.mp3",
+          "input_blank_box": {
+            "top": 12.7,
+            "left": 55.73,
+            "width": 30.95,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 12.7,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "________ are their boxes.",
+          "options": null,
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_4.mp3",
+          "input_blank_box": {
+            "top": 14.26,
+            "left": 13.99,
+            "width": 14.21,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "________ is my toothbrush.",
+          "options": null,
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_5.mp3",
+          "input_blank_box": {
+            "top": 14.88,
+            "left": 57.51,
+            "width": 19.57,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "________ is his diary.",
+          "options": null,
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_6.mp3",
+          "input_blank_box": {
+            "top": 16.06,
+            "left": 9.75,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "________ is your apple.",
+          "options": null,
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_7.mp3",
+          "input_blank_box": {
+            "top": 15.26,
+            "left": 10.79,
+            "width": 31.1,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "________ are my apples.",
+          "options": null,
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_8.mp3",
+          "input_blank_box": {
+            "top": 16.06,
+            "left": 55.51,
+            "width": 31.03,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "________ are your glasses.",
+          "options": null,
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_9.mp3",
+          "input_blank_box": {
+            "top": 17.5,
+            "left": 12.5,
+            "width": 31.03,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "________ are Kevin's keys.",
+          "options": null,
+          "correct_answer": "These",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_10.mp3",
+          "input_blank_box": {
+            "top": 17.62,
+            "left": 55.8,
+            "width": 30.8,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.62,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "________ is my dad's car.",
+          "options": null,
+          "correct_answer": "This",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/8/8_9_11.mp3",
+          "input_blank_box": {
+            "top": 19.68,
+            "left": 13.99,
+            "width": 17.41,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "8.10",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE THE DETERMINERS AND PRONOUNS FROM THE EMAIL IN THE CORRECT GROUPS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "To: Samantha\nSubject: A new pet\n\nHi Samantha,\n\nHow are you? Thank you for your email. I have some big news: I have a new dog. His name is Rex and he is very big. I take him for a walk in the evening with my girlfriend Jane. Jane has a dog, too, but hers is very small. His name is Fido. Jane's dog likes mine!\n\nWe go to the park with our dogs every day. It's fun.\n\nLet's meet soon,\nTim",
+          "question": "DETERMINERS",
+          "options": null,
+          "correct_answer": [
+            "your",
+            "His",
+            "my",
+            "our"
+          ],
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null,
+          "input_blank_box": {
+            "top": 19.8,
+            "left": 57.51,
+            "width": 17.71,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "PRONOUNS",
+          "options": null,
+          "correct_answer": [
+            "hers",
+            "mine"
+          ],
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null,
+          "input_blank_box": {
+            "top": 20.86,
+            "left": 12.35,
+            "width": 31.4,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

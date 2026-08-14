@@ -1,0 +1,190 @@
+{
+  "page_number": 99,
+  "exercises": [
+    {
+      "exercise_id": "31.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE IN THREE DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Is there any salt?",
+          "correct_answer": [
+            "There is some salt.",
+            "There isn't any salt."
+          ]
+        },
+        {
+          "item_number": 2,
+          "question": "Is there any wine?",
+          "correct_answer": [
+            "Is there any wine?",
+            "There isn't any wine."
+          ]
+        },
+        {
+          "item_number": 3,
+          "question": "Are there any burgers?",
+          "correct_answer": [
+            "There are some burgers.",
+            "There aren't any burgers."
+          ]
+        },
+        {
+          "item_number": 4,
+          "question": "Are there any cookies?",
+          "correct_answer": [
+            "Are there any cookies?",
+            "There aren't any cookies."
+          ]
+        },
+        {
+          "item_number": 5,
+          "question": "Are there any pastries?",
+          "correct_answer": [
+            "Are there any pastries?",
+            "There are some pastries."
+          ]
+        },
+        {
+          "item_number": 6,
+          "question": "Is there any bread?",
+          "correct_answer": [
+            "There is some bread.",
+            "There isn't any bread."
+          ]
+        },
+        {
+          "item_number": 7,
+          "question": "Is there any rice?",
+          "correct_answer": [
+            "Is there any rice?",
+            "There isn't any rice."
+          ]
+        },
+        {
+          "item_number": 8,
+          "question": "Is there any butter?",
+          "correct_answer": [
+            "Is there any butter?",
+            "There is some butter."
+          ]
+        },
+        {
+          "item_number": 9,
+          "question": "Are there any pizzas?",
+          "correct_answer": [
+            "There are some pizzas.",
+            "There aren't any pizzas."
+          ]
+        },
+        {
+          "item_number": 10,
+          "question": "Is there any cheese?",
+          "correct_answer": [
+            "Is there any cheese?",
+            "There isn't any cheese."
+          ]
+        }
+      ]
+    },
+    {
+      "exercise_id": "31.5",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "Steve and Kate have three bags of flour.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 1,
+          "question": "They have three bags of sugar in their cupboard.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null
+        },
+        {
+          "item_number": 2,
+          "question": "Steve and Kate haven't got any tomatoes.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null
+        },
+        {
+          "item_number": 3,
+          "question": "They have two blocks of cheese.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null
+        },
+        {
+          "item_number": 4,
+          "question": "Steve and Kate have got two oranges.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null
+        },
+        {
+          "item_number": 5,
+          "question": "They haven't got any apples.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null
+        },
+        {
+          "item_number": 6,
+          "question": "Steve and Kate don't have any coffee.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null
+        },
+        {
+          "item_number": 7,
+          "question": "Kate doesn't have any chocolate.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null
+        },
+        {
+          "item_number": 8,
+          "question": "Steve and Kate don't have any onions.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null
+        },
+        {
+          "item_number": 9,
+          "question": "They have some rice.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": null
+        }
+      ]
+    }
+  ]
+}

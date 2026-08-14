@@ -1,0 +1,244 @@
+{
+  "page_number": 138,
+  "unit_number": 43,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "43.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "ABILITIES WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "talk",
+          "audio_file_path": "audio/43/43_1_talk.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 93.45,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 10.77,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "shout",
+          "audio_file_path": "audio/43/43_1_shout.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.19,
+            "left": 8.85,
+            "width": 15.25,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.19,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "throw",
+          "audio_file_path": "audio/43/43_1_throw.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.32,
+            "left": 9.08,
+            "width": 14.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "walk",
+          "audio_file_path": "audio/43/43_1_walk.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.32,
+            "left": 33.33,
+            "width": 14.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "heal",
+          "input_blank_box": {
+            "top": 31.32,
+            "left": 56.25,
+            "width": 14.36,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "kick",
+          "audio_file_path": "audio/43/43_1_kick.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 31.32,
+            "left": 79.17,
+            "width": 14.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "build",
+          "input_blank_box": {
+            "top": 33.06,
+            "left": 9.0,
+            "width": 14.96,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "think",
+          "audio_file_path": "audio/43/43_1_think.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 51.18,
+            "left": 10.49,
+            "width": 14.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.18,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "see",
+          "audio_file_path": "audio/43/43_1_see.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 51.18,
+            "left": 33.33,
+            "width": 14.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.18,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "write",
+          "input_blank_box": {
+            "top": 51.18,
+            "left": 56.25,
+            "width": 14.36,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "ride",
+          "audio_file_path": "audio/43/43_1_ride.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 51.18,
+            "left": 79.17,
+            "width": 14.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 51.18,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "stand",
+          "input_blank_box": {
+            "top": 60.96,
+            "left": 57.37,
+            "width": 9.9,
+            "height": 4.23
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "solve",
+          "input_blank_box": {
+            "top": 71.05,
+            "left": 10.49,
+            "width": 14.36,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "jump",
+          "audio_file_path": "audio/43/43_1_jump.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 71.05,
+            "left": 33.33,
+            "width": 14.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 71.05,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 24,
+          "question": "climb",
+          "audio_file_path": "audio/43/43_1_climb.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 71.05,
+            "left": 56.25,
+            "width": 14.36,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 71.05,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

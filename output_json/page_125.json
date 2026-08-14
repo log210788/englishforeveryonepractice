@@ -1,0 +1,153 @@
+{
+  "page_number": 125,
+  "unit_number": 39,
+  "exercises": [
+    {
+      "exercise_id": "39.3",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "How often does Chris get up early?",
+          "options": [
+            "never",
+            "sometimes",
+            "often"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "How often does Shelley go swimming?",
+          "options": [
+            "never",
+            "sometimes",
+            "usually"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "How often does Flo have tea in the morning?",
+          "options": [
+            "sometimes",
+            "often",
+            "always"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "How often does Sylvester go to bed at 10pm?",
+          "options": [
+            "often",
+            "usually",
+            "always"
+          ],
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "How often does Dominic play soccer?",
+          "options": [
+            "never",
+            "usually",
+            "always"
+          ],
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "How often does David read a newspaper?",
+          "options": [
+            "sometimes",
+            "often",
+            "always"
+          ],
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "39.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, USING THE ADVERBS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Clara plays chess with her grandfather. [never]",
+          "correct_answer": "Clara never plays chess with her grandfather.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Enzo eats chocolate ice cream. [always]",
+          "correct_answer": "Enzo always eats chocolate ice cream.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Paul goes fishing in the morning. [sometimes]",
+          "correct_answer": "Paul sometimes goes fishing in the morning.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "My parents drive to work. [usually]",
+          "correct_answer": "My parents usually drive to work.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Gill goes shopping with her mom. [never]",
+          "correct_answer": "Gill never goes shopping with her mom.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "You go to the gym in the town. [sometimes]",
+          "correct_answer": "You sometimes go to the gym in the town.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Shelley watches TV in the evening. [usually]",
+          "correct_answer": "Shelley usually watches TV in the evening.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "My dog sleeps under the table. [always]",
+          "correct_answer": "My dog always sleeps under the table.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "We play baseball in the summer. [sometimes]",
+          "correct_answer": "We sometimes play baseball in the summer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "Tim rides his horse on the weekend. [usually]",
+          "correct_answer": "Tim usually rides his horse on the weekend.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/39/39_4_10.mp3"
+        }
+      ]
+    }
+  ]
+}

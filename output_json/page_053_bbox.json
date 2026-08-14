@@ -1,0 +1,172 @@
+{
+  "page_number": 53,
+  "exercises": [
+    {
+      "exercise_id": "16.7",
+      "exercise_type": "multiple_choice",
+      "instruction": "READ THE ARTICLE AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Who plays a sport on Thursdays?",
+          "options": [
+            "Sam",
+            "Carla",
+            "Greg"
+          ],
+          "correct_answer": "Carla",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Who works in the evenings?",
+          "options": [
+            "Sam",
+            "Carla",
+            "Greg"
+          ],
+          "correct_answer": "Sam",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.75,
+            "width": 29.84,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Who doesn't have lunch?",
+          "options": [
+            "Sam",
+            "Carla",
+            "Greg"
+          ],
+          "correct_answer": "Greg",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 16.13,
+            "left": 9.75,
+            "width": 29.69,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Who works in an office?",
+          "options": [
+            "Sam",
+            "Carla",
+            "Greg"
+          ],
+          "correct_answer": "Carla",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 68.37,
+            "left": 7.81,
+            "width": 84.38,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Who doesn't work on Mondays?",
+          "options": [
+            "Sam",
+            "Carla",
+            "Greg"
+          ],
+          "correct_answer": "Sam",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 70.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Who starts work at 5am?",
+          "options": [
+            "Sam",
+            "Carla",
+            "Greg"
+          ],
+          "correct_answer": "Greg",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 77.96,
+            "left": 9.9,
+            "width": 14.81,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Who plays basketball on Mondays?",
+          "options": [
+            "Sam",
+            "Carla",
+            "Greg"
+          ],
+          "correct_answer": "Sam",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 77.9,
+            "left": 72.84,
+            "width": 18.82,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Who plays soccer?",
+          "options": [
+            "Sam",
+            "Carla",
+            "Greg"
+          ],
+          "correct_answer": "Carla",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 80.07,
+            "left": 52.31,
+            "width": 10.42,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "16.8",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE NINE CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create nine correct sentences using the chart.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 83.81,
+            "left": 64.43,
+            "width": 8.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.89,
+            "left": 15.03,
+            "width": 1.79,
+            "height": 1.49
+          }
+        }
+      ]
+    }
+  ]
+}

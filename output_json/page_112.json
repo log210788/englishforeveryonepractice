@@ -1,0 +1,104 @@
+{
+  "page_number": 112,
+  "unit_number": 35,
+  "unit_title": "Describing things",
+  "exercises": [
+    {
+      "exercise_id": "35.1",
+      "exercise_type": "true_false",
+      "instruction": "READ THE BLOG AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "Jane has some red cotton trousers.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 1,
+          "question": "Jane has a horrible blue sweatshirt.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 2,
+          "question": "She wants a red sweatshirt.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 3,
+          "question": "She has some yellow sandals.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 4,
+          "question": "Jane wants some heels.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 5,
+          "question": "She has a brown leather jacket from Greece.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 6,
+          "question": "She wants some leather boots.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 7,
+          "question": "She doesn't have many winter hats.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 8,
+          "question": "She wants to buy a yellow hat.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 9,
+          "question": "Jane wants to go to Italy this summer.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        }
+      ]
+    }
+  ]
+}

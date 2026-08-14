@@ -1,0 +1,145 @@
+{
+  "page_number": 96,
+  "unit_number": 30,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "30.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FOOD AND DRINK WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "burger",
+          "correct_answer": "burger",
+          "audio_file_path": "audio/30/30_1_burger.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "pasta",
+          "correct_answer": "pasta",
+          "audio_file_path": "audio/30/30_1_pasta.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "juice",
+          "correct_answer": "juice",
+          "audio_file_path": "audio/30/30_1_juice.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "bread",
+          "correct_answer": "bread",
+          "audio_file_path": "audio/30/30_1_bread.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "drink",
+          "correct_answer": "drink"
+        },
+        {
+          "item_number": 9,
+          "question": "banana",
+          "correct_answer": "banana",
+          "audio_file_path": "audio/30/30_1_banana.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "seafood",
+          "correct_answer": "seafood",
+          "audio_file_path": "audio/30/30_1_seafood.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "milk",
+          "correct_answer": "milk",
+          "audio_file_path": "audio/30/30_1_milk.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "strawberry",
+          "correct_answer": "strawberry",
+          "audio_file_path": "audio/30/30_1_strawberry.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 16,
+          "question": "cereal",
+          "correct_answer": "cereal",
+          "audio_file_path": "audio/30/30_1_cereal.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 17,
+          "question": "potatoes",
+          "correct_answer": "potatoes",
+          "audio_file_path": "audio/30/30_1_potatoes.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 18,
+          "question": "sugar",
+          "correct_answer": "sugar",
+          "audio_file_path": "audio/30/30_1_sugar.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 19,
+          "question": "butter",
+          "correct_answer": "butter",
+          "audio_file_path": "audio/30/30_1_butter.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 20,
+          "question": "salad",
+          "correct_answer": "salad",
+          "audio_file_path": "audio/30/30_1_salad.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 24,
+          "question": "vegetables",
+          "correct_answer": "vegetables",
+          "audio_file_path": "audio/30/30_1_vegetables.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 25,
+          "question": "cake",
+          "correct_answer": "cake",
+          "audio_file_path": "audio/30/30_1_cake.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 26,
+          "question": "water",
+          "correct_answer": "water",
+          "audio_file_path": "audio/30/30_1_water.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 27,
+          "question": "fruit",
+          "correct_answer": "fruit",
+          "audio_file_path": "audio/30/30_1_fruit.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 28,
+          "question": "rice",
+          "correct_answer": "rice",
+          "audio_file_path": "audio/30/30_1_rice.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

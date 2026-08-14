@@ -1,0 +1,351 @@
+{
+  "page_number": 23,
+  "unit_number": 12,
+  "unit_title": "ENTERTAINMENT",
+  "exercises": [
+    {
+      "exercise_id": "6.3",
+      "exercise_type": "true_false",
+      "instruction": "READ THE ARTICLE AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Sam lives with seven people. - True",
+          "question": "Esme is Sam's grandmother.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3",
+          "input_blank_box": {
+            "top": 3.05,
+            "left": 6.55,
+            "width": 45.16,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 7.47,
+            "left": 49.48,
+            "width": 3.42,
+            "height": 3.8
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Sam's mother is called Helen.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 71.06,
+            "width": 22.47,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 7.78,
+            "left": 60.42,
+            "width": 3.27,
+            "height": 3.8
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Sam's sisters go to university.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3",
+          "input_blank_box": {
+            "top": 5.17,
+            "left": 47.92,
+            "width": 48.59,
+            "height": 3.49
+          },
+          "audio_icon_box": {
+            "top": 8.03,
+            "left": 71.73,
+            "width": 1.49,
+            "height": 1.0
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "There are two animals in the family's home.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 31.92,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 8.22,
+            "left": 75.6,
+            "width": 4.32,
+            "height": 3.67
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "Ted's snake is called Bouncer.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_48_6_3.mp3",
+          "input_blank_box": {
+            "top": 16.13,
+            "left": 9.75,
+            "width": 32.66,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 8.34,
+            "left": 80.06,
+            "width": 4.32,
+            "height": 3.99
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "6.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "This is Rogers' house. -> This is Roger's house.",
+          "question": "That's my grandparent's car.",
+          "options": null,
+          "correct_answer": "That's my grandparents' car.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_4_1.mp3",
+          "input_blank_box": {
+            "top": 41.66,
+            "left": 46.58,
+            "width": 47.77,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.71,
+            "left": 62.13,
+            "width": 1.49,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "These are Pete and Omars' cats.",
+          "options": null,
+          "correct_answer": "These are Pete and Omar's cats.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_4_2.mp3",
+          "input_blank_box": {
+            "top": 45.52,
+            "left": 7.74,
+            "width": 73.07,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.5,
+            "left": 49.18,
+            "width": 2.01,
+            "height": 1.93
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "I am Sallys' granddaughter.",
+          "options": null,
+          "correct_answer": "I am Sally's granddaughter.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_4_3.mp3",
+          "input_blank_box": {
+            "top": 47.82,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.27,
+            "left": 84.6,
+            "width": 1.79,
+            "height": 1.37
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Where is your parent's house?",
+          "options": null,
+          "correct_answer": "Where is your parents' house?",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_4_4.mp3",
+          "input_blank_box": {
+            "top": 47.82,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.74,
+            "left": 74.33,
+            "width": 1.56,
+            "height": 1.56
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "Samantha is Barrys' new wife.",
+          "options": null,
+          "correct_answer": "Samantha is Barry's new wife.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_4_5.mp3",
+          "input_blank_box": {
+            "top": 55.04,
+            "left": 10.19,
+            "width": 35.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 36.99,
+            "left": 86.68,
+            "width": 3.72,
+            "height": 2.43
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "6.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Sally is Fred's (Fred) sister.",
+          "question": "Sooty is ________ (my brothers) cat.",
+          "options": null,
+          "correct_answer": "my brothers'",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_5_1.mp3",
+          "input_blank_box": {
+            "top": 55.17,
+            "left": 54.61,
+            "width": 35.71,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 38.61,
+            "left": 71.06,
+            "width": 1.56,
+            "height": 1.31
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "They are ________ (Tammy) parents.",
+          "options": null,
+          "correct_answer": "Tammy's",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_5_2.mp3",
+          "input_blank_box": {
+            "top": 56.04,
+            "left": 55.8,
+            "width": 33.48,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 55.35,
+            "left": 40.62,
+            "width": 4.02,
+            "height": 3.8
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "This is our ________ (children) snake.",
+          "options": null,
+          "correct_answer": "children's",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_5_3.mp3",
+          "input_blank_box": {
+            "top": 59.59,
+            "left": 10.64,
+            "width": 35.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 68.68,
+            "left": 25.97,
+            "width": 1.26,
+            "height": 1.12
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "My ________ (parents) house is small.",
+          "options": null,
+          "correct_answer": "parents'",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/6/6_5_4.mp3",
+          "input_blank_box": {
+            "top": 58.28,
+            "left": 61.46,
+            "width": 15.33,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 69.18,
+            "left": 39.14,
+            "width": 1.79,
+            "height": 1.25
+          }
+        }
+      ]
+    }
+  ]
+}

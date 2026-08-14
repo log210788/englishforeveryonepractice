@@ -1,0 +1,119 @@
+{
+  "page_number": 116,
+  "unit_number": 36,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "36.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SPORTS WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "roller-skating",
+          "correct_answer": "roller-skating",
+          "audio_file_path": "audio/36/36_1_rollerskating.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "rugby",
+          "correct_answer": "rugby",
+          "audio_file_path": "audio/36/36_1_rugby.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "golf",
+          "correct_answer": "golf",
+          "audio_file_path": "audio/36/36_1_golf.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "snowboarding",
+          "correct_answer": "snowboarding",
+          "audio_file_path": "audio/36/36_1_snowboarding.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "cycling",
+          "correct_answer": "cycling",
+          "audio_file_path": "audio/36/36_1_cycling.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "badminton",
+          "correct_answer": "badminton",
+          "audio_file_path": "audio/36/36_1_badminton.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "ice hockey",
+          "correct_answer": "ice hockey",
+          "audio_file_path": "audio/36/36_1_icehockey.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "baseball",
+          "correct_answer": "baseball",
+          "audio_file_path": "audio/36/36_1_baseball.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "skateboarding",
+          "correct_answer": "skateboarding",
+          "audio_file_path": "audio/36/36_1_skateboarding.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "swimming",
+          "correct_answer": "swimming",
+          "audio_file_path": "audio/36/36_1_swimming.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "running",
+          "correct_answer": "running",
+          "audio_file_path": "audio/36/36_1_running.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "basketball",
+          "correct_answer": "basketball",
+          "audio_file_path": "audio/36/36_1_basketball.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 13,
+          "question": "tennis",
+          "correct_answer": "tennis",
+          "audio_file_path": "audio/36/36_1_tennis.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "skiing",
+          "correct_answer": "skiing",
+          "audio_file_path": "audio/36/36_1_skiing.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "horse riding",
+          "correct_answer": "horse riding",
+          "audio_file_path": "audio/36/36_1_horseriding.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

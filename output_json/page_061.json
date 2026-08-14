@@ -1,0 +1,136 @@
+{
+  "page_number": 61,
+  "exercises": [
+    {
+      "exercise_id": "19.3",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Greg is talking about the various members of his family.",
+          "question": "What is Greg's grandmother's name?",
+          "options": [
+            "Shelley",
+            "Ellie",
+            "Emma"
+          ],
+          "correct_answer": "Ellie",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_3__eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "How old is Greg's grandmother?",
+          "options": [
+            "84 years old",
+            "82 years old",
+            "83 years old"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Where does she live?",
+          "options": [
+            "Near the church",
+            "Near the cathedral",
+            "Near the supermarket"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Where does Greg's mother work?",
+          "options": [
+            "At a school",
+            "At a museum",
+            "At a theater"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "What does Greg's mother do?",
+          "options": [
+            "She's a cleaner",
+            "She's a receptionist",
+            "She's a teacher"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "How old is Samantha?",
+          "options": [
+            "21",
+            "19",
+            "23"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_3_5.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "19.4",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "wake do you up? When",
+          "correct_answer": "When do you wake up?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_4_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "you shirt do Which prefer?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "son does go your to college? Where",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "get How do you to work?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "go you Where swimming? do",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "bed? you What do time go to",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "start does When work? Jane",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "for do What you eat breakfast?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_4_7.mp3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "page_number": 130,
+  "exercises": [
+    {
+      "exercise_id": "40.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "READ THE BLOG AND ANSWER THE QUESTIONS IN FULL SENTENCES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "What does she like doing in her free time?",
+          "correct_answer": "She likes jogging and going to the gym with her friends."
+        },
+        {
+          "item_number": 2,
+          "question": "What is her favorite food?",
+          "correct_answer": "Her favorite food is Italian food."
+        },
+        {
+          "item_number": 3,
+          "question": "What does Jane not like cooking?",
+          "correct_answer": "She does not like cooking meat."
+        },
+        {
+          "item_number": 4,
+          "question": "What does she do on the weekend?",
+          "correct_answer": "She loves cooking for her friends and family."
+        },
+        {
+          "item_number": 5,
+          "question": "What food does she not like?",
+          "correct_answer": "She does not like fast food."
+        },
+        {
+          "item_number": 6,
+          "question": "What does Jane hate?",
+          "correct_answer": "She hates candy."
+        }
+      ]
+    },
+    {
+      "exercise_id": "40.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS WITH THE CORRECT FORMS OF THE WORDS IN BRACKETS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I __________ (hate) cities, but I __________ (love) the country.",
+          "correct_answer": [
+            "hate",
+            "love"
+          ],
+          "audio_file_path": "audio/40/40_6_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Archie __________ (like) ice cream, and he __________ (love) pizza.",
+          "correct_answer": [
+            "likes",
+            "loves"
+          ],
+          "audio_file_path": "audio/40/40_6_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "He __________ (love) meat, but he __________ (hate) fish.",
+          "correct_answer": [
+            "loves",
+            "hates"
+          ],
+          "audio_file_path": "audio/40/40_6_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Francis __________ (not like) coffee, but he __________ (like) tea.",
+          "correct_answer": [
+            "does not like",
+            "likes"
+          ],
+          "audio_file_path": "audio/40/40_6_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "We __________ (hate) Mondays, but we __________ (love) Fridays.",
+          "correct_answer": [
+            "hate",
+            "love"
+          ],
+          "audio_file_path": "audio/40/40_6_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "My dad __________ (dislike) classical music, but he __________ (love) rock.",
+          "correct_answer": [
+            "dislikes",
+            "loves"
+          ],
+          "audio_file_path": "audio/40/40_6_6.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

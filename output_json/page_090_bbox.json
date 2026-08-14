@@ -1,0 +1,344 @@
+{
+  "page_number": 90,
+  "exercises": [
+    {
+      "exercise_id": "28.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE STATEMENTS USING CONTRACTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "We do not have a computer at home.",
+          "correct_answer": "We don't have a computer at home.",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.47,
+            "width": 87.05,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "My city does not have a castle.",
+          "correct_answer": "My city doesn't have a castle.",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 37.2,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Rob's house does not have a garage.",
+          "correct_answer": "Rob's house doesn't have a garage.",
+          "input_blank_box": {
+            "top": 16.75,
+            "left": 9.97,
+            "width": 36.83,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "You do not have any sisters.",
+          "correct_answer": "You don't have any sisters.",
+          "input_blank_box": {
+            "top": 15.5,
+            "left": 10.64,
+            "width": 36.53,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "The village does not have any stores.",
+          "correct_answer": "The village doesn't have any stores.",
+          "input_blank_box": {
+            "top": 16.44,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE STATEMENTS WITHOUT CONTRACTONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "You've got a beautiful necklace.",
+          "correct_answer": "You have got a beautiful necklace.",
+          "audio_file_path": "audio/28/28_6_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.54,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.54,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "She hasn't got any sisters.",
+          "correct_answer": "She has not got any sisters.",
+          "audio_file_path": "audio/28/28_6_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.54,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.54,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We haven't got a microwave.",
+          "correct_answer": "We have not got a microwave.",
+          "audio_file_path": "audio/28/28_6_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 28.58,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Greg hasn't got a bike.",
+          "correct_answer": "Greg has not got a bike.",
+          "audio_file_path": "audio/28/28_6_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 28.58,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 28.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "My town's got two theaters.",
+          "correct_answer": "My town has got two theaters.",
+          "audio_file_path": "audio/28/28_6_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 32.38,
+            "left": 7.81,
+            "width": 84.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.38,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Chloe hasn't got a cat.",
+          "correct_answer": "Chloe has not got a cat.",
+          "audio_file_path": "audio/28/28_6_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 34.68,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "They've got a new house.",
+          "correct_answer": "They have got a new house.",
+          "audio_file_path": "audio/28/28_6_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 34.68,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.68,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.7",
+      "exercise_type": "matching",
+      "instruction": "LISTEN TO THE AUDIO AND MATCH THE OBJECTS WITH THEIR OWNERS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Church icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_1.mp3",
+          "input_blank_box": {
+            "top": 41.91,
+            "left": 10.04,
+            "width": 35.49,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.91,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Two girls icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_2.mp3",
+          "input_blank_box": {
+            "top": 43.96,
+            "left": 75.67,
+            "width": 15.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "People with car icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_3.mp3",
+          "input_blank_box": {
+            "top": 46.45,
+            "left": 10.64,
+            "width": 35.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Computer icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_4.mp3",
+          "input_blank_box": {
+            "top": 47.7,
+            "left": 10.04,
+            "width": 35.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 47.7,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "House icon",
+          "options": [
+            "Our town",
+            "John's sister",
+            "Our house",
+            "My friend Sam",
+            "Adam and I",
+            "Sally and Jonathan"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_7_5.mp3",
+          "input_blank_box": {
+            "top": 50.31,
+            "left": 75.67,
+            "width": 15.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

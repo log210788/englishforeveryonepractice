@@ -1,0 +1,129 @@
+{
+  "page_number": 89,
+  "unit_number": 28,
+  "unit_title": "ACCOMMODATION",
+  "exercises": [
+    {
+      "exercise_id": "28.3",
+      "exercise_type": "true_false",
+      "instruction": "MARK THE SENTENCES THAT ARE CORRECT",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I have two sisters. / I has two sisters.",
+          "correct_answer": "I have two sisters.",
+          "audio_file_path": "audio/28/28_3_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "You has a beautiful house. / You have a beautiful house.",
+          "correct_answer": "You have a beautiful house.",
+          "audio_file_path": "audio/28/28_3_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "We a garden have. / We have a garden.",
+          "correct_answer": "We have a garden.",
+          "audio_file_path": "audio/28/28_3_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Sam and Greg have a dog. / Sam and Greg has a dog.",
+          "correct_answer": "Sam and Greg have a dog.",
+          "audio_file_path": "audio/28/28_3_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Marlon a brother has. / Marlon has a brother.",
+          "correct_answer": "Marlon has a brother.",
+          "audio_file_path": "audio/28/28_3_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Fardale have an old castle. / Fardale has an old castle.",
+          "correct_answer": "Fardale has an old castle."
+        },
+        {
+          "item_number": 7,
+          "question": "They have a new car. / They has a new car.",
+          "correct_answer": "They have a new car."
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.4",
+      "exercise_type": "true_false",
+      "instruction": "READ THE ADVERTISEMENTS AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Ocean View has a garage.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 2,
+          "question": "Sunny Bank has two bathrooms.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 3,
+          "question": "There isn't a garage at Sunny Bank.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 4,
+          "question": "Belle Vue Manor has six bedrooms.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 5,
+          "question": "Belle Vue Manor has a small yard.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 6,
+          "question": "Mossfield Cottage has an old kitchen.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 7,
+          "question": "Mossfield Cottage has a small yard.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "page_number": 114,
+  "unit_number": 35,
+  "exercises": [
+    {
+      "exercise_id": "35.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FIND SEVEN WORDS THAT DESCRIBE WHAT THINGS ARE MADE OF",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Find seven words that describe what things are made of in the word search grid.",
+          "audio_file_path": "audio/35/35_4_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 21.05,
+            "left": 85.79,
+            "width": 1.93,
+            "height": 1.43
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "35.5",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "The cups are...",
+          "options": [
+            "metal",
+            "glass",
+            "plastic"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_5_1.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 62.65,
+            "width": 27.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "The table is...",
+          "options": [
+            "wooden",
+            "plastic",
+            "metal"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_5_2.mp3",
+          "input_blank_box": {
+            "top": 19.93,
+            "left": 8.78,
+            "width": 25.67,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "The bottle is...",
+          "options": [
+            "plastic",
+            "glass",
+            "metal"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_5_3.mp3",
+          "input_blank_box": {
+            "top": 22.6,
+            "left": 9.0,
+            "width": 25.67,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.6,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "The jacket is...",
+          "options": [
+            "wool",
+            "leather",
+            "plastic"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_5_4.mp3",
+          "input_blank_box": {
+            "top": 29.08,
+            "left": 73.21,
+            "width": 8.63,
+            "height": 4.67
+          },
+          "audio_icon_box": {
+            "top": 29.08,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "The chairs are...",
+          "options": [
+            "plastic",
+            "wooden",
+            "metal"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_5_5.mp3",
+          "input_blank_box": {
+            "top": 34.99,
+            "left": 62.43,
+            "width": 28.2,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.99,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "The sweater is...",
+          "options": [
+            "wool",
+            "leather",
+            "nylon"
+          ],
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 38.79,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 38.79,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "The table is...",
+          "options": [
+            "metal",
+            "glass",
+            "wooden"
+          ],
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 41.1,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "The bag is...",
+          "options": [
+            "leather",
+            "plastic",
+            "paper"
+          ],
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 48.38,
+            "left": 10.34,
+            "width": 36.38,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 48.38,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "The scarf is...",
+          "options": [
+            "wool",
+            "leather",
+            "silk"
+          ],
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 53.55,
+            "left": 9.97,
+            "width": 37.05,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 53.55,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "The bottle is...",
+          "options": [
+            "glass",
+            "plastic",
+            "metal"
+          ],
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "The bag is...",
+          "options": [
+            "paper",
+            "plastic",
+            "leather"
+          ],
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "The lamp is...",
+          "options": [
+            "metal",
+            "glass",
+            "wooden"
+          ],
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "The chairs are...",
+          "options": [
+            "wooden",
+            "metal",
+            "plastic"
+          ],
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

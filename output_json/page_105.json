@@ -1,0 +1,144 @@
+{
+  "page_number": 105,
+  "exercises": [
+    {
+      "exercise_id": "32.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There aren't enough butter.",
+          "correct_answer": "There isn't enough butter.",
+          "audio_file_path": "audio/32/32_6_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "There isn't enough tomatoes.",
+          "correct_answer": "There aren't enough tomatoes.",
+          "audio_file_path": "audio/32/32_6_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "There isn't enough mangoes.",
+          "correct_answer": "There aren't enough mangoes.",
+          "audio_file_path": "audio/32/32_6_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "You have too money bananas.",
+          "correct_answer": "You have too many bananas.",
+          "audio_file_path": "audio/32/32_6_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "They don't have enoug butter.",
+          "correct_answer": "They don't have enough butter.",
+          "audio_file_path": "audio/32/32_6_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "There is enough onions.",
+          "correct_answer": "There are enough onions.",
+          "audio_file_path": "audio/32/32_6_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "There aren't enough sugar.",
+          "correct_answer": "There isn't enough sugar.",
+          "audio_file_path": "audio/32/32_6_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "You have to many pineapples.",
+          "correct_answer": "You have too many pineapples.",
+          "audio_file_path": "audio/32/32_6_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "They have too moch bread.",
+          "correct_answer": "They have too much bread.",
+          "audio_file_path": "audio/32/32_6_9.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 10,
+          "question": "You dont have enough apples.",
+          "correct_answer": "You don't have enough apples.",
+          "audio_file_path": "audio/32/32_6_10.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 11,
+          "question": "They have enogh flour.",
+          "correct_answer": "They have enough flour.",
+          "audio_file_path": "audio/32/32_6_11.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 12,
+          "question": "There is too many potatoes.",
+          "correct_answer": "There are too many potatoes.",
+          "audio_file_path": "audio/32/32_6_12.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 13,
+          "question": "There are too much salt.",
+          "correct_answer": "There is too much salt.",
+          "audio_file_path": "audio/32/32_6_13.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 14,
+          "question": "There are too much chocolate.",
+          "correct_answer": "There is too much chocolate.",
+          "audio_file_path": "audio/32/32_6_14.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 15,
+          "question": "There is too many mangoes.",
+          "correct_answer": "There are too many mangoes.",
+          "audio_file_path": "audio/32/32_6_15.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 16,
+          "question": "You have enugh eggs.",
+          "correct_answer": "You have enough eggs.",
+          "audio_file_path": "audio/32/32_6_16.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 17,
+          "question": "There is enough oranges.",
+          "correct_answer": "There are enough oranges.",
+          "audio_file_path": "audio/32/32_6_17.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "32.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "USE THE CHART TO CREATE NINE CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create sentences using the chart provided.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/32/32_7_1.mp3"
+        }
+      ]
+    }
+  ]
+}

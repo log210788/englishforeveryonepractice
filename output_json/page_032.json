@@ -1,0 +1,241 @@
+{
+  "page_number": 32,
+  "unit_number": 10,
+  "unit_title": "Talking about your job",
+  "exercises": [
+    {
+      "exercise_id": "10.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE EACH SENTENCE IN ITS OTHER FORM",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "They are doctors.",
+          "question": "______ They are doctors.",
+          "options": null,
+          "correct_answer": "He is a doctor.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "You are a teacher.",
+          "question": "You are a teacher. ______",
+          "options": null,
+          "correct_answer": "You are teachers.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "We are hairdressers.",
+          "question": "______ We are hairdressers.",
+          "options": null,
+          "correct_answer": "I am a hairdresser.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "I am a mechanic.",
+          "question": "I am a mechanic. ______",
+          "options": null,
+          "correct_answer": "We are mechanics.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "You are cleaners.",
+          "question": "______ You are cleaners.",
+          "options": null,
+          "correct_answer": "You are a cleaner.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "She is a chef.",
+          "question": "She is a chef. ______",
+          "options": null,
+          "correct_answer": "They are chefs.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "They are actors.",
+          "question": "______ They are actors.",
+          "options": null,
+          "correct_answer": "He is an actor.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "He is a vet.",
+          "question": "He is a vet. ______",
+          "options": null,
+          "correct_answer": "They are vets.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "We are police officers.",
+          "question": "______ We are police officers.",
+          "options": null,
+          "correct_answer": "I am a police officer.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 10,
+          "prompt_text": "You are a farmer.",
+          "question": "You are a farmer. ______",
+          "options": null,
+          "correct_answer": "You are farmers.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 11,
+          "prompt_text": "You are waitresses.",
+          "question": "______ You are waitresses.",
+          "options": null,
+          "correct_answer": "You are a waitress.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 12,
+          "prompt_text": "I am a gardener.",
+          "question": "I am a gardener. ______",
+          "options": null,
+          "correct_answer": "We are gardeners.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        },
+        {
+          "item_number": 13,
+          "prompt_text": "We are artists.",
+          "question": "______ We are artists.",
+          "options": null,
+          "correct_answer": "I am an artist.",
+          "audio_icon_present": false,
+          "audio_track_ref": null,
+          "audio_file_path": null
+        }
+      ]
+    },
+    {
+      "exercise_id": "10.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS WITH THE CORRECT VERBS AND ARTICLES",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "I ______ actor.",
+          "options": null,
+          "correct_answer": "am an",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "He ______ teacher.",
+          "options": null,
+          "correct_answer": "is a",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "He ______ chef.",
+          "options": null,
+          "correct_answer": "is a",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "You ______ engineer.",
+          "options": null,
+          "correct_answer": "are an",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "We ______ hairdressers.",
+          "options": null,
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "They ______ farmers.",
+          "options": null,
+          "correct_answer": "are",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "You ______ vet.",
+          "options": null,
+          "correct_answer": "are a",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "I ______ waiter.",
+          "options": null,
+          "correct_answer": "am a",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "She ______ nurse.",
+          "options": null,
+          "correct_answer": "is a",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_2_9.mp3"
+        }
+      ]
+    }
+  ]
+}

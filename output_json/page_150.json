@@ -1,0 +1,122 @@
+{
+  "page_number": 150,
+  "exercises": [
+    {
+      "exercise_id": "47.5",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Two friends are talking about what they want to do.",
+          "question": "Does Pete want to play basketball later?",
+          "options": [
+            "Yes, he does.",
+            "No, he doesn't."
+          ],
+          "correct_answer": "No, he doesn't.",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 1,
+          "question": "Would Pete like to read his book?",
+          "options": [
+            "Yes, he would.",
+            "No, he wouldn't."
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_5_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Does Pete want to stay at home tomorrow?",
+          "options": [
+            "Yes, he does.",
+            "No, he doesn't."
+          ],
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 3,
+          "question": "Would Pete like to go shopping?",
+          "options": [
+            "Yes, he would.",
+            "No, he wouldn't."
+          ],
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 4,
+          "question": "Does Kat want to buy a new dress?",
+          "options": [
+            "Yes, she does.",
+            "No, she doesn't."
+          ],
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 5,
+          "question": "Does Kat want to go to see a movie?",
+          "options": [
+            "Yes, she does.",
+            "No, she doesn't."
+          ],
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 6,
+          "question": "Does Pete want to go to a French restaurant?",
+          "options": [
+            "Yes, he does.",
+            "No, he doesn't."
+          ],
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 7,
+          "question": "Does Kat want to order spaghetti at the restaurant?",
+          "options": [
+            "Yes, she does.",
+            "No, she doesn't."
+          ],
+          "audio_icon_present": false
+        }
+      ]
+    },
+    {
+      "exercise_id": "47.6",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Austria. to Marie go snowboarding wants in",
+          "correct_answer": "Marie wants to go snowboarding in Austria.",
+          "audio_file_path": "audio/47/47_6_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "doesn't go school to Mario today. want to",
+          "correct_answer": "Mario doesn't want to go to school today.",
+          "audio_file_path": "audio/47/47_6_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "climb mountain. wants to that She",
+          "correct_answer": "She wants to climb that mountain.",
+          "audio_file_path": "audio/47/47_6_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "in Tony play to would Scotland. like golf",
+          "correct_answer": "Tony would like to play golf in Scotland.",
+          "audio_file_path": "audio/47/47_6_4.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

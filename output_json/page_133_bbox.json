@@ -1,0 +1,144 @@
+{
+  "page_number": 133,
+  "exercises": [
+    {
+      "exercise_id": "1",
+      "exercise_type": "matching",
+      "instruction": "LABEL THE PICTURES",
+      "items": [
+        {
+          "item_number": 4,
+          "question": "headphones",
+          "correct_answer": "headphones",
+          "input_blank_box": {
+            "top": 10.83,
+            "left": 0.0,
+            "width": 93.53,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "dance",
+          "correct_answer": "dance",
+          "input_blank_box": {
+            "top": 17.62,
+            "left": 59.23,
+            "width": 30.36,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "keyboard",
+          "correct_answer": "keyboard",
+          "input_blank_box": {
+            "top": 23.23,
+            "left": 43.23,
+            "width": 12.57,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "band",
+          "correct_answer": "band",
+          "input_blank_box": {
+            "top": 26.59,
+            "left": 43.3,
+            "width": 12.5,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "guitar",
+          "correct_answer": "guitar",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 8.93,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "orchestra",
+          "correct_answer": "orchestra",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 27.08,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 18,
+          "question": "saxophone",
+          "correct_answer": "saxophone",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 45.24,
+            "width": 11.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 19,
+          "question": "audience",
+          "correct_answer": "audience",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 8.93,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 20,
+          "question": "guitar player",
+          "correct_answer": "guitar player",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 27.08,
+            "width": 11.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 25,
+          "question": "drum",
+          "correct_answer": "drum",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 45.24,
+            "width": 11.01,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 26,
+          "question": "microphone",
+          "correct_answer": "microphone",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 8.93,
+            "width": 10.94,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 27,
+          "question": "harmonica",
+          "correct_answer": "harmonica",
+          "input_blank_box": {
+            "top": 70.49,
+            "left": 27.08,
+            "width": 11.01,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

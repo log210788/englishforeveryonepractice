@@ -1,0 +1,217 @@
+{
+  "page_number": 91,
+  "exercises": [
+    {
+      "exercise_id": "28.8",
+      "exercise_type": "audio_listen",
+      "instruction": "USE THE CHART TO CREATE 11 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I have a computer.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/28/28_8.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.98,
+            "left": 27.31,
+            "width": 3.05,
+            "height": 2.68
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS TO WRITE EACH SENTENCE THREE DIFFERENT WAYS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "She has got two bedrooms.",
+          "correct_answer": [
+            "She has two bedrooms.",
+            "She has got two bedrooms.",
+            "She's got two bedrooms."
+          ],
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.42,
+            "width": 30.21,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "They don't have a dog.",
+          "correct_answer": [
+            "They don't have a dog.",
+            "They haven't got a dog.",
+            "They haven't got a dog."
+          ],
+          "input_blank_box": {
+            "top": 18.37,
+            "left": 8.48,
+            "width": 14.66,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We've got some chairs.",
+          "correct_answer": [
+            "We have some chairs.",
+            "We have got some chairs.",
+            "We've got some chairs."
+          ],
+          "input_blank_box": {
+            "top": 19.68,
+            "left": 30.58,
+            "width": 16.74,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "He has got a brother.",
+          "correct_answer": [
+            "He has a brother.",
+            "He has got a brother.",
+            "He's got a brother."
+          ],
+          "input_blank_box": {
+            "top": 29.83,
+            "left": 30.58,
+            "width": 16.82,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Carla doesn't have a sister.",
+          "correct_answer": [
+            "Carla doesn't have a sister.",
+            "Carla hasn't got a sister.",
+            "Carla hasn't got a sister."
+          ],
+          "input_blank_box": {
+            "top": 29.83,
+            "left": 54.54,
+            "width": 9.52,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "You have got a car.",
+          "correct_answer": [
+            "You have a car.",
+            "You have got a car.",
+            "You've got a car."
+          ],
+          "input_blank_box": {
+            "top": 31.2,
+            "left": 8.41,
+            "width": 14.73,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Phil's got a dog.",
+          "correct_answer": [
+            "Phil has a dog.",
+            "Phil has got a dog.",
+            "Phil's got a dog."
+          ],
+          "input_blank_box": {
+            "top": 31.2,
+            "left": 71.8,
+            "width": 19.87,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "You have a yard.",
+          "correct_answer": [
+            "You have a yard.",
+            "You have got a yard.",
+            "You've got a yard."
+          ],
+          "input_blank_box": {
+            "top": 35.06,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Jamal hasn't got a sofa.",
+          "correct_answer": [
+            "Jamal doesn't have a sofa.",
+            "Jamal hasn't got a sofa.",
+            "Jamal hasn't got a sofa."
+          ],
+          "input_blank_box": {
+            "top": 37.36,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "They have got a shower.",
+          "correct_answer": [
+            "They have a shower.",
+            "They have got a shower.",
+            "They've got a shower."
+          ],
+          "input_blank_box": {
+            "top": 44.52,
+            "left": 9.23,
+            "width": 81.18,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "May's got a couch.",
+          "correct_answer": [
+            "May has a couch.",
+            "May has got a couch.",
+            "May's got a couch."
+          ],
+          "input_blank_box": {
+            "top": 48.01,
+            "left": 9.15,
+            "width": 81.25,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "He doesn't have a cat.",
+          "correct_answer": [
+            "He doesn't have a cat.",
+            "He hasn't got a cat.",
+            "He hasn't got a cat."
+          ],
+          "input_blank_box": {
+            "top": 46.95,
+            "left": 11.24,
+            "width": 25.67,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

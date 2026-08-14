@@ -1,0 +1,58 @@
+{
+  "page_number": 115,
+  "exercises": [
+    {
+      "exercise_id": "35.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Four __________ cups.",
+          "correct_answer": "plastic",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_6_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "An ugly __________ table.",
+          "correct_answer": "wooden",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_6_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "An old __________ jacket.",
+          "correct_answer": "leather",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_6_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Three __________ chairs.",
+          "correct_answer": "metal",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/35/35_6_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "A green __________ sweater.",
+          "correct_answer": "wool",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 6,
+          "question": "A brown __________ bag.",
+          "correct_answer": "paper",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 7,
+          "question": "Beautiful __________.",
+          "correct_answer": "fabric",
+          "audio_icon_present": false
+        }
+      ]
+    }
+  ]
+}

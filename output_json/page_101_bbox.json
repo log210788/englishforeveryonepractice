@@ -1,0 +1,283 @@
+{
+  "page_number": 101,
+  "exercises": [
+    {
+      "exercise_id": "31.8",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FIND NINE WORDS FOR CONTAINERS IN THE GRID",
+      "items": []
+    },
+    {
+      "exercise_id": "31.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING \"MANY\" OR \"MUCH\"",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "How __________ meat is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "How __________ cartons of milk are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_2.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "How __________ bowls of rice are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_3.mp3",
+          "input_blank_box": {
+            "top": 10.4,
+            "left": 20.09,
+            "width": 12.87,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.4,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "How __________ juice is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_4.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 53.94,
+            "width": 36.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "How __________ bread is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_9_5.mp3",
+          "input_blank_box": {
+            "top": 13.14,
+            "left": 20.16,
+            "width": 13.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "How __________ cups of tea are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 14.45,
+            "left": 53.87,
+            "width": 36.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "How __________ bars of chocolate are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 13.39,
+            "left": 59.52,
+            "width": 8.85,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.39,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "How __________ coffee is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.43,
+            "left": 59.38,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "How __________ jars of jam are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 20.73,
+            "left": 59.45,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 20.73,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "How __________ milk is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 24.1,
+            "left": 59.45,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.1,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "How __________ bags of flour are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.4,
+            "left": 59.67,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.4,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "How __________ pizza is there?",
+          "correct_answer": "much",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.76,
+            "left": 59.45,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.76,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "How __________ eggs are there?",
+          "correct_answer": "many",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 34.06,
+            "left": 59.45,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "31.10",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE SIX CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Use the chart to create sentences.",
+          "question": "How many/much [noun] are/is there?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/31/31_10.mp3",
+          "input_blank_box": {
+            "top": 37.42,
+            "left": 59.45,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 37.42,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

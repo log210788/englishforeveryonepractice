@@ -1,0 +1,210 @@
+{
+  "page_number": 34,
+  "unit_number": 10,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "10.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "LOOK AT THE PICTURES AND SAY THE SENTENCES OUT LOUD, USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Picture of a waiter in a restaurant",
+          "question": "Eric _______. He _______.",
+          "options": [
+            "waiter",
+            "police officer",
+            "park",
+            "nurse",
+            "hairdresser",
+            "restaurant",
+            "engineer",
+            "police station",
+            "hospital",
+            "beauty salon",
+            "gardener",
+            "farm",
+            "construction site",
+            "farmer"
+          ],
+          "correct_answer": [
+            "is a waiter.",
+            "works in a restaurant."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_6_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "Picture of a nurse in a hospital",
+          "question": "Abby _______. She _______.",
+          "options": [
+            "waiter",
+            "police officer",
+            "park",
+            "nurse",
+            "hairdresser",
+            "restaurant",
+            "engineer",
+            "police station",
+            "hospital",
+            "beauty salon",
+            "gardener",
+            "farm",
+            "construction site",
+            "farmer"
+          ],
+          "correct_answer": [
+            "is a nurse.",
+            "works in a hospital."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_6_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Picture of an engineer at a construction site",
+          "question": "Julie _______. She _______.",
+          "options": [
+            "waiter",
+            "police officer",
+            "park",
+            "nurse",
+            "hairdresser",
+            "restaurant",
+            "engineer",
+            "police station",
+            "hospital",
+            "beauty salon",
+            "gardener",
+            "farm",
+            "construction site",
+            "farmer"
+          ],
+          "correct_answer": [
+            "is an engineer.",
+            "works on a construction site."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_6_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Picture of a gardener in a park",
+          "question": "Simon _______. He _______.",
+          "options": [
+            "waiter",
+            "police officer",
+            "park",
+            "nurse",
+            "hairdresser",
+            "restaurant",
+            "engineer",
+            "police station",
+            "hospital",
+            "beauty salon",
+            "gardener",
+            "farm",
+            "construction site",
+            "farmer"
+          ],
+          "correct_answer": [
+            "is a gardener.",
+            "works in a park."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_6_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Picture of a police officer at a police station",
+          "question": "Adam _______. He _______.",
+          "options": [
+            "waiter",
+            "police officer",
+            "park",
+            "nurse",
+            "hairdresser",
+            "restaurant",
+            "engineer",
+            "police station",
+            "hospital",
+            "beauty salon",
+            "gardener",
+            "farm",
+            "construction site",
+            "farmer"
+          ],
+          "correct_answer": [
+            "is a police officer.",
+            "works in a police station."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_6_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Picture of a farmer on a farm",
+          "question": "Max _______. He _______.",
+          "options": [
+            "waiter",
+            "police officer",
+            "park",
+            "nurse",
+            "hairdresser",
+            "restaurant",
+            "engineer",
+            "police station",
+            "hospital",
+            "beauty salon",
+            "gardener",
+            "farm",
+            "construction site",
+            "farmer"
+          ],
+          "correct_answer": [
+            "is a farmer.",
+            "works on a farm."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_6_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Picture of a hairdresser in a beauty salon",
+          "question": "Carol _______. She _______.",
+          "options": [
+            "waiter",
+            "police officer",
+            "park",
+            "nurse",
+            "hairdresser",
+            "restaurant",
+            "engineer",
+            "police station",
+            "hospital",
+            "beauty salon",
+            "gardener",
+            "farm",
+            "construction site",
+            "farmer"
+          ],
+          "correct_answer": [
+            "is a hairdresser.",
+            "works in a beauty salon."
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/10/10_6_6.mp3"
+        }
+      ]
+    }
+  ]
+}

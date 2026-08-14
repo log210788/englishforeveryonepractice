@@ -1,0 +1,570 @@
+{
+  "page_number": 120,
+  "exercises": [
+    {
+      "exercise_id": "37.5",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORDS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Do you play / plays chess?",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "correct_answer": "plays",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Paolo play / plays badminton at the weekend.",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "correct_answer": "play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_2.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "My father play / plays golf with his friends.",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "correct_answer": "play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_3.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 54.54,
+            "width": 35.86,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "We don't play / doesn't play baseball anymore.",
+          "options": [
+            "don't play",
+            "doesn't play"
+          ],
+          "correct_answer": "doesn't play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_4.mp3",
+          "input_blank_box": {
+            "top": 13.2,
+            "left": 9.08,
+            "width": 37.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.2,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "I play / plays tennis with my brother.",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "correct_answer": "plays",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_5.mp3",
+          "input_blank_box": {
+            "top": 15.88,
+            "left": 55.43,
+            "width": 34.82,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Greg don't play / doesn't play basketball.",
+          "options": [
+            "don't play",
+            "doesn't play"
+          ],
+          "correct_answer": "don't play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_6.mp3",
+          "input_blank_box": {
+            "top": 17.06,
+            "left": 54.32,
+            "width": 35.79,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.06,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Liz play / plays racquet ball on the weekend.",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "correct_answer": "play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_7.mp3",
+          "input_blank_box": {
+            "top": 22.91,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.91,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Your dad don't play / doesn't play soccer.",
+          "options": [
+            "don't play",
+            "doesn't play"
+          ],
+          "correct_answer": "don't play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_8.mp3",
+          "input_blank_box": {
+            "top": 29.39,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.39,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Our dog plays / play with its ball.",
+          "options": [
+            "plays",
+            "play"
+          ],
+          "correct_answer": "play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_9.mp3",
+          "input_blank_box": {
+            "top": 35.87,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 35.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Mike play / plays soccer on Saturdays.",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "correct_answer": "play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_10.mp3",
+          "input_blank_box": {
+            "top": 42.4,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.4,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "We don't play / doesn't play golf in the winter.",
+          "options": [
+            "don't play",
+            "doesn't play"
+          ],
+          "correct_answer": "doesn't play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_11.mp3",
+          "input_blank_box": {
+            "top": 48.88,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 48.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "Pammy don't play / doesn't play tennis.",
+          "options": [
+            "don't play",
+            "doesn't play"
+          ],
+          "correct_answer": "don't play",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_5_12.mp3",
+          "input_blank_box": {
+            "top": 55.42,
+            "left": 52.83,
+            "width": 39.14,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 55.42,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE STATEMENTS AS QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "He plays badminton on Fridays.",
+          "correct_answer": "Does he play badminton on Fridays?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_1.mp3",
+          "input_blank_box": {
+            "top": 59.22,
+            "left": 7.74,
+            "width": 39.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 59.22,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Noah plays golf with his grandpa.",
+          "correct_answer": "Does Noah play golf with his grandpa?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_2.mp3",
+          "input_blank_box": {
+            "top": 59.22,
+            "left": 52.53,
+            "width": 39.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 59.22,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "They play basketball with their friends.",
+          "correct_answer": "Do they play basketball with their friends?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_3.mp3",
+          "input_blank_box": {
+            "top": 61.52,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 61.52,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Georgia plays baseball at school.",
+          "correct_answer": "Does Georgia play baseball at school?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_4.mp3",
+          "input_blank_box": {
+            "top": 68.8,
+            "left": 9.9,
+            "width": 37.2,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 68.8,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "We play tennis in the summer.",
+          "correct_answer": "Do you play tennis in the summer?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_5.mp3",
+          "input_blank_box": {
+            "top": 73.97,
+            "left": 9.52,
+            "width": 37.2,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 73.97,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Tim's parents play chess in the evening.",
+          "correct_answer": "Do Tim's parents play chess in the evening?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_6_6.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "37.7",
+      "exercise_type": "true_false",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Steven goes cycling in the winter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_7_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Max goes running every evening.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_7_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Ian plays soccer four times a week.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_7_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Janine hates running.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_7_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Lila goes skating with her sister.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_7_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Robbie doesn't go running anymore.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_7_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Susan goes fishing on the weekend.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/37/37_7_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

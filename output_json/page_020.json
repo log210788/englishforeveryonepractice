@@ -1,0 +1,264 @@
+{
+  "page_number": 20,
+  "unit_number": 5,
+  "unit_title": "Things you have",
+  "exercises": [
+    {
+      "exercise_id": "5.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE CORRECT POSSESSIVE ADJECTIVES",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "She",
+          "question": "[blank] fish is called Nemo.",
+          "correct_answer": "Her",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "They",
+          "question": "[blank] dog is called Beth.",
+          "correct_answer": "Their",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "He",
+          "question": "[blank] tortoise is 50 years old.",
+          "correct_answer": "His",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "I",
+          "question": "[blank] cat is called Sam.",
+          "correct_answer": "My",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "We",
+          "question": "[blank] lion is from Kenya.",
+          "correct_answer": "Our",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "You",
+          "question": "[blank] rabbit eats grass.",
+          "correct_answer": "Your",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "it",
+          "question": "Here is [blank] bed.",
+          "correct_answer": "its",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "They",
+          "question": "[blank] snake is called Sid.",
+          "correct_answer": "Their",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "I",
+          "question": "Buster is [blank] monkey.",
+          "correct_answer": "my",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "You",
+          "question": "[blank] parrot is from Venezuela.",
+          "correct_answer": "Your",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "prompt_text": "She",
+          "question": "[blank] cat is called Tabatha.",
+          "correct_answer": "Her",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "prompt_text": "They",
+          "question": "[blank] monkey is from Morocco.",
+          "correct_answer": "Their",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "prompt_text": "She",
+          "question": "[blank] pig lives on a farm.",
+          "correct_answer": "Her",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "prompt_text": "He",
+          "question": "[blank] horse is called Prancer.",
+          "correct_answer": "His",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_13.mp3"
+        },
+        {
+          "item_number": 14,
+          "prompt_text": "We",
+          "question": "[blank] chicken lives in the garden.",
+          "correct_answer": "Our",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_1_14.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "5.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "horse",
+          "question": "It is she horse.",
+          "correct_answer": "It is her horse.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "dog",
+          "question": "Fido is I dog.",
+          "correct_answer": "Fido is my dog.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "cat",
+          "question": "Cookie is he cat.",
+          "correct_answer": "Cookie is his cat.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "chicken",
+          "question": "It is we chicken.",
+          "correct_answer": "It is our chicken.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "parrot",
+          "question": "Ziggy is you parrot.",
+          "correct_answer": "Ziggy is your parrot.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "snake",
+          "question": "Hiss is they snake.",
+          "correct_answer": "Hiss is their snake.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "monkey",
+          "question": "Max is we monkey.",
+          "correct_answer": "Max is our monkey.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "rabbit",
+          "question": "It is she rabbit.",
+          "correct_answer": "It is her rabbit.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "horse",
+          "question": "Ed is I horse.",
+          "correct_answer": "Ed is my horse.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "dog",
+          "question": "Rex is you dog.",
+          "correct_answer": "Rex is your dog.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "prompt_text": "fish",
+          "question": "Nemo is she fish.",
+          "correct_answer": "Nemo is her fish.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "prompt_text": "sheep",
+          "question": "It is we sheep.",
+          "correct_answer": "It is our sheep.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/5/5_2_11.mp3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "page_number": 51,
+  "exercises": [
+    {
+      "exercise_id": "16.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE TWO NEGATIVE FORMS OF EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Tim plays tennis.",
+          "correct_answer": [
+            "Tim does not play tennis.",
+            "Tim doesn't play tennis."
+          ]
+        },
+        {
+          "item_number": 2,
+          "question": "You have a black cat.",
+          "correct_answer": [
+            "You do not have a black cat.",
+            "You don't have a black cat."
+          ]
+        },
+        {
+          "item_number": 3,
+          "question": "Jules reads a book every day.",
+          "correct_answer": [
+            "Jules does not read a book every day.",
+            "Jules doesn't read a book every day."
+          ]
+        },
+        {
+          "item_number": 4,
+          "question": "Sam works in a restaurant.",
+          "correct_answer": [
+            "Sam does not work in a restaurant.",
+            "Sam doesn't work in a restaurant."
+          ]
+        },
+        {
+          "item_number": 5,
+          "question": "They play soccer.",
+          "correct_answer": [
+            "They do not play soccer.",
+            "They don't play soccer."
+          ]
+        },
+        {
+          "item_number": 6,
+          "question": "Emily works with animals.",
+          "correct_answer": [
+            "Emily does not work with animals.",
+            "Emily doesn't work with animals."
+          ]
+        },
+        {
+          "item_number": 7,
+          "question": "Mel and Greg have a car.",
+          "correct_answer": [
+            "Mel and Greg do not have a car.",
+            "Mel and Greg don't have a car."
+          ]
+        },
+        {
+          "item_number": 8,
+          "question": "You work in a factory.",
+          "correct_answer": [
+            "You do not work in a factory.",
+            "You don't work in a factory."
+          ]
+        }
+      ]
+    },
+    {
+      "exercise_id": "16.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Chloe don't play tennis with her friends.",
+          "correct_answer": "Chloe doesn't play tennis with her friends.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "You doesn't work outside.",
+          "correct_answer": "You don't work outside.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Sal and Doug doesn't have a car.",
+          "correct_answer": "Sal and Doug don't have a car.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "We doesn't watch TV at home.",
+          "correct_answer": "We don't watch TV at home.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Mrs. O'Brien don't work in an office.",
+          "correct_answer": "Mrs. O'Brien doesn't work in an office.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "You doesn't wake up at 6am.",
+          "correct_answer": "You don't wake up at 6am.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "They doesn't eat lunch at 1pm.",
+          "correct_answer": "They don't eat lunch at 1pm.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "Virginia don't speak good English.",
+          "correct_answer": "Virginia doesn't speak good English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "Trevor don't live near here.",
+          "correct_answer": "Trevor doesn't live near here.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "question": "My dad don't live in Los Angeles.",
+          "correct_answer": "My dad doesn't live in Los Angeles.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "question": "David don't play chess.",
+          "correct_answer": "David doesn't play chess.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_4_11.mp3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "page_number": 136,
+  "exercises": [
+    {
+      "exercise_id": "42.4",
+      "exercise_type": "true_false",
+      "instruction": "READ THE EMAIL AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "Netherton is a small town.",
+          "correct_answer": "True",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 1,
+          "question": "A lot of people walk their dogs in Netherton.",
+          "correct_answer": "True",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 2,
+          "question": "The park is people's favorite place to walk their dogs.",
+          "correct_answer": "True",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 3,
+          "question": "Alfredo's is always empty in the mornings.",
+          "correct_answer": "False",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 4,
+          "question": "Dino's café is people's favorite place to drink coffee.",
+          "correct_answer": "False",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 5,
+          "question": "Dino's is the favorite place to eat lunch.",
+          "correct_answer": "True",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 6,
+          "question": "Chez Jean-Claude is a cheap restaurant.",
+          "correct_answer": "False",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 7,
+          "question": "People go to the tennis court in the winter.",
+          "correct_answer": "False",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 8,
+          "question": "The bar and disco are not very popular.",
+          "correct_answer": "True",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 9,
+          "question": "People go to the city on weekends.",
+          "correct_answer": "True",
+          "audio_icon_present": false
+        },
+        {
+          "item_number": 10,
+          "question": "There are lots of nightclubs in Silchester.",
+          "correct_answer": "True",
+          "audio_icon_present": false
+        }
+      ]
+    }
+  ]
+}

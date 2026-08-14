@@ -1,0 +1,323 @@
+{
+  "page_number": 151,
+  "exercises": [
+    {
+      "exercise_id": "47.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Do you want go home now?",
+          "correct_answer": "Do you want to go home now?",
+          "audio_file_path": "audio/47/47_7_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Claude would likes to learn French.",
+          "correct_answer": "Claude would like to learn French.",
+          "audio_file_path": "audio/47/47_7_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 9.71,
+            "left": 10.04,
+            "width": 36.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 9.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "He would likes to go swimming.",
+          "correct_answer": "He would like to go swimming.",
+          "audio_file_path": "audio/47/47_7_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 14.26,
+            "left": 10.64,
+            "width": 36.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Paolo wants get a new cat.",
+          "correct_answer": "Paolo wants to get a new cat.",
+          "audio_file_path": "audio/47/47_7_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.5,
+            "left": 9.75,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Would you like visit China?",
+          "correct_answer": "Would you like to visit China?",
+          "audio_file_path": "audio/47/47_7_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.19,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 15.19,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "He's like to go to work later today.",
+          "correct_answer": "He'd like to go to work later today.",
+          "audio_file_path": "audio/47/47_7_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 21.42,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 21.42,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Peter want to go to college next year.",
+          "correct_answer": "Peter wants to go to college next year.",
+          "audio_file_path": "audio/47/47_7_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 21.42,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 21.42,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "They doesn't want to go to school today.",
+          "correct_answer": "They don't want to go to school today.",
+          "audio_file_path": "audio/47/47_7_8.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.65,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.65,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "My sister want to go to Greece this summer.",
+          "correct_answer": "My sister wants to go to Greece this summer.",
+          "audio_file_path": "audio/47/47_7_9.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.65,
+            "left": 51.34,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.65,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "47.8",
+      "exercise_type": "audio_listen",
+      "instruction": "SAY THE SENTENCES OUT LOUD AS QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Peter would like to go fishing.",
+          "correct_answer": "Would Peter like to go fishing?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_8_1.mp3",
+          "input_blank_box": {
+            "top": 33.87,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Marion wants to play tennis on Saturday.",
+          "correct_answer": "Does Marion want to play tennis on Saturday?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_8_2.mp3",
+          "input_blank_box": {
+            "top": 33.87,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "He'd like to visit India.",
+          "correct_answer": "Would he like to visit India?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_8_3.mp3",
+          "input_blank_box": {
+            "top": 40.04,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.04,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Mr. Evans would like to play chess tonight.",
+          "correct_answer": "Would Mr. Evans like to play chess tonight?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_8_4.mp3",
+          "input_blank_box": {
+            "top": 40.04,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.04,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "We'd like to play squash this evening.",
+          "correct_answer": "Would you like to play squash this evening?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_8_5.mp3",
+          "input_blank_box": {
+            "top": 43.9,
+            "left": 7.89,
+            "width": 84.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Sam wants to go to the park again.",
+          "correct_answer": "Does Sam want to go to the park again?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_8_6.mp3",
+          "input_blank_box": {
+            "top": 46.14,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "They'd like to travel around China.",
+          "correct_answer": "Would they like to travel around China?",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/47/47_8_7.mp3",
+          "input_blank_box": {
+            "top": 53.42,
+            "left": 10.34,
+            "width": 10.86,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 53.42,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "page_number": 17,
+  "unit_number": 3,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "3.3",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE NINE CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I am twenty-three years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "I am twenty-three years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_3_a.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "I am thirty-two years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "I am thirty-two years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_3_a.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "I am sixty-eight years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "I am sixty-eight years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_3_a.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Dan is twenty-three years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "Dan is twenty-three years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_3_a.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Dan is thirty-two years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "Dan is thirty-two years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_3_a.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Dan is sixty-eight years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "Dan is sixty-eight years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_3_a.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "You are twenty-three years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "You are twenty-three years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_3_a.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "You are thirty-two years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "You are thirty-two years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_3_a.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "You are sixty-eight years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "You are sixty-eight years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_3_a.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "3.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS WITH THE CORRECT FORMS OF \"TO BE\"",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "Alfonso ___ 87 years old. He ___ Spanish.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Abe ___ 72 years old. She ___ Japanese.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Mia and Leo ___ 12. They ___ from Italy.",
+          "options": null,
+          "correct_answer": [
+            "are",
+            "are"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Chantal ___ 66 years old. She ___ French.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Amir and Aamna ___ 90 years old. They ___ from Pakistan.",
+          "options": null,
+          "correct_answer": [
+            "are",
+            "are"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "I ___ 24 years old. I ___ Irish.",
+          "options": null,
+          "correct_answer": [
+            "am",
+            "am"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Max ___ 47 years old. He ___ German.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "We ___ 38 years old. We ___ from New Zealand.",
+          "options": null,
+          "correct_answer": [
+            "are",
+            "are"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "My sister ___ 4 years old. She ___ from Canada.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_8.mp3"
+        }
+      ]
+    }
+  ]
+}

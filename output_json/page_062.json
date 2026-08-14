@@ -1,0 +1,171 @@
+{
+  "page_number": 62,
+  "exercises": [
+    {
+      "exercise_id": "19.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS USING THE WORDS IN THE PANEL",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "What do you do?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "do you study?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "do you want?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "building is your college?",
+          "correct_answer": "Which",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "do you live?",
+          "correct_answer": "Where",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "time do you wake up?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "many shirts do you own?",
+          "correct_answer": "How",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "do you want for lunch?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "question": "does the course finish?",
+          "correct_answer": "When",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "question": "do you do in the evening?",
+          "correct_answer": "What",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/19/19_5_9.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "19.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Which school do he go to?",
+          "correct_answer": "Which school does he go to?",
+          "audio_file_path": "audio/19/19_6_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Why does Kevin works there?",
+          "correct_answer": "Why does Kevin work there?",
+          "audio_file_path": "audio/19/19_6_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Where do your friend live?",
+          "correct_answer": "Where does your friend live?",
+          "audio_file_path": "audio/19/19_6_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "Where are your car?",
+          "correct_answer": "Where is your car?",
+          "audio_file_path": "audio/19/19_6_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "What do your brother do?",
+          "correct_answer": "What does your brother do?",
+          "audio_file_path": "audio/19/19_6_5.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "19.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES AS QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "My uncle is very well, thanks.",
+          "question": "How",
+          "correct_answer": "How is your uncle?",
+          "audio_file_path": "audio/19/19_7_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "My wife is the woman with long dark hair.",
+          "question": "Which",
+          "correct_answer": "Which woman is your wife?",
+          "audio_file_path": "audio/19/19_7_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "I work at the school on Sandy Lane.",
+          "question": "Where",
+          "correct_answer": "Where do you work?",
+          "audio_file_path": "audio/19/19_7_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "The meeting is at 3:30pm.",
+          "question": "What",
+          "correct_answer": "What time is the meeting?",
+          "audio_file_path": "audio/19/19_7_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "I finish work at 7pm tonight.",
+          "question": "When",
+          "correct_answer": "When do you finish work?",
+          "audio_file_path": "audio/19/19_7_5.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

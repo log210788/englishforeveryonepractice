@@ -1,0 +1,126 @@
+{
+  "page_number": 126,
+  "unit_number": 39,
+  "exercises": [
+    {
+      "exercise_id": "39.5",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE QUESTIONS, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Steph does TV? watch often How",
+          "correct_answer": "How often does Steph watch TV?",
+          "audio_file_path": "audio/39/39_5_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "visit your dad? often you do How",
+          "correct_answer": "How often do you visit your dad?",
+          "audio_file_path": "audio/39/39_5_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "play do soccer? they When",
+          "correct_answer": "When do they play soccer?",
+          "audio_file_path": "audio/39/39_5_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "you to When do go usually bed?",
+          "correct_answer": "When do you usually go to bed?",
+          "audio_file_path": "audio/39/39_5_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "May often How does running? go",
+          "correct_answer": "How often does May go running?"
+        },
+        {
+          "item_number": 6,
+          "question": "play do How you tennis? often",
+          "correct_answer": "How often do you play tennis?"
+        },
+        {
+          "item_number": 7,
+          "question": "does Jo How read a book? often",
+          "correct_answer": "How often does Jo read a book?"
+        }
+      ]
+    },
+    {
+      "exercise_id": "39.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "WRITE ANSWERS TO THE QUESTIONS, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "When does Kelly go to the gym?",
+          "correct_answer": "Kelly goes to the gym",
+          "audio_file_path": "audio/39/39_6_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "When does Pete play soccer?",
+          "correct_answer": "Pete plays soccer",
+          "audio_file_path": "audio/39/39_6_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "How often does Angie go to the theater?",
+          "correct_answer": "goes to the theater",
+          "audio_file_path": "audio/39/39_6_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "How often does Jake read a newspaper?",
+          "correct_answer": "reads a newspaper",
+          "audio_file_path": "audio/39/39_6_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "How often does she visit her family?",
+          "correct_answer": "She visits her family",
+          "audio_file_path": "audio/39/39_6_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "When does Ben play baseball?",
+          "correct_answer": "Ben plays baseball",
+          "audio_file_path": "audio/39/39_6_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "How often does Marion go shopping?",
+          "correct_answer": "Marion goes shopping",
+          "audio_file_path": "audio/39/39_6_7.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 8,
+          "question": "When do you read a book?",
+          "correct_answer": "I read a book",
+          "audio_file_path": "audio/39/39_6_8.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 9,
+          "question": "How often does Pam make a cake?",
+          "correct_answer": "makes a cake",
+          "audio_file_path": "audio/39/39_6_9.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "page_number": 143,
+  "exercises": [
+    {
+      "exercise_id": "44.7",
+      "exercise_type": "audio_listen",
+      "instruction": "RESPOND OUT LOUD TO THE AUDIO, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Can you jump over the wall?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Can you catch that big fish?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Can you throw a stick for the dog?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Can you speak Italian?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Can you play the violin?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Can you climb that tree?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Can you do Sudoku puzzles?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "Can you sing?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "Can you ride a bicycle?",
+          "question": "No, ________",
+          "correct_answer": "I can't.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "prompt_text": "Can you move the kitchen table?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "prompt_text": "Can you cook roast chicken?",
+          "question": "Yes, ________",
+          "correct_answer": "I can.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_7_11.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "44.8",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE 18 CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Create sentences using the chart: I/She/They + can/can't + ride a bicycle/swim a mile/play tennis.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/44/44_8.mp3"
+        }
+      ]
+    }
+  ]
+}

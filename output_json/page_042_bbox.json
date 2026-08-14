@@ -1,0 +1,410 @@
+{
+  "page_number": 42,
+  "unit_number": 14,
+  "unit_title": "Describing your week",
+  "exercises": [
+    {
+      "exercise_id": "14.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS USING THE WORDS \"ON\" AND \"IN\"",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Peter plays soccer on Sundays.",
+          "question": "Peter plays soccer _______ Sundays.",
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_1_eg.mp3",
+          "input_blank_box": {
+            "top": 19.49,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.66,
+            "left": 11.01,
+            "width": 3.72,
+            "height": 2.8
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "I go to the movies _______ the weekend.",
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_1_1.mp3",
+          "input_blank_box": {
+            "top": 26.71,
+            "left": 10.34,
+            "width": 36.46,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 39.48,
+            "left": 12.2,
+            "width": 1.19,
+            "height": 1.0
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Joe starts work at 6pm _______ Mondays.",
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_1_2.mp3",
+          "input_blank_box": {
+            "top": 32.5,
+            "left": 9.82,
+            "width": 36.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 40.04,
+            "left": 53.79,
+            "width": 3.57,
+            "height": 3.61
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "You watch TV _______ the afternoon.",
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_1_3.mp3",
+          "input_blank_box": {
+            "top": 56.66,
+            "left": 7.96,
+            "width": 84.08,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 45.83,
+            "left": 10.64,
+            "width": 2.23,
+            "height": 1.99
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Harry plays tennis _______ Wednesdays.",
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_1_4.mp3",
+          "input_blank_box": {
+            "top": 58.9,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.08,
+            "left": 56.03,
+            "width": 2.46,
+            "height": 2.8
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "Lin goes swimming _______ the evening.",
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_1_5.mp3",
+          "input_blank_box": {
+            "top": 66.19,
+            "left": 9.9,
+            "width": 36.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 47.07,
+            "left": 11.31,
+            "width": 1.93,
+            "height": 1.25
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Alex goes fishing _______ the weekend.",
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_1_6.mp3",
+          "input_blank_box": {
+            "top": 72.04,
+            "left": 9.97,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.62,
+            "left": 54.17,
+            "width": 2.6,
+            "height": 2.68
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "He eats lunch at 1pm _______ Fridays.",
+          "correct_answer": "on",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_1_7.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 84.45,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "Sam goes to the gym _______ the morning.",
+          "correct_answer": "in",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_1_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "14.2",
+      "exercise_type": "multiple_choice",
+      "instruction": "MARK THE SENTENCES THAT ARE CORRECT",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "Choose the correct sentence:",
+          "options": [
+            "I play soccer on Mondays.",
+            "I play soccer at Mondays."
+          ],
+          "correct_answer": "I play soccer on Mondays.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_2_eg.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Choose the correct sentence:",
+          "options": [
+            "I work from Monday to Thursday.",
+            "I work of Monday to Thursday."
+          ],
+          "correct_answer": "I work from Monday to Thursday.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_2_1.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Choose the correct sentence:",
+          "options": [
+            "My sister go swimming every day.",
+            "My sister goes swimming every day."
+          ],
+          "correct_answer": "My sister goes swimming every day.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_2_2.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Choose the correct sentence:",
+          "options": [
+            "We go to the gym on Saturdays.",
+            "We go to the gym at Saturdays."
+          ],
+          "correct_answer": "We go to the gym on Saturdays.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_2_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Choose the correct sentence:",
+          "options": [
+            "You read the newspaper in Sundays.",
+            "You read the newspaper on Sundays."
+          ],
+          "correct_answer": "You read the newspaper on Sundays.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_2_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Peter goes to work on the weekend.",
+            "Peter goes to work from the weekend."
+          ],
+          "correct_answer": "Peter goes to work on the weekend.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_2_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Jennifer goes to a café for Fridays.",
+            "Jennifer goes to a café on Fridays."
+          ],
+          "correct_answer": "Jennifer goes to a café on Fridays.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_2_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Sam and Pete work to 9am from 5pm.",
+            "Sam and Pete work from 9am to 5pm."
+          ],
+          "correct_answer": "Sam and Pete work from 9am to 5pm.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/14/14_2_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

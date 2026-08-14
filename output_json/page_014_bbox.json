@@ -1,0 +1,454 @@
+{
+  "page_number": 14,
+  "unit_number": 2,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "2.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "COUNTRIES WRITE THE COUNTRY NAMES FROM THE PANEL UNDER THE CORRECT FLAGS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Turkey",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_eg.mp3",
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 93.45,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 21.73,
+            "left": 31.03,
+            "width": 3.72,
+            "height": 2.24
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "South Korea",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_1.mp3",
+          "input_blank_box": {
+            "top": 17.62,
+            "left": 9.15,
+            "width": 13.17,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.03,
+            "left": 29.69,
+            "width": 3.12,
+            "height": 2.43
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Thailand",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_2.mp3",
+          "input_blank_box": {
+            "top": 19.99,
+            "left": 45.01,
+            "width": 11.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.99,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Greece",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_3.mp3",
+          "input_blank_box": {
+            "top": 19.99,
+            "left": 65.55,
+            "width": 9.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.99,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Poland",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_4.mp3",
+          "input_blank_box": {
+            "top": 22.17,
+            "left": 44.94,
+            "width": 11.83,
+            "height": 3.42
+          },
+          "audio_icon_box": {
+            "top": 22.17,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Pakistan",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_10.mp3",
+          "input_blank_box": {
+            "top": 22.91,
+            "left": 65.7,
+            "width": 9.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 22.91,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Slovakia",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_11.mp3",
+          "input_blank_box": {
+            "top": 23.29,
+            "left": 81.1,
+            "width": 11.83,
+            "height": 4.42
+          },
+          "audio_icon_box": {
+            "top": 23.29,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 12,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Ireland",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_12.mp3",
+          "input_blank_box": {
+            "top": 25.4,
+            "left": 45.01,
+            "width": 11.68,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 25.4,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 13,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "China",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_13.mp3",
+          "input_blank_box": {
+            "top": 24.35,
+            "left": 63.1,
+            "width": 11.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.35,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Portugal",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_14.mp3",
+          "input_blank_box": {
+            "top": 25.72,
+            "left": 63.17,
+            "width": 11.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 25.72,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 20,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Singapore",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_20.mp3",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 9.08,
+            "width": 13.32,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 21,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Egypt",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_21.mp3",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 28.5,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 22,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Mongolia",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_22.mp3",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 46.58,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 23,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "United Kingdom",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_23.mp3",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 64.58,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 24,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "France",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_24.mp3",
+          "input_blank_box": {
+            "top": 29.51,
+            "left": 82.59,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.51,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 30,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "United Arab Emirates",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_30.mp3",
+          "input_blank_box": {
+            "top": 31.26,
+            "left": 9.6,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 31.26,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 31,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "New Zealand",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_31.mp3",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 10.42,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 32,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Germany",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_32.mp3",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 28.5,
+            "width": 11.01,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 33,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Austria",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_33.mp3",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 46.58,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 34,
+          "prompt_text": null,
+          "question": "Identify the country from the flag.",
+          "options": null,
+          "correct_answer": "Switzerland",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/2/2_1_34.mp3",
+          "input_blank_box": {
+            "top": 50.0,
+            "left": 64.58,
+            "width": 10.94,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

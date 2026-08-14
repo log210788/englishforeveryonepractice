@@ -1,0 +1,414 @@
+{
+  "page_number": 154,
+  "exercises": [
+    {
+      "exercise_id": "48.5",
+      "exercise_type": "multiple_choice",
+      "instruction": "CROSS OUT THE INCORRECT WORDS IN EACH SENTENCE",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Phillipa goes to college / the college.",
+          "options": [
+            "college",
+            "the college"
+          ],
+          "correct_answer": "college",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_5_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 42.19,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Rome is beautiful city / a beautiful city.",
+          "options": [
+            "beautiful city",
+            "a beautiful city"
+          ],
+          "correct_answer": "a beautiful city",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_5_2.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 51.26,
+            "width": 42.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We are at home / the home at the moment.",
+          "options": [
+            "home",
+            "the home"
+          ],
+          "correct_answer": "home",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_5_3.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 54.17,
+            "width": 36.68,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Sharon goes to the school / school at 9am.",
+          "options": [
+            "the school",
+            "school"
+          ],
+          "correct_answer": "school",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_5_4.mp3",
+          "input_blank_box": {
+            "top": 14.45,
+            "left": 53.94,
+            "width": 36.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.45,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "College / The college is far away.",
+          "options": [
+            "College",
+            "The college"
+          ],
+          "correct_answer": "The college",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 42.03,
+            "left": 9.82,
+            "width": 35.79,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Peter goes to bed / the bed at 10pm.",
+          "options": [
+            "bed",
+            "the bed"
+          ],
+          "correct_answer": "bed",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 49.63,
+            "left": 9.45,
+            "width": 36.31,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "My uncle is at mosque / the mosque today.",
+          "options": [
+            "mosque",
+            "the mosque"
+          ],
+          "correct_answer": "the mosque",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 53.42,
+            "left": 7.74,
+            "width": 39.73,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Jim goes to church / the church on Sundays.",
+          "options": [
+            "church",
+            "the church"
+          ],
+          "correct_answer": "church",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 53.42,
+            "left": 52.53,
+            "width": 39.73,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Sean leaves home / a home at 7:30am.",
+          "options": [
+            "home",
+            "a home"
+          ],
+          "correct_answer": "home",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 55.73,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Seb lives next to hospital / the hospital.",
+          "options": [
+            "hospital",
+            "the hospital"
+          ],
+          "correct_answer": "the hospital",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 63.01,
+            "left": 9.9,
+            "width": 36.61,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "48.6",
+      "exercise_type": "multiple_choice",
+      "instruction": "MARK THE SENTENCES THAT ARE CORRECT",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Carol leaves work at 6pm every day. / Carol leaves a work at 6pm every day.",
+          "options": [
+            "Carol leaves work at 6pm every day.",
+            "Carol leaves a work at 6pm every day."
+          ],
+          "correct_answer": "Carol leaves work at 6pm every day.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_6_1.mp3",
+          "input_blank_box": {
+            "top": 68.43,
+            "left": 9.97,
+            "width": 36.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 68.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Jane can drive you to school tomorrow. / Jane can drive you to a school tomorrow.",
+          "options": [
+            "Jane can drive you to school tomorrow.",
+            "Jane can drive you to a school tomorrow."
+          ],
+          "correct_answer": "Jane can drive you to school tomorrow.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_6_2.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.66,
+            "width": 84.67,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Chris lives across from hospital. / Chris lives across from the hospital.",
+          "options": [
+            "Chris lives across from hospital.",
+            "Chris lives across from the hospital."
+          ],
+          "correct_answer": "Chris lives across from the hospital.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_6_3.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Carl is at a home at the moment. / Carl is at home at the moment.",
+          "options": [
+            "Carl is at a home at the moment.",
+            "Carl is at home at the moment."
+          ],
+          "correct_answer": "Carl is at home at the moment.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_6_4.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Julia has beautiful horse. / Julia has a beautiful horse.",
+          "options": [
+            "Julia has beautiful horse.",
+            "Julia has a beautiful horse."
+          ],
+          "correct_answer": "Julia has a beautiful horse.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_6_5.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "The hospital isn't very far. / Hospital isn't very far.",
+          "options": [
+            "The hospital isn't very far.",
+            "Hospital isn't very far."
+          ],
+          "correct_answer": "The hospital isn't very far.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_6_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "We go to bed at 11pm usually. / We go to the bed at 11pm usually.",
+          "options": [
+            "We go to bed at 11pm usually.",
+            "We go to the bed at 11pm usually."
+          ],
+          "correct_answer": "We go to bed at 11pm usually.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_6_7.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Ottersley is a beautiful town. / Ottersley is beautiful town.",
+          "options": [
+            "Ottersley is a beautiful town.",
+            "Ottersley is beautiful town."
+          ],
+          "correct_answer": "Ottersley is a beautiful town.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_6_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Your shoes are under bed. / Your shoes are under the bed.",
+          "options": [
+            "Your shoes are under bed.",
+            "Your shoes are under the bed."
+          ],
+          "correct_answer": "Your shoes are under the bed.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_6_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

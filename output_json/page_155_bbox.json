@@ -1,0 +1,288 @@
+{
+  "page_number": 155,
+  "exercises": [
+    {
+      "exercise_id": "48.7",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Sally is in the hospital. She is ill.",
+          "correct_answer": "Sally is in hospital. She is ill.",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "York is the pretty town.",
+          "correct_answer": "York is a pretty town.",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 37.35,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "She is at a home now.",
+          "correct_answer": "She is at home now.",
+          "input_blank_box": {
+            "top": 16.69,
+            "left": 9.45,
+            "width": 37.95,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Lizzie goes to the church on Sundays.",
+          "correct_answer": "Lizzie goes to church on Sundays.",
+          "input_blank_box": {
+            "top": 15.44,
+            "left": 10.64,
+            "width": 37.13,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Bob is at the work at the moment.",
+          "correct_answer": "Bob is at work at the moment.",
+          "input_blank_box": {
+            "top": 16.44,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Christopher has new car.",
+          "correct_answer": "Christopher has a new car.",
+          "input_blank_box": {
+            "top": 22.54,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Jim goes to the bed early on Sundays.",
+          "correct_answer": "Jim goes to bed early on Sundays.",
+          "input_blank_box": {
+            "top": 22.54,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "Carlos is the very talented boy.",
+          "correct_answer": "Carlos is a very talented boy.",
+          "input_blank_box": {
+            "top": 28.58,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "Sarah and John are great team.",
+          "correct_answer": "Sarah and John are a great team.",
+          "input_blank_box": {
+            "top": 28.58,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "Mary bought the three new pens.",
+          "correct_answer": "Mary bought three new pens.",
+          "input_blank_box": {
+            "top": 34.68,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "He jumped into a water and started swimming.",
+          "correct_answer": "He jumped into the water and started swimming.",
+          "input_blank_box": {
+            "top": 34.68,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "New York is the beautiful city.",
+          "correct_answer": "New York is a beautiful city.",
+          "input_blank_box": {
+            "top": 40.78,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "A children were playing in the sun.",
+          "correct_answer": "The children were playing in the sun.",
+          "input_blank_box": {
+            "top": 40.78,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "I can't play the soccer on Monday.",
+          "correct_answer": "I can't play soccer on Monday.",
+          "input_blank_box": {
+            "top": 46.89,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "Can you play a classical guitar?",
+          "correct_answer": "Can you play the classical guitar?",
+          "input_blank_box": {
+            "top": 46.89,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "48.8",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND MATCH THE PICTURES TO THE NAMES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Match picture 1 to a name",
+          "options": [
+            "Sarah",
+            "Helen",
+            "Robert",
+            "Oliver",
+            "Eddie"
+          ],
+          "correct_answer": "Helen",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_8.mp3",
+          "input_blank_box": {
+            "top": 52.93,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 52.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Match picture 2 to a name",
+          "options": [
+            "Sarah",
+            "Helen",
+            "Robert",
+            "Oliver",
+            "Eddie"
+          ],
+          "correct_answer": "Robert",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_8.mp3",
+          "input_blank_box": {
+            "top": 52.93,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 52.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Match picture 3 to a name",
+          "options": [
+            "Sarah",
+            "Helen",
+            "Robert",
+            "Oliver",
+            "Eddie"
+          ],
+          "correct_answer": "Oliver",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_8.mp3",
+          "input_blank_box": {
+            "top": 59.03,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 59.03,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Match picture 4 to a name",
+          "options": [
+            "Sarah",
+            "Helen",
+            "Robert",
+            "Oliver",
+            "Eddie"
+          ],
+          "correct_answer": "Eddie",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/48/48_8.mp3",
+          "input_blank_box": {
+            "top": 59.03,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 59.03,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

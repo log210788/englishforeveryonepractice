@@ -1,0 +1,72 @@
+{
+  "page_number": 87,
+  "exercises": [
+    {
+      "exercise_id": "1",
+      "exercise_type": "matching",
+      "instruction": "Label the pictures with the words from the box.",
+      "items": [
+        {
+          "item_number": 4,
+          "question": "house",
+          "correct_answer": "house"
+        },
+        {
+          "item_number": 5,
+          "question": "wardrobe",
+          "correct_answer": "wardrobe"
+        },
+        {
+          "item_number": 6,
+          "question": "bath",
+          "correct_answer": "bath"
+        },
+        {
+          "item_number": 7,
+          "question": "garage",
+          "correct_answer": "garage"
+        },
+        {
+          "item_number": 12,
+          "question": "dining room",
+          "correct_answer": "dining room"
+        },
+        {
+          "item_number": 13,
+          "question": "door",
+          "correct_answer": "door"
+        },
+        {
+          "item_number": 14,
+          "question": "window",
+          "correct_answer": "window"
+        },
+        {
+          "item_number": 15,
+          "question": "table",
+          "correct_answer": "table"
+        },
+        {
+          "item_number": 20,
+          "question": "bed",
+          "correct_answer": "bed"
+        },
+        {
+          "item_number": 21,
+          "question": "bookcase",
+          "correct_answer": "bookcase"
+        },
+        {
+          "item_number": 22,
+          "question": "bathroom",
+          "correct_answer": "bathroom"
+        },
+        {
+          "item_number": 23,
+          "question": "armchair",
+          "correct_answer": "armchair"
+        }
+      ]
+    }
+  ]
+}

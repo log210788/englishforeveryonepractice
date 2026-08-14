@@ -1,0 +1,193 @@
+{
+  "page_number": 67,
+  "unit_number": 21,
+  "unit_title": "Towns",
+  "exercises": [
+    {
+      "exercise_id": "21.4",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND NUMBER THE PICTURES IN THE ORDER THEY ARE DESCRIBED",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Picture C",
+          "correct_answer": "1",
+          "audio_icon_present": true,
+          "audio_track_ref": "21.4",
+          "audio_file_path": "audio/21/21_4_1.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 4.86,
+            "left": 15.92,
+            "width": 1.12,
+            "height": 1.31
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "21.5",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE EACH SENTENCE IN THE NEGATIVE FORM",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "There is a school.",
+          "correct_answer": "There isn't a school.",
+          "audio_file_path": "audio/21/21_5_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 13.89,
+            "left": 86.01,
+            "width": 9.3,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 12.7,
+            "left": 15.4,
+            "width": 4.69,
+            "height": 4.48
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There are two churches.",
+          "correct_answer": "There aren't two churches.",
+          "audio_file_path": "audio/21/21_5_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.75,
+            "left": 87.2,
+            "width": 8.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.76,
+            "left": 25.15,
+            "width": 4.69,
+            "height": 3.49
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "There is a café.",
+          "correct_answer": "There isn't a café.",
+          "audio_file_path": "audio/21/21_5_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.19,
+            "left": 8.56,
+            "width": 26.12,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 13.7,
+            "left": 69.27,
+            "width": 1.93,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "There is a library.",
+          "correct_answer": "There isn't a library.",
+          "audio_file_path": "audio/21/21_5_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 18.18,
+            "left": 51.49,
+            "width": 13.84,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.43,
+            "left": 87.35,
+            "width": 2.83,
+            "height": 1.74
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "There are two airports.",
+          "correct_answer": "There aren't two airports.",
+          "audio_file_path": "audio/21/21_5_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 24.1,
+            "left": 24.55,
+            "width": 9.6,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.81,
+            "left": 92.04,
+            "width": 3.79,
+            "height": 3.99
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "There are three hotels.",
+          "correct_answer": "There aren't three hotels.",
+          "audio_file_path": "audio/21/21_5_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 25.59,
+            "left": 66.15,
+            "width": 18.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 24.72,
+            "left": 86.01,
+            "width": 2.9,
+            "height": 1.81
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "There are two parks.",
+          "correct_answer": "There aren't two parks.",
+          "audio_file_path": "audio/21/21_5_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.09,
+            "left": 4.99,
+            "width": 9.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.9,
+            "left": 58.71,
+            "width": 1.26,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "There is a town hall.",
+          "correct_answer": "There isn't a town hall.",
+          "audio_file_path": "audio/21/21_5_8.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 28.21,
+            "left": 49.63,
+            "width": 14.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.12,
+            "left": 19.64,
+            "width": 5.28,
+            "height": 3.86
+          }
+        }
+      ]
+    }
+  ]
+}

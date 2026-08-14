@@ -1,0 +1,273 @@
+{
+  "page_number": 37,
+  "unit_number": 11,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "11.3",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE TIMES USING FIGURES",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "It's a quarter to six.",
+          "question": "It's a quarter to six. =",
+          "correct_answer": "05:45",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "It's a quarter past eleven. =",
+          "correct_answer": "11:15",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "It's eleven o'clock. =",
+          "correct_answer": "11:00",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "It's eight twenty-four. =",
+          "correct_answer": "08:24",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "It's half past three. =",
+          "correct_answer": "03:30",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "It's a quarter to three. =",
+          "correct_answer": "02:45",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "It's five twenty-five. =",
+          "correct_answer": "05:25",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "It's three forty-nine. =",
+          "correct_answer": "03:49",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "It's two fifteen. =",
+          "correct_answer": "02:15",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "It's nine o'clock. =",
+          "correct_answer": "09:00",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_9.mp3"
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "It's a quarter to eight. =",
+          "correct_answer": "07:45",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_10.mp3"
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "It's half past eleven. =",
+          "correct_answer": "11:30",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_11.mp3"
+        },
+        {
+          "item_number": 12,
+          "prompt_text": null,
+          "question": "It's nine twenty-five. =",
+          "correct_answer": "09:25",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_12.mp3"
+        },
+        {
+          "item_number": 13,
+          "prompt_text": null,
+          "question": "It's a quarter after ten. =",
+          "correct_answer": "10:15",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_13.mp3"
+        },
+        {
+          "item_number": 14,
+          "prompt_text": null,
+          "question": "It's eleven twenty. =",
+          "correct_answer": "11:20",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_14.mp3"
+        },
+        {
+          "item_number": 15,
+          "prompt_text": null,
+          "question": "It's one fifty-five. =",
+          "correct_answer": "01:55",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_15.mp3"
+        },
+        {
+          "item_number": 16,
+          "prompt_text": null,
+          "question": "It's quarter to seven. =",
+          "correct_answer": "06:45",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_16.mp3"
+        },
+        {
+          "item_number": 17,
+          "prompt_text": null,
+          "question": "It's six forty-five. =",
+          "correct_answer": "06:45",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_3_17.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "11.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "LOOK AT THE PICTURES, THEN SAY EACH TIME OUT LOUD",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "09:15",
+          "question": "09:15",
+          "correct_answer": "It's a quarter past nine.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "09:45",
+          "question": "09:45",
+          "correct_answer": "It's a quarter to ten.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "04:00",
+          "question": "04:00",
+          "correct_answer": "It's four o'clock.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "10:20",
+          "question": "10:20",
+          "correct_answer": "It's ten twenty.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "11:30",
+          "question": "11:30",
+          "correct_answer": "It's half past eleven.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "03:47",
+          "question": "03:47",
+          "correct_answer": "It's three forty-seven.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "03:15",
+          "question": "03:15",
+          "correct_answer": "It's a quarter past three.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "06:30",
+          "question": "06:30",
+          "correct_answer": "It's half past six.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_7.mp3"
+        },
+        {
+          "item_number": 8,
+          "prompt_text": "08:22",
+          "question": "08:22",
+          "correct_answer": "It's eight twenty-two.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_8.mp3"
+        },
+        {
+          "item_number": 9,
+          "prompt_text": "01:25",
+          "question": "01:25",
+          "correct_answer": "It's one twenty-five.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/11/11_4_9.mp3"
+        }
+      ]
+    }
+  ]
+}

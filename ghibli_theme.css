@@ -1,0 +1,1856 @@
+/* ==========================================================================
+   Studio Ghibli Interactive Edition — Design Tokens & Theme Engine
+   ghibli_theme.css
+   ========================================================================== */
+
+:root {
+  /* Ghibli Watercolor Color Palette (Day Theme) */
+  --ghibli-bg-green: #2c4a38;
+  --ghibli-parchment: #fdfaf2;
+  --ghibli-card-bg: rgba(255, 253, 245, 0.95);
+  --ghibli-card-border: rgba(226, 215, 195, 0.8);
+  --ghibli-accent-gold: #e5a93c;
+  --ghibli-accent-amber: #d97724;
+  --ghibli-accent-green: #48825c;
+  --ghibli-accent-blue: #3d7ea6;
+  --ghibli-text-main: #2b261f;
+  --ghibli-text-muted: #5c5446;
+  --ghibli-border: #e2d7c3;
+  --ghibli-shadow: 0 10px 30px rgba(44, 74, 56, 0.18);
+  --ghibli-glow-gold: 0 0 16px rgba(229, 169, 60, 0.5);
+
+  /* Validation Feedback Colors */
+  --ghibli-success: #2e7d32;
+  --ghibli-success-bg: rgba(46, 125, 50, 0.14);
+  --ghibli-error: #c62828;
+  --ghibli-error-bg: rgba(198, 40, 40, 0.14);
+
+  /* Border Radii */
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 8px;
+  --radius-pill: 50px;
+
+  /* Typography */
+  --font-heading: 'Outfit', 'Playfair Display', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Atmospheric Background Asset */
+  --ghibli-bg-url: url('images/ghibli/bg.jpg');
+}
+
+/* 🌅 Sunset Theme Overrides */
+body.theme-sunset {
+  --ghibli-bg-url: url('images/ghibli/sunset.jpg');
+  --ghibli-card-bg: rgba(255, 246, 235, 0.95);
+  --ghibli-accent-amber: #e65100;
+  --ghibli-border: #f0cbab;
+  --ghibli-text-main: #2d1e18;
+  --ghibli-shadow: 0 10px 30px rgba(120, 50, 20, 0.22);
+}
+
+/* 🌙 Night Theme High-Contrast Overrides */
+body.theme-night {
+  --ghibli-bg-url: url('images/ghibli/night.jpg');
+  --ghibli-card-bg: rgba(20, 32, 44, 0.93);
+  --ghibli-card-border: rgba(51, 65, 85, 0.8);
+  --ghibli-parchment: #182430;
+  --ghibli-text-main: #f8fafc;
+  --ghibli-text-muted: #cbd5e1;
+  --ghibli-border: #334155;
+  --ghibli-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
+  --ghibli-success-bg: rgba(46, 125, 50, 0.35);
+  --ghibli-error-bg: rgba(198, 40, 40, 0.35);
+}
+
+/* ==========================================================================
+   Base & Reset
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--ghibli-bg-green);
+  color: var(--ghibli-text-main);
+  min-height: 100vh;
+  line-height: 1.6;
+  position: relative;
+  overflow-x: hidden;
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+/* Fixed Background Overlay & Vignette */
+.ghibli-bg-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image: var(--ghibli-bg-url);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background-image 0.8s ease-in-out;
+}
+
+.ghibli-vignette {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(circle at center, transparent 40%, rgba(0, 0, 0, 0.35) 100%);
+}
+
+#firefliesContainer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.firefly {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  background: #ffee58;
+  border-radius: 50%;
+  box-shadow: 0 0 12px #ffee58, 0 0 22px #ffeb3b;
+  pointer-events: none;
+  z-index: 0;
+  animation: float-firefly 6s ease-in-out infinite alternate;
+}
+
+@keyframes float-firefly {
+  0% { transform: translate(0, 0) scale(0.7); opacity: 0.2; }
+  50% { opacity: 1; transform: translate(25px, -45px) scale(1.3); }
+  100% { transform: translate(-20px, -90px) scale(0.8); opacity: 0.3; }
+}
+
+/* ==========================================================================
+   Layout Containers
+   ========================================================================== */
+
+.ghibli-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 20px 140px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header Navbar */
+.ghibli-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 24px;
+  background: var(--ghibli-card-bg);
+  border: 1px solid var(--ghibli-card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--ghibli-shadow);
+  backdrop-filter: blur(14px);
+  margin-bottom: 20px;
+}
+
+.ghibli-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.ghibli-logo-badge {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ghibli-accent-gold), var(--ghibli-accent-amber));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  box-shadow: 0 4px 12px rgba(229, 169, 60, 0.4);
+}
+
+.ghibli-title-wrap h1 {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.ghibli-subtitle {
+  font-size: 0.85rem;
+  color: var(--ghibli-text-muted);
+  font-weight: 500;
+}
+
+.ghibli-header-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Time of Day Theme Switcher Group */
+.tod-group {
+  display: flex;
+  background: rgba(0, 0, 0, 0.08);
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--ghibli-border);
+}
+
+body.theme-night .tod-group {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.tod-btn {
+  background: transparent;
+  border: none;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ghibli-text-muted);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tod-btn.active {
+  background: linear-gradient(135deg, var(--ghibli-accent-gold), var(--ghibli-accent-amber));
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(229, 169, 60, 0.4);
+}
+
+.tod-btn:hover:not(.active) {
+  color: var(--ghibli-text-main);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Score Badge */
+.ghibli-score-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(229, 169, 60, 0.15);
+  border: 1.5px solid var(--ghibli-accent-gold);
+  border-radius: var(--radius-pill);
+  color: var(--ghibli-accent-amber);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease;
+}
+
+body.theme-night .ghibli-score-badge {
+  color: var(--ghibli-accent-gold);
+}
+
+.ghibli-score-badge.bump {
+  animation: score-bump 0.4s ease;
+}
+
+@keyframes score-bump {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+
+/* Standard Action Buttons */
+.ghibli-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.ghibli-btn-primary {
+  background: linear-gradient(135deg, var(--ghibli-accent-gold), var(--ghibli-accent-amber));
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(217, 119, 36, 0.35);
+}
+
+.ghibli-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(217, 119, 36, 0.45);
+}
+
+.ghibli-btn-secondary {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--ghibli-text-main);
+  border: 1px solid var(--ghibli-border);
+}
+
+body.theme-night .ghibli-btn-secondary {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.ghibli-btn-secondary:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+/* Navigation Bar (.chapter-nav-bar and .page-nav-bar) */
+.chapter-nav-bar,
+.page-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px 20px;
+  background: var(--ghibli-card-bg);
+  border: 1px solid var(--ghibli-card-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--ghibli-shadow);
+  margin-bottom: 24px;
+}
+
+.nav-link-btn,
+.nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  background: var(--ghibli-parchment);
+  color: var(--ghibli-text-main);
+  border: 1.5px solid var(--ghibli-border);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.88rem;
+  transition: all 0.2s ease;
+}
+
+.nav-link-btn:hover:not(.disabled),
+.nav-btn:hover:not(.disabled) {
+  border-color: var(--ghibli-accent-gold);
+  color: var(--ghibli-accent-amber);
+  transform: translateY(-1px);
+}
+
+.nav-link-btn.disabled,
+.nav-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.nav-page-badge {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ghibli-accent-green);
+  background: rgba(72, 130, 92, 0.12);
+  padding: 6px 16px;
+  border-radius: var(--radius-pill);
+}
+
+body.theme-night .nav-page-badge {
+  color: #6ee7b7;
+  background: rgba(110, 231, 183, 0.15);
+}
+
+/* ==========================================================================
+   Hero Header Banner
+   ========================================================================== */
+
+.ghibli-hero-card {
+  padding: 28px 36px;
+  background: var(--ghibli-card-bg);
+  border: 1px solid var(--ghibli-card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--ghibli-shadow);
+  margin-bottom: 28px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+/* Column layout fallback for simple hero cards without key box */
+.ghibli-hero-card:not(:has(.ghibli-unit-key-box)) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ghibli-hero-main {
+  flex: 1 1 300px;
+  max-width: 400px;
+  min-width: 0;
+  padding-right: 24px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.ghibli-hero-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--ghibli-accent-gold), var(--ghibli-accent-green));
+}
+
+.ghibli-unit-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--ghibli-accent-amber);
+  margin-bottom: 6px;
+}
+
+.ghibli-hero-title {
+  font-family: var(--font-heading);
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: var(--ghibli-text-main);
+  line-height: 1.25;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.ghibli-hero-desc {
+  color: var(--ghibli-text-muted);
+  font-size: 0.95rem;
+  margin-top: 10px;
+  line-height: 1.55;
+  font-weight: 500;
+  max-width: 360px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Key Box Next to Description */
+.ghibli-unit-key-box {
+  flex: 0 0 320px;
+  width: 320px;
+  max-width: 100%;
+  margin-left: auto;
+  background: linear-gradient(135deg, #fdf8eb 0%, #f6edd9 100%);
+  border: 2px solid #e2d2b5;
+  outline: 1px dashed rgba(229, 169, 60, 0.45);
+  outline-offset: -6px;
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  box-shadow: inset 0 0 15px rgba(229, 169, 60, 0.08), 0 8px 20px rgba(44, 74, 56, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: center;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ghibli-unit-key-box:hover {
+  transform: translateY(-2px);
+  box-shadow: inset 0 0 20px rgba(229, 169, 60, 0.12), 0 12px 28px rgba(44, 74, 56, 0.16);
+}
+
+body.theme-night .ghibli-unit-key-box {
+  background: linear-gradient(135deg, #192634 0%, #121c27 100%);
+  border-color: #2e4156;
+  outline-color: rgba(72, 130, 92, 0.4);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 860px) {
+  .ghibli-hero-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ghibli-hero-main {
+    max-width: 100%;
+    padding-right: 0;
+  }
+  .ghibli-unit-key-box {
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+    margin-left: 0;
+  }
+}
+
+.key-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  border-left: 4px solid var(--ghibli-accent-green);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  transition: all 0.25s ease;
+}
+
+body.theme-night .key-item {
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.key-item:nth-child(1) {
+  border-left-color: var(--ghibli-accent-amber);
+  background: rgba(217, 119, 36, 0.06);
+}
+
+.key-item:nth-child(2) {
+  border-left-color: var(--ghibli-accent-green);
+  background: rgba(72, 130, 92, 0.06);
+}
+
+.key-item:nth-child(3) {
+  border-left-color: var(--ghibli-accent-blue);
+  background: rgba(61, 126, 166, 0.06);
+}
+
+body.theme-night .key-item:nth-child(1) {
+  background: rgba(217, 119, 36, 0.12);
+}
+body.theme-night .key-item:nth-child(2) {
+  background: rgba(72, 130, 92, 0.12);
+}
+body.theme-night .key-item:nth-child(3) {
+  background: rgba(61, 126, 166, 0.12);
+}
+
+.key-item:hover {
+  transform: translateX(4px);
+}
+
+.key-label {
+  font-size: 0.74rem;
+  font-weight: 800;
+  color: var(--ghibli-accent-amber);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.key-item:nth-child(1) .key-label { color: #c86817; }
+.key-item:nth-child(2) .key-label { color: #356b49; }
+.key-item:nth-child(3) .key-label { color: #2b6488; }
+
+body.theme-night .key-item:nth-child(1) .key-label { color: #f97316; }
+body.theme-night .key-item:nth-child(2) .key-label { color: #4ade80; }
+body.theme-night .key-item:nth-child(3) .key-label { color: #38bdf8; }
+
+.key-label i {
+  font-size: 0.82rem;
+}
+
+.key-value {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ghibli-text-main);
+  line-height: 1.35;
+}
+
+/* ==========================================================================
+   Exercise Cards & Modules
+   ========================================================================== */
+
+.ghibli-exercises-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.ghibli-exercise-card {
+  background: var(--ghibli-card-bg);
+  border: 1px solid var(--ghibli-card-border);
+  border-radius: var(--radius-lg);
+  padding: 26px;
+  box-shadow: var(--ghibli-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.exercise-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--ghibli-border);
+}
+
+.exercise-num {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--ghibli-accent-green), #2c5e3b);
+  padding: 6px 14px;
+  border-radius: var(--radius-md);
+  white-space: nowrap;
+}
+
+.exercise-instruction {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ghibli-text-main);
+  line-height: 1.35;
+}
+/* Section Container & Exercise Header Fallback Classes */
+.ghibli-section {
+  background: var(--ghibli-card-bg);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  border: 1px solid var(--ghibli-card-border);
+  box-shadow: var(--ghibli-shadow);
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.ghibli-section-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed var(--ghibli-border);
+}
+
+.ghibli-ex-num {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--ghibli-accent-green), #2c5e3b);
+  padding: 6px 14px;
+  border-radius: var(--radius-md);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.ghibli-ex-instruction {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ghibli-text-main);
+  line-height: 1.35;
+}
+
+.ghibli-ex-subtext {
+  font-size: 0.95rem;
+  color: var(--ghibli-text-muted);
+  margin-top: 4px;
+}
+
+
+
+
+.exercise-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ==========================================================================
+   Interactive Input Elements & Media Controls
+   ========================================================================== */
+
+/* Universal Inputs */
+.ghibli-input,
+.ex1-1-input,
+.order-input {
+  padding: 10px 16px;
+  border: 2px solid var(--ghibli-border);
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  font-family: var(--font-body);
+  background: var(--ghibli-parchment);
+  color: var(--ghibli-text-main);
+  outline: none;
+  transition: all 0.2s ease;
+  min-width: 140px;
+}
+
+body.theme-night .ghibli-input,
+body.theme-night .ex1-1-input,
+body.theme-night .order-input {
+  background: #1e2c38;
+  color: #ffffff;
+}
+
+.ghibli-input:focus,
+.ex1-1-input:focus,
+.order-input:focus {
+  border-color: var(--ghibli-accent-gold);
+  box-shadow: 0 0 0 3px rgba(229, 169, 60, 0.25);
+}
+
+/* Validation Feedback Highlights */
+.ghibli-input.correct,
+.ex1-1-input.correct,
+.order-input.correct,
+.ghibli-drop-slot.correct,
+.ghibli-matching-select.correct,
+.ghibli-select-matching.correct,
+.ghibli-option.correct,
+.tf-btn.correct,
+select.ghibli-input.correct {
+  border: 2.5px solid #2d5a27 !important;
+  background-color: rgba(45, 90, 39, 0.12) !important;
+  color: #2d5a27 !important;
+  font-weight: 700 !important;
+  box-shadow: 0 0 0 3px rgba(45, 90, 39, 0.25) !important;
+}
+
+body.theme-night .ghibli-input.correct,
+body.theme-night .ex1-1-input.correct,
+body.theme-night .order-input.correct,
+body.theme-night .ghibli-drop-slot.correct,
+body.theme-night .ghibli-matching-select.correct,
+body.theme-night .ghibli-select-matching.correct,
+body.theme-night .ghibli-option.correct,
+body.theme-night .tf-btn.correct,
+body.theme-night select.ghibli-input.correct {
+  color: #4ade80 !important;
+  border: 2.5px solid #22c55e !important;
+  background-color: rgba(34, 197, 94, 0.2) !important;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.3) !important;
+}
+
+.ghibli-input.incorrect,
+.ex1-1-input.incorrect,
+.order-input.incorrect,
+.ghibli-drop-slot.incorrect,
+.ghibli-matching-select.incorrect,
+.ghibli-select-matching.incorrect,
+.ghibli-option.incorrect,
+.tf-btn.incorrect,
+select.ghibli-input.incorrect {
+  border: 2.5px solid #dc2626 !important;
+  background-color: rgba(220, 38, 38, 0.12) !important;
+  color: #dc2626 !important;
+  font-weight: 700 !important;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.25) !important;
+  animation: ghibli-shake 0.4s ease;
+}
+
+body.theme-night .ghibli-input.incorrect,
+body.theme-night .ex1-1-input.incorrect,
+body.theme-night .order-input.incorrect,
+body.theme-night .ghibli-drop-slot.incorrect,
+body.theme-night .ghibli-matching-select.incorrect,
+body.theme-night .ghibli-select-matching.incorrect,
+body.theme-night .ghibli-option.incorrect,
+body.theme-night .tf-btn.incorrect,
+body.theme-night select.ghibli-input.incorrect {
+  color: #f87171 !important;
+  border: 2.5px solid #ef4444 !important;
+  background-color: rgba(239, 68, 68, 0.2) !important;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.3) !important;
+}
+
+@keyframes ghibli-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+/* Audio Player Trigger Button */
+.ghibli-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ghibli-accent-blue), #2b5978);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  box-shadow: 0 3px 8px rgba(61, 126, 166, 0.3);
+}
+
+.ghibli-audio-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(61, 126, 166, 0.45);
+}
+
+.ghibli-audio-btn.playing {
+  background: linear-gradient(135deg, var(--ghibli-accent-gold), var(--ghibli-accent-amber));
+  animation: audio-glow 1.2s infinite alternate;
+}
+
+@keyframes audio-glow {
+  0% { box-shadow: 0 0 4px var(--ghibli-accent-gold); }
+  100% { box-shadow: 0 0 16px var(--ghibli-accent-amber); }
+}
+
+/* Voice Recorder Buttons */
+.ghibli-rec-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--ghibli-border);
+  color: var(--ghibli-text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ghibli-rec-btn:hover {
+  border-color: var(--ghibli-error);
+  color: var(--ghibli-error);
+}
+
+.ghibli-rec-btn.recording {
+  background: var(--ghibli-error);
+  color: #ffffff;
+  border-color: var(--ghibli-error);
+  animation: rec-pulse 1s infinite alternate;
+}
+
+@keyframes rec-pulse {
+  0% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0.85; transform: scale(1.05); }
+}
+
+.my-voice-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background: rgba(46, 125, 50, 0.15);
+  border: 1px solid var(--ghibli-success);
+  color: var(--ghibli-success);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.my-voice-btn:hover {
+  background: var(--ghibli-success);
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Exercise Type 1: Fill in the Blank
+   ========================================================================== */
+
+.fill-blank-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 14px 18px;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--ghibli-border);
+}
+
+body.theme-night .fill-blank-item {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.item-index {
+  font-weight: 700;
+  color: var(--ghibli-accent-amber);
+  min-width: 24px;
+}
+
+.item-text {
+  font-size: 1.05rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+}
+
+/* ==========================================================================
+   Exercise Type 2: Sentence Ordering
+   ========================================================================== */
+
+.ghibli-ordering-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--ghibli-border);
+}
+
+.word-pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px;
+  background: var(--ghibli-parchment);
+  border: 1.5px dashed var(--ghibli-border);
+  border-radius: var(--radius-sm);
+  min-height: 48px;
+}
+
+body.theme-night .word-pool {
+  background: #182430;
+}
+
+.word-chip {
+  display: inline-block;
+  padding: 6px 14px;
+  background: var(--ghibli-card-bg);
+  border: 1.5px solid var(--ghibli-accent-gold);
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ghibli-text-main);
+  cursor: grab;
+  user-select: none;
+  transition: all 0.15s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.word-chip:hover {
+  transform: translateY(-2px);
+  border-color: var(--ghibli-accent-amber);
+}
+
+.word-chip.dragging {
+  opacity: 0.5;
+}
+
+/* Drop target area */
+.ghibli-drop-slot {
+  min-height: 52px;
+  padding: 8px 12px;
+  background: rgba(229, 169, 60, 0.08);
+  border: 2px dashed var(--ghibli-accent-gold);
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+/* ==========================================================================
+   Exercise Type 3: Multiple Choice
+   ========================================================================== */
+
+.ghibli-mc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mc-prompt-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.mc-options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.ghibli-option {
+  padding: 12px 18px;
+  background: var(--ghibli-parchment);
+  border: 2px solid var(--ghibli-border);
+  border-radius: var(--radius-md);
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--ghibli-text-main);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body.theme-night .ghibli-option {
+  background: #1e2c38;
+}
+
+.ghibli-option:hover {
+  border-color: var(--ghibli-accent-gold);
+  transform: translateY(-1px);
+}
+
+.ghibli-option.selected {
+  border-color: var(--ghibli-accent-blue);
+  background: rgba(61, 126, 166, 0.12);
+  color: var(--ghibli-accent-blue);
+}
+
+body.theme-night .ghibli-option.selected {
+  color: #38bdf8;
+  border-color: #38bdf8;
+}
+
+/* ==========================================================================
+   Exercise Type 4: Matching
+   ========================================================================== */
+
+.ghibli-matching-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.matching-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--ghibli-border);
+}
+
+body.theme-night .matching-row {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.matching-prompt {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.ghibli-matching-select {
+  padding: 10px 14px;
+  border: 2px solid var(--ghibli-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  background: var(--ghibli-parchment);
+  color: var(--ghibli-text-main);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+body.theme-night .ghibli-matching-select {
+  background: #1e2c38;
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Exercise Type 5: Audio Listen
+   ========================================================================== */
+
+.ghibli-audio-listen-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.audio-item-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 14px 18px;
+  background: rgba(61, 126, 166, 0.06);
+  border: 1px solid rgba(61, 126, 166, 0.25);
+  border-radius: var(--radius-md);
+}
+
+body.theme-night .audio-item-row {
+  background: rgba(61, 126, 166, 0.15);
+}
+
+/* ==========================================================================
+   Exercise Type 6: True / False
+   ========================================================================== */
+
+.ghibli-tf-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tf-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 12px 18px;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--ghibli-border);
+}
+
+body.theme-night .tf-row {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.tf-statement {
+  font-size: 1.02rem;
+  font-weight: 600;
+  flex: 1;
+}
+
+.tf-btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.tf-btn {
+  padding: 8px 20px;
+  border: 2px solid var(--ghibli-border);
+  border-radius: var(--radius-pill);
+  background: var(--ghibli-parchment);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--ghibli-text-main);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+body.theme-night .tf-btn {
+  background: #1e2c38;
+}
+
+.tf-btn:hover {
+  border-color: var(--ghibli-accent-gold);
+}
+
+.tf-btn.selected {
+  border-color: var(--ghibli-accent-amber);
+  background: rgba(217, 119, 36, 0.15);
+  color: var(--ghibli-accent-amber);
+}
+
+/* ==========================================================================
+   Kodama Mascot & Pomodoro Timer Widget
+   ========================================================================== */
+
+#mascotWidget,
+.ghibli-mascot-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.mascot-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mascot-avatar {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  cursor: pointer;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3));
+  animation: mascot-float 4s ease-in-out infinite alternate;
+  transition: transform 0.2s ease;
+}
+
+.mascot-avatar:hover {
+  transform: scale(1.15) rotate(5deg);
+}
+
+@keyframes mascot-float {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-8px); }
+}
+
+#mascotBubble,
+.mascot-speech-bubble {
+  position: relative;
+  min-width: 260px;
+  max-width: 320px;
+  background: var(--ghibli-card-bg);
+  border: 2px solid var(--ghibli-accent-gold);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ghibli-text-main);
+  display: none;
+  animation: bubble-pop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#mascotBubble::after,
+.mascot-speech-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  right: 24px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--ghibli-accent-gold);
+}
+
+@keyframes bubble-pop {
+  0% { opacity: 0; transform: scale(0.7) translateY(10px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* Pomodoro Pill */
+.pomodoro-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(20, 30, 25, 0.85);
+  color: #ffffff;
+  border: 2px solid var(--ghibli-accent-gold);
+  border-radius: var(--radius-pill);
+  font-family: monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+}
+
+.pomodoro-pill:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(229, 169, 60, 0.4);
+}
+
+.pomodoro-pill.break-mode {
+  border-color: var(--ghibli-accent-amber);
+  background: rgba(45, 20, 10, 0.85);
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .ghibli-container {
+    padding: 16px 12px 140px 12px;
+  }
+
+  .ghibli-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ghibli-header-actions {
+    justify-content: space-between;
+  }
+
+  .matching-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .mc-options-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #mascotWidget {
+    bottom: 16px;
+    right: 16px;
+  }
+
+  #mascotBubble {
+    max-width: 260px;
+  }
+}
+
+/* ==========================================================================
+   Full-Width & Expandable Input Rules (Prevents text clipping in Ex 3.2 & cards)
+   ========================================================================== */
+.fill-blank-item .ghibli-input {
+  min-width: 360px !important;
+  flex: 2 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  font-size: 1.05rem !important;
+  padding: 10px 16px !important;
+}
+
+.ghibli-char-card .ghibli-input-wrap .ghibli-input,
+.ghibli-input-sentence,
+.ex32-sentence-input {
+  width: 100% !important;
+  min-width: 360px !important;
+  box-sizing: border-box !important;
+  font-size: 1.05rem !important;
+  padding: 10px 16px !important;
+  letter-spacing: 0.2px;
+}
+
+/* Explicit Inline Gap Fill Inputs Rule (Fixes Clipping in Ex 3.4 & multi-gap cards) */
+.ghibli-input.ghibli-inline-input,
+.ghibli-prompt-text .ghibli-input {
+  width: 85px !important;
+  min-width: 65px !important;
+  max-width: 110px !important;
+  display: inline-block !important;
+  margin: 0 4px !important;
+  padding: 5px 10px !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+  font-size: 1.05rem !important;
+  border-radius: 8px !important;
+  vertical-align: middle !important;
+}
+
+.ghibli-char-grid.ex32-grid {
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr)) !important;
+  gap: 24px !important;
+}
+
+@media (max-width: 768px) {
+  .ghibli-char-grid.ex32-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .fill-blank-item {
+    flex-wrap: wrap !important;
+  }
+  .fill-blank-item .ghibli-input {
+    width: 100% !important;
+    min-width: 100% !important;
+    margin-top: 8px !important;
+  }
+}
+
+/* ==========================================================================
+   Studio Ghibli Family Tree Component (Page 18 • Exercise 4.1)
+   ========================================================================== */
+
+.ghibli-family-word-bank {
+  background: var(--ghibli-card-bg, rgba(255, 253, 245, 0.95)) !important;
+  border: 2px dashed var(--ghibli-accent-green, #48825c) !important;
+  border-radius: var(--radius-lg, 20px) !important;
+  padding: 18px 24px !important;
+  margin-bottom: 24px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06) !important;
+}
+
+.family-word-chip {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(45, 90, 39, 0.1);
+  color: #2d5a27;
+  border: 1.5px solid rgba(45, 90, 39, 0.3);
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-weight: 700;
+  font-size: 0.92rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease;
+}
+
+body.theme-night .family-word-chip {
+  background: rgba(72, 130, 92, 0.25);
+  color: #82e0a1;
+  border-color: rgba(130, 224, 161, 0.4);
+}
+
+.family-word-chip.example-chip {
+  background: #2d5a27;
+  color: #fff;
+  border-color: #1e3f1a;
+}
+
+.ghibli-family-tree-canvas {
+  position: relative;
+  background: linear-gradient(135deg, rgba(255, 252, 243, 0.96), rgba(244, 238, 222, 0.92));
+  border: 3px solid #6b533a;
+  border-radius: 28px;
+  padding: 32px 20px;
+  box-shadow: 0 10px 30px rgba(43, 38, 31, 0.12);
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+body.theme-night .ghibli-family-tree-canvas {
+  background: linear-gradient(135deg, rgba(20, 32, 44, 0.96), rgba(15, 23, 32, 0.94));
+  border-color: #48825c;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
+}
+
+.tree-gen-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.tree-gen-title {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-weight: 800;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #5c442d;
+  background: rgba(220, 202, 175, 0.45);
+  padding: 4px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(107, 83, 58, 0.25);
+  margin-bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+body.theme-night .tree-gen-title {
+  color: #e2d7c3;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.tree-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tree-couple {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.65);
+  border: 1.5px dashed rgba(107, 83, 58, 0.35);
+  border-radius: 24px;
+  padding: 12px 16px;
+  position: relative;
+}
+
+body.theme-night .tree-couple {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.tree-node {
+  width: 165px;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: none !important;
+  transition: transform 0.25s ease;
+  position: relative;
+}
+
+.tree-node:hover {
+  transform: translateY(-4px);
+}
+
+.tree-node.example-card,
+.tree-node.hero-node {
+  background: transparent !important;
+  border: none !important;
+}
+
+body.theme-night .tree-node {
+  background: transparent !important;
+  border: none !important;
+  color: #fff;
+}
+
+.tree-avatar-container {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 130px;
+  margin-bottom: 8px;
+}
+
+.tree-avatar {
+  height: 125px;
+  width: auto;
+  max-width: 140px;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.18));
+}
+
+.tree-node.hero-node .tree-avatar {
+  filter: drop-shadow(0 4px 12px rgba(193, 127, 78, 0.4));
+}
+
+.tree-audio-btn-wrap {
+  position: absolute;
+  top: 4px;
+  right: -12px;
+}
+
+.tree-marriage-heart {
+  color: #e63946;
+  font-size: 1.1rem;
+  padding: 0 4px;
+  filter: drop-shadow(0 2px 4px rgba(230, 57, 70, 0.3));
+}
+
+/* Precise Household Branch Cards & Tags */
+.tree-couple-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px dashed rgba(107, 83, 58, 0.35);
+  border-radius: 24px;
+  padding: 14px 20px;
+}
+
+body.theme-night .tree-couple-box {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.marriage-badge-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.marriage-badge {
+  background: rgba(230, 57, 70, 0.12);
+  color: #c1272d;
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  border-radius: 14px;
+  border: 1.5px solid rgba(230, 57, 70, 0.3);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+body.theme-night .marriage-badge {
+  background: rgba(230, 57, 70, 0.25);
+  color: #ff7b88;
+}
+
+.gen2-wide-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.family-branch-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 2.5px solid #6b533a;
+  border-radius: 24px;
+  padding: 16px 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+body.theme-night .family-branch-card {
+  background: rgba(30, 41, 59, 0.9);
+  border-color: #48825c;
+}
+
+.family-branch-card.hero-branch {
+  border-color: #c17f4e;
+  background: rgba(253, 246, 237, 0.95);
+}
+
+body.theme-night .family-branch-card.hero-branch {
+  background: rgba(45, 30, 20, 0.9);
+  border-color: #c17f4e;
+}
+
+.branch-header {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: #5c442d;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+body.theme-night .branch-header {
+  color: #e2d7c3;
+}
+
+.branch-header.hero-header {
+  color: #c17f4e;
+}
+
+.branch-couple {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.marriage-mini-link {
+  color: #e63946;
+  font-size: 1.2rem;
+  padding: 0 4px;
+}
+
+.in-law-tag {
+  background: #785a3c;
+  color: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.blood-tag {
+  background: #2d5a27;
+  color: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.blood-tag.hero-tag {
+  background: #c17f4e;
+}
+
+.brother-sibling-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sibling-link-badge {
+  background: #2d5a27;
+  color: #ffffff;
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 4px 12px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 3px 8px rgba(45, 90, 39, 0.2);
+}
+
+/* Tree Descent Connectors with Labels */
+.tree-descent-connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: -6px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.descent-stem-top {
+  width: 3px;
+  height: 32px;
+  background: #2d5a27;
+  border-radius: 2px;
+  margin-top: -8px;
+}
+
+body.theme-night .descent-stem-top,
+body.theme-night .descent-fork-bar,
+body.theme-night .stem-down {
+  background: #48825c;
+}
+
+.descent-fork-bar {
+  height: 3px;
+  background: #2d5a27;
+  border-radius: 2px;
+}
+
+.tree-descent-connector.gen1-to-gen2 {
+  margin-left: 90px;
+}
+
+.descent-fork-bar.bar-gen1-to-gen2 {
+  width: 280px;
+  margin-left: 85px;
+}
+
+.descent-stems-pair.pair-gen1-to-gen2 {
+  width: 280px;
+  margin-left: 85px;
+}
+
+.tree-descent-connector.align-parents-branch {
+  margin-left: -190px;
+}
+
+.tree-descent-connector.align-parents-branch .descent-fork-bar.bar-mid,
+.tree-descent-connector.align-parents-branch .descent-stems-pair.pair-mid {
+  width: 410px;
+  margin-left: -60px;
+}
+
+.tree-descent-connector.align-pablo-branch {
+  margin-left: 140px;
+}
+
+.tree-descent-connector.align-pablo-branch .descent-fork-bar.bar-narrow,
+.tree-descent-connector.align-pablo-branch .descent-stems-pair.pair-narrow {
+  width: 280px;
+  margin-left: 160px;
+}
+
+.gen4-row {
+  margin-left: 120px;
+}
+
+.tree-descent-connector.align-daughter-branch .descent-stem-top {
+  margin-left: 80px;
+}
+
+.gen5-row {
+  margin-left: -60px;
+}
+
+.tree-descent-connector.align-daughter-branch .descent-fork-bar.bar-narrow,
+.tree-descent-connector.align-daughter-branch .descent-stems-pair.pair-narrow {
+  width: 200px;
+  margin-left: 0px;
+}
+
+.descent-fork-bar.bar-wide,
+.descent-stems-pair.pair-wide {
+  width: 480px;
+  max-width: 90%;
+}
+
+.descent-fork-bar.bar-mid,
+.descent-stems-pair.pair-mid {
+  width: 280px;
+  max-width: 80%;
+}
+
+.descent-fork-bar.bar-narrow,
+.descent-stems-pair.pair-narrow {
+  width: 200px;
+}
+
+.descent-stems-pair {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stem-down {
+  width: 3px;
+  height: 16px;
+  background: #2d5a27;
+  border-radius: 2px;
+}
+
+.given-role-badge {
+  display: inline-block;
+  background: #2d5a27;
+  color: #ffffff;
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 14px;
+  margin-top: 6px;
+  text-transform: lowercase;
+}
+
+.given-role-badge.hero-badge {
+  background: #c17f4e;
+  font-weight: 800;
+}
+
+/* Floating Check Answers Button */
+.ghibli-floating-check-btn {
+  position: fixed !important;
+  bottom: 24px !important;
+  left: 24px !important;
+  z-index: 99999 !important;
+  background: linear-gradient(135deg, #2d5a27, #1e3d1a) !important;
+  color: #ffffff !important;
+  border: 2px solid #a3c99e !important;
+  border-radius: 30px !important;
+  padding: 12px 24px !important;
+  font-family: var(--font-heading) !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.ghibli-floating-check-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 12px 28px rgba(45, 90, 39, 0.5);
+  background: linear-gradient(135deg, #387031, #254b20);
+}
+
+

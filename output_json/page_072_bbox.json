@@ -1,0 +1,233 @@
+{
+  "page_number": 72,
+  "exercises": [
+    {
+      "exercise_id": "22.5",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Is here? supermarket there near a",
+          "correct_answer": "Is there a supermarket near here?",
+          "audio_file_path": "audio/22/22_5_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There cafés Beech Road. some are on",
+          "correct_answer": "There are some cafés on Beech Road.",
+          "audio_file_path": "audio/22/22_5_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.9,
+            "width": 80.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "horses on farm. There Frank's are some",
+          "correct_answer": "There are some horses on Frank's farm.",
+          "audio_file_path": "audio/22/22_5_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 12.14,
+            "left": 19.42,
+            "width": 8.18,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 12.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "airport. near There some the are hotels",
+          "correct_answer": "There are some hotels near the airport.",
+          "audio_file_path": "audio/22/22_5_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 12.14,
+            "left": 38.62,
+            "width": 8.11,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 12.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "22.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 1,
+          "prompt_text": "Is _________ museum?",
+          "question": "Is there a museum?",
+          "correct_answer": "there a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_6_1.mp3",
+          "input_blank_box": {
+            "top": 12.14,
+            "left": 58.04,
+            "width": 8.11,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 12.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Are _________ cafés?",
+          "question": "Are there any cafés?",
+          "correct_answer": "there any",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_6_2.mp3",
+          "input_blank_box": {
+            "top": 12.08,
+            "left": 67.71,
+            "width": 8.33,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 12.08,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Are _________ parks near here?",
+          "question": "Are there any parks near here?",
+          "correct_answer": "there any",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_6_3.mp3",
+          "input_blank_box": {
+            "top": 14.32,
+            "left": 9.82,
+            "width": 8.18,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Is _________ mosque in the town?",
+          "question": "Is there a mosque in the town?",
+          "correct_answer": "there a",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_6_4.mp3",
+          "input_blank_box": {
+            "top": 14.32,
+            "left": 19.27,
+            "width": 8.48,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Is _________ airport in Saltforth?",
+          "question": "Is there an airport in Saltforth?",
+          "correct_answer": "there an",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/22/22_6_5.mp3",
+          "input_blank_box": {
+            "top": 14.32,
+            "left": 29.09,
+            "width": 8.11,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Are _________ factories in Halford?",
+          "question": "Are there any factories in Halford?",
+          "correct_answer": "there any",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 14.32,
+            "left": 38.47,
+            "width": 8.41,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Is _________ castle in your town?",
+          "question": "Is there a castle in your town?",
+          "correct_answer": "there a",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 14.32,
+            "left": 48.29,
+            "width": 8.18,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 14.32,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "page_number": 64,
+  "unit_number": 20,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "20.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "AROUND TOWN WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "clock tower",
+          "correct_answer": "clock tower",
+          "audio_file_path": "audio/20/20_1_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 93.45,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 34.74,
+            "left": 29.39,
+            "width": 1.34,
+            "height": 1.56
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "police station",
+          "correct_answer": "police station",
+          "audio_file_path": "audio/20/20_1_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.19,
+            "left": 8.93,
+            "width": 13.1,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.74,
+            "left": 36.9,
+            "width": 1.34,
+            "height": 1.56
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "supermarket",
+          "correct_answer": "supermarket",
+          "audio_file_path": "audio/20/20_1_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.42,
+            "left": 28.5,
+            "width": 9.9,
+            "height": 3.49
+          },
+          "audio_icon_box": {
+            "top": 38.04,
+            "left": 31.47,
+            "width": 4.69,
+            "height": 4.11
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "bridge",
+          "correct_answer": "bridge",
+          "audio_file_path": "audio/20/20_1_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.91,
+            "left": 61.09,
+            "width": 15.03,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.84,
+            "left": 50.3,
+            "width": 4.84,
+            "height": 4.98
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "post office",
+          "correct_answer": "post office",
+          "audio_file_path": "audio/20/20_1_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 25.47,
+            "left": 29.24,
+            "width": 8.48,
+            "height": 4.05
+          },
+          "audio_icon_box": {
+            "top": 62.52,
+            "left": 71.06,
+            "width": 1.86,
+            "height": 1.56
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "mosque",
+          "correct_answer": "mosque",
+          "audio_file_path": "audio/20/20_1_8.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 24.97,
+            "left": 61.09,
+            "width": 14.73,
+            "height": 4.55
+          },
+          "audio_icon_box": {
+            "top": 24.97,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "city",
+          "correct_answer": "city",
+          "audio_file_path": "audio/20/20_1_9.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.02,
+            "left": 78.79,
+            "width": 14.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.02,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "park",
+          "correct_answer": "park",
+          "audio_file_path": "audio/20/20_1_10.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 9.08,
+            "width": 12.72,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "library",
+          "correct_answer": "library",
+          "audio_file_path": "audio/20/20_1_11.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 28.12,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 14,
+          "question": "hospital",
+          "correct_answer": "hospital",
+          "audio_file_path": "audio/20/20_1_14.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 45.83,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 15,
+          "question": "pharmacy",
+          "correct_answer": "pharmacy",
+          "audio_file_path": "audio/20/20_1_15.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 63.47,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "bank",
+          "correct_answer": "bank",
+          "audio_file_path": "audio/20/20_1_16.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 81.18,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.88,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "train station",
+          "correct_answer": "train station",
+          "audio_file_path": "audio/20/20_1_17.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 32.63,
+            "left": 9.15,
+            "width": 12.5,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 18,
+          "question": "factory",
+          "correct_answer": "factory",
+          "audio_file_path": "audio/20/20_1_18.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 40.66,
+            "left": 8.85,
+            "width": 13.39,
+            "height": 3.18
+          },
+          "audio_icon_box": {
+            "top": 40.66,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 21,
+          "question": "castle",
+          "correct_answer": "castle",
+          "audio_file_path": "audio/20/20_1_21.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 42.15,
+            "left": 81.18,
+            "width": 11.16,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 42.15,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 22,
+          "question": "bus station",
+          "correct_answer": "bus station",
+          "audio_file_path": "audio/20/20_1_22.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 46.7,
+            "left": 43.38,
+            "width": 15.03,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.7,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 23,
+          "question": "restaurant",
+          "correct_answer": "restaurant",
+          "audio_file_path": "audio/20/20_1_23.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 47.63,
+            "left": 81.62,
+            "width": 10.27,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 47.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 24,
+          "question": "office building",
+          "correct_answer": "office building",
+          "audio_file_path": "audio/20/20_1_24.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 10.49,
+            "width": 12.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 25,
+          "question": "swimming pool",
+          "correct_answer": "swimming pool",
+          "audio_file_path": "audio/20/20_1_25.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 28.12,
+            "width": 12.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.87,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

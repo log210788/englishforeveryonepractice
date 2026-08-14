@@ -1,0 +1,242 @@
+{
+  "page_number": 48,
+  "exercises": [
+    {
+      "exercise_id": "15.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "This aren't his umbrella.",
+          "correct_answer": "This isn't his umbrella.",
+          "audio_file_path": "audio/15/15_6_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.93,
+            "left": 15.18,
+            "width": 1.79,
+            "height": 1.56
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Pedro aren't Spanish.",
+          "correct_answer": "Pedro isn't Spanish.",
+          "audio_file_path": "audio/15/15_6_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.97,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.93,
+            "left": 23.29,
+            "width": 1.71,
+            "height": 1.56
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Pete and Terry isn't hairdressers.",
+          "correct_answer": "Pete and Terry aren't hairdressers.",
+          "audio_file_path": "audio/15/15_6_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.69,
+            "left": 9.45,
+            "width": 37.8,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 57.41,
+            "left": 15.18,
+            "width": 1.79,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "It aren't a snake.",
+          "correct_answer": "It isn't a snake.",
+          "audio_file_path": "audio/15/15_6_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 15.5,
+            "left": 10.64,
+            "width": 35.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 57.41,
+            "left": 23.29,
+            "width": 1.79,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "My cousins isn't 21 years old.",
+          "correct_answer": "My cousins aren't 21 years old.",
+          "audio_file_path": "audio/15/15_6_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.44,
+            "left": 51.34,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 63.82,
+            "left": 15.18,
+            "width": 1.79,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "It aren't half past six.",
+          "correct_answer": "It isn't half past six.",
+          "audio_file_path": "audio/15/15_6_6.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.54,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 63.82,
+            "left": 23.29,
+            "width": 1.79,
+            "height": 1.49
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "I isn't your friend.",
+          "correct_answer": "I'm not your friend.",
+          "audio_file_path": "audio/15/15_6_7.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 22.54,
+            "left": 51.34,
+            "width": 40.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.3,
+            "left": 15.18,
+            "width": 1.79,
+            "height": 1.49
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.7",
+      "exercise_type": "true_false",
+      "instruction": "READ THE BLOG AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Lucia is not 41 years old.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "input_blank_box": {
+            "top": 28.58,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There isn't a learner from Spain.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "input_blank_box": {
+            "top": 28.58,
+            "left": 51.34,
+            "width": 40.33,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Pablo is not a teacher.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 34.62,
+            "left": 8.11,
+            "width": 40.62,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Theresa is not a teacher.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "input_blank_box": {
+            "top": 34.62,
+            "left": 51.34,
+            "width": 40.4,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Xi is not a chef.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "input_blank_box": {
+            "top": 38.48,
+            "left": 7.89,
+            "width": 84.15,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Xi does not live in China.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 40.78,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

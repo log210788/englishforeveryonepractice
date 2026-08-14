@@ -1,0 +1,253 @@
+{
+  "page_number": 69,
+  "exercises": [
+    {
+      "exercise_id": "21.8",
+      "exercise_type": "true_false",
+      "instruction": "READ THE EMAIL AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "There are two beaches.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "There isn't a castle.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.6,
+            "width": 30.28,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "There is a park.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "input_blank_box": {
+            "top": 16.13,
+            "left": 10.42,
+            "width": 28.65,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "There is a supermarket.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 60.15,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "There aren't any stores.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 62.45,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "There is a big restaurant.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "input_blank_box": {
+            "top": 69.68,
+            "left": 9.82,
+            "width": 21.8,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "There are four cafés.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 70.55,
+            "left": 10.79,
+            "width": 20.54,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "There is an airport.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "input_blank_box": {
+            "top": 72.67,
+            "left": 11.31,
+            "width": 12.05,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "21.9",
+      "exercise_type": "fill_in_blank",
+      "instruction": "LOOK AT THE IMAGE AND SAY THE SENTENCES OUT LOUD, FILLING IN THE GAPS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "__________ a library.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_eg.mp3",
+          "input_blank_box": {
+            "top": 71.42,
+            "left": 40.62,
+            "width": 20.68,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 74.41,
+            "left": 30.36,
+            "width": 1.93,
+            "height": 1.81
+          }
+        },
+        {
+          "item_number": 1,
+          "question": "__________ stores.",
+          "correct_answer": "There are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_1.mp3",
+          "input_blank_box": {
+            "top": 74.35,
+            "left": 40.62,
+            "width": 16.52,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 72.98,
+            "left": 65.25,
+            "width": 5.65,
+            "height": 4.73
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "__________ castles.",
+          "correct_answer": "There are",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_2.mp3",
+          "input_blank_box": {
+            "top": 73.54,
+            "left": 41.22,
+            "width": 11.46,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 73.47,
+            "left": 77.75,
+            "width": 2.53,
+            "height": 2.05
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "__________ a church.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_3.mp3",
+          "input_blank_box": {
+            "top": 76.21,
+            "left": 86.01,
+            "width": 9.08,
+            "height": 4.79
+          },
+          "audio_icon_box": {
+            "top": 75.22,
+            "left": 60.19,
+            "width": 1.93,
+            "height": 1.87
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "__________ a hospital.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_4.mp3",
+          "input_blank_box": {
+            "top": 76.96,
+            "left": 9.75,
+            "width": 21.73,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 75.34,
+            "left": 67.78,
+            "width": 2.23,
+            "height": 1.74
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "__________ a post office.",
+          "correct_answer": "There is",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/21/21_9_5.mp3",
+          "input_blank_box": {
+            "top": 78.39,
+            "left": 12.35,
+            "width": 20.61,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 82.19,
+            "left": 31.85,
+            "width": 1.93,
+            "height": 1.87
+          }
+        }
+      ]
+    }
+  ]
+}

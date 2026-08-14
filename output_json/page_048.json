@@ -1,0 +1,122 @@
+{
+  "page_number": 48,
+  "exercises": [
+    {
+      "exercise_id": "15.6",
+      "exercise_type": "fill_in_blank",
+      "instruction": "REWRITE THE SENTENCES, CORRECTING THE ERRORS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "This aren't his umbrella.",
+          "correct_answer": "This isn't his umbrella.",
+          "audio_file_path": "audio/15/15_6_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Pedro aren't Spanish.",
+          "correct_answer": "Pedro isn't Spanish.",
+          "audio_file_path": "audio/15/15_6_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Pete and Terry isn't hairdressers.",
+          "correct_answer": "Pete and Terry aren't hairdressers.",
+          "audio_file_path": "audio/15/15_6_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "It aren't a snake.",
+          "correct_answer": "It isn't a snake.",
+          "audio_file_path": "audio/15/15_6_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "My cousins isn't 21 years old.",
+          "correct_answer": "My cousins aren't 21 years old.",
+          "audio_file_path": "audio/15/15_6_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "It aren't half past six.",
+          "correct_answer": "It isn't half past six.",
+          "audio_file_path": "audio/15/15_6_6.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 7,
+          "question": "I isn't your friend.",
+          "correct_answer": "I'm not your friend.",
+          "audio_file_path": "audio/15/15_6_7.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "15.7",
+      "exercise_type": "true_false",
+      "instruction": "READ THE BLOG AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Lucia is not 41 years old.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 2,
+          "question": "There isn't a learner from Spain.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 3,
+          "question": "Pablo is not a teacher.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        },
+        {
+          "item_number": 4,
+          "question": "Theresa is not a teacher.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 5,
+          "question": "Xi is not a chef.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True"
+        },
+        {
+          "item_number": 6,
+          "question": "Xi does not live in China.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "page_number": 17,
+  "unit_number": 3,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "3.3",
+      "exercise_type": "sentence_ordering",
+      "instruction": "USE THE CHART TO CREATE NINE CORRECT SENTENCES AND SAY THEM OUT LOUD",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I am twenty-three years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "I am twenty-three years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 43.46,
+            "left": 77.68,
+            "width": 1.93,
+            "height": 1.43
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "I am thirty-two years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "I am thirty-two years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 48.81,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 49.32,
+            "left": 75.6,
+            "width": 2.46,
+            "height": 2.05
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "I am sixty-eight years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "I am sixty-eight years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 11.83,
+            "left": 11.16,
+            "width": 41.59,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 89.04,
+            "left": 82.07,
+            "width": 2.16,
+            "height": 1.99
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Dan is twenty-three years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "Dan is twenty-three years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 16.0,
+            "left": 9.75,
+            "width": 49.33,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Dan is thirty-two years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "Dan is thirty-two years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 17.93,
+            "left": 8.48,
+            "width": 17.63,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Dan is sixty-eight years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "Dan is sixty-eight years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 17.93,
+            "left": 34.38,
+            "width": 13.62,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "You are twenty-three years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "You are twenty-three years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 17.93,
+            "left": 56.55,
+            "width": 13.54,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "You are thirty-two years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "You are thirty-two years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 17.93,
+            "left": 79.02,
+            "width": 12.57,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "You are sixty-eight years old.",
+          "options": [
+            "I",
+            "Dan",
+            "You",
+            "am",
+            "is",
+            "are",
+            "twenty-three",
+            "thirty-two",
+            "sixty-eight",
+            "years old."
+          ],
+          "correct_answer": "You are sixty-eight years old.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "input_blank_box": {
+            "top": 23.6,
+            "left": 48.14,
+            "width": 8.26,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 23.6,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "3.4",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FILL IN THE GAPS WITH THE CORRECT FORMS OF \"TO BE\"",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "Alfonso ___ 87 years old. He ___ Spanish.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_eg.mp3",
+          "input_blank_box": {
+            "top": 23.54,
+            "left": 70.31,
+            "width": 8.56,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 23.54,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Abe ___ 72 years old. She ___ Japanese.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_1.mp3",
+          "input_blank_box": {
+            "top": 29.14,
+            "left": 8.41,
+            "width": 17.86,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Mia and Leo ___ 12. They ___ from Italy.",
+          "options": null,
+          "correct_answer": [
+            "are",
+            "are"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_2.mp3",
+          "input_blank_box": {
+            "top": 29.14,
+            "left": 34.3,
+            "width": 13.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Chantal ___ 66 years old. She ___ French.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_3.mp3",
+          "input_blank_box": {
+            "top": 29.14,
+            "left": 56.47,
+            "width": 13.76,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Amir and Aamna ___ 90 years old. They ___ from Pakistan.",
+          "options": null,
+          "correct_answer": [
+            "are",
+            "are"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_4.mp3",
+          "input_blank_box": {
+            "top": 29.14,
+            "left": 78.94,
+            "width": 12.72,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 29.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "I ___ 24 years old. I ___ Irish.",
+          "options": null,
+          "correct_answer": [
+            "am",
+            "am"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_5.mp3",
+          "input_blank_box": {
+            "top": 32.94,
+            "left": 7.66,
+            "width": 84.6,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.94,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Max ___ 47 years old. He ___ German.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_6.mp3",
+          "input_blank_box": {
+            "top": 35.24,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 35.24,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "We ___ 38 years old. We ___ from New Zealand.",
+          "options": null,
+          "correct_answer": [
+            "are",
+            "are"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_7.mp3",
+          "input_blank_box": {
+            "top": 41.28,
+            "left": 9.82,
+            "width": 80.58,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.28,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "My sister ___ 4 years old. She ___ from Canada.",
+          "options": null,
+          "correct_answer": [
+            "is",
+            "is"
+          ],
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/3/3_4_8.mp3",
+          "input_blank_box": {
+            "top": 44.96,
+            "left": 16.96,
+            "width": 18.23,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 44.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

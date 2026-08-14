@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Lewis's Practice Book • Studio Ghibli Continuous Audio Reader</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="ghibli_theme.css">
+  <style>
+    body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #2c4a38; font-family: var(--font-body); }
+    .reader-shell { display: flex; flex-direction: column; width: 100vw; height: 100vh; }
+    .reader-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 24px; background: rgba(44, 74, 56, 0.95); backdrop-filter: blur(12px); border-bottom: 1.5px solid rgba(226, 215, 195, 0.3); color: #fff; z-index: 100; box-shadow: 0 4px 20px rgba(0,0,0,0.25); }
+    .reader-brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+    .reader-logo { width: 38px; height: 38px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: var(--ghibli-accent-gold); }
+    .reader-title { font-family: var(--font-heading); font-size: 1.15rem; font-weight: 800; }
+    .reader-nav { display: flex; align-items: center; gap: 12px; }
+    .reader-btn { padding: 8px 18px; border-radius: 50px; border: 1px solid rgba(255,255,255,0.3); background: rgba(255,255,255,0.15); color: #fff; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s; text-decoration: none; font-size: 0.9rem; }
+    .reader-btn:hover { background: rgba(255,255,255,0.25); transform: translateY(-1px); }
+    .reader-select { padding: 8px 16px; border-radius: 50px; border: 1px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.3); color: #fff; font-weight: 600; cursor: pointer; outline: none; font-size: 0.9rem; }
+    .reader-select option { background: #2c4a38; color: #fff; }
+    .reader-frame-wrap { flex: 1; width: 100%; height: 100%; border: none; }
+    .reader-frame { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <div class="reader-shell">
+    <header class="reader-header">
+      <a href="index.html" class="reader-brand">
+        <div class="reader-logo"><i class="fa-solid fa-seedling"></i></div>
+        <div>
+          <div class="reader-title">Teacher Lewis's Practice Book</div>
+          <div style="font-size:0.8rem; opacity:0.85;">🌿 Studio Ghibli Continuous Audio Reader</div>
+        </div>
+      </a>
+
+      <div class="reader-nav">
+        <button class="reader-btn" id="prevBtn"><i class="fa-solid fa-arrow-left"></i> Prev Page</button>
+        <select id="pageSelect" class="reader-select"></select>
+        <button class="reader-btn" id="nextBtn">Next Page <i class="fa-solid fa-arrow-right"></i></button>
+        <button class="reader-btn" id="toggleAmbientBtn" style="background:var(--ghibli-accent-gold); color:#fff;"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Playing 🎵</span></button>
+        <a href="index.html" class="reader-btn"><i class="fa-solid fa-house"></i> Home</a>
+      </div>
+    </header>
+
+    <div class="reader-frame-wrap">
+      <iframe id="pageFrame" class="reader-frame" src="ghibli_p012.html"></iframe>
+    </div>
+  </div>
+
+  <script src="ghibli_audio.js"></script>
+  <script>
+    (function() {
+      const pageSelect = document.getElementById('pageSelect');
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      const pageFrame = document.getElementById('pageFrame');
+
+      let pagesList = [];
+      for (let p = 8; p <= 176; p++) {
+        pagesList.push(p);
+      }
+
+      pagesList.forEach(pNum => {
+        const opt = document.createElement('option');
+        opt.value = pNum;
+        opt.textContent = `Page ${pNum}`;
+        if (pNum === 12) opt.selected = true;
+        pageSelect.appendChild(opt);
+      });
+
+      function loadPage(pNum) {
+        const targetNum = Math.max(8, Math.min(176, pNum));
+        pageSelect.value = targetNum;
+        const pageCode = targetNum.toString().padStart(3, '0');
+        pageFrame.src = `ghibli_p${pageCode}.html`;
+      }
+
+      pageSelect.addEventListener('change', e => {
+        loadPage(parseInt(e.target.value, 10));
+      });
+
+      prevBtn.addEventListener('click', () => {
+        const current = parseInt(pageSelect.value, 10);
+        loadPage(current - 1);
+      });
+
+      nextBtn.addEventListener('click', () => {
+        const current = parseInt(pageSelect.value, 10);
+        loadPage(current + 1);
+      });
+
+      // Listen for inner iframe link navigation to sync top select dropdown
+      pageFrame.addEventListener('load', () => {
+        try {
+          const framePath = pageFrame.contentWindow.location.pathname;
+          const match = framePath.match(/ghibli_p(\d+)\.html/);
+          if (match && match[1]) {
+            const pNum = parseInt(match[1], 10);
+            pageSelect.value = pNum;
+          }
+        } catch(e) {}
+      });
+    })();
+  </script>
+</body>
+</html>

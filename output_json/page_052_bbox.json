@@ -1,0 +1,521 @@
+{
+  "page_number": 52,
+  "unit_number": 16,
+  "unit_title": null,
+  "exercises": [
+    {
+      "exercise_id": "16.5",
+      "exercise_type": "multiple_choice",
+      "instruction": "MARK THE SENTENCES THAT ARE CORRECT",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Jenny doesn't work in a bank.",
+            "Jenny don't work in a bank."
+          ],
+          "correct_answer": "Jenny doesn't work in a bank.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_eg.mp3",
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 3.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Jean don't cycle to work.",
+            "Jean doesn't cycle to work."
+          ],
+          "correct_answer": "Jean doesn't cycle to work.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_1.mp3",
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 9.82,
+            "width": 37.28,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 10.96,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "They don't live in the city.",
+            "They doesn't live in the city."
+          ],
+          "correct_answer": "They don't live in the city.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_2.mp3",
+          "input_blank_box": {
+            "top": 16.31,
+            "left": 9.67,
+            "width": 37.35,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 16.31,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Mr. James don't go to the theater.",
+            "Mr. James doesn't go to the theater."
+          ],
+          "correct_answer": "Mr. James doesn't go to the theater.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_3.mp3",
+          "input_blank_box": {
+            "top": 48.57,
+            "left": 7.74,
+            "width": 84.52,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 48.57,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "He doesn't read a newspaper.",
+            "He don't read a newspaper."
+          ],
+          "correct_answer": "He doesn't read a newspaper.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_4.mp3",
+          "input_blank_box": {
+            "top": 50.93,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.93,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "My cousins don't have tickets.",
+            "My cousins doesn't have tickets."
+          ],
+          "correct_answer": "My cousins don't have tickets.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_5.mp3",
+          "input_blank_box": {
+            "top": 65.5,
+            "left": 10.12,
+            "width": 36.83,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 65.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Sally doesn't go to the gym.",
+            "Sally don't go to the gym."
+          ],
+          "correct_answer": "Sally doesn't go to the gym.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_6.mp3",
+          "input_blank_box": {
+            "top": 70.67,
+            "left": 9.75,
+            "width": 36.9,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 70.67,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Our dog don't have a ball.",
+            "Our dog doesn't have a ball."
+          ],
+          "correct_answer": "Our dog doesn't have a ball.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_7.mp3",
+          "input_blank_box": {
+            "top": 94.71,
+            "left": 7.74,
+            "width": 84.45,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 94.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "I don't have a laptop.",
+            "I doesn't have a laptop."
+          ],
+          "correct_answer": "I don't have a laptop.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_8.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "My mom doesn't get up at 7:30am.",
+            "My mom don't get up at 7:30am."
+          ],
+          "correct_answer": "My mom doesn't get up at 7:30am.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_9.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "You doesn't live in the country.",
+            "You don't live in the country."
+          ],
+          "correct_answer": "You don't live in the country.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_10.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 11,
+          "prompt_text": null,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Claude don't have a dictionary.",
+            "Claude doesn't have a dictionary."
+          ],
+          "correct_answer": "Claude doesn't have a dictionary.",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_5_11.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "16.6",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "prompt_text": "Julie is talking about things she does during the week.",
+          "question": "Julie works in the museum.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 1,
+          "prompt_text": "Julie is talking about things she does during the week.",
+          "question": "Julie gets up at 7am.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "prompt_text": "Julie is talking about things she does during the week.",
+          "question": "Julie doesn't work on Fridays.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "prompt_text": "Julie is talking about things she does during the week.",
+          "question": "Julie has lunch with her friends.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "prompt_text": "Julie is talking about things she does during the week.",
+          "question": "Julie plays tennis on Wednesday evenings.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "prompt_text": "Julie is talking about things she does during the week.",
+          "question": "Julie gets home at 8pm.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "prompt_text": "Julie is talking about things she does during the week.",
+          "question": "Julie doesn't eat dinner.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 7,
+          "prompt_text": "Julie is talking about things she does during the week.",
+          "question": "Julie watches TV before she goes to bed.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "audio_icon_present": true,
+          "audio_track_ref": null,
+          "audio_file_path": "audio/16/16_6.mp3",
+          "input_blank_box": {
+            "top": 20.0,
+            "left": 55.0,
+            "width": 35.0,
+            "height": 3.5
+          },
+          "audio_icon_box": {
+            "top": 20.0,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

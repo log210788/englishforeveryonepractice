@@ -1,0 +1,171 @@
+{
+  "page_number": 124,
+  "unit_number": 39,
+  "unit_title": "Free time",
+  "exercises": [
+    {
+      "exercise_id": "39.1",
+      "exercise_type": "true_false",
+      "instruction": "READ THE EMAIL AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Angela sometimes has toast for breakfast.",
+          "correct_answer": "True",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 19.43,
+            "left": 6.55,
+            "width": 58.04,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "She always gets the bus.",
+          "correct_answer": "False",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 26.71,
+            "left": 9.6,
+            "width": 51.34,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "She starts work at 9am.",
+          "correct_answer": "False",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 58.66,
+            "left": 7.81,
+            "width": 84.3,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Angela always has coffee at 11am.",
+          "correct_answer": "False",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 60.9,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "She usually has lunch at 1pm.",
+          "correct_answer": "True",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 68.18,
+            "left": 10.42,
+            "width": 36.53,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "She always finishes work at 5pm.",
+          "correct_answer": "False",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 74.6,
+            "left": 9.6,
+            "width": 37.65,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "She always goes to bed before 11pm.",
+          "correct_answer": "True",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 74.6,
+            "left": 51.26,
+            "width": 40.77,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "39.2",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "They theater. to sometimes the go",
+          "correct_answer": "They sometimes go to the theater.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 75.9,
+            "left": 9.9,
+            "width": 37.2,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "running Mike work. goes never after",
+          "correct_answer": "Mike never goes running after work.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 77.4,
+            "left": 28.65,
+            "width": 9.23,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "bed to always early. go You",
+          "correct_answer": "You always go to bed early.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 79.58,
+            "left": 28.5,
+            "width": 9.52,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "shopping Jane on often Saturday. goes",
+          "correct_answer": "Jane often goes shopping on Saturday.",
+          "audio_icon_present": false,
+          "input_blank_box": {
+            "top": 79.58,
+            "left": 53.94,
+            "width": 8.04,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "6pm. usually at dinner eat We",
+          "correct_answer": "We usually eat dinner at 6pm.",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 79.58,
+            "left": 78.2,
+            "width": 8.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 79.58,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

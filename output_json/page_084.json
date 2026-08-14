@@ -1,0 +1,198 @@
+{
+  "page_number": 84,
+  "unit_number": 26,
+  "unit_title": "Giving reasons",
+  "exercises": [
+    {
+      "exercise_id": "26.1",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE BEGINNINGS OF THE SENTENCES TO THE CORRECT ENDINGS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Fred works outside because",
+          "options": [
+            "he's a teacher.",
+            "she's a student.",
+            "I'm a mailman.",
+            "I'm a night nurse.",
+            "he goes skiing there.",
+            "he works in a restaurant.",
+            "he's a farmer."
+          ],
+          "correct_answer": "he's a farmer.",
+          "audio_file_path": "audio/26/26_1_1.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 2,
+          "question": "Mick travels to Switzerland because",
+          "options": [
+            "he's a teacher.",
+            "she's a student.",
+            "I'm a mailman.",
+            "I'm a night nurse.",
+            "he goes skiing there.",
+            "he works in a restaurant.",
+            "he's a farmer."
+          ],
+          "correct_answer": "he goes skiing there.",
+          "audio_file_path": "audio/26/26_1_2.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 3,
+          "question": "Saul goes to bed late because",
+          "options": [
+            "he's a teacher.",
+            "she's a student.",
+            "I'm a mailman.",
+            "I'm a night nurse.",
+            "he goes skiing there.",
+            "he works in a restaurant.",
+            "he's a farmer."
+          ],
+          "correct_answer": "he works in a restaurant.",
+          "audio_file_path": "audio/26/26_1_3.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 4,
+          "question": "I get up at 5am because",
+          "options": [
+            "he's a teacher.",
+            "she's a student.",
+            "I'm a mailman.",
+            "I'm a night nurse.",
+            "he goes skiing there.",
+            "he works in a restaurant.",
+            "he's a farmer."
+          ],
+          "correct_answer": "I'm a mailman.",
+          "audio_file_path": "audio/26/26_1_4.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 5,
+          "question": "Marion goes to the library because",
+          "options": [
+            "he's a teacher.",
+            "she's a student.",
+            "I'm a mailman.",
+            "I'm a night nurse.",
+            "he goes skiing there.",
+            "he works in a restaurant.",
+            "he's a farmer."
+          ],
+          "correct_answer": "she's a student.",
+          "audio_file_path": "audio/26/26_1_5.mp3",
+          "audio_icon_present": true
+        },
+        {
+          "item_number": 6,
+          "question": "Colin works with children because",
+          "options": [
+            "he's a teacher.",
+            "she's a student.",
+            "I'm a mailman.",
+            "I'm a night nurse.",
+            "he goes skiing there.",
+            "he works in a restaurant.",
+            "he's a farmer."
+          ],
+          "correct_answer": "he's a teacher.",
+          "audio_file_path": "audio/26/26_1_6.mp3",
+          "audio_icon_present": true
+        }
+      ]
+    },
+    {
+      "exercise_id": "26.2",
+      "exercise_type": "audio_listen",
+      "instruction": "LISTEN TO THE AUDIO AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 0,
+          "question": "Leo uses a computer because...",
+          "options": [
+            "he works in an office",
+            "he works on a farm"
+          ],
+          "correct_answer": "he works in an office",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_2_eg.mp3"
+        },
+        {
+          "item_number": 1,
+          "question": "Rick works outside because...",
+          "options": [
+            "he's a gardener",
+            "he's a farmer"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "Mary Lou works with children because...",
+          "options": [
+            "she's a teacher",
+            "she's a nurse"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Carl goes to the library because...",
+          "options": [
+            "he's a student",
+            "he's a professor"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_2_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Sally gets up at 6am because...",
+          "options": [
+            "she goes running",
+            "she goes to the gym"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_2_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Pete works at the theater because...",
+          "options": [
+            "he's an actor",
+            "he's a receptionist"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_2_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "Michael has not come to work because...",
+          "options": [
+            "he's out of town",
+            "he has the flu"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_2_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Sana works in a restaurant because...",
+          "options": [
+            "she's a chef",
+            "she's a waitress"
+          ],
+          "audio_icon_present": true,
+          "audio_file_path": "audio/26/26_2_7.mp3"
+        }
+      ]
+    }
+  ]
+}

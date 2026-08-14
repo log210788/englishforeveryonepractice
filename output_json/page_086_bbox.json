@@ -1,0 +1,207 @@
+{
+  "page_number": 86,
+  "unit_number": 27,
+  "unit_title": "Vocabulary",
+  "exercises": [
+    {
+      "exercise_id": "27.1",
+      "exercise_type": "matching",
+      "instruction": "AROUND THE HOUSE WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "kitchen",
+          "correct_answer": "kitchen",
+          "audio_file_path": "audio/27/27_1_kitchen.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.77,
+            "left": 6.55,
+            "width": 93.45,
+            "height": 3.24
+          },
+          "audio_icon_box": {
+            "top": 10.77,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "toilet",
+          "correct_answer": "toilet",
+          "audio_file_path": "audio/27/27_1_toilet.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 17.25,
+            "left": 10.64,
+            "width": 15.85,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 17.25,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "television",
+          "correct_answer": "television",
+          "audio_file_path": "audio/27/27_1_television.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.52,
+            "left": 80.06,
+            "width": 9.08,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.52,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 8,
+          "question": "bedroom",
+          "correct_answer": "bedroom",
+          "audio_file_path": "audio/27/27_1_bedroom.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.95,
+            "left": 10.64,
+            "width": 15.77,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.95,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 9,
+          "question": "house",
+          "correct_answer": "house",
+          "audio_file_path": "audio/27/27_1_house.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.95,
+            "left": 34.08,
+            "width": 15.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.95,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 10,
+          "question": "couch (US) / sofa (UK)",
+          "correct_answer": "couch (US) / sofa (UK)",
+          "input_blank_box": {
+            "top": 30.95,
+            "left": 56.1,
+            "width": 15.4,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 11,
+          "question": "shower",
+          "correct_answer": "shower",
+          "audio_file_path": "audio/27/27_1_shower.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.95,
+            "left": 78.12,
+            "width": 15.4,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.95,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 16,
+          "question": "chair",
+          "correct_answer": "chair",
+          "audio_file_path": "audio/27/27_1_chair.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 32.63,
+            "left": 11.01,
+            "width": 15.55,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 32.63,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 17,
+          "question": "lamp",
+          "correct_answer": "lamp",
+          "audio_file_path": "audio/27/27_1_lamp.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 34.5,
+            "left": 34.82,
+            "width": 12.2,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 34.5,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 18,
+          "question": "fridge",
+          "correct_answer": "fridge",
+          "input_blank_box": {
+            "top": 41.41,
+            "left": 53.87,
+            "width": 17.34,
+            "height": 4.05
+          }
+        },
+        {
+          "item_number": 19,
+          "question": "bookcase",
+          "correct_answer": "bookcase",
+          "audio_file_path": "audio/27/27_1_bookcase.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 45.02,
+            "left": 15.92,
+            "width": 8.78,
+            "height": 3.3
+          },
+          "audio_icon_box": {
+            "top": 45.02,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

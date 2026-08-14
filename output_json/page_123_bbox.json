@@ -1,0 +1,100 @@
+{
+  "page_number": 123,
+  "exercises": [
+    {
+      "exercise_id": "1",
+      "exercise_type": "matching",
+      "instruction": "MATCH THE WORDS TO THE PICTURES",
+      "items": [
+        {
+          "item_number": 5,
+          "question": "5",
+          "correct_answer": "watch television",
+          "input_blank_box": {
+            "top": 10.83,
+            "left": 0.0,
+            "width": 93.53,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "6",
+          "correct_answer": "walk / hike",
+          "input_blank_box": {
+            "top": 15.75,
+            "left": 43.45,
+            "width": 45.83,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 12,
+          "question": "12",
+          "correct_answer": "go camping",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 8.93,
+            "width": 12.35,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 13,
+          "question": "13",
+          "correct_answer": "cook",
+          "input_blank_box": {
+            "top": 30.88,
+            "left": 26.49,
+            "width": 12.35,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 19,
+          "question": "19",
+          "correct_answer": "see a play",
+          "input_blank_box": {
+            "top": 43.96,
+            "left": 25.45,
+            "width": 8.11,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 20,
+          "question": "20",
+          "correct_answer": "meet friends",
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 8.93,
+            "width": 12.35,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 26,
+          "question": "26",
+          "correct_answer": "play chess",
+          "input_blank_box": {
+            "top": 50.87,
+            "left": 26.49,
+            "width": 12.35,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 27,
+          "question": "27",
+          "correct_answer": "take photos",
+          "input_blank_box": {
+            "top": 64.57,
+            "left": 8.11,
+            "width": 11.61,
+            "height": 3.0
+          }
+        }
+      ]
+    }
+  ]
+}

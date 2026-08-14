@@ -1,0 +1,225 @@
+{
+  "page_number": 81,
+  "unit_number": 25,
+  "unit_title": "Describing places",
+  "exercises": [
+    {
+      "exercise_id": "25.1",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "a man. I busy am",
+          "correct_answer": "I am a busy man.",
+          "audio_file_path": "audio/25/25_1_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 19.43,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 19.43,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "is a There restaurant. new",
+          "correct_answer": "There is a new restaurant.",
+          "audio_file_path": "audio/25/25_1_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 26.71,
+            "left": 10.19,
+            "width": 36.46,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 26.71,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "friend beautiful a woman. My is",
+          "correct_answer": "My friend is a beautiful woman.",
+          "audio_file_path": "audio/25/25_1_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 27.9,
+            "left": 60.94,
+            "width": 8.04,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 27.9,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "old cat. We a have very",
+          "correct_answer": "We have a very old cat.",
+          "audio_file_path": "audio/25/25_1_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 30.14,
+            "left": 60.79,
+            "width": 8.33,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 30.14,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "clothes. are new my These",
+          "correct_answer": "These are my new clothes.",
+          "audio_file_path": "audio/25/25_1_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 33.13,
+            "left": 9.6,
+            "width": 37.65,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.13,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "25.2",
+      "exercise_type": "fill_in_blank",
+      "instruction": "FIND EIGHT ADJECTIVES IN THE EMAIL AND WRITE THEM OUT",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Find adjective 1",
+          "correct_answer": "small",
+          "audio_file_path": "audio/25/25_2_small.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 33.13,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 33.13,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Find adjective 2",
+          "correct_answer": "good",
+          "input_blank_box": {
+            "top": 36.74,
+            "left": 30.06,
+            "width": 8.56,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "Find adjective 3",
+          "correct_answer": "beautiful",
+          "audio_file_path": "audio/25/25_2_beautiful.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 38.98,
+            "left": 29.91,
+            "width": 8.78,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 38.98,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Find adjective 4",
+          "correct_answer": "wonderful",
+          "input_blank_box": {
+            "top": 41.72,
+            "left": 8.04,
+            "width": 40.7,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Find adjective 5",
+          "correct_answer": "busy",
+          "audio_file_path": "audio/25/25_2_busy.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 41.72,
+            "left": 51.26,
+            "width": 40.7,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 41.72,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Find adjective 6",
+          "correct_answer": "interesting",
+          "input_blank_box": {
+            "top": 43.77,
+            "left": 27.31,
+            "width": 10.42,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Find adjective 7",
+          "correct_answer": "old",
+          "audio_file_path": "audio/25/25_2_old.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 46.01,
+            "left": 27.16,
+            "width": 10.64,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 46.01,
+            "left": 10.0,
+            "width": 4.0,
+            "height": 3.2
+          }
+        }
+      ]
+    }
+  ]
+}

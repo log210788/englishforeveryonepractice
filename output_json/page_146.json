@@ -1,0 +1,91 @@
+{
+  "page_number": 146,
+  "unit_number": 46,
+  "unit_title": "Describing ability",
+  "exercises": [
+    {
+      "exercise_id": "46.1",
+      "exercise_type": "multiple_choice",
+      "instruction": "MARK THE SENTENCES THAT ARE CORRECT",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Pedro is really good at history. / Pedro really good is at history.",
+          "correct_answer": "Pedro is really good at history.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "You speak really well French. / You speak French really well.",
+          "correct_answer": "You speak French really well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "Sandra is very good at singing. / Sandra very good is at singing.",
+          "correct_answer": "Sandra is very good at singing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_3.mp3"
+        },
+        {
+          "item_number": 4,
+          "question": "Sal is at skiing quite good. / Sal is quite good at skiing.",
+          "correct_answer": "Sal is quite good at skiing.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_4.mp3"
+        },
+        {
+          "item_number": 5,
+          "question": "Very well your uncle can swim. / Your uncle can swim very well.",
+          "correct_answer": "Your uncle can swim very well.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_5.mp3"
+        },
+        {
+          "item_number": 6,
+          "question": "They quite fast can run. / They can run quite fast.",
+          "correct_answer": "They can run quite fast.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_6.mp3"
+        },
+        {
+          "item_number": 7,
+          "question": "Mr. Henderson is really good at golf. / At golf Mr. Henderson is really good.",
+          "correct_answer": "Mr. Henderson is really good at golf.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_1_7.mp3"
+        }
+      ]
+    },
+    {
+      "exercise_id": "46.2",
+      "exercise_type": "sentence_ordering",
+      "instruction": "REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "isn't / at / very / art and design. / good / Arnold",
+          "correct_answer": "Arnold isn't very good at art and design.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_2_1.mp3"
+        },
+        {
+          "item_number": 2,
+          "question": "is / English. / speaking / really / cousin / good / at / My",
+          "correct_answer": "My cousin is really good at speaking English.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_2_2.mp3"
+        },
+        {
+          "item_number": 3,
+          "question": "is / at / climbing / Jean / quite / mountains. / good",
+          "correct_answer": "Jean is quite good at climbing mountains.",
+          "audio_icon_present": true,
+          "audio_file_path": "audio/46/46_2_3.mp3"
+        }
+      ]
+    }
+  ]
+}

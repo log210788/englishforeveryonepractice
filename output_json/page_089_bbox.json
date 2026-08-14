@@ -1,0 +1,243 @@
+{
+  "page_number": 89,
+  "unit_number": 28,
+  "unit_title": "ACCOMMODATION",
+  "exercises": [
+    {
+      "exercise_id": "28.3",
+      "exercise_type": "true_false",
+      "instruction": "MARK THE SENTENCES THAT ARE CORRECT",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "I have two sisters. / I has two sisters.",
+          "correct_answer": "I have two sisters.",
+          "audio_file_path": "audio/28/28_3_1.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 3.67,
+            "left": 6.55,
+            "width": 86.98,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 50.37,
+            "left": 61.83,
+            "width": 2.75,
+            "height": 1.81
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "You has a beautiful house. / You have a beautiful house.",
+          "correct_answer": "You have a beautiful house.",
+          "audio_file_path": "audio/28/28_3_2.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 10.96,
+            "left": 10.04,
+            "width": 37.2,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 58.47,
+            "left": 51.71,
+            "width": 2.23,
+            "height": 2.43
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "We a garden have. / We have a garden.",
+          "correct_answer": "We have a garden.",
+          "audio_file_path": "audio/28/28_3_3.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 16.38,
+            "left": 9.75,
+            "width": 37.13,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 58.72,
+            "left": 61.9,
+            "width": 2.23,
+            "height": 1.93
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Sam and Greg have a dog. / Sam and Greg has a dog.",
+          "correct_answer": "Sam and Greg have a dog.",
+          "audio_file_path": "audio/28/28_3_4.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 36.67,
+            "left": 7.74,
+            "width": 84.45,
+            "height": 3.0
+          },
+          "audio_icon_box": {
+            "top": 64.94,
+            "left": 58.48,
+            "width": 2.01,
+            "height": 2.05
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Marlon a brother has. / Marlon has a brother.",
+          "correct_answer": "Marlon has a brother.",
+          "audio_file_path": "audio/28/28_3_5.mp3",
+          "audio_icon_present": true,
+          "input_blank_box": {
+            "top": 38.04,
+            "left": 6.55,
+            "width": 47.1,
+            "height": 3.18
+          },
+          "audio_icon_box": {
+            "top": 64.2,
+            "left": 59.45,
+            "width": 1.19,
+            "height": 0.93
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Fardale have an old castle. / Fardale has an old castle.",
+          "correct_answer": "Fardale has an old castle.",
+          "input_blank_box": {
+            "top": 40.22,
+            "left": 49.85,
+            "width": 47.4,
+            "height": 3.11
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "They have a new car. / They has a new car.",
+          "correct_answer": "They have a new car.",
+          "input_blank_box": {
+            "top": 46.2,
+            "left": 10.12,
+            "width": 32.29,
+            "height": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "exercise_id": "28.4",
+      "exercise_type": "true_false",
+      "instruction": "READ THE ADVERTISEMENTS AND ANSWER THE QUESTIONS",
+      "items": [
+        {
+          "item_number": 1,
+          "question": "Ocean View has a garage.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 51.43,
+            "left": 9.82,
+            "width": 32.22,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 2,
+          "question": "Sunny Bank has two bathrooms.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 57.29,
+            "left": 51.26,
+            "width": 42.86,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 3,
+          "question": "There isn't a garage at Sunny Bank.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 62.7,
+            "left": 57.51,
+            "width": 9.3,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 4,
+          "question": "Belle Vue Manor has six bedrooms.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "input_blank_box": {
+            "top": 66.0,
+            "left": 50.97,
+            "width": 15.77,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 5,
+          "question": "Belle Vue Manor has a small yard.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 68.37,
+            "left": 50.97,
+            "width": 42.86,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 6,
+          "question": "Mossfield Cottage has an old kitchen.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "False",
+          "input_blank_box": {
+            "top": 79.95,
+            "left": 50.6,
+            "width": 42.93,
+            "height": 3.0
+          }
+        },
+        {
+          "item_number": 7,
+          "question": "Mossfield Cottage has a small yard.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct_answer": "True",
+          "input_blank_box": {
+            "top": 88.23,
+            "left": 50.3,
+            "width": 15.92,
+            "height": 3.18
+          }
+        }
+      ]
+    }
+  ]
+}
