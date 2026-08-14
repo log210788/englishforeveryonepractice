@@ -87,6 +87,9 @@ function playAudioTrack(src, fallbackText = null, onEndedCallback = null) {
   if (src.startsWith('audio/1/')) {
     const filename = src.split('/').pop();
     paths.push(`assets/audio/track_01_${filename}`);
+    if (filename.startsWith('1_')) {
+      paths.push(`assets/audio/track_01_${filename.slice(2)}`);
+    }
   }
 
   let attemptIdx = 0;
@@ -287,21 +290,57 @@ function setupDragAndDropEx1_2() {
   let draggedCard = null;
 
   cards.forEach(card => {
+    // 1. Drag & Drop Handlers
     card.addEventListener('dragstart', (e) => {
       draggedCard = card;
-      card.classList.add('is-dragging');
       e.dataTransfer.setData('text/plain', card.dataset.person);
+      e.dataTransfer.effectAllowed = 'move';
+      // Prevent drag ghosting by delaying is-dragging class
+      setTimeout(() => card.classList.add('is-dragging'), 0);
     });
 
     card.addEventListener('dragend', () => {
+      card.classList.remove('is-dragging');
       draggedCard = null;
-      cards.forEach(c => c.classList.remove('is-dragging'));
+    });
+
+    // 2. Click Handler (Tap to Place / Remove)
+    card.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const parentSlot = card.closest('.ghibli-drop-slot');
+      
+      if (parentSlot) {
+        // If inside a slot, return to pool
+        pool.appendChild(card);
+        parentSlot.classList.remove('filled');
+        speakMascot(`Returned ${card.dataset.person.toUpperCase()} to pool.`);
+      } else {
+        // If in pool, snap to first empty slot
+        let targetSlot = null;
+        for (let i = 1; i <= 6; i++) {
+          const s = document.querySelector(`.ghibli-drop-slot[data-slot="${i}"]`);
+          if (s && !s.querySelector('.ghibli-draggable-card')) {
+            targetSlot = s;
+            break;
+          }
+        }
+
+        if (targetSlot) {
+          targetSlot.appendChild(card);
+          targetSlot.classList.add('filled');
+          speakMascot(`Placed ${card.dataset.person.toUpperCase()} in Slot ${targetSlot.dataset.slot}!`);
+        } else {
+          speakMascot(`All slots are full!`);
+        }
+      }
     });
   });
 
+  // Slot Drop Targets
   slots.forEach(slot => {
     slot.addEventListener('dragover', (e) => {
       e.preventDefault();
+      e.dataTransfer.dropEffect = 'move';
       slot.classList.add('drag-over');
     });
 
@@ -315,16 +354,34 @@ function setupDragAndDropEx1_2() {
 
       if (draggedCard) {
         const existing = slot.querySelector('.ghibli-draggable-card');
-        if (existing) {
+        if (existing && existing !== draggedCard) {
           pool.appendChild(existing);
         }
 
         slot.appendChild(draggedCard);
+        slot.classList.add('filled');
         speakMascot(`Placed ${draggedCard.dataset.person.toUpperCase()} into Slot ${slot.dataset.slot}!`);
       }
     });
   });
 
+  // Allow drop back into pool
+  if (pool) {
+    pool.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      e.dataTransfer.dropEffect = 'move';
+    });
+
+    pool.addEventListener('drop', (e) => {
+      e.preventDefault();
+      if (draggedCard) {
+        pool.appendChild(draggedCard);
+        speakMascot(`Returned ${draggedCard.dataset.person.toUpperCase()} to pool.`);
+      }
+    });
+  }
+
+  // Audio Playback
   const fullAudioBtn = document.getElementById('playFullEx1_2Btn');
   if (fullAudioBtn) {
     fullAudioBtn.addEventListener('click', () => {
@@ -350,23 +407,12 @@ function playNextPlaylistItem() {
     if (fullAudioBtn) {
       fullAudioBtn.innerHTML = `<i class="fa-solid fa-headphones"></i> Play Full Exercise 1.2 Audio`;
     }
-    document.querySelectorAll('.ghibli-draggable-card').forEach(c => c.style.borderColor = '');
     return;
   }
 
   const item = ex1_2_playlist[currentPlaylistIndex];
-  
-  document.querySelectorAll('.ghibli-draggable-card').forEach(card => {
-    if (card.dataset.person === item.person) {
-      card.style.borderColor = 'var(--ghibli-accent-amber)';
-      card.style.boxShadow = '0 0 15px rgba(217, 119, 36, 0.4)';
-    } else {
-      card.style.borderColor = '';
-      card.style.boxShadow = '';
-    }
-  });
-
   currentPlaylistIndex++;
+
   playAudioTrack(item.file, item.text, () => {
     setTimeout(playNextPlaylistItem, 600);
   });
@@ -396,6 +442,23 @@ let selectedBlocks = {
   name: 'Charlotte.'
 };
 
+const ALL_12_GREETINGS = [
+  "Hi! I am Charlotte.",
+  "Hi! I am Carla.",
+  "Hi! I am Fatima.",
+  "Hi! My name is Charlotte.",
+  "Hi! My name is Carla.",
+  "Hi! My name is Fatima.",
+  "Hello! I am Charlotte.",
+  "Hello! I am Carla.",
+  "Hello! I am Fatima.",
+  "Hello! My name is Charlotte.",
+  "Hello! My name is Carla.",
+  "Hello! My name is Fatima."
+];
+
+let discoveredSet = new Set(["Hi! I am Charlotte."]);
+
 function setupExercise1_3() {
   const columns = ['greeting', 'subject', 'verb', 'name'];
 
@@ -416,15 +479,95 @@ function setupExercise1_3() {
     playGreetingBtn.addEventListener('click', () => {
       const sentence = `${selectedBlocks.greeting} ${selectedBlocks.subject} ${selectedBlocks.verb} ${selectedBlocks.name}`;
       playAudioTrack('audio/1/1_3_a.mp3', sentence);
-      speakMascot(`Formed: "${sentence}"`);
+      if (window.speakMascot) {
+        speakMascot(`Playing Audio 1.3: "${sentence}"`);
+      }
     });
   }
+
+  const trayHeader = document.getElementById('toggleGreetingsTray');
+  if (trayHeader) {
+    trayHeader.addEventListener('click', () => {
+      const grid = document.getElementById('ex1_3_tray_grid');
+      const icon = trayHeader.querySelector('.tray-icon');
+      if (grid) {
+        grid.style.display = grid.style.display === 'none' ? 'grid' : 'none';
+        if (icon) icon.className = grid.style.display === 'none' ? 'fa-solid fa-chevron-right tray-icon' : 'fa-solid fa-chevron-down tray-icon';
+      }
+    });
+  }
+
+  updateAssembledGreeting();
 }
 
 function updateAssembledGreeting() {
+  const greeting = selectedBlocks.greeting || 'Hi!';
+  const subject = selectedBlocks.subject || 'I';
+  const verb = selectedBlocks.verb || 'am';
+  const name = selectedBlocks.name || 'Charlotte.';
+
+  // Update visual chips
+  const chipG = document.getElementById('chip_greeting');
+  const chipS = document.getElementById('chip_subject');
+  const chipV = document.getElementById('chip_verb');
+  const chipN = document.getElementById('chip_name');
+
+  if (chipG) chipG.textContent = greeting;
+  if (chipS) chipS.textContent = subject;
+  if (chipV) chipV.textContent = verb;
+  if (chipN) chipN.textContent = name;
+
   const displayEl = document.getElementById('assembledGreetingText');
   if (displayEl) {
-    displayEl.textContent = `"${selectedBlocks.greeting} ${selectedBlocks.subject} ${selectedBlocks.verb} ${selectedBlocks.name}"`;
+    displayEl.textContent = `"${greeting} ${subject} ${verb} ${name}"`;
+  }
+
+  const currentSentence = `${greeting} ${subject} ${verb} ${name}`;
+  const isGrammarCorrect = (subject === 'I' && verb === 'am') || (subject === 'My name' && verb === 'is');
+  
+  const valBadge = document.getElementById('ex1_3_val_badge');
+
+  if (valBadge) {
+    if (isGrammarCorrect) {
+      valBadge.className = 'ex1-3-validation-badge valid';
+      valBadge.innerHTML = '<i class="fa-solid fa-circle-check"></i> <span>Valid Greeting!</span>';
+      
+      if (!discoveredSet.has(currentSentence) && ALL_12_GREETINGS.includes(currentSentence)) {
+        discoveredSet.add(currentSentence);
+        if (typeof triggerSparkle === 'function') {
+          triggerSparkle(window.innerWidth / 2, 200);
+        }
+        if (typeof speakMascot === 'function') {
+          speakMascot(`🎉 Discovered greeting ${discoveredSet.size}/12: "${currentSentence}"!`);
+        }
+      }
+    } else {
+      valBadge.className = 'ex1-3-validation-badge invalid';
+      const hint = subject === 'I' ? 'Grammar Check: Pair "I" with "am"' : 'Grammar Check: Pair "My name" with "is"';
+      valBadge.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> <span>${hint}</span>`;
+    }
+  }
+
+  updateDiscoveryTray();
+}
+
+function updateDiscoveryTray() {
+  const countEl = document.getElementById('ex1_3_found_count');
+  const trayCountEl = document.getElementById('tray_count');
+  const trayGrid = document.getElementById('ex1_3_tray_grid');
+
+  if (countEl) countEl.textContent = discoveredSet.size;
+  if (trayCountEl) trayCountEl.textContent = discoveredSet.size;
+
+  if (trayGrid) {
+    trayGrid.innerHTML = ALL_12_GREETINGS.map((g, idx) => {
+      const isFound = discoveredSet.has(g);
+      if (isFound) {
+        return `<div class="ex1-3-tray-item unlocked"><i class="fa-solid fa-star" style="color:var(--ghibli-accent-gold);"></i> ${g}</div>`;
+      } else {
+        return `<div class="ex1-3-tray-item locked"><i class="fa-regular fa-circle"></i> Greeting ${idx + 1}</div>`;
+      }
+    }).join('');
   }
 }
 
