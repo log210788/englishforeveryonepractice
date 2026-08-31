@@ -1908,19 +1908,168 @@ def render_everyday_things_7_1(ex, ex_idx, page_num):
     </section>
     '''
 
+def render_plurals_8_3(ex, ex_idx, page_num):
+    ex_id = "8.3"
+    instruction = "REWRITE THE SINGULAR NOUNS IN THE PLURAL"
+    
+    img_map = {
+        "pencil": "images/everyDayThings/pencil.png",
+        "fish": "images/animals/clean/fish.png",
+        "brother": "images/people/boyDetail.png",
+        "diary": "images/everyDayThings/diary.png",
+        "necklace": "images/everyDayThings/necklace.png",
+        "brush": "images/everyDayThings/hairbrush.png",
+        "watch": "images/everyDayThings/watch.png",
+        "box": "images/everyDayThings/box.png",
+        "dictionary": "images/everyDayThings/dictionary.png",
+        "sister": "images/people/girlDetail.png",
+        "umbrella": "images/everyDayThings/umbrella.png",
+        "laptop": "images/everyDayThings/laptop.png",
+        "sandwich": "images/everyDayThings/sandwich.png",
+        "cat": "images/animals/clean/cat.png",
+        "apple": "images/everyDayThings/apple.png",
+        "glass": "images/everyDayThings/glasses.png",
+        "passport": "images/everyDayThings/passport.png",
+        "magazine": "images/everyDayThings/magazine.png"
+    }
+    
+    items = ex.get('items', [])
+    cards = []
+    for idx, it in enumerate(items):
+        item_num = it.get('item_number', idx + 1)
+        word = it.get('question', '') or it.get('prompt_text', '')
+        correct = it.get('correct_answer', '')
+        audio_file = it.get('audio_file_path', f'audio/8/8_3_{item_num}.mp3')
+        rec_id = f"p27_ex1_i{item_num}"
+        img_url = img_map.get(word.strip().lower(), "images/everyDayThings/pencil.png")
+        if os.path.exists(img_url):
+            mtime = int(os.path.getmtime(img_url))
+            img_src = f"{img_url}?v={mtime}"
+        else:
+            img_src = img_url
+            
+        cards.append(f'''          <div class="ghibli-char-card" style="display:flex; align-items:center; gap:16px; padding:14px 18px; background:rgba(255,255,255,0.92); border-radius:18px; border:1.5px solid #e2d7c3; box-shadow:0 4px 12px rgba(0,0,0,0.05); box-sizing:border-box;">
+            <div style="width:58px; height:58px; flex-shrink:0; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:12px; border:1px solid #ebdcc5; padding:4px; box-sizing:border-box;">
+              <img src="{img_src}" alt="{word}" style="max-width:100%; max-height:100%; object-fit:contain;" loading="eager" decoding="async">
+            </div>
+            <div style="flex-grow:1; display:flex; flex-direction:column; gap:8px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.05rem; min-width:22px;">{item_num}.</span>
+                  <button class="ghibli-audio-play-btn" data-audio="{audio_file}" title="Play Audio" style="position:static; transform:none; width:28px; height:28px; font-size:0.75rem;"><i class="fa-solid fa-play"></i></button>
+                  <span style="font-weight:700; color:#2b261f; font-size:1.05rem;">{word}</span>
+                </div>
+                <div class="voice-recorder-controls">
+                  <button class="voice-btn rec-btn" data-id="{rec_id}"><i class="fa-solid fa-microphone"></i> Rec</button>
+                  <button class="voice-btn play-rec-btn hidden" data-id="{rec_id}"><i class="fa-solid fa-play"></i> My Voice</button>
+                </div>
+              </div>
+              <div class="ghibli-input-wrap" style="width:100%;">
+                <input type="text" class="ghibli-input" data-correct="{correct}" placeholder="Type plural noun..." autocomplete="off" style="width:100%; font-size:0.98rem; font-weight:600; padding:8px 12px; border-radius:10px; border:1.5px solid #d4c5a9; background:#fff;">
+              </div>
+            </div>
+          </div>''')
+          
+    return f'''
+    <section class="ghibli-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">{ex_id}</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">{instruction}</h3>
+          <p class="ghibli-ex-subtext">Click play to listen to each singular noun, then write its correct plural form!</p>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:16px;">
+        {chr(10).join(cards)}
+      </div>
+    </section>
+    '''
+
+def render_spelling_corrections_8_4(ex, ex_idx, page_num):
+    ex_id = "8.4"
+    instruction = "REWRITE THE WORDS, CORRECTING THE SPELLINGS"
+    
+    img_map = {
+        "brushs": "images/everyDayThings/hairbrush.png",
+        "boxs": "images/everyDayThings/box.png",
+        "dictionarys": "images/everyDayThings/dictionary.png",
+        "doges": "images/animals/clean/dog.png",
+        "notebookses": "images/everyDayThings/notebook.png",
+        "toothbrushs": "images/everyDayThings/toothbrush.png",
+        "bookes": "images/everyDayThings/book.png",
+        "penciles": "images/everyDayThings/pencil.png",
+        "lettres": "images/everyDayThings/letter.png",
+        "newspaperes": "images/everyDayThings/newspaper.png",
+        "glasss": "images/everyDayThings/glasses.png",
+        "passportes": "images/everyDayThings/passport.png",
+        "magazinees": "images/everyDayThings/magazine.png"
+    }
+    
+    items = ex.get('items', [])
+    cards = []
+    for idx, it in enumerate(items):
+        item_num = it.get('item_number', idx + 1)
+        word = it.get('question', '') or it.get('prompt_text', '')
+        correct = it.get('correct_answer', '')
+        audio_file = it.get('audio_file_path', f'audio/8/8_4_{item_num}.mp3')
+        rec_id = f"p27_ex2_i{item_num}"
+        img_url = img_map.get(word.strip().lower(), "images/everyDayThings/pencil.png")
+        if os.path.exists(img_url):
+            mtime = int(os.path.getmtime(img_url))
+            img_src = f"{img_url}?v={mtime}"
+        else:
+            img_src = img_url
+            
+        cards.append(f'''          <div class="ghibli-char-card" style="display:flex; align-items:center; gap:16px; padding:14px 18px; background:rgba(255,255,255,0.92); border-radius:18px; border:1.5px solid #e2d7c3; box-shadow:0 4px 12px rgba(0,0,0,0.05); box-sizing:border-box;">
+            <div style="width:58px; height:58px; flex-shrink:0; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:12px; border:1px solid #ebdcc5; padding:4px; box-sizing:border-box;">
+              <img src="{img_src}" alt="{word}" style="max-width:100%; max-height:100%; object-fit:contain;" loading="eager" decoding="async">
+            </div>
+            <div style="flex-grow:1; display:flex; flex-direction:column; gap:8px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.05rem; min-width:22px;">{item_num}.</span>
+                  <button class="ghibli-audio-play-btn" data-audio="{audio_file}" title="Play Audio" style="position:static; transform:none; width:28px; height:28px; font-size:0.75rem;"><i class="fa-solid fa-play"></i></button>
+                  <span style="font-weight:700; color:#b33927; font-size:1.05rem; text-decoration:line-through;">{word}</span>
+                </div>
+                <div class="voice-recorder-controls">
+                  <button class="voice-btn rec-btn" data-id="{rec_id}"><i class="fa-solid fa-microphone"></i> Rec</button>
+                  <button class="voice-btn play-rec-btn hidden" data-id="{rec_id}"><i class="fa-solid fa-play"></i> My Voice</button>
+                </div>
+              </div>
+              <div class="ghibli-input-wrap" style="width:100%;">
+                <input type="text" class="ghibli-input" data-correct="{correct}" placeholder="Type correct spelling..." autocomplete="off" style="width:100%; font-size:0.98rem; font-weight:600; padding:8px 12px; border-radius:10px; border:1.5px solid #d4c5a9; background:#fff;">
+              </div>
+            </div>
+          </div>''')
+          
+    return f'''
+    <section class="ghibli-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">{ex_id}</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">{instruction}</h3>
+          <p class="ghibli-ex-subtext">Look at each misspelled word, listen to the pronunciation, and type the correct spelling!</p>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:16px;">
+        {chr(10).join(cards)}
+      </div>
+    </section>
+    '''
+
 def render_pictures_what_it_shows_8_5(ex, ex_idx, page_num):
     ex_id = "8.5"
     instruction = "WRITE DOWN WHAT EACH PICTURE SHOWS"
     
     items = [
-        {"num": "Example", "correct": "two watches", "display_correct": "two watches", "img": "images/ex8_5/0_watches_eg.png", "is_eg": True, "rec_id": "p27_ex3_eg"},
-        {"num": "1.", "correct": "three sandwiches", "display_correct": "three sandwiches", "img": "images/ex8_5/1_sandwiches.png", "is_eg": False, "rec_id": "p27_ex3_i1"},
-        {"num": "2.", "correct": "two necklaces", "display_correct": "two necklaces", "img": "images/ex8_5/2_necklaces.png", "is_eg": False, "rec_id": "p27_ex3_i2"},
-        {"num": "3.", "correct": "four bags", "display_correct": "four bags", "img": "images/ex8_5/3_bags.png", "is_eg": False, "rec_id": "p27_ex3_i3"},
-        {"num": "4.", "correct": "three toothbrushes", "display_correct": "three toothbrushes", "img": "images/ex8_5/4_toothbrushes.png", "is_eg": False, "rec_id": "p27_ex3_i4"},
-        {"num": "5.", "correct": "two diaries", "display_correct": "two diaries", "img": "images/ex8_5/5_diaries.png", "is_eg": False, "rec_id": "p27_ex3_i5"},
-        {"num": "6.", "correct": "two cats", "display_correct": "two cats", "img": "images/ex8_5/6_cats.png", "is_eg": False, "rec_id": "p27_ex3_i6"},
-        {"num": "7.", "correct": "one apple|an apple", "display_correct": "one apple", "img": "images/ex8_5/7_apple.png", "is_eg": False, "rec_id": "p27_ex3_i7"}
+        {"num": "Example", "correct": "two watches", "display_correct": "two watches", "img": "images/everyDayThings/8_5_watches.png", "is_eg": True, "rec_id": "p27_ex3_eg"},
+        {"num": "1.", "correct": "three sandwiches", "display_correct": "three sandwiches", "img": "images/everyDayThings/8_5_sandwiches.png", "is_eg": False, "rec_id": "p27_ex3_i1"},
+        {"num": "2.", "correct": "two necklaces", "display_correct": "two necklaces", "img": "images/everyDayThings/8_5_necklaces.png", "is_eg": False, "rec_id": "p27_ex3_i2"},
+        {"num": "3.", "correct": "four bags", "display_correct": "four bags", "img": "images/everyDayThings/8_5_bags.png", "is_eg": False, "rec_id": "p27_ex3_i3"},
+        {"num": "4.", "correct": "three toothbrushes", "display_correct": "three toothbrushes", "img": "images/everyDayThings/8_5_toothbrushes.png", "is_eg": False, "rec_id": "p27_ex3_i4"},
+        {"num": "5.", "correct": "two diaries", "display_correct": "two diaries", "img": "images/everyDayThings/8_5_diaries.png", "is_eg": False, "rec_id": "p27_ex3_i5"},
+        {"num": "6.", "correct": "two cats", "display_correct": "two cats", "img": "images/everyDayThings/8_5_cats.png", "is_eg": False, "rec_id": "p27_ex3_i6"},
+        {"num": "7.", "correct": "one apple|an apple", "display_correct": "one apple", "img": "images/everyDayThings/8_5_apple.png", "is_eg": False, "rec_id": "p27_ex3_i7"}
     ]
     
     cards = []
@@ -1936,7 +2085,7 @@ def render_pictures_what_it_shows_8_5(ex, ex_idx, page_num):
         correct_val = it.get('correct', '')
         display_val = it.get('display_correct', correct_val)
         rec_id = it.get('rec_id', '')
-        is_eg = it.get('is_example', False)
+        is_eg = it.get('is_eg', False)
 
         if is_eg:
             cards.append(f'''          <div class="ghibli-char-card example-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.95); border-radius:20px; border:2px solid #2d5a27; box-shadow:0 6px 18px rgba(45,90,39,0.12); box-sizing:border-box;">
@@ -2106,6 +2255,10 @@ def render_exercise(ex, ex_idx, page_num):
         return render_ghibli_reading_exercise_6_3(ex, ex_idx, page_num)
     elif page_num in [24, 25] or (ex_id == "7.1" and page_num < 30) or "EVERYDAY THINGS" in instruction_str:
         return render_everyday_things_7_1(ex, ex_idx, page_num)
+    elif page_num == 27 and (ex_id == "8.3" or ex_idx == 0 or "REWRITE THE SINGULAR NOUNS" in instruction_str):
+        return render_plurals_8_3(ex, ex_idx, page_num)
+    elif page_num == 27 and (ex_id == "8.4" or ex_idx == 1 or "CORRECTING THE SPELLINGS" in instruction_str):
+        return render_spelling_corrections_8_4(ex, ex_idx, page_num)
     elif page_num == 27 and (ex_id == "8.5" or ex_idx == 2 or "WRITE DOWN WHAT EACH PICTURE SHOWS" in instruction_str):
         return render_pictures_what_it_shows_8_5(ex, ex_idx, page_num)
     elif page_num in [30, 31] or (ex_id == "9.1" and page_num <= 31) or "JOBS WRITE" in instruction_str or "OCCUPATIONS" in instruction_str:
