@@ -323,7 +323,7 @@
           "correct_answer": "These are my sisters.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_2.mp3",
+          "audio_file_path": "audio/8/8_2_eg.mp3",
           "input_blank_box": {
             "top": 67.06,
             "left": 51.26,
@@ -345,7 +345,7 @@
           "correct_answer": "This is my letter.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_2.mp3",
+          "audio_file_path": "audio/8/8_2_1.mp3",
           "input_blank_box": {
             "top": 70.49,
             "left": 11.38,
@@ -367,7 +367,7 @@
           "correct_answer": "These are my purses.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_2.mp3",
+          "audio_file_path": "audio/8/8_2_2.mp3",
           "input_blank_box": {
             "top": 70.49,
             "left": 51.26,
@@ -389,7 +389,7 @@
           "correct_answer": "That is Greg's key.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_2.mp3",
+          "audio_file_path": "audio/8/8_2_3.mp3",
           "input_blank_box": {
             "top": 73.85,
             "left": 11.38,
@@ -411,7 +411,7 @@
           "correct_answer": "Those are my cats.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_2.mp3",
+          "audio_file_path": "audio/8/8_2_4.mp3",
           "input_blank_box": {
             "top": 73.85,
             "left": 51.26,
@@ -433,7 +433,7 @@
           "correct_answer": "This is my sister's pencil.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_2.mp3",
+          "audio_file_path": "audio/8/8_2_5.mp3",
           "input_blank_box": {
             "top": 77.27,
             "left": 11.38,
@@ -455,7 +455,7 @@
           "correct_answer": "Those are your dictionaries.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_2.mp3",
+          "audio_file_path": "audio/8/8_2_6.mp3",
           "input_blank_box": {
             "top": 77.27,
             "left": 51.26,
@@ -475,9 +475,9 @@
           "question": "This is Dan's house. -> _____________",
           "options": null,
           "correct_answer": "These are Dan's houses.",
-          "audio_icon_present": false,
+          "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null,
+          "audio_file_path": "audio/8/8_2_7.mp3",
           "input_blank_box": {
             "top": 80.7,
             "left": 11.38,
@@ -491,9 +491,9 @@
           "question": "_____________ <- Those are Stan's books.",
           "options": null,
           "correct_answer": "That is Stan's book.",
-          "audio_icon_present": false,
+          "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null,
+          "audio_file_path": "audio/8/8_2_8.mp3",
           "input_blank_box": {
             "top": 80.7,
             "left": 51.26,
@@ -507,9 +507,9 @@
           "question": "_____________ <- Those are my brothers.",
           "options": null,
           "correct_answer": "That is my brother.",
-          "audio_icon_present": false,
+          "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null,
+          "audio_file_path": "audio/8/8_2_9.mp3",
           "input_blank_box": {
             "top": 84.12,
             "left": 11.38,

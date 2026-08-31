@@ -142,7 +142,7 @@
           "correct_answer": "Sam's grandmother.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "audio_file_path": "audio/6/6_2_uk.mp3",
           "input_blank_box": {
             "top": 40.22,
             "left": 52.16,
@@ -173,7 +173,7 @@
           "correct_answer": null,
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "audio_file_path": "audio/6/6_2_uk.mp3",
           "input_blank_box": {
             "top": 45.7,
             "left": 52.16,
@@ -204,7 +204,7 @@
           "correct_answer": null,
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "audio_file_path": "audio/6/6_2_uk.mp3",
           "input_blank_box": {
             "top": 51.18,
             "left": 52.08,
@@ -235,7 +235,7 @@
           "correct_answer": null,
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "audio_file_path": "audio/6/6_2_uk.mp3",
           "input_blank_box": {
             "top": 55.04,
             "left": 7.81,
@@ -266,7 +266,7 @@
           "correct_answer": null,
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "audio_file_path": "audio/6/6_2_uk.mp3",
           "input_blank_box": {
             "top": 57.35,
             "left": 6.55,
@@ -297,7 +297,7 @@
           "correct_answer": null,
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "audio_file_path": "audio/6/6_2_uk.mp3",
           "input_blank_box": {
             "top": 63.45,
             "left": 58.93,
@@ -328,7 +328,7 @@
           "correct_answer": null,
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "audio_file_path": "audio/6/6_2_uk.mp3",
           "input_blank_box": {
             "top": 67.19,
             "left": 11.83,
@@ -359,7 +359,7 @@
           "correct_answer": null,
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3",
+          "audio_file_path": "audio/6/6_2_uk.mp3",
           "input_blank_box": {
             "top": 65.82,
             "left": 58.93,

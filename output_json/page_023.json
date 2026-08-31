@@ -1,16 +1,38 @@
 {
   "page_number": 23,
-  "unit_number": 12,
-  "unit_title": "ENTERTAINMENT",
+  "unit_number": 6,
+  "unit_title": "Using apostrophes",
   "exercises": [
     {
       "exercise_id": "6.3",
       "exercise_type": "true_false",
       "instruction": "READ THE ARTICLE AND ANSWER THE QUESTIONS",
+      "article": {
+        "title": "TELEVISION",
+        "subtitle": "A fascinating look at everyday life with the Douglas family",
+        "image": "images/ai/Gemini_Generated_Image_ (2).png",
+        "paragraphs": [
+          "Sam Douglas lives with seven other people at his home in London. Esme and Alf are Sam's grandparents. They have 14 grandchildren. Sam's mom is called Annie; she works in the pub next to the family's house. Annie's husband is Ralf and he's a mechanic.",
+          "Sam has two sisters and one brother. His sisters are called Helen and Rebecca. They go to a school near their house. Ted is Sam's brother. He's 20 and goes to university.",
+          "There are two animals in the Douglas family's home. Bouncer is Sam's dog and Hiss is Ted's snake."
+        ]
+      },
+      "example": {
+        "item_number": 0,
+        "question": "Sam lives with seven people.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_answer": "True",
+        "audio_icon_present": false,
+        "audio_track_ref": null,
+        "audio_file_path": null
+      },
       "items": [
         {
           "item_number": 1,
-          "prompt_text": "Sam lives with seven people. - True",
+          "prompt_text": "Esme is Sam's grandmother.",
           "question": "Esme is Sam's grandmother.",
           "options": [
             "True",
@@ -19,11 +41,11 @@
           "correct_answer": "True",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_1.wav"
         },
         {
           "item_number": 2,
-          "prompt_text": null,
+          "prompt_text": "Sam's mother is called Helen.",
           "question": "Sam's mother is called Helen.",
           "options": [
             "True",
@@ -32,11 +54,11 @@
           "correct_answer": "False",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_2.wav"
         },
         {
           "item_number": 3,
-          "prompt_text": null,
+          "prompt_text": "Sam's sisters go to university.",
           "question": "Sam's sisters go to university.",
           "options": [
             "True",
@@ -45,11 +67,11 @@
           "correct_answer": "False",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_3.wav"
         },
         {
           "item_number": 4,
-          "prompt_text": null,
+          "prompt_text": "There are two animals in the family's home.",
           "question": "There are two animals in the family's home.",
           "options": [
             "True",
@@ -58,11 +80,11 @@
           "correct_answer": "True",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_4.wav"
         },
         {
           "item_number": 5,
-          "prompt_text": null,
+          "prompt_text": "Ted's snake is called Bouncer.",
           "question": "Ted's snake is called Bouncer.",
           "options": [
             "True",
@@ -71,7 +93,7 @@
           "correct_answer": "False",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_5.wav"
         }
       ]
     },

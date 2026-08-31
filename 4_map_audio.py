@@ -42,15 +42,25 @@ def build_audio_lookup(audio_dir: Path) -> Dict[str, str]:
             dot_key = norm_stem.replace("_", ".")
             lookup[dot_key] = rel_path
 
-            # Strip track_XX prefix for direct exercise item mapping (e.g. 'track_01_1_1' -> '1_1_1')
-            m = re.match(r"^track_\d+_(.+)", norm_stem)
+            # Strip dialect/locale suffixes like _a_usuk, _usuk, _uk, _us, _a, _b, _c
+            clean_stem = re.sub(r"(_a_usuk|_usuk|_uk|_us|_a|_b|_c)$", "", norm_stem)
+            if clean_stem != norm_stem:
+                lookup[clean_stem] = rel_path
+                lookup[clean_stem.replace("_", ".")] = rel_path
+
+            # Strip track_ prefix and keep unit + exercise + item (e.g. 'track_01_1_1' -> '1_1_1')
+            m = re.match(r"^track_(\d+)_(.+)", norm_stem)
             if m:
-                alias = m.group(1)
+                unit_num = str(int(m.group(1)))
+                rest = m.group(2)
+                alias = f"{unit_num}_{rest}"
                 lookup[alias] = rel_path
-                alias_norm = re.sub(r"^0+", "", alias)  # e.g. 01_1_1 -> 1_1_1
-                lookup[alias_norm] = rel_path
                 lookup[alias.replace("_", ".")] = rel_path
-                lookup[alias_norm.replace("_", ".")] = rel_path
+
+                clean_alias = re.sub(r"(_a_usuk|_usuk|_uk|_us|_a|_b|_c)$", "", alias)
+                if clean_alias != alias:
+                    lookup[clean_alias] = rel_path
+                    lookup[clean_alias.replace("_", ".")] = rel_path
 
     return lookup
 

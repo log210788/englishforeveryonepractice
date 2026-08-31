@@ -40,10 +40,13 @@ class StudioRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_error(404, "Endpoint not found")
 
     def end_headers(self):
-        # Enable CORS for convenience
+        # Enable CORS and Disable browser caching for live development
         self.send_header('Access-Control-Allow-Origin', '*')
         self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+        self.send_header('Pragma', 'no-cache')
+        self.send_header('Expires', '0')
         super().end_headers()
 
     def do_OPTIONS(self):
@@ -54,10 +57,12 @@ if __name__ == '__main__':
     print(f"[+] Launching Teacher Lewis's Practice Book Server on http://localhost:{PORT}")
     print(f"[+] Studio Ghibli Landing Hub: http://localhost:{PORT}/index.html")
     print(f"[+] Full Interactive Reader: http://localhost:{PORT}/workbook.html")
-    socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", PORT), StudioRequestHandler) as httpd:
-        try:
-            httpd.serve_forever()
-        except KeyboardInterrupt:
-            print("\nShutting down server.")
+    
+    server_address = ("", PORT)
+    httpd = http.server.ThreadingHTTPServer(server_address, StudioRequestHandler)
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        print("\nShutting down server.")
+        httpd.server_close()
 

@@ -104,7 +104,8 @@
         {
           "item_number": 1,
           "question": "Create nine correct sentences using the chart.",
-          "audio_icon_present": true
+          "audio_icon_present": true,
+          "audio_file_path": "audio/16/16_8_a.mp3"
         }
       ]
     }

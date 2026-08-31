@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book | Studio Ghibli Edition - Chapter 3</title>
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+  </style>
   <meta name="description" content="Interactive English practice - Talking about your things & using apostrophes. Ancient Forest Shrine setting.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -93,7 +101,7 @@
         <!-- Example -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img">
+            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_eg.mp3"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -109,7 +117,7 @@
 
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img">
+            <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_1.mp3"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -126,7 +134,7 @@
 
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img">
+            <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_2.mp3"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -143,7 +151,7 @@
 
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img">
+            <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_3.mp3"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -160,7 +168,7 @@
 
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/ryan.jpg" alt="Ryan" class="ghibli-avatar-img">
+            <img src="images/ghibli/ryan.jpg" alt="Ryan" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_4.mp3"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -177,7 +185,7 @@
 
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img">
+            <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/3/3_1_5.mp3"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -254,6 +262,11 @@
   </div>
 
   <!-- Mascot Widget -->
+    <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
+    <i class="fa-solid fa-circle-check"></i> Check Answers
+  </button>
+
   <div class="ghibli-mascot-container" id="ghibliMascotWidget">
     <div class="mascot-bubble-wrap">
       <div class="mascot-min-bar">
@@ -278,7 +291,7 @@
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap" title="Click Kodama to hear Teacher Lewis's story!">
       <div class="mascot-focus-aura" id="mascotAura"></div>
       <div class="mascot-expr-badge" id="mascotExprBadge">🌿 Forest Guardian</div>
-      <img src="images/ghibli/ch3/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/ch3/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
@@ -293,28 +306,32 @@
   <script>
   document.addEventListener('DOMContentLoaded', () => {
     const scoreText = document.getElementById('ghibliScoreText');
-    document.getElementById('ghibliCheckAnswersBtn')?.addEventListener('click', () => {
-      let correct = 0, total = 10;
-      [1,2,3,4,5].forEach(n => {
-        const input = document.getElementById(`ex31_input_${n}`);
-        if (!input) return;
-        const user = input.value.trim().toLowerCase().replace(/['']/g,"'");
-        const exp = CH3_ANSWERS.ex31[n].toLowerCase();
-        if (user === exp) { input.classList.add('correct'); input.classList.remove('incorrect'); correct++; }
-        else if (user !== '') { input.classList.add('incorrect'); input.classList.remove('correct'); }
+    document.querySelectorAll('#ghibliCheckAnswersBtn, #ghibliFloatingCheckBtn, .ghibli-floating-check-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        let correct = 0, total = 10;
+        [1,2,3,4,5].forEach(n => {
+          const input = document.getElementById(`ex31_input_${n}`);
+          if (!input) return;
+          const user = input.value.trim().toLowerCase().replace(/['']/g,"'");
+          const exp = CH3_ANSWERS.ex31[n].toLowerCase();
+          if (user === exp) { input.classList.add('correct'); input.classList.remove('incorrect'); correct++; }
+          else if (user !== '') { input.classList.add('incorrect'); input.classList.remove('correct'); }
+        });
+        [1,2,3,4,5].forEach(n => {
+          const input = document.getElementById(`ex32_input_${n}`);
+          if (!input) return;
+          const user = input.value.trim().toLowerCase();
+          if (user === CH3_ANSWERS.ex32[n]) { input.classList.add('correct'); input.classList.remove('incorrect'); correct++; }
+          else if (user !== '') { input.classList.add('incorrect'); input.classList.remove('correct'); }
+        });
+        if (scoreText) scoreText.textContent = `${correct} / ${total}`;
       });
-      [1,2,3,4,5].forEach(n => {
-        const input = document.getElementById(`ex32_input_${n}`);
-        if (!input) return;
-        const user = input.value.trim().toLowerCase();
-        if (user === CH3_ANSWERS.ex32[n]) { input.classList.add('correct'); input.classList.remove('incorrect'); correct++; }
-        else if (user !== '') { input.classList.add('incorrect'); input.classList.remove('correct'); }
-      });
-      if (scoreText) scoreText.textContent = `${correct} / ${total}`;
     });
-    document.getElementById('ghibliResetBtn')?.addEventListener('click', () => {
-      document.querySelectorAll('.ex31-input, .ex32-input').forEach(i => { i.value = ''; i.classList.remove('correct','incorrect'); });
-      if (scoreText) scoreText.textContent = '0 / 10';
+    document.querySelectorAll('#ghibliResetBtn, .ghibli-reset-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.ex31-input, .ex32-input').forEach(i => { i.value = ''; i.classList.remove('correct','incorrect'); });
+        if (scoreText) scoreText.textContent = '0 / 10';
+      });
     });
     // Patch mascot images
     const origImg = document.getElementById('mascotAvatarImg');

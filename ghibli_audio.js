@@ -146,6 +146,19 @@
       this.syncBGMButtonState();
     }
 
+    duckBGM() {
+      if (this.bgmAudio && !this.bgmAudio.paused) {
+        this._prevBgmVol = this.bgmAudio.volume;
+        this.bgmAudio.volume = 0.05;
+      }
+    }
+
+    unduckBGM() {
+      if (this.bgmAudio && !this.bgmAudio.paused) {
+        this.bgmAudio.volume = this._prevBgmVol || 0.35;
+      }
+    }
+
     toggleBGM(btnElement = null) {
       const isPlaying = localStorage.getItem('ghibli_bgm_playing') === 'true' && this.bgmAudio && !this.bgmAudio.paused;
       if (isPlaying) {
@@ -469,6 +482,11 @@
         );
 
         if (interactiveEl) {
+          // Do not play click sound over exercise audio or voice recorder buttons
+          if (interactiveEl.closest('.ghibli-audio-play-btn, .ghibli-audio-btn, .rec-btn, .play-rec-btn, .voice-btn, [data-audio]')) {
+            return;
+          }
+
           // If checkbox or toggle, use waterdrop sound for variety
           if (interactiveEl.tagName === 'INPUT' && (interactiveEl.type === 'checkbox' || interactiveEl.type === 'radio')) {
             this.playWaterDrop();

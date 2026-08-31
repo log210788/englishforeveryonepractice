@@ -314,7 +314,8 @@
             "left": 11.68,
             "width": 5.65,
             "height": 4.98
-          }
+          },
+          "audio_file_path": "audio/11/11_2_eg_usuk.mp3"
         },
         {
           "item_number": 1,
@@ -335,7 +336,8 @@
             "left": 15.62,
             "width": 2.23,
             "height": 1.56
-          }
+          },
+          "audio_file_path": "audio/11/11_2_1_usuk.mp3"
         },
         {
           "item_number": 2,
@@ -378,7 +380,8 @@
             "left": 10.0,
             "width": 4.0,
             "height": 3.2
-          }
+          },
+          "audio_file_path": "audio/11/11_2_3_usuk.mp3"
         },
         {
           "item_number": 4,
@@ -421,7 +424,8 @@
             "left": 10.0,
             "width": 4.0,
             "height": 3.2
-          }
+          },
+          "audio_file_path": "audio/11/11_2_5_usuk.mp3"
         },
         {
           "item_number": 6,

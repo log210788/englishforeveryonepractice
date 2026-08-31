@@ -31,6 +31,12 @@
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 body {
   background-color: var(--bg-dark);
   color: var(--text-main);
@@ -727,13 +733,16 @@ body {
 
 /* 8. Kodama Companion Mascot Widget (Minimalist & Expressive) */
 .ghibli-mascot-container {
-  position: fixed;
-  bottom: 28px;
-  right: 28px;
-  display: flex;
-  align-items: flex-end;
-  gap: 16px;
-  z-index: 1000;
+  position: fixed !important;
+  bottom: 28px !important;
+  right: 28px !important;
+  left: auto !important;
+  top: auto !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-end !important;
+  gap: 16px !important;
+  z-index: 9999 !important;
 }
 
 .mascot-bubble-wrap {

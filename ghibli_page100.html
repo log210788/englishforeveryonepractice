@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit 31: Counting • Page 100 | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit 5 • Page 100: Counting | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788155926">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -25,12 +36,13 @@
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit 31: Counting • Page 100</span>
+          <span class="ghibli-subtitle">🌿 Unit 5 • Lesson: Counting • Page 100</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        <a href="unit5.html" class="ghibli-btn ghibli-btn-gold" title="Open Complete Unit 5 Module"><i class="fa-solid fa-book-open"></i> Full Unit 5</a>
+        <a href="ghibli_reader.html?page=100" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -45,15 +57,15 @@
 
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
-      <a href="ghibli_page099.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 99)</a>
-      <span class="page-turn-badge">📖 Page 100 of 169</span>
-      <a href="ghibli_page101.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 101) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p099.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 99)</a>
+      <span class="page-turn-badge">📖 Page 100 of 168</span>
+      <a href="ghibli_p101.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 101) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
     <div class="ghibli-hero-card">
       <div class="ghibli-hero-main">
-        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 31</span>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 5 • Lesson: Counting</span>
         <h2 class="ghibli-hero-title">Counting</h2>
         <p class="ghibli-hero-desc">Learn how to count countable objects and talk about singular and plural food items.</p>
       </div>
@@ -88,12 +100,10 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">1.</span>
-                        
-                        
+                      
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         <button class="ghibli-audio-play-btn" data-audio="audio/31/31_6_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>There&#x27;s a <input type="text" class="ghibli-input" data-correct="glass" placeholder="Type answer..." /> of milk.</span>
+                        <span>There&#x27;s a <input type="text" class="ghibli-input ghibli-inline-input" data-correct="glass" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> of milk.</span>
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -106,12 +116,14 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">1.</span>
                         
+                      </div>
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         <button class="ghibli-audio-play-btn" data-audio="audio/31/31_6_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>There are two <input type="text" class="ghibli-input" data-correct="bags" placeholder="Type answer..." /> of rice.</span>
+                        <span>There are two <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="bags" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> of rice.</span>
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -124,12 +136,14 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">3.</span>
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">2.</span>
                         
+                      </div>
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         <button class="ghibli-audio-play-btn" data-audio="audio/31/31_6_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>There&#x27;s a <input type="text" class="ghibli-input" data-correct="bar" placeholder="Type answer..." /> of chocolate.</span>
+                        <span>There&#x27;s a <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="bar" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> of chocolate.</span>
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -142,12 +156,14 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">3.</span>
                         
+                      </div>
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         
-                        <span>There&#x27;s a <input type="text" class="ghibli-input" data-correct="carton" placeholder="Type answer..." /> of juice.</span>
+                        <span>There&#x27;s a <input type="text" class="ghibli-input ghibli-inline-input" data-correct="carton" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> of juice.</span>
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -160,12 +176,14 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">4.</span>
                         
+                      </div>
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         
-                        <span>There are three <input type="text" class="ghibli-input" data-correct="bottles" placeholder="Type answer..." /> of water.</span>
+                        <span>There are three <input type="text" class="ghibli-input ghibli-inline-input" data-correct="bottles" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> of water.</span>
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -178,12 +196,14 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">6.</span>
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">5.</span>
                         
+                      </div>
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         
-                        <span>There&#x27;s a <input type="text" class="ghibli-input" data-correct="bowl" placeholder="Type answer..." /> of pasta.</span>
+                        <span>There&#x27;s a <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="bowl" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> of pasta.</span>
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -196,12 +216,14 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">7.</span>
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">6.</span>
                         
+                      </div>
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         
-                        <span>There are two <input type="text" class="ghibli-input" data-correct="cups" placeholder="Type answer..." /> of tea.</span>
+                        <span>There are two <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="cups" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> of tea.</span>
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -216,7 +238,7 @@
     </section>
     
 
-    <section class="ghibli-section">
+    <section class="ghibli-section crossout-exercise-section">
       <div class="ghibli-section-header">
         <div class="ghibli-ex-num">31.7</div>
         <div>
@@ -225,215 +247,215 @@
       </div>
       <div class="ghibli-char-grid">
         
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">1.</span>
-                    
-                    <span>There is / are a jar of coffee.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">is</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">are</button>
-                  </div>
-                  
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">1.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i1"><button type="button" class="ghibli-crossout-btn" data-word="is" data-correct="false">is</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="are" data-correct="true">are</button></span> a jar of coffee.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i1"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i1"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">2.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i2"><button type="button" class="ghibli-crossout-btn" data-word="isn&#x27;t" data-correct="false">isn&#x27;t</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="aren&#x27;t" data-correct="true">aren&#x27;t</button></span> any rice.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">2.</span>
-                    
-                    <span>There isn&#x27;t / aren&#x27;t any rice.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">isn&#x27;t</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">aren&#x27;t</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i2"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i2"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">3.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i3"><button type="button" class="ghibli-crossout-btn" data-word="is" data-correct="true">is</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="are" data-correct="false">are</button></span> two cartons of juice.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">3.</span>
-                    
-                    <span>There is / are two cartons of juice.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">is</button><button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">are</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i3"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i3"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">4.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i4"><button type="button" class="ghibli-crossout-btn" data-word="is" data-correct="false">is</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="are" data-correct="true">are</button></span> some meat.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">4.</span>
-                    
-                    <span>There is / are some meat.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">is</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">are</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i4"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i4"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">5.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i5"><button type="button" class="ghibli-crossout-btn" data-word="is" data-correct="true">is</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="are" data-correct="false">are</button></span> two bottles of wine.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">5.</span>
-                    
-                    <span>There is / are two bottles of wine.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">is</button><button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">are</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i5"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i5"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">6.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i6"><button type="button" class="ghibli-crossout-btn" data-word="isn&#x27;t" data-correct="false">isn&#x27;t</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="aren&#x27;t" data-correct="true">aren&#x27;t</button></span> any bread.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">6.</span>
-                    
-                    <span>There isn&#x27;t / aren&#x27;t any bread.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">isn&#x27;t</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">aren&#x27;t</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i6"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i6"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">7.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i7"><button type="button" class="ghibli-crossout-btn" data-word="is" data-correct="false">is</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="are" data-correct="true">are</button></span> a bag of flour.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">7.</span>
-                    
-                    <span>There is / are a bag of flour.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">is</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">are</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i7"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i7"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">8.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i8"><button type="button" class="ghibli-crossout-btn" data-word="is" data-correct="false">is</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="are" data-correct="true">are</button></span> some pasta.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">8.</span>
-                    
-                    <span>There is / are some pasta.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">is</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">are</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i8"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i8"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">9.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i9"><button type="button" class="ghibli-crossout-btn" data-word="is" data-correct="true">is</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="are" data-correct="false">are</button></span> two bars of chocolate.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">9.</span>
-                    
-                    <span>There is / are two bars of chocolate.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">is</button><button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">are</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i9"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i9"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">10.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i10"><button type="button" class="ghibli-crossout-btn" data-word="isn&#x27;t" data-correct="false">isn&#x27;t</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="aren&#x27;t" data-correct="true">aren&#x27;t</button></span> any sugar.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">10.</span>
-                    
-                    <span>There isn&#x27;t / aren&#x27;t any sugar.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">isn&#x27;t</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">aren&#x27;t</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i10"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i10"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">11.</span>
+                There <span class="ghibli-crossout-group" data-item-id="p100_ex2_i11"><button type="button" class="ghibli-crossout-btn" data-word="is" data-correct="false">is</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="are" data-correct="true">are</button></span> some butter.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">11.</span>
-                    
-                    <span>There is / are some butter.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">is</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">are</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p100_ex2_i11"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p100_ex2_i11"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
-              </div>
-            
+            </div>
+          </div>
+        
       </div>
     </section>
     
@@ -448,13 +470,13 @@
 
     <!-- Page Turning Navigation Bar Bottom -->
     <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:32px; padding-bottom:40px;">
-      <a href="ghibli_page099.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 99)</a>
-      <a href="ghibli_page101.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 101) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p099.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 99)</a>
+      <a href="ghibli_p101.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 101) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -475,11 +497,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v=1788155926"></script>
+  <script src="ghibli_page_engine.js?v=1788155926"></script>
 </body>
 </html>

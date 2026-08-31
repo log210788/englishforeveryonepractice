@@ -177,7 +177,7 @@
     },
     {
       "exercise_id": "8.8",
-      "exercise_type": "audio_listen",
+      "exercise_type": "multiple_choice",
       "instruction": "LISTEN TO THE AUDIO AND MARK THE SENTENCES YOU HEAR",
       "items": [
         {
@@ -188,7 +188,7 @@
             "That dog is yours.",
             "That dog is Claire's."
           ],
-          "correct_answer": null,
+          "correct_answer": "That dog is yours.",
           "audio_icon_present": true,
           "audio_track_ref": null,
           "audio_file_path": "audio/8/8_8_1.mp3"
@@ -201,7 +201,7 @@
             "These sandwiches are theirs.",
             "These sandwiches are Dan's."
           ],
-          "correct_answer": null,
+          "correct_answer": "These sandwiches are Dan's.",
           "audio_icon_present": true,
           "audio_track_ref": null,
           "audio_file_path": "audio/8/8_8_2.mp3"
@@ -214,7 +214,7 @@
             "That bag is his.",
             "That bag is hers."
           ],
-          "correct_answer": null,
+          "correct_answer": "That bag is hers.",
           "audio_icon_present": true,
           "audio_track_ref": null,
           "audio_file_path": "audio/8/8_8_3.mp3"
@@ -227,7 +227,7 @@
             "Those sandwiches are ours.",
             "Those sandwiches are Emma's."
           ],
-          "correct_answer": null,
+          "correct_answer": "Those sandwiches are ours.",
           "audio_icon_present": true,
           "audio_track_ref": null,
           "audio_file_path": "audio/8/8_8_4.mp3"
@@ -240,7 +240,7 @@
             "That purse is hers.",
             "That purse is Stacey's."
           ],
-          "correct_answer": null,
+          "correct_answer": "That purse is Stacey's.",
           "audio_icon_present": true,
           "audio_track_ref": null,
           "audio_file_path": "audio/8/8_8_5.mp3"
@@ -253,7 +253,7 @@
             "This key is his.",
             "This key is hers."
           ],
-          "correct_answer": null,
+          "correct_answer": "This key is his.",
           "audio_icon_present": true,
           "audio_track_ref": null,
           "audio_file_path": "audio/8/8_8_6.mp3"
@@ -266,7 +266,7 @@
             "This newspaper is theirs.",
             "This newspaper is hers."
           ],
-          "correct_answer": null,
+          "correct_answer": "This newspaper is theirs.",
           "audio_icon_present": true,
           "audio_track_ref": null,
           "audio_file_path": "audio/8/8_8_7.mp3"
@@ -279,7 +279,7 @@
             "That necklace is Linda's.",
             "That necklace is hers."
           ],
-          "correct_answer": null,
+          "correct_answer": "That necklace is Linda's.",
           "audio_icon_present": true,
           "audio_track_ref": null,
           "audio_file_path": "audio/8/8_8_8.mp3"
@@ -292,7 +292,7 @@
             "Those children are theirs.",
             "Those children are ours."
           ],
-          "correct_answer": null,
+          "correct_answer": "Those children are ours.",
           "audio_icon_present": true,
           "audio_track_ref": null,
           "audio_file_path": "audio/8/8_8_9.mp3"

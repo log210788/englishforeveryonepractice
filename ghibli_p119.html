@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit 37: Talking about sports • Page 119 | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit 6 • Page 119: Talking about sports | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788155926">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -25,12 +36,13 @@
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit 37: Talking about sports • Page 119</span>
+          <span class="ghibli-subtitle">🌿 Unit 6 • Lesson: Talking about sports • Page 119</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        <a href="unit6.html" class="ghibli-btn ghibli-btn-gold" title="Open Complete Unit 6 Module"><i class="fa-solid fa-book-open"></i> Full Unit 6</a>
+        <a href="ghibli_reader.html?page=119" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -45,15 +57,15 @@
 
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
-      <a href="ghibli_page118.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 118)</a>
-      <span class="page-turn-badge">📖 Page 119 of 169</span>
-      <a href="ghibli_page120.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 120) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p118.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 118)</a>
+      <span class="page-turn-badge">📖 Page 119 of 168</span>
+      <a href="ghibli_p120.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 120) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
     <div class="ghibli-hero-card">
       <div class="ghibli-hero-main">
-        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 37</span>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 6 • Lesson: Talking about sports</span>
         <h2 class="ghibli-hero-title">Talking about sports</h2>
         <p class="ghibli-hero-desc">To describe taking part in some sports, you use the verb &quot;go&quot; plus the gerund. For other sports, you use &quot;play&quot; plus the noun.</p>
       </div>
@@ -75,7 +87,7 @@
 
     <!-- Exercises Container -->
     
-    <section class="ghibli-section">
+    <section class="ghibli-section crossout-exercise-section">
       <div class="ghibli-section-header">
         <div class="ghibli-ex-num">37.2</div>
         <div>
@@ -84,271 +96,253 @@
       </div>
       <div class="ghibli-char-grid">
         
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">1.</span>
-                    <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    <span>Jane goes dancing / danceing on Friday nights.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">dancing</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">danceing</button>
-                  </div>
-                  
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">1.</span>
+                Jane goes <span class="ghibli-crossout-group" data-item-id="p119_ex1_i1"><button type="button" class="ghibli-crossout-btn" data-word="dancing" data-correct="false">dancing</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="danceing" data-correct="true">danceing</button></span> on Friday nights.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i1"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i1"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">2.</span>
+                Our dad goes <span class="ghibli-crossout-group" data-item-id="p119_ex1_i2"><button type="button" class="ghibli-crossout-btn" data-word="sailing" data-correct="false">sailing</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="saileing" data-correct="true">saileing</button></span> in the summer.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-avatar-wrap">
-                  <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
-                  <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                </div>
-                <div class="ghibli-card-body">
-                  <div class="ghibli-prompt-text">
-                    <span>Our dad goes sailing / saileing in the summer.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">sailing</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">saileing</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i2"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i2"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">3.</span>
+                I go <span class="ghibli-crossout-group" data-item-id="p119_ex1_i3"><button type="button" class="ghibli-crossout-btn" data-word="fisheing" data-correct="true">fisheing</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="fishing" data-correct="false">fishing</button></span> in the evening.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-avatar-wrap">
-                  <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
-                  <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                </div>
-                <div class="ghibli-card-body">
-                  <div class="ghibli-prompt-text">
-                    <span>I go fisheing / fishing in the evening.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">fisheing</button><button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">fishing</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i3"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i3"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">4.</span>
+                Do you go <span class="ghibli-crossout-group" data-item-id="p119_ex1_i4"><button type="button" class="ghibli-crossout-btn" data-word="running" data-correct="false">running</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="runing" data-correct="true">runing</button></span> in the morning?
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-avatar-wrap">
-                  <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
-                  <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                </div>
-                <div class="ghibli-card-body">
-                  <div class="ghibli-prompt-text">
-                    <span>Do you go running / runing in the morning?</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">running</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">runing</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i4"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i4"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">5.</span>
+                They go <span class="ghibli-crossout-group" data-item-id="p119_ex1_i5"><button type="button" class="ghibli-crossout-btn" data-word="cycling" data-correct="false">cycling</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="cycleing" data-correct="true">cycleing</button></span> in the summer.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-avatar-wrap">
-                  <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
-                  <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                </div>
-                <div class="ghibli-card-body">
-                  <div class="ghibli-prompt-text">
-                    <span>They go cycling / cycleing in the summer.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">cycling</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">cycleing</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i5"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i5"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">6.</span>
+                Sam goes <span class="ghibli-crossout-group" data-item-id="p119_ex1_i6"><button type="button" class="ghibli-crossout-btn" data-word="swiming" data-correct="true">swiming</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="swimming" data-correct="false">swimming</button></span> on Sundays.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-avatar-wrap">
-                  <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img">
-                  <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                </div>
-                <div class="ghibli-card-body">
-                  <div class="ghibli-prompt-text">
-                    <span>Sam goes swiming / swimming on Sundays.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">swiming</button><button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">swimming</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i6"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i6"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">7.</span>
+                I go <span class="ghibli-crossout-group" data-item-id="p119_ex1_i7"><button type="button" class="ghibli-crossout-btn" data-word="horseback riding" data-correct="false">horseback riding</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="horseback ridding" data-correct="true">horseback ridding</button></span> daily.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-avatar-wrap">
-                  <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
-                  <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                </div>
-                <div class="ghibli-card-body">
-                  <div class="ghibli-prompt-text">
-                    <span>I go horseback riding / horseback ridding daily.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">horseback riding</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">horseback ridding</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i7"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i7"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">8.</span>
+                Claire goes <span class="ghibli-crossout-group" data-item-id="p119_ex1_i8"><button type="button" class="ghibli-crossout-btn" data-word="shopping" data-correct="false">shopping</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="shopeing" data-correct="true">shopeing</button></span> in London.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">8.</span>
-                    <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    <span>Claire goes shopping / shopeing in London.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">shopping</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">shopeing</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i8"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i8"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">9.</span>
+                Omar goes <span class="ghibli-crossout-group" data-item-id="p119_ex1_i9"><button type="button" class="ghibli-crossout-btn" data-word="skateboarding" data-correct="false">skateboarding</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="skateboardding" data-correct="true">skateboardding</button></span> daily.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">9.</span>
-                    <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    <span>Omar goes skateboarding / skateboardding daily.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">skateboarding</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">skateboardding</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i9"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i9"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">10.</span>
+                Do you go <span class="ghibli-crossout-group" data-item-id="p119_ex1_i10"><button type="button" class="ghibli-crossout-btn" data-word="dancing" data-correct="false">dancing</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="danccing" data-correct="true">danccing</button></span> with her?
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-avatar-wrap">
-                  <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
-                  <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                </div>
-                <div class="ghibli-card-body">
-                  <div class="ghibli-prompt-text">
-                    <span>Do you go dancing / danccing with her?</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">dancing</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">danccing</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i10"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i10"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">11.</span>
+                Rachel goes <span class="ghibli-crossout-group" data-item-id="p119_ex1_i11"><button type="button" class="ghibli-crossout-btn" data-word="hikking" data-correct="true">hikking</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="hiking" data-correct="false">hiking</button></span> in Peru.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-avatar-wrap">
-                  <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
-                  <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                </div>
-                <div class="ghibli-card-body">
-                  <div class="ghibli-prompt-text">
-                    <span>Rachel goes hikking / hiking in Peru.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">hikking</button><button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">hiking</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i11"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i11"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_12.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">12.</span>
+                I go <span class="ghibli-crossout-group" data-item-id="p119_ex1_i12"><button type="button" class="ghibli-crossout-btn" data-word="snowboarding" data-correct="false">snowboarding</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="snowbording" data-correct="true">snowbording</button></span> in the winter.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-avatar-wrap">
-                  <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
-                  <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_12.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                </div>
-                <div class="ghibli-card-body">
-                  <div class="ghibli-prompt-text">
-                    <span>I go snowboarding / snowbording in the winter.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">snowboarding</button><button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">snowbording</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i12"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i12"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_13.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">13.</span>
+                Bob and Steve go <span class="ghibli-crossout-group" data-item-id="p119_ex1_i13"><button type="button" class="ghibli-crossout-btn" data-word="surphing" data-correct="true">surphing</button><span class="crossout-slash">/</span><button type="button" class="ghibli-crossout-btn" data-word="surfing" data-correct="false">surfing</button></span> in Tahiti.
               </div>
-            
-              <div class="ghibli-char-card" style="margin-bottom:16px;">
-                <div class="ghibli-card-body" style="width:100%;">
-                  <div class="ghibli-prompt-text" style="align-items:center; gap:10px;">
-                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">13.</span>
-                    <button class="ghibli-audio-play-btn" data-audio="audio/37/37_2_13.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    <span>Bob and Steve go surphing / surfing in Tahiti.</span>
-                  </div>
-                  <div class="mc-options-grid" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-                    <button class="ghibli-option" data-correct="false" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">surphing</button><button class="ghibli-option" data-correct="true" style="padding:10px 18px; border-radius:14px; border:2px solid #cbd5e1; background:#fff; font-weight:600; cursor:pointer; transition:all 0.2s;">surfing</button>
-                  </div>
-                  
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p119_ex1_i13"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p119_ex1_i13"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                </div>
-              </div>
-            
+            </div>
+          </div>
+        
       </div>
     </section>
     
@@ -407,14 +401,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">3.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/37/37_3_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/37/37_3_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>fish</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="fishing" placeholder="Type answer...">
                       </div>
@@ -612,14 +609,13 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/37/37_4_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
-                        
-                        
-                        <span>I <input type="text" class="ghibli-input" data-correct="go" placeholder="Type answer..." /> shopping in the evening.</span>
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        I <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="go" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> shopping in the evening.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -632,12 +628,14 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">1.</span>
                         
+                      </div>
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         <button class="ghibli-audio-play-btn" data-audio="audio/37/37_4_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>Jan <input type="text" class="ghibli-input" data-correct="goes" placeholder="Type answer..." /> skateboarding on Fridays.</span>
+                        <span>Jan <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="goes" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> skateboarding on Fridays.</span>
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -650,12 +648,14 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">3.</span>
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">2.</span>
                         
+                      </div>
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         <button class="ghibli-audio-play-btn" data-audio="audio/37/37_4_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>Pete <input type="text" class="ghibli-input" data-correct="goes" placeholder="Type answer..." /> sailing on the weekend.</span>
+                        <span>Pete <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="goes" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> sailing on the weekend.</span>
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -668,14 +668,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/37/37_4_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">3.</span>
                         
-                        <span>Sam <input type="text" class="ghibli-input" data-correct="goes" placeholder="Type answer..." /> skating every December.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        Sam <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="goes" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> skating every December.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -688,14 +691,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/37/37_4_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">4.</span>
                         
-                        <span>I <input type="text" class="ghibli-input" data-correct="go" placeholder="Type answer..." /> running on Wednesday.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        I <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="go" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> running on Wednesday.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -708,14 +714,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/37/37_4_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">5.</span>
                         
-                        <span>They <input type="text" class="ghibli-input" data-correct="go" placeholder="Type answer..." /> fishing with their friends.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        They <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="go" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> fishing with their friends.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -728,14 +737,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/37/37_4_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">6.</span>
                         
-                        <span>Sarah <input type="text" class="ghibli-input" data-correct="goes" placeholder="Type answer..." /> dancing on Saturdays.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        Sarah <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="goes" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> dancing on Saturdays.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -760,13 +772,13 @@
 
     <!-- Page Turning Navigation Bar Bottom -->
     <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:32px; padding-bottom:40px;">
-      <a href="ghibli_page118.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 118)</a>
-      <a href="ghibli_page120.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 120) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p118.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 118)</a>
+      <a href="ghibli_p120.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 120) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -787,11 +799,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v=1788155926"></script>
+  <script src="ghibli_page_engine.js?v=1788155926"></script>
 </body>
 </html>

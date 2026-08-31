@@ -54,7 +54,7 @@
           "question": "I play tennis on weekend.",
           "correct_answer": "I play tennis on the weekend.",
           "audio_icon_present": true,
-          "audio_file_path": "audio/14/14_5_2.mp3",
+          "audio_file_path": "audio/14/14_5_2_a_usuk.mp3",
           "input_blank_box": {
             "top": 14.26,
             "left": 10.64,
@@ -114,7 +114,7 @@
           "question": "I go to the movies on weekend.",
           "correct_answer": "I go to the movies on the weekend.",
           "audio_icon_present": true,
-          "audio_file_path": "audio/14/14_5_5.mp3",
+          "audio_file_path": "audio/14/14_5_5_a_usuk.mp3",
           "input_blank_box": {
             "top": 21.3,
             "left": 8.11,

@@ -26,7 +26,7 @@
           "correct_answer": "I am twenty-three years old.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "audio_file_path": "audio/3/3_3_a.mp3",
           "input_blank_box": {
             "top": 3.67,
             "left": 6.55,
@@ -58,7 +58,7 @@
           "correct_answer": "I am thirty-two years old.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "audio_file_path": "audio/3/3_3_a.mp3",
           "input_blank_box": {
             "top": 10.96,
             "left": 10.04,
@@ -90,7 +90,7 @@
           "correct_answer": "I am sixty-eight years old.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "audio_file_path": "audio/3/3_3_a.mp3",
           "input_blank_box": {
             "top": 11.83,
             "left": 11.16,
@@ -122,7 +122,7 @@
           "correct_answer": "Dan is twenty-three years old.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "audio_file_path": "audio/3/3_3_a.mp3",
           "input_blank_box": {
             "top": 16.0,
             "left": 9.75,
@@ -154,7 +154,7 @@
           "correct_answer": "Dan is thirty-two years old.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "audio_file_path": "audio/3/3_3_a.mp3",
           "input_blank_box": {
             "top": 17.93,
             "left": 8.48,
@@ -186,7 +186,7 @@
           "correct_answer": "Dan is sixty-eight years old.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "audio_file_path": "audio/3/3_3_a.mp3",
           "input_blank_box": {
             "top": 17.93,
             "left": 34.38,
@@ -218,7 +218,7 @@
           "correct_answer": "You are twenty-three years old.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "audio_file_path": "audio/3/3_3_a.mp3",
           "input_blank_box": {
             "top": 17.93,
             "left": 56.55,
@@ -250,7 +250,7 @@
           "correct_answer": "You are thirty-two years old.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "audio_file_path": "audio/3/3_3_a.mp3",
           "input_blank_box": {
             "top": 17.93,
             "left": 79.02,
@@ -282,7 +282,7 @@
           "correct_answer": "You are sixty-eight years old.",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_3_3.mp3",
+          "audio_file_path": "audio/3/3_3_a.mp3",
           "input_blank_box": {
             "top": 23.6,
             "left": 48.14,

@@ -1,12 +1,12 @@
 {
   "page_number": 25,
-  "unit_number": null,
-  "unit_title": null,
+  "unit_number": 7,
+  "unit_title": "Everyday Things",
   "exercises": [
     {
-      "exercise_id": "1",
-      "exercise_type": "matching",
-      "instruction": "WRITE THE CORRECT WORD UNDER EACH PICTURE",
+      "exercise_id": "7.1",
+      "exercise_type": "fill_in_blank",
+      "instruction": "EVERYDAY THINGS WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES",
       "items": [
         {
           "item_number": 4,
@@ -45,7 +45,8 @@
           "correct_answer": "pen",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_4.mp3",
+          "image_path": "images/everyDayThings/pen.png"
         },
         {
           "item_number": 5,
@@ -84,7 +85,8 @@
           "correct_answer": "necklace",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_5.mp3",
+          "image_path": "images/everyDayThings/necklace.png"
         },
         {
           "item_number": 6,
@@ -123,7 +125,8 @@
           "correct_answer": "newspaper",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_6.mp3",
+          "image_path": "images/everyDayThings/newspaper.png"
         },
         {
           "item_number": 11,
@@ -162,7 +165,8 @@
           "correct_answer": "bottle of water",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_11.mp3",
+          "image_path": "images/everyDayThings/bottle_of_water.png"
         },
         {
           "item_number": 12,
@@ -201,7 +205,8 @@
           "correct_answer": "laptop",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_12.mp3",
+          "image_path": "images/everyDayThings/laptop.png"
         },
         {
           "item_number": 13,
@@ -240,7 +245,8 @@
           "correct_answer": "earphones",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_13.mp3",
+          "image_path": "images/everyDayThings/earphones.png"
         },
         {
           "item_number": 18,
@@ -279,7 +285,8 @@
           "correct_answer": "tablet",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_18.mp3",
+          "image_path": "images/everyDayThings/tablet.png"
         },
         {
           "item_number": 19,
@@ -318,7 +325,8 @@
           "correct_answer": "mirror",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_19.mp3",
+          "image_path": "images/everyDayThings/mirror.png"
         },
         {
           "item_number": 20,
@@ -357,7 +365,8 @@
           "correct_answer": "coins",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_20.mp3",
+          "image_path": "images/everyDayThings/coins.png"
         },
         {
           "item_number": 25,
@@ -396,7 +405,8 @@
           "correct_answer": "map",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_25.mp3",
+          "image_path": "images/everyDayThings/map.png"
         },
         {
           "item_number": 26,
@@ -435,7 +445,8 @@
           "correct_answer": "umbrella",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_26.mp3",
+          "image_path": "images/everyDayThings/umbrella.png"
         },
         {
           "item_number": 27,
@@ -474,7 +485,8 @@
           "correct_answer": "sandwich",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/7/7_1_27.mp3",
+          "image_path": "images/everyDayThings/sandwich.png"
         }
       ]
     }

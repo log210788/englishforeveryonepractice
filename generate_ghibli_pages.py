@@ -10,6 +10,11 @@ import os
 import re
 import html
 import random
+import time
+try:
+    import unit2_builders as u2
+except ImportError:
+    u2 = None
 
 CONSOLIDATED_JSON_PATH = "output_json/all_pages_consolidated.json"
 OUTPUT_DIR = "."
@@ -62,14 +67,15 @@ GHIBLI_AVATARS = [
 ]
 
 PEOPLE_KEYWORDS = {
-    "name", "i", "me", "my", "you", "your", "he", "him", "his", "she", "her", "we", "us", "our", "they", "them", "their",
+    "name", "i", "me", "my", "you", "your", "he", "him", "his", "she", "her", "it", "its", "we", "us", "our", "they", "them", "their",
     "who", "man", "men", "woman", "women", "boy", "girl", "child", "children", "kid", "kids", "person", "people",
     "teacher", "doctor", "student", "actor", "actress", "nurse", "hairdresser", "engineer", "chef", "waiter", "waitress",
     "brother", "sister", "mother", "father", "parent", "parents", "son", "daughter", "grandfather", "grandmother",
-    "granddaughter", "granddaughters", "grandson", "grandsons", "husband", "wife", "pet", "dog", "cat",
+    "granddaughter", "granddaughters", "grandson", "grandsons", "husband", "wife", "pet", "pets", "dog", "cat",
+    "rabbit", "snake", "horse", "parrot", "cow", "monkey", "fish", "sheep", "bird", "animal", "animals", "ball",
     "uncle", "aunt", "cousin", "friend", "friends", "rachel", "noah", "marina", "james", "sophia", "alexander", "emily",
     "daniel", "olivia", "matthew", "kirsty", "kim", "dan", "lewis", "john", "sarah", "tom", "ben", "lisa",
-    "christopher", "joe", "greg", "dolly", "sam"
+    "christopher", "joe", "greg", "dolly", "sam", "this", "that", "these", "those"
 }
 
 def is_person_context(text, instruction=""):
@@ -77,7 +83,7 @@ def is_person_context(text, instruction=""):
     words = set(re.findall(r'\b[a-zA-Z]+\b', combined))
     if words.intersection(PEOPLE_KEYWORDS):
         return True
-    if any(k in combined for k in ["apostrophe", "belong", "family", "relative", "people"]):
+    if any(k in combined for k in ["apostrophe", "belong", "family", "relative", "people", "possessive", "this", "that"]):
         return True
     return False
 
@@ -121,13 +127,9 @@ UNIT_METADATA = [
      'Use possessive adjectives to show who something belongs to. Use "this" for something near you and "that" for something further away.', 
      'Possessive adjectives; "this" and "that"', "Animals and family", "Talking about who things belong to"),
     
-    (22, 22, 6, "Using apostrophes ('s)", 
+    (22, 23, 6, "Using apostrophes ('s)", 
      "Use the possessive apostrophe to show that something belongs to a person or animal.", 
      "Possessive apostrophe", "Family and pets", "Talking about belonging"),
-    
-    (23, 23, 12, "Entertainment", 
-     "Vocabulary module covering hobbies, entertainment, and leisure activities.", 
-     "Entertainment & leisure", "Entertainment", "Talking about entertainment"),
     
     (24, 25, 7, "Everyday Things", 
      "Vocabulary module covering common objects, personal possessions, and household items.", 
@@ -308,6 +310,26 @@ def get_unit_info(page_num):
             return u_num, u_title, u_desc, new_lang, vocab, new_skill
     return "", "English Practice", "Interactive Ghibli Edition practice page.", "English Grammar & Vocabulary", "Level 1 Vocabulary", "Practicing English Skills"
 
+def get_parent_unit(page_num):
+    if 12 <= page_num <= 29:
+        return 1, "Introducing Yourself & Belongings", "1.1 – 8.10"
+    elif 30 <= page_num <= 45:
+        return 2, "Jobs, Time & Daily Life", "9.1 – 14.8"
+    elif 46 <= page_num <= 63:
+        return 3, "Negatives & Questions", "15.1 – 19.9"
+    elif 64 <= page_num <= 85:
+        return 4, "Towns, Places & Giving Directions", "20.1 – 26.4"
+    elif 86 <= page_num <= 115:
+        return 5, "Around the House, Food & Shopping", "27.1 – 35.6"
+    elif 116 <= page_num <= 137:
+        return 6, "Sports, Free Time & Preferences", "36.1 – 42.6"
+    elif 138 <= page_num <= 155:
+        return 7, "Abilities, Actions & Studying", "43.1 – 48.8"
+    elif page_num >= 156:
+        return "Answers", "Answer Keys & Solutions", "1.1 – 48.8"
+    else:
+        return "Starter", "Reference & Warm-up", "Reference"
+
 def escape(text):
     if text is None:
         return ""
@@ -338,13 +360,13 @@ def compute_navigation(pages):
     total = len(pages)
     for i, page in enumerate(pages):
         p_num = page["page_number"]
-        filename = f"ghibli_page{p_num:03d}.html" if p_num != 12 else "ghibli_page12.html"
+        filename = f"ghibli_p{p_num:03d}.html"
         
         prev_p = pages[i-1]['page_number'] if i > 0 else None
         next_p = pages[i+1]['page_number'] if i < total - 1 else None
         
-        prev_fn = (f"ghibli_page{prev_p:03d}.html" if prev_p != 12 else "ghibli_page12.html") if prev_p else None
-        next_fn = (f"ghibli_page{next_p:03d}.html" if next_p != 12 else "ghibli_page12.html") if next_p else None
+        prev_fn = f"ghibli_p{prev_p:03d}.html" if prev_p else None
+        next_fn = f"ghibli_p{next_p:03d}.html" if next_p else None
 
         nav_map[p_num] = {
             "filename": filename,
@@ -460,7 +482,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
             <!-- Grandmother (Example - Silhouette Woman, ONLY ONE IN A BOX) -->
             <div class="tree-node example-card" style="background:rgba(45,90,39,0.08); border:2px solid #2d5a27; border-radius:20px; padding:12px;">
               <div class="tree-avatar-container">
-                <img src="images/people/womanNoDetail.png" alt="Grandmother" class="tree-avatar">
+                <img src="images/people/womanNoDetail.png" alt="Grandmother" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -480,7 +502,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
             <!-- Grandfather (Blank 1 - Silhouette Man, NO BOX) -->
             <div class="tree-node">
               <div class="tree-avatar-container">
-                <img src="images/people/manNoDetail.png" alt="Grandfather" class="tree-avatar">
+                <img src="images/people/manNoDetail.png" alt="Grandfather" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -512,7 +534,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
               <!-- Mother (Given In-law Spouse from outside family) -->
               <div class="tree-node in-law-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/womanNoDetail.png" alt="Mother" class="tree-avatar">
+                  <img src="images/people/womanNoDetail.png" alt="Mother" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 </div>
                 <span class="given-role-badge">mother</span>
               </div>
@@ -522,7 +544,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
               <!-- Father (Blank 2 - Brother 1 / Blood Son) -->
               <div class="tree-node blood-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/manNoDetail.png" alt="Father" class="tree-avatar">
+                  <img src="images/people/manNoDetail.png" alt="Father" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                   <div class="tree-audio-btn-wrap">
                     <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                   </div>
@@ -536,7 +558,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
             <!-- RIGHT: UNCLE (SINGLE MALE SILHOUETTE - NO BOX) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/manNoDetail.png" alt="Uncle" class="tree-avatar">
+                <img src="images/people/manNoDetail.png" alt="Uncle" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -565,7 +587,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
             <!-- Sister (Blank 3 - Blood Daughter of Parents) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/womanNoDetail.png" alt="Sister" class="tree-avatar">
+                <img src="images/people/womanNoDetail.png" alt="Sister" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -578,7 +600,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
             <!-- Brother (Given Blood Brother of Pablo & Sister - NO BOX) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/manNoDetail.png" alt="Brother" class="tree-avatar">
+                <img src="images/people/manNoDetail.png" alt="Brother" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
               </div>
               <span class="given-role-badge">brother</span>
             </div>
@@ -588,7 +610,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
               <!-- Pablo (Given Hero - Blood Son of Parents) -->
               <div class="tree-node hero-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/manNoDetail.png" alt="Pablo" class="tree-avatar">
+                  <img src="images/people/manNoDetail.png" alt="Pablo" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 </div>
                 <span class="given-role-badge hero-badge">Pablo</span>
               </div>
@@ -598,7 +620,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
               <!-- Wife (Given In-Law) -->
               <div class="tree-node in-law-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/womanNoDetail.png" alt="Wife" class="tree-avatar">
+                  <img src="images/people/womanNoDetail.png" alt="Wife" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 </div>
                 <span class="given-role-badge">wife</span>
               </div>
@@ -626,7 +648,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
               <!-- Son-in-Law (Given In-Law Spouse - Adult Male Silhouette) -->
               <div class="tree-node in-law-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/manNoDetail.png" alt="Son-in-Law" class="tree-avatar">
+                  <img src="images/people/manNoDetail.png" alt="Son-in-Law" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 </div>
                 <span class="given-role-badge">son-in-law</span>
               </div>
@@ -636,7 +658,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
               <!-- Daughter (Blank 6 - Adult Silhouette Woman) -->
               <div class="tree-node blood-node daughter-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/womanNoDetail.png" alt="Daughter" class="tree-avatar">
+                  <img src="images/people/womanNoDetail.png" alt="Daughter" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                   <div class="tree-audio-btn-wrap">
                     <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                   </div>
@@ -650,7 +672,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
             <!-- Son (Blank 5 - Adult Silhouette Man) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/manNoDetail.png" alt="Son" class="tree-avatar">
+                <img src="images/people/manNoDetail.png" alt="Son" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -679,7 +701,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
             <!-- Grandson (Blank 7 - Child Silhouette Boy) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/boyNoDetail.png" alt="Grandson" class="tree-avatar">
+                <img src="images/people/boyNoDetail.png" alt="Grandson" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -692,7 +714,7 @@ def render_ghibli_family_tree(ex, ex_idx, page_num):
             <!-- Granddaughter (Blank 8 - Child Silhouette Girl) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/girlNoDetail.png" alt="Granddaughter" class="tree-avatar">
+                <img src="images/people/girlNoDetail.png" alt="Granddaughter" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -956,7 +978,7 @@ def render_fill_in_blank(ex, ex_idx, page_num):
             (item.get("audio_file_path") and "_eg" in item.get("audio_file_path"))
         )
 
-        example_badge_html = '<span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 8px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase; margin-right:6px;">Example</span>' if is_example else ''
+        example_badge_html = '<span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>' if is_example else ''
         card_style = 'border: 2px solid #2d5a27; background: rgba(45,90,39,0.06);' if is_example else ''
         card_class = 'ghibli-char-card example-card' if is_example else 'ghibli-char-card'
         question_text = escape(clean_spelled_text(question))
@@ -973,10 +995,10 @@ def render_fill_in_blank(ex, ex_idx, page_num):
             q_lower = question_text.lower()
             for nat_key, iso_code in NATIONALITY_ISO_MAP.items():
                 if nat_key in q_lower:
-                    flag_badge = f'<img src="images/flags/{iso_code}.svg" alt="{nat_key} flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">'
+                    flag_badge = f'<img src="images/flags/{iso_code}.svg" alt="{nat_key} flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">'
                     break
 
-        has_person = is_person_context(question_text, instruction) or page_num in [12, 13, 16, 17, 18, 30, 31, 32, 33, 46, 47, 50, 51, 54, 55]
+        has_person = is_person_context(question_text, instruction) or page_num in [12, 13, 16, 17, 18, 20, 21, 22, 23, 30, 31, 32, 33, 46, 47, 50, 51, 54, 55]
 
         if "______" in question_text or "___" in question_text:
             ans_list = item.get("correct_answer")
@@ -985,33 +1007,50 @@ def render_fill_in_blank(ex, ex_idx, page_num):
                 reconstructed_parts = [blank_parts[0]]
                 for i_part, ans_val in enumerate(ans_list):
                     ans_str = str(ans_val).strip()
+                    is_short = len(ans_str) <= 4
+                    short_cls = " short-gap" if is_short else ""
+                    short_style = "max-width:90px; min-width:60px; width:72px;" if is_short else "max-width:240px; min-width:130px; width:auto;"
                     if is_example:
-                        inp_code = f'<input type="text" class="ghibli-input ghibli-inline-input example-input" data-correct="{escape(ans_str)}" value="{escape(ans_str)}" readonly style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center; border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="{escape(ans_str)}" />'
+                        inp_code = f'<input type="text" class="ghibli-input ghibli-inline-input example-input{short_cls}" data-correct="{escape(ans_str)}" value="{escape(ans_str)}" readonly style="{short_style} display:inline-block; margin:0 4px; text-align:center; border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="{escape(ans_str)}" />'
                     else:
-                        inp_code = f'<input type="text" class="ghibli-input ghibli-inline-input" data-correct="{escape(ans_str)}" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" />'
+                        placeholder_val = escape(ans_str) if is_example else ("..." if is_short else "Type answer...")
+                        inp_code = f'<input type="text" class="ghibli-input ghibli-inline-input{short_cls}" data-correct="{escape(ans_str)}" placeholder="{placeholder_val}" style="{short_style} display:inline-block; margin:0 4px; text-align:center;" />'
                     reconstructed_parts.append(inp_code)
                     if i_part + 1 < len(blank_parts):
                         reconstructed_parts.append(blank_parts[i_part + 1])
                 blank_question = "".join(reconstructed_parts)
             else:
+                ans_str = str(correct_ans).strip()
+                is_short = len(ans_str) <= 4
+                short_cls = " short-gap" if is_short else ""
+                short_style = "max-width:90px; min-width:60px; width:72px;" if is_short else "max-width:240px; min-width:130px; width:auto;"
                 if is_example:
-                    input_html = f'<input type="text" class="ghibli-input example-input" data-correct="{escape(correct_ans)}" value="{escape(correct_ans)}" readonly style="border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="{escape(correct_ans)}" />'
+                    input_html = f'<input type="text" class="ghibli-input ghibli-inline-input example-input{short_cls}" data-correct="{escape(correct_ans)}" value="{escape(correct_ans)}" readonly style="{short_style} display:inline-block; margin:0 4px; text-align:center; border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="{escape(correct_ans)}" />'
                 else:
-                    input_html = f'<input type="text" class="ghibli-input" data-correct="{escape(correct_ans)}" placeholder="Type answer..." />'
+                    placeholder_val = "..." if is_short else "Type answer..."
+                    input_html = f'<input type="text" class="ghibli-input ghibli-inline-input{short_cls}" data-correct="{escape(correct_ans)}" placeholder="{placeholder_val}" style="{short_style} display:inline-block; margin:0 4px; text-align:center;" />'
                 blank_question = re.sub(r'_{3,}', input_html, question_text)
+
+            item_num_badge = f'<span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">{idx}.</span>' if (idx > 0 and not is_example) else ''
+            meta_header_html = ""
+            if example_badge_html or flag_badge or item_num_badge:
+                meta_header_html = f'''<div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+                        {example_badge_html}
+                        {item_num_badge}
+                        {flag_badge}
+                      </div>'''
 
             if has_person:
                 items_html.append(f'''
                   <div class="{card_class}" style="{card_style}">
                     <div class="ghibli-avatar-wrap">
-                      <img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       {audio_btn}
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
-                        {example_badge_html}
-                        {flag_badge}
-                        <span>{blank_question}</span>
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      {meta_header_html}
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        {blank_question}
                       </div>
                       {rec_btn}
                     </div>
@@ -1021,10 +1060,8 @@ def render_fill_in_blank(ex, ex_idx, page_num):
                 items_html.append(f'''
                   <div class="{card_class}" style="{card_style}">
                     <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">{idx+1}.</span>
-                        {example_badge_html}
-                        {flag_badge}
+                      {meta_header_html}
+                      <div class="ghibli-sentence-text" style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
                         {audio_btn}
                         <span>{blank_question}</span>
                       </div>
@@ -1062,7 +1099,7 @@ def render_fill_in_blank(ex, ex_idx, page_num):
                 items_html.append(f'''
                   <div class="{card_class}" style="{card_style}">
                     <div class="ghibli-avatar-wrap">
-                      <img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       {audio_btn}
                     </div>
                     <div class="ghibli-card-body">
@@ -1174,42 +1211,71 @@ def render_sentence_ordering(ex, ex_idx, page_num):
         for idx, item in enumerate(items):
             item_id = f"p{page_num}_ex{ex_idx+1}_i{idx+1}"
             correct_ans = format_correct_answer(item.get("correct_answer")) or str(item.get("question") or "")
-            prompt_text = str(item.get("prompt_text") or item.get("question") or "")
+            prompt_text = str(item.get("prompt_text") or item.get("question") or "").strip()
+            options = item.get("options")
             audio_btn = render_audio_btn(item)
             rec_btn = render_rec_btn(item_id)
             avatar_img = GHIBLI_AVATARS[(idx + page_num) % len(GHIBLI_AVATARS)]
 
             has_person = is_person_context(prompt_text, instruction) or is_person_context(correct_ans)
-            avatar_html = f'<img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">' if has_person else ''
+            avatar_html = f'<img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">' if has_person else ''
 
-            if prompt_text and len(prompt_text.split()) > 1:
-                raw_words = prompt_text.split()
+            if options and isinstance(options, list) and len(options) > 0:
+                raw_words = [str(w).strip() for w in options if str(w).strip() and str(w).strip() != '/']
+            elif prompt_text:
+                clean_p = prompt_text.replace('/', ' ')
+                raw_words = [w.strip() for w in clean_p.split() if w.strip() and w.strip() != '/']
+                if ' '.join(raw_words).lower() == correct_ans.lower():
+                    random.seed(idx + page_num)
+                    random.shuffle(raw_words)
             else:
-                raw_words = correct_ans.split()
+                clean_c = correct_ans.replace('/', ' ')
+                raw_words = [w.strip() for w in clean_c.split() if w.strip() and w.strip() != '/']
                 random.seed(idx + page_num)
                 random.shuffle(raw_words)
 
-            chips_html = "".join([f'<span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">{escape(w)}</span>' for w in raw_words])
+            chips_html = "".join([
+                f'<span class="word-chip" draggable="true" data-word="{escape(w)}" title="Click to move or drag to place">{escape(w)}</span>'
+                for w in raw_words
+            ])
 
             items_html.append(f'''
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="{escape(correct_ans)}" style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  {avatar_html}
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">{idx+1}.</span>
-                  {audio_btn}
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  {rec_btn}
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="{escape(correct_ans)}">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    {avatar_html}
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">{idx+1}.</span>
+                    {audio_btn}
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    {rec_btn}
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  {chips_html}
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    {chips_html}
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="{escape(correct_ans)}" />
               </div>
             ''')
 
-    subtext = "Select words from each column to form sentences, then listen or record your voice!" if chart_html else "Click or drag the word chips into the box to form the correct sentence!"
+    subtext = "Select words from each column to form sentences, then listen or record your voice!" if chart_html else "Click or drag the word chips into the sentence box to form the correct order!"
 
     items_block = f'<div class="exercise-items-list">{"".join(items_html)}</div>' if items_html else ''
 
@@ -1254,7 +1320,7 @@ def render_multiple_choice(ex, ex_idx, page_num):
             items_html.append(f'''
               <div class="ghibli-char-card" style="margin-bottom:16px;">
                 <div class="ghibli-avatar-wrap">
-                  <img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img">
+                  <img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                   {audio_btn}
                 </div>
                 <div class="ghibli-card-body">
@@ -1299,6 +1365,78 @@ def render_multiple_choice(ex, ex_idx, page_num):
     </section>
     '''
 
+def render_cross_out(ex, ex_idx, page_num):
+    ex_id = escape(ex.get("exercise_id") or f"{page_num}.{ex_idx+1}")
+    instruction = escape(ex.get("instruction") or "CROSS OUT THE INCORRECT WORD IN EACH SENTENCE")
+    items = ex.get("items", [])
+
+    items_html = []
+    for idx, item in enumerate(items):
+        item_id = f"p{page_num}_ex{ex_idx+1}_i{idx+1}"
+        correct_ans = format_correct_answer(item.get("correct_answer"))
+        question = item.get("question") or item.get("prompt_text") or f"Item {idx+1}"
+        options = item.get("options") or []
+        audio_btn = render_audio_btn(item)
+        rec_btn = render_rec_btn(item_id)
+        avatar_img = GHIBLI_AVATARS[(idx + page_num) % len(GHIBLI_AVATARS)]
+
+        correct_answers_list = [c.lower() for c in correct_ans.split("|")]
+
+        choice_btns = []
+        for opt in options:
+            opt_str = str(opt).strip()
+            # For cross-out exercises, crossing out the INCORRECT word is the correct answer!
+            is_target_to_cross = (opt_str.lower() not in correct_answers_list)
+            choice_btns.append(f'<button type="button" class="ghibli-crossout-btn" data-word="{escape(opt_str)}" data-correct="{"true" if is_target_to_cross else "false"}">{escape(opt_str)}</button>')
+
+        group_html = f'<span class="ghibli-crossout-group" data-item-id="{item_id}">{"<span class=\"crossout-slash\">/</span>".join(choice_btns)}</span>'
+
+        # Match slash pattern in raw question string
+        match = None
+        if len(options) >= 2:
+            opt1, opt2 = str(options[0]).strip(), str(options[1]).strip()
+            pattern = re.compile(re.escape(opt1) + r'\s*/\s*' + re.escape(opt2), re.IGNORECASE)
+            match = pattern.search(question)
+        if not match:
+            match = re.search(r'([A-Za-z0-9\']+)\s*/\s*([A-Za-z0-9\']+)', question)
+
+        if match:
+            prefix = escape(question[:match.start()])
+            suffix = escape(question[match.end():])
+            rendered_sentence = f"{prefix}{group_html}{suffix}"
+        else:
+            rendered_sentence = f"{group_html} {escape(question)}"
+
+        items_html.append(f'''
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              {audio_btn}
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">{idx+1}.</span>
+                {rendered_sentence}
+              </div>
+              {rec_btn}
+            </div>
+          </div>
+        ''')
+
+    return f'''
+    <section class="ghibli-section crossout-exercise-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">{ex_id}</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">{instruction}</h3>
+        </div>
+      </div>
+      <div class="ghibli-char-grid">
+        {"".join(items_html)}
+      </div>
+    </section>
+    '''
+
 def render_matching(ex, ex_idx, page_num):
     ex_id = escape(ex.get("exercise_id") or f"{page_num}.{ex_idx+1}")
     instruction = escape(ex.get("instruction") or "LISTEN TO THE AUDIO AND MATCH THE PAIRS")
@@ -1318,7 +1456,7 @@ def render_matching(ex, ex_idx, page_num):
     items_html = []
     for idx, item in enumerate(items):
         question = item.get("question") or ""
-        correct_ans = item.get("correct_answer") or ""
+        correct_ans = format_correct_answer(item.get("correct_answer")) or ""
         options = item.get("options") or []
 
         options_html_list = ['<option value="">-- Choose matching relationship --</option>']
@@ -1337,7 +1475,7 @@ def render_matching(ex, ex_idx, page_num):
         '''
 
         select_html = f'''
-        <select class="ghibli-input ghibli-select-matching" data-correct="{escape(correct_ans)}" style="width:100%; max-width:280px; padding:10px 14px; border-radius:12px; border:2px solid #2d5a27; background:#ffffff; font-size:1rem; font-weight:600; color:#2d5a27; cursor:pointer;">
+        <select class="ghibli-input ghibli-select-matching" data-correct="{escape(correct_ans)}" style="width:100%; max-width:280px; padding:10px 14px; border-radius:12px; font-size:1rem; font-weight:600; cursor:pointer;">
           {"".join(options_html_list)}
         </select>
         '''
@@ -1345,7 +1483,7 @@ def render_matching(ex, ex_idx, page_num):
         items_html.append(f'''
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:16px; padding:16px; margin-bottom:14px; background:rgba(255,255,255,0.95); border-radius:16px; border:1px solid #e2d7c3; flex-wrap:wrap;">
             <div class="ghibli-avatar-wrap" style="flex-shrink:0;">
-              <img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+              <img src="{avatar_img}" alt="Avatar" class="ghibli-avatar-img" width="48" height="48" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
             </div>
             <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">{idx+1}.</span>
             <div class="ghibli-prompt-text" style="font-weight:700; color:#2b261f; font-size:1.05rem; min-width:120px;">
@@ -1374,12 +1512,551 @@ def render_matching(ex, ex_idx, page_num):
     </section>
     '''
 
+def render_matching_exercise_8_6(ex, ex_idx, page_num):
+    ex_id = escape(ex.get("exercise_id") or "8.6")
+    instruction = escape(ex.get("instruction") or "MATCH THE DETERMINERS TO THE PRONOUNS")
+    
+    # Left column: Determiners
+    # Example: my -> mine (audio: audio/8/8_6_eg.mp3)
+    # 1. his -> his (audio: audio/8/8_6_1.mp3)
+    # 2. its -> its (audio/8/8_6_2.mp3)
+    # 3. her -> hers (audio/8/8_6_3.mp3)
+    # 4. your -> yours (audio/8/8_6_4.mp3)
+    # 5. their -> theirs (audio/8/8_6_5.mp3)
+    # 6. our -> ours (audio/8/8_6_6.mp3)
+    
+    left_items = [
+        {"num": 1, "determiner": "his", "correct": "his", "audio": "audio/8/8_6_1.mp3", "rec_id": "p28_ex1_i1"},
+        {"num": 2, "determiner": "its", "correct": "its", "audio": "audio/8/8_6_2.mp3", "rec_id": "p28_ex1_i2"},
+        {"num": 3, "determiner": "her", "correct": "hers", "audio": "audio/8/8_6_3.mp3", "rec_id": "p28_ex1_i3"},
+        {"num": 4, "determiner": "your", "correct": "yours", "audio": "audio/8/8_6_4.mp3", "rec_id": "p28_ex1_i4"},
+        {"num": 5, "determiner": "their", "correct": "theirs", "audio": "audio/8/8_6_5.mp3", "rec_id": "p28_ex1_i5"},
+        {"num": 6, "determiner": "our", "correct": "ours", "audio": "audio/8/8_6_6.mp3", "rec_id": "p28_ex1_i6"},
+    ]
+    
+    # Right column: Pronouns in textbook order: yours, mine, his, ours, theirs, hers, its
+    right_items = [
+        {"pronoun": "yours", "is_example": False},
+        {"pronoun": "mine", "is_example": True},
+        {"pronoun": "his", "is_example": False},
+        {"pronoun": "ours", "is_example": False},
+        {"pronoun": "theirs", "is_example": False},
+        {"pronoun": "hers", "is_example": False},
+        {"pronoun": "its", "is_example": False},
+    ]
+
+    left_html = []
+    # Add example item 'my'
+    left_html.append('''
+        <div class="connecting-card example-card is-connected" data-source-id="my" title="Example: 'my' is matched to 'mine'">
+          <button class="ghibli-audio-play-btn" data-audio="audio/8/8_6_eg.mp3" title="Play 'my' audio"><i class="fa-solid fa-play"></i></button>
+          <span class="example-badge"><i class="fa-solid fa-star"></i> Example</span>
+          <span class="word-text">my</span>
+          <div class="anchor-dot right-dot" title="Connected to 'mine'"></div>
+        </div>
+    ''')
+
+    for item in left_items:
+        rec_btn = f'''
+        <div class="voice-recorder-controls" style="margin-left:auto; margin-right:8px;">
+          <button class="voice-btn rec-btn" data-id="{item['rec_id']}" title="Record your voice"><i class="fa-solid fa-microphone"></i> Rec</button>
+          <button class="voice-btn play-rec-btn hidden" data-id="{item['rec_id']}" title="Play your recording"><i class="fa-solid fa-play"></i> My Voice</button>
+        </div>
+        '''
+        left_html.append(f'''
+        <div class="connecting-card source-card" data-source-id="item-{item['num']}" data-correct="{item['correct']}" data-item="{item['num']}" title="Click to select '{item['determiner']}' and connect to a pronoun">
+          <button class="ghibli-audio-play-btn" data-audio="{item['audio']}" title="Play '{item['determiner']}' audio"><i class="fa-solid fa-play"></i></button>
+          <span class="word-text">{item['determiner']}</span>
+          {rec_btn}
+          <input type="hidden" class="ghibli-input ghibli-connecting-input" data-correct="{item['correct']}" data-item="{item['num']}" value="" />
+          <div class="anchor-dot right-dot" title="Click or drag to connect"></div>
+        </div>
+        ''')
+
+    right_html = []
+    for item in right_items:
+        p = item["pronoun"]
+        if item["is_example"]:
+            right_html.append(f'''
+        <div class="connecting-card target-card example-card is-connected" data-target-id="{p}" data-value="{p}" title="Example: connected to 'my'">
+          <div class="anchor-dot left-dot" title="Connected to 'my'"></div>
+          <span class="word-text">{p}</span>
+          <span class="example-badge" style="margin-left:auto;"><i class="fa-solid fa-check"></i> Example</span>
+        </div>
+            ''')
+        else:
+            right_html.append(f'''
+        <div class="connecting-card target-card" data-target-id="{p}" data-value="{p}" title="Click to connect selected determiner to '{p}'">
+          <div class="anchor-dot left-dot" title="Connect here"></div>
+          <span class="word-text">{p}</span>
+        </div>
+            ''')
+
+    return f'''
+    <section class="ghibli-section ghibli-connecting-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">{ex_id}</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">{instruction}</h3>
+          <p class="ghibli-ex-subtext">Click or tap a determiner on the left, then click its matching pronoun on the right to connect them! Listen to the audio for each determiner.</p>
+        </div>
+      </div>
+
+      <div class="ghibli-connecting-container" id="connecting_ex_8_6" data-exercise-id="8.6">
+        <svg class="ghibli-connecting-svg" aria-hidden="true">
+          <defs>
+            <marker id="arrow-example" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 8 5 L 0 9 z" fill="#3d7ea6" />
+            </marker>
+            <marker id="arrow-user" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 8 5 L 0 9 z" fill="#e5a93c" />
+            </marker>
+            <marker id="arrow-correct" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 8 5 L 0 9 z" fill="#2e7d32" />
+            </marker>
+            <marker id="arrow-incorrect" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 8 5 L 0 9 z" fill="#c62828" />
+            </marker>
+          </defs>
+          <path class="connecting-line example-line" data-source="my" data-target="mine" d="" marker-end="url(#arrow-example)" />
+        </svg>
+
+        <div class="connecting-columns-grid">
+          <div class="connecting-column left-column">
+            <div class="column-header">
+              <span class="column-title"><i class="fa-solid fa-list-check"></i> Determiners</span>
+            </div>
+            {"".join(left_html)}
+          </div>
+
+          <div class="connecting-column right-column">
+            <div class="column-header">
+              <span class="column-title"><i class="fa-solid fa-arrow-right-arrow-left"></i> Pronouns</span>
+            </div>
+            {"".join(right_html)}
+          </div>
+        </div>
+      </div>
+    </section>
+    '''
+
+def render_ghibli_substitution_chart_5_5(ex, ex_idx, page_num):
+    ex_id = str(ex.get("exercise_id") or "5.5")
+    instruction = str(ex.get("instruction") or "USE THE CHART TO CREATE 12 CORRECT SENTENCES AND SAY THEM OUT LOUD")
+    audio_ref = "audio/5/5_5_a.mp3"
+    
+    return f'''
+    <!-- EXERCISE 5.5 (INTERACTIVE SUBSTITUTION CHART & SENTENCE BUILDER) -->
+    <section class="ghibli-exercise-card ex5-5-card">
+      <div class="exercise-header">
+        <div class="exercise-badge-wrap" style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+          <span class="exercise-num" style="background:var(--ghibli-accent-green, #48825c); color:#fff; padding:4px 12px; border-radius:20px; font-weight:700; font-size:0.85rem;">Exercise {ex_id}</span>
+          <button class="ghibli-audio-btn ghibli-audio-play-btn" data-audio="{audio_ref}" title="Play Audio 5.5" style="background:var(--ghibli-accent-gold, #e5a93c); color:#fff; border:none; padding:4px 12px; border-radius:20px; font-weight:700; font-size:0.85rem; cursor:pointer; display:inline-flex; align-items:center; gap:5px;"><i class="fa-solid fa-volume-high"></i> Audio 5.5</button>
+          <span class="ex5-5-progress-badge"><i class="fa-solid fa-trophy"></i> Discovered: <strong id="ex5_5_found_count">1</strong> / 12</span>
+        </div>
+        <h3 class="exercise-instruction" style="font-family:var(--font-heading); margin-top:8px; color:var(--ghibli-text-main); font-size:1.15rem;">{escape(instruction)}</h3>
+        <p class="exercise-subtext">Click words in each column to build and experiment with valid English sentences. Speak them out loud or record your voice!</p>
+      </div>
+
+      <!-- Assembled Sentence Preview & Validation Bar -->
+      <div class="ex5-5-preview-card">
+        <div class="ex5-5-chips-wrap">
+          <span class="ex5-5-chip chip-pointer" id="chip_pointer">This</span>
+          <span class="ex5-5-chip chip-verb" id="chip_verb">is</span>
+          <span class="ex5-5-chip chip-possessive" id="chip_possessive">her</span>
+          <span class="ex5-5-chip chip-noun" id="chip_noun">cat.</span>
+        </div>
+
+        <div class="ex5-5-status-bar">
+          <div class="ex5-5-validation-badge valid" id="ex5_5_val_badge">
+            <i class="fa-solid fa-circle-check"></i> <span id="ex5_5_val_text">Valid Sentence!</span>
+          </div>
+          
+          <div class="ex5-5-actions">
+            <button class="ghibli-btn ghibli-btn-primary" id="playSentenceBtn" data-audio="{audio_ref}" style="padding:10px 18px; font-size:0.9rem;">
+              <i class="fa-solid fa-volume-high"></i> Play Audio 5.5
+            </button>
+            <div class="voice-recorder-controls">
+              <button class="voice-btn rec-btn" data-id="p21_ex3_sentence"><i class="fa-solid fa-microphone"></i> Rec</button>
+              <button class="voice-btn play-rec-btn hidden" data-id="p21_ex3_sentence"><i class="fa-solid fa-play"></i> Voice</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Column Substitution Chart Grid -->
+      <div class="ex5-5-chart-grid">
+        <!-- Col 1: Pointer (This / That) -->
+        <div class="ex5-5-col col-pointer">
+          <div class="ex5-5-col-header"><i class="fa-solid fa-hand-pointer"></i> Pointer</div>
+          <button class="ghibli-block-btn selected" data-col="pointer" data-value="This">This</button>
+          <button class="ghibli-block-btn" data-col="pointer" data-value="That">That</button>
+        </div>
+
+        <!-- Col 2: Verb (is / are) -->
+        <div class="ex5-5-col col-verb">
+          <div class="ex5-5-col-header"><i class="fa-solid fa-bolt"></i> Verb</div>
+          <button class="ghibli-block-btn selected" data-col="verb" data-value="is">is</button>
+          <button class="ghibli-block-btn" data-col="verb" data-value="are">are</button>
+        </div>
+
+        <!-- Col 3: Possessive (her / their / my) -->
+        <div class="ex5-5-col col-possessive">
+          <div class="ex5-5-col-header"><i class="fa-solid fa-user-tag"></i> Possessive</div>
+          <button class="ghibli-block-btn selected" data-col="possessive" data-value="her">her</button>
+          <button class="ghibli-block-btn" data-col="possessive" data-value="their">their</button>
+          <button class="ghibli-block-btn" data-col="possessive" data-value="my">my</button>
+        </div>
+
+        <!-- Col 4: Pet / Noun (cat. / parrot.) -->
+        <div class="ex5-5-col col-noun">
+          <div class="ex5-5-col-header"><i class="fa-solid fa-paw"></i> Pet / Noun</div>
+          <button class="ghibli-block-btn selected" data-col="noun" data-value="cat.">cat.</button>
+          <button class="ghibli-block-btn" data-col="noun" data-value="parrot.">parrot.</button>
+        </div>
+      </div>
+
+      <!-- Discovered Sentences Collection Tray -->
+      <div class="ex5-5-discovery-tray">
+        <div class="ex5-5-tray-header" id="toggleSentencesTray">
+          <span><i class="fa-solid fa-wand-magic-sparkles" style="color:var(--ghibli-accent-gold);"></i> Discovered Sentences (<span id="tray_count_5_5">1</span>/12)</span>
+          <i class="fa-solid fa-chevron-down tray-icon"></i>
+        </div>
+        <div class="ex5-5-tray-grid" id="ex5_5_tray_grid">
+          <!-- 12 slots dynamically updated in JS -->
+        </div>
+      </div>
+    </section>
+    '''
+
+def render_ghibli_reading_exercise_6_3(ex, ex_idx, page_num):
+    ex_id = html.escape(str(ex.get("exercise_id") or "6.3"))
+    instruction = html.escape(str(ex.get("instruction") or "READ THE ARTICLE AND ANSWER THE QUESTIONS"))
+    
+    article_data = ex.get("article", {})
+    article_img = article_data.get("image", "images/ai/Gemini_Generated_Image_ (2).png")
+    
+    # Items rendering
+    items = ex.get("items", [])
+    questions_html = []
+    
+    # Example card (Reading: clean left alignment, no audio/rec)
+    example_card_html = f'''
+    <div class="ghibli-char-card example-card" style="margin-bottom: 12px; background: rgba(45, 90, 39, 0.06); border: 2px dashed #2d5a27; border-radius: 16px; padding: 12px 18px; display: flex; justify-content: space-between; align-items: center; gap: 14px;">
+      <div class="tf-question-left" style="display: flex; align-items: center; gap: 10px; flex: 1;">
+        <span style="font-size: 0.72rem; font-weight: 800; color: #2d5a27; text-transform: uppercase; background: rgba(45,90,39,0.15); padding: 4px 8px; border-radius: 8px; letter-spacing: 0.5px; flex-shrink: 0;"><i class="fa-solid fa-circle-check"></i> Example</span>
+        <span class="tf-sentence-text" style="font-family: var(--font-heading, 'Outfit', sans-serif); font-size: 1rem; font-weight: 600; color: #2b261f;">Sam lives with seven people.</span>
+      </div>
+      <div class="tf-btn-group" style="pointer-events: none; opacity: 0.95;">
+        <span class="tf-btn tf-btn-true selected" style="padding: 6px 14px; min-width: 76px; font-size: 0.88rem;"><i class="fa-solid fa-check"></i> True</span>
+        <span class="tf-btn tf-btn-false" style="padding: 6px 14px; min-width: 76px; font-size: 0.88rem; opacity: 0.4;"><i class="fa-solid fa-xmark"></i> False</span>
+      </div>
+    </div>
+    '''
+    
+    for idx, item in enumerate(items):
+        item_id = f"p23_ex1_i{idx+1}"
+        item_num = item.get("item_number", idx+1)
+        question_text = html.escape(item.get("question") or item.get("prompt_text") or "")
+        correct_ans = item.get("correct_answer", "True")
+        
+        is_true_correct = (str(correct_ans).lower() == "true")
+        
+        card_html = f'''
+        <div class="ghibli-char-card tf-question-card" style="margin-bottom: 10px; background: rgba(255,255,255,0.92); border-radius: 16px; padding: 12px 18px; border: 1.5px solid var(--border-color, #e2d7c3); display: flex; justify-content: space-between; align-items: center; gap: 14px; box-shadow: 0 3px 10px rgba(0,0,0,0.03);">
+          <div class="tf-question-left" style="display: flex; align-items: center; gap: 12px; flex: 1;">
+            <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 22px;">{item_num}.</span>
+            <span class="tf-sentence-text" style="font-family: var(--font-heading, 'Outfit', sans-serif); font-size: 1rem; font-weight: 600; color: #2b261f; line-height: 1.4;">{question_text}</span>
+          </div>
+          
+          <div class="tf-btn-group">
+            <button type="button" class="ghibli-option tf-btn tf-btn-true" data-value="True" data-correct="{'true' if is_true_correct else 'false'}"><i class="fa-solid fa-check"></i> True</button>
+            <button type="button" class="ghibli-option tf-btn tf-btn-false" data-value="False" data-correct="{'true' if not is_true_correct else 'false'}"><i class="fa-solid fa-xmark"></i> False</button>
+          </div>
+        </div>
+        '''
+        questions_html.append(card_html)
+    
+    questions_block = "\n".join(questions_html)
+    
+    return f'''
+    <section class="ghibli-section reading-exercise-container">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">{ex_id}</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">{instruction}</h3>
+          <p class="ghibli-ex-subtext">Read the article about Sam and his family, then select True or False for each question below!</p>
+        </div>
+      </div>
+      
+      <div class="ghibli-reading-layout" style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 24px; align-items: start; margin-top: 16px;">
+        <!-- Left: News Article Card with High-Res Ghibli Image -->
+        <div class="reading-article-card" style="border-radius: 16px; overflow: hidden; border: 1.5px solid rgba(226, 215, 195, 0.8); box-shadow: 0 6px 20px rgba(45, 90, 39, 0.08); background: #ffffff;">
+          <img src="{html.escape(article_img)}" alt="Television - The Douglas family article" style="width: 100%; height: auto; display: block; object-fit: contain;" loading="eager">
+        </div>
+        
+        <!-- Right: Questions and Worked Example -->
+        <div class="reading-questions-column" style="display: flex; flex-direction: column; gap: 4px;">
+          {example_card_html}
+          {questions_block}
+        </div>
+      </div>
+    </section>
+    '''
+
+def render_everyday_things_7_1(ex, ex_idx, page_num):
+    config_path = 'images/everyDayThings/items_config.json'
+    if os.path.exists(config_path):
+        with open(config_path, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+    else:
+        config = {}
+
+    p_key = f"p{page_num}"
+    p_items = config.get(p_key, [])
+    
+    p24_words = [
+        'wallet', 'notepad', 'sunglasses', 'keys', 'ID card', 'letter',
+        'toothbrush', 'hairbrush', 'pencil', 'dictionary', 'apple', 'book',
+        'passport', 'magazine', 'camera', 'glasses'
+    ]
+    p25_words = [
+        'pen', 'necklace', 'newspaper', 'bottle of water', 'laptop', 'earphones',
+        'tablet', 'mirror', 'coins', 'map', 'umbrella', 'sandwich'
+    ]
+    words_list = p24_words if page_num == 24 else p25_words
+
+    chips_html = ' '.join([f'<span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">{w}</span>' for w in words_list])
+
+    cards = []
+    if p_items:
+        for it in p_items:
+            img_url = it.get('img', '')
+            if os.path.exists(img_url):
+                mtime = int(os.path.getmtime(img_url))
+                img_src = f"{img_url}?v={mtime}"
+            else:
+                img_src = img_url
+            
+            num_label = it.get('num', '')
+            correct_val = it.get('correct', '')
+            audio_path = it.get('audio', '')
+            rec_id = it.get('rec_id', '')
+            is_eg = it.get('is_example', False)
+
+            if is_eg:
+                cards.append(f'''          <div class="ghibli-char-card example-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.95); border-radius:20px; border:2px solid #2d5a27; box-shadow:0 6px 18px rgba(45,90,39,0.12); box-sizing:border-box; width:100%;">
+            <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">{num_label}</span>
+                <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>
+              </div>
+              <div style="display:flex; align-items:center; gap:6px;">
+                <button class="ghibli-audio-play-btn" data-audio="{audio_path}" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                <div class="voice-recorder-controls">
+                  <button class="voice-btn rec-btn" data-id="{rec_id}"><i class="fa-solid fa-microphone"></i> Rec</button>
+                  <button class="voice-btn play-rec-btn hidden" data-id="{rec_id}"><i class="fa-solid fa-play"></i> My Voice</button>
+                </div>
+              </div>
+            </div>
+            <div class="everyday-obj-img-wrap" style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fbf8f2; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:8px; box-sizing:border-box;">
+              <img src="{img_src}" alt="{correct_val}" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.12));" loading="eager" decoding="async">
+            </div>
+            <div class="ghibli-input-wrap" style="width:100%; box-sizing:border-box;">
+              <input type="text" class="ghibli-input example-input" data-correct="{correct_val}" value="{correct_val}" readonly style="width:100%; min-width:0; max-width:100%; box-sizing:border-box; text-align:center; font-size:1.02rem; font-weight:700; padding:10px 12px; border-radius:12px; border-color:#2d5a27; background:rgba(45,90,39,0.12); color:#2d5a27;">
+            </div>
+          </div>''')
+            else:
+                cards.append(f'''          <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box; width:100%;">
+            <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+              <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">{num_label}</span>
+              <div style="display:flex; align-items:center; gap:6px;">
+                <button class="ghibli-audio-play-btn" data-audio="{audio_path}" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                <div class="voice-recorder-controls">
+                  <button class="voice-btn rec-btn" data-id="{rec_id}"><i class="fa-solid fa-microphone"></i> Rec</button>
+                  <button class="voice-btn play-rec-btn hidden" data-id="{rec_id}"><i class="fa-solid fa-play"></i> My Voice</button>
+                </div>
+              </div>
+            </div>
+            <div class="everyday-obj-img-wrap" style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fbf8f2; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:8px; box-sizing:border-box;">
+              <img src="{img_src}" alt="Everyday Object" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.12));" loading="eager" decoding="async">
+            </div>
+            <div class="ghibli-input-wrap" style="width:100%; box-sizing:border-box;">
+              <input type="text" class="ghibli-input" data-correct="{correct_val}" placeholder="Type answer..." autocomplete="off" style="width:100%; min-width:0; max-width:100%; box-sizing:border-box; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+            </div>
+          </div>''')
+
+    ex_id = escape(ex.get("exercise_id") or ("7.1" if page_num == 24 else "7.2"))
+    instruction = escape(ex.get("instruction") or "EVERYDAY THINGS • WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES")
+    
+    return f'''
+    <section class="ghibli-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">{ex_id}</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">{instruction}</h3>
+          <p class="ghibli-ex-subtext">Look at each illustration, listen to the pronunciation, and type the correct word under each picture!</p>
+        </div>
+      </div>
+      <div class="ghibli-word-bank-panel" style="background:rgba(255,255,255,0.75); backdrop-filter:blur(10px); border-radius:18px; padding:18px 22px; margin-bottom:28px; border:1.5px solid #d4c5a9; box-shadow:0 4px 14px rgba(0,0,0,0.05);">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; font-weight:800; color:#2d5a27; font-size:1rem;"><i class="fa-solid fa-layer-group"></i> <span>Word Panel</span></div>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">{chips_html}</div>
+      </div>
+      <div class="everyday-grid" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(210px, 1fr)); gap:20px;">
+        {chr(10).join(cards)}
+      </div>
+    </section>
+    '''
+
+def render_jobs_9_1(ex, ex_idx, page_num):
+    config_path = 'images/jobs/jobs_config.json'
+    if os.path.exists(config_path):
+        with open(config_path, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+    else:
+        config = {}
+
+    p_key = f"p{page_num}"
+    p_items = config.get(p_key, [])
+    
+    p30_words = [
+        'scientist', 'pilot', 'firefighter', 'gardener', 'nurse', 'farmer',
+        'chef', 'receptionist', 'vet', 'teacher', 'businessman', 'mechanic',
+        'artist', 'hairdresser', 'waitress', 'construction worker'
+    ]
+    p31_words = [
+        'driver', 'electrician', 'actor', 'businesswoman', 'police officer', 'dentist',
+        'waiter', 'engineer', 'cleaner', 'doctor', 'sales assistant', 'judge'
+    ]
+    words_list = p30_words if page_num == 30 else p31_words
+
+    chips_html = ' '.join([f'<span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">{w}</span>' for w in words_list])
+
+    cards = []
+    if p_items:
+        for it in p_items:
+            img_url = it.get('img', '')
+            if os.path.exists(img_url):
+                mtime = int(os.path.getmtime(img_url))
+                img_src = f"{img_url}?v={mtime}"
+            else:
+                img_src = img_url
+            
+            num_label = it.get('num', '')
+            correct_val = it.get('correct', '')
+            audio_path = it.get('audio', '')
+            rec_id = it.get('rec_id', '')
+            is_eg = it.get('is_example', False)
+
+            if is_eg:
+                cards.append(f'''          <div class="ghibli-char-card example-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.95); border-radius:20px; border:2px solid #2d5a27; box-shadow:0 6px 18px rgba(45,90,39,0.12); box-sizing:border-box; width:100%;">
+            <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">{num_label}</span>
+                <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>
+              </div>
+              <div style="display:flex; align-items:center; gap:6px;">
+                <button class="ghibli-audio-play-btn" data-audio="{audio_path}" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                <div class="voice-recorder-controls">
+                  <button class="voice-btn rec-btn" data-id="{rec_id}"><i class="fa-solid fa-microphone"></i> Rec</button>
+                  <button class="voice-btn play-rec-btn hidden" data-id="{rec_id}"><i class="fa-solid fa-play"></i> My Voice</button>
+                </div>
+              </div>
+            </div>
+            <div class="job-img-wrap" style="width:100%; height:140px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+              <img src="{img_src}" alt="{correct_val}" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+            </div>
+            <div class="ghibli-input-wrap" style="width:100%; box-sizing:border-box;">
+              <input type="text" class="ghibli-input example-input" data-correct="{correct_val}" value="{correct_val}" readonly style="width:100%; min-width:0; max-width:100%; box-sizing:border-box; text-align:center; font-size:1.02rem; font-weight:700; padding:10px 12px; border-radius:12px; border-color:#2d5a27; background:rgba(45,90,39,0.12); color:#2d5a27;">
+            </div>
+          </div>''')
+            else:
+                cards.append(f'''          <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box; width:100%;">
+            <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+              <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">{num_label}</span>
+              <div style="display:flex; align-items:center; gap:6px;">
+                <button class="ghibli-audio-play-btn" data-audio="{audio_path}" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                <div class="voice-recorder-controls">
+                  <button class="voice-btn rec-btn" data-id="{rec_id}"><i class="fa-solid fa-microphone"></i> Rec</button>
+                  <button class="voice-btn play-rec-btn hidden" data-id="{rec_id}"><i class="fa-solid fa-play"></i> My Voice</button>
+                </div>
+              </div>
+            </div>
+            <div class="job-img-wrap" style="width:100%; height:140px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+              <img src="{img_src}" alt="Job Occupation" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+            </div>
+            <div class="ghibli-input-wrap" style="width:100%; box-sizing:border-box;">
+              <input type="text" class="ghibli-input" data-correct="{correct_val}" placeholder="Type answer..." autocomplete="off" style="width:100%; min-width:0; max-width:100%; box-sizing:border-box; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+            </div>
+          </div>''')
+
+    ex_id = escape(ex.get("exercise_id") or "9.1")
+    instruction = escape(ex.get("instruction") or "JOBS • WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES")
+    
+    return f'''
+    <section class="ghibli-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">{ex_id}</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">{instruction}</h3>
+          <p class="ghibli-ex-subtext">Look at each job illustration, listen to the pronunciation, and type the correct occupation under each picture!</p>
+        </div>
+      </div>
+      <div class="ghibli-word-bank-panel" style="background:rgba(255,255,255,0.75); backdrop-filter:blur(10px); border-radius:18px; padding:18px 22px; margin-bottom:28px; border:1.5px solid #d4c5a9; box-shadow:0 4px 14px rgba(0,0,0,0.05);">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; font-weight:800; color:#2d5a27; font-size:1rem;"><i class="fa-solid fa-briefcase"></i> <span>Word Panel</span></div>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">{chips_html}</div>
+      </div>
+      <div class="jobs-grid" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(210px, 1fr)); gap:20px;">
+        {chr(10).join(cards)}
+      </div>
+    </section>
+    '''
+
 def render_exercise(ex, ex_idx, page_num):
     ex_id = str(ex.get("exercise_id") or "")
+    instruction_str = str(ex.get("instruction", "")).upper()
     if page_num == 18 or ex_id == "4.1":
         return render_ghibli_family_tree(ex, ex_idx, page_num)
     elif page_num == 19 or ex_id == "4.2":
         return render_ghibli_animals_exercise(ex, ex_idx, page_num)
+    elif page_num == 21 and (ex_id == "5.5" or ex_idx == 2 or "CHART" in instruction_str):
+        return render_ghibli_substitution_chart_5_5(ex, ex_idx, page_num)
+    elif page_num == 23 and (ex_id == "6.3" or ex_idx == 0):
+        return render_ghibli_reading_exercise_6_3(ex, ex_idx, page_num)
+    elif page_num in [24, 25] or (ex_id == "7.1" and page_num < 30) or "EVERYDAY THINGS" in instruction_str:
+        return render_everyday_things_7_1(ex, ex_idx, page_num)
+    elif page_num in [30, 31] or (ex_id == "9.1" and page_num <= 31) or "JOBS WRITE" in instruction_str or "OCCUPATIONS" in instruction_str:
+        return render_jobs_9_1(ex, ex_idx, page_num)
+    elif page_num == 33 and (ex_id == "10.4" or ex_idx == 1 or "WORKPLACE" in instruction_str or "LABELS" in instruction_str) and u2:
+        return u2.render_workplaces_10_4(ex, ex_idx, page_num)
+    elif page_num == 34 and (ex_id == "10.6" or ex_idx == 0 or "SAY THE SENTENCES" in instruction_str) and u2:
+        return u2.render_spoken_scenes_10_6(ex, ex_idx, page_num)
+    elif page_num == 35 and (ex_id == "10.8" or ex_idx == 1 or "LISTEN TO THE AUDIO AND ANSWER" in instruction_str) and u2:
+        return u2.render_audio_listening_10_8(ex, ex_idx, page_num)
+    elif page_num == 36 and (ex_id == "11.1" or ex_idx == 0 or "MATCH THE PICTURES TO THE CORRECT TIMES" in instruction_str) and u2:
+        return u2.render_telling_time_11_1(ex, ex_idx, page_num)
+    elif page_num == 36 and (ex_id == "11.2" or ex_idx == 1 or "MARK THE CORRECT TIMES" in instruction_str) and u2:
+        return u2.render_audio_clocks_11_2(ex, ex_idx, page_num)
+    elif page_num == 37 and (ex_id == "11.4" or ex_idx == 1 or "SAY EACH TIME OUT LOUD" in instruction_str) and u2:
+        return u2.render_spoken_time_11_4(ex, ex_idx, page_num)
+    elif page_num in [38, 39] and u2:
+        return u2.render_routines_12_1(ex, ex_idx, page_num)
+    elif page_num == 40 and (ex_id == "13.1" or ex_idx == 0 or "MATCH THE PICTURES TO THE CORRECT SENTENCES" in instruction_str) and u2:
+        return u2.render_marion_timeline_13_1(ex, ex_idx, page_num)
+    elif page_num == 41 and (ex_id == "13.5" or ex_idx == 2 or "SAY THESE VERBS OUT LOUD" in instruction_str) and u2:
+        return u2.render_pronunciation_verbs_13_5(ex, ex_idx, page_num)
+    elif page_num == 42 and (ex_id == "14.2" or ex_idx == 1 or "MARK THE SENTENCES THAT ARE CORRECT" in instruction_str) and u2:
+        return u2.render_sentence_choice_pairs_14_2(ex, ex_idx, page_num)
+    elif page_num == 44 and (ex_id == "14.6" or ex_idx == 1 or "READ THE EMAIL" in instruction_str) and u2:
+        return u2.render_reading_email_14_6(ex, ex_idx, page_num)
+    elif page_num == 45 and (ex_id == "14.7" or ex_idx == 0 or "NUMBER THE PICTURES" in instruction_str) and u2:
+        return u2.render_audio_listen_numbered_slots_14_7(ex, ex_idx, page_num)
+    elif page_num == 45 and (ex_id == "14.8" or ex_idx == 1 or "LISTEN TO 14.7 AGAIN" in instruction_str) and u2:
+        return u2.render_multiple_choice_14_8(ex, ex_idx, page_num)
+    elif ex_id in ["8.1", "10.3", "10.5", "13.2", "14.1"] or "CROSS OUT" in instruction_str:
+        return render_cross_out(ex, ex_idx, page_num)
+    elif page_num == 28 and (ex_id == "8.6" or ex_idx == 0):
+        return render_matching_exercise_8_6(ex, ex_idx, page_num)
     ex_type = ex.get("exercise_type")
     if ex_type == "sentence_ordering":
         return render_sentence_ordering(ex, ex_idx, page_num)
@@ -1417,7 +2094,15 @@ def generate_page_html(page_data, nav_info):
     prev_btn_html = f'<a href="{prev_file}" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page {page_num-1})</a>' if prev_file else '<span class="ghibli-btn ghibli-btn-secondary disabled"><i class="fa-solid fa-arrow-left"></i> Previous Page</span>'
     next_btn_html = f'<a href="{next_file}" class="ghibli-btn ghibli-btn-primary">Next Page (Page {page_num+1}) <i class="fa-solid fa-arrow-right"></i></a>' if next_file else '<span class="ghibli-btn ghibli-btn-primary disabled">Next Page <i class="fa-solid fa-arrow-right"></i></span>'
 
-    unit_tag_str = f'Unit {unit_num}' if unit_num else 'Practice Book'
+    p_uid, p_utitle, p_exrange = get_parent_unit(page_num)
+    if isinstance(p_uid, int):
+        unit_subtitle_str = f"🌿 Unit {p_uid} • Lesson: {unit_title} • Page {page_num}"
+        unit_tag_str = f"Unit {p_uid} • Lesson: {unit_title}"
+        full_unit_btn = f'<a href="unit{p_uid}.html" class="ghibli-btn ghibli-btn-gold" title="Open Complete Unit {p_uid} Module"><i class="fa-solid fa-book-open"></i> Full Unit {p_uid}</a>'
+    else:
+        unit_subtitle_str = f"🌿 {p_uid} • {unit_title} • Page {page_num}"
+        unit_tag_str = f"{p_uid} • {unit_title}"
+        full_unit_btn = '<a href="index.html" class="ghibli-btn ghibli-btn-gold"><i class="fa-solid fa-house"></i> Home Hub</a>'
 
     bottom_check_bar = ""
     if total_items > 0 or len(exercises) > 0:
@@ -1429,21 +2114,34 @@ def generate_page_html(page_data, nav_info):
     </div>
         '''
 
+    v_tag = int(time.time())
+
     html_content = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit {unit_num}: {unit_title} • Page {page_num} | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit {p_uid} • Page {page_num}: {unit_title} | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img {{ max-width: 100%; height: auto; display: block; }}
+    .ghibli-avatar-wrap {{ width: 76px; height: 76px; position: relative; flex-shrink: 0; }}
+    .ghibli-avatar-img {{ width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }}
+    .mascot-avatar-wrap {{ width: 220px; height: 220px; position: relative; flex-shrink: 0; }}
+    .mascot-avatar {{ width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }}
+    .page-turn-bar {{ display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }}
+    .page-turn-badge {{ font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }}
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v={v_tag}">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar {{ display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }}
-    .page-turn-badge {{ font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }}
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -1456,12 +2154,13 @@ def generate_page_html(page_data, nav_info):
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit {unit_num}: {unit_title} • Page {page_num}</span>
+          <span class="ghibli-subtitle">{unit_subtitle_str}</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        {full_unit_btn}
+        <a href="ghibli_reader.html?page={page_num}" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -1516,8 +2215,8 @@ def generate_page_html(page_data, nav_info):
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -1538,12 +2237,12 @@ def generate_page_html(page_data, nav_info):
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v={v_tag}"></script>
+  <script src="ghibli_page_engine.js?v={v_tag}"></script>
 </body>
 </html>
 '''
@@ -1564,8 +2263,8 @@ def main():
         nav_info = nav_map[p_num]
         html_code = generate_page_html(page, nav_info)
 
-        out_path1 = os.path.join(OUTPUT_DIR, nav_info["filename"])
-        out_path2 = os.path.join(OUTPUT_DIR, f"ghibli_p{p_num:03d}.html")
+        out_path1 = os.path.join(OUTPUT_DIR, f"ghibli_p{p_num:03d}.html")
+        out_path2 = os.path.join(OUTPUT_DIR, f"ghibli_page{p_num:03d}.html")
         with open(out_path1, "w", encoding="utf-8") as f:
             f.write(html_code)
         with open(out_path2, "w", encoding="utf-8") as f:

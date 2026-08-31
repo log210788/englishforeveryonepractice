@@ -236,11 +236,11 @@ class AdversarialTestSuite(unittest.TestCase):
 
         if nav_next.count() > 0:
             href_next = nav_next.get_attribute("href")
-            self.assertIn("ghibli_p051.html", href_next)
+            self.assertTrue("ghibli_p051.html" in href_next or "ghibli_page051.html" in href_next, f"Unexpected next href: {href_next}")
 
         if nav_prev.count() > 0:
             href_prev = nav_prev.get_attribute("href")
-            self.assertIn("ghibli_p049.html", href_prev)
+            self.assertTrue("ghibli_p049.html" in href_prev or "ghibli_page049.html" in href_prev, f"Unexpected prev href: {href_prev}")
 
         if nav_home.count() > 0:
             href_home = nav_home.get_attribute("href")

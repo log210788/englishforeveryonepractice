@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit 3: Talking about yourself • Page 17 | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit 1 • Page 17: Talking about yourself | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788155925">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -25,12 +36,13 @@
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit 3: Talking about yourself • Page 17</span>
+          <span class="ghibli-subtitle">🌿 Unit 1 • Lesson: Talking about yourself • Page 17</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        <a href="unit1.html" class="ghibli-btn ghibli-btn-gold" title="Open Complete Unit 1 Module"><i class="fa-solid fa-book-open"></i> Full Unit 1</a>
+        <a href="ghibli_reader.html?page=17" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -45,15 +57,15 @@
 
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
-      <a href="ghibli_page016.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 16)</a>
-      <span class="page-turn-badge">📖 Page 17 of 169</span>
-      <a href="ghibli_page018.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 18) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p016.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 16)</a>
+      <span class="page-turn-badge">📖 Page 17 of 168</span>
+      <a href="ghibli_p018.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 18) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
     <div class="ghibli-hero-card">
       <div class="ghibli-hero-main">
-        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 3</span>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 1 • Lesson: Talking about yourself</span>
         <h2 class="ghibli-hero-title">Talking about yourself</h2>
         <p class="ghibli-hero-desc">It&#x27;s useful to know how to say your age and where you come from. You can use the verb &quot;to be&quot; to talk about these topics.</p>
       </div>
@@ -151,14 +163,17 @@
         
                   <div class="ghibli-char-card example-card" style="border: 2px solid #2d5a27; background: rgba(45,90,39,0.06);">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/3/3_4_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
-                        <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 8px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase; margin-right:6px;">Example</span>
-                        <img src="images/flags/es.svg" alt="spanish flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>Alfonso <input type="text" class="ghibli-input ghibli-inline-input example-input" data-correct="is" value="is" readonly style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center; border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="is" /> 87 years old. He <input type="text" class="ghibli-input ghibli-inline-input example-input" data-correct="is" value="is" readonly style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center; border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="is" /> Spanish.</span>
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+                        <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>
+                        
+                        <img src="images/flags/es.svg" alt="spanish flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        Alfonso <input type="text" class="ghibli-input ghibli-inline-input example-input short-gap" data-correct="is" value="is" readonly style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center; border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="is" /> 87 years old. He <input type="text" class="ghibli-input ghibli-inline-input example-input short-gap" data-correct="is" value="is" readonly style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center; border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="is" /> Spanish.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -171,14 +186,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/3/3_4_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
-                        <img src="images/flags/jp.svg" alt="japanese flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>Abe <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> 72 years old. She <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> Japanese.</span>
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">1.</span>
+                        <img src="images/flags/jp.svg" alt="japanese flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        Abe <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="is" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> 72 years old. She <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="is" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> Japanese.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -191,14 +209,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/3/3_4_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
-                        <img src="images/flags/it.svg" alt="italy flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>Mia and Leo <input type="text" class="ghibli-input ghibli-inline-input" data-correct="are" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> 12. They <input type="text" class="ghibli-input ghibli-inline-input" data-correct="are" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> from Italy.</span>
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">2.</span>
+                        <img src="images/flags/it.svg" alt="italy flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        Mia and Leo <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="are" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> 12. They <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="are" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> from Italy.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -211,14 +232,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/3/3_4_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
-                        <img src="images/flags/fr.svg" alt="french flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>Chantal <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> 66 years old. She <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> French.</span>
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">3.</span>
+                        <img src="images/flags/fr.svg" alt="french flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        Chantal <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="is" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> 66 years old. She <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="is" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> French.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -231,14 +255,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/3/3_4_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
-                        <img src="images/flags/pk.svg" alt="pakistan flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>Amir and Aamna <input type="text" class="ghibli-input ghibli-inline-input" data-correct="are" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> 90 years old. They <input type="text" class="ghibli-input ghibli-inline-input" data-correct="are" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> from Pakistan.</span>
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">4.</span>
+                        <img src="images/flags/pk.svg" alt="pakistan flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        Amir and Aamna <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="are" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> 90 years old. They <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="are" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> from Pakistan.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -251,14 +278,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/3/3_4_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
-                        <img src="images/flags/ie.svg" alt="irish flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>I <input type="text" class="ghibli-input ghibli-inline-input" data-correct="am" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> 24 years old. I <input type="text" class="ghibli-input ghibli-inline-input" data-correct="am" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> Irish.</span>
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">5.</span>
+                        <img src="images/flags/ie.svg" alt="irish flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        I <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="am" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> 24 years old. I <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="am" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> Irish.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -271,14 +301,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/3/3_4_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
-                        <img src="images/flags/de.svg" alt="german flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>Max <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> 47 years old. He <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> German.</span>
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">6.</span>
+                        <img src="images/flags/de.svg" alt="german flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        Max <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="is" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> 47 years old. He <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="is" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> German.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -291,14 +324,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/3/3_4_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
-                        <img src="images/flags/nz.svg" alt="new zealand flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>We <input type="text" class="ghibli-input ghibli-inline-input" data-correct="are" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> 38 years old. We <input type="text" class="ghibli-input ghibli-inline-input" data-correct="are" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> from New Zealand.</span>
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">7.</span>
+                        <img src="images/flags/nz.svg" alt="new zealand flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        We <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="are" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> 38 years old. We <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="are" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> from New Zealand.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -311,14 +347,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/3/3_4_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
-                        <img src="images/flags/ca.svg" alt="canada flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>My sister <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> 4 years old. She <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is" placeholder="Type..." style="max-width:110px; width:85px; display:inline-block; margin:0 4px; text-align:center;" /> from Canada.</span>
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">8.</span>
+                        <img src="images/flags/ca.svg" alt="canada flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        My sister <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="is" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> 4 years old. She <input type="text" class="ghibli-input ghibli-inline-input short-gap" data-correct="is" placeholder="..." style="max-width:90px; min-width:60px; width:72px; display:inline-block; margin:0 4px; text-align:center;" /> from Canada.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -343,13 +382,13 @@
 
     <!-- Page Turning Navigation Bar Bottom -->
     <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:32px; padding-bottom:40px;">
-      <a href="ghibli_page016.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 16)</a>
-      <a href="ghibli_page018.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 18) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p016.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 16)</a>
+      <a href="ghibli_p018.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 18) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -370,11 +409,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v=1788155925"></script>
+  <script src="ghibli_page_engine.js?v=1788155925"></script>
 </body>
 </html>

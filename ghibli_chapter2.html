@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book • Chapter 2: Jobs, Time & Daily Routines | Studio Ghibli Edition</title>
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+  </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -76,16 +84,16 @@
       <div class="exercise-items-list">
         
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/scientist.png" alt="scientist" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #2d5a27;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">1.</span>
-                
+                <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:2px 8px; border-radius:10px; font-weight:700; font-size:0.7rem; text-transform:uppercase;">Example</span>
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_eg.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
-                <div class="item-text" style="flex:1;"><input type="text" class="ghibli-input" data-correct="scientist" placeholder="Type answer..." /></div>
+                <div class="item-text" style="flex:1;"><input type="text" class="ghibli-input" data-correct="scientist" value="scientist" readonly style="background:rgba(45,90,39,0.1); font-weight:700; color:#2d5a27;" /></div>
                 <button class="ghibli-rec-btn" data-id="p30_ex1_i1" title="Voice Record"><i class="fa-solid fa-microphone"></i> Rec</button>
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/pilot.png" alt="pilot" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">2.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_1.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -94,7 +102,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/firefighter.png" alt="firefighter" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">3.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_2.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -103,7 +111,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/gardener.png" alt="gardener" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">4.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_3.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -112,7 +120,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/nurse.png" alt="nurse" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">5.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_7.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -121,7 +129,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/farmer.png" alt="farmer" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">6.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_8.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -130,7 +138,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/chef.png" alt="chef" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">7.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_9.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -139,7 +147,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/receptionist.png" alt="receptionist" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">8.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_10.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -148,7 +156,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/vet.png" alt="vet" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">9.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_14.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -157,7 +165,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/teacher.png" alt="teacher" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">10.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_15.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -166,7 +174,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/businessman.png" alt="businessman" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">11.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_16.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -175,7 +183,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/mechanic.png" alt="mechanic" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">12.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_17.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -184,7 +192,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/artist.png" alt="artist" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">13.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_21.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -193,7 +201,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/hairdresser.png" alt="hairdresser" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">14.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_22.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -202,7 +210,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/waitress.png" alt="waitress" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">15.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_23.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -211,7 +219,7 @@
               </div>
             
               <div class="fill-blank-item ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; margin-bottom:12px; background:var(--card-bg, rgba(255,255,255,0.95)); border-radius:16px; border:1px solid var(--border-color, #e2d7c3);">
-                <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:48px; height:48px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
+                <img src="images/jobs/construction_worker.png" alt="construction worker" class="ghibli-avatar-img job-item-img" style="width:52px; height:52px; border-radius:12px; object-fit:contain; background:#fff; padding:2px; border:2px solid #e5a93c;">
                 <span class="item-index" style="font-weight:700; color:#2d5a27;">16.</span>
                 
                 <button class="ghibli-audio-btn" data-audio="audio/9/9_1_24.mp3" title="Play Audio"><i class="fa-solid fa-volume-high"></i></button>
@@ -3544,6 +3552,11 @@
       <img id="mascotAvatarImg" src="images/ghibli/ch4/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" />
     </div>
   </div>
+
+    <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
+    <i class="fa-solid fa-circle-check"></i> Check Answers
+  </button>
 
   <script src="ghibli_audio.js"></script>
   <script src="ghibli_page_engine.js"></script>

@@ -75,7 +75,51 @@ function spawnFireflies(count) {
   }
 }
 
-/* 2. Audio Player Engine with Fallback & Speech Synthesis */
+/* 2. Audio Player Engine with Multi-Unit Candidate Resolution & Speech Synthesis */
+function getAudioCandidates(src) {
+  if (!src) return [];
+  const list = [];
+  const cleanSrc = src.trim().split('?')[0].split('#')[0];
+  if (!cleanSrc) return [];
+
+  list.push(cleanSrc);
+
+  const m1 = cleanSrc.match(/^audio\/(\d+)\/(.+)$/i);
+  if (m1) {
+    const unitNum = parseInt(m1[1], 10);
+    const filename = m1[2];
+    const unitPadded = String(unitNum).padStart(2, '0');
+    
+    list.push(`assets/audio/track_${unitPadded}_${filename}`);
+    list.push(`assets/audio/track_${unitNum}_${filename}`);
+    list.push(`assets/audio/${filename}`);
+
+    const mUnitPrefix = filename.match(/^(\d+)_(.+)$/);
+    if (mUnitPrefix) {
+      const rest = mUnitPrefix[2];
+      list.push(`assets/audio/track_${unitPadded}_${rest}`);
+      list.push(`assets/audio/track_${unitNum}_${rest}`);
+    }
+    
+    const baseName = filename.replace(/\.mp3$/i, '');
+    list.push(`audio/${unitNum}/${baseName}_a_usuk.mp3`);
+    list.push(`audio/${unitNum}/${baseName}_usuk.mp3`);
+    list.push(`audio/${unitNum}/${baseName}_uk.mp3`);
+    list.push(`audio/${unitNum}/${baseName}_us.mp3`);
+    list.push(`audio/${unitNum}/${baseName}_a.mp3`);
+  }
+
+  const m2 = cleanSrc.match(/^assets\/audio\/track_(\d+)_(.+)\.mp3$/i);
+  if (m2) {
+    const unitNum = parseInt(m2[1], 10);
+    const rest = m2[2];
+    list.push(`audio/${unitNum}/${unitNum}_${rest}.mp3`);
+    list.push(`audio/${unitNum}/${rest}.mp3`);
+  }
+
+  return Array.from(new Set(list));
+}
+
 function playAudioTrack(src, fallbackText = null, onEndedCallback = null) {
   if (activeAudio) {
     activeAudio.pause();
@@ -83,56 +127,89 @@ function playAudioTrack(src, fallbackText = null, onEndedCallback = null) {
     activeAudio = null;
   }
 
-  const paths = [src];
-  if (src.startsWith('audio/1/')) {
-    const filename = src.split('/').pop();
-    paths.push(`assets/audio/track_01_${filename}`);
-    if (filename.startsWith('1_')) {
-      paths.push(`assets/audio/track_01_${filename.slice(2)}`);
+  const done = () => {
+    if (window.GhibliAudio && typeof window.GhibliAudio.unduckBGM === 'function') {
+      window.GhibliAudio.unduckBGM();
     }
+    if (onEndedCallback) onEndedCallback();
+  };
+
+  if (window.GhibliAudio && typeof window.GhibliAudio.duckBGM === 'function') {
+    window.GhibliAudio.duckBGM();
   }
 
+  const paths = getAudioCandidates(src);
   let attemptIdx = 0;
 
   function tryNextPath() {
     if (attemptIdx >= paths.length) {
       if (fallbackText) {
-        speakSentence(fallbackText, onEndedCallback);
-      } else if (onEndedCallback) {
-        onEndedCallback();
+        speakSentence(fallbackText, done);
+      } else {
+        done();
       }
       return;
     }
 
     const currentPath = paths[attemptIdx++];
-    const audio = new Audio(currentPath);
+    const audio = new Audio();
+    audio.preload = 'auto';
     activeAudio = audio;
+    window.activeAudio = audio;
 
-    audio.play().then(() => {
-      if (onEndedCallback) {
-        audio.onended = onEndedCallback;
-      }
-    }).catch(err => {
-      console.warn(`Could not play ${currentPath}, trying fallback...`, err);
+    let hasHandledError = false;
+    const onError = () => {
+      if (hasHandledError) return;
+      hasHandledError = true;
       tryNextPath();
-    });
+    };
+
+    audio.onended = done;
+    audio.onerror = onError;
+    audio.src = currentPath;
+
+    const playPromise = audio.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(() => {
+        onError();
+      });
+    }
   }
 
-  tryNextPath();
+  if (paths.length > 0) {
+    tryNextPath();
+  } else if (fallbackText) {
+    speakSentence(fallbackText, done);
+  } else {
+    done();
+  }
 }
 
 function setupAudioPlayers() {
-  document.querySelectorAll('.ghibli-audio-play-btn').forEach(btn => {
+  document.querySelectorAll('.ghibli-audio-play-btn, .ghibli-audio-btn, [data-audio]').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
-      isPlayingPlaylist = false;
-      const audioFile = btn.dataset.audio;
-      const card = btn.closest('.ghibli-listen-card') || btn.closest('.ghibli-char-card') || btn.closest('.ghibli-draggable-card');
-      const name = card ? (card.querySelector('.ghibli-listen-name')?.textContent || card.querySelector('.ghibli-prompt-text span')?.textContent || card.querySelector('span')?.textContent) : '';
-      const fallback = name ? `Hi, I am ${name}.` : null;
+      if (btn.classList.contains('rec-btn') || btn.classList.contains('play-rec-btn')) return;
 
-      if (audioFile) {
-        playAudioTrack(audioFile, fallback);
+      isPlayingPlaylist = false;
+      const audioFile = btn.dataset.audio || btn.getAttribute('data-audio') || '';
+      const fallbackAttr = btn.getAttribute('data-text') || btn.getAttribute('data-fallback-text');
+
+      const card = btn.closest('.ghibli-listen-card') || btn.closest('.ghibli-char-card') || btn.closest('.ghibli-draggable-card') || btn.closest('.animal-card') || btn.closest('section') || btn.parentElement;
+      const name = card ? (card.querySelector('.ghibli-listen-name')?.textContent || card.querySelector('.ghibli-prompt-text span')?.textContent || card.querySelector('input[data-correct]')?.getAttribute('data-correct') || card.querySelector('span')?.textContent) : '';
+      const fallback = fallbackAttr || (name ? `Hi, I am ${name}.` : null);
+
+      btn.classList.add('playing');
+      const icon = btn.querySelector('i');
+      const origClass = icon ? icon.className : '';
+      if (icon) icon.className = 'fa-solid fa-volume-high fa-beat';
+
+      playAudioTrack(audioFile, fallback, () => {
+        btn.classList.remove('playing');
+        if (icon && origClass) icon.className = origClass;
+      });
+
+      if (typeof triggerSparkle === 'function') {
         triggerSparkle(e.clientX, e.clientY);
       }
     });
@@ -640,7 +717,10 @@ function scheduleFocusAutoFade() {
 
 function revealMascotBubble() {
   const bubble = document.getElementById('mascotBubble');
-  if (bubble) bubble.classList.remove('focused-auto-collapsed');
+  if (bubble) {
+    bubble.classList.remove('focused-auto-collapsed');
+    bubble.style.display = 'block';
+  }
 }
 
 function setupMascot() {
@@ -894,78 +974,77 @@ function stopGhibliSongLoop() {
 
 /* 8. Header & Global Grade Actions with Progressive Story & Sad/Encouraging Mascot Response */
 function setupHeaderActions() {
-  const checkBtn = document.getElementById('ghibliCheckAnswersBtn');
+  const checkButtons = document.querySelectorAll('#ghibliCheckAnswersBtn, #ghibliFloatingCheckBtn, .ghibli-floating-check-btn, .ghibli-check-btn');
   const resetBtn = document.getElementById('ghibliResetBtn');
   const scoreText = document.getElementById('ghibliScoreText');
 
-  if (checkBtn) {
-    checkBtn.addEventListener('click', () => {
-      let correctCount = 0;
-      let totalQuestions = 5 + 6;
+  const runCheckAnswers = () => {
+    let correctCount = 0;
+    let totalQuestions = 5 + 6;
 
-      // Check Ex 1.1
-      Object.keys(answers1_1).forEach(id => {
-        const input = document.getElementById(`ex1_1_input_${id}`);
-        if (input) {
-          const userVal = input.value.trim();
-          const expectedVal = answers1_1[id];
+    // Check Ex 1.1
+    document.querySelectorAll('.ex1-1-input').forEach(input => {
+      const userVal = input.value.trim();
+      const expectedVal = input.dataset.correct || '';
 
-          const cleanUser = userVal.replace(/’/g, "'").toLowerCase();
-          const cleanExpected = expectedVal.replace(/’/g, "'").toLowerCase();
+      const cleanUser = userVal.replace(/’/g, "'").toLowerCase();
+      const cleanExpected = expectedVal.replace(/’/g, "'").toLowerCase();
 
-          if (cleanUser === cleanExpected) {
-            input.classList.add('correct');
-            input.classList.remove('incorrect');
-            correctCount++;
-          } else if (cleanUser !== '') {
-            input.classList.add('incorrect');
-            input.classList.remove('correct');
-          }
-        }
-      });
-
-      // Check Ex 1.2 Drag & Drop Slots
-      document.querySelectorAll('.ghibli-drop-slot').forEach(slot => {
-        const slotNum = parseInt(slot.dataset.slot);
-        const card = slot.querySelector('.ghibli-draggable-card');
-
-        if (card) {
-          const person = card.dataset.person;
-          const expectedOrder = answers1_2[person];
-
-          if (slotNum === expectedOrder) {
-            card.classList.add('correct');
-            card.classList.remove('incorrect');
-            correctCount++;
-          } else {
-            card.classList.add('incorrect');
-            card.classList.remove('correct');
-          }
-        }
-      });
-
-      if (scoreText) {
-        scoreText.textContent = `${correctCount} / ${totalQuestions}`;
+      if (cleanUser && cleanUser === cleanExpected) {
+        input.classList.add('correct');
+        input.classList.remove('incorrect');
+        correctCount++;
+      } else if (cleanUser !== '') {
+        input.classList.add('incorrect');
+        input.classList.remove('correct');
       }
-
-      if (correctCount === totalQuestions) {
-        setMascotExpression('celebrate');
-        playFanfareChime();
-        speakMascot("100% PERFECT SCORE! 🌟 Teacher Lewis awards you the Traveler's Backpack Sticker & Spirit Name Tag!");
-        unlockUnit1Stickers(true);
-      } else if (correctCount > 0) {
-        setMascotExpression('talking');
-        speakMascot(`Great effort! You scored ${correctCount} / ${totalQuestions}! Score 100% (11/11) to unlock Teacher Lewis's Traveler's Backpack sticker!`);
-        unlockUnit1Stickers(false);
-      } else {
-        // Incorrect / 0 score -> Mascot shows sad/encouraging state!
-        setMascotExpression('sad');
-        speakMascot("Don't worry! Teacher Lewis says: Mistakes are just proof you are trying! Give it another shot!");
-      }
-
-      triggerSparkle(window.innerWidth / 2, window.innerHeight / 3);
     });
-  }
+
+    // Check Ex 1.2 Drag & Drop Slots
+    document.querySelectorAll('.ghibli-drop-slot').forEach(slot => {
+      const slotNum = parseInt(slot.dataset.slot);
+      const card = slot.querySelector('.ghibli-draggable-card');
+
+      if (card) {
+        const person = card.dataset.person;
+        const expectedOrder = answers1_2[person];
+
+        if (slotNum === expectedOrder) {
+          card.classList.add('correct');
+          card.classList.remove('incorrect');
+          correctCount++;
+        } else {
+          card.classList.add('incorrect');
+          card.classList.remove('correct');
+        }
+      }
+    });
+
+    if (scoreText) {
+      scoreText.textContent = `Score: ${correctCount} / ${totalQuestions}`;
+    }
+
+    if (correctCount === totalQuestions) {
+      setMascotExpression('celebrate');
+      playFanfareChime();
+      speakMascot("100% PERFECT SCORE! 🌟 Teacher Lewis awards you the Traveler's Backpack Sticker & Spirit Name Tag!");
+      unlockUnit1Stickers(true);
+    } else if (correctCount > 0) {
+      setMascotExpression('talking');
+      speakMascot(`Great effort! You scored ${correctCount} / ${totalQuestions}! Score 100% (11/11) to unlock Teacher Lewis's Traveler's Backpack sticker!`);
+      unlockUnit1Stickers(false);
+    } else {
+      // Incorrect / 0 score -> Mascot shows sad/encouraging state!
+      setMascotExpression('sad');
+      speakMascot("Don't worry! Teacher Lewis says: Mistakes are just proof you are trying! Give it another shot!");
+    }
+
+    triggerSparkle(window.innerWidth / 2, window.innerHeight / 3);
+  };
+
+  checkButtons.forEach(btn => {
+    btn.addEventListener('click', runCheckAnswers);
+  });
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {

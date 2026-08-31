@@ -134,7 +134,7 @@
           "item_number": 4,
           "question": "I play soccer on the weekend.",
           "audio_icon_present": true,
-          "audio_file_path": "audio/14/14_3_4.mp3"
+          "audio_file_path": "audio/14/14_3_4_a_usuk.mp3"
         },
         {
           "item_number": 5,
@@ -169,7 +169,8 @@
         {
           "item_number": 10,
           "question": "Gerald reads a book at the weekend.",
-          "audio_icon_present": true
+          "audio_icon_present": true,
+          "audio_file_path": "audio/14/14_3_10_a_usuk.mp3"
         },
         {
           "item_number": 11,
@@ -255,7 +256,7 @@
           "item_number": 2,
           "question": "I play tennis on the weekend.",
           "audio_icon_present": true,
-          "audio_file_path": "audio/14/14_5_2.mp3"
+          "audio_file_path": "audio/14/14_5_2_a_usuk.mp3"
         },
         {
           "item_number": 3,

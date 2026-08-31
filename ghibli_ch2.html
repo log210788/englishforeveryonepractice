@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book | Studio Ghibli Edition - Chapter 2</title>
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+  </style>
   <meta name="description" content="Interactive English practice - Talking about yourself. Studio Ghibli inspired coastal village setting.">
   
   <!-- Google Fonts -->
@@ -137,8 +145,8 @@
         <!-- Example -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/ryan.jpg" alt="Example Avatar" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_1_eg.mp3" title="Listen">
+            <img src="images/ghibli/ryan.jpg" alt="Example Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="I am a student." title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -160,8 +168,8 @@
         <!-- Item 1 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_1_1.mp3" title="Listen">
+            <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="She is from Japan." title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -180,8 +188,8 @@
         <!-- Item 2 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_1_2.mp3" title="Listen">
+            <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="We are happy students." title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -200,8 +208,8 @@
         <!-- Item 3 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_1_3.mp3" title="Listen">
+            <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="He is 25 years old." title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -220,8 +228,8 @@
         <!-- Item 4 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/gary.jpg" alt="Gary" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_1_4.mp3" title="Listen">
+            <img src="images/ghibli/gary.jpg" alt="Gary" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="They are teachers." title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -240,8 +248,8 @@
         <!-- Item 5 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_1_5.mp3" title="Listen">
+            <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="You are very kind." title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -275,8 +283,8 @@
         <!-- Example -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_2_eg.mp3" title="Listen">
+            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="Is she a doctor?" title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -294,8 +302,8 @@
         <!-- Item 1 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_2_1.mp3" title="Listen">
+            <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="Is he from Brazil?" title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -310,8 +318,8 @@
         <!-- Item 2 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/ryan.jpg" alt="Ryan" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_2_2.mp3" title="Listen">
+            <img src="images/ghibli/ryan.jpg" alt="Ryan" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="Are they happy?" title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -326,8 +334,8 @@
         <!-- Item 3 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_2_3.mp3" title="Listen">
+            <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="Are you a teacher?" title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -342,8 +350,8 @@
         <!-- Item 4 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_2_4.mp3" title="Listen">
+            <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="Is she 30 years old?" title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -358,8 +366,8 @@
         <!-- Item 5 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img">
-            <button class="ghibli-audio-play-btn" data-audio="audio/2/2_2_5.mp3" title="Listen">
+            <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+            <button class="ghibli-audio-play-btn" data-audio="" data-text="Are we students?" title="Listen">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
@@ -387,6 +395,11 @@
   </div>
 
   <!-- Kodama Companion Mascot Widget -->
+    <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
+    <i class="fa-solid fa-circle-check"></i> Check Answers
+  </button>
+
   <div class="ghibli-mascot-container" id="ghibliMascotWidget">
     <div class="mascot-bubble-wrap">
       <div class="mascot-min-bar">
@@ -421,7 +434,7 @@
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap" title="Click Kodama to hear Teacher Lewis's story!">
       <div class="mascot-focus-aura" id="mascotAura"></div>
       <div class="mascot-expr-badge" id="mascotExprBadge">🌊 Seaside Spirit</div>
-      <img src="images/ghibli/ch2/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/ch2/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
@@ -468,11 +481,11 @@
     };
     
     // Chapter 2 Check Answers
-    const checkBtn = document.getElementById('ghibliCheckAnswersBtn');
+    const checkBtns = document.querySelectorAll('#ghibliCheckAnswersBtn, #ghibliFloatingCheckBtn, .ghibli-floating-check-btn');
     const scoreText = document.getElementById('ghibliScoreText');
     
-    if (checkBtn) {
-      checkBtn.addEventListener('click', () => {
+    checkBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
         let correct = 0, total = 10;
         
         // Ex 2.1
@@ -497,17 +510,17 @@
         
         if (scoreText) scoreText.textContent = `${correct} / ${total}`;
       });
-    }
+    });
     
-    const resetBtn = document.getElementById('ghibliResetBtn');
-    if (resetBtn) {
-      resetBtn.addEventListener('click', () => {
+    const resetBtns = document.querySelectorAll('#ghibliResetBtn, .ghibli-reset-btn');
+    resetBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
         document.querySelectorAll('.ex21-input, .ex22-input').forEach(i => {
           i.value = ''; i.classList.remove('correct','incorrect');
         });
         if (scoreText) scoreText.textContent = '0 / 10';
       });
-    }
+    });
   });
   </script>
 </body>

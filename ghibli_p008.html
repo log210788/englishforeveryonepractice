@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit Starter: Reference & Warm-up • Page 8 | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit Starter • Page 8: Reference & Warm-up | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788155925">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -25,12 +36,13 @@
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit Starter: Reference & Warm-up • Page 8</span>
+          <span class="ghibli-subtitle">🌿 Starter • Reference & Warm-up • Page 8</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        <a href="index.html" class="ghibli-btn ghibli-btn-gold"><i class="fa-solid fa-house"></i> Home Hub</a>
+        <a href="ghibli_reader.html?page=8" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -46,14 +58,14 @@
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
       <span class="ghibli-btn ghibli-btn-secondary disabled"><i class="fa-solid fa-arrow-left"></i> Previous Page</span>
-      <span class="page-turn-badge">📖 Page 8 of 169</span>
-      <a href="ghibli_page009.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 9) <i class="fa-solid fa-arrow-right"></i></a>
+      <span class="page-turn-badge">📖 Page 8 of 168</span>
+      <a href="ghibli_p009.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 9) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
     <div class="ghibli-hero-card">
       <div class="ghibli-hero-main">
-        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit Starter</span>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Starter • Reference & Warm-up</span>
         <h2 class="ghibli-hero-title">Reference &amp; Warm-up</h2>
         <p class="ghibli-hero-desc">Reference overview of the English alphabet, numbers, and introductory language structures.</p>
       </div>
@@ -80,217 +92,397 @@
         <div class="ghibli-ex-num">15.1</div>
         <div>
           <h3 class="ghibli-ex-instruction">REWRITE THE SENTENCES, PUTTING THE WORDS IN THE CORRECT ORDER</h3>
-          <p class="ghibli-ex-subtext">Click or drag the word chips into the box to form the correct sentence!</p>
+          <p class="ghibli-ex-subtext">Click or drag the word chips into the sentence box to form the correct order!</p>
         </div>
       </div>
       
       <div class="exercise-items-list">
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="It is not 5 o&#x27;clock." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">1.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="It is not 5 o&#x27;clock.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">1.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i1"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i1"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">o&#x27;clock.</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">5</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">is</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">It</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="o&#x27;clock." title="Click to move or drag to place">o&#x27;clock.</span><span class="word-chip" draggable="true" data-word="5" title="Click to move or drag to place">5</span><span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span><span class="word-chip" draggable="true" data-word="is" title="Click to move or drag to place">is</span><span class="word-chip" draggable="true" data-word="It" title="Click to move or drag to place">It</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="It is not 5 o&#x27;clock." />
               </div>
             
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="Paula is not a teacher." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">2.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="Paula is not a teacher.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">2.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i2"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i2"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">teacher.</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">Paula</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">is</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">a</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="teacher." title="Click to move or drag to place">teacher.</span><span class="word-chip" draggable="true" data-word="Paula" title="Click to move or drag to place">Paula</span><span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span><span class="word-chip" draggable="true" data-word="is" title="Click to move or drag to place">is</span><span class="word-chip" draggable="true" data-word="a" title="Click to move or drag to place">a</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="Paula is not a teacher." />
               </div>
             
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="We are not from England." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">3.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="We are not from England.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">3.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i3"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i3"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">are</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">England.</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">We</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">from</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="are" title="Click to move or drag to place">are</span><span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span><span class="word-chip" draggable="true" data-word="England." title="Click to move or drag to place">England.</span><span class="word-chip" draggable="true" data-word="We" title="Click to move or drag to place">We</span><span class="word-chip" draggable="true" data-word="from" title="Click to move or drag to place">from</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="We are not from England." />
               </div>
             
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="Frank is not my father." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">4.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="Frank is not my father.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">4.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i4"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i4"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">is</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">Frank</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">my</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">father.</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="is" title="Click to move or drag to place">is</span><span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span><span class="word-chip" draggable="true" data-word="Frank" title="Click to move or drag to place">Frank</span><span class="word-chip" draggable="true" data-word="my" title="Click to move or drag to place">my</span><span class="word-chip" draggable="true" data-word="father." title="Click to move or drag to place">father.</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="Frank is not my father." />
               </div>
             
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="This is not my purse." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">5.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="This is not my purse.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">5.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i5"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i5"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">This</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">my</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">purse.</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">is</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="This" title="Click to move or drag to place">This</span><span class="word-chip" draggable="true" data-word="my" title="Click to move or drag to place">my</span><span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span><span class="word-chip" draggable="true" data-word="purse." title="Click to move or drag to place">purse.</span><span class="word-chip" draggable="true" data-word="is" title="Click to move or drag to place">is</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="This is not my purse." />
               </div>
             
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="This is not my phone." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">6.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="This is not my phone.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">6.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i6"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i6"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">my</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">This</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">phone.</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">is</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="my" title="Click to move or drag to place">my</span><span class="word-chip" draggable="true" data-word="This" title="Click to move or drag to place">This</span><span class="word-chip" draggable="true" data-word="phone." title="Click to move or drag to place">phone.</span><span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span><span class="word-chip" draggable="true" data-word="is" title="Click to move or drag to place">is</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="This is not my phone." />
               </div>
             
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="That is not a salon." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">7.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="That is not a salon.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">7.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i7"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i7"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">is</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">That</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">salon.</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">a</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="is" title="Click to move or drag to place">is</span><span class="word-chip" draggable="true" data-word="That" title="Click to move or drag to place">That</span><span class="word-chip" draggable="true" data-word="salon." title="Click to move or drag to place">salon.</span><span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span><span class="word-chip" draggable="true" data-word="a" title="Click to move or drag to place">a</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="That is not a salon." />
               </div>
             
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="They are not engineers." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">8.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="They are not engineers.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">8.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i8"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i8"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">They</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">are</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">engineers.</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span><span class="word-chip" draggable="true" data-word="They" title="Click to move or drag to place">They</span><span class="word-chip" draggable="true" data-word="are" title="Click to move or drag to place">are</span><span class="word-chip" draggable="true" data-word="engineers." title="Click to move or drag to place">engineers.</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="They are not engineers." />
               </div>
             
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="Kirsty is not 18 years old." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">9.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="Kirsty is not 18 years old.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">9.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i9"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i9"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">years</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">Kirsty</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">old.</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">18</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">is</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="years" title="Click to move or drag to place">years</span><span class="word-chip" draggable="true" data-word="Kirsty" title="Click to move or drag to place">Kirsty</span><span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span><span class="word-chip" draggable="true" data-word="old." title="Click to move or drag to place">old.</span><span class="word-chip" draggable="true" data-word="18" title="Click to move or drag to place">18</span><span class="word-chip" draggable="true" data-word="is" title="Click to move or drag to place">is</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="Kirsty is not 18 years old." />
               </div>
             
-              <div class="ghibli-ordering-container ghibli-char-card" data-correct="Kim is not a teacher." style="padding:20px; margin-bottom:16px; background:var(--ghibli-card-bg); border-radius:18px; border:2px solid var(--ghibli-border);">
-                <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
-                  <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;">
-                  <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">10.</span>
-                  <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                  <span style="font-weight:600; color:var(--ghibli-text-muted);">Click/drag words to build sentence:</span>
-                  
+              <div class="ghibli-ordering-container ghibli-char-card" data-correct="Kim is not a teacher.">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="44" height="44" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid #e5a93c;" loading="eager" decoding="async">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; min-width:24px;">10.</span>
+                    <button class="ghibli-audio-play-btn" data-audio="audio/15/15_1_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    <span style="font-weight:700; color:var(--ghibli-text-main); font-size:0.95rem;">Build the sentence:</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p8_ex1_i10"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p8_ex1_i10"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
+                    <button class="ghibli-order-reset-btn" title="Reset this sentence"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+                  </div>
                 </div>
-                <div class="word-pool" style="display:flex; flex-wrap:wrap; gap:8px; padding:12px; background:rgba(0,0,0,0.03); border-radius:14px; min-height:50px; align-items:center; margin-bottom:12px;">
-                  <span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">Kim</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">a</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">teacher.</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">is</span><span class="word-chip" draggable="true" style="background:#eef2ff; color:#3730a3; padding:8px 14px; border-radius:14px; font-weight:700; font-size:0.95rem; border:1.5px solid #c7d2fe; cursor:pointer; user-select:none; transition:all 0.2s;">not</span>
+
+                <div class="ordering-zone-wrap word-pool-wrap">
+                  <div class="ordering-zone-label">
+                    <i class="fa-solid fa-layer-group"></i> <span>Word Bank</span> <span class="zone-hint">(click or drag words)</span>
+                  </div>
+                  <div class="word-pool" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:58px; align-items:center; justify-content:flex-start;">
+                    <span class="word-chip" draggable="true" data-word="Kim" title="Click to move or drag to place">Kim</span><span class="word-chip" draggable="true" data-word="a" title="Click to move or drag to place">a</span><span class="word-chip" draggable="true" data-word="teacher." title="Click to move or drag to place">teacher.</span><span class="word-chip" draggable="true" data-word="is" title="Click to move or drag to place">is</span><span class="word-chip" draggable="true" data-word="not" title="Click to move or drag to place">not</span>
+                  </div>
                 </div>
-                <div class="ghibli-drop-slot" style="display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:rgba(255,255,255,0.9); border:2px dashed #cbd5e1; border-radius:14px; min-height:56px; align-items:center;">
+
+                <div class="ordering-zone-wrap drop-slot-wrap">
+                  <div class="ordering-zone-label drop-label">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Your Sentence</span> <span class="zone-hint">(drop words here in order)</span>
+                  </div>
+                  <div class="ghibli-drop-slot sentence-slot" style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px; padding:14px 16px; min-height:60px; align-items:center; justify-content:flex-start;">
+                    <div class="drop-placeholder"><i class="fa-regular fa-hand-pointer"></i> Drag words here or click chips above</div>
+                  </div>
                 </div>
                 <input type="hidden" class="order-input" data-correct="Kim is not a teacher." />
               </div>
@@ -311,14 +503,17 @@
         
                   <div class="ghibli-char-card example-card" style="border: 2px solid #2d5a27; background: rgba(45,90,39,0.06);">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
-                        <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 8px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase; margin-right:6px;">Example</span>
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+                        <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>
                         
-                        <span>They <input type="text" class="ghibli-input example-input" data-correct="are not" value="are not" readonly style="border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="are not" /> hairdressers.</span>
+                        
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        They <input type="text" class="ghibli-input ghibli-inline-input example-input" data-correct="are not" value="are not" readonly style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center; border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="are not" /> hairdressers.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -330,13 +525,18 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">1.</span>
                         
-                        <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>That <input type="text" class="ghibli-input" data-correct="is not" placeholder="Type answer..." /> a castle.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        That <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is not" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> a castle.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -349,14 +549,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">2.</span>
                         
-                        <span>They <input type="text" class="ghibli-input" data-correct="are not" placeholder="Type answer..." /> at school.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        They <input type="text" class="ghibli-input ghibli-inline-input" data-correct="are not" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> at school.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -369,14 +572,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">3.</span>
                         
-                        <span>He <input type="text" class="ghibli-input" data-correct="is not" placeholder="Type answer..." /> a grandfather.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        He <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is not" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> a grandfather.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -389,14 +595,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">4.</span>
                         
-                        <span>We <input type="text" class="ghibli-input" data-correct="are not" placeholder="Type answer..." /> engineers.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        We <input type="text" class="ghibli-input ghibli-inline-input" data-correct="are not" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> engineers.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -409,14 +618,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">5.</span>
                         
-                        <span>She <input type="text" class="ghibli-input" data-correct="is not" placeholder="Type answer..." /> 70 years old.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        She <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is not" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> 70 years old.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -429,14 +641,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
-                        <img src="images/flags/fr.svg" alt="french flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
-                        <span>You <input type="text" class="ghibli-input" data-correct="are not" placeholder="Type answer..." /> French.</span>
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">6.</span>
+                        <img src="images/flags/fr.svg" alt="french flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        You <input type="text" class="ghibli-input ghibli-inline-input" data-correct="are not" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> French.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -449,14 +664,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">7.</span>
                         
-                        <span>This <input type="text" class="ghibli-input" data-correct="is not" placeholder="Type answer..." /> my dog.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        This <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is not" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> my dog.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -469,14 +687,17 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
-                    <div class="ghibli-card-body">
-                      <div class="ghibli-prompt-text">
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">8.</span>
                         
-                        <span>I <input type="text" class="ghibli-input" data-correct="am not" placeholder="Type answer..." /> a doctor.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        I <input type="text" class="ghibli-input ghibli-inline-input" data-correct="am not" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> a doctor.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -488,13 +709,18 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">10.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body" style="flex:1; min-width:0;">
+                      <div class="ghibli-card-meta-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
                         
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.05rem; min-width: 20px;">9.</span>
                         
-                        <button class="ghibli-audio-play-btn" data-audio="audio/15/15_2_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>It <input type="text" class="ghibli-input" data-correct="is not" placeholder="Type answer..." /> 11 o&#x27;clock.</span>
+                      </div>
+                      <div class="ghibli-sentence-text" style="font-size:1.05rem; font-weight:600; color:var(--ghibli-text-main, #2b261f); line-height:2.2; margin-bottom:8px;">
+                        It <input type="text" class="ghibli-input ghibli-inline-input" data-correct="is not" placeholder="Type answer..." style="max-width:240px; min-width:130px; width:auto; display:inline-block; margin:0 4px; text-align:center;" /> 11 o&#x27;clock.
                       </div>
                       
     <div class="voice-recorder-controls">
@@ -522,7 +748,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_3_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -546,7 +772,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_3_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -570,7 +796,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_3_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -594,7 +820,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_3_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -633,13 +859,13 @@
         
                   <div class="ghibli-char-card example-card" style="border: 2px solid #2d5a27; background: rgba(45,90,39,0.06);">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_4__eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
                   <div class="ghibli-prompt-text">
-                    <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 8px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase; margin-right:6px;">Example</span>
+                    <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>
                     
                     <span>She is not a nurse.</span>
                   </div>
@@ -658,7 +884,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_4_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -682,7 +908,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_4_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -706,7 +932,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_4_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -730,7 +956,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_4_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -771,7 +997,7 @@
                     <div class="ghibli-card-body" style="width: 100%;">
                       <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
                         <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">1.</span>
-                        <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 8px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase; margin-right:6px;">Example</span>
+                        <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>
                         
                         <button class="ghibli-audio-play-btn" data-audio="audio/15/15_5__eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>Mia is 45 years old.</span>
@@ -790,7 +1016,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_5_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -814,7 +1040,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_5_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -838,7 +1064,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_5_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -862,7 +1088,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_5_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -886,7 +1112,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/15/15_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -923,12 +1149,12 @@
     <!-- Page Turning Navigation Bar Bottom -->
     <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:32px; padding-bottom:40px;">
       <span class="ghibli-btn ghibli-btn-secondary disabled"><i class="fa-solid fa-arrow-left"></i> Previous Page</span>
-      <a href="ghibli_page009.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 9) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p009.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 9) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -949,11 +1175,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v=1788155925"></script>
+  <script src="ghibli_page_engine.js?v=1788155925"></script>
 </body>
 </html>

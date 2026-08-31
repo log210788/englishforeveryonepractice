@@ -1,0 +1,247 @@
+[
+  {
+    "row": 1,
+    "col": 1,
+    "cell_idx": 1,
+    "item_name": "coins",
+    "description": "Two small stacks of gold and silver coins, with one loose copper coin lying flat."
+  },
+  {
+    "row": 1,
+    "col": 2,
+    "cell_idx": 2,
+    "item_name": "dictionary",
+    "description": "A thick, red-covered book titled 'THE DICTIONARY' with gold accents."
+  },
+  {
+    "row": 1,
+    "col": 3,
+    "cell_idx": 3,
+    "item_name": "pencil",
+    "description": "A classic yellow wooden pencil, sharpened, with a pink eraser at the end."
+  },
+  {
+    "row": 1,
+    "col": 4,
+    "cell_idx": 4,
+    "item_name": "passport",
+    "description": "A green passport booklet with a gold globe emblem on the front cover."
+  },
+  {
+    "row": 1,
+    "col": 5,
+    "cell_idx": 5,
+    "item_name": "camera",
+    "description": "A vintage-style black and silver SLR camera with a large front lens, labeled 'Camera'."
+  },
+  {
+    "row": 1,
+    "col": 6,
+    "cell_idx": 6,
+    "item_name": "clock",
+    "description": "A simple round wall clock with a white face, black numbers, and hands showing roughly 1:50."
+  },
+  {
+    "row": 1,
+    "col": 7,
+    "cell_idx": 7,
+    "item_name": "coffee cup",
+    "description": "A beige ceramic mug filled with dark coffee."
+  },
+  {
+    "row": 2,
+    "col": 1,
+    "cell_idx": 8,
+    "item_name": "ID card",
+    "description": "A plastic identification badge in a holder with a portrait illustration of a person."
+  },
+  {
+    "row": 2,
+    "col": 2,
+    "cell_idx": 9,
+    "item_name": "earphones",
+    "description": "A pair of white, wired earbud headphones neatly coiled up."
+  },
+  {
+    "row": 2,
+    "col": 3,
+    "cell_idx": 10,
+    "item_name": "bottle of water",
+    "description": "A clear glass bottle filled with water, sealed with a brown cork."
+  },
+  {
+    "row": 2,
+    "col": 4,
+    "cell_idx": 11,
+    "item_name": "map",
+    "description": "An unfolded paper map showing green mountainous terrain and routes."
+  },
+  {
+    "row": 2,
+    "col": 5,
+    "cell_idx": 12,
+    "item_name": "apple",
+    "description": "A shiny, red apple with a small brown stem and a green leaf."
+  },
+  {
+    "row": 2,
+    "col": 6,
+    "cell_idx": 13,
+    "item_name": "box",
+    "description": "A plain, closed brown cardboard shipping box."
+  },
+  {
+    "row": 2,
+    "col": 7,
+    "cell_idx": 14,
+    "item_name": "sunglasses",
+    "description": "A pair of sunglasses with a tortoiseshell patterned frame and dark green lenses."
+  },
+  {
+    "row": 3,
+    "col": 1,
+    "cell_idx": 15,
+    "item_name": "notepad",
+    "description": "An open spiral-bound sketchbook or notepad containing various small pencil drawings."
+  },
+  {
+    "row": 3,
+    "col": 2,
+    "cell_idx": 16,
+    "item_name": "tablet",
+    "description": "A tablet device with a white bezel, displaying a home screen with colorful app icons."
+  },
+  {
+    "row": 3,
+    "col": 3,
+    "cell_idx": 17,
+    "item_name": "toothbrush",
+    "description": "A manual toothbrush with a blue and white handle and blue bristles."
+  },
+  {
+    "row": 3,
+    "col": 4,
+    "cell_idx": 18,
+    "item_name": "sandwich",
+    "description": "A sliced sandwich on whole grain bread, showing lettuce, tomato, cheese, and ham, tied with twine."
+  },
+  {
+    "row": 3,
+    "col": 5,
+    "cell_idx": 19,
+    "item_name": "letter",
+    "description": "An envelope made of cream paper, sealed on the back with a round wax stamp."
+  },
+  {
+    "row": 3,
+    "col": 6,
+    "cell_idx": 20,
+    "item_name": "camera",
+    "description": "A compact grey-and-black camera with a neck strap attached to both sides."
+  },
+  {
+    "row": 3,
+    "col": 7,
+    "cell_idx": 21,
+    "item_name": "notebook",
+    "description": "A brown leather-bound journal or notebook closed with a button strap."
+  },
+  {
+    "row": 4,
+    "col": 1,
+    "cell_idx": 22,
+    "item_name": "mirror",
+    "description": "A wooden handheld mirror with a round, reflective glass face."
+  },
+  {
+    "row": 4,
+    "col": 2,
+    "cell_idx": 23,
+    "item_name": "sunglasses",
+    "description": "A second pair of sunglasses with a brown tortoiseshell frame and dark lenses."
+  },
+  {
+    "row": 4,
+    "col": 3,
+    "cell_idx": 24,
+    "item_name": "keys",
+    "description": "A metal keyring holding three keys and a grey Totoro-style character keychain."
+  },
+  {
+    "row": 4,
+    "col": 4,
+    "cell_idx": 25,
+    "item_name": "newspaper",
+    "description": "A folded newspaper with the headline 'NEWSPAPER' and mock-up articles and images."
+  },
+  {
+    "row": 4,
+    "col": 5,
+    "cell_idx": 26,
+    "item_name": "hairbrush",
+    "description": "A flat wooden hairbrush with numerous thin, black bristles."
+  },
+  {
+    "row": 4,
+    "col": 6,
+    "cell_idx": 27,
+    "item_name": "necklace",
+    "description": "A fine-chain necklace featuring a hexagonal, light-blue crystal pendant."
+  },
+  {
+    "row": 4,
+    "col": 7,
+    "cell_idx": 28,
+    "item_name": "wallet",
+    "description": "A beige, envelope-style leather wallet or pouch fastened with a snap."
+  },
+  {
+    "row": 5,
+    "col": 1,
+    "cell_idx": 29,
+    "item_name": "necklace",
+    "description": "A dark cord necklace holding a pointed blue crystal pendant."
+  },
+  {
+    "row": 5,
+    "col": 2,
+    "cell_idx": 30,
+    "item_name": "book",
+    "description": "An open children's book displaying colorful illustrations, titled 'Ghibli Stories'."
+  },
+  {
+    "row": 5,
+    "col": 3,
+    "cell_idx": 31,
+    "item_name": "glasses",
+    "description": "A pair of simple black-rimmed reading glasses."
+  },
+  {
+    "row": 5,
+    "col": 4,
+    "cell_idx": 32,
+    "item_name": "laptop",
+    "description": "A slim, silver open laptop with a blank, light-blue screen."
+  },
+  {
+    "row": 5,
+    "col": 5,
+    "cell_idx": 33,
+    "item_name": "umbrella",
+    "description": "A folded red umbrella with a curved wooden handle."
+  },
+  {
+    "row": 5,
+    "col": 6,
+    "cell_idx": 34,
+    "item_name": "magazine",
+    "description": "A magazine or booklet featuring 'Howl's Castle' with an illustration of the moving castle on a green hill."
+  },
+  {
+    "row": 5,
+    "col": 7,
+    "cell_idx": 35,
+    "item_name": "pen",
+    "description": "A blue and silver retractable ballpoint pen."
+  }
+]

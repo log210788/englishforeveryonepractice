@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit 49: Review & Practice Modules • Page 157 | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit Answers • Page 157: Review & Practice Modules | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788155926">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -25,12 +36,13 @@
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit 49: Review & Practice Modules • Page 157</span>
+          <span class="ghibli-subtitle">🌿 Answers • Review & Practice Modules • Page 157</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        <a href="index.html" class="ghibli-btn ghibli-btn-gold"><i class="fa-solid fa-house"></i> Home Hub</a>
+        <a href="ghibli_reader.html?page=157" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -45,15 +57,15 @@
 
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
-      <a href="ghibli_page156.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 156)</a>
-      <span class="page-turn-badge">📖 Page 157 of 169</span>
-      <a href="ghibli_page158.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 158) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p156.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 156)</a>
+      <span class="page-turn-badge">📖 Page 157 of 168</span>
+      <a href="ghibli_p158.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 158) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
     <div class="ghibli-hero-card">
       <div class="ghibli-hero-main">
-        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 49</span>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Answers • Review & Practice Modules</span>
         <h2 class="ghibli-hero-title">Review &amp; Practice Modules</h2>
         <p class="ghibli-hero-desc">Comprehensive review modules, grammar reference summaries, and final practice exercises across all Level 1 units.</p>
       </div>
@@ -88,7 +100,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -112,7 +124,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -136,7 +148,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -160,7 +172,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -184,7 +196,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -207,14 +219,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">6.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>Here is its bed.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -229,7 +244,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -253,7 +268,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -277,7 +292,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -301,7 +316,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -325,7 +340,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -349,7 +364,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_12.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -373,7 +388,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_13.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -397,7 +412,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_1_14.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -436,7 +451,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -460,7 +475,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -484,7 +499,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -508,7 +523,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -532,7 +547,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -556,7 +571,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -580,7 +595,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -604,7 +619,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -628,7 +643,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -652,7 +667,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -676,7 +691,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_2_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -715,7 +730,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_3_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -738,14 +753,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_3_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/5/5_3_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>This is its ball.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -760,7 +778,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_3_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -784,7 +802,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_3_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -808,7 +826,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_3_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -847,7 +865,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_4_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -871,7 +889,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/5/5_4_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -910,8 +928,8 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -934,8 +952,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -958,8 +976,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -982,8 +1000,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1006,8 +1024,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1030,8 +1048,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1054,8 +1072,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1078,8 +1096,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1102,8 +1120,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1126,8 +1144,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1150,8 +1168,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1174,8 +1192,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_44_5_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/5/5_5_a.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1213,7 +1231,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1237,7 +1255,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1281,14 +1299,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/6/6_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/6/6_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>Pete and Aziz&#x27;s snake</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -1318,8 +1339,8 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/6/6_2_uk.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1342,8 +1363,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/6/6_2_uk.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1366,8 +1387,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/6/6_2_uk.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1390,8 +1411,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/6/6_2_uk.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1414,8 +1435,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/6/6_2_uk.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1438,8 +1459,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/6/6_2_uk.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1462,8 +1483,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/6/6_2_uk.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -1505,7 +1526,7 @@
                         <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">1.</span>
                         
                         
-                        <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <button class="ghibli-audio-play-btn" data-audio="audio/6/6_3_1.wav" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>True</span>
                       </div>
                       <div class="ghibli-input-wrap">
@@ -1526,7 +1547,7 @@
                         <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
                         
                         
-                        <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <button class="ghibli-audio-play-btn" data-audio="audio/6/6_3_2.wav" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>False</span>
                       </div>
                       <div class="ghibli-input-wrap">
@@ -1547,7 +1568,7 @@
                         <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">3.</span>
                         
                         
-                        <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <button class="ghibli-audio-play-btn" data-audio="audio/6/6_3_3.wav" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>False</span>
                       </div>
                       <div class="ghibli-input-wrap">
@@ -1568,7 +1589,7 @@
                         <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
                         
                         
-                        <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <button class="ghibli-audio-play-btn" data-audio="audio/6/6_3_4.wav" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>True</span>
                       </div>
                       <div class="ghibli-input-wrap">
@@ -1589,7 +1610,7 @@
                         <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
                         
                         
-                        <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_48_6_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <button class="ghibli-audio-play-btn" data-audio="audio/6/6_3_5.wav" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>False</span>
                       </div>
                       <div class="ghibli-input-wrap">
@@ -1621,7 +1642,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_4_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1644,14 +1665,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/6/6_4_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/6/6_4_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>These are Pete and Omar&#x27;s cats.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -1666,7 +1690,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_4_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1690,7 +1714,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_4_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1714,7 +1738,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_4_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1753,7 +1777,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_5_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1777,7 +1801,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_5_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1801,7 +1825,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_5_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1825,7 +1849,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/6/6_5_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -2433,272 +2457,224 @@
     </section>
     
 
-    <section class="ghibli-section">
+    <section class="ghibli-section crossout-exercise-section">
       <div class="ghibli-section-header">
         <div class="ghibli-ex-num">8.1</div>
         <div>
           <h3 class="ghibli-ex-instruction">Listen to the audio and repeat the sentences.</h3>
-          <p class="ghibli-ex-subtext">Click play to listen or use Rec to practice speaking out loud!</p>
         </div>
       </div>
-      
       <div class="ghibli-char-grid">
         
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    </div>
-                    <div class="ghibli-card-body">
-                      
-                      <div class="ghibli-prompt-text">
-                        
-                        <span>These are my mom&#x27;s glasses.</span>
-                      </div>
-                    
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">1.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i1"></span> These are my mom&#x27;s glasses.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i1"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i1"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>Those are Samantha&#x27;s keys.</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">2.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i2"></span> Those are Samantha&#x27;s keys.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i2"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i2"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    </div>
-                    <div class="ghibli-card-body">
-                      
-                      <div class="ghibli-prompt-text">
-                        
-                        <span>This is Tom&#x27;s umbrella.</span>
-                      </div>
-                    
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">3.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i3"></span> This is Tom&#x27;s umbrella.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i3"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i3"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    </div>
-                    <div class="ghibli-card-body">
-                      
-                      <div class="ghibli-prompt-text">
-                        
-                        <span>This is my dog.</span>
-                      </div>
-                    
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">4.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i4"></span> This is my dog.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i4"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i4"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>Those are Pete&#x27;s books.</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">5.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i5"></span> Those are Pete&#x27;s books.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i5"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i5"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    </div>
-                    <div class="ghibli-card-body">
-                      
-                      <div class="ghibli-prompt-text">
-                        
-                        <span>That is your newspaper.</span>
-                      </div>
-                    
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">6.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i6"></span> That is your newspaper.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i6"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i6"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    </div>
-                    <div class="ghibli-card-body">
-                      
-                      <div class="ghibli-prompt-text">
-                        
-                        <span>These are my tickets.</span>
-                      </div>
-                    
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">7.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i7"></span> These are my tickets.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i7"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i7"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">8.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>These are Marge&#x27;s earrings.</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">8.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i8"></span> These are Marge&#x27;s earrings.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i8"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i8"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    </div>
-                    <div class="ghibli-card-body">
-                      
-                      <div class="ghibli-prompt-text">
-                        
-                        <span>These are his daughters.</span>
-                      </div>
-                    
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">9.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i9"></span> These are his daughters.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i9"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i9"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    </div>
-                    <div class="ghibli-card-body">
-                      
-                      <div class="ghibli-prompt-text">
-                        
-                        <span>That is my teacher.</span>
-                      </div>
-                    
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">10.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i10"></span> That is my teacher.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i10"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i10"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                    </div>
-                    <div class="ghibli-card-body">
-                      
-                      <div class="ghibli-prompt-text">
-                        
-                        <span>That is your watch.</span>
-                      </div>
-                    
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
-                      </div>
-                      
+            </div>
+          </div>
+        
+          <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
+            <div class="ghibli-avatar-wrap">
+              <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <button class="ghibli-audio-play-btn" data-audio="audio/8/8_1_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="ghibli-card-body">
+              <div class="ghibli-prompt-text ghibli-crossout-sentence">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem; margin-right:4px;">11.</span>
+                <span class="ghibli-crossout-group" data-item-id="p157_ex12_i11"></span> That is your watch.
+              </div>
+              
     <div class="voice-recorder-controls">
       <button class="voice-btn rec-btn" data-id="p157_ex12_i11"><i class="fa-solid fa-microphone"></i> Rec</button>
       <button class="voice-btn play-rec-btn hidden" data-id="p157_ex12_i11"><i class="fa-solid fa-play"></i> My Voice</button>
     </div>
     
-                    </div>
-                  </div>
-                
+            </div>
+          </div>
+        
       </div>
     </section>
     
@@ -2716,8 +2692,8 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_47_8_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_2_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -2740,8 +2716,8 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
-                      <button class="ghibli-audio-play-btn" data-audio="assets/audio/track_47_8_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/8/8_2_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
                       
@@ -2776,13 +2752,13 @@
 
     <!-- Page Turning Navigation Bar Bottom -->
     <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:32px; padding-bottom:40px;">
-      <a href="ghibli_page156.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 156)</a>
-      <a href="ghibli_page158.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 158) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p156.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 156)</a>
+      <a href="ghibli_p158.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 158) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -2803,11 +2779,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v=1788155926"></script>
+  <script src="ghibli_page_engine.js?v=1788155926"></script>
 </body>
 </html>

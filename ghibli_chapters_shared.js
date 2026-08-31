@@ -42,37 +42,152 @@
   /* ----------------------------------------------------------------
      Audio Engine
   ---------------------------------------------------------------- */
+  function getAudioCandidates(src) {
+    if (!src) return [];
+    const list = [];
+    const cleanSrc = src.trim().split('?')[0].split('#')[0];
+    if (!cleanSrc) return [];
+
+    list.push(cleanSrc);
+
+    const m1 = cleanSrc.match(/^audio\/(\d+)\/(.+)$/i);
+    if (m1) {
+      const unitNum = parseInt(m1[1], 10);
+      const filename = m1[2];
+      const unitPadded = String(unitNum).padStart(2, '0');
+      list.push(`assets/audio/track_${unitPadded}_${filename}`);
+      list.push(`assets/audio/track_${unitNum}_${filename}`);
+      list.push(`assets/audio/${filename}`);
+
+      const mUnitPrefix = filename.match(/^(\d+)_(.+)$/);
+      if (mUnitPrefix) {
+        const rest = mUnitPrefix[2];
+        list.push(`assets/audio/track_${unitPadded}_${rest}`);
+        list.push(`assets/audio/track_${unitNum}_${rest}`);
+      }
+
+      const baseName = filename.replace(/\.mp3$/i, '');
+      list.push(`audio/${unitNum}/${baseName}_a_usuk.mp3`);
+      list.push(`audio/${unitNum}/${baseName}_usuk.mp3`);
+      list.push(`audio/${unitNum}/${baseName}_uk.mp3`);
+      list.push(`audio/${unitNum}/${baseName}_us.mp3`);
+      list.push(`audio/${unitNum}/${baseName}_a.mp3`);
+    }
+
+    const m2 = cleanSrc.match(/^assets\/audio\/track_(\d+)_(.+)\.mp3$/i);
+    if (m2) {
+      const unitNum = parseInt(m2[1], 10);
+      const rest = m2[2];
+      list.push(`audio/${unitNum}/${unitNum}_${rest}.mp3`);
+      list.push(`audio/${unitNum}/${rest}.mp3`);
+    }
+
+    return Array.from(new Set(list));
+  }
+
+  function fallbackSpeechSynthesis(text, onEndedCallback) {
+    if (!window.speechSynthesis || typeof SpeechSynthesisUtterance === 'undefined') {
+      if (onEndedCallback) onEndedCallback();
+      return;
+    }
+    const cleanText = String(text || '').replace(/<[^>]*>/g, ' ').replace(/[{}\[\]\(\)]/g, ' ').replace(/\s+/g, ' ').trim();
+    if (!cleanText) {
+      if (onEndedCallback) onEndedCallback();
+      return;
+    }
+    try {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(cleanText);
+      u.lang = 'en-US';
+      u.rate = 0.92;
+      u.onend = () => { if (onEndedCallback) onEndedCallback(); };
+      u.onerror = () => { if (onEndedCallback) onEndedCallback(); };
+      window.speechSynthesis.speak(u);
+    } catch (e) {
+      if (onEndedCallback) onEndedCallback();
+    }
+  }
+
   function playAudioTrack(src, fallbackText = null, onEndedCallback = null) {
     if (activeAudio) { activeAudio.pause(); activeAudio.currentTime = 0; activeAudio = null; }
     if (window.speechSynthesis && window.speechSynthesis.speaking) {
       window.speechSynthesis.cancel();
     }
-    if (!src) {
+
+    const done = () => {
+      activeAudio = null;
+      if (window.GhibliAudio && typeof window.GhibliAudio.unduckBGM === 'function') {
+        window.GhibliAudio.unduckBGM();
+      }
       if (onEndedCallback) onEndedCallback();
-      return;
+    };
+
+    if (window.GhibliAudio && typeof window.GhibliAudio.duckBGM === 'function') {
+      window.GhibliAudio.duckBGM();
     }
-    const audio = new Audio(src);
-    activeAudio = audio;
-    audio.play().catch(err => {
-      console.warn('Audio error:', src, err);
-      if (onEndedCallback) onEndedCallback();
-    });
-    if (onEndedCallback) audio.addEventListener('ended', onEndedCallback, { once: true });
+
+    const candidates = getAudioCandidates(src);
+    let candidateIndex = 0;
+
+    const tryNext = () => {
+      if (candidateIndex >= candidates.length) {
+        if (fallbackText) {
+          fallbackSpeechSynthesis(fallbackText, done);
+        } else {
+          done();
+        }
+        return;
+      }
+
+      const currentSrc = candidates[candidateIndex++];
+      const audio = new Audio();
+      audio.preload = 'auto';
+      activeAudio = audio;
+
+      let hasHandledError = false;
+      const onError = () => {
+        if (hasHandledError) return;
+        hasHandledError = true;
+        tryNext();
+      };
+
+      audio.onended = done;
+      audio.onerror = onError;
+      audio.src = currentSrc;
+
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          onError();
+        });
+      }
+    };
+
+    if (candidates.length > 0) {
+      tryNext();
+    } else if (fallbackText) {
+      fallbackSpeechSynthesis(fallbackText, done);
+    } else {
+      done();
+    }
   }
 
   function setupAudioPlayers() {
-    document.querySelectorAll('.ghibli-audio-play-btn').forEach(btn => {
+    document.querySelectorAll('.ghibli-audio-play-btn, .ghibli-audio-btn, [data-audio]').forEach(btn => {
       btn.addEventListener('click', e => {
         e.stopPropagation();
-        const src = btn.dataset.audio;
-        if (!src) return;
+        if (btn.classList.contains('rec-btn') || btn.classList.contains('play-rec-btn')) return;
+        const src = btn.dataset.audio || btn.getAttribute('data-audio');
+        const fallbackText = btn.getAttribute('data-fallback-text') || btn.getAttribute('data-text') || btn.closest('.ghibli-char-card, .exercise-card, section')?.textContent;
         const icon = btn.querySelector('i');
-        if (icon) icon.className = 'fa-solid fa-spinner fa-spin';
-        playAudioTrack(src, null, () => {
-          if (icon) icon.className = 'fa-solid fa-play';
+        const originalClass = icon ? icon.className : '';
+        if (icon) icon.className = 'fa-solid fa-volume-high fa-beat';
+        playAudioTrack(src, fallbackText, () => {
+          if (icon && originalClass) icon.className = originalClass;
         });
-        if (icon) setTimeout(() => { if (icon.classList.contains('fa-spin')) icon.className = 'fa-solid fa-play'; }, 8000);
-        speakMascot("Listen carefully and repeat out loud! 🎧");
+        if (typeof speakMascot === 'function') {
+          speakMascot("Listen carefully and repeat out loud! 🎧");
+        }
       });
     });
   }
@@ -454,6 +569,128 @@
   }
 
   /* ----------------------------------------------------------------
+     Live Sentence Mirroring System (Exercise 5.1)
+  ---------------------------------------------------------------- */
+  function isEx51Card(card, input) {
+    if (!card) return false;
+    const sec = card.closest('.ghibli-section, .ghibli-exercise-card, section');
+    if (sec) {
+      const exNum = sec.querySelector('.ghibli-ex-num, .exercise-num');
+      if (exNum && exNum.textContent.trim() === '5.1') return true;
+    }
+    if (input) {
+      if (input.id && input.id.startsWith('ex51')) return true;
+      if (input.className && input.className.includes('ex51')) return true;
+    }
+    return false;
+  }
+
+  function setupSentenceMirroring() {
+    const cards = document.querySelectorAll('.ghibli-char-card, .fill-blank-item, .exercise-item');
+    cards.forEach(card => {
+      if (card.dataset.mirroringSetup) return;
+
+      const input = card.querySelector('input.ghibli-input');
+      if (!input || input.classList.contains('ghibli-inline-input')) return;
+
+      // Only apply mirroring to Exercise 5.1 cards
+      if (!isEx51Card(card, input)) return;
+
+      const promptWrap = card.querySelector('.ghibli-prompt-text, .ghibli-sentence-text, .item-text');
+      if (!promptWrap) return;
+
+      const targetSpan = promptWrap.querySelector('span:not(.ghibli-eg-badge):not(.ghibli-example-badge):not(.item-index)') || promptWrap;
+      const rawText = targetSpan.textContent.trim();
+
+      const hasBlank = /\[blank\]/i.test(rawText);
+      const hasUnderscores = /_{2,}/.test(rawText);
+
+      if (hasBlank || hasUnderscores) {
+        card.dataset.mirroringSetup = 'true';
+        card.dataset.origSentence = rawText;
+
+        const isExample = input.hasAttribute('readonly') || input.classList.contains('correct') || input.classList.contains('example-input') || card.classList.contains('example-card');
+        const initialVal = input.value.trim();
+
+        let formattedHtml = rawText;
+        formattedHtml = formattedHtml.replace(/\(([a-zA-Z\s]+)\)/g, '<span class="ghibli-clue-hint">($1)</span>');
+
+        if (hasBlank) {
+          formattedHtml = formattedHtml.replace(/\[blank\]/gi, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+        } else if (hasUnderscores) {
+          formattedHtml = formattedHtml.replace(/_{2,}/g, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+        }
+
+        targetSpan.innerHTML = formattedHtml;
+
+        const blankSpan = targetSpan.querySelector('.ghibli-mirrored-blank');
+        if (blankSpan && isExample) {
+          blankSpan.classList.add('example-blank');
+          if (initialVal) {
+            blankSpan.textContent = 'goes';
+            blankSpan.classList.remove('placeholder');
+            blankSpan.classList.add('has-value', 'correct');
+          }
+        }
+      }
+    });
+
+    document.addEventListener('input', e => {
+      const input = e.target.closest('input.ghibli-input');
+      if (!input || input.classList.contains('ghibli-inline-input')) return;
+
+      const card = input.closest('.ghibli-char-card, .fill-blank-item, .exercise-item');
+      if (!card || !isEx51Card(card, input)) return;
+
+      const promptWrap = card.querySelector('.ghibli-prompt-text, .ghibli-sentence-text, .item-text');
+      if (!promptWrap) return;
+
+      const targetSpan = promptWrap.querySelector('span:not(.ghibli-eg-badge):not(.ghibli-example-badge):not(.item-index)') || promptWrap;
+      const blankSpan = targetSpan.querySelector('.ghibli-mirrored-blank');
+      if (blankSpan && blankSpan.classList.contains('example-blank')) return;
+
+      const val = input.value;
+      const origSentence = card.dataset.origSentence || '';
+
+      if (!val || !val.trim()) {
+        if (origSentence) {
+          let resetHtml = origSentence.replace(/\(([a-zA-Z\s]+)\)/g, '<span class="ghibli-clue-hint">($1)</span>');
+          if (/\[blank\]/i.test(resetHtml)) {
+            resetHtml = resetHtml.replace(/\[blank\]/gi, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+          } else {
+            resetHtml = resetHtml.replace(/_{2,}/g, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+          }
+          targetSpan.innerHTML = resetHtml;
+        }
+      } else {
+        const trimmedVal = val.trim();
+        const promptPrefix = origSentence.split(/_{2,}|\[blank\]/i)[0].trim();
+
+        if (promptPrefix && trimmedVal.toLowerCase().startsWith(promptPrefix.toLowerCase() + ' ') && trimmedVal.length > promptPrefix.length + 3) {
+          targetSpan.innerHTML = `<span class="ghibli-mirrored-blank has-value">${val}</span>`;
+        } else {
+          if (!targetSpan.querySelector('.ghibli-mirrored-blank')) {
+            let baseHtml = origSentence.replace(/\(([a-zA-Z\s]+)\)/g, '<span class="ghibli-clue-hint">($1)</span>');
+            if (/\[blank\]/i.test(baseHtml)) {
+              baseHtml = baseHtml.replace(/\[blank\]/gi, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+            } else {
+              baseHtml = baseHtml.replace(/_{2,}/g, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+            }
+            targetSpan.innerHTML = baseHtml;
+          }
+          const currentBlank = targetSpan.querySelector('.ghibli-mirrored-blank');
+          if (currentBlank) {
+            currentBlank.textContent = val;
+            currentBlank.className = 'ghibli-mirrored-blank has-value';
+          }
+          const currentClue = targetSpan.querySelector('.ghibli-clue-hint');
+          if (currentClue) currentClue.style.opacity = '0.35';
+        }
+      }
+    });
+  }
+
+  /* ----------------------------------------------------------------
      Check Answers Helper (call from each chapter's script)
   ---------------------------------------------------------------- */
   window.GhibliChapterShared = {
@@ -466,8 +703,37 @@
         if (!input) return;
         const user = input.value.trim().toLowerCase().replace(/['']/g,"'").replace(/\s+/g,' ');
         const exp = expected.toLowerCase().replace(/['']/g,"'").replace(/\s+/g,' ');
-        if (user === exp) { input.classList.add('correct'); input.classList.remove('incorrect'); correct++; }
-        else if (user !== '') { input.classList.add('incorrect'); input.classList.remove('correct'); }
+        const userClean = user.replace(/\.$/, '');
+        const expClean = exp.replace(/\.$/, '');
+        
+        let isMatch = (user === exp) || (userClean === expClean);
+        if (!isMatch) {
+          const wordsExp = expClean.split(' ');
+          const wordsUser = userClean.split(' ');
+          if (wordsUser.length === 1 && wordsExp.includes(wordsUser[0])) {
+            isMatch = true;
+          }
+        }
+
+        const card = input.closest('.ghibli-char-card, .fill-blank-item, .exercise-item');
+        const blank = card ? card.querySelector('.ghibli-mirrored-blank') : null;
+
+        if (isMatch) {
+          input.classList.add('correct');
+          input.classList.remove('incorrect');
+          if (blank && !blank.classList.contains('example-blank')) {
+            blank.classList.add('correct');
+            blank.classList.remove('incorrect');
+          }
+          correct++;
+        } else if (user !== '') {
+          input.classList.add('incorrect');
+          input.classList.remove('correct');
+          if (blank && !blank.classList.contains('example-blank')) {
+            blank.classList.add('incorrect');
+            blank.classList.remove('correct');
+          }
+        }
       });
       const scoreText = document.getElementById('ghibliScoreText');
       if (scoreText) scoreText.textContent = `${correct} / ${totalQs}`;
@@ -487,7 +753,25 @@
     },
     resetPage: function(inputSelectors, total) {
       inputSelectors.forEach(sel => {
-        document.querySelectorAll(sel).forEach(i => { i.value = ''; i.classList.remove('correct','incorrect'); });
+        document.querySelectorAll(sel).forEach(i => {
+          i.value = '';
+          i.classList.remove('correct','incorrect');
+          const card = i.closest('.ghibli-char-card, .fill-blank-item, .exercise-item');
+          if (card) {
+            const promptWrap = card.querySelector('.ghibli-prompt-text, .ghibli-sentence-text, .item-text');
+            const targetSpan = promptWrap ? (promptWrap.querySelector('span:not(.ghibli-eg-badge):not(.ghibli-example-badge):not(.item-index)') || promptWrap) : null;
+            const origSentence = card.dataset.origSentence;
+            if (targetSpan && origSentence) {
+              let resetHtml = origSentence.replace(/\(([a-zA-Z\s]+)\)/g, '<span class="ghibli-clue-hint">($1)</span>');
+              if (/\[blank\]/i.test(resetHtml)) {
+                resetHtml = resetHtml.replace(/\[blank\]/gi, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+              } else {
+                resetHtml = resetHtml.replace(/_{2,}/g, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+              }
+              targetSpan.innerHTML = resetHtml;
+            }
+          }
+        });
       });
       const scoreText = document.getElementById('ghibliScoreText');
       if (scoreText) scoreText.textContent = `0 / ${total}`;
@@ -561,6 +845,8 @@
     setupMascot();
     setupAmbientSoundscape();
     setupChartInteractions();
+    setupSentenceMirroring();
   });
 
 })();
+

@@ -1,0 +1,34 @@
+{
+  "p24": [
+    {"num": "1.", "label": "Sample", "correct": "wallet", "audio": "audio/7/7_1_eg.mp3", "img": "images/everyDayThings/wallet.png", "is_example": true, "rec_id": "p24_ex1_i1"},
+    {"num": "2.", "label": "Picture 1", "correct": "notepad", "audio": "audio/7/7_1_1.mp3", "img": "images/everyDayThings/notepad.png", "is_example": false, "rec_id": "p24_ex1_i2"},
+    {"num": "3.", "label": "Picture 2", "correct": "sunglasses", "audio": "audio/7/7_1_2.mp3", "img": "images/everyDayThings/sunglasses.png", "is_example": false, "rec_id": "p24_ex1_i3"},
+    {"num": "4.", "label": "Picture 3", "correct": "keys", "audio": "audio/7/7_1_3.mp3", "img": "images/everyDayThings/keys.png", "is_example": false, "rec_id": "p24_ex1_i4"},
+    {"num": "5.", "label": "Picture 7", "correct": "ID card", "audio": "audio/7/7_1_7.mp3", "img": "images/everyDayThings/id_card.png", "is_example": false, "rec_id": "p24_ex1_i5"},
+    {"num": "6.", "label": "Picture 8", "correct": "letter", "audio": "audio/7/7_1_8.mp3", "img": "images/everyDayThings/letter.png", "is_example": false, "rec_id": "p24_ex1_i6"},
+    {"num": "7.", "label": "Picture 9", "correct": "toothbrush", "audio": "audio/7/7_1_9.mp3", "img": "images/everyDayThings/toothbrush.png", "is_example": false, "rec_id": "p24_ex1_i7"},
+    {"num": "8.", "label": "Picture 10", "correct": "hairbrush", "audio": "audio/7/7_1_10.mp3", "img": "images/everyDayThings/hairbrush.png", "is_example": false, "rec_id": "p24_ex1_i8"},
+    {"num": "9.", "label": "Picture 14", "correct": "pencil", "audio": "audio/7/7_1_14.mp3", "img": "images/everyDayThings/pencil.png", "is_example": false, "rec_id": "p24_ex1_i9"},
+    {"num": "10.", "label": "Picture 15", "correct": "dictionary", "audio": "audio/7/7_1_15.mp3", "img": "images/everyDayThings/dictionary.png", "is_example": false, "rec_id": "p24_ex1_i10"},
+    {"num": "11.", "label": "Picture 16", "correct": "apple", "audio": "audio/7/7_1_16.mp3", "img": "images/everyDayThings/apple.png", "is_example": false, "rec_id": "p24_ex1_i11"},
+    {"num": "12.", "label": "Picture 17", "correct": "book", "audio": "audio/7/7_1_17.mp3", "img": "images/everyDayThings/book.png", "is_example": false, "rec_id": "p24_ex1_i12"},
+    {"num": "13.", "label": "Picture 21", "correct": "passport", "audio": "audio/7/7_1_21.mp3", "img": "images/everyDayThings/passport.png", "is_example": false, "rec_id": "p24_ex1_i13"},
+    {"num": "14.", "label": "Picture 22", "correct": "magazine", "audio": "audio/7/7_1_22.mp3", "img": "images/everyDayThings/magazine.png", "is_example": false, "rec_id": "p24_ex1_i14"},
+    {"num": "15.", "label": "Picture 23", "correct": "camera", "audio": "audio/7/7_1_23.mp3", "img": "images/everyDayThings/camera.png", "is_example": false, "rec_id": "p24_ex1_i15"},
+    {"num": "16.", "label": "Picture 24", "correct": "glasses", "audio": "audio/7/7_1_24.mp3", "img": "images/everyDayThings/glasses.png", "is_example": false, "rec_id": "p24_ex1_i16"}
+  ],
+  "p25": [
+    {"num": "1.", "label": "4", "correct": "pen", "audio": "audio/7/7_1_4.mp3", "img": "images/everyDayThings/pen.png", "rec_id": "p25_ex1_i1"},
+    {"num": "2.", "label": "5", "correct": "necklace", "audio": "audio/7/7_1_5.mp3", "img": "images/everyDayThings/necklace.png", "rec_id": "p25_ex1_i2"},
+    {"num": "3.", "label": "6", "correct": "newspaper", "audio": "audio/7/7_1_6.mp3", "img": "images/everyDayThings/newspaper.png", "rec_id": "p25_ex1_i3"},
+    {"num": "4.", "label": "11", "correct": "bottle of water", "audio": "audio/7/7_1_11.mp3", "img": "images/everyDayThings/bottle_of_water.png", "rec_id": "p25_ex1_i4"},
+    {"num": "5.", "label": "12", "correct": "laptop", "audio": "audio/7/7_1_12.mp3", "img": "images/everyDayThings/laptop.png", "rec_id": "p25_ex1_i5"},
+    {"num": "6.", "label": "13", "correct": "earphones", "audio": "audio/7/7_1_13.mp3", "img": "images/everyDayThings/earphones.png", "rec_id": "p25_ex1_i6"},
+    {"num": "7.", "label": "18", "correct": "tablet", "audio": "audio/7/7_1_18.mp3", "img": "images/everyDayThings/tablet.png", "rec_id": "p25_ex1_i7"},
+    {"num": "8.", "label": "19", "correct": "mirror", "audio": "audio/7/7_1_19.mp3", "img": "images/everyDayThings/mirror.png", "rec_id": "p25_ex1_i8"},
+    {"num": "9.", "label": "20", "correct": "coins", "audio": "audio/7/7_1_20.mp3", "img": "images/everyDayThings/coins.png", "rec_id": "p25_ex1_i9"},
+    {"num": "10.", "label": "25", "correct": "map", "audio": "audio/7/7_1_25.mp3", "img": "images/everyDayThings/map.png", "rec_id": "p25_ex1_i10"},
+    {"num": "11.", "label": "26", "correct": "umbrella", "audio": "audio/7/7_1_26.mp3", "img": "images/everyDayThings/umbrella.png", "rec_id": "p25_ex1_i11"},
+    {"num": "12.", "label": "27", "correct": "sandwich", "audio": "audio/7/7_1_27.mp3", "img": "images/everyDayThings/sandwich.png", "rec_id": "p25_ex1_i12"}
+  ]
+}

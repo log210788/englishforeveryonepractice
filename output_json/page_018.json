@@ -86,7 +86,7 @@
           "correct_answer": "sister",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/4/4_1_3.mp3"
+          "audio_file_path": "audio/4/4_1_3.wav"
         },
         {
           "item_number": 4,
@@ -106,7 +106,7 @@
           "correct_answer": "uncle",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/4/4_1_4.mp3"
+          "audio_file_path": "audio/4/4_1_4.wav"
         },
         {
           "item_number": 5,

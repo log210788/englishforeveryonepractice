@@ -230,73 +230,73 @@
           "item_number": 1,
           "question": "This is her cat.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 2,
           "question": "This is her parrot.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 3,
           "question": "This is their cat.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 4,
           "question": "This is their parrot.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 5,
           "question": "This is my cat.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 6,
           "question": "This is my parrot.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 7,
           "question": "That is her cat.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 8,
           "question": "That is her parrot.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 9,
           "question": "That is their cat.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 10,
           "question": "That is their parrot.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 11,
           "question": "That is my cat.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         },
         {
           "item_number": 12,
           "question": "That is my parrot.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         }
       ]
     },
@@ -340,43 +340,43 @@
           "item_number": 1,
           "question": "Arthur is Sam's grandfather.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+          "audio_file_path": "audio/6/6_2_uk.mp3"
         },
         {
           "item_number": 2,
           "question": "Frank is Sam's father.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+          "audio_file_path": "audio/6/6_2_uk.mp3"
         },
         {
           "item_number": 3,
           "question": "Charlotte is Sam's mother.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+          "audio_file_path": "audio/6/6_2_uk.mp3"
         },
         {
           "item_number": 4,
           "question": "Micky is Sam's brother.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+          "audio_file_path": "audio/6/6_2_uk.mp3"
         },
         {
           "item_number": 5,
           "question": "Sally is Sam's sister.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+          "audio_file_path": "audio/6/6_2_uk.mp3"
         },
         {
           "item_number": 6,
           "question": "Ronaldo is Sam's friend.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+          "audio_file_path": "audio/6/6_2_uk.mp3"
         },
         {
           "item_number": 7,
           "question": "Rebecca is Sam's cousin.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_2.mp3"
+          "audio_file_path": "audio/6/6_2_uk.mp3"
         }
       ]
     },
@@ -389,31 +389,31 @@
           "item_number": 1,
           "question": "True",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_1.wav"
         },
         {
           "item_number": 2,
           "question": "False",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_2.wav"
         },
         {
           "item_number": 3,
           "question": "False",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_3.wav"
         },
         {
           "item_number": 4,
           "question": "True",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_4.wav"
         },
         {
           "item_number": 5,
           "question": "False",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_48_6_3.mp3"
+          "audio_file_path": "audio/6/6_3_5.wav"
         }
       ]
     },
@@ -736,13 +736,13 @@
           "item_number": 1,
           "question": "This is my letter.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+          "audio_file_path": "audio/8/8_2_1.mp3"
         },
         {
           "item_number": 2,
           "question": "These are my purses.",
           "audio_icon_present": true,
-          "audio_file_path": "assets/audio/track_47_8_2.mp3"
+          "audio_file_path": "audio/8/8_2_2.mp3"
         }
       ]
     }

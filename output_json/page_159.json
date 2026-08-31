@@ -63,7 +63,9 @@
       "items": [
         {
           "item_number": 1,
-          "question": "08:15"
+          "question": "08:15",
+          "audio_file_path": "audio/11/11_2_1_usuk.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 2,
@@ -73,7 +75,9 @@
         },
         {
           "item_number": 3,
-          "question": "11:15"
+          "question": "11:15",
+          "audio_file_path": "audio/11/11_2_3_usuk.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 4,
@@ -83,7 +87,9 @@
         },
         {
           "item_number": 5,
-          "question": "11:00"
+          "question": "11:00",
+          "audio_file_path": "audio/11/11_2_5_usuk.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 6,

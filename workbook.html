@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book - Interactive Reader</title>
   
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .page-image { max-width: 100%; height: auto; object-fit: contain; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="workbook.css">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +23,6 @@
   
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- Workbook CSS -->
-  <link rel="stylesheet" href="workbook.css">
 </head>
 <body>
 
@@ -246,6 +254,8 @@
         </div>
       </div>
     </div>
+  </div>
+
   <!-- Kodama Companion Mascot Widget (Minimalist & Expressive) -->
   <div class="ghibli-mascot-container" id="ghibliMascotWidget">
     
@@ -292,7 +302,7 @@
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap" title="Click Kodama to hear Teacher Lewis's story!">
       <div class="mascot-focus-aura" id="mascotAura"></div>
       <div class="mascot-expr-badge" id="mascotExprBadge">🐾 Sitting Cozy</div>
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
 
   </div>

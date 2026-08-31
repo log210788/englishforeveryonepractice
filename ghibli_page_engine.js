@@ -20,6 +20,23 @@
       this.pomodoroInterval = null;
       this.isPomodoroRunning = false;
 
+      // 5.5 Substitution Chart Discovery State
+      this.discoveredSentences5_5 = new Set(["This is her cat."]);
+      this.all12Sentences5_5 = [
+        "This is her cat.",
+        "This is her parrot.",
+        "This is their cat.",
+        "This is their parrot.",
+        "This is my cat.",
+        "This is my parrot.",
+        "That is her cat.",
+        "That is her parrot.",
+        "That is their cat.",
+        "That is their parrot.",
+        "That is my cat.",
+        "That is my parrot."
+      ];
+
       // Teacher Lewis Mascot Stories
       this.mascotQuotes = [
         "Welcome to Teacher Lewis's Practice Book! 🍃 Let's learn English together.",
@@ -45,10 +62,43 @@
       this.setupVoiceRecorder();
       this.setupMascotAndPomodoro();
       this.setupExerciseInteractions();
+      this.setupConnectingMatching();
+      this.setupSentenceMirroring();
       this.setupGradingEngine();
       this.setupResetButton();
       this.setupKeyboardNavigation();
       this.setupAmbientButton();
+      this.setupReaderBridge();
+    }
+
+    setupReaderBridge() {
+      const isEmbedded = (window.self !== window.top);
+      
+      if (isEmbedded) {
+        document.body.classList.add('in-reader-frame');
+        
+        // If clicking Home Hub link inside iframe, redirect the top window
+        document.querySelectorAll('a[href="index.html"]').forEach(a => {
+          a.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.top.location.href = 'index.html';
+          });
+        });
+        
+        // Hide duplicate "Reader Mode" button inside the iframe
+        document.querySelectorAll('a[href^="ghibli_reader.html"]').forEach(a => {
+          a.style.display = 'none';
+        });
+      } else {
+        // Standalone mode: ensure "Reader Mode" links include the current page number
+        const match = window.location.pathname.match(/ghibli_p(\d+)\.html/);
+        if (match && match[1]) {
+          const pNum = parseInt(match[1], 10);
+          document.querySelectorAll('a[href="ghibli_reader.html"]').forEach(a => {
+            a.href = `ghibli_reader.html?page=${pNum}`;
+          });
+        }
+      }
     }
 
     setupAmbientButton() {
@@ -129,56 +179,223 @@
        ========================================================================== */
     setupAudioPlayers() {
       document.addEventListener('click', (e) => {
-        const audioBtn = e.target.closest('.ghibli-audio-btn, [data-audio]');
+        const audioBtn = e.target.closest('.ghibli-audio-btn, .ghibli-audio-play-btn, [data-audio]');
         if (!audioBtn) return;
 
-        // Skip if button is rec or my-voice button
-        if (audioBtn.classList.contains('ghibli-rec-btn') || audioBtn.classList.contains('my-voice-btn')) return;
-
-        const audioPath = audioBtn.getAttribute('data-audio');
-        const fallbackText = audioBtn.getAttribute('data-fallback-text') || audioBtn.closest('.fill-blank-item, .mc-prompt-row, .audio-item-row, .exercise-items-list')?.innerText || "Listen and repeat.";
-        
-        if (audioPath) {
-          this.playAudioTrack(audioPath, fallbackText, audioBtn);
+        // Skip if button is a voice recorder or recording playback button
+        if (audioBtn.classList.contains('ghibli-rec-btn') || 
+            audioBtn.classList.contains('rec-btn') || 
+            audioBtn.classList.contains('play-rec-btn') || 
+            audioBtn.classList.contains('my-voice-btn')) {
+          return;
         }
+
+        const audioPath = audioBtn.getAttribute('data-audio') || audioBtn.dataset.audio || '';
+        
+        // Extract fallback text from data attributes or surrounding card context
+        let fallbackText = audioBtn.getAttribute('data-fallback-text') || audioBtn.getAttribute('data-text');
+        if (!fallbackText) {
+          const card = audioBtn.closest('.animal-card, .ghibli-char-card, .ghibli-listen-card, .ghibli-card-body, .fill-blank-item, .mc-prompt-row, .audio-item-row, .exercise-items-list, .exercise-item, section, div');
+          if (card) {
+            const input = card.querySelector('input[data-correct], input[type="text"]');
+            if (input) {
+              fallbackText = input.getAttribute('data-correct') || input.value || input.placeholder;
+            }
+            if (!fallbackText) {
+              const img = card.querySelector('img[alt]');
+              if (img) fallbackText = img.getAttribute('alt');
+            }
+            if (!fallbackText) {
+              const promptEl = card.querySelector('.ghibli-prompt-text, .ghibli-ex-instruction, .char-name, p, span');
+              if (promptEl) fallbackText = promptEl.textContent;
+            }
+          }
+        }
+
+        this.playAudioTrack(audioPath, fallbackText || "Listen and repeat.", audioBtn);
       });
+    }
+
+    getAudioCandidates(src) {
+      if (!src) return [];
+      const list = [];
+      const cleanSrc = src.trim().split('?')[0].split('#')[0];
+      if (!cleanSrc) return [];
+
+      list.push(cleanSrc);
+
+      // If path is like 'audio/1/1_4_eg.mp3' or 'audio/14/14_3_1.mp3'
+      const m1 = cleanSrc.match(/^audio\/(\d+)\/(.+)$/i);
+      if (m1) {
+        const unitNum = parseInt(m1[1], 10);
+        const filename = m1[2];
+        const unitPadded = String(unitNum).padStart(2, '0');
+        
+        list.push(`assets/audio/track_${unitPadded}_${filename}`);
+        list.push(`assets/audio/track_${unitNum}_${filename}`);
+        list.push(`assets/audio/${filename}`);
+
+        // Try stripped unit prefix in filename e.g. 1_4_eg.mp3 -> 4_eg.mp3
+        const mUnitPrefix = filename.match(/^(\d+)_(.+)$/);
+        if (mUnitPrefix) {
+          const rest = mUnitPrefix[2];
+          list.push(`assets/audio/track_${unitPadded}_${rest}`);
+          list.push(`assets/audio/track_${unitNum}_${rest}`);
+        }
+        
+        // Suffix matches for _a_usuk, _usuk, _uk, _us, _a
+        const baseName = filename.replace(/\.mp3$/i, '');
+        list.push(`audio/${unitNum}/${baseName}_a_usuk.mp3`);
+        list.push(`audio/${unitNum}/${baseName}_usuk.mp3`);
+        list.push(`audio/${unitNum}/${baseName}_uk.mp3`);
+        list.push(`audio/${unitNum}/${baseName}_us.mp3`);
+        list.push(`audio/${unitNum}/${baseName}_a.mp3`);
+      }
+
+      // If path starts with assets/audio/track_01_1_1.mp3
+      const m2 = cleanSrc.match(/^assets\/audio\/track_(\d+)_(.+)\.mp3$/i);
+      if (m2) {
+        const unitNum = parseInt(m2[1], 10);
+        const rest = m2[2];
+        list.push(`audio/${unitNum}/${unitNum}_${rest}.mp3`);
+        list.push(`audio/${unitNum}/${rest}.mp3`);
+      }
+
+      return Array.from(new Set(list));
     }
 
     playAudioTrack(audioPath, fallbackText, btnElement = null) {
       if (this.activeAudio) {
         this.activeAudio.pause();
+        this.activeAudio.currentTime = 0;
         this.activeAudio = null;
       }
       if (this.speechSynth && this.speechSynth.speaking) {
         this.speechSynth.cancel();
       }
 
+      const icon = btnElement ? btnElement.querySelector('i') : null;
+      const originalIconClass = icon ? icon.className : null;
+
       const resetBtnState = () => {
-        if (btnElement) btnElement.classList.remove('playing');
+        if (btnElement) {
+          btnElement.classList.remove('playing');
+          if (icon && originalIconClass) {
+            icon.className = originalIconClass;
+          }
+        }
+        this.activeAudio = null;
+        if (window.GhibliAudio && typeof window.GhibliAudio.unduckBGM === 'function') {
+          window.GhibliAudio.unduckBGM();
+        }
       };
 
-      if (!audioPath) {
+      if (btnElement) {
+        btnElement.classList.add('playing');
+        if (icon && !icon.classList.contains('fa-volume-high')) {
+          icon.className = 'fa-solid fa-volume-high fa-beat';
+        }
+      }
+
+      if (window.GhibliAudio && typeof window.GhibliAudio.duckBGM === 'function') {
+        window.GhibliAudio.duckBGM();
+      }
+
+      const candidates = this.getAudioCandidates(audioPath);
+      let candidateIndex = 0;
+
+      const tryNextCandidate = () => {
+        if (candidateIndex >= candidates.length) {
+          // Audio files not available on disk -> Fallback to SpeechSynthesis
+          if (fallbackText) {
+            this.fallbackSpeechSynthesis(fallbackText, resetBtnState, btnElement);
+          } else {
+            resetBtnState();
+          }
+          return;
+        }
+
+        const currentSrc = candidates[candidateIndex++];
+        const audio = new Audio();
+        audio.preload = 'auto';
+        this.activeAudio = audio;
+
+        let hasHandledError = false;
+        const onError = () => {
+          if (hasHandledError) return;
+          hasHandledError = true;
+          tryNextCandidate();
+        };
+
+        audio.onended = resetBtnState;
+        audio.onerror = onError;
+
+        audio.src = currentSrc;
+
+        const playPromise = audio.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            onError();
+          });
+        }
+      };
+
+      if (candidates.length > 0) {
+        tryNextCandidate();
+      } else if (fallbackText) {
+        this.fallbackSpeechSynthesis(fallbackText, resetBtnState, btnElement);
+      } else {
         resetBtnState();
+      }
+    }
+
+    fallbackSpeechSynthesis(text, onEndedCallback, btnElement = null) {
+      const reset = () => {
+        if (onEndedCallback) onEndedCallback();
+      };
+
+      if (!this.speechSynth || typeof SpeechSynthesisUtterance === 'undefined') {
+        reset();
         return;
       }
 
-      if (btnElement) btnElement.classList.add('playing');
+      // Clean text: strip HTML, punctuation clutter, example tags, brackets, pipes
+      let cleanText = String(text || '')
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/Example|Score:\s*\d+\s*\/\s*\d+/gi, ' ')
+        .replace(/\|.*$/g, '') // pick first answer if piped
+        .replace(/[{}\[\]\(\)]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
 
-      const cacheBustUrl = audioPath + (audioPath.includes('?') ? '&' : '?') + 't=' + Date.now();
-      const audio = new Audio(cacheBustUrl);
-      this.activeAudio = audio;
+      if (!cleanText) {
+        reset();
+        return;
+      }
 
-      audio.play().then(() => {
-        audio.onended = resetBtnState;
-        audio.onerror = resetBtnState;
-      }).catch(err => {
-        console.warn('Audio playback error:', err);
-        resetBtnState();
-      });
-    }
+      try {
+        this.speechSynth.cancel();
+        if (this.speechSynth.paused) {
+          this.speechSynth.resume();
+        }
 
-    fallbackSpeechSynthesis(text, onEndedCallback) {
-      if (onEndedCallback) onEndedCallback();
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        utterance.lang = 'en-US';
+        utterance.rate = 0.92;
+        utterance.pitch = 1.0;
+        utterance.volume = 1.0;
+
+        utterance.onend = reset;
+        utterance.onerror = (e) => {
+          console.warn('SpeechSynthesis fallback error:', e);
+          reset();
+        };
+
+        this.speechSynth.speak(utterance);
+      } catch (err) {
+        console.warn('SpeechSynthesis initialization error:', err);
+        reset();
+      }
     }
 
     /* ==========================================================================
@@ -371,8 +588,8 @@
        4. Kodama Mascot Engine & Pomodoro Timer
        ========================================================================== */
     setupMascotAndPomodoro() {
-      const avatar = document.getElementById('mascotAvatar');
-      const pomodoroPill = document.getElementById('pomodoroPill');
+      const avatar = document.getElementById('mascotAvatar') || document.getElementById('mascotAvatarWrap') || document.getElementById('mascotAvatarImg');
+      const pomodoroPill = document.getElementById('pomodoroPill') || document.getElementById('pomoToggleBtn');
 
       if (avatar) {
         avatar.addEventListener('click', () => {
@@ -385,23 +602,24 @@
       if (pomodoroPill) {
         pomodoroPill.addEventListener('click', () => this.togglePomodoro());
       }
-
-      // Initial greeting after 1 second
-      setTimeout(() => {
-        this.speakMascot("Welcome! Click 'Check Answers' when you finish your exercises.", 5000);
-      }, 1000);
     }
 
     speakMascot(text, duration = 5000, emote = 'happy') {
       const bubble = document.getElementById('mascotBubble');
       if (!bubble) return;
 
-      bubble.innerHTML = `<div class="bubble-content">${text}</div>`;
+      const textContent = document.getElementById('mascotTextContent');
+      if (textContent) {
+        textContent.textContent = text;
+      } else {
+        bubble.innerHTML = `<div class="mascot-text" id="mascotTextContent">${text}</div>`;
+      }
       bubble.style.display = 'block';
+      bubble.classList.remove('focused-auto-collapsed');
 
       if (this.mascotTimeout) clearTimeout(this.mascotTimeout);
       this.mascotTimeout = setTimeout(() => {
-        bubble.style.display = 'none';
+        bubble.classList.add('focused-auto-collapsed');
       }, duration);
     }
 
@@ -451,32 +669,202 @@
        ========================================================================== */
     setupExerciseInteractions() {
       // Multiple Choice selection
+      // Option & True/False Selection Handler
       document.addEventListener('click', (e) => {
-        const optionBtn = e.target.closest('.ghibli-option');
-        if (!optionBtn) return;
+        const btn = e.target.closest('.ghibli-option, .tf-btn');
+        if (!btn) return;
 
-        const container = optionBtn.closest('.ghibli-mc-container, .mc-options-grid');
-        if (container) {
-          container.querySelectorAll('.ghibli-option').forEach(opt => opt.classList.remove('selected'));
-        }
-        optionBtn.classList.add('selected');
-        if (window.GhibliAudio) window.GhibliAudio.playClick();
-      });
-
-      // True / False selection
-      document.addEventListener('click', (e) => {
-        const tfBtn = e.target.closest('.tf-btn');
-        if (!tfBtn) return;
-
-        const group = tfBtn.closest('.tf-btn-group');
+        const group = btn.closest('.tf-btn-group, .ghibli-mc-container, .mc-options-grid, .options-grid');
         if (group) {
-          group.querySelectorAll('.tf-btn').forEach(btn => btn.classList.remove('selected'));
+          group.querySelectorAll('.ghibli-option, .tf-btn').forEach(b => {
+            b.classList.remove('selected');
+          });
         }
-        tfBtn.classList.add('selected');
+        btn.classList.add('selected');
+        
+        // Sync with linked text input if present in card
+        const card = btn.closest('.ghibli-char-card, .tf-question-card, .exercise-item, .reading-questions-column');
+        if (card) {
+          const input = card.querySelector('input.ghibli-input');
+          if (input) {
+            input.value = btn.dataset.value || btn.textContent.trim();
+            input.classList.remove('correct', 'incorrect');
+          }
+        }
+        
         if (window.GhibliAudio) window.GhibliAudio.playClick();
       });
 
-      // Word Chip Drag & Drop / Click for Sentence Ordering
+      // Cross-out Word In-Sentence Selection Handler
+      document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.ghibli-crossout-btn');
+        if (!btn) return;
+
+        const group = btn.closest('.ghibli-crossout-group');
+        if (!group) return;
+
+        // If already crossed out, toggle off
+        if (btn.classList.contains('crossed-out')) {
+          btn.classList.remove('crossed-out', 'selected');
+        } else {
+          // Un-cross other buttons in this group (single cross-out per item)
+          group.querySelectorAll('.ghibli-crossout-btn').forEach(b => {
+            b.classList.remove('crossed-out', 'selected');
+          });
+          btn.classList.add('crossed-out', 'selected');
+        }
+
+        // Clear previous graded states on interaction
+        group.querySelectorAll('.ghibli-crossout-btn').forEach(b => {
+          b.classList.remove('correct', 'incorrect', 'should-cross');
+        });
+
+        if (window.GhibliAudio) window.GhibliAudio.playClick();
+      });
+
+      // Synchronize typing in True/False inputs with buttons
+      document.addEventListener('input', (e) => {
+        const input = e.target.closest('.tf-question-card input.ghibli-input, .reading-questions-column input.ghibli-input');
+        if (!input) return;
+        const card = input.closest('.tf-question-card, .ghibli-char-card');
+        if (!card) return;
+        const val = input.value.trim().toLowerCase();
+        card.querySelectorAll('.tf-btn').forEach(btn => {
+          const btnVal = (btn.dataset.value || btn.textContent).trim().toLowerCase();
+          if (val === btnVal) {
+            btn.classList.add('selected');
+          } else {
+            btn.classList.remove('selected');
+          }
+        });
+      });
+
+      // Word Chip Drag & Drop, Intra-Slot Reordering & Click for Sentence Ordering
+      let draggedChip = null;
+      let sourceContainer = null;
+
+      const updateOrderInput = (orderingContainer) => {
+        if (!orderingContainer) return;
+        const dropSlot = orderingContainer.querySelector('.ghibli-drop-slot');
+        const orderInput = orderingContainer.querySelector('.order-input, .ghibli-input');
+        if (dropSlot && orderInput) {
+          const words = Array.from(dropSlot.querySelectorAll('.word-chip')).map(c => c.innerText.trim());
+          orderInput.value = words.join(' ');
+        }
+        if (dropSlot) {
+          dropSlot.classList.remove('correct', 'incorrect');
+          const placeholder = dropSlot.querySelector('.drop-placeholder');
+          const chips = dropSlot.querySelectorAll('.word-chip');
+          if (placeholder) {
+            placeholder.style.display = chips.length > 0 ? 'none' : 'flex';
+          }
+          if (chips.length > 0) {
+            dropSlot.classList.add('has-chips');
+          } else {
+            dropSlot.classList.remove('has-chips');
+          }
+        }
+      };
+
+      // 1. Dragstart
+      document.addEventListener('dragstart', (e) => {
+        const chip = e.target.closest('.word-chip');
+        if (!chip) return;
+
+        draggedChip = chip;
+        sourceContainer = chip.parentElement;
+        chip.classList.add('is-dragging');
+
+        e.dataTransfer.setData('text/plain', chip.innerText.trim());
+        e.dataTransfer.effectAllowed = 'move';
+      });
+
+      // 2. Dragend
+      document.addEventListener('dragend', (e) => {
+        const chip = e.target.closest('.word-chip');
+        if (chip) {
+          chip.classList.remove('is-dragging');
+        }
+        document.querySelectorAll('.ghibli-drop-slot, .word-pool').forEach(el => {
+          el.classList.remove('drag-over');
+        });
+        draggedChip = null;
+        sourceContainer = null;
+      });
+
+      // 3. Dragover
+      document.addEventListener('dragover', (e) => {
+        if (!draggedChip) return;
+
+        const dropSlot = e.target.closest('.ghibli-drop-slot');
+        const wordPool = e.target.closest('.word-pool');
+        const targetChip = e.target.closest('.word-chip');
+
+        if (dropSlot || wordPool || targetChip) {
+          e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
+        }
+
+        // Highlight active drop zone
+        document.querySelectorAll('.ghibli-drop-slot, .word-pool').forEach(el => {
+          if (el === dropSlot || el === wordPool || el === (targetChip ? targetChip.closest('.ghibli-drop-slot, .word-pool') : null)) {
+            el.classList.add('drag-over');
+          } else {
+            el.classList.remove('drag-over');
+          }
+        });
+      });
+
+      // 4. Dragleave
+      document.addEventListener('dragleave', (e) => {
+        const zone = e.target.closest('.ghibli-drop-slot, .word-pool');
+        if (zone && !zone.contains(e.relatedTarget)) {
+          zone.classList.remove('drag-over');
+        }
+      });
+
+      // 5. Drop
+      document.addEventListener('drop', (e) => {
+        if (!draggedChip) return;
+        e.preventDefault();
+
+        const dropSlot = e.target.closest('.ghibli-drop-slot');
+        const wordPool = e.target.closest('.word-pool');
+        const targetChip = e.target.closest('.word-chip');
+        const orderingContainer = (dropSlot || wordPool || (targetChip ? targetChip.closest('.ghibli-ordering-container') : null))?.closest('.ghibli-ordering-container');
+
+        // Ensure drop is scoped to the same sentence ordering item
+        if (orderingContainer && draggedChip.closest('.ghibli-ordering-container') === orderingContainer) {
+          if (targetChip && targetChip !== draggedChip) {
+            const parent = targetChip.parentElement;
+            if (parent) {
+              const rect = targetChip.getBoundingClientRect();
+              const midX = rect.left + rect.width / 2;
+              if (e.clientX > midX) {
+                targetChip.after(draggedChip);
+              } else {
+                parent.insertBefore(draggedChip, targetChip);
+              }
+            }
+          } else if (dropSlot) {
+            dropSlot.appendChild(draggedChip);
+          } else if (wordPool) {
+            wordPool.appendChild(draggedChip);
+          }
+
+          updateOrderInput(orderingContainer);
+          if (window.GhibliAudio && window.GhibliAudio.playWaterDrop) {
+            window.GhibliAudio.playWaterDrop();
+          }
+        }
+
+        document.querySelectorAll('.ghibli-drop-slot, .word-pool').forEach(el => el.classList.remove('drag-over'));
+        if (draggedChip) draggedChip.classList.remove('is-dragging');
+        draggedChip = null;
+        sourceContainer = null;
+      });
+
+      // 6. Click-to-Move on Word Chip
       document.addEventListener('click', (e) => {
         const chip = e.target.closest('.word-chip');
         if (!chip) return;
@@ -486,7 +874,6 @@
 
         const wordPool = orderingContainer.querySelector('.word-pool');
         const dropSlot = orderingContainer.querySelector('.ghibli-drop-slot');
-        const orderInput = orderingContainer.querySelector('.order-input, .ghibli-input');
 
         if (chip.parentElement === wordPool && dropSlot) {
           dropSlot.appendChild(chip);
@@ -494,42 +881,115 @@
           wordPool.appendChild(chip);
         }
 
-        // Sync constructed sentence to orderInput if present
-        if (dropSlot && orderInput) {
-          const words = Array.from(dropSlot.querySelectorAll('.word-chip')).map(c => c.innerText.trim());
-          orderInput.value = words.join(' ');
+        updateOrderInput(orderingContainer);
+        if (window.GhibliAudio && window.GhibliAudio.playWaterDrop) {
+          window.GhibliAudio.playWaterDrop();
         }
-        if (window.GhibliAudio) window.GhibliAudio.playWaterDrop();
       });
 
-      // Sentence Construction Chart Block Selection
+      // 7. Individual Sentence Reset Button
+      document.addEventListener('click', (e) => {
+        const resetBtn = e.target.closest('.ghibli-order-reset-btn');
+        if (!resetBtn) return;
+
+        const orderingContainer = resetBtn.closest('.ghibli-ordering-container');
+        if (!orderingContainer) return;
+
+        const wordPool = orderingContainer.querySelector('.word-pool');
+        const dropSlot = orderingContainer.querySelector('.ghibli-drop-slot');
+        if (wordPool && dropSlot) {
+          const placedChips = Array.from(dropSlot.querySelectorAll('.word-chip'));
+          placedChips.forEach(c => wordPool.appendChild(c));
+          updateOrderInput(orderingContainer);
+          dropSlot.classList.remove('correct', 'incorrect');
+          if (window.GhibliAudio && window.GhibliAudio.playClick) {
+            window.GhibliAudio.playClick();
+          }
+          if (this.speakMascot) {
+            this.speakMascot("Sentence reset! Click or drag words to try again! 🌿", 3000);
+          }
+        }
+      });
+
+      // Sentence Construction Chart Block Selection & Live Experimentation Engine
       document.addEventListener('click', (e) => {
         const blockBtn = e.target.closest('.ghibli-block-btn');
         if (!blockBtn) return;
 
-        const col = blockBtn.closest('.ghibli-chart-col');
-        const container = blockBtn.closest('.ghibli-chart-container, .ghibli-section, body');
+        const col = blockBtn.closest('.ghibli-chart-col, .ex1-3-col, .ex5-5-col, [class*="-col"]');
+        const card = blockBtn.closest('.ghibli-exercise-card, .ex1-3-card, .ex5-5-card, .ghibli-chart-container, .ghibli-section, body');
         if (!col) return;
 
         col.querySelectorAll('.ghibli-block-btn').forEach(btn => {
           btn.classList.remove('selected');
-          btn.style.background = '#ffffff';
-          btn.style.color = '#1e293b';
-          btn.style.borderColor = '#cbd5e1';
-          btn.style.fontWeight = '600';
         });
-
         blockBtn.classList.add('selected');
-        blockBtn.style.background = '#2d5a27';
-        blockBtn.style.color = '#ffffff';
-        blockBtn.style.borderColor = '#2d5a27';
-        blockBtn.style.fontWeight = '700';
 
-        if (container) {
-          const selectedBtns = container.querySelectorAll('.ghibli-chart-col .ghibli-block-btn.selected');
+        if (card) {
+          // Update chip corresponding to this column
+          const colType = blockBtn.dataset.col;
+          const val = (blockBtn.dataset.value || blockBtn.textContent).trim();
+          if (colType) {
+            const chip = card.querySelector(`.chip-${colType}, [id^="chip_${colType}"]`);
+            if (chip) chip.textContent = val;
+          }
+
+          // Exercise 1.3 grammar validation
+          if (card.classList.contains('ex1-3-card')) {
+            const subj = card.querySelector('.col-subject .ghibli-block-btn.selected')?.dataset.value || 'I';
+            const verb = card.querySelector('.col-verb .ghibli-block-btn.selected')?.dataset.value || 'am';
+            const valBadge = card.querySelector('.ex1-3-validation-badge, [id^="ex1_3_val_badge"]');
+            const valText = card.querySelector('[id^="ex1_3_val_text"]');
+            
+            const isValid = (subj === 'I' && verb === 'am') || (subj === 'My name' && verb === 'is');
+            if (valBadge) {
+              valBadge.className = isValid ? 'ex1-3-validation-badge valid' : 'ex1-3-validation-badge invalid';
+              const msg = isValid ? 'Valid Greeting!' : (subj === 'I' ? 'Grammar Check: Pair "I" with "am"' : 'Grammar Check: Pair "My name" with "is"');
+              if (valText) valText.textContent = msg;
+              else valBadge.innerHTML = `<i class="fa-solid fa-${isValid ? 'circle-check' : 'triangle-exclamation'}"></i> <span>${msg}</span>`;
+            }
+          }
+
+          // Exercise 5.5 grammar validation & discovery engine
+          if (card.classList.contains('ex5-5-card')) {
+            const pointer = card.querySelector('.col-pointer .ghibli-block-btn.selected')?.dataset.value || 'This';
+            const verb = card.querySelector('.col-verb .ghibli-block-btn.selected')?.dataset.value || 'is';
+            const possessive = card.querySelector('.col-possessive .ghibli-block-btn.selected')?.dataset.value || 'her';
+            const noun = card.querySelector('.col-noun .ghibli-block-btn.selected')?.dataset.value || 'cat.';
+
+            const valBadge = card.querySelector('.ex5-5-validation-badge, [id^="ex5_5_val_badge"]');
+            const valText = card.querySelector('[id^="ex5_5_val_text"]');
+            const currentSentence = `${pointer} ${verb} ${possessive} ${noun}`;
+
+            const isValid = (verb === 'is');
+            if (valBadge) {
+              if (isValid) {
+                valBadge.className = 'ex5-5-validation-badge valid';
+                if (valText) valText.textContent = 'Valid Sentence!';
+                else valBadge.innerHTML = '<i class="fa-solid fa-circle-check"></i> <span>Valid Sentence!</span>';
+
+                if (this.discoveredSentences5_5 && !this.discoveredSentences5_5.has(currentSentence)) {
+                  this.discoveredSentences5_5.add(currentSentence);
+                  if (window.GhibliAudio && window.GhibliAudio.playChime) {
+                    window.GhibliAudio.playChime();
+                  }
+                  this.speakMascot(`🎉 Discovered sentence ${this.discoveredSentences5_5.size}/12: "${currentSentence}"!`, 3500);
+                  this.updateDiscoveryTray5_5();
+                }
+              } else {
+                valBadge.className = 'ex5-5-validation-badge invalid';
+                const msg = `Grammar Check: Pair singular "${pointer}" with "is", not "are"`;
+                if (valText) valText.textContent = msg;
+                else valBadge.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> <span>${msg}</span>`;
+              }
+            }
+          }
+
+          // Assembled text element fallback
+          const selectedBtns = card.querySelectorAll('.ghibli-block-btn.selected');
           const words = Array.from(selectedBtns).map(b => (b.getAttribute('data-value') || b.textContent).trim());
           const sentence = words.join(' ');
-          const assembledEl = container.querySelector('.ghibli-assembled-text, [id^="assembledGreetingText"]');
+          const assembledEl = card.querySelector('.ghibli-assembled-text, [id^="assembledGreetingText"], [id^="assembledSentenceText"]');
           if (assembledEl) {
             assembledEl.textContent = `"${sentence}"`;
           }
@@ -540,21 +1000,481 @@
         }
       });
 
+      // Toggle Sentences Tray for Exercise 5.5
+      document.addEventListener('click', (e) => {
+        const trayToggle = e.target.closest('#toggleSentencesTray');
+        if (!trayToggle) return;
+
+        const grid = document.getElementById('ex5_5_tray_grid');
+        const icon = trayToggle.querySelector('.tray-icon');
+        if (grid) {
+          const isHidden = (grid.style.display === 'none');
+          grid.style.display = isHidden ? 'grid' : 'none';
+          if (icon) icon.className = isHidden ? 'fa-solid fa-chevron-down tray-icon' : 'fa-solid fa-chevron-right tray-icon';
+        }
+      });
+
+      this.updateDiscoveryTray5_5();
+
       // Chart Listen & Speak button
       document.addEventListener('click', (e) => {
-        const playBtn = e.target.closest('[id^="playChartSentenceBtn"], .play-chart-sentence-btn');
+        const playBtn = e.target.closest('[id^="playChartSentenceBtn"], [id^="playSentenceBtn"], [id^="playGreetingBtn"], .play-chart-sentence-btn');
         if (!playBtn) return;
 
-        const container = playBtn.closest('.ghibli-chart-container, .ghibli-section, body');
-        if (!container) return;
+        const card = playBtn.closest('.ghibli-exercise-card, .ex1-3-card, .ex5-5-card, .ghibli-chart-container, .ghibli-section, body');
+        if (!card) return;
 
-        const assembledEl = container.querySelector('.ghibli-assembled-text, [id^="assembledGreetingText"]');
-        if (!assembledEl) return;
+        const selectedBtns = card.querySelectorAll('.ghibli-block-btn.selected');
+        const words = Array.from(selectedBtns).map(b => (b.getAttribute('data-value') || b.textContent).trim());
+        const sentence = words.join(' ');
 
-        const sentence = assembledEl.textContent.replace(/"/g, '').trim();
         if (sentence) {
-          const audioSrc = typeof window.getChartAudioPath === 'function' ? window.getChartAudioPath(sentence) : '';
+          const audioSrc = playBtn.dataset.audio || (typeof window.getChartAudioPath === 'function' ? window.getChartAudioPath(sentence) : '');
           this.playAudioTrack(audioSrc, sentence, playBtn);
+        }
+      });
+    }
+
+    updateDiscoveryTray5_5() {
+      const countEl = document.getElementById('ex5_5_found_count');
+      const trayCountEl = document.getElementById('tray_count_5_5');
+      const trayGrid = document.getElementById('ex5_5_tray_grid');
+
+      if (!this.discoveredSentences5_5) {
+        this.discoveredSentences5_5 = new Set(["This is her cat."]);
+      }
+
+      if (countEl) countEl.textContent = this.discoveredSentences5_5.size;
+      if (trayCountEl) trayCountEl.textContent = this.discoveredSentences5_5.size;
+
+      if (trayGrid && this.all12Sentences5_5) {
+        trayGrid.innerHTML = this.all12Sentences5_5.map((s, idx) => {
+          const isFound = this.discoveredSentences5_5.has(s);
+          if (isFound) {
+            return `<div class="ex5-5-tray-item unlocked" style="display:flex; align-items:center; gap:6px; padding:6px 10px; background:rgba(45,90,39,0.12); border-radius:8px; border:1px solid #2d5a27; font-weight:700; font-size:0.85rem; color:#2d5a27;"><i class="fa-solid fa-star" style="color:var(--ghibli-accent-gold, #e5a93c);"></i> ${s}</div>`;
+          } else {
+            return `<div class="ex5-5-tray-item locked" style="display:flex; align-items:center; gap:6px; padding:6px 10px; background:rgba(0,0,0,0.04); border-radius:8px; border:1px dashed #ccc; font-size:0.85rem; color:#888;"><i class="fa-regular fa-circle"></i> Sentence ${idx + 1}</div>`;
+          }
+        }).join('');
+      }
+    }
+
+    /* ==========================================================================
+       5a. Interactive Connecting & Line-Matching System (e.g. Page 28 Ex 8.6)
+       ========================================================================== */
+    setupConnectingMatching() {
+      const containers = document.querySelectorAll('.ghibli-connecting-container');
+      if (containers.length === 0) return;
+
+      containers.forEach(container => {
+        const svg = container.querySelector('.ghibli-connecting-svg');
+        if (!svg) return;
+
+        let activeSourceCard = null;
+        const connections = new Map(); // sourceId -> { targetId, pathEl, inputEl }
+
+        // Helper to get anchor dot center coordinates relative to svg
+        const getDotCenter = (dotEl) => {
+          if (!dotEl || !svg) return null;
+          const svgRect = svg.getBoundingClientRect();
+          const dotRect = dotEl.getBoundingClientRect();
+          if (svgRect.width === 0 || svgRect.height === 0 || (dotRect.width === 0 && dotRect.height === 0)) {
+            return null;
+          }
+          return {
+            x: dotRect.left + dotRect.width / 2 - svgRect.left,
+            y: dotRect.top + dotRect.height / 2 - svgRect.top
+          };
+        };
+
+        // Helper to update path bezier
+        const updatePath = (pathEl, startDot, endDot) => {
+          if (!pathEl || !startDot || !endDot) return;
+          const p1 = getDotCenter(startDot);
+          const p2 = getDotCenter(endDot);
+          if (!p1 || !p2) return;
+          const dx = Math.max(30, Math.abs(p2.x - p1.x) * 0.55);
+          const cp1x = p1.x + dx;
+          const cp1y = p1.y;
+          const cp2x = p2.x - dx;
+          const cp2y = p2.y;
+          const d = `M ${p1.x.toFixed(1)} ${p1.y.toFixed(1)} C ${cp1x.toFixed(1)} ${cp1y.toFixed(1)}, ${cp2x.toFixed(1)} ${cp2y.toFixed(1)}, ${p2.x.toFixed(1)} ${p2.y.toFixed(1)}`;
+          pathEl.setAttribute('d', d);
+        };
+
+        // Render / refresh all paths
+        const refreshAllPaths = () => {
+          // Update example line (Left example card -> Right example card)
+          let exampleSource = container.querySelector('.left-column .example-card') || container.querySelector('.example-card:not(.target-card)');
+          let exampleTarget = container.querySelector('.right-column .example-card') || container.querySelector('.target-card.example-card');
+
+          let examplePath = container.querySelector('.example-line');
+          if (!examplePath && exampleSource && exampleTarget && svg) {
+            examplePath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            examplePath.classList.add('connecting-line', 'example-line');
+            const markerDef = svg.querySelector('marker[id^="arrow-example"]') || svg.querySelector('marker[id="arrow-example"]');
+            if (markerDef) {
+              examplePath.setAttribute('marker-end', `url(#${markerDef.id})`);
+            }
+            svg.insertBefore(examplePath, svg.firstChild);
+          }
+
+          if (exampleSource && exampleTarget) {
+            exampleSource.classList.add('is-connected');
+            exampleTarget.classList.add('is-connected');
+            if (examplePath) {
+              const startDot = exampleSource.querySelector('.anchor-dot');
+              const endDot = exampleTarget.querySelector('.anchor-dot');
+              if (startDot && endDot) {
+                updatePath(examplePath, startDot, endDot);
+              }
+            }
+          }
+
+          // Update all active user connections
+          connections.forEach((conn, sourceId) => {
+            const sourceCard = container.querySelector(`.source-card[data-source-id="${sourceId}"]`);
+            const targetCard = container.querySelector(`.target-card[data-target-id="${conn.targetId}"]`);
+            if (sourceCard && targetCard && conn.pathEl) {
+              const startDot = sourceCard.querySelector('.anchor-dot');
+              const endDot = targetCard.querySelector('.anchor-dot');
+              if (startDot && endDot) {
+                updatePath(conn.pathEl, startDot, endDot);
+              }
+            }
+          });
+        };
+
+        // Create connection
+        const connect = (sourceCard, targetCard) => {
+          const sourceId = sourceCard.dataset.sourceId;
+          const targetId = targetCard.dataset.targetId;
+          const targetVal = targetCard.dataset.value || targetId;
+
+          // If another source was connected to this target, remove it first
+          connections.forEach((conn, sId) => {
+            if (conn.targetId === targetId && sId !== sourceId) {
+              disconnect(sId);
+            }
+          });
+
+          // Disconnect existing if source was connected to something else
+          if (connections.has(sourceId)) {
+            disconnect(sourceId);
+          }
+
+          // Create SVG Path
+          const pathEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+          pathEl.classList.add('connecting-line', 'user-line');
+          pathEl.setAttribute('marker-end', 'url(#arrow-user)');
+          svg.appendChild(pathEl);
+
+          // Update hidden input
+          const inputEl = sourceCard.querySelector('input.ghibli-connecting-input');
+          if (inputEl) {
+            inputEl.value = targetVal;
+            inputEl.classList.remove('correct', 'incorrect');
+          }
+
+          connections.set(sourceId, { targetId, pathEl, inputEl });
+
+          sourceCard.classList.add('is-connected');
+          sourceCard.classList.remove('active-source', 'connected-correct', 'connected-incorrect', 'unattempted-pulse');
+          targetCard.classList.add('is-connected');
+          targetCard.classList.remove('connected-correct', 'connected-incorrect');
+
+          refreshAllPaths();
+          if (window.GhibliAudio && window.GhibliAudio.playClick) {
+            window.GhibliAudio.playClick();
+          }
+        };
+
+        // Disconnect a source
+        const disconnect = (sourceId) => {
+          if (!connections.has(sourceId)) return;
+          const conn = connections.get(sourceId);
+          if (conn.pathEl && conn.pathEl.parentNode) {
+            conn.pathEl.parentNode.removeChild(conn.pathEl);
+          }
+          if (conn.inputEl) {
+            conn.inputEl.value = '';
+            conn.inputEl.classList.remove('correct', 'incorrect');
+          }
+          const sourceCard = container.querySelector(`.source-card[data-source-id="${sourceId}"]`);
+          if (sourceCard) {
+            sourceCard.classList.remove('is-connected', 'active-source', 'connected-correct', 'connected-incorrect', 'unattempted-pulse');
+          }
+          // Check if any other source is connected to this target
+          let targetStillUsed = false;
+          connections.forEach((c, sId) => {
+            if (sId !== sourceId && c.targetId === conn.targetId) targetStillUsed = true;
+          });
+          const targetCard = container.querySelector(`.target-card[data-target-id="${conn.targetId}"]`);
+          if (targetCard && !targetStillUsed && !targetCard.classList.contains('example-card')) {
+            targetCard.classList.remove('is-connected', 'connected-correct', 'connected-incorrect');
+          }
+          connections.delete(sourceId);
+        };
+
+        // Handle click on Source Card
+        container.querySelectorAll('.source-card').forEach(card => {
+          card.addEventListener('click', (e) => {
+            if (e.target.closest('.ghibli-audio-btn, .ghibli-audio-play-btn, .voice-btn, .rec-btn, .play-rec-btn, button, [data-audio]')) return;
+
+            // If already active, toggle off
+            if (card === activeSourceCard) {
+              card.classList.remove('active-source');
+              activeSourceCard = null;
+              return;
+            }
+
+            if (activeSourceCard) {
+              activeSourceCard.classList.remove('active-source');
+            }
+
+            activeSourceCard = card;
+            card.classList.add('active-source');
+            if (window.GhibliAudio && window.GhibliAudio.playClick) {
+              window.GhibliAudio.playClick();
+            }
+          });
+        });
+
+        // Handle click on Target Card
+        container.querySelectorAll('.target-card:not(.example-card)').forEach(card => {
+          card.addEventListener('click', (e) => {
+            if (activeSourceCard) {
+              connect(activeSourceCard, card);
+              activeSourceCard.classList.remove('active-source');
+              activeSourceCard = null;
+            } else {
+              // If user clicks a target that is already connected, disconnect it
+              const targetId = card.dataset.targetId;
+              let foundSourceId = null;
+              connections.forEach((conn, sId) => {
+                if (conn.targetId === targetId) foundSourceId = sId;
+              });
+              if (foundSourceId) {
+                disconnect(foundSourceId);
+                if (window.GhibliAudio && window.GhibliAudio.playWaterDrop) {
+                  window.GhibliAudio.playWaterDrop();
+                }
+              }
+            }
+          });
+        });
+
+        // Window resize & lifecycle listeners to recalculate paths
+        window.addEventListener('resize', () => {
+          requestAnimationFrame(refreshAllPaths);
+        });
+
+        window.addEventListener('load', () => {
+          requestAnimationFrame(refreshAllPaths);
+        });
+
+        if (document.fonts && document.fonts.ready) {
+          document.fonts.ready.then(() => {
+            requestAnimationFrame(refreshAllPaths);
+          });
+        }
+
+        // ResizeObserver for robust layout detection
+        if (typeof ResizeObserver !== 'undefined') {
+          const ro = new ResizeObserver(() => {
+            requestAnimationFrame(refreshAllPaths);
+          });
+          ro.observe(container);
+          if (container.parentElement) ro.observe(container.parentElement);
+        }
+
+        // IntersectionObserver to recalculate when scrolled into view
+        if (typeof IntersectionObserver !== 'undefined') {
+          const io = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                requestAnimationFrame(refreshAllPaths);
+              }
+            });
+          }, { threshold: [0, 0.1, 0.5, 1.0] });
+          io.observe(container);
+        }
+
+        // Multi-stage Initial renders to guarantee path is connected across all layout stages
+        requestAnimationFrame(refreshAllPaths);
+        setTimeout(refreshAllPaths, 50);
+        setTimeout(refreshAllPaths, 150);
+        setTimeout(refreshAllPaths, 300);
+        setTimeout(refreshAllPaths, 600);
+        setTimeout(refreshAllPaths, 1200);
+        setTimeout(refreshAllPaths, 2500);
+
+        // Grade lines appearance
+        container._ghibliGradeLines = () => {
+          connections.forEach((conn, sourceId) => {
+            const sourceCard = container.querySelector(`.source-card[data-source-id="${sourceId}"]`);
+            const input = conn.inputEl || (sourceCard ? sourceCard.querySelector('input.ghibli-connecting-input') : null);
+            const userVal = input ? input.value.trim().toLowerCase() : '';
+            const correctVal = sourceCard ? (sourceCard.getAttribute('data-correct') || '').trim().toLowerCase() : '';
+            const isCorrect = (userVal && userVal === correctVal);
+
+            if (conn.pathEl) {
+              conn.pathEl.classList.remove('line-correct', 'line-incorrect');
+              if (isCorrect) {
+                conn.pathEl.classList.add('line-correct');
+                conn.pathEl.setAttribute('marker-end', 'url(#arrow-correct)');
+              } else {
+                conn.pathEl.classList.add('line-incorrect');
+                conn.pathEl.setAttribute('marker-end', 'url(#arrow-incorrect)');
+              }
+            }
+          });
+          refreshAllPaths();
+        };
+
+        // Store reference for reset
+        container._ghibliDisconnectAll = () => {
+          const keys = Array.from(connections.keys());
+          keys.forEach(k => disconnect(k));
+          if (activeSourceCard) {
+            activeSourceCard.classList.remove('active-source');
+            activeSourceCard = null;
+          }
+          container.querySelectorAll('.source-card, .target-card').forEach(c => {
+            if (!c.classList.contains('example-card')) {
+              c.classList.remove('is-connected', 'active-source', 'connected-correct', 'connected-incorrect', 'unattempted-pulse');
+            }
+          });
+          // Ensure example cards always stay is-connected
+          container.querySelectorAll('.example-card').forEach(c => c.classList.add('is-connected'));
+          refreshAllPaths();
+        };
+
+        // Store reference for refresh
+        container._ghibliRefreshPaths = refreshAllPaths;
+      });
+    }
+
+    /* ==========================================================================
+       5b. Live Sentence Mirroring System (Exercise 5.1)
+       ========================================================================== */
+    isEx51Card(card, input) {
+      if (!card) return false;
+      const sec = card.closest('.ghibli-section, .ghibli-exercise-card, .exercise-block, section');
+      if (sec) {
+        const exNum = sec.querySelector('.ghibli-ex-num, .exercise-num');
+        if (exNum && exNum.textContent.trim().includes('5.1')) return true;
+      }
+      if (input) {
+        if (input.id && input.id.startsWith('ex51')) return true;
+        if (input.className && input.className.includes('ex51')) return true;
+      }
+      const cardId = card.querySelector('[data-id]')?.getAttribute('data-id') || '';
+      if (cardId.startsWith('p20_ex1')) return true;
+      return false;
+    }
+
+    setupSentenceMirroring() {
+      const cards = document.querySelectorAll('.ghibli-char-card, .fill-blank-item, .exercise-item');
+      cards.forEach(card => {
+        if (card.dataset.mirroringSetup) return;
+
+        const input = card.querySelector('input.ghibli-input');
+        if (!input || input.classList.contains('ghibli-inline-input')) return;
+
+        // Only apply live mirroring to Exercise 5.1 cards
+        if (!this.isEx51Card(card, input)) return;
+
+        const promptWrap = card.querySelector('.ghibli-prompt-text, .ghibli-sentence-text, .item-text');
+        if (!promptWrap) return;
+
+        const targetSpan = promptWrap.querySelector('span:not(.ghibli-eg-badge):not(.ghibli-example-badge):not(.item-index)') || promptWrap;
+        const rawText = targetSpan.textContent.trim();
+
+        const hasBlank = /\[blank\]/i.test(rawText);
+        const hasUnderscores = /_{2,}/.test(rawText);
+
+        if (hasBlank || hasUnderscores) {
+          card.dataset.mirroringSetup = 'true';
+          card.dataset.origSentence = rawText;
+
+          const isExample = input.hasAttribute('readonly') || input.classList.contains('correct') || input.classList.contains('example-input') || card.classList.contains('example-card');
+          const initialVal = input.value.trim();
+
+          let formattedHtml = rawText;
+          formattedHtml = formattedHtml.replace(/\(([a-zA-Z\s]+)\)/g, '<span class="ghibli-clue-hint">($1)</span>');
+
+          if (hasBlank) {
+            formattedHtml = formattedHtml.replace(/\[blank\]/gi, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+          } else if (hasUnderscores) {
+            formattedHtml = formattedHtml.replace(/_{2,}/g, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+          }
+
+          targetSpan.innerHTML = formattedHtml;
+
+          const blankSpan = targetSpan.querySelector('.ghibli-mirrored-blank');
+          if (blankSpan && isExample) {
+            blankSpan.classList.add('example-blank');
+            if (initialVal) {
+              blankSpan.textContent = initialVal;
+              blankSpan.classList.remove('placeholder');
+              blankSpan.classList.add('has-value', 'correct');
+            }
+          }
+        }
+      });
+
+      document.addEventListener('input', e => {
+        const input = e.target.closest('input.ghibli-input');
+        if (!input || input.classList.contains('ghibli-inline-input')) return;
+
+        const card = input.closest('.ghibli-char-card, .fill-blank-item, .exercise-item');
+        if (!card || !this.isEx51Card(card, input)) return;
+
+        const promptWrap = card.querySelector('.ghibli-prompt-text, .ghibli-sentence-text, .item-text');
+        if (!promptWrap) return;
+
+        const targetSpan = promptWrap.querySelector('span:not(.ghibli-eg-badge):not(.ghibli-example-badge):not(.item-index)') || promptWrap;
+        const blankSpan = targetSpan.querySelector('.ghibli-mirrored-blank');
+        if (blankSpan && blankSpan.classList.contains('example-blank')) return;
+
+        const val = input.value;
+        const origSentence = card.dataset.origSentence || '';
+
+        if (!val || !val.trim()) {
+          if (origSentence) {
+            let resetHtml = origSentence.replace(/\(([a-zA-Z\s]+)\)/g, '<span class="ghibli-clue-hint">($1)</span>');
+            if (/\[blank\]/i.test(resetHtml)) {
+              resetHtml = resetHtml.replace(/\[blank\]/gi, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+            } else {
+              resetHtml = resetHtml.replace(/_{2,}/g, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+            }
+            targetSpan.innerHTML = resetHtml;
+          }
+        } else {
+          const trimmedVal = val.trim();
+          const promptPrefix = origSentence.split(/_{2,}|\[blank\]/i)[0].trim();
+
+          if (promptPrefix && trimmedVal.toLowerCase().startsWith(promptPrefix.toLowerCase() + ' ') && trimmedVal.length > promptPrefix.length + 3) {
+            targetSpan.innerHTML = `<span class="ghibli-mirrored-blank has-value">${val}</span>`;
+          } else {
+            if (!targetSpan.querySelector('.ghibli-mirrored-blank')) {
+              let baseHtml = origSentence.replace(/\(([a-zA-Z\s]+)\)/g, '<span class="ghibli-clue-hint">($1)</span>');
+              if (/\[blank\]/i.test(baseHtml)) {
+                baseHtml = baseHtml.replace(/\[blank\]/gi, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+              } else {
+                baseHtml = baseHtml.replace(/_{2,}/g, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+              }
+              targetSpan.innerHTML = baseHtml;
+            }
+            const currentBlank = targetSpan.querySelector('.ghibli-mirrored-blank');
+            if (currentBlank) {
+              currentBlank.textContent = val;
+              currentBlank.className = 'ghibli-mirrored-blank has-value';
+            }
+            const currentClue = targetSpan.querySelector('.ghibli-clue-hint');
+            if (currentClue) currentClue.style.opacity = '0.35';
+          }
         }
       });
     }
@@ -564,7 +1484,7 @@
        ========================================================================== */
     setupGradingEngine() {
       document.addEventListener('click', (e) => {
-        const checkBtn = e.target.closest('#ghibliCheckAnswersBtn, .ghibli-check-btn, .ghibli-check-btn-bottom');
+        const checkBtn = e.target.closest('#ghibliCheckAnswersBtn, #ghibliFloatingCheckBtn, .ghibli-check-btn, .ghibli-check-btn-bottom, .ghibli-floating-check-btn');
         if (checkBtn) {
           this.checkAnswers();
         }
@@ -586,27 +1506,37 @@
 
       const correctUserAnswers = new Set();
 
-      // 1. Fill in Blank inputs & Matching Selects
-      const fillInputs = document.querySelectorAll('.ghibli-input[data-correct], .ex1-1-input[data-correct], .ghibli-matching-select[data-correct]');
+      // 1. Fill in Blank inputs
+      const fillInputs = document.querySelectorAll('input.ghibli-input[data-correct], input.ex1-1-input[data-correct]');
       fillInputs.forEach(input => {
-        // Skip if input is part of sentence ordering fallback, or is a read-only example input
-        if (input.closest('.ghibli-ordering-container')) return;
+        // Skip if input is part of sentence ordering fallback, connecting matching, or is a read-only example input
+        if (input.closest('.ghibli-ordering-container, .ghibli-connecting-container') || input.classList.contains('ghibli-connecting-input')) return;
         if (input.hasAttribute('readonly') || input.classList.contains('example-input')) return;
 
         totalItems++;
         const userVal = normalize(input.value);
         const correctAttr = input.getAttribute('data-correct') || '';
-        const acceptedAnswers = correctAttr.split('|').map(normalize);
+        const acceptedAnswers = correctAttr.split('|').map(normalize).filter(Boolean);
 
         input.classList.remove('correct', 'incorrect');
+        const card = input.closest('.ghibli-char-card, .fill-blank-item, .exercise-item');
+        const blank = card ? card.querySelector('.ghibli-mirrored-blank') : null;
 
-        if (userVal && (acceptedAnswers.includes(userVal) || !correctAttr || correctAttr === 'null')) {
+        if (userVal && (acceptedAnswers.includes(userVal) || correctAttr === 'null')) {
           input.classList.add('correct');
+          if (blank && !blank.classList.contains('example-blank')) {
+            blank.classList.add('correct');
+            blank.classList.remove('incorrect');
+          }
           totalCorrect++;
           acceptedAnswers.forEach(ans => { if (ans) correctUserAnswers.add(ans); });
           if (userVal) correctUserAnswers.add(userVal);
         } else {
           input.classList.add('incorrect');
+          if (blank && !blank.classList.contains('example-blank')) {
+            blank.classList.add('incorrect');
+            blank.classList.remove('correct');
+          }
         }
       });
 
@@ -669,19 +1599,104 @@
         }
       });
 
+      // 3b. Cross-Out In-Sentence Exercises
+      const crossoutGroups = document.querySelectorAll('.ghibli-crossout-group');
+      crossoutGroups.forEach(group => {
+        const btns = group.querySelectorAll('.ghibli-crossout-btn');
+        if (btns.length === 0) return;
+        totalItems++;
+
+        btns.forEach(b => b.classList.remove('correct', 'incorrect', 'should-cross'));
+        group.classList.remove('unattempted');
+        const crossedBtn = group.querySelector('.ghibli-crossout-btn.crossed-out, .ghibli-crossout-btn.selected');
+
+        if (crossedBtn) {
+          const isTarget = (crossedBtn.getAttribute('data-correct') === 'true');
+          if (isTarget) {
+            crossedBtn.classList.add('correct');
+            totalCorrect++;
+          } else {
+            crossedBtn.classList.add('incorrect');
+            // If student made an incorrect selection, show what should have been crossed
+            const correctTarget = group.querySelector('.ghibli-crossout-btn[data-correct="true"]');
+            if (correctTarget) {
+              correctTarget.classList.add('should-cross');
+            }
+          }
+        } else {
+          // If nothing is selected, do NOT tell the student which is the correct answer
+          group.classList.add('unattempted');
+        }
+      });
+
       // 4. Matching Selects
-      const matchingSelects = document.querySelectorAll('.ghibli-matching-select[data-correct]');
+      const matchingSelects = document.querySelectorAll('select.ghibli-input[data-correct], select.ghibli-matching-select[data-correct], select.ghibli-select-matching[data-correct], .ghibli-matching-select[data-correct], .ghibli-select-matching[data-correct]');
+      const seenSelects = new Set();
       matchingSelects.forEach(select => {
+        if (seenSelects.has(select)) return;
+        seenSelects.add(select);
+        if (select.closest('.ghibli-ordering-container, .ghibli-connecting-container')) return;
+        if (select.hasAttribute('readonly') || select.classList.contains('example-input')) return;
+
         totalItems++;
         const userVal = normalize(select.value);
-        const correctVal = normalize(select.getAttribute('data-correct') || '');
+        const correctAttr = select.getAttribute('data-correct') || '';
+        const acceptedAnswers = correctAttr.split('|').map(normalize).filter(Boolean);
 
         select.classList.remove('correct', 'incorrect');
-        if (userVal && userVal === correctVal) {
+        if (userVal && acceptedAnswers.includes(userVal)) {
           select.classList.add('correct');
           totalCorrect++;
+          acceptedAnswers.forEach(ans => { if (ans) correctUserAnswers.add(ans); });
+          if (userVal) correctUserAnswers.add(userVal);
         } else {
           select.classList.add('incorrect');
+        }
+      });
+
+      // 4b. Connecting Match Exercises (e.g. Exercise 8.6)
+      const connectingContainers = document.querySelectorAll('.ghibli-connecting-container');
+      connectingContainers.forEach(container => {
+        const sourceCards = container.querySelectorAll('.source-card');
+        sourceCards.forEach(card => {
+          totalItems++;
+          const input = card.querySelector('input.ghibli-connecting-input');
+          const userVal = normalize(input ? input.value : '');
+          const correctVal = normalize(card.getAttribute('data-correct') || (input ? input.getAttribute('data-correct') : ''));
+          const targetCard = userVal ? container.querySelector(`.target-card[data-target-id="${userVal}"]`) : null;
+
+          card.classList.remove('connected-correct', 'connected-incorrect', 'unattempted-pulse');
+          if (targetCard && !targetCard.classList.contains('example-card')) {
+            targetCard.classList.remove('connected-correct', 'connected-incorrect');
+          }
+
+          if (userVal) {
+            const isCorrect = (userVal === correctVal);
+            if (isCorrect) {
+              card.classList.add('connected-correct');
+              if (targetCard) targetCard.classList.add('connected-correct');
+              totalCorrect++;
+              if (input) {
+                input.classList.add('correct');
+                input.classList.remove('incorrect');
+              }
+              correctUserAnswers.add(userVal);
+            } else {
+              card.classList.add('connected-incorrect');
+              if (targetCard) targetCard.classList.add('connected-incorrect');
+              if (input) {
+                input.classList.add('incorrect');
+                input.classList.remove('correct');
+              }
+            }
+          } else {
+            card.classList.add('unattempted-pulse');
+            if (input) input.classList.add('incorrect');
+          }
+        });
+
+        if (container._ghibliGradeLines) {
+          container._ghibliGradeLines();
         }
       });
 
@@ -794,15 +1809,44 @@
         input.classList.remove('correct', 'incorrect');
       });
 
+      // Reset mirrored blanks in sentences
+      document.querySelectorAll('.ghibli-char-card, .fill-blank-item, .exercise-item').forEach(card => {
+        const promptWrap = card.querySelector('.ghibli-prompt-text, .ghibli-sentence-text, .item-text');
+        const targetSpan = promptWrap ? (promptWrap.querySelector('span:not(.ghibli-eg-badge):not(.ghibli-example-badge):not(.item-index)') || promptWrap) : null;
+        const origSentence = card.dataset.origSentence;
+        if (targetSpan && origSentence && !card.classList.contains('example-card')) {
+          let resetHtml = origSentence.replace(/\(([a-zA-Z\s]+)\)/g, '<span class="ghibli-clue-hint">($1)</span>');
+          if (/\[blank\]/i.test(resetHtml)) {
+            resetHtml = resetHtml.replace(/\[blank\]/gi, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+          } else {
+            resetHtml = resetHtml.replace(/_{2,}/g, '<span class="ghibli-mirrored-blank placeholder" data-placeholder="______">______</span>');
+          }
+          targetSpan.innerHTML = resetHtml;
+        }
+      });
+
       // Reset option buttons
       document.querySelectorAll('.ghibli-option, .tf-btn').forEach(btn => {
         btn.classList.remove('selected', 'correct', 'incorrect');
       });
 
+      // Reset crossout buttons
+      document.querySelectorAll('.ghibli-crossout-group').forEach(group => group.classList.remove('unattempted'));
+      document.querySelectorAll('.ghibli-crossout-btn').forEach(btn => {
+        btn.classList.remove('crossed-out', 'selected', 'correct', 'incorrect', 'should-cross');
+      });
+
       // Reset matching selects
-      document.querySelectorAll('.ghibli-matching-select').forEach(select => {
+      document.querySelectorAll('select.ghibli-input, select.ghibli-matching-select, select.ghibli-select-matching, .ghibli-matching-select, .ghibli-select-matching').forEach(select => {
         select.selectedIndex = 0;
         select.classList.remove('correct', 'incorrect');
+      });
+
+      // Reset connecting matching containers
+      document.querySelectorAll('.ghibli-connecting-container').forEach(container => {
+        if (container._ghibliDisconnectAll) {
+          container._ghibliDisconnectAll();
+        }
       });
 
       // Reset sidebar / word panel items
@@ -833,7 +1877,14 @@
       });
 
       // Reset score badge
-      const totalItems = document.querySelectorAll('.ghibli-input[data-correct], .ghibli-ordering-container, .ghibli-mc-container, .ghibli-matching-select[data-correct], .tf-btn-group').length;
+      const inputCount = document.querySelectorAll('input.ghibli-input[data-correct]:not([readonly]):not(.example-input):not(.ghibli-connecting-input), input.ex1-1-input[data-correct]').length;
+      const selectCount = document.querySelectorAll('select.ghibli-input[data-correct], select.ghibli-matching-select[data-correct], select.ghibli-select-matching[data-correct]').length;
+      const orderCount = document.querySelectorAll('.ghibli-ordering-container').length;
+      const mcCount = document.querySelectorAll('.ghibli-mc-container, .mc-options-grid').length;
+      const tfCount = document.querySelectorAll('.tf-btn-group').length;
+      const connectingCount = document.querySelectorAll('.ghibli-connecting-container .source-card').length;
+      const totalItems = inputCount + selectCount + orderCount + mcCount + tfCount + connectingCount;
+
       const scoreText = document.getElementById('ghibliScoreText');
       if (scoreText) {
         scoreText.textContent = `Score: 0 / ${totalItems}`;

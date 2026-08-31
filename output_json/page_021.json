@@ -191,13 +191,13 @@
     },
     {
       "exercise_id": "5.5",
-      "exercise_type": "matching",
+      "exercise_type": "audio_listen",
       "instruction": "USE THE CHART TO CREATE 12 CORRECT SENTENCES AND SAY THEM OUT LOUD",
       "items": [
         {
           "item_number": 1,
           "prompt_text": "This is her cat.",
-          "question": "Create 12 correct sentences using the chart: [This, That] + [is] + [her, their, my] + [cat., parrot.]",
+          "question": "Use the chart with options: [This, That] + [is] + [her, their, my] + [cat., parrot.] to form 12 sentences.",
           "options": [
             "This",
             "That",
@@ -224,7 +224,7 @@
           ],
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_44_5_5.mp3"
+          "audio_file_path": "audio/5/5_5_a.mp3"
         }
       ]
     }

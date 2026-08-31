@@ -135,7 +135,8 @@
         {
           "item_number": 1,
           "question": "Create sentences using the chart provided.",
-          "audio_icon_present": true
+          "audio_icon_present": true,
+          "audio_file_path": "audio/15/15_10_a.mp3"
         }
       ]
     }

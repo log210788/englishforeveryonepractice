@@ -8,6 +8,17 @@
   <!-- Meta SEO -->
   <meta name="description" content="Step into an interactive English practice world with Teacher Lewis. Practice speaking, listening, and collect adventure stickers!">
 
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .first-visit-mascot-img { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; }
+    .card-mascot-hero-img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; }
+    .big-sticker-book-img { width: 150px; height: 150px; object-fit: contain; }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="index.css">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +26,6 @@
 
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- Custom Landing Styles -->
-  <link rel="stylesheet" href="index.css">
 </head>
 <body class="theme-day">
 
@@ -25,7 +33,7 @@
   <div class="first-visit-overlay" id="firstVisitOverlay">
     <div class="first-visit-card">
       <div class="first-visit-mascot-wrap">
-        <img src="images/ghibli/mascot.jpg" alt="Teacher Lewis's Mascot" class="first-visit-mascot-img" id="firstVisitMascotImg">
+        <img src="images/ghibli/mascot.jpg" alt="Teacher Lewis's Mascot" class="first-visit-mascot-img" id="firstVisitMascotImg" width="140" height="140" loading="eager" decoding="async">
         <div class="first-visit-status-ring"></div>
       </div>
 
@@ -114,10 +122,10 @@
       <!-- Two Main Focal Destinations: Chapter 1 Practice & Big Interactive Sticker Book -->
       <div class="hub-main-grid">
         
-        <!-- Destination 1: Chapter 1 Practice Module -->
+        <!-- Destination 1: Unit 1 Practice Module -->
         <div class="module-card minimal-card">
           <div class="module-card-header">
-            <span class="module-badge">Chapter 1 • Unit 1</span>
+            <span class="module-badge">Unit 1 • Exercises 1.1 – 8.10</span>
             <span class="module-sticker-indicator"><i class="fa-solid fa-award"></i> Earn 2 Stickers</span>
           </div>
 
@@ -126,31 +134,33 @@
             <img src="images/ghibli/mascot_idle.jpg"
                  alt="Forest Spirit – waiting for you!"
                  class="card-mascot-hero-img mascot-idle-img"
-                 id="chapterMascotImg">
+                 id="chapterMascotImg"
+                 width="160" height="160" loading="eager" decoding="async">
             <img src="images/ghibli/mascot_letsgo.jpg"
                  alt="Forest Spirit – Let's go!"
                  class="card-mascot-hero-img mascot-letsgo-img"
-                 id="chapterMascotLetsGo">
+                 id="chapterMascotLetsGo"
+                 width="160" height="160" loading="eager" decoding="async">
             <div class="mascot-hero-glow"></div>
           </div>
 
-          <h3 class="module-title" style="text-align: center;">Introducing Yourself</h3>
+          <h3 class="module-title" style="text-align: center;">Unit 1: Introducing Yourself & Belongings</h3>
           <p class="module-desc" style="text-align: center;">
-            Rewrite contracted verb forms, practice sentence audio, record your voice, and earn your <strong>Traveler's Backpack</strong> sticker!
+            Practice greetings, contracted forms, country flags, family trees, apostrophes, and demonstrative pronouns (Pages 12–29)!
           </p>
 
           <ul class="module-features-list" style="margin-bottom: 24px;">
-            <li><i class="fa-solid fa-circle-check"></i> 11 interactive practice exercises</li>
+            <li><i class="fa-solid fa-circle-check"></i> Exercises 1.1 to 8.10 (Pages 12–29)</li>
             <li><i class="fa-solid fa-circle-check"></i> Native audio & voice recorder</li>
-            <li><i class="fa-solid fa-circle-check"></i> 100% score unlocks Traveler's Backpack <img src="images/ghibli/backpack_sticker.svg" class="inline-backpack-img" alt="Backpack"></li>
+            <li><i class="fa-solid fa-circle-check"></i> 100% score unlocks Traveler's Backpack <img src="images/ghibli/backpack_sticker.svg" class="inline-backpack-img" alt="Backpack" width="22" height="22"></li>
           </ul>
 
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a href="ghibli_page12.html" class="ghibli-btn ghibli-btn-gold" style="flex: 1; justify-content: center; padding: 12px 18px; font-weight: 700; text-decoration: none;" id="startPrototypeBtn">
-              🌱 Original Page 12 Prototype
+            <a href="unit1.html" class="ghibli-btn ghibli-btn-gold" style="flex: 1; justify-content: center; padding: 12px 18px; font-weight: 700; text-decoration: none;" id="startPrototypeBtn">
+              🌱 Open Unit 1 Module
             </a>
-            <a href="ghibli_p008.html" class="ghibli-btn ghibli-btn-primary" style="flex: 1; justify-content: center; padding: 12px 18px; font-weight: 700; text-decoration: none;" id="startChapterBtn">
-              Start Full Book (Page 8) 🌿
+            <a href="ghibli_reader.html?page=12" class="ghibli-btn ghibli-btn-primary" style="flex: 1; justify-content: center; padding: 12px 18px; font-weight: 700; text-decoration: none;" id="startChapterBtn">
+              Continuous Reader 🌿
             </a>
           </div>
         </div>
@@ -163,8 +173,8 @@
 
           <!-- Sticker book image — closed by default, open on button hover -->
           <div class="big-sticker-book-img-wrap">
-            <img src="images/ghibli/sticker_book.svg" alt="Teacher Lewis's Sticker Book" class="big-sticker-book-img sb-closed-img">
-            <img src="images/ghibli/sticker_book_open.jpg" alt="Sticker Book Open" class="big-sticker-book-img sb-open-img">
+            <img src="images/ghibli/sticker_book.svg" alt="Teacher Lewis's Sticker Book" class="big-sticker-book-img sb-closed-img" width="150" height="150" loading="eager" decoding="async">
+            <img src="images/ghibli/sticker_book_open.jpg" alt="Sticker Book Open" class="big-sticker-book-img sb-open-img" width="150" height="150" loading="eager" decoding="async">
             <div class="sticker-book-glow-ring"></div>
           </div>
 
@@ -180,125 +190,111 @@
 
       </div>
 
-      
-      
-      
-      <!-- PAGE JUMP SELECTOR & ALL 8 CHAPTERS GALLERY -->
+      <!-- PAGE JUMP SELECTOR & ALL 7 UNITS GALLERY -->
       <div style="margin-top: 48px;">
         <div style="text-align: center; margin-bottom: 28px;">
-          <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: var(--ghibli-text-main); font-weight: 800; margin-bottom: 8px;">📚 The Complete Book Chapters</h2>
-          <p style="color: var(--ghibli-text-muted); font-size: 0.98rem;">Select a chapter world below to access all exercises from 1.1 to 48.7!</p>
+          <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: var(--ghibli-text-main); font-weight: 800; margin-bottom: 8px;">📚 The Complete 7 Practice Units</h2>
+          <p style="color: var(--ghibli-text-muted); font-size: 0.98rem;">Select a unit world below to practice all exercises from Unit 1 (1.1) to Unit 7 (48.8)!</p>
         </div>
 
-        <!-- QUICK CHAPTER & PAGE SELECTOR -->
+        <!-- QUICK UNIT & PAGE SELECTOR -->
         <div style="background: rgba(255,255,255,0.92); border-radius: 20px; padding: 20px 24px; border: 1.5px solid var(--ghibli-border); margin-bottom: 36px; text-align: center; box-shadow: 0 8px 24px rgba(0,0,0,0.06); backdrop-filter: blur(10px);">
           <div style="font-weight: 700; font-family: var(--font-heading); color: var(--ghibli-text-main); font-size: 1.15rem; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; gap: 8px;">
-            <i class="fa-solid fa-book-open" style="color: var(--ghibli-accent-green);"></i> Jump to Any Page (Pages 12 to 176) or Chapter
+            <i class="fa-solid fa-book-open" style="color: var(--ghibli-accent-green);"></i> Jump to Any Unit (Units 1 to 7) or Page
           </div>
           <div style="display: flex; justify-content: center; align-items: center; gap: 16px; flex-wrap: wrap;">
             <!-- Direct Page Number Jump Box -->
             <div style="display: flex; align-items: center; gap: 8px; background: #fff; padding: 6px 14px; border-radius: 24px; border: 1.5px solid var(--ghibli-border); box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
               <span style="font-weight: 700; font-size: 0.9rem; color: #2d5a27;"><i class="fa-solid fa-compass"></i> Page #:</span>
-              <input type="number" id="directPageInput" placeholder="12 - 176" min="12" max="176" style="width: 80px; padding: 6px 8px; border-radius: 12px; border: 1.5px solid #ccc; font-weight: 700; text-align: center; font-size: 1rem; outline: none;" onkeydown="if(event.key === 'Enter') { const p = parseInt(this.value, 10); if(p >= 12 && p <= 176) window.location.href = 'ghibli_p' + String(p).padStart(3, '0') + '.html'; else alert('Enter a page number between 12 and 176!'); }">
-              <button class="ghibli-btn ghibli-btn-primary" style="padding: 6px 14px; font-size: 0.85rem;" onclick="const p = parseInt(document.getElementById('directPageInput').value, 10); if(p >= 12 && p <= 176) window.location.href = 'ghibli_p' + String(p).padStart(3, '0') + '.html'; else alert('Enter a page number between 12 and 176!');">
+              <input type="number" id="directPageInput" placeholder="8 - 176" min="8" max="176" style="width: 80px; padding: 6px 8px; border-radius: 12px; border: 1.5px solid #ccc; font-weight: 700; text-align: center; font-size: 1rem; outline: none;" onkeydown="if(event.key === 'Enter') { const p = parseInt(this.value, 10); if(p >= 8 && p <= 176) window.location.href = 'ghibli_reader.html?page=' + p; else alert('Enter a page number between 8 and 176!'); }">
+              <button class="ghibli-btn ghibli-btn-primary" style="padding: 6px 14px; font-size: 0.85rem;" onclick="const p = parseInt(document.getElementById('directPageInput').value, 10); if(p >= 8 && p <= 176) window.location.href = 'ghibli_reader.html?page=' + p; else alert('Enter a page number between 8 and 176!');">
                 Jump <i class="fa-solid fa-bolt"></i>
               </button>
             </div>
 
-            <!-- Chapter Select -->
-            <select id="quickPageSelect" onchange="if(this.value) window.location.href = this.value;" style="padding: 12px 20px; border-radius: 24px; border: 1.5px solid var(--ghibli-border); font-family: var(--font-body); font-weight: 600; font-size: 0.95rem; background: #fff; color: var(--ghibli-text-main); cursor: pointer; min-width: 320px; outline: none; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-              <option value="">-- Or Select Book Chapter (Chapters 1 to 8) --</option>
-              <option value="ghibli_chapter1.html">Chapter 1: Introducing Yourself & Your Things (Exercises 1.1 – 8.10)</option>
-              <option value="ghibli_chapter2.html">Chapter 2: Jobs, Time & Daily Routines (Exercises 9.1 – 14.5)</option>
-              <option value="ghibli_chapter3.html">Chapter 3: Negatives & Questions with 'to be' (Exercises 15.1 – 19.5)</option>
-              <option value="ghibli_chapter4.html">Chapter 4: Towns, Places & Directions (Exercises 20.1 – 27.5)</option>
-              <option value="ghibli_chapter5.html">Chapter 5: Accommodation & House (Exercises 28.1 – 33.5)</option>
-              <option value="ghibli_chapter6.html">Chapter 6: Shops, Numbers & Counting (Exercises 34.1 – 36.5)</option>
-              <option value="ghibli_chapter7.html">Chapter 7: Sports, Free Time & Preferences (Exercises 37.1 – 43.5)</option>
-              <option value="ghibli_chapter8.html">Chapter 8: Abilities, Wishes & Review (Exercises 44.1 – 48.7)</option>
+            <!-- Unit Select -->
+            <select id="quickPageSelect" onchange="if(this.value) window.location.href = this.value;" style="padding: 12px 20px; border-radius: 24px; border: 1.5px solid var(--ghibli-border); font-family: var(--font-body); font-weight: 600; font-size: 0.95rem; background: #fff; color: var(--ghibli-text-main); cursor: pointer; min-width: 340px; outline: none; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+              <option value="">-- Or Select Practice Unit (Units 1 to 7) --</option>
+              <option value="unit1.html">🌿 Unit 1: Introducing Yourself & Belongings (Ex 1.1–8.10 • Pages 12–29)</option>
+              <option value="unit2.html">🚂 Unit 2: Jobs, Time & Daily Life (Ex 9.1–14.8 • Pages 30–45)</option>
+              <option value="unit3.html">☁️ Unit 3: Negatives & Questions (Ex 15.1–19.9 • Pages 46–63)</option>
+              <option value="unit4.html">⚓ Unit 4: Towns, Places & Giving Directions (Ex 20.1–26.4 • Pages 64–85)</option>
+              <option value="unit5.html">🌳 Unit 5: Around the House, Food & Shopping (Ex 27.1–35.6 • Pages 86–115)</option>
+              <option value="unit6.html">⛵ Unit 6: Sports, Free Time & Preferences (Ex 36.1–42.6 • Pages 116–137)</option>
+              <option value="unit7.html">📚 Unit 7: Abilities, Actions & Studying (Ex 43.1–48.8 • Pages 138–155)</option>
             </select>
           </div>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px;">
           
-          <a href="ghibli_chapter1.html" style="text-decoration: none;">
+          <a href="unit1.html" style="text-decoration: none;">
             <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
               <div style="font-size: 2.2rem; margin-bottom: 10px;">🌿</div>
-              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 1 • Exercises 1.1 – 8.10 (322 items)</div>
-              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Introducing Yourself & Your Things</h4>
-              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">English Countryside Cottage</p>
-              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 1 →</span>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Unit 1 • Ex 1.1 – 8.10 (Pages 12–29)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Introducing Yourself & Belongings</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Names, Countries, Family & Pets</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Open Unit 1 →</span>
             </div>
           </a>
 
-          <a href="ghibli_chapter2.html" style="text-decoration: none;">
+          <a href="unit2.html" style="text-decoration: none;">
             <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
               <div style="font-size: 2.2rem; margin-bottom: 10px;">🚂</div>
-              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 2 • Exercises 9.1 – 14.5 (305 items)</div>
-              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Jobs, Time & Daily Routines</h4>
-              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Mountain Train Station</p>
-              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 2 →</span>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Unit 2 • Ex 9.1 – 14.8 (Pages 30–45)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Jobs, Time & Daily Life</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Workplaces, Time & Weekly Routines</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Open Unit 2 →</span>
             </div>
           </a>
 
-          <a href="ghibli_chapter3.html" style="text-decoration: none;">
+          <a href="unit3.html" style="text-decoration: none;">
             <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
               <div style="font-size: 2.2rem; margin-bottom: 10px;">☁️</div>
-              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 3 • Exercises 15.1 – 19.5 (289 items)</div>
-              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Negatives & Questions with 'to be'</h4>
-              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Floating Sky City</p>
-              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 3 →</span>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Unit 3 • Ex 15.1 – 19.9 (Pages 46–63)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Negatives & Questions</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Negatives, Simple & Open Questions</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Open Unit 3 →</span>
             </div>
           </a>
 
-          <a href="ghibli_chapter4.html" style="text-decoration: none;">
+          <a href="unit4.html" style="text-decoration: none;">
             <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
               <div style="font-size: 2.2rem; margin-bottom: 10px;">⚓</div>
-              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 4 • Exercises 20.1 – 27.5 (318 items)</div>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Unit 4 • Ex 20.1 – 26.4 (Pages 64–85)</div>
               <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Towns, Places & Directions</h4>
-              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Seaside Harbor Town</p>
-              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 4 →</span>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Places in Town, Articles & Reasons</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Open Unit 4 →</span>
             </div>
           </a>
 
-          <a href="ghibli_chapter5.html" style="text-decoration: none;">
+          <a href="unit5.html" style="text-decoration: none;">
             <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
               <div style="font-size: 2.2rem; margin-bottom: 10px;">🌳</div>
-              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 5 • Exercises 28.1 – 33.5 (335 items)</div>
-              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Accommodation & House</h4>
-              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Enchanted Treehouse Village</p>
-              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 5 →</span>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Unit 5 • Ex 27.1 – 35.6 (Pages 86–115)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">House, Food & Shopping</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">House Items, Food, Clothes & Shopping</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Open Unit 5 →</span>
             </div>
           </a>
 
-          <a href="ghibli_chapter6.html" style="text-decoration: none;">
-            <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
-              <div style="font-size: 2.2rem; margin-bottom: 10px;">🛍️</div>
-              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 6 • Exercises 34.1 – 36.5 (135 items)</div>
-              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Shops, Numbers & Counting</h4>
-              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Magical Market Square</p>
-              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 6 →</span>
-            </div>
-          </a>
-
-          <a href="ghibli_chapter7.html" style="text-decoration: none;">
+          <a href="unit6.html" style="text-decoration: none;">
             <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
               <div style="font-size: 2.2rem; margin-bottom: 10px;">⛵</div>
-              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 7 • Exercises 37.1 – 43.5 (334 items)</div>
-              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Sports, Free Time & Preferences</h4>
-              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Crystal Lake Valley</p>
-              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 7 →</span>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Unit 6 • Ex 36.1 – 42.6 (Pages 116–137)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Sports, Free Time & Music</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Sports, Pastimes, Likes & Preferences</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Open Unit 6 →</span>
             </div>
           </a>
 
-          <a href="ghibli_chapter8.html" style="text-decoration: none;">
+          <a href="unit7.html" style="text-decoration: none;">
             <div class="module-card" style="padding: 22px 18px; text-align: center; cursor: pointer; transition: all 0.25s; border: 2px solid var(--ghibli-border); background: var(--ghibli-card-bg);">
               <div style="font-size: 2.2rem; margin-bottom: 10px;">📚</div>
-              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Chapter 8 • Exercises 44.1 – 48.7 (1,754 items)</div>
-              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Abilities, Wishes & Review</h4>
-              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Starlight Library Tower</p>
-              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Start Chapter 8 →</span>
+              <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ghibli-accent-green); margin-bottom: 6px;">Unit 7 • Ex 43.1 – 48.8 (Pages 138–155)</div>
+              <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--ghibli-text-main); margin-bottom: 8px; font-weight: 700;">Abilities, Actions & Studying</h4>
+              <p style="font-size: 0.78rem; color: var(--ghibli-text-muted); margin-bottom: 14px;">Can/Can't, Adverbs, Wishes & Studies</p>
+              <span style="background: var(--ghibli-accent-green); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">Open Unit 7 →</span>
             </div>
           </a>
         </div>

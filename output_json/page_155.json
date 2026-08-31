@@ -9,77 +9,107 @@
         {
           "item_number": 1,
           "question": "Sally is in the hospital. She is ill.",
-          "correct_answer": "Sally is in hospital. She is ill."
+          "correct_answer": "Sally is in hospital. She is ill.",
+          "audio_file_path": "audio/48/48_7_1.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 2,
           "question": "York is the pretty town.",
-          "correct_answer": "York is a pretty town."
+          "correct_answer": "York is a pretty town.",
+          "audio_file_path": "audio/48/48_7_2.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 3,
           "question": "She is at a home now.",
-          "correct_answer": "She is at home now."
+          "correct_answer": "She is at home now.",
+          "audio_file_path": "audio/48/48_7_3.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 4,
           "question": "Lizzie goes to the church on Sundays.",
-          "correct_answer": "Lizzie goes to church on Sundays."
+          "correct_answer": "Lizzie goes to church on Sundays.",
+          "audio_file_path": "audio/48/48_7_4.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 5,
           "question": "Bob is at the work at the moment.",
-          "correct_answer": "Bob is at work at the moment."
+          "correct_answer": "Bob is at work at the moment.",
+          "audio_file_path": "audio/48/48_7_5.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 6,
           "question": "Christopher has new car.",
-          "correct_answer": "Christopher has a new car."
+          "correct_answer": "Christopher has a new car.",
+          "audio_file_path": "audio/48/48_7_6.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 7,
           "question": "Jim goes to the bed early on Sundays.",
-          "correct_answer": "Jim goes to bed early on Sundays."
+          "correct_answer": "Jim goes to bed early on Sundays.",
+          "audio_file_path": "audio/48/48_7_7.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 8,
           "question": "Carlos is the very talented boy.",
-          "correct_answer": "Carlos is a very talented boy."
+          "correct_answer": "Carlos is a very talented boy.",
+          "audio_file_path": "audio/48/48_7_8.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 9,
           "question": "Sarah and John are great team.",
-          "correct_answer": "Sarah and John are a great team."
+          "correct_answer": "Sarah and John are a great team.",
+          "audio_file_path": "audio/48/48_7_9.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 10,
           "question": "Mary bought the three new pens.",
-          "correct_answer": "Mary bought three new pens."
+          "correct_answer": "Mary bought three new pens.",
+          "audio_file_path": "audio/48/48_7_10.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 11,
           "question": "He jumped into a water and started swimming.",
-          "correct_answer": "He jumped into the water and started swimming."
+          "correct_answer": "He jumped into the water and started swimming.",
+          "audio_file_path": "audio/48/48_7_11.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 12,
           "question": "New York is the beautiful city.",
-          "correct_answer": "New York is a beautiful city."
+          "correct_answer": "New York is a beautiful city.",
+          "audio_file_path": "audio/48/48_7_12.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 13,
           "question": "A children were playing in the sun.",
-          "correct_answer": "The children were playing in the sun."
+          "correct_answer": "The children were playing in the sun.",
+          "audio_file_path": "audio/48/48_7_13.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 14,
           "question": "I can't play the soccer on Monday.",
-          "correct_answer": "I can't play soccer on Monday."
+          "correct_answer": "I can't play soccer on Monday.",
+          "audio_file_path": "audio/48/48_7_14.mp3",
+          "audio_icon_present": true
         },
         {
           "item_number": 15,
           "question": "Can you play a classical guitar?",
-          "correct_answer": "Can you play the classical guitar?"
+          "correct_answer": "Can you play the classical guitar?",
+          "audio_file_path": "audio/48/48_7_15.mp3",
+          "audio_icon_present": true
         }
       ]
     },
@@ -100,7 +130,7 @@
           ],
           "correct_answer": "Helen",
           "audio_icon_present": true,
-          "audio_file_path": "audio/48/48_8.mp3"
+          "audio_file_path": "audio/48/48_8_uk.mp3"
         },
         {
           "item_number": 2,
@@ -114,7 +144,7 @@
           ],
           "correct_answer": "Robert",
           "audio_icon_present": true,
-          "audio_file_path": "audio/48/48_8.mp3"
+          "audio_file_path": "audio/48/48_8_uk.mp3"
         },
         {
           "item_number": 3,
@@ -128,7 +158,7 @@
           ],
           "correct_answer": "Oliver",
           "audio_icon_present": true,
-          "audio_file_path": "audio/48/48_8.mp3"
+          "audio_file_path": "audio/48/48_8_uk.mp3"
         },
         {
           "item_number": 4,
@@ -142,7 +172,7 @@
           ],
           "correct_answer": "Eddie",
           "audio_icon_present": true,
-          "audio_file_path": "audio/48/48_8.mp3"
+          "audio_file_path": "audio/48/48_8_uk.mp3"
         }
       ]
     }

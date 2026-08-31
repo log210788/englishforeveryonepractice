@@ -15,7 +15,8 @@
           "correct_answer": "wallet",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_eg.mp3"
+          "audio_file_path": "audio/7/7_1_eg.mp3",
+          "image_path": "images/everyDayThings/wallet.png"
         },
         {
           "item_number": 1,
@@ -24,7 +25,8 @@
           "correct_answer": "notepad",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_1.mp3"
+          "audio_file_path": "audio/7/7_1_1.mp3",
+          "image_path": "images/everyDayThings/notepad.png"
         },
         {
           "item_number": 2,
@@ -33,7 +35,8 @@
           "correct_answer": "sunglasses",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_2.mp3"
+          "audio_file_path": "audio/7/7_1_2.mp3",
+          "image_path": "images/everyDayThings/sunglasses.png"
         },
         {
           "item_number": 3,
@@ -42,7 +45,8 @@
           "correct_answer": "keys",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_3.mp3"
+          "audio_file_path": "audio/7/7_1_3.mp3",
+          "image_path": "images/everyDayThings/keys.png"
         },
         {
           "item_number": 7,
@@ -51,7 +55,8 @@
           "correct_answer": "ID card",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_7.mp3"
+          "audio_file_path": "audio/7/7_1_7.mp3",
+          "image_path": "images/everyDayThings/id_card.png"
         },
         {
           "item_number": 8,
@@ -60,7 +65,8 @@
           "correct_answer": "letter",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_8.mp3"
+          "audio_file_path": "audio/7/7_1_8.mp3",
+          "image_path": "images/everyDayThings/letter.png"
         },
         {
           "item_number": 9,
@@ -69,7 +75,8 @@
           "correct_answer": "toothbrush",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_9.mp3"
+          "audio_file_path": "audio/7/7_1_9.mp3",
+          "image_path": "images/everyDayThings/toothbrush.png"
         },
         {
           "item_number": 10,
@@ -78,7 +85,8 @@
           "correct_answer": "hairbrush",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_10.mp3"
+          "audio_file_path": "audio/7/7_1_10.mp3",
+          "image_path": "images/everyDayThings/hairbrush.png"
         },
         {
           "item_number": 14,
@@ -87,7 +95,8 @@
           "correct_answer": "pencil",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_14.mp3"
+          "audio_file_path": "audio/7/7_1_14.mp3",
+          "image_path": "images/everyDayThings/pencil.png"
         },
         {
           "item_number": 15,
@@ -96,7 +105,8 @@
           "correct_answer": "dictionary",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_15.mp3"
+          "audio_file_path": "audio/7/7_1_15.mp3",
+          "image_path": "images/everyDayThings/dictionary.png"
         },
         {
           "item_number": 16,
@@ -105,7 +115,8 @@
           "correct_answer": "apple",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_16.mp3"
+          "audio_file_path": "audio/7/7_1_16.mp3",
+          "image_path": "images/everyDayThings/apple.png"
         },
         {
           "item_number": 17,
@@ -114,7 +125,8 @@
           "correct_answer": "book",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_17.mp3"
+          "audio_file_path": "audio/7/7_1_17.mp3",
+          "image_path": "images/everyDayThings/book.png"
         },
         {
           "item_number": 21,
@@ -123,7 +135,8 @@
           "correct_answer": "passport",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_21.mp3"
+          "audio_file_path": "audio/7/7_1_21.mp3",
+          "image_path": "images/everyDayThings/passport.png"
         },
         {
           "item_number": 22,
@@ -132,7 +145,8 @@
           "correct_answer": "magazine",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_22.mp3"
+          "audio_file_path": "audio/7/7_1_22.mp3",
+          "image_path": "images/everyDayThings/magazine.png"
         },
         {
           "item_number": 23,
@@ -141,7 +155,8 @@
           "correct_answer": "camera",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_23.mp3"
+          "audio_file_path": "audio/7/7_1_23.mp3",
+          "image_path": "images/everyDayThings/camera.png"
         },
         {
           "item_number": 24,
@@ -150,7 +165,8 @@
           "correct_answer": "glasses",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/7/7_1_24.mp3"
+          "audio_file_path": "audio/7/7_1_24.mp3",
+          "image_path": "images/everyDayThings/glasses.png"
         }
       ]
     }

@@ -19,7 +19,7 @@
           ],
           "correct_answer": "Canada.",
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_6.mp3"
+          "audio_file_path": "audio/21/21_6_us.mp3"
         },
         {
           "item_number": 1,
@@ -31,7 +31,7 @@
             "offices"
           ],
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_6.mp3"
+          "audio_file_path": "audio/21/21_6_us.mp3"
         },
         {
           "item_number": 2,
@@ -43,7 +43,7 @@
             "primary school."
           ],
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_6.mp3"
+          "audio_file_path": "audio/21/21_6_us.mp3"
         },
         {
           "item_number": 3,
@@ -55,7 +55,7 @@
             "swimming pool."
           ],
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_6.mp3"
+          "audio_file_path": "audio/21/21_6_us.mp3"
         },
         {
           "item_number": 4,
@@ -67,7 +67,7 @@
             "post office."
           ],
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_6.mp3"
+          "audio_file_path": "audio/21/21_6_us.mp3"
         },
         {
           "item_number": 5,
@@ -79,7 +79,7 @@
             "actor."
           ],
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_6.mp3"
+          "audio_file_path": "audio/21/21_6_us.mp3"
         }
       ]
     },

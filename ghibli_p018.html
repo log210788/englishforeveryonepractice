@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit 4: Family & Relatives • Page 18 | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit 1 • Page 18: Family & Relatives | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788155925">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -25,12 +36,13 @@
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit 4: Family & Relatives • Page 18</span>
+          <span class="ghibli-subtitle">🌿 Unit 1 • Lesson: Family & Relatives • Page 18</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        <a href="unit1.html" class="ghibli-btn ghibli-btn-gold" title="Open Complete Unit 1 Module"><i class="fa-solid fa-book-open"></i> Full Unit 1</a>
+        <a href="ghibli_reader.html?page=18" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -45,15 +57,15 @@
 
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
-      <a href="ghibli_page017.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 17)</a>
-      <span class="page-turn-badge">📖 Page 18 of 169</span>
-      <a href="ghibli_page019.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 19) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p017.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 17)</a>
+      <span class="page-turn-badge">📖 Page 18 of 168</span>
+      <a href="ghibli_p019.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 19) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
     <div class="ghibli-hero-card">
       <div class="ghibli-hero-main">
-        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 4</span>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 1 • Lesson: Family & Relatives</span>
         <h2 class="ghibli-hero-title">Family &amp; Relatives</h2>
         <p class="ghibli-hero-desc">Vocabulary module for family relationships, family trees, and describing relatives.</p>
       </div>
@@ -104,7 +116,7 @@
             <!-- Grandmother (Example - Silhouette Woman, ONLY ONE IN A BOX) -->
             <div class="tree-node example-card" style="background:rgba(45,90,39,0.08); border:2px solid #2d5a27; border-radius:20px; padding:12px;">
               <div class="tree-avatar-container">
-                <img src="images/people/womanNoDetail.png" alt="Grandmother" class="tree-avatar">
+                <img src="images/people/womanNoDetail.png" alt="Grandmother" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -124,7 +136,7 @@
             <!-- Grandfather (Blank 1 - Silhouette Man, NO BOX) -->
             <div class="tree-node">
               <div class="tree-avatar-container">
-                <img src="images/people/manNoDetail.png" alt="Grandfather" class="tree-avatar">
+                <img src="images/people/manNoDetail.png" alt="Grandfather" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -156,7 +168,7 @@
               <!-- Mother (Given In-law Spouse from outside family) -->
               <div class="tree-node in-law-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/womanNoDetail.png" alt="Mother" class="tree-avatar">
+                  <img src="images/people/womanNoDetail.png" alt="Mother" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 </div>
                 <span class="given-role-badge">mother</span>
               </div>
@@ -166,7 +178,7 @@
               <!-- Father (Blank 2 - Brother 1 / Blood Son) -->
               <div class="tree-node blood-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/manNoDetail.png" alt="Father" class="tree-avatar">
+                  <img src="images/people/manNoDetail.png" alt="Father" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                   <div class="tree-audio-btn-wrap">
                     <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                   </div>
@@ -180,7 +192,7 @@
             <!-- RIGHT: UNCLE (SINGLE MALE SILHOUETTE - NO BOX) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/manNoDetail.png" alt="Uncle" class="tree-avatar">
+                <img src="images/people/manNoDetail.png" alt="Uncle" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -209,7 +221,7 @@
             <!-- Sister (Blank 3 - Blood Daughter of Parents) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/womanNoDetail.png" alt="Sister" class="tree-avatar">
+                <img src="images/people/womanNoDetail.png" alt="Sister" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -222,7 +234,7 @@
             <!-- Brother (Given Blood Brother of Pablo & Sister - NO BOX) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/manNoDetail.png" alt="Brother" class="tree-avatar">
+                <img src="images/people/manNoDetail.png" alt="Brother" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
               </div>
               <span class="given-role-badge">brother</span>
             </div>
@@ -232,7 +244,7 @@
               <!-- Pablo (Given Hero - Blood Son of Parents) -->
               <div class="tree-node hero-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/manNoDetail.png" alt="Pablo" class="tree-avatar">
+                  <img src="images/people/manNoDetail.png" alt="Pablo" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 </div>
                 <span class="given-role-badge hero-badge">Pablo</span>
               </div>
@@ -242,7 +254,7 @@
               <!-- Wife (Given In-Law) -->
               <div class="tree-node in-law-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/womanNoDetail.png" alt="Wife" class="tree-avatar">
+                  <img src="images/people/womanNoDetail.png" alt="Wife" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 </div>
                 <span class="given-role-badge">wife</span>
               </div>
@@ -270,7 +282,7 @@
               <!-- Son-in-Law (Given In-Law Spouse - Adult Male Silhouette) -->
               <div class="tree-node in-law-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/manNoDetail.png" alt="Son-in-Law" class="tree-avatar">
+                  <img src="images/people/manNoDetail.png" alt="Son-in-Law" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 </div>
                 <span class="given-role-badge">son-in-law</span>
               </div>
@@ -280,7 +292,7 @@
               <!-- Daughter (Blank 6 - Adult Silhouette Woman) -->
               <div class="tree-node blood-node daughter-node">
                 <div class="tree-avatar-container">
-                  <img src="images/people/womanNoDetail.png" alt="Daughter" class="tree-avatar">
+                  <img src="images/people/womanNoDetail.png" alt="Daughter" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                   <div class="tree-audio-btn-wrap">
                     <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                   </div>
@@ -294,7 +306,7 @@
             <!-- Son (Blank 5 - Adult Silhouette Man) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/manNoDetail.png" alt="Son" class="tree-avatar">
+                <img src="images/people/manNoDetail.png" alt="Son" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -323,7 +335,7 @@
             <!-- Grandson (Blank 7 - Child Silhouette Boy) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/boyNoDetail.png" alt="Grandson" class="tree-avatar">
+                <img src="images/people/boyNoDetail.png" alt="Grandson" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -336,7 +348,7 @@
             <!-- Granddaughter (Blank 8 - Child Silhouette Girl) -->
             <div class="tree-node blood-node">
               <div class="tree-avatar-container">
-                <img src="images/people/girlNoDetail.png" alt="Granddaughter" class="tree-avatar">
+                <img src="images/people/girlNoDetail.png" alt="Granddaughter" class="tree-avatar" width="100" height="125" loading="eager" decoding="async">
                 <div class="tree-audio-btn-wrap">
                   <button class="ghibli-audio-play-btn" data-audio="audio/4/4_1_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                 </div>
@@ -363,13 +375,13 @@
 
     <!-- Page Turning Navigation Bar Bottom -->
     <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:32px; padding-bottom:40px;">
-      <a href="ghibli_page017.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 17)</a>
-      <a href="ghibli_page019.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 19) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p017.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 17)</a>
+      <a href="ghibli_p019.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 19) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -390,11 +402,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v=1788155925"></script>
+  <script src="ghibli_page_engine.js?v=1788155925"></script>
 </body>
 </html>

@@ -59,7 +59,7 @@
           "correct_answer": "at",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": "audio/14/14_3_4.mp3"
+          "audio_file_path": "audio/14/14_3_4_a_usuk.mp3"
         },
         {
           "item_number": 5,
@@ -122,7 +122,7 @@
           "correct_answer": "at",
           "audio_icon_present": true,
           "audio_track_ref": null,
-          "audio_file_path": null
+          "audio_file_path": "audio/14/14_3_10_a_usuk.mp3"
         },
         {
           "item_number": 11,

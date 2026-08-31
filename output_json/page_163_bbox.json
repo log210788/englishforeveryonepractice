@@ -312,7 +312,7 @@
           "item_number": 1,
           "question": "There is a hotel.",
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_3_1.mp3",
+          "audio_file_path": "audio/21/21_3_a.mp3",
           "input_blank_box": {
             "top": 20.0,
             "left": 55.0,
@@ -330,7 +330,7 @@
           "item_number": 2,
           "question": "There is no hotel.",
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_3_2.mp3",
+          "audio_file_path": "audio/21/21_3_a.mp3",
           "input_blank_box": {
             "top": 20.0,
             "left": 55.0,
@@ -348,7 +348,7 @@
           "item_number": 3,
           "question": "There are three parks.",
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_3_3.mp3",
+          "audio_file_path": "audio/21/21_3_a.mp3",
           "input_blank_box": {
             "top": 20.0,
             "left": 55.0,
@@ -366,7 +366,7 @@
           "item_number": 4,
           "question": "There are no parks.",
           "audio_icon_present": true,
-          "audio_file_path": "audio/21/21_3_4.mp3",
+          "audio_file_path": "audio/21/21_3_a.mp3",
           "input_blank_box": {
             "top": 20.0,
             "left": 55.0,
@@ -395,7 +395,8 @@
             "left": 10.0,
             "width": 4.0,
             "height": 3.2
-          }
+          },
+          "audio_file_path": "audio/21/21_3_a.mp3"
         },
         {
           "item_number": 6,
@@ -412,7 +413,8 @@
             "left": 10.0,
             "width": 4.0,
             "height": 3.2
-          }
+          },
+          "audio_file_path": "audio/21/21_3_a.mp3"
         },
         {
           "item_number": 7,
@@ -429,7 +431,8 @@
             "left": 10.0,
             "width": 4.0,
             "height": 3.2
-          }
+          },
+          "audio_file_path": "audio/21/21_3_a.mp3"
         },
         {
           "item_number": 8,
@@ -446,7 +449,8 @@
             "left": 10.0,
             "width": 4.0,
             "height": 3.2
-          }
+          },
+          "audio_file_path": "audio/21/21_3_a.mp3"
         }
       ]
     },

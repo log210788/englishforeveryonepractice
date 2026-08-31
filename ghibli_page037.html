@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit 11: Telling the time • Page 37 | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit 2 • Page 37: Telling the time | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788156642">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -25,12 +36,13 @@
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit 11: Telling the time • Page 37</span>
+          <span class="ghibli-subtitle">🌿 Unit 2 • Lesson: Telling the time • Page 37</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        <a href="unit2.html" class="ghibli-btn ghibli-btn-gold" title="Open Complete Unit 2 Module"><i class="fa-solid fa-book-open"></i> Full Unit 2</a>
+        <a href="ghibli_reader.html?page=37" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -46,14 +58,14 @@
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
       <a href="ghibli_page036.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 36)</a>
-      <span class="page-turn-badge">📖 Page 37 of 169</span>
+      <span class="page-turn-badge">📖 Page 37 of 176</span>
       <a href="ghibli_page038.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 38) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
     <div class="ghibli-hero-card">
       <div class="ghibli-hero-main">
-        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 11</span>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 2 • Lesson: Telling the time</span>
         <h2 class="ghibli-hero-title">Telling the time</h2>
         <p class="ghibli-hero-desc">Learn how to ask for and tell the time using hours, minutes, o&#x27;clock, past, and to.</p>
       </div>
@@ -87,14 +99,18 @@
       <div class="ghibli-char-grid">
         
                   <div class="ghibli-char-card example-card" style="border: 2px solid #2d5a27; background: rgba(45,90,39,0.06);">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">1.</span>
-                        <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 8px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase; margin-right:6px;">Example</span>
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>It&#x27;s a quarter to six. =</span>
-                      </div>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                  <div class="ghibli-prompt-text">
+                    <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>
+                    
+                    <span>It&#x27;s a quarter to six. =</span>
+                  </div>
+                
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input example-input" data-correct="05:45" value="05:45" readonly style="border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="05:45">
                       </div>
@@ -108,14 +124,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s a quarter past eleven. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="11:15" placeholder="Type answer...">
                       </div>
@@ -129,14 +148,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">3.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s eleven o&#x27;clock. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="11:00" placeholder="Type answer...">
                       </div>
@@ -150,14 +172,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s eight twenty-four. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="08:24" placeholder="Type answer...">
                       </div>
@@ -171,14 +196,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s half past three. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="03:30" placeholder="Type answer...">
                       </div>
@@ -192,14 +220,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">6.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s a quarter to three. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="02:45" placeholder="Type answer...">
                       </div>
@@ -213,14 +244,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">7.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s five twenty-five. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="05:25" placeholder="Type answer...">
                       </div>
@@ -234,14 +268,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">8.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s three forty-nine. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="03:49" placeholder="Type answer...">
                       </div>
@@ -255,14 +292,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">9.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s two fifteen. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="02:15" placeholder="Type answer...">
                       </div>
@@ -276,14 +316,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">10.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s nine o&#x27;clock. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="09:00" placeholder="Type answer...">
                       </div>
@@ -297,14 +340,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">11.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s a quarter to eight. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="07:45" placeholder="Type answer...">
                       </div>
@@ -318,14 +364,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">12.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s half past eleven. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="11:30" placeholder="Type answer...">
                       </div>
@@ -339,14 +388,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">13.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_12.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_12.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s nine twenty-five. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="09:25" placeholder="Type answer...">
                       </div>
@@ -360,14 +412,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">14.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_13.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_13.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s a quarter after ten. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="10:15" placeholder="Type answer...">
                       </div>
@@ -381,14 +436,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">15.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_14.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_14.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s eleven twenty. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="11:20" placeholder="Type answer...">
                       </div>
@@ -402,14 +460,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">16.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_15.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_15.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s one fifty-five. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="01:55" placeholder="Type answer...">
                       </div>
@@ -423,14 +484,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">17.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_16.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_16.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s quarter to seven. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="06:45" placeholder="Type answer...">
                       </div>
@@ -444,14 +508,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">18.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_17.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_3_17.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>It&#x27;s six forty-five. =</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="06:45" placeholder="Type answer...">
                       </div>
@@ -473,222 +540,220 @@
         <div class="ghibli-ex-num">11.4</div>
         <div>
           <h3 class="ghibli-ex-instruction">LOOK AT THE PICTURES, THEN SAY EACH TIME OUT LOUD</h3>
-          <p class="ghibli-ex-subtext">Click play to listen or use Rec to practice speaking out loud!</p>
+          <p class="ghibli-ex-subtext">Look at each clock, say the time out loud into the microphone, and listen to compare!</p>
         </div>
       </div>
-      
-      <div class="ghibli-char-grid">
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(230px, 1fr)); gap:20px;">
         
-                  <div class="ghibli-char-card example-card" style="border: 2px solid #2d5a27; background: rgba(45,90,39,0.06);">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">1.</span>
-                        <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 8px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase; margin-right:6px;">Example</span>
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>09:15</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input example-input" data-correct="It&#x27;s a quarter past nine." value="It&#x27;s a quarter past nine." readonly style="border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="It&#x27;s a quarter past nine.">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i1"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i1"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>09:45</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="It&#x27;s a quarter to ten." placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i2"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i2"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">3.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>04:00</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="It&#x27;s four o&#x27;clock." placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i3"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i3"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>10:20</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="It&#x27;s ten twenty." placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i4"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i4"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>11:30</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="It&#x27;s half past eleven." placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i5"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i5"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">6.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>03:47</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="It&#x27;s three forty-seven." placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i6"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i6"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">7.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>03:15</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="It&#x27;s a quarter past three." placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i7"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i7"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">8.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>06:30</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="It&#x27;s half past six." placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i8"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i8"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">9.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>08:22</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="It&#x27;s eight twenty-two." placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i9"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i9"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">10.</span>
-                        
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
-                        <span>01:25</span>
-                      </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="It&#x27;s one twenty-five." placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p37_ex2_i10"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i10"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
-                    </div>
-                  </div>
-                
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">1.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_eg.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i1"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i1"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_09_15.svg" alt="09:15" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">09:15</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's a quarter past nine." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
+
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">2.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_1.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i2"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i2"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_09_45.svg" alt="09:45" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">09:45</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's a quarter to ten." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
+
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">3.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_2.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i3"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i3"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_04_00.svg" alt="04:00" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">04:00</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's four o'clock." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
+
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">4.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_3.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i4"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i4"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_10_20.svg" alt="10:20" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">10:20</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's ten twenty." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
+
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">5.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_4.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i5"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i5"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_11_30.svg" alt="11:30" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">11:30</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's half past eleven." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
+
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">6.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_5.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i6"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i6"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_03_47.svg" alt="03:47" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">03:47</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's three forty-seven." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
+
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">7.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_6.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i7"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i7"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_03_15.svg" alt="03:15" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">03:15</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's a quarter past three." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
+
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">8.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_7.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i8"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i8"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_06_30.svg" alt="06:30" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">06:30</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's half past six." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
+
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">9.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_8.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i9"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i9"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_08_22.svg" alt="08:22" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">08:22</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's eight twenty-two." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
+
+        <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+            <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">10.</span>
+            <div style="display:flex; align-items:center; gap:6px;">
+              <button class="ghibli-audio-play-btn" data-audio="audio/11/11_4_9.mp3" title="Listen to Native Audio"><i class="fa-solid fa-play"></i></button>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="p37_ex2_i10"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="p37_ex2_i10"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+            <img src="images/clocks/clock_01_25.svg" alt="01:25" style="width:120px; height:120px;">
+          </div>
+          <div style="font-weight:800; color:#2d5a27; font-size:1.2rem; margin-bottom:10px;">01:25</div>
+          <div style="width:100%;">
+            <input type="text" class="ghibli-input" data-correct="It's one twenty-five." placeholder="Say or type time..." style="width:100%; text-align:center; font-weight:600; font-size:0.95rem;">
+          </div>
+        </div>
+        
       </div>
     </section>
     
@@ -708,8 +773,8 @@
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -730,11 +795,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v=1788156642"></script>
+  <script src="ghibli_page_engine.js?v=1788156642"></script>
 </body>
 </html>

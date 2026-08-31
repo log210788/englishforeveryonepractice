@@ -33,7 +33,7 @@ def verify_and_consolidate(
         output_dir.mkdir(parents=True, exist_ok=True)
 
     json_files = sorted(
-        [f for f in output_dir.glob("page_*.json") if f.name != consolidate_filename],
+        [f for f in output_dir.glob("page_*.json") if f.name != consolidate_filename and not f.name.endswith("_bbox.json")],
         key=lambda p: parse_page_number(p.name)
     )
 

@@ -194,7 +194,8 @@
             "06:15"
           ],
           "correct_answer": "05:45",
-          "audio_icon_present": true
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_eg_usuk.mp3"
         },
         {
           "item_number": 1,
@@ -203,7 +204,8 @@
             "07:45",
             "08:15"
           ],
-          "audio_icon_present": true
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_1_usuk.mp3"
         },
         {
           "item_number": 2,
@@ -222,7 +224,8 @@
             "11:15",
             "10:45"
           ],
-          "audio_icon_present": true
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_3_usuk.mp3"
         },
         {
           "item_number": 4,
@@ -241,7 +244,8 @@
             "11:00",
             "10:00"
           ],
-          "audio_icon_present": true
+          "audio_icon_present": true,
+          "audio_file_path": "audio/11/11_2_5_usuk.mp3"
         },
         {
           "item_number": 6,

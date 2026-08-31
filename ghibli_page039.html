@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit 12: Daily routines • Page 39 | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit 2 • Page 39: Daily routines | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788156642">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -25,12 +36,13 @@
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit 12: Daily routines • Page 39</span>
+          <span class="ghibli-subtitle">🌿 Unit 2 • Lesson: Daily routines • Page 39</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        <a href="unit2.html" class="ghibli-btn ghibli-btn-gold" title="Open Complete Unit 2 Module"><i class="fa-solid fa-book-open"></i> Full Unit 2</a>
+        <a href="ghibli_reader.html?page=39" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -46,14 +58,14 @@
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
       <a href="ghibli_page038.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 38)</a>
-      <span class="page-turn-badge">📖 Page 39 of 169</span>
+      <span class="page-turn-badge">📖 Page 39 of 176</span>
       <a href="ghibli_page040.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 40) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
     <div class="ghibli-hero-card">
       <div class="ghibli-hero-main">
-        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 12</span>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 2 • Lesson: Daily routines</span>
         <h2 class="ghibli-hero-title">Daily routines</h2>
         <p class="ghibli-hero-desc">Talk about regular daily activities using the present simple tense.</p>
       </div>
@@ -77,266 +89,256 @@
     
     <section class="ghibli-section">
       <div class="ghibli-section-header">
-        <div class="ghibli-ex-num">1</div>
+        <div class="ghibli-ex-num">12.1</div>
         <div>
-          <h3 class="ghibli-ex-instruction">WRITE THE PHRASES FROM THE PANEL UNDER THE CORRECT PICTURES</h3>
-          <p class="ghibli-ex-subtext">Click play to listen or use Rec to practice speaking out loud!</p>
+          <h3 class="ghibli-ex-instruction">DAILY ROUTINES • WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES</h3>
+          <p class="ghibli-ex-subtext">Look at each daily routine activity, listen to the pronunciation, and enter the correct phrase!</p>
         </div>
       </div>
-      
-      <div class="ghibli-char-grid">
+      <div class="ghibli-word-bank-panel" style="background:rgba(255,255,255,0.75); backdrop-filter:blur(10px); border-radius:18px; padding:18px 22px; margin-bottom:28px; border:1.5px solid #d4c5a9; box-shadow:0 4px 14px rgba(0,0,0,0.05);">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; font-weight:800; color:#2d5a27; font-size:1rem;"><i class="fa-solid fa-calendar-day"></i> <span>Routine Word Panel</span></div>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;"><span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">clear the table</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">leave work</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">wash your face</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">finish work</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">brush your teeth</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">go home</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">take a shower</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">get up</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">iron a shirt</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">do the dishes</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">have breakfast</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">walk the dog</span></div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(210px, 1fr)); gap:20px;">
         
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">1.</span>
-                        
-                        
-                        
-                        <span>Picture 4</span>
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">16.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_16.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i1"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i1"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="clear the table" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i1"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i1"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/clear_the_table.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="clear the table" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
-                        
-                        
-                        
-                        <span>Picture 5</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">17.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_17.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i2"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i2"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="start work" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i2"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i2"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/leave_work.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="leave work" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">3.</span>
-                        
-                        
-                        
-                        <span>Picture 6</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">18.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_18.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i3"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i3"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="wash your face" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i3"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i3"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/wash_your_face.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="wash your face" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
-                        
-                        
-                        
-                        <span>Picture 11</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">19.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_19.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i4"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i4"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="finish work" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i4"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i4"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/finish_work.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="finish work" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
-                        
-                        
-                        
-                        <span>Picture 12</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">20.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_20.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i5"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i5"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="brush your teeth" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i5"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i5"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/brush_your_teeth.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="brush your teeth" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">6.</span>
-                        
-                        
-                        
-                        <span>Picture 13</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">21.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_21.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i6"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i6"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="go to school" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i6"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i6"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/go_home.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="go home" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">7.</span>
-                        
-                        
-                        
-                        <span>Picture 18</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">22.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_22.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i7"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i7"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="take a shower" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i7"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i7"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/take_a_shower.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="take a shower" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">8.</span>
-                        
-                        
-                        
-                        <span>Picture 19</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">23.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_23.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i8"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i8"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="wake up" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i8"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i8"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/get_up.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="get up" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">9.</span>
-                        
-                        
-                        
-                        <span>Picture 20</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">24.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_24.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i9"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i9"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="iron a shirt" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i9"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i9"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/iron_a_shirt.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="iron a shirt" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">10.</span>
-                        
-                        
-                        
-                        <span>Picture 25</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">25.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_25.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i10"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i10"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="do the dishes" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i10"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i10"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/do_the_dishes.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="do the dishes" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">11.</span>
-                        
-                        
-                        
-                        <span>Picture 26</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">26.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_26.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i11"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i11"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="have breakfast" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i11"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i11"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/have_breakfast.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="have breakfast" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
-                  <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">12.</span>
-                        
-                        
-                        
-                        <span>Picture 27</span>
+
+                <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+                    <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">27.</span>
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/12/12_1_27.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                      <div class="voice-recorder-controls">
+                        <button class="voice-btn rec-btn" data-id="p39_ex1_i12"><i class="fa-solid fa-microphone"></i> Rec</button>
+                        <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i12"><i class="fa-solid fa-play"></i> My Voice</button>
                       </div>
-                      <div class="ghibli-input-wrap">
-                        <input type="text" class="ghibli-input" data-correct="walk the dog" placeholder="Type answer...">
-                      </div>
-                      
-    <div class="voice-recorder-controls">
-      <button class="voice-btn rec-btn" data-id="p39_ex1_i12"><i class="fa-solid fa-microphone"></i> Rec</button>
-      <button class="voice-btn play-rec-btn hidden" data-id="p39_ex1_i12"><i class="fa-solid fa-play"></i> My Voice</button>
-    </div>
-    
                     </div>
                   </div>
+                  <div style="width:100%; height:130px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+                    <img src="images/routines/walk_the_dog.png?v=1788156296" alt="Routine Activity" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+                  </div>
+                  <div style="width:100%;">
+                    <input type="text" class="ghibli-input" data-correct="walk the dog" placeholder="Type phrase..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+                  </div>
+                </div>
                 
       </div>
     </section>
@@ -357,8 +359,8 @@
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -379,11 +381,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v=1788156642"></script>
+  <script src="ghibli_page_engine.js?v=1788156642"></script>
 </body>
 </html>

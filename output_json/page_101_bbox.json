@@ -263,7 +263,7 @@
           "prompt_text": "Use the chart to create sentences.",
           "question": "How many/much [noun] are/is there?",
           "audio_icon_present": true,
-          "audio_file_path": "audio/31/31_10.mp3",
+          "audio_file_path": "audio/31/31_10_a.mp3",
           "input_blank_box": {
             "top": 37.42,
             "left": 59.45,

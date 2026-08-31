@@ -274,73 +274,73 @@
       "items": [
         {
           "item_number": 1,
-          "prompt_text": "3 sandwiches",
-          "question": "3 sandwiches",
+          "prompt_text": null,
+          "question": null,
           "options": null,
           "correct_answer": "three sandwiches",
-          "audio_icon_present": true,
+          "audio_icon_present": false,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_5.mp3"
+          "audio_file_path": null
         },
         {
           "item_number": 2,
-          "prompt_text": "2 necklaces",
-          "question": "2 necklaces",
+          "prompt_text": null,
+          "question": null,
           "options": null,
           "correct_answer": "two necklaces",
-          "audio_icon_present": true,
+          "audio_icon_present": false,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_5.mp3"
+          "audio_file_path": null
         },
         {
           "item_number": 3,
-          "prompt_text": "4 bags",
-          "question": "4 bags",
+          "prompt_text": null,
+          "question": null,
           "options": null,
           "correct_answer": "four bags",
-          "audio_icon_present": true,
+          "audio_icon_present": false,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_5.mp3"
+          "audio_file_path": null
         },
         {
           "item_number": 4,
-          "prompt_text": "3 toothbrushes",
-          "question": "3 toothbrushes",
+          "prompt_text": null,
+          "question": null,
           "options": null,
           "correct_answer": "three toothbrushes",
-          "audio_icon_present": true,
+          "audio_icon_present": false,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_5.mp3"
+          "audio_file_path": null
         },
         {
           "item_number": 5,
-          "prompt_text": "2 diaries",
-          "question": "2 diaries",
+          "prompt_text": null,
+          "question": null,
           "options": null,
           "correct_answer": "two diaries",
-          "audio_icon_present": true,
+          "audio_icon_present": false,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_5.mp3"
+          "audio_file_path": null
         },
         {
           "item_number": 6,
-          "prompt_text": "2 cats",
-          "question": "2 cats",
+          "prompt_text": null,
+          "question": null,
           "options": null,
           "correct_answer": "two cats",
-          "audio_icon_present": true,
+          "audio_icon_present": false,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_5.mp3"
+          "audio_file_path": null
         },
         {
           "item_number": 7,
-          "prompt_text": "1 apple",
-          "question": "1 apple",
+          "prompt_text": null,
+          "question": null,
           "options": null,
           "correct_answer": "one apple",
-          "audio_icon_present": true,
+          "audio_icon_present": false,
           "audio_track_ref": null,
-          "audio_file_path": "assets/audio/track_47_8_5.mp3"
+          "audio_file_path": null
         }
       ]
     }

@@ -4,11 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book • Unit 1: Introducing yourself • Page 12 | Studio Ghibli Interactive Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .ghibli-char-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+    .ghibli-char-card { display: flex; align-items: center; gap: 12px; }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -54,6 +69,20 @@
         <h2 class="ghibli-hero-title">Introducing yourself</h2>
         <p class="ghibli-hero-desc">Learn how to introduce yourself using greetings and contracted forms of "to be".</p>
       </div>
+      <div class="ghibli-unit-key-box">
+        <div class="key-item">
+          <span class="key-label"><i class="fa-solid fa-comments"></i> New language</span>
+          <span class="key-value">Using &quot;to be&quot; with names</span>
+        </div>
+        <div class="key-item">
+          <span class="key-label"><i class="fa-solid fa-book-open"></i> Vocabulary</span>
+          <span class="key-value">Names and letters</span>
+        </div>
+        <div class="key-item">
+          <span class="key-label"><i class="fa-solid fa-bullseye"></i> New skill</span>
+          <span class="key-value">Saying your name</span>
+        </div>
+      </div>
     </div>
 
     <!-- Exercises Container -->
@@ -70,7 +99,7 @@
           <!-- Item Eg -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/gary.jpg" alt="Gary" class="ghibli-avatar-img">
+              <img src="images/ghibli/gary.jpg" alt="Gary" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -83,7 +112,7 @@
           <!-- Item 1 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img">
+              <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -99,7 +128,7 @@
           <!-- Item 2 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img">
+              <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -115,7 +144,7 @@
           <!-- Item 3 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/ryan.jpg" alt="Ryan" class="ghibli-avatar-img">
+              <img src="images/ghibli/ryan.jpg" alt="Ryan" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -131,7 +160,7 @@
           <!-- Item 4 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img">
+              <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -147,7 +176,7 @@
           <!-- Item 5 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img">
+              <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -326,25 +355,60 @@
     </main>
   </div>
 
-  <!-- Kodama Mascot Widget -->
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
+    <i class="fa-solid fa-circle-check"></i> Check Answers
+  </button>
+
+  <!-- Kodama Companion Mascot Widget (Minimalist & Expressive) -->
   <div class="ghibli-mascot-container" id="ghibliMascotWidget">
+    
+    <!-- Minimalist Speech & Story Popover Bubble -->
     <div class="mascot-bubble-wrap">
+      
+      <!-- Minimalist Header Bar (Story Chip & Timer Pill) -->
       <div class="mascot-min-bar">
-        <div class="story-chip"><i class="fa-solid fa-book-bookmark"></i> <span>Page 12</span></div>
-        <div class="pomo-min-pill">
-          <button class="pomo-toggle-btn" id="pomoToggleBtn"><i class="fa-solid fa-play" id="pomoIcon"></i></button>
+        <div class="story-chip" id="storyChip" title="Teacher Lewis Story Progress">
+          <i class="fa-solid fa-book-bookmark"></i> <span id="storyChapterLabel">Story Ch. 1</span>
+        </div>
+
+        <div class="pomo-min-pill" title="Click to toggle Pomodoro timer">
+          <button class="pomo-toggle-btn" id="pomoToggleBtn" title="Start / Pause Pomodoro">
+            <i class="fa-solid fa-play" id="pomoIcon"></i>
+          </button>
           <span class="pomo-min-time" id="pomoMinTime">25:00</span>
-          <button class="pomo-opt-btn" id="pomoOptBtn"><i class="fa-solid fa-sliders"></i></button>
+          <button class="pomo-opt-btn" id="pomoOptBtn" title="Timer Presets">
+            <i class="fa-solid fa-sliders"></i>
+          </button>
         </div>
       </div>
+
+      <!-- Quick Preset Dropdown -->
+      <div class="pomo-quick-presets hidden" id="pomoQuickPresets">
+        <button class="pomo-quick-btn active" data-mins="25">25m</button>
+        <button class="pomo-quick-btn" data-mins="15">15m</button>
+        <button class="pomo-quick-btn" data-mins="5">5m</button>
+        <button class="pomo-quick-btn demo-btn" data-mins="1">1m</button>
+      </div>
+
+      <!-- Minimalist Speech Box -->
       <div class="mascot-bubble" id="mascotBubble">
-        <div class="mascot-action-chip"><i class="fa-solid fa-paw"></i> Kodama on Page 12</div>
-        <div class="mascot-text" id="mascotTextContent">"Welcome to Page 12! Try dragging cards in Ex 1.2 and picking options in Ex 1.3!"</div>
+        <div class="mascot-action-chip" id="mascotActionChip">
+          <i class="fa-solid fa-paw"></i> Kodama is sitting cozy & ready to study!
+        </div>
+        <div class="mascot-text" id="mascotTextContent">
+          "Hello! As you practice your lesson, I will share the story of Teacher Lewis with you!"
+        </div>
       </div>
     </div>
-    <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+
+    <!-- 220px Giant Mascot Character -->
+    <div class="mascot-avatar-wrap" id="mascotAvatarWrap" title="Click Kodama to hear Teacher Lewis's story!">
+      <div class="mascot-focus-aura" id="mascotAura"></div>
+      <div class="mascot-expr-badge" id="mascotExprBadge">🐾 Sitting Cozy</div>
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
+
   </div>
 
   <script src="ghibli_audio.js"></script>

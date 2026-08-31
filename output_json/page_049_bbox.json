@@ -339,7 +339,8 @@
             "left": 10.0,
             "width": 4.0,
             "height": 3.2
-          }
+          },
+          "audio_file_path": "audio/15/15_10_a.mp3"
         }
       ]
     }

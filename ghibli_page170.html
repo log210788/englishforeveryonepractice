@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teacher Lewis's Practice Book • Unit 49: Review & Practice Modules • Page 170 | Studio Ghibli Edition</title>
+  <title>Teacher Lewis's Practice Book • Unit Answers • Page 170: Review & Practice Modules | Studio Ghibli Edition</title>
+  
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+  </style>
+
+  <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788155926">
+
+  <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="ghibli_page12.css">
-  <style>
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-  </style>
 </head>
 <body class="theme-day">
   <div class="ghibli-bg-overlay"></div>
@@ -25,12 +36,13 @@
         <div class="ghibli-logo-badge"><i class="fa-solid fa-seedling"></i></div>
         <div class="ghibli-title-wrap">
           <h1>Teacher Lewis's Practice Book</h1>
-          <span class="ghibli-subtitle">🌿 Unit 49: Review & Practice Modules • Page 170</span>
+          <span class="ghibli-subtitle">🌿 Answers • Review & Practice Modules • Page 170</span>
         </div>
       </a>
       <div class="ghibli-header-actions">
         <a href="index.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-house"></i> Home Hub</a>
-        <a href="ghibli_reader.html" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
+        <a href="index.html" class="ghibli-btn ghibli-btn-gold"><i class="fa-solid fa-house"></i> Home Hub</a>
+        <a href="ghibli_reader.html?page=170" class="ghibli-btn ghibli-btn-gold" title="Continuous Music Reader Mode"><i class="fa-solid fa-headphones"></i> Reader Mode</a>
         <button class="ghibli-btn ghibli-btn-secondary" id="toggleAmbientBtn" title="Toggle Background Music"><i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Off</span></button>
         <div class="tod-group">
           <button class="tod-btn active" data-theme="day">☀️ Day</button>
@@ -45,15 +57,15 @@
 
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
-      <a href="ghibli_page169.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 169)</a>
-      <span class="page-turn-badge">📖 Page 170 of 169</span>
-      <a href="ghibli_page171.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 171) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p169.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 169)</a>
+      <span class="page-turn-badge">📖 Page 170 of 168</span>
+      <a href="ghibli_p171.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 171) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
     <div class="ghibli-hero-card">
       <div class="ghibli-hero-main">
-        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Unit 49</span>
+        <span class="ghibli-unit-tag"><i class="fa-solid fa-feather"></i> Answers • Review & Practice Modules</span>
         <h2 class="ghibli-hero-title">Review &amp; Practice Modules</h2>
         <p class="ghibli-hero-desc">Comprehensive review modules, grammar reference summaries, and final practice exercises across all Level 1 units.</p>
       </div>
@@ -88,7 +100,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/34/34_3_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -112,7 +124,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/34/34_3_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -157,7 +169,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/34/34_3_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -184,7 +196,7 @@
                       <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
                         <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
                         
-                        <img src="images/flags/fr.svg" alt="france flag" class="ghibli-flag-img" style="width: 52px; height: 35px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.12); vertical-align: middle; margin-right: 8px;">
+                        <img src="images/flags/fr.svg" alt="france flag" class="ghibli-flag-img" style="width: 42px; height: 28px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1); vertical-align: middle;">
                         <button class="ghibli-audio-play-btn" data-audio="audio/34/34_3_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>Jose owns a beautiful house in France.</span>
                       </div>
@@ -202,7 +214,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       
                     </div>
                     <div class="ghibli-card-body">
@@ -247,7 +259,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       
                     </div>
                     <div class="ghibli-card-body">
@@ -271,7 +283,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       
                     </div>
                     <div class="ghibli-card-body">
@@ -309,14 +321,17 @@
       <div class="ghibli-char-grid">
         
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">1.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>This is a new T-shirt.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -330,14 +345,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>These are short jeans.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -351,14 +369,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">3.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>This is an expensive tie.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -372,14 +393,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>This is a large sweater.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -393,14 +417,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>This is a blue dress.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -414,14 +441,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">6.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>This is an old T-shirt.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -435,14 +465,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">7.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>These are cheap shoes.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -456,14 +489,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">8.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>This is a short skirt.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -477,14 +513,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">9.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>This is a red shirt.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -498,14 +537,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">10.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>These are big shoes.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -519,14 +561,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">11.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>This is a small sweater.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -717,14 +762,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/34/34_8_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/34/34_8_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>These shoes are too expensive.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -775,7 +823,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       
                     </div>
                     <div class="ghibli-card-body">
@@ -799,7 +847,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       
                     </div>
                     <div class="ghibli-card-body">
@@ -843,14 +891,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>This is a brilliant new book.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -885,14 +936,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">6.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>That was such a boring old film.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -906,14 +960,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">7.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>That&#x27;s an ugly woolen sweater.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -927,14 +984,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">8.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>Those are boring black shoes.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -949,7 +1009,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       
                     </div>
                     <div class="ghibli-card-body">
@@ -972,14 +1032,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">10.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>Simone has a beautiful gray parrot.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -993,14 +1056,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">11.</span>
-                        
-                        
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
                         <span>That&#x27;s a horrible old house!</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -1015,7 +1081,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       
                     </div>
                     <div class="ghibli-card-body">
@@ -1054,7 +1120,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1099,7 +1165,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1122,14 +1188,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>Those are pretty red shoes.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -1143,14 +1212,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>That&#x27;s an ugly pink hat.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -1165,7 +1237,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1189,7 +1261,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -1212,14 +1284,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">8.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/35/35_3_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>This is a great new book.</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -1704,14 +1779,17 @@
                   </div>
                 
                   <div class="ghibli-char-card" style="">
-                    <div class="ghibli-card-body" style="width: 100%;">
-                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
-                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">15.</span>
+                    <div class="ghibli-avatar-wrap">
+                      <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+                      <button class="ghibli-audio-play-btn" data-audio="audio/36/36_1_horseriding.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="ghibli-card-body">
+                      
+                      <div class="ghibli-prompt-text">
                         
-                        
-                        <button class="ghibli-audio-play-btn" data-audio="audio/36/36_1_horseriding.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                         <span>horse riding</span>
                       </div>
+                    
                       <div class="ghibli-input-wrap">
                         <input type="text" class="ghibli-input" data-correct="" placeholder="Type answer...">
                       </div>
@@ -1987,7 +2065,7 @@
         
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/37/37_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -2011,7 +2089,7 @@
                 
                   <div class="ghibli-char-card" style="">
                     <div class="ghibli-avatar-wrap">
-                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img">
+                      <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
                       <button class="ghibli-audio-play-btn" data-audio="audio/37/37_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
                     </div>
                     <div class="ghibli-card-body">
@@ -2047,13 +2125,13 @@
 
     <!-- Page Turning Navigation Bar Bottom -->
     <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:32px; padding-bottom:40px;">
-      <a href="ghibli_page169.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 169)</a>
-      <a href="ghibli_page171.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 171) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p169.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 169)</a>
+      <a href="ghibli_p171.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 171) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
-  <!-- Floating Check Answers Button (Fixed Bottom-Left) -->
-  <button class="ghibli-floating-check-btn" id="ghibliCheckAnswersBtn" title="Check Answers">
+  <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
     <i class="fa-solid fa-circle-check"></i> Check Answers
   </button>
 
@@ -2074,11 +2152,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js"></script>
-  <script src="ghibli_page_engine.js"></script>
+  <script src="ghibli_audio.js?v=1788155926"></script>
+  <script src="ghibli_page_engine.js?v=1788155926"></script>
 </body>
 </html>

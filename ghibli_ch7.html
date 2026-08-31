@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book | Studio Ghibli Edition - Chapter 7</title>
+  <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
+  <style>
+    img { max-width: 100%; height: auto; display: block; }
+    .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+  </style>
   <meta name="description" content="Interactive English practice - What you have & Accommodation. Enchanted Treehouse Village setting.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -87,7 +95,7 @@
         <!-- Example -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img">
+            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_eg.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -104,7 +112,7 @@
         <!-- Item 1 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/natalie.jpg" alt="Character 1" class="ghibli-avatar-img">
+            <img src="images/ghibli/natalie.jpg" alt="Character 1" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_1.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -122,7 +130,7 @@
         <!-- Item 2 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/sue.jpg" alt="Character 2" class="ghibli-avatar-img">
+            <img src="images/ghibli/sue.jpg" alt="Character 2" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_2.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -140,7 +148,7 @@
         <!-- Item 3 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/ryan.jpg" alt="Character 3" class="ghibli-avatar-img">
+            <img src="images/ghibli/ryan.jpg" alt="Character 3" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_3.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -158,7 +166,7 @@
         <!-- Item 4 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/amelia.jpg" alt="Character 4" class="ghibli-avatar-img">
+            <img src="images/ghibli/amelia.jpg" alt="Character 4" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_1_4.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -190,7 +198,7 @@
         <!-- Example -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img">
+            <img src="images/ghibli/gary.jpg" alt="Example" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_eg.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -207,7 +215,7 @@
         <!-- Item 1 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/natalie.jpg" alt="Character 1" class="ghibli-avatar-img">
+            <img src="images/ghibli/natalie.jpg" alt="Character 1" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_1.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -225,7 +233,7 @@
         <!-- Item 2 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/mia.jpg" alt="Character 2" class="ghibli-avatar-img">
+            <img src="images/ghibli/mia.jpg" alt="Character 2" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_2.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -243,7 +251,7 @@
         <!-- Item 3 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/ryan.jpg" alt="Character 3" class="ghibli-avatar-img">
+            <img src="images/ghibli/ryan.jpg" alt="Character 3" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_3.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -261,7 +269,7 @@
         <!-- Item 4 -->
         <div class="ghibli-char-card">
           <div class="ghibli-avatar-wrap">
-            <img src="images/ghibli/sue.jpg" alt="Character 4" class="ghibli-avatar-img">
+            <img src="images/ghibli/sue.jpg" alt="Character 4" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
             <button class="ghibli-audio-play-btn" data-audio="audio/7/7_2_4.mp3" title="Listen"><i class="fa-solid fa-play"></i></button>
           </div>
           <div class="ghibli-card-body">
@@ -287,6 +295,11 @@
   </div>
 
   <!-- Mascot Widget -->
+    <!-- Floating Check Answers Button (Fixed Left-Hand Side) -->
+  <button class="ghibli-floating-check-btn" id="ghibliFloatingCheckBtn" title="Check Answers (Always Available)">
+    <i class="fa-solid fa-circle-check"></i> Check Answers
+  </button>
+
   <div class="ghibli-mascot-container" id="ghibliMascotWidget">
     <div class="mascot-bubble-wrap">
       <div class="mascot-min-bar">
@@ -311,7 +324,7 @@
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap" title="Click Kodama to hear Teacher Lewis's story!">
       <div class="mascot-focus-aura" id="mascotAura"></div>
       <div class="mascot-expr-badge" id="mascotExprBadge">🌳 Tree Keeper</div>
-      <img src="images/ghibli/ch7/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg">
+      <img src="images/ghibli/ch7/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
@@ -331,24 +344,24 @@
   const CH7_TOTAL = 8;
 
   document.addEventListener('DOMContentLoaded', () => {
-    const checkBtn = document.getElementById('ghibliCheckAnswersBtn');
-    const resetBtn = document.getElementById('ghibliResetBtn');
+    const checkBtns = document.querySelectorAll('#ghibliCheckAnswersBtn, #ghibliFloatingCheckBtn, .ghibli-floating-check-btn');
+    const resetBtns = document.querySelectorAll('#ghibliResetBtn, .ghibli-reset-btn');
     
-    if (checkBtn) {
-      checkBtn.addEventListener('click', () => {
+    checkBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
         if (window.GhibliChapterShared) {
           window.GhibliChapterShared.checkAnswers(CH7_ANSWERS, {}, CH7_TOTAL);
         }
       });
-    }
+    });
     
-    if (resetBtn) {
-      resetBtn.addEventListener('click', () => {
+    resetBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
         if (window.GhibliChapterShared) {
           window.GhibliChapterShared.resetPage(['.ex71_2-input', '.ex71_3-input', '.ex71_4-input', '.ex71_5-input', '.ex72_2-input', '.ex72_3-input', '.ex72_4-input', '.ex72_5-input'], CH7_TOTAL);
         }
       });
-    }
+    });
   });
   </script>
 </body>
