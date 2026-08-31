@@ -1908,6 +1908,87 @@ def render_everyday_things_7_1(ex, ex_idx, page_num):
     </section>
     '''
 
+def render_pictures_what_it_shows_8_5(ex, ex_idx, page_num):
+    ex_id = "8.5"
+    instruction = "WRITE DOWN WHAT EACH PICTURE SHOWS"
+    
+    items = [
+        {"num": "Example", "correct": "two watches", "display_correct": "two watches", "img": "images/ex8_5/0_watches_eg.png", "is_eg": True, "rec_id": "p27_ex3_eg"},
+        {"num": "1.", "correct": "three sandwiches", "display_correct": "three sandwiches", "img": "images/ex8_5/1_sandwiches.png", "is_eg": False, "rec_id": "p27_ex3_i1"},
+        {"num": "2.", "correct": "two necklaces", "display_correct": "two necklaces", "img": "images/ex8_5/2_necklaces.png", "is_eg": False, "rec_id": "p27_ex3_i2"},
+        {"num": "3.", "correct": "four bags", "display_correct": "four bags", "img": "images/ex8_5/3_bags.png", "is_eg": False, "rec_id": "p27_ex3_i3"},
+        {"num": "4.", "correct": "three toothbrushes", "display_correct": "three toothbrushes", "img": "images/ex8_5/4_toothbrushes.png", "is_eg": False, "rec_id": "p27_ex3_i4"},
+        {"num": "5.", "correct": "two diaries", "display_correct": "two diaries", "img": "images/ex8_5/5_diaries.png", "is_eg": False, "rec_id": "p27_ex3_i5"},
+        {"num": "6.", "correct": "two cats", "display_correct": "two cats", "img": "images/ex8_5/6_cats.png", "is_eg": False, "rec_id": "p27_ex3_i6"},
+        {"num": "7.", "correct": "one apple|an apple", "display_correct": "one apple", "img": "images/ex8_5/7_apple.png", "is_eg": False, "rec_id": "p27_ex3_i7"}
+    ]
+    
+    cards = []
+    for it in items:
+        img_url = it.get('img', '')
+        if os.path.exists(img_url):
+            mtime = int(os.path.getmtime(img_url))
+            img_src = f"{img_url}?v={mtime}"
+        else:
+            img_src = img_url
+            
+        num_label = it.get('num', '')
+        correct_val = it.get('correct', '')
+        display_val = it.get('display_correct', correct_val)
+        rec_id = it.get('rec_id', '')
+        is_eg = it.get('is_example', False)
+
+        if is_eg:
+            cards.append(f'''          <div class="ghibli-char-card example-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.95); border-radius:20px; border:2px solid #2d5a27; box-shadow:0 6px 18px rgba(45,90,39,0.12); box-sizing:border-box;">
+            <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">{num_label}</span>
+                <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>
+              </div>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="{rec_id}"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="{rec_id}"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+            <div style="width:100%; height:140px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+              <img src="{img_src}" alt="{display_val}" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+            </div>
+            <div class="ghibli-input-wrap" style="width:100%;">
+              <input type="text" class="ghibli-input example-input" data-correct="{correct_val}" value="{display_val}" readonly style="width:100%; text-align:center; font-size:1.02rem; font-weight:700; padding:10px 12px; border-radius:12px; border-color:#2d5a27; background:rgba(45,90,39,0.12); color:#2d5a27;">
+            </div>
+          </div>''')
+        else:
+            cards.append(f'''          <div class="ghibli-char-card" style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:18px 16px; background:rgba(255,255,255,0.92); border-radius:20px; border:1.5px solid #e2d7c3; box-shadow:0 6px 18px rgba(0,0,0,0.06); box-sizing:border-box;">
+            <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:12px;">
+              <span class="item-index" style="font-weight:800; color:#2d5a27; font-size:1.1rem;">{num_label}</span>
+              <div class="voice-recorder-controls">
+                <button class="voice-btn rec-btn" data-id="{rec_id}"><i class="fa-solid fa-microphone"></i> Rec</button>
+                <button class="voice-btn play-rec-btn hidden" data-id="{rec_id}"><i class="fa-solid fa-play"></i> My Voice</button>
+              </div>
+            </div>
+            <div style="width:100%; height:140px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:14px; border:1px solid #ebdcc5; margin-bottom:14px; padding:6px; box-sizing:border-box;">
+              <img src="{img_src}" alt="Picture {num_label}" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.10));" loading="eager" decoding="async">
+            </div>
+            <div class="ghibli-input-wrap" style="width:100%;">
+              <input type="text" class="ghibli-input" data-correct="{correct_val}" placeholder="Type what picture shows..." autocomplete="off" style="width:100%; text-align:center; font-size:1.02rem; font-weight:600; padding:10px 12px; border-radius:12px; border:1.5px solid #d4c5a9; background:#fff;">
+            </div>
+          </div>''')
+
+    return f'''
+    <section class="ghibli-section">
+      <div class="ghibli-section-header">
+        <div class="ghibli-ex-num">{ex_id}</div>
+        <div>
+          <h3 class="ghibli-ex-instruction">{instruction}</h3>
+          <p class="ghibli-ex-subtext">Look at each picture, count the items, and type the number and plural noun!</p>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:20px;">
+        {chr(10).join(cards)}
+      </div>
+    </section>
+    '''
+
 def render_jobs_9_1(ex, ex_idx, page_num):
     config_path = 'images/jobs/jobs_config.json'
     if os.path.exists(config_path):
@@ -2025,6 +2106,8 @@ def render_exercise(ex, ex_idx, page_num):
         return render_ghibli_reading_exercise_6_3(ex, ex_idx, page_num)
     elif page_num in [24, 25] or (ex_id == "7.1" and page_num < 30) or "EVERYDAY THINGS" in instruction_str:
         return render_everyday_things_7_1(ex, ex_idx, page_num)
+    elif page_num == 27 and (ex_id == "8.5" or ex_idx == 2 or "WRITE DOWN WHAT EACH PICTURE SHOWS" in instruction_str):
+        return render_pictures_what_it_shows_8_5(ex, ex_idx, page_num)
     elif page_num in [30, 31] or (ex_id == "9.1" and page_num <= 31) or "JOBS WRITE" in instruction_str or "OCCUPATIONS" in instruction_str:
         return render_jobs_9_1(ex, ex_idx, page_num)
     elif page_num == 33 and (ex_id == "10.4" or ex_idx == 1 or "WORKPLACE" in instruction_str or "LABELS" in instruction_str) and u2:
