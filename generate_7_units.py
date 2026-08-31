@@ -158,7 +158,7 @@ def generate_unit_html(unit_spec, pages_dict):
     for u in UNITS_SPEC:
         active_cls = " active" if u["unit_id"] == unit_id else ""
         nav_pills_html.append(f'<a href="unit{u["unit_id"]}.html" class="ch-nav-pill{active_cls}">Unit {u["unit_id"]}</a>')
-    nav_pills_str = "\\n".join(nav_pills_html)
+    nav_pills_str = "\n".join(nav_pills_html)
 
     prev_link = f'unit{unit_id - 1}.html' if unit_id > 1 else 'index.html'
     next_link = f'unit{unit_id + 1}.html' if unit_id < 7 else 'index.html'
@@ -192,7 +192,7 @@ def generate_unit_html(unit_spec, pages_dict):
             rendered_ex = gen.render_exercise(ex, ex_idx, p_num)
             exercises_html.append(rendered_ex)
 
-    body_exercises = "\\n".join(exercises_html)
+    body_exercises = "\n".join(exercises_html)
 
     html_content = f"""<!DOCTYPE html>
 <html lang="en">

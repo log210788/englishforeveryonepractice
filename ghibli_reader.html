@@ -293,9 +293,7 @@
         const pageCode = targetNum.toString().padStart(3, '0');
         const targetUrl = `ghibli_p${pageCode}.html`;
 
-        if (!pageFrame.src.endsWith(targetUrl)) {
-          pageFrame.src = targetUrl;
-        }
+        pageFrame.src = `${targetUrl}?v=${Date.now()}`;
 
         if (updateHistory) {
           try {
