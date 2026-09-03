@@ -5,19 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book • Unit Starter • Page 9: Reference & Warm-up | Studio Ghibli Edition</title>
   
+  <!-- Early Theme Init to prevent white flash (FOUC) -->
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('ghibli_theme') || 'day';
+        if (t !== 'day') document.documentElement.className = 'theme-' + t;
+      } catch(e) {}
+    })();
+  </script>
+
   <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
   <style>
     img { max-width: 100%; height: auto; display: block; }
     .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
-    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1; }
     .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
-    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.92); box-shadow: 0 4px 16px rgba(0,0,0,0.06); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.5); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #2d5a27; font-size: 1rem; }
   </style>
 
   <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
-  <link rel="stylesheet" href="ghibli_page12.css?v=1788155925">
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788400067">
 
   <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -92,15 +102,600 @@
         <div class="ghibli-ex-num">9.1</div>
         <div>
           <h3 class="ghibli-ex-instruction">JOBS WRITE THE WORDS FROM THE PANEL UNDER THE CORRECT PICTURES</h3>
-          <p class="ghibli-ex-subtext">Look at each job illustration, listen to the pronunciation, and type the correct occupation under each picture!</p>
+          <p class="ghibli-ex-subtext">Click play to listen or use Rec to practice speaking out loud!</p>
         </div>
       </div>
-      <div class="ghibli-word-bank-panel" style="background:rgba(255,255,255,0.75); backdrop-filter:blur(10px); border-radius:18px; padding:18px 22px; margin-bottom:28px; border:1.5px solid #d4c5a9; box-shadow:0 4px 14px rgba(0,0,0,0.05);">
-        <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; font-weight:800; color:#2d5a27; font-size:1rem;"><i class="fa-solid fa-briefcase"></i> <span>Word Panel</span></div>
-        <div style="display:flex; flex-wrap:wrap; gap:8px;"><span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">driver</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">electrician</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">actor</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">businesswoman</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">police officer</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">dentist</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">waiter</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">engineer</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">cleaner</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">doctor</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">sales assistant</span> <span class="word-chip word-panel-tag" style="background:#fff; padding:6px 14px; border-radius:12px; font-weight:600; font-size:0.95rem; color:#2b261f; border:1.5px solid #dcd1be; box-shadow:0 2px 4px rgba(0,0,0,0.04); display:inline-block; margin:4px; cursor:default;">judge</span></div>
-      </div>
-      <div class="jobs-grid" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(210px, 1fr)); gap:20px;">
+      
+      <div class="ghibli-char-grid">
         
+                  <div class="ghibli-char-card example-card" style="border: 2px solid #2d5a27; background: rgba(45,90,39,0.06);">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">1.</span>
+                        <span class="ghibli-example-badge" style="background:#2d5a27; color:#fff; padding:3px 10px; border-radius:12px; font-weight:700; font-size:0.75rem; text-transform:uppercase;">Example</span>
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span>scientist</span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input example-input" data-correct="scientist" value="scientist" readonly style="border-color:#2d5a27; background:rgba(45,90,39,0.12); font-weight:700; color:#2d5a27;" placeholder="scientist">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i1"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i1"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">2.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="sales assistant" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i2"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i2"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">3.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="fire fighter" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i3"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i3"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">4.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="gardener" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i4"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i4"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">5.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="driver" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i5"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i5"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">6.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="electrician" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i6"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i6"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">7.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="artist" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i7"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i7"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">8.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="nurse" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i8"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i8"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">9.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="farmer" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i9"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i9"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">10.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="chef" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i10"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i10"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">11.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="waiter" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i11"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i11"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">12.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="businesswoman" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i12"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i12"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">13.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_12.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="police officer" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i13"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i13"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">14.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_13.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="dentist" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i14"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i14"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">15.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_14.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="actor" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i15"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i15"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">16.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_15.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="businessman" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i16"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i16"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">17.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_16.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="vet" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i17"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i17"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">18.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_17.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="mechanic" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i18"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i18"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">19.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_18.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="waitress" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i19"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i19"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">20.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_19.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="engineer" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i20"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i20"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">21.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_20.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="pilot" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i21"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i21"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">22.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_21.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="hairdresser" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i22"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i22"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">23.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_22.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="judge" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i23"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i23"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">24.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_23.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="cleaner" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i24"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i24"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">25.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_24.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="construction worker" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i25"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i25"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">26.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_25.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="doctor" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i26"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i26"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">27.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_26.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="receptionist" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i27"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i27"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
+                  <div class="ghibli-char-card" style="">
+                    <div class="ghibli-card-body" style="width: 100%;">
+                      <div class="ghibli-prompt-text" style="align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span class="item-index" style="font-weight: 800; color: #2d5a27; font-size: 1.1rem; min-width: 24px;">28.</span>
+                        
+                        
+                        <button class="ghibli-audio-play-btn" data-audio="audio/9/9_1_27.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
+                        <span></span>
+                      </div>
+                      <div class="ghibli-input-wrap">
+                        <input type="text" class="ghibli-input" data-correct="teacher" placeholder="Type answer...">
+                      </div>
+                      
+    <div class="voice-recorder-controls">
+      <button class="voice-btn rec-btn" data-id="p9_ex1_i28"><i class="fa-solid fa-microphone"></i> Rec</button>
+      <button class="voice-btn play-rec-btn hidden" data-id="p9_ex1_i28"><i class="fa-solid fa-play"></i> My Voice</button>
+    </div>
+    
+                    </div>
+                  </div>
+                
       </div>
     </section>
     
@@ -142,11 +737,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
+      <img src="images/ghibli/mascot.webp" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js?v=1788155925"></script>
-  <script src="ghibli_page_engine.js?v=1788155925"></script>
+  <script src="ghibli_audio.js?v=1788400067"></script>
+  <script src="ghibli_page_engine.js?v=1788400067"></script>
 </body>
 </html>

@@ -9,6 +9,11 @@
   class GhibliPageEngine {
     constructor() {
       this.currentTheme = localStorage.getItem('ghibli_theme') || 'day';
+      try {
+        if (this.currentTheme !== 'day') {
+          document.documentElement.classList.add('theme-' + this.currentTheme);
+        }
+      } catch(e) {}
       this.activeAudio = null;
       this.recordedBlobs = {};
       this.mediaRecorders = {};
@@ -124,6 +129,8 @@
       const applyTheme = (theme) => {
         this.currentTheme = theme;
         localStorage.setItem('ghibli_theme', theme);
+        document.documentElement.classList.remove('theme-day', 'theme-sunset', 'theme-night');
+        document.documentElement.classList.add('theme-' + theme);
         document.body.classList.remove('theme-day', 'theme-sunset', 'theme-night');
         document.body.classList.add('theme-' + theme);
 
@@ -1264,26 +1271,31 @@
           });
         });
 
-        // Window resize & lifecycle listeners to recalculate paths
-        window.addEventListener('resize', () => {
-          requestAnimationFrame(refreshAllPaths);
-        });
+        // Debounced path refresher to prevent layout thrashing
+        let rafId = null;
+        const debouncedRefresh = () => {
+          if (rafId) cancelAnimationFrame(rafId);
+          rafId = requestAnimationFrame(refreshAllPaths);
+        };
 
-        window.addEventListener('load', () => {
-          requestAnimationFrame(refreshAllPaths);
-        });
+        // Window resize & lifecycle listeners to recalculate paths
+        window.addEventListener('resize', debouncedRefresh);
+        window.addEventListener('load', debouncedRefresh);
 
         if (document.fonts && document.fonts.ready) {
-          document.fonts.ready.then(() => {
-            requestAnimationFrame(refreshAllPaths);
-          });
+          document.fonts.ready.then(debouncedRefresh);
         }
+
+        // Listen for all contained images to load before finalizing paths
+        container.querySelectorAll('img').forEach(img => {
+          if (!img.complete) {
+            img.addEventListener('load', debouncedRefresh, { once: true });
+          }
+        });
 
         // ResizeObserver for robust layout detection
         if (typeof ResizeObserver !== 'undefined') {
-          const ro = new ResizeObserver(() => {
-            requestAnimationFrame(refreshAllPaths);
-          });
+          const ro = new ResizeObserver(debouncedRefresh);
           ro.observe(container);
           if (container.parentElement) ro.observe(container.parentElement);
         }
@@ -1293,21 +1305,15 @@
           const io = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
               if (entry.isIntersecting) {
-                requestAnimationFrame(refreshAllPaths);
+                debouncedRefresh();
               }
             });
-          }, { threshold: [0, 0.1, 0.5, 1.0] });
+          }, { threshold: [0, 0.5, 1.0] });
           io.observe(container);
         }
 
-        // Multi-stage Initial renders to guarantee path is connected across all layout stages
+        // Initial single RAF render
         requestAnimationFrame(refreshAllPaths);
-        setTimeout(refreshAllPaths, 50);
-        setTimeout(refreshAllPaths, 150);
-        setTimeout(refreshAllPaths, 300);
-        setTimeout(refreshAllPaths, 600);
-        setTimeout(refreshAllPaths, 1200);
-        setTimeout(refreshAllPaths, 2500);
 
         // Grade lines appearance
         container._ghibliGradeLines = () => {

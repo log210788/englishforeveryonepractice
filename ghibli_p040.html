@@ -5,19 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book • Unit 2 • Page 40: Describing your day | Studio Ghibli Edition</title>
   
+  <!-- Early Theme Init to prevent white flash (FOUC) -->
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('ghibli_theme') || 'day';
+        if (t !== 'day') document.documentElement.className = 'theme-' + t;
+      } catch(e) {}
+    })();
+  </script>
+
   <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
   <style>
     img { max-width: 100%; height: auto; display: block; }
     .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
-    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1; }
     .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
-    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
-    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }
-    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1; }
+    .page-turn-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.92); box-shadow: 0 4px 16px rgba(0,0,0,0.06); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.5); }
+    .page-turn-badge { font-family: var(--font-heading); font-weight: 800; color: #2d5a27; font-size: 1rem; }
   </style>
 
   <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
-  <link rel="stylesheet" href="ghibli_page12.css?v=1788156642">
+  <link rel="stylesheet" href="ghibli_page12.css?v=1788400067">
 
   <!-- External Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,9 +67,9 @@
 
     <!-- Page Turning Navigation Bar Top -->
     <div class="chapter-nav-bar page-turn-bar">
-      <a href="ghibli_page039.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 39)</a>
-      <span class="page-turn-badge">📖 Page 40 of 176</span>
-      <a href="ghibli_page041.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 41) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p039.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 39)</a>
+      <span class="page-turn-badge">📖 Page 40 of 168</span>
+      <a href="ghibli_p041.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 41) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <!-- Unit Hero Card -->
@@ -272,7 +282,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/gary.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -291,7 +301,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/natalie.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -310,7 +320,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/sue.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -329,7 +339,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/ryan.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -348,7 +358,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/mia.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -367,7 +377,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/amelia.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_6.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -386,7 +396,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/avatar_boy.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_7.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -405,7 +415,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/avatar_girl.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_8.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -424,7 +434,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/avatar_man.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/avatar_man.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_9.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -443,7 +453,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/avatar_woman.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/avatar_woman.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_10.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -462,7 +472,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/gary.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/gary.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_11.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -481,7 +491,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/natalie.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/natalie.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_12.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -500,7 +510,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/sue.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/sue.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_13.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -519,7 +529,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/ryan.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/ryan.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_14.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -538,7 +548,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/mia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/mia.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_15.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -557,7 +567,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/amelia.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/amelia.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_16.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -576,7 +586,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/avatar_boy.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/avatar_boy.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_17.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -595,7 +605,7 @@
         
           <div class="ghibli-char-card crossout-card" style="margin-bottom:16px;">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/avatar_girl.jpg" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/avatar_girl.webp" alt="Avatar" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/13/13_2_18.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div class="ghibli-card-body">
@@ -626,8 +636,8 @@
 
     <!-- Page Turning Navigation Bar Bottom -->
     <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:32px; padding-bottom:40px;">
-      <a href="ghibli_page039.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 39)</a>
-      <a href="ghibli_page041.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 41) <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="ghibli_p039.html" class="ghibli-btn ghibli-btn-secondary"><i class="fa-solid fa-arrow-left"></i> Previous Page (Page 39)</a>
+      <a href="ghibli_p041.html" class="ghibli-btn ghibli-btn-primary">Next Page (Page 41) <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
@@ -653,11 +663,11 @@
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
+      <img src="images/ghibli/mascot.webp" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 
-  <script src="ghibli_audio.js?v=1788156642"></script>
-  <script src="ghibli_page_engine.js?v=1788156642"></script>
+  <script src="ghibli_audio.js?v=1788400067"></script>
+  <script src="ghibli_page_engine.js?v=1788400067"></script>
 </body>
 </html>

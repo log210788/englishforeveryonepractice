@@ -5,13 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book • Unit 1: Introducing yourself • Page 12 | Studio Ghibli Interactive Edition</title>
   
+  <!-- Early Theme Init to prevent white flash (FOUC) -->
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('ghibli_theme') || 'day';
+        if (t !== 'day') document.documentElement.className = 'theme-' + t;
+      } catch(e) {}
+    })();
+  </script>
+
   <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
   <style>
     img { max-width: 100%; height: auto; display: block; }
     .ghibli-avatar-wrap { width: 76px; height: 76px; position: relative; flex-shrink: 0; }
-    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
+    .ghibli-avatar-img { width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1; }
     .mascot-avatar-wrap { width: 220px; height: 220px; position: relative; flex-shrink: 0; }
-    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }
+    .mascot-avatar { width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1; }
     .ghibli-char-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
     .ghibli-char-card { display: flex; align-items: center; gap: 12px; }
   </style>
@@ -99,7 +109,7 @@
           <!-- Item Eg -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/gary.jpg" alt="Gary" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/gary.webp" alt="Gary" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_eg.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -112,7 +122,7 @@
           <!-- Item 1 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/natalie.jpg" alt="Natalie" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/natalie.webp" alt="Natalie" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_1.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -128,7 +138,7 @@
           <!-- Item 2 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/sue.jpg" alt="Sue" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/sue.webp" alt="Sue" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_2.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -144,7 +154,7 @@
           <!-- Item 3 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/ryan.jpg" alt="Ryan" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/ryan.webp" alt="Ryan" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_3.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -160,7 +170,7 @@
           <!-- Item 4 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/mia.jpg" alt="Mia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/mia.webp" alt="Mia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_4.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -176,7 +186,7 @@
           <!-- Item 5 -->
           <div class="ghibli-char-card" style="display:flex; align-items:center; gap:12px; padding:16px; background:var(--ghibli-card-bg); border-radius:16px; border:1.5px solid var(--ghibli-border);">
             <div class="ghibli-avatar-wrap">
-              <img src="images/ghibli/amelia.jpg" alt="Amelia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
+              <img src="images/ghibli/amelia.webp" alt="Amelia" class="ghibli-avatar-img" width="76" height="76" loading="eager" decoding="async">
               <button class="ghibli-audio-play-btn" data-audio="audio/1/1_1_5.mp3" title="Play Audio"><i class="fa-solid fa-play"></i></button>
             </div>
             <div style="flex:1;">
@@ -406,7 +416,7 @@
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap" title="Click Kodama to hear Teacher Lewis's story!">
       <div class="mascot-focus-aura" id="mascotAura"></div>
       <div class="mascot-expr-badge" id="mascotExprBadge">🐾 Sitting Cozy</div>
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
+      <img src="images/ghibli/mascot.webp" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
 
   </div>

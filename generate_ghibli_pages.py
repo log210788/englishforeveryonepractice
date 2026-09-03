@@ -54,16 +54,16 @@ NATIONALITY_ISO_MAP = {
 }
 
 GHIBLI_AVATARS = [
-    "images/ghibli/gary.jpg",
-    "images/ghibli/natalie.jpg",
-    "images/ghibli/sue.jpg",
-    "images/ghibli/ryan.jpg",
-    "images/ghibli/mia.jpg",
-    "images/ghibli/amelia.jpg",
-    "images/ghibli/avatar_boy.jpg",
-    "images/ghibli/avatar_girl.jpg",
-    "images/ghibli/avatar_man.jpg",
-    "images/ghibli/avatar_woman.jpg"
+    "images/ghibli/gary.webp",
+    "images/ghibli/natalie.webp",
+    "images/ghibli/sue.webp",
+    "images/ghibli/ryan.webp",
+    "images/ghibli/mia.webp",
+    "images/ghibli/amelia.webp",
+    "images/ghibli/avatar_boy.webp",
+    "images/ghibli/avatar_girl.webp",
+    "images/ghibli/avatar_man.webp",
+    "images/ghibli/avatar_woman.webp"
 ]
 
 PEOPLE_KEYWORDS = {
@@ -2261,7 +2261,7 @@ def render_exercise(ex, ex_idx, page_num):
         return render_spelling_corrections_8_4(ex, ex_idx, page_num)
     elif page_num == 27 and (ex_id == "8.5" or ex_idx == 2 or "WRITE DOWN WHAT EACH PICTURE SHOWS" in instruction_str):
         return render_pictures_what_it_shows_8_5(ex, ex_idx, page_num)
-    elif page_num in [30, 31] or (ex_id == "9.1" and page_num <= 31) or "JOBS WRITE" in instruction_str or "OCCUPATIONS" in instruction_str:
+    elif page_num in [30, 31]:
         return render_jobs_9_1(ex, ex_idx, page_num)
     elif page_num == 33 and (ex_id == "10.4" or ex_idx == 1 or "WORKPLACE" in instruction_str or "LABELS" in instruction_str) and u2:
         return u2.render_workplaces_10_4(ex, ex_idx, page_num)
@@ -2359,15 +2359,25 @@ def generate_page_html(page_data, nav_info):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teacher Lewis's Practice Book • Unit {p_uid} • Page {page_num}: {unit_title} | Studio Ghibli Edition</title>
   
+  <!-- Early Theme Init to prevent white flash (FOUC) -->
+  <script>
+    (function() {{
+      try {{
+        var t = localStorage.getItem('ghibli_theme') || 'day';
+        if (t !== 'day') document.documentElement.className = 'theme-' + t;
+      }} catch(e) {{}}
+    }})();
+  </script>
+
   <!-- Critical CSS to prevent layout shift & oversize image blowout on first load -->
   <style>
     img {{ max-width: 100%; height: auto; display: block; }}
     .ghibli-avatar-wrap {{ width: 76px; height: 76px; position: relative; flex-shrink: 0; }}
-    .ghibli-avatar-img {{ width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }}
+    .ghibli-avatar-img {{ width: 76px; height: 76px; max-width: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1; }}
     .mascot-avatar-wrap {{ width: 220px; height: 220px; position: relative; flex-shrink: 0; }}
-    .mascot-avatar {{ width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; }}
-    .page-turn-bar {{ display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.3); }}
-    .page-turn-badge {{ font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }}
+    .mascot-avatar {{ width: 220px; height: 220px; max-width: 220px; max-height: 220px; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1; }}
+    .page-turn-bar {{ display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 24px; background: rgba(255,255,255,0.92); box-shadow: 0 4px 16px rgba(0,0,0,0.06); border-radius: 40px; margin: 0 auto 20px auto; max-width: 800px; border: 1.5px solid rgba(255,255,255,0.5); }}
+    .page-turn-badge {{ font-family: var(--font-heading); font-weight: 800; color: #2d5a27; font-size: 1rem; }}
   </style>
 
   <!-- Local Stylesheet (Loaded first for 0ms local styling) -->
@@ -2473,7 +2483,7 @@ def generate_page_html(page_data, nav_info):
       </div>
     </div>
     <div class="mascot-avatar-wrap" id="mascotAvatarWrap">
-      <img src="images/ghibli/mascot.jpg" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
+      <img src="images/ghibli/mascot.webp" alt="Kodama Mascot" class="mascot-avatar" id="mascotAvatarImg" width="220" height="220" loading="eager" decoding="async">
     </div>
   </div>
 

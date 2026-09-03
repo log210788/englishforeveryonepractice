@@ -36,12 +36,12 @@
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   /* Atmospheric Background Asset */
-  --ghibli-bg-url: url('images/ghibli/bg.jpg');
+  --ghibli-bg-url: url('images/ghibli/bg.webp');
 }
 
 /* 🌅 Sunset Theme Overrides */
-body.theme-sunset {
-  --ghibli-bg-url: url('images/ghibli/sunset.jpg');
+body.theme-sunset, html.theme-sunset body {
+  --ghibli-bg-url: url('images/ghibli/sunset.webp');
   --ghibli-card-bg: rgba(255, 246, 235, 0.95);
   --ghibli-accent-amber: #e65100;
   --ghibli-border: #f0cbab;
@@ -50,8 +50,8 @@ body.theme-sunset {
 }
 
 /* 🌙 Night Theme High-Contrast Overrides */
-body.theme-night {
-  --ghibli-bg-url: url('images/ghibli/night.jpg');
+body.theme-night, html.theme-night body {
+  --ghibli-bg-url: url('images/ghibli/night.webp');
   --ghibli-card-bg: rgba(20, 32, 44, 0.93);
   --ghibli-card-border: rgba(51, 65, 85, 0.8);
   --ghibli-parchment: #182430;

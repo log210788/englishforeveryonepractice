@@ -86,17 +86,17 @@ body {
 }
 
 body.theme-day .ghibli-bg-overlay {
-  background-image: url('images/ghibli/bg.jpg');
+  background-image: url('images/ghibli/bg.webp');
   filter: brightness(1.02) saturate(1.1);
 }
 
-body.theme-sunset .ghibli-bg-overlay {
-  background-image: url('images/ghibli/sunset.jpg');
+body.theme-sunset .ghibli-bg-overlay, html.theme-sunset body .ghibli-bg-overlay {
+  background-image: url('images/ghibli/sunset.webp');
   filter: brightness(0.95) saturate(1.2);
 }
 
-body.theme-night .ghibli-bg-overlay {
-  background-image: url('images/ghibli/night.jpg');
+body.theme-night .ghibli-bg-overlay, html.theme-night body .ghibli-bg-overlay {
+  background-image: url('images/ghibli/night.webp');
   filter: brightness(0.85) contrast(1.1);
 }
 

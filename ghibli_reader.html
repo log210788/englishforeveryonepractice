@@ -195,6 +195,10 @@
           <i class="fa-solid fa-music"></i> <span class="bgm-btn-text">Music: Playing 🎵</span>
         </button>
 
+        <button class="reader-btn" id="reloadFrameBtn" title="Reload Current Page (Pulls latest uploaded changes)">
+          <i class="fa-solid fa-rotate-right"></i> <span class="btn-label-text">Reload</span>
+        </button>
+
         <button class="reader-btn" id="fullscreenBtn" title="Toggle Fullscreen Mode">
           <i class="fa-solid fa-expand"></i> <span class="btn-label-text">Fullscreen</span>
         </button>
@@ -216,6 +220,7 @@
       const nextBtn = document.getElementById('nextBtn');
       const pageFrame = document.getElementById('pageFrame');
       const fullscreenBtn = document.getElementById('fullscreenBtn');
+      const reloadFrameBtn = document.getElementById('reloadFrameBtn');
 
       const unitStarts = {
         1: 12,
@@ -229,7 +234,7 @@
       const chapterStarts = unitStarts;
 
       let pageMetadata = {};
-      fetch('reader_page_metadata.json')
+      fetch(`reader_page_metadata.json?v=${Date.now()}`)
         .then(r => r.json())
         .then(data => {
           pageMetadata = data || {};
@@ -283,7 +288,7 @@
         return 8;
       }
 
-      function loadPage(pNum, updateHistory = true) {
+      function loadPage(pNum, updateHistory = true, forceBust = false) {
         const targetNum = Math.max(8, Math.min(176, pNum));
         pageSelect.value = targetNum;
         
@@ -293,7 +298,11 @@
         const pageCode = targetNum.toString().padStart(3, '0');
         const targetUrl = `ghibli_p${pageCode}.html`;
 
-        pageFrame.src = `${targetUrl}?v=${Date.now()}`;
+        if (forceBust) {
+          pageFrame.src = `${targetUrl}?v=${Date.now()}`;
+        } else {
+          pageFrame.src = `${targetUrl}?v=live`;
+        }
 
         if (updateHistory) {
           try {
@@ -301,6 +310,18 @@
           } catch(e) {}
         }
         document.title = `Teacher Lewis's Practice Book • Page ${targetNum} • Continuous Reader`;
+      }
+
+      if (reloadFrameBtn) {
+        reloadFrameBtn.addEventListener('click', () => {
+          const cur = parseInt(pageSelect.value, 10) || 8;
+          const icon = reloadFrameBtn.querySelector('i');
+          if (icon) icon.classList.add('fa-spin');
+          loadPage(cur, true, true);
+          setTimeout(() => {
+            if (icon) icon.classList.remove('fa-spin');
+          }, 700);
+        });
       }
 
       pageSelect.addEventListener('change', e => {

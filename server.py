@@ -40,13 +40,19 @@ class StudioRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_error(404, "Endpoint not found")
 
     def end_headers(self):
-        # Enable CORS and Disable browser caching for live development
+        # Enable CORS
         self.send_header('Access-Control-Allow-Origin', '*')
         self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
-        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
-        self.send_header('Pragma', 'no-cache')
-        self.send_header('Expires', '0')
+
+        path_lower = self.path.lower().split('?')[0]
+        if any(path_lower.endswith(ext) for ext in ['.jpg', '.jpeg', '.png', '.webp', '.svg', '.mp3', '.wav', '.woff', '.woff2', '.ttf']):
+            # Cache static binary media and fonts for fast loads
+            self.send_header('Cache-Control', 'public, max-age=86400')
+        else:
+            # Revalidate HTML, JSON, CSS, and JS so uploaded/edited pages take effect immediately
+            self.send_header('Cache-Control', 'no-cache, must-revalidate')
+            self.send_header('Pragma', 'no-cache')
         super().end_headers()
 
     def do_OPTIONS(self):

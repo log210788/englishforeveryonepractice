@@ -26,6 +26,16 @@
 
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Early Theme Init to prevent white flash (FOUC) -->
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('ghibli_theme') || 'day';
+        if (t !== 'day') document.documentElement.className = 'theme-' + t;
+      } catch(e) {}
+    })();
+  </script>
 </head>
 <body class="theme-day">
 
@@ -33,7 +43,7 @@
   <div class="first-visit-overlay" id="firstVisitOverlay">
     <div class="first-visit-card">
       <div class="first-visit-mascot-wrap">
-        <img src="images/ghibli/mascot.jpg" alt="Teacher Lewis's Mascot" class="first-visit-mascot-img" id="firstVisitMascotImg" width="140" height="140" loading="eager" decoding="async">
+        <img src="images/ghibli/mascot.webp" alt="Teacher Lewis's Mascot" class="first-visit-mascot-img" id="firstVisitMascotImg" width="140" height="140" loading="eager" decoding="async">
         <div class="first-visit-status-ring"></div>
       </div>
 
@@ -131,12 +141,12 @@
 
           <!-- Large animated mascot with idle/excited states -->
           <div class="card-mascot-hero" id="chapterMascotWrap">
-            <img src="images/ghibli/mascot_idle.jpg"
+            <img src="images/ghibli/mascot_idle.webp"
                  alt="Forest Spirit – waiting for you!"
                  class="card-mascot-hero-img mascot-idle-img"
                  id="chapterMascotImg"
                  width="160" height="160" loading="eager" decoding="async">
-            <img src="images/ghibli/mascot_letsgo.jpg"
+            <img src="images/ghibli/mascot_letsgo.webp"
                  alt="Forest Spirit – Let's go!"
                  class="card-mascot-hero-img mascot-letsgo-img"
                  id="chapterMascotLetsGo"
@@ -174,7 +184,7 @@
           <!-- Sticker book image — closed by default, open on button hover -->
           <div class="big-sticker-book-img-wrap">
             <img src="images/ghibli/sticker_book.svg" alt="Teacher Lewis's Sticker Book" class="big-sticker-book-img sb-closed-img" width="150" height="150" loading="eager" decoding="async">
-            <img src="images/ghibli/sticker_book_open.jpg" alt="Sticker Book Open" class="big-sticker-book-img sb-open-img" width="150" height="150" loading="eager" decoding="async">
+            <img src="images/ghibli/sticker_book_open.webp" alt="Sticker Book Open" class="big-sticker-book-img sb-open-img" width="150" height="150" loading="eager" decoding="async">
             <div class="sticker-book-glow-ring"></div>
           </div>
 

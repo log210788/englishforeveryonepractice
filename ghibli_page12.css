@@ -22,12 +22,12 @@
   --font-heading: 'Outfit', 'Playfair Display', serif;
   --font-body: 'Inter', -apple-system, sans-serif;
 
-  --ghibli-bg-url: url('images/ghibli/bg.jpg');
+  --ghibli-bg-url: url('images/ghibli/bg.webp');
 }
 
 /* 🌙 Night Theme High-Contrast Overrides */
-body.theme-night {
-  --ghibli-bg-url: url('images/ghibli/night.jpg');
+body.theme-night, html.theme-night body {
+  --ghibli-bg-url: url('images/ghibli/night.webp');
   --ghibli-card-bg: rgba(18, 28, 36, 0.94);
   --ghibli-parchment: #1e2c38;
   --ghibli-text-main: #ffffff;
@@ -36,8 +36,8 @@ body.theme-night {
   --ghibli-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
 }
 
-body.theme-sunset {
-  --ghibli-bg-url: url('images/ghibli/sunset.jpg');
+body.theme-sunset, html.theme-sunset body {
+  --ghibli-bg-url: url('images/ghibli/sunset.webp');
   --ghibli-card-bg: rgba(255, 246, 235, 0.96);
   --ghibli-accent-amber: #e65100;
 }

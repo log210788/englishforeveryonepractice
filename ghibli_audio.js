@@ -27,13 +27,13 @@
         880.00  // A5
       ];
 
-      // Preloaded WAV audio elements as backup fallback
-      this.wavClick = new Audio('audio/ghibli_click.wav');
-      this.wavWaterdrop = new Audio('audio/ghibli_waterdrop.wav');
-      this.wavChime = new Audio('audio/ghibli_chime.wav');
+      // Lazy-loaded audio elements as backup fallback
+      this._wavClick = null;
+      this._wavWaterdrop = null;
+      this._wavChime = null;
 
-      // Continuous Background Music System
-      this.bgmTrack = 'audio/ghibli_bg_music.wav';
+      // Continuous Background Music System (Compressed MP3 with WAV fallback)
+      this.bgmTrack = 'audio/ghibli_bg_music.mp3';
       this.bgmAudio = null;
       this.bgmSaveInterval = null;
       this.isNavigating = false;
@@ -46,6 +46,21 @@
       } else {
         this._onDomReady();
       }
+    }
+
+    get wavClick() {
+      if (!this._wavClick) this._wavClick = new Audio('audio/ghibli_click.wav');
+      return this._wavClick;
+    }
+
+    get wavWaterdrop() {
+      if (!this._wavWaterdrop) this._wavWaterdrop = new Audio('audio/ghibli_waterdrop.wav');
+      return this._wavWaterdrop;
+    }
+
+    get wavChime() {
+      if (!this._wavChime) this._wavChime = new Audio('audio/ghibli_chime.wav');
+      return this._wavChime;
     }
 
     _onDomReady() {
@@ -190,113 +205,14 @@
 
     /* ----------------------------------------------------------------
        CONTINUOUS SPA PAGE ROUTER
+       Note: Flawed innerHTML swapper is safely disabled to prevent
+       script execution failures, CSS mismatches, and memory leaks.
+       Pages perform reliable native document transitions, while
+       ghibli_reader.html serves as the seamless continuous music host.
     ---------------------------------------------------------------- */
     initSPARouter() {
-      // Delegate internal link clicks
-      document.addEventListener('click', (e) => {
-        const link = e.target.closest('a[href]');
-        if (!link) return;
-
-        const href = link.getAttribute('href');
-        if (!href) return;
-
-        // Ignore external, mailto, tel, javascript, hash-only, or target="_blank"
-        if (
-          href.startsWith('#') ||
-          href.startsWith('http://') ||
-          href.startsWith('https://') ||
-          href.startsWith('//') ||
-          href.startsWith('mailto:') ||
-          href.startsWith('javascript:') ||
-          link.target === '_blank' ||
-          e.ctrlKey || e.metaKey || e.shiftKey
-        ) {
-          return;
-        }
-
-        // Ignore non-HTML assets
-        if (href.match(/\.(pdf|zip|mp3|wav|png|jpg|jpeg|svg|css|js)$/i)) {
-          return;
-        }
-
-        e.preventDefault();
-        this.navigateTo(href);
-      });
-
-      // Listen to back/forward browser navigation
-      window.addEventListener('popstate', () => {
-        this.navigateTo(window.location.href, false);
-      });
-    }
-
-    async navigateTo(url, updateHistory = true) {
-      if (this.isNavigating) return;
-      this.isNavigating = true;
-
-      try {
-        const targetContainer = document.querySelector('.ghibli-container') || document.querySelector('.ghibli-app-wrap') || document.body;
-
-        // Smooth subtle fade transition
-        targetContainer.style.transition = 'opacity 0.15s ease-in-out';
-        targetContainer.style.opacity = '0.35';
-
-        const response = await fetch(url);
-        if (!response.ok) {
-          window.location.href = url;
-          return;
-        }
-
-        const htmlText = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(htmlText, 'text/html');
-
-        // Update document title
-        document.title = doc.title;
-
-        // Swap body / container HTML
-        const newContainer = doc.querySelector('.ghibli-container') || doc.querySelector('.ghibli-app-wrap') || doc.body;
-        if (newContainer && targetContainer) {
-          targetContainer.innerHTML = newContainer.innerHTML;
-        }
-
-        // Push browser history state
-        if (updateHistory) {
-          window.history.pushState(null, '', url);
-        }
-
-        // Scroll to top cleanly
-        window.scrollTo({ top: 0, behavior: 'instant' });
-
-        // Restore opacity
-        targetContainer.style.opacity = '1';
-
-        // Re-sync UI state and script listeners
-        this.syncBGMButtonState();
-        this.reinitPageScripts(doc);
-
-      } catch (err) {
-        console.warn('SPA Navigation fallback to hard reload:', err);
-        window.location.href = url;
-      } finally {
-        this.isNavigating = false;
-      }
-    }
-
-    reinitPageScripts(parsedDoc) {
-      // Re-initialize GhibliPageEngine if present
-      if (window.ghibliPageEngineInstance && typeof window.ghibliPageEngineInstance.init === 'function') {
-        window.ghibliPageEngineInstance.init();
-      }
-
-      // Re-initialize GhibliChapterShared if present
-      if (window.GhibliChapterSharedInit && typeof window.GhibliChapterSharedInit === 'function') {
-        window.GhibliChapterSharedInit();
-      }
-
-      // Re-initialize index.js if present
-      if (window.GhibliIndexInit && typeof window.GhibliIndexInit === 'function') {
-        window.GhibliIndexInit();
-      }
+      // Intentionally bypassed: native document navigation guarantees full
+      // stylesheet loading and complete script execution without weird loading bugs.
     }
 
     /**
